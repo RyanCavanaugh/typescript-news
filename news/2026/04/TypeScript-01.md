@@ -66,7 +66,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63331#issuecomment-4168993162) **MartinJohns** said "You seem to be lost. Which repository were you looking for?"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Open)
+### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Open, `Duplicate`)
 
 **instanceof narrowing should respect type parameter bounds for covariant types**
 
@@ -111,7 +111,7 @@
  * created by **GuichiZhao**
  * [later](https://github.com/microsoft/TypeScript/issues/63339#issuecomment-4176716230) **GuichiZhao** traced through the TypeScript source, identified that definitionToReferencedSymbolDefinitionInfo used firstOrUndefined to drop merged declarations, and suggested iterating over symbol.declarations to include all declaration sites
 
-### [Issue microsoft/TypeScript#63340](https://github.com/microsoft/TypeScript/issues/63340) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#63340](https://github.com/microsoft/TypeScript/issues/63340) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Redundant leading apostrophe in the ts1344 diagnostic**
 

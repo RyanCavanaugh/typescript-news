@@ -661,7 +661,7 @@
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3323](https://github.com/microsoft/TypeScript-go/issues/3323) (Open)
+### [Issue microsoft/TypeScript-go#3323](https://github.com/microsoft/TypeScript-go/issues/3323) (Closed)
 
 **tsgo stops reporting subsequent errors after TS2880 \(diagnostics short\-circuit vs tsc\)**
 
@@ -670,7 +670,7 @@
  * created by **bamcop**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3323#issuecomment-4174485116) **jakebailey** said "Yes, this is now a parsing error in 7.0."
 
-### [Issue microsoft/TypeScript-go#3324](https://github.com/microsoft/TypeScript-go/issues/3324) (Open, **jakebailey**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3324](https://github.com/microsoft/TypeScript-go/issues/3324) (Open, `bug`, **jakebailey**, **RyanCavanaugh**, **Copilot**)
 
 **Different \`\-\-showConfig\` output**
 
@@ -691,9 +691,9 @@
 
 ### [PR microsoft/TypeScript-go#3326](https://github.com/microsoft/TypeScript-go/pull/3326) (Open, **RyanCavanaugh**, **Copilot**)
 
-**\[WIP\] Fix different \-\-showConfig output for TypeScript**
+**Fix \`\-\-showConfig\` output: add implied compiler options**
 
-*Fix TypeScript --showConfig output by parsing compileOnSave, including implied compiler options, and updating tests.*
+*Support emitting implied compiler options in tsgo --showConfig output to align with tsc behavior*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
