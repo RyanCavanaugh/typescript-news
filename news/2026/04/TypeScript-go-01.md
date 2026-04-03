@@ -1,6 +1,6 @@
 # Report for 2026-04-01 (Wednesday, April 1st, 2026)
 
-17 different users commented on 75 different issues.
+17 different users commented on 76 different issues.
 
 ## Activity Summary
 
@@ -565,7 +565,7 @@
 
 **Add expandable hover**
 
-*Add expandable hover to VS Code LSP client by implementing a new API layer and replacing default hover provider*
+*Implement an expandable hover feature in VSCode by adding a custom API over LSP and swapping hover providers.*
 
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3311#issuecomment-4173489594) **jakebailey** suggested that symbolTableToDeclarationStatements might need a rethink now that JS declaration emit has changed
@@ -670,7 +670,7 @@
  * created by **bamcop**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3323#issuecomment-4174485116) **jakebailey** said "Yes, this is now a parsing error in 7.0."
 
-### [Issue microsoft/TypeScript-go#3324](https://github.com/microsoft/TypeScript-go/issues/3324) (Open, `bug`, **jakebailey**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3324](https://github.com/microsoft/TypeScript-go/issues/3324) (Closed, `bug`, **jakebailey**, **RyanCavanaugh**, **Copilot**)
 
 **Different \`\-\-showConfig\` output**
 
@@ -679,7 +679,7 @@
  * created by **zaverden**
  * (later) **RyanCavanaugh** assigned to **jakebailey**, **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3325](https://github.com/microsoft/TypeScript-go/issues/3325) (Open, `Domain: Editor`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3325](https://github.com/microsoft/TypeScript-go/issues/3325) (Closed, `Domain: Editor`, **RyanCavanaugh**, **Copilot**)
 
 **The declaration of the deconstructing parameters of a function is marked as \`var\` instead of \`parameter\`**
 
@@ -689,7 +689,7 @@
  * **Withered-Flower-0422** added label `Domain: Editor`
  * (later) **RyanCavanaugh** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3326](https://github.com/microsoft/TypeScript-go/pull/3326) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3326](https://github.com/microsoft/TypeScript-go/pull/3326) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix \`\-\-showConfig\` output: add implied compiler options**
 
@@ -698,7 +698,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3327](https://github.com/microsoft/TypeScript-go/pull/3327) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3327](https://github.com/microsoft/TypeScript-go/pull/3327) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix destructured binding hover displaying wrong keyword \(\`var\` instead of \`\(parameter\)\`, \`const\`, or \`let\`\)**
 

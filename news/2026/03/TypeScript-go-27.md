@@ -412,7 +412,7 @@
  * created by **DanielRosenwasser**
  * (today) **RyanCavanaugh** added label `bug`, and assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript-go#3054](https://github.com/microsoft/TypeScript-go/issues/3054) (Open, `feature parity`)
+### [Issue microsoft/TypeScript-go#3054](https://github.com/microsoft/TypeScript-go/issues/3054) (Open, `feature parity`, **jakebailey**)
 
 **\`tsgo \-\-generateTrace\` appears unimplemented**
 

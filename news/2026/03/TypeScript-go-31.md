@@ -391,7 +391,7 @@
 
 **Add expandable hover**
 
-*Add expandable hover to VS Code LSP client by implementing a new API layer and replacing default hover provider*
+*Implement an expandable hover feature in VSCode by adding a custom API over LSP and swapping hover providers.*
 
  * created by **jakebailey**
 

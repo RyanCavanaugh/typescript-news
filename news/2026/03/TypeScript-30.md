@@ -4,7 +4,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#60591](https://github.com/microsoft/TypeScript/issues/60591) (Open, `Bug`, `Help Wanted`, `Domain: Declaration Emit`)
+### [Issue microsoft/TypeScript#60591](https://github.com/microsoft/TypeScript/issues/60591) (Closed, `Bug`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **JSDoc implements with imported types**
 
