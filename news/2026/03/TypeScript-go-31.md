@@ -395,7 +395,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3312](https://github.com/microsoft/TypeScript-go/issues/3312) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3312](https://github.com/microsoft/TypeScript-go/issues/3312) (Closed, `Domain: Editor`)
 
 **latest release \[0\.20260401\.1\] breaks LSP on VS code**
 

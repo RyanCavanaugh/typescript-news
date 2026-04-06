@@ -414,7 +414,7 @@
  * [9 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2555#issuecomment-3809296472) **DanielRosenwasser** informed that a PR addressing the autocomplete issue had been submitted
  * **RyanCavanaugh** assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#2626](https://github.com/microsoft/TypeScript-go/issues/2626) (Open, `Domain: Editor`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#2626](https://github.com/microsoft/TypeScript-go/issues/2626) (Closed, `Domain: Editor`, `Needs More Info`)
 
 **Extension softly crashes \(hangs indefinitely\) at sudden**
 
@@ -532,7 +532,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * [later](https://github.com/microsoft/TypeScript-go/issues/3121#issuecomment-4175811753) **huseeiin** explained that they downloaded the VSIX from VSCode and installed it in VSCodium via the codium --install-extension command
 
-### [Issue microsoft/TypeScript-go#3173](https://github.com/microsoft/TypeScript-go/issues/3173) (Open, `Domain: Editor`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3173](https://github.com/microsoft/TypeScript-go/issues/3173) (Closed, `Domain: Editor`, **andrewbranch**, **Copilot**)
 
 **When two imports have the same url, updates always apply to the first one\.**
 
@@ -579,11 +579,11 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3314](https://github.com/microsoft/TypeScript-go/pull/3314) (Open)
+### [PR microsoft/TypeScript-go#3314](https://github.com/microsoft/TypeScript-go/pull/3314) (Closed)
 
 **Fix declaration emit alias reuse for inferred exports**
 
-*Align serializeTypeName alias resolution with upstream to preserve imported type aliases for inferred exports, fixing declaration emit regression.*
+*Align serializeTypeName’s resolveEntityName call with upstream to preserve imported type aliases in declaration emit and update baselines accordingly.*
 
  * created by **thromel**
 

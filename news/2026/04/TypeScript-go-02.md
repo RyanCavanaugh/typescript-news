@@ -1,6 +1,6 @@
 # Report for 2026-04-02 (Thursday, April 2nd, 2026)
 
-13 different users commented on 25 different issues.
+13 different users commented on 26 different issues.
 
 ## Recommended Actions
 
@@ -80,7 +80,18 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3121#issuecomment-4175811753) **huseeiin** explained that they downloaded the VSIX from VSCode and installed it in VSCodium via the codium --install-extension command
  * [today](https://github.com/microsoft/TypeScript-go/issues/3121#issuecomment-4178958614) **RyanCavanaugh** stated that downloading the VSIX from VSCode and installing it in VSCodium was not supported
 
-### [Issue microsoft/TypeScript-go#3312](https://github.com/microsoft/TypeScript-go/issues/3312) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3173](https://github.com/microsoft/TypeScript-go/issues/3173) (Closed, `Domain: Editor`, **andrewbranch**, **Copilot**)
+
+**When two imports have the same url, updates always apply to the first one\.**
+
+*Auto-import merges additions into the first identical-module import statement instead of updating the appropriate type or value import.*
+
+ * created by **xyhxx**
+ * **xyhxx** added label `Domain: Editor`
+ * **RyanCavanaugh** assigned to **andrewbranch**
+ * **andrewbranch** assigned to **Copilot**
+
+### [Issue microsoft/TypeScript-go#3312](https://github.com/microsoft/TypeScript-go/issues/3312) (Closed, `Domain: Editor`)
 
 **latest release \[0\.20260401\.1\] breaks LSP on VS code**
 
@@ -180,7 +191,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3329](https://github.com/microsoft/TypeScript-go/pull/3329) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#3329](https://github.com/microsoft/TypeScript-go/pull/3329) (Closed, **andrewbranch**, **Copilot**)
 
 **Add regression tests for auto\-import preferring matching type\-only declarations \(\#3244\)**
 
@@ -191,7 +202,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3329#issuecomment-4180824824) **andrewbranch** said "@copilot looks right, but tests are unchanged, so you need to add one"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3329#issuecomment-4180877695) **Copilot** added three fourslash tests and explained the key test demonstrating the divergence between isTypeOnlyLocation and IsValidTypeOnlyAliasUseSite in an incomplete type argument position
 
-### [PR microsoft/TypeScript-go#3330](https://github.com/microsoft/TypeScript-go/pull/3330) (Open)
+### [PR microsoft/TypeScript-go#3330](https://github.com/microsoft/TypeScript-go/pull/3330) (Closed)
 
 **Fix \-\-showConfig output: add compileOnSave and implied compiler options**
 
@@ -242,11 +253,11 @@
  * created by **nicolas-besnard**
  * (later) **nicolas-besnard** closed the issue
 
-### [Issue microsoft/TypeScript-go#3336](https://github.com/microsoft/TypeScript-go/issues/3336) (Open)
+### [Issue microsoft/TypeScript-go#3336](https://github.com/microsoft/TypeScript-go/issues/3336) (Closed)
 
 **7\.0\.0\-dev\.20260403\.1 lsp diagnostic params fail to unmarshall in Helix**
 
-*Upgrading to 7.0.0-dev.20260403.1 causes Helix LSP diagnostics to fail due to invalid null previousResultId during JSON unmarshalling.*
+*Update to LSP client version 7.0.0-dev.20260403.1 breaks Helix diagnostics by failing to unmarshal null previousResultId.*
 
  * created by **kanashimia**
 

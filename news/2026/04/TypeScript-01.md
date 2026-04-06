@@ -1,6 +1,6 @@
 # Report for 2026-04-01 (Wednesday, April 1st, 2026)
 
-9 different users commented on 11 different issues.
+9 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -66,7 +66,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63331#issuecomment-4168993162) **MartinJohns** said "You seem to be lost. Which repository were you looking for?"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Closed, `Duplicate`)
 
 **instanceof narrowing should respect type parameter bounds for covariant types**
 
@@ -74,7 +74,7 @@
 
  * created by **ethanresnick**
 
-### [Issue microsoft/TypeScript#63333](https://github.com/microsoft/TypeScript/issues/63333) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63333](https://github.com/microsoft/TypeScript/issues/63333) (Closed, `Duplicate`)
 
 **JSON\.stringify should disallow BigInt value**
 

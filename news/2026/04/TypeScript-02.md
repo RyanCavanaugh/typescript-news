@@ -1,6 +1,6 @@
 # Report for 2026-04-02 (Thursday, April 2nd, 2026)
 
-13 different users commented on 52 different issues.
+12 different users commented on 54 different issues.
 
 ## Recommended Actions
 
@@ -10,7 +10,7 @@
     * @D2758695161 claimed the issue and is working on a PR in [microsoft/TypeScript#63325](https://github.com/microsoft/TypeScript/issues/63325#issuecomment-4180655477)
     * @bwalter007 asked if a maintainer could run baseline-accept or advise on local configuration in [microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180919755)
     * @bwalter007 asked if something was missing in the local setup after encountering ENOENT during npm test in [microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180995565)
-    * @microsoft-github-policy-service requested CLA agreement in [microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4183215229)
+    * @eduardocque asked if there's a way to avoid duplicating the generic value and if they need to rethink their solution or propose a change in [microsoft/TypeScript#63348](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184005631)
 
 ## Activity Summary
 
@@ -44,6 +44,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/63281#issuecomment-4113654374) **TomStrepsil** clarified that strong key typing for named capture groups is a larger change and unrelated to the undefined value issue
  * (1 week ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
  * [later](https://github.com/microsoft/TypeScript/issues/63281#issuecomment-4182597488) **TomStrepsil** questioned whether their fix qualified under the contribution guide, asked if they should re-raise the issue in microsoft/typescript-go, and suggested adding | undefined for a quick win
+ * [later](https://github.com/microsoft/TypeScript/issues/63281#issuecomment-4184033271) **RyanCavanaugh** explained that PR rules apply to code changes and that since the proposal wasn't an approved behavior change, PR rules were not relevant
 
 ### [Issue microsoft/TypeScript#63325](https://github.com/microsoft/TypeScript/issues/63325) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
 
@@ -65,7 +66,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/63328#issuecomment-4165397001) **RyanCavanaugh** provided a reduced TypeScript example from the repository demonstrating the issue
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63332](https://github.com/microsoft/TypeScript/issues/63332) (Closed, `Duplicate`)
 
 **instanceof narrowing should respect type parameter bounds for covariant types**
 
@@ -75,7 +76,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63332#issuecomment-4179453589) **MartinJohns** said "Duplicate of #17473."
  * **RyanCavanaugh** added label `Duplicate`
 
-### [Issue microsoft/TypeScript#63333](https://github.com/microsoft/TypeScript/issues/63333) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63333](https://github.com/microsoft/TypeScript/issues/63333) (Closed, `Duplicate`)
 
 **JSON\.stringify should disallow BigInt value**
 
@@ -159,7 +160,6 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180926787) **jakebailey** said "Just do npm test, it'll do everything for you in the right order."
  * [today](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180995565) **bwalter007** reported that running npm test still yielded an ENOENT error before tests ran and asked if something was missing in the local setup
  * [today](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4181033803) **RyanCavanaugh** said "I don't know what's going on; never heard of this happening before. Even after running git clean -xdf, npm ci + npm test is sufficient on my machine."
- * [later](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4183215229) **microsoft-github-policy-service[bot]** requested the contributor to agree to the CLA by replying with the appropriate command and company information
 
 ### [PR microsoft/TypeScript#63345](https://github.com/microsoft/TypeScript/pull/63345) (Closed)
 
@@ -180,7 +180,7 @@
 
  * created by **OldStarchy**
 
-### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Open)
+### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Open, `Not a Defect`)
 
 **Minor performance issue when using HTMLElementTagNameMap**
 
@@ -188,11 +188,15 @@
 
  * created by **jasonlyu123**
 
-### [Issue microsoft/TypeScript#63348](https://github.com/microsoft/TypeScript/issues/63348) (Open)
+### [Issue microsoft/TypeScript#63348](https://github.com/microsoft/TypeScript/issues/63348) (Closed, `Working as Intended`)
 
 **Inference is not working properly**
 
 *TypeScript fails to infer the path generic type in useStoreByPath from its string argument.*
 
  * created by **eduardocque**
+ * [later](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184000334) **RyanCavanaugh** clarified that when a generic type argument is provided, subsequent type parameters use their defaults rather than being inferred
+ * **RyanCavanaugh** added label `Working as Intended`
+ * [later](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184005631) **eduardocque** asked if there was a way to avoid duplicating the generic value in the function signature and if they needed to rethink their solution or propose an alternative
+ * [later](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184054209) **RyanCavanaugh** mentioned suggestion was tracked at issue #26242 and asked where style was coming from
 

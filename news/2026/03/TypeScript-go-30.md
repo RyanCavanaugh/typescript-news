@@ -1,6 +1,6 @@
 # Report for 2026-03-30 (Monday, March 30th, 2026)
 
-14 different users commented on 67 different issues.
+15 different users commented on 68 different issues.
 
 ## Recommended Actions
 
@@ -537,6 +537,15 @@
 *The TypeScript-Go language server panics with a slice bounds out of range error when processing hover requests.*
 
  * created by **ShenHongFei**
+
+### [Issue microsoft/TypeScript-go#3338](https://github.com/microsoft/TypeScript-go/issues/3338) (Open, **mjbvz**)
+
+**TSGO: command 'typescript\.restartTsServer' not found**
+
+*Enabling the TypeScript native preview feature in VSCode 1.113.0 removes the 'typescript.restartTsServer' command.*
+
+ * created by **eblocha**
+ * **vs-code-engineering[bot]** assigned to **mjbvz**
 
 ### [Issue microsoft/TypeScript-go#460](https://github.com/microsoft/TypeScript-go/issues/460) (Open, `Domain: API and Extensibility`)
 
