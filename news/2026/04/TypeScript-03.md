@@ -70,7 +70,7 @@
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63151#issuecomment-3985103294) **Arlen22** described being unable to rename generic type parameters in one part of the project and expressed confusion about an underlying dependency or type issue
  * [later](https://github.com/microsoft/TypeScript/issues/63151#issuecomment-4187180248) **Arlen22** described that intellisense broke whenever opening JavaScript or TypeScript files outside the project and mentioned a workaround using a separate workspace
 
-### [PR microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344) (Open)
+### [PR microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344) (Closed)
 
 **Document charCodeAt edge case behavior in first line**
 
@@ -82,7 +82,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4186769595) **bwalter007** identified that a colon in the directory path caused the issue, renamed the directory, updated the baseline, and pushed the changes
  * [later](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4186769782) **bwalter007** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Closed, `Not a Defect`)
 
 **Minor performance issue when using HTMLElementTagNameMap**
 
@@ -107,7 +107,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184124618) **eduardocque** asked if a change request or suggestion could be made without breaking TypeScript generics
  * [today](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184174580) **MartinJohns** noted that the relevant issue #26242 had already been linked
 
-### [Issue microsoft/TypeScript#63349](https://github.com/microsoft/TypeScript/issues/63349) (Open)
+### [Issue microsoft/TypeScript#63349](https://github.com/microsoft/TypeScript/issues/63349) (Closed)
 
 **Merging type only \`namespace\` and \`const\` in module declaration**
 

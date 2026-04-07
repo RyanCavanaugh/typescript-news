@@ -32,7 +32,7 @@
  * (2 days ago) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/issues/3324#issuecomment-4188207882) **zaverden** thanked RyanCavanaugh, reported that the files field issue persisted in the tested dev version, and created issue #3342
 
-### [Issue microsoft/TypeScript-go#3341](https://github.com/microsoft/TypeScript-go/issues/3341) (Open)
+### [Issue microsoft/TypeScript-go#3341](https://github.com/microsoft/TypeScript-go/issues/3341) (Closed)
 
 **Suggested autocompletions are not accepted by the compiler**
 
@@ -54,7 +54,7 @@
 
 **Fix \`\-\-showConfig\` to include \`files\` field**
 
-*Fix tsgo --showConfig to include resolved files by removing incorrect glob filtering and directly listing all file paths*
+*Remove buggy filtering and directly list all resolved files so tsgo --showConfig correctly includes the files field.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**

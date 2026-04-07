@@ -1,6 +1,6 @@
 # Report for 2026-03-31 (Tuesday, March 31st, 2026)
 
-11 different users commented on 12 different issues.
+11 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * created by **zardalt**
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, `Domain: lib.d.ts`
 
-### [PR microsoft/TypeScript#63327](https://github.com/microsoft/TypeScript/pull/63327) (Open, **DanielRosenwasser**)
+### [PR microsoft/TypeScript#63327](https://github.com/microsoft/TypeScript/pull/63327) (Closed, **DanielRosenwasser**)
 
 **🤖 Pick PR \#63310 \(Mark class property initializers as\.\.\.\) into release\-6\.0**
 

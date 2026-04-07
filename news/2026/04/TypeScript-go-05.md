@@ -35,7 +35,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3347](https://github.com/microsoft/TypeScript-go/issues/3347) (Open, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3347](https://github.com/microsoft/TypeScript-go/issues/3347) (Closed, **andrewbranch**)
 
 **TS1361: 'defineConfig' cannot be used as a value because it was imported using 'import type'\.**
 
@@ -44,7 +44,7 @@
  * created by **314systems**
  * **ahejlsberg** assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Open, `Domain: Editor`, **andrewbranch**)
 
 **Auto import adds duplicate imports for namespace exports**
 

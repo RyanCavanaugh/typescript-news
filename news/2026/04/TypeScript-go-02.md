@@ -215,7 +215,7 @@
 
 **Use trie for removeStringLiteralsMatchedByTemplateLiterals**
 
-*Port the trie-based implementation for removeStringLiteralsMatchedByTemplateLiterals from upstream TypeScript pull request 63343.*
+*Port a trie-based implementation for removeStringLiteralsMatchedByTemplateLiterals to fix inaccuracies in template literal matching.*
 
  * created by **eps1lon**
 
@@ -228,7 +228,7 @@
  * created by **gabritto**
  * (today) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#3333](https://github.com/microsoft/TypeScript-go/pull/3333) (Open)
+### [PR microsoft/TypeScript-go#3333](https://github.com/microsoft/TypeScript-go/pull/3333) (Closed)
 
 **Activate extension on typescript\.native\-preview\.enable**
 

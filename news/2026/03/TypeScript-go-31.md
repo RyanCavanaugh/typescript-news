@@ -337,9 +337,9 @@
 
 ### [PR microsoft/TypeScript-go#3305](https://github.com/microsoft/TypeScript-go/pull/3305) (Open, **DanielRosenwasser**, **Copilot**)
 
-**Add "Sort Imports" &amp; "Remove Unused Imports" commands to VS Code extension**
+**Add "Sort Imports" and "Remove Unused Imports" commands to VS Code extension**
 
-*Register sort and remove unused imports commands in the VS Code extension using TypeScript/JavaScript IDs to invoke built-in source actions.*
+*Add runtime registration of VS Code commands for TypeScript/JavaScript import sorting and unused import removal delegating to built-in actions.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
@@ -379,7 +379,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3310](https://github.com/microsoft/TypeScript-go/issues/3310) (Open, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3310](https://github.com/microsoft/TypeScript-go/issues/3310) (Closed, `Domain: Declaration Emit`, **weswigham**)
 
 **Non\-exported interfaces triggers a "cannot be named" error**
 

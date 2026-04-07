@@ -8,8 +8,6 @@
     * @james-pre provided a patch for v6.0.2 in [microsoft/TypeScript#63008](https://github.com/microsoft/TypeScript/pull/63008#issuecomment-4180765961)
     * @TomStrepsil asked whether they should re-raise the issue at microsoft/typescript-go in [microsoft/TypeScript#63281](https://github.com/microsoft/TypeScript/issues/63281#issuecomment-4182597488)
     * @D2758695161 claimed the issue and is working on a PR in [microsoft/TypeScript#63325](https://github.com/microsoft/TypeScript/issues/63325#issuecomment-4180655477)
-    * @bwalter007 asked if a maintainer could run baseline-accept or advise on local configuration in [microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180919755)
-    * @bwalter007 asked if something was missing in the local setup after encountering ENOENT during npm test in [microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4180995565)
     * @eduardocque asked if there's a way to avoid duplicating the generic value and if they need to rethink their solution or propose a change in [microsoft/TypeScript#63348](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4184005631)
 
 ## Activity Summary
@@ -148,7 +146,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4180238308) **jakebailey** said "Is this different than https://github.com/microsoft/TypeScript/pull/59759?"
  * [today](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4180269841) **eps1lon** said "Looks like the same at a glance. Yours is already doing some size estimation it seems. I haven't accounted for opting out of trie-based search for small types."
 
-### [PR microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344) (Open)
+### [PR microsoft/TypeScript#63344](https://github.com/microsoft/TypeScript/pull/63344) (Closed)
 
 **Document charCodeAt edge case behavior in first line**
 
@@ -180,7 +178,7 @@
 
  * created by **OldStarchy**
 
-### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63347](https://github.com/microsoft/TypeScript/issues/63347) (Closed, `Not a Defect`)
 
 **Minor performance issue when using HTMLElementTagNameMap**
 

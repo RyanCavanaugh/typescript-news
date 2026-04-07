@@ -59,7 +59,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63333#issuecomment-4188069273) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open)
+### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`)
 
 **Trivial: typo**
 

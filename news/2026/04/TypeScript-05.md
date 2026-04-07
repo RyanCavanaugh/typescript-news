@@ -1,6 +1,6 @@
 # Report for 2026-04-05 (Sunday, April 5th, 2026)
 
-12 different users commented on 9 different issues.
+13 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -36,6 +36,16 @@
  * (today) **typescript-bot** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4189992468) **eduardocque** asked whether they should wait for issue #26242 instead of reopening the current one
 
+### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`)
+
+**Trivial: typo**
+
+*Corrects the misspelling of “parameter” as “paramater” in the es5.d.ts definitions file.*
+
+ * created by **tomhamiltonlambda**
+ * [today](https://github.com/microsoft/TypeScript/issues/63352#issuecomment-4188736423) **deepnav4** expressed interest in working on the issue
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+
 ### [Issue microsoft/TypeScript#63355](https://github.com/microsoft/TypeScript/issues/63355) (Closed)
 
 **\[Bug\]: tsc \-\-watch \-\-noEmit not respecting tsconfig\.json\.watchOptions\.excludedDirectories**
@@ -48,15 +58,17 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63355#issuecomment-4189480842) **Uanela** said "Thanks, just looked closesly and found out what was actually happening https://github.com/Uanela/tsx-strict/blob/0b4437bce95ca2466cf4bdc83226d01d6d4c89bc/src/index.ts#L154"
  * (today) **Uanela** closed the issue
 
-### [Issue microsoft/TypeScript#63357](https://github.com/microsoft/TypeScript/issues/63357) (Open)
+### [Issue microsoft/TypeScript#63357](https://github.com/microsoft/TypeScript/issues/63357) (Open, `Possible Improvement`)
 
 **Error on function return is less useful than it should be**
 
 *TypeScript reports return-type mismatches on function assignments rather than at the actual return statement, making errors harder to diagnose.*
 
  * created by **pfgithub**
+ * [later](https://github.com/microsoft/TypeScript/issues/63357#issuecomment-4193147732) **RyanCavanaugh** said "This is basically because of #241, but maybe we could special case it? Not sure"
+ * (later) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Dormant`
 
-### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open)
+### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open, `Bug`)
 
 **TSX error location error with location and JSX comment**
 
@@ -64,7 +76,7 @@
 
  * created by **RobertSandiford**
 
-### [Issue microsoft/TypeScript#63361](https://github.com/microsoft/TypeScript/issues/63361) (Open)
+### [Issue microsoft/TypeScript#63361](https://github.com/microsoft/TypeScript/issues/63361) (Closed, `Question`)
 
 **\`Flatten\<O\>\` does not merge union object fields — distributes instead**
 
@@ -72,8 +84,9 @@
 
  * created by **kevalcodezee**
  * [later](https://github.com/microsoft/TypeScript/issues/63361#issuecomment-4192309871) **jcalz** explained why the type failed due to union distribution, provided an alternative implementation, and directed to Stack Overflow or Discord for further discussion
+ * **RyanCavanaugh** added label `Question`
 
-### [PR microsoft/TypeScript#63362](https://github.com/microsoft/TypeScript/pull/63362) (Open)
+### [PR microsoft/TypeScript#63362](https://github.com/microsoft/TypeScript/pull/63362) (Closed)
 
 **fix\(checker\): allow unknown\[\] as valid mixin constructor rest param type**
 
@@ -81,6 +94,8 @@
 
  * created by **0xkhass**
  * [later](https://github.com/microsoft/TypeScript/pull/63362#issuecomment-4191989288) **0xkhass** said "@microsoft-github-policy-service agree"
+ * [later](https://github.com/microsoft/TypeScript/pull/63362#issuecomment-4193218391) **RyanCavanaugh** said "See https://github.com/microsoft/TypeScript?tab=readme-ov-file#contribute - bugfixes should be in typescript-go repo"
+ * (later) **RyanCavanaugh** closed the issue
 
 ### [Issue microsoft/TypeScript#63363](https://github.com/microsoft/TypeScript/issues/63363) (Open)
 
@@ -90,6 +105,7 @@
 
  * created by **denis-migdal**
  * [later](https://github.com/microsoft/TypeScript/issues/63363#issuecomment-4192072558) **denis-migdal** noted that the behavior was introduced after version 5.3.3 and previously produced a TypeScript index signature error
+ * [later](https://github.com/microsoft/TypeScript/issues/63363#issuecomment-4193188506) **RyanCavanaugh** said "Why are you writing the function signature this way in the first place?"
 
 ### [PR microsoft/TypeScript#63364](https://github.com/microsoft/TypeScript/pull/63364) (Open)
 

@@ -64,7 +64,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript-go/issues/1147#issuecomment-4173232162) **RyanCavanaugh** said "We need a repro or at least some clues for sure, there doesn't seem to be any way to get into this state"
 
-### [Issue microsoft/TypeScript-go#1600](https://github.com/microsoft/TypeScript-go/issues/1600) (Open, `Domain: Editor`, **weswigham**)
+### [Issue microsoft/TypeScript-go#1600](https://github.com/microsoft/TypeScript-go/issues/1600) (Closed, `Domain: Editor`, **weswigham**)
 
 **Hovering an optional boolean param in strict mode shows \`param?: boolean \| undefined\`**
 
@@ -109,7 +109,7 @@
  * [10 weeks ago](https://github.com/microsoft/TypeScript-go/issues/1709#issuecomment-3752954554) **jakebailey** clarified they lacked bandwidth to work on a new feature while porting existing functionality and noted that dprint's TypeScript plugin used an unrelated Wasm-based system
  * **RyanCavanaugh** added to milestone `Post-7.0`
 
-### [Issue microsoft/TypeScript-go#1741](https://github.com/microsoft/TypeScript-go/issues/1741) (Open, `Domain: Type Checking`, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#1741](https://github.com/microsoft/TypeScript-go/issues/1741) (Closed, `Domain: Type Checking`, `Domain: Declaration Emit`, **weswigham**)
 
 **tsgo does not use assertion as a source for the type of  a default export\.**
 
@@ -130,7 +130,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/1743#issuecomment-4171647607) **RyanCavanaugh** said "I don't think we have any good tiebreakers here"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#1762](https://github.com/microsoft/TypeScript-go/issues/1762) (Open, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#1762](https://github.com/microsoft/TypeScript-go/issues/1762) (Closed, `Domain: Declaration Emit`, **weswigham**)
 
 **adding a root dir that is a child of another root dir causes different relative paths in declaration**
 
@@ -140,7 +140,7 @@
  * **jakebailey** added label `Domain: Declaration Emit`
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#1771](https://github.com/microsoft/TypeScript-go/issues/1771) (Open, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#1771](https://github.com/microsoft/TypeScript-go/issues/1771) (Closed, `Domain: Declaration Emit`, **weswigham**)
 
 **Inferred import type in declaration file uses actual path not use rootdirs path**
 
@@ -151,7 +151,7 @@
  * **jakebailey** added label `Domain: Declaration Emit`
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#1784](https://github.com/microsoft/TypeScript-go/issues/1784) (Open, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#1784](https://github.com/microsoft/TypeScript-go/issues/1784) (Closed, `Domain: Declaration Emit`, **weswigham**)
 
 **type alias is resolved in function type causing type to be unnamable**
 
@@ -552,7 +552,7 @@
  * **RyanCavanaugh** added label `feature parity`
  * **RyanCavanaugh** added to milestone `Post-7.0`
 
-### [Issue microsoft/TypeScript-go#3310](https://github.com/microsoft/TypeScript-go/issues/3310) (Open, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3310](https://github.com/microsoft/TypeScript-go/issues/3310) (Closed, `Domain: Declaration Emit`, **weswigham**)
 
 **Non\-exported interfaces triggers a "cannot be named" error**
 
