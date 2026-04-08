@@ -27,7 +27,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3312#issuecomment-4190963025) **christophe-g** noted that the issue no longer occurred with version 0.20260405.1 and closed it as fixed
  * (later) **christophe-g** closed the issue
 
-### [PR microsoft/TypeScript-go#3346](https://github.com/microsoft/TypeScript-go/pull/3346) (Open)
+### [PR microsoft/TypeScript-go#3346](https://github.com/microsoft/TypeScript-go/pull/3346) (Closed)
 
 **Proper symbols for \`module\` and \`module\.exports\` in CJS files**
 
@@ -44,7 +44,7 @@
  * created by **314systems**
  * **ahejlsberg** assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Open, `Domain: Editor`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Closed, `Domain: Editor`, **andrewbranch**)
 
 **Auto import adds duplicate imports for namespace exports**
 

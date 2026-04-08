@@ -125,7 +125,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63341#issuecomment-4179103357) **Copilot** reverted all changes under /src/loc and stored a memory to never edit those files in future PRs
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open)
+### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Possible Improvement`)
 
 **type checking complexity with multiple template literals in unions**
 
@@ -170,7 +170,7 @@
  * (today) **jakebailey** closed the issue
  * [today](https://github.com/microsoft/TypeScript/pull/63345#issuecomment-4180805728) **RyanCavanaugh** said "Your bot is lost"
 
-### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Open)
+### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Open, `Question`)
 
 **Experimental \(deprecated\) decorators are included by default**
 

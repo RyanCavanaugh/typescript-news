@@ -1,6 +1,6 @@
 # Report for 2026-04-06 (Monday, April 6th, 2026)
 
-14 different users commented on 35 different issues.
+14 different users commented on 36 different issues.
 
 ## Recommended Actions
 
@@ -180,6 +180,15 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3345#issuecomment-4194814881) **jakebailey** noted that reparsing was problematic because ESM constructs may appear later, mentioned that PR #3167 attempted to solve it in the binder, and expressed dissatisfaction with doing binder-esque work in the parser
  * [today](https://github.com/microsoft/TypeScript-go/pull/3345#issuecomment-4194857584) **ahejlsberg** agreed and suggested eliminating JSExportAssignment and CommonJSExport reparsing in reparseCommonJS and instead binding and checking them as in Strada, ignoring CJS constructs in ESM modules
 
+### [PR microsoft/TypeScript-go#3346](https://github.com/microsoft/TypeScript-go/pull/3346) (Closed)
+
+**Proper symbols for \`module\` and \`module\.exports\` in CJS files**
+
+*Adds proper symbol definitions for module and module.exports in CommonJS files to improve references, Quick Info, and symbol/type baselines.*
+
+ * created by **ahejlsberg**
+ * (later) **ahejlsberg** closed the issue
+
 ### [Issue microsoft/TypeScript-go#3347](https://github.com/microsoft/TypeScript-go/issues/3347) (Closed, **andrewbranch**)
 
 **TS1361: 'defineConfig' cannot be used as a value because it was imported using 'import type'\.**
@@ -196,7 +205,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3347#issuecomment-4198818076) **abrahamguo** asked why direct imports from @eslint/config-helpers did not reproduce the issue and suggested that eslint/lib/types/config-api.d.ts might be responsible
  * [later](https://github.com/microsoft/TypeScript-go/issues/3347#issuecomment-4200241330) **andrewbranch** assumed the import was from an ESM file and explained the resolved import path
 
-### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Open, `Domain: Editor`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3348](https://github.com/microsoft/TypeScript-go/issues/3348) (Closed, `Domain: Editor`, **andrewbranch**)
 
 **Auto import adds duplicate imports for namespace exports**
 
@@ -239,7 +248,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3353](https://github.com/microsoft/TypeScript-go/pull/3353) (Open)
+### [PR microsoft/TypeScript-go#3353](https://github.com/microsoft/TypeScript-go/pull/3353) (Closed)
 
 **Re\-add incremental mode diagnostic chain repopulation**
 
@@ -265,7 +274,7 @@
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3355#issuecomment-4195301938) **jakebailey** said "This won't work without a pool change (so far)"
 
-### [PR microsoft/TypeScript-go#3356](https://github.com/microsoft/TypeScript-go/pull/3356) (Open)
+### [PR microsoft/TypeScript-go#3356](https://github.com/microsoft/TypeScript-go/pull/3356) (Closed)
 
 **Update readme status table**
 
@@ -273,7 +282,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Nil pointer derefence in \`\(\*NodeBuilderImpl\)\.addPropertyToElementList\` with  \`\-\-tsBuildInfoFile\`**
 
@@ -282,7 +291,7 @@
  * created by **LukeAbby**
  * **LukeAbby** added label `Crash`
 
-### [PR microsoft/TypeScript-go#3358](https://github.com/microsoft/TypeScript-go/pull/3358) (Open)
+### [PR microsoft/TypeScript-go#3358](https://github.com/microsoft/TypeScript-go/pull/3358) (Open, **gabritto**)
 
 **Implement LSP\-based code edits with file renaming**
 
@@ -290,7 +299,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3359](https://github.com/microsoft/TypeScript-go/pull/3359) (Open)
+### [PR microsoft/TypeScript-go#3359](https://github.com/microsoft/TypeScript-go/pull/3359) (Closed)
 
 **Properly recognize all symbol flags on imported reexported symbols in completions code**
 

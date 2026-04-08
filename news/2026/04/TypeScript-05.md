@@ -36,7 +36,7 @@
  * (today) **typescript-bot** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/63348#issuecomment-4189992468) **eduardocque** asked whether they should wait for issue #26242 instead of reopening the current one
 
-### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`, `Domain: lib.d.ts`)
 
 **Trivial: typo**
 
@@ -58,7 +58,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63355#issuecomment-4189480842) **Uanela** said "Thanks, just looked closesly and found out what was actually happening https://github.com/Uanela/tsx-strict/blob/0b4437bce95ca2466cf4bdc83226d01d6d4c89bc/src/index.ts#L154"
  * (today) **Uanela** closed the issue
 
-### [Issue microsoft/TypeScript#63357](https://github.com/microsoft/TypeScript/issues/63357) (Open, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63357](https://github.com/microsoft/TypeScript/issues/63357) (Open, `Domain: check: Contextual Types`, `Possible Improvement`)
 
 **Error on function return is less useful than it should be**
 
@@ -68,7 +68,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63357#issuecomment-4193147732) **RyanCavanaugh** said "This is basically because of #241, but maybe we could special case it? Not sure"
  * (later) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Dormant`
 
-### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open, `Bug`, `Domain: JSX/TSX`)
 
 **TSX error location error with location and JSX comment**
 
@@ -97,7 +97,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63362#issuecomment-4193218391) **RyanCavanaugh** said "See https://github.com/microsoft/TypeScript?tab=readme-ov-file#contribute - bugfixes should be in typescript-go repo"
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63363](https://github.com/microsoft/TypeScript/issues/63363) (Open)
+### [Issue microsoft/TypeScript#63363](https://github.com/microsoft/TypeScript/issues/63363) (Open, `Needs Investigation`)
 
 **Inside a generic function with a remapped type as parameter, elements are wrongfully inferred as {}\.**
 

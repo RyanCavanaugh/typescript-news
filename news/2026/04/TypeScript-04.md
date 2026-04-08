@@ -59,7 +59,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63333#issuecomment-4188069273) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`, `Domain: lib.d.ts`)
 
 **Trivial: typo**
 
@@ -68,7 +68,7 @@
  * created by **tomhamiltonlambda**
  * [later](https://github.com/microsoft/TypeScript/issues/63352#issuecomment-4188736423) **deepnav4** expressed interest in working on the issue
 
-### [Issue microsoft/TypeScript#63353](https://github.com/microsoft/TypeScript/issues/63353) (Open)
+### [Issue microsoft/TypeScript#63353](https://github.com/microsoft/TypeScript/issues/63353) (Closed)
 
 **Declaration emit references imported type without importing it when inheriting static methods via CommonJS \`require\`**
 

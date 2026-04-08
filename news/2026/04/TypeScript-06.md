@@ -256,7 +256,7 @@
  * **typescript-bot** assigned to **DanielRosenwasser**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open)
+### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Possible Improvement`)
 
 **type checking complexity with multiple template literals in unions**
 
@@ -278,7 +278,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/63344#issuecomment-4186769782) **bwalter007** said "@microsoft-github-policy-service agree"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Open)
+### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Open, `Question`)
 
 **Experimental \(deprecated\) decorators are included by default**
 
@@ -311,7 +311,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63349#issuecomment-4195181354) **Aylur** said "https://github.com/microsoft/typescript/issues/11034"
  * (today) **Aylur** closed the issue
 
-### [Issue microsoft/TypeScript#63353](https://github.com/microsoft/TypeScript/issues/63353) (Open)
+### [Issue microsoft/TypeScript#63353](https://github.com/microsoft/TypeScript/issues/63353) (Closed)
 
 **Declaration emit references imported type without importing it when inheriting static methods via CommonJS \`require\`**
 
@@ -321,7 +321,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63353#issuecomment-4193336982) **RyanCavanaugh** provided automated analysis with links to similar issues
  * [today](https://github.com/microsoft/TypeScript/issues/63353#issuecomment-4193365190) **avivkeller** clarified that the referenced issues correspond to regressions in different TypeScript versions and identified one as unrelated
 
-### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358) (Open, `Bug`, `Domain: JSX/TSX`)
 
 **TSX error location error with location and JSX comment**
 
@@ -343,7 +343,7 @@
  * **RyanCavanaugh** added label `Question`
  * (later) **kevalcodezee** closed the issue
 
-### [Issue microsoft/TypeScript#63363](https://github.com/microsoft/TypeScript/issues/63363) (Open)
+### [Issue microsoft/TypeScript#63363](https://github.com/microsoft/TypeScript/issues/63363) (Open, `Needs Investigation`)
 
 **Inside a generic function with a remapped type as parameter, elements are wrongfully inferred as {}\.**
 
@@ -376,7 +376,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63367](https://github.com/microsoft/TypeScript/issues/63367) (Open)
+### [Issue microsoft/TypeScript#63367](https://github.com/microsoft/TypeScript/issues/63367) (Open, `Needs More Info`)
 
 **Stuck in initialization loop on v1\.114 w/ TS 5, also on v1\.113 w/ TS 6**
 
@@ -387,7 +387,7 @@
  * **mjbvz** unassigned **mjbvz**
  * [today](https://github.com/microsoft/TypeScript/issues/63367#issuecomment-4195761326) **NullVoxPopuli** said "if it helps, I do not have this issue with neovim, the built in LSP, and tsserver"
 
-### [PR microsoft/TypeScript#63368](https://github.com/microsoft/TypeScript/pull/63368) (Open)
+### [PR microsoft/TypeScript#63368](https://github.com/microsoft/TypeScript/pull/63368) (Closed)
 
 **Harden ATA package name filtering**
 
@@ -406,7 +406,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63369#issuecomment-4200095009) **codextremist** said "Thanks @MartinJohns . You're right, strictNullChecks solve this!"
  * (later) **codextremist** closed the issue
 
-### [Issue microsoft/TypeScript#63370](https://github.com/microsoft/TypeScript/issues/63370) (Open)
+### [Issue microsoft/TypeScript#63370](https://github.com/microsoft/TypeScript/issues/63370) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **Add a \`redeclare\` keyword to redeclare class attributes, behaving like \`override \!:\` while keeping type modifiers\.**
 
@@ -414,7 +414,7 @@
 
  * created by **denis-migdal**
 
-### [Issue microsoft/TypeScript#63371](https://github.com/microsoft/TypeScript/issues/63371) (Open)
+### [Issue microsoft/TypeScript#63371](https://github.com/microsoft/TypeScript/issues/63371) (Closed)
 
 **NuGet package not available for v5\.5\.4**
 
@@ -422,4 +422,6 @@
 
  * created by **swarajkd**
  * [later](https://github.com/microsoft/TypeScript/issues/63371#issuecomment-4200091566) **guillaumebrunerie** said "v5.5.4 is almost two years old, why do you want a NuGet package for it? "
+ * [later](https://github.com/microsoft/TypeScript/issues/63371#issuecomment-4200338340) **RyanCavanaugh** said "Yeah I don't know what happened there, but this seems past the statute of limitations."
+ * (later) **RyanCavanaugh** closed the issue
 
