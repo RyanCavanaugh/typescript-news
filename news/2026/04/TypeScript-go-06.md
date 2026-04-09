@@ -215,7 +215,7 @@
  * **yume-chan** added label `Domain: Editor`
  * **RyanCavanaugh** assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3349](https://github.com/microsoft/TypeScript-go/pull/3349) (Open)
+### [PR microsoft/TypeScript-go#3349](https://github.com/microsoft/TypeScript-go/pull/3349) (Closed)
 
 **Add Go to Source Definition**
 
@@ -282,7 +282,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **weswigham**, **Copilot**)
 
 **Nil pointer derefence in \`\(\*NodeBuilderImpl\)\.addPropertyToElementList\` with  \`\-\-tsBuildInfoFile\`**
 

@@ -256,7 +256,7 @@
  * **typescript-bot** assigned to **DanielRosenwasser**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Domain: check: Big Unions`, `Possible Improvement`)
 
 **type checking complexity with multiple template literals in unions**
 

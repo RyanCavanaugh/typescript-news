@@ -1,6 +1,6 @@
 # Report for 2026-04-02 (Thursday, April 2nd, 2026)
 
-12 different users commented on 54 different issues.
+12 different users commented on 55 different issues.
 
 ## Recommended Actions
 
@@ -125,7 +125,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63341#issuecomment-4179103357) **Copilot** reverted all changes under /src/loc and stored a memory to never edit those files in future PRs
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Domain: check: Big Unions`, `Possible Improvement`)
 
 **type checking complexity with multiple template literals in unions**
 

@@ -77,7 +77,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63231#issuecomment-4204245115) **unional** confirmed the issue also existed in tsgo
  * [today](https://github.com/microsoft/TypeScript/issues/63231#issuecomment-4204282083) **unional** provided examples of wildcard exports not being autocompleted and described import map bloat mitigation using explicit file extensions
 
-### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63342](https://github.com/microsoft/TypeScript/issues/63342) (Open, `Experimentation Needed`, `Domain: check: Big Unions`, `Possible Improvement`)
 
 **type checking complexity with multiple template literals in unions**
 

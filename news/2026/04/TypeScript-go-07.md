@@ -70,7 +70,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **weswigham**, **Copilot**)
 
 **Nil pointer derefence in \`\(\*NodeBuilderImpl\)\.addPropertyToElementList\` with  \`\-\-tsBuildInfoFile\`**
 
@@ -113,7 +113,7 @@
 
 **Fix nil pointer dereference in addPropertyToElementList**
 
-*Add a nil guard for propertySymbol.Parent in addPropertyToElementList to prevent crashes when handling synthetic union or intersection property symbols.*
+*Add nil guard for propertySymbol.Parent in addPropertyToElementList to prevent declaration emit crashes and include tests for mixin static accessors*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
