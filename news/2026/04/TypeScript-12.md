@@ -63,7 +63,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397) (Open)
+### [Issue microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397) (Open, `Suggestion`, `Needs Proposal`)
 
 **skipLibChecks specificity**
 

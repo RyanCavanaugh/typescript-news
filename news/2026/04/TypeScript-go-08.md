@@ -105,7 +105,7 @@
 
 **Make LS checkers time out after being idle, segment based on use**
 
-*Implement ephemeral, configurable diagnostic and query checkers that automatically time out and use channel-based synchronization.*
+*Refactor the checker pool to categorize and configure diagnostic, temporary, and API checkers with idle-timeout cleanup via channels.*
 
  * created by **jakebailey**
 

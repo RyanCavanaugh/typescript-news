@@ -1,10 +1,11 @@
 # Report for 2026-04-13 (Monday, April 13th, 2026)
 
-15 different users commented on 9 different issues.
+16 different users commented on 13 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
+    * @Janther reported that TypeScript hover shows 'string' instead of an empty string literal in [microsoft/TypeScript#45329](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-4245129346)
     * @valerciora asked for help resolving build errors with TypeScript configuration in [microsoft/TypeScript#62207](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4243807156)
     * @paztis reported a TypeScript configuration error TS5110 in [microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381#issuecomment-4242101376)
     * @guillaumebrunerie asked if this approach suits the use case in [microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397#issuecomment-4238179681)
@@ -28,6 +29,17 @@
  * (later) **ahejlsberg** added label `Possible Improvement`, and removed label `Bug`
  * [later](https://github.com/microsoft/TypeScript/issues/17253#issuecomment-4244726458) **ahejlsberg** changed the label from "bug" to "possible improvement" and suggested substituting `unknown` instead of `any` for type parameters with `instanceof`, noting it’s safer for covariant but still unsound for contravariant positions
 
+### [Issue microsoft/TypeScript#45329](https://github.com/microsoft/TypeScript/issues/45329) (Open, `Suggestion`, `Awaiting More Feedback`)
+
+**String union types narrowed to falsy should narrow string to ""**
+
+*TypeScript fails to narrow string union types to empty string on falsy checks, resulting in false|string instead.*
+
+ * **RyanCavanaugh** added label `Awaiting More Feedback`
+ * [4.1 years ago](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-1059797670) **JoshuaKGoldberg** apologized for missing the mention and described using empty string instead of null or undefined in response type unions with an example
+ * [36 weeks ago](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-3133678262) **chrisvfritz** highlighted the incomplete implementation of empty string type narrowing in TypeScript and advocated for improved narrowing to avoid hacks
+ * [later](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-4245129346) **Janther** mentioned encountering the same issue, shared a code example returning a Doc or string, and noted that TypeScript hover shows "string" instead of the empty string literal
+
 ### [Issue microsoft/TypeScript#62207](https://github.com/microsoft/TypeScript/issues/62207) (Closed, `Suggestion`, `Breaking Change`, `Committed`, `Fix Available`, **andrewbranch**, **Copilot**)
 
 **Deprecate, remove support for \`baseUrl\`**
@@ -48,7 +60,7 @@
  * created by **rishabh1230**
  * (today) **rishabh1230** closed the issue
 
-### [Issue microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381) (Open)
+### [Issue microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381) (Open, `Needs More Info`)
 
 **ESM strict imports mode option to moduleResolution bundler**
 
@@ -57,6 +69,7 @@
  * created by **paztis**
  * [today](https://github.com/microsoft/TypeScript/issues/63381#issuecomment-4241363827) **jakebailey** said "If you want to require that, why not use nodenext? The difference between the two modes is effectively just that rule..."
  * [later](https://github.com/microsoft/TypeScript/issues/63381#issuecomment-4242101376) **paztis** described their current TypeScript configuration and reported an incompatibility error TS5110 between moduleResolution and module options
+ * **RyanCavanaugh** added label `Needs More Info`
 
 ### [Issue microsoft/TypeScript#63383](https://github.com/microsoft/TypeScript/issues/63383) (Closed, `Working as Intended`, **mjbvz**)
 
@@ -71,7 +84,45 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63383#issuecomment-4244528039) **m-hall** said "Ok, looks like updating the tsconfig does solve the issue. Thanks!"
  * (later) **m-hall** closed the issue
 
-### [Issue microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397) (Open)
+### [Issue microsoft/TypeScript#63384](https://github.com/microsoft/TypeScript/issues/63384) (Closed, `Won't Fix`, `7.0 LS Migration`)
+
+**JS and TS Tasking long time to start which make the save of tsx files slower\.**
+
+*Delays in the JavaScript and TypeScript formatter startup are slowing or blocking TSX file saves.*
+
+ * created by **flexdevguy**
+ * **vs-code-engineering[bot]** assigned to **mjbvz**
+ * **mjbvz** unassigned **mjbvz**
+ * **RyanCavanaugh** added label `Won't Fix`
+ * [later](https://github.com/microsoft/TypeScript/issues/63384#issuecomment-4245038508) **RyanCavanaugh** said "See #62827"
+ * (later) **RyanCavanaugh** closed the issue
+ * **RyanCavanaugh** added label `7.0 LS Migration`
+
+### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`)
+
+**The module namespace object returned by \_\_importStar is not the same when import the same module multiple times**
+
+*TypeScript’s compiled CommonJS __importStar helper creates separate namespace objects for repeated imports of the same module.*
+
+ * created by **yanjiew1**
+ * **RyanCavanaugh** added label `Bug`
+ * [later](https://github.com/microsoft/TypeScript/issues/63391#issuecomment-4245031560) **RyanCavanaugh** noted that there was no reasonable space for runtime helpers to stash a global lookup table and questioned why the user was using commonjs instead of a modern target
+ * **RyanCavanaugh** added to milestone `Dormant`
+
+### [Issue microsoft/TypeScript#63392](https://github.com/microsoft/TypeScript/issues/63392) (Open, `Docs`, **RyanCavanaugh**)
+
+**Review/update https://typescriptlang\.org/tsconfig for TS 6\.0**
+
+*The TypeScript tsconfig documentation is outdated for version 6.0, showing incorrect defaults and options for target, types, paths, rootDir, and module.*
+
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63392#issuecomment-4231401777) **mkantor** suggested relocating the issue to the TypeScript-Website repository while noting template and visibility concerns, and offered to refile it if desired
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63392#issuecomment-4231403772) **mkantor** offered to draft a pull request but deferred to a maintainer and asked if a first pass would be helpful
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63392#issuecomment-4231410817) **mkantor** said "If anyone spots additional items requiring attention, please post them as comments and I'll add them to my list."
+ * **RyanCavanaugh** added label `Docs`
+ * [later](https://github.com/microsoft/TypeScript/issues/63392#issuecomment-4244991841) **RyanCavanaugh** said "I started this at https://github.com/RyanCavanaugh/schemastore/pull/1 but haven't had time to get it over the finish line. Feel free to doublecheck this; it's not fully vetted yet."
+ * **RyanCavanaugh** assigned to **RyanCavanaugh**
+
+### [Issue microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397) (Open, `Suggestion`, `Needs Proposal`)
 
 **skipLibChecks specificity**
 
@@ -102,7 +153,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63398#issuecomment-4244940165) **RyanCavanaugh** clarified that the issue was a misunderstanding and that TypeScript cannot permit invalid syntax
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63399](https://github.com/microsoft/TypeScript/issues/63399) (Open)
+### [Issue microsoft/TypeScript#63399](https://github.com/microsoft/TypeScript/issues/63399) (Open, `Duplicate`)
 
 **Make object type indexable**
 
@@ -110,8 +161,10 @@
 
  * created by **dupasj**
  * [today](https://github.com/microsoft/TypeScript/issues/63399#issuecomment-4240396586) **MartinJohns** said "Essentially you want #38801."
+ * **RyanCavanaugh** added label `Duplicate`
+ * [later](https://github.com/microsoft/TypeScript/issues/63399#issuecomment-4244967183) **RyanCavanaugh** said "This is obviously fine on the read side but it's pretty dangerous if you have a write inside the if, since Record is basically any in terms of obj.prop = value"
 
-### [Issue microsoft/TypeScript#63400](https://github.com/microsoft/TypeScript/issues/63400) (Open)
+### [Issue microsoft/TypeScript#63400](https://github.com/microsoft/TypeScript/issues/63400) (Closed)
 
 **Inquiry Regarding Web API Type Support Based on Browser Compatibility Standards**
 
@@ -120,4 +173,5 @@
  * created by **MomoseMitsuki**
  * [today](https://github.com/microsoft/TypeScript/issues/63400#issuecomment-4241143081) **MartinJohns** referred to the Microsoft TypeScript DOM lib generator for DOM-related types and noted that general JavaScript types are included when they're at least stage 3 and not experimental
  * [later](https://github.com/microsoft/TypeScript/issues/63400#issuecomment-4244796576) **guest271314** said "I don't think anything is stopping you from creating your own types."
+ * (later) **MomoseMitsuki** closed the issue
 

@@ -1,6 +1,6 @@
 # Report for 2026-04-09 (Thursday, April 9th, 2026)
 
-11 different users commented on 14 different issues.
+11 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -94,7 +94,7 @@
  * (today) **RyanCavanaugh** added label `Question`, and removed label `Unactionable`
  * [today](https://github.com/microsoft/TypeScript/issues/63377#issuecomment-4221303828) **denis-migdal** thanked for the answer, described two possible inference results for createViewClass2, and asked if using a const generic parameter would select the more precise inference
 
-### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open, `Domain: check: Type Inference`, `Possible Improvement`)
 
 **Object properties are inferred in the wrong order: should infer properties with \`NoInfer\<T\>\` AFTER properties with \`T\`**
 
@@ -115,7 +115,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63379#issuecomment-4215183885) **MartinJohns** noted the option was missing in jsconfig
  * **RyanCavanaugh** added label `Docs`
 
-### [Issue microsoft/TypeScript#63380](https://github.com/microsoft/TypeScript/issues/63380) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63380](https://github.com/microsoft/TypeScript/issues/63380) (Open, `Bug`, `Domain: check: Type Inference`)
 
 **Wrong inference for defaulted generic in nested call**
 
@@ -124,7 +124,7 @@
  * created by **TurtIeSocks**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381) (Open)
+### [Issue microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381) (Open, `Needs More Info`)
 
 **ESM strict imports mode option to moduleResolution bundler**
 
@@ -143,7 +143,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * [today](https://github.com/microsoft/TypeScript/issues/63382#issuecomment-4218277267) **kidCaulfield** clarified that typeRoots includes the global types folder, explained the docs distinction with types, and reported that switching to types reintroduced the VS Code syntax highlighting issue after restarting the TS server
 
-### [Issue microsoft/TypeScript#63384](https://github.com/microsoft/TypeScript/issues/63384) (Open)
+### [Issue microsoft/TypeScript#63384](https://github.com/microsoft/TypeScript/issues/63384) (Closed, `Won't Fix`, `7.0 LS Migration`)
 
 **JS and TS Tasking long time to start which make the save of tsx files slower\.**
 

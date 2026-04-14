@@ -87,7 +87,7 @@
  * created by **denis-migdal**
  * [later](https://github.com/microsoft/TypeScript/issues/63377#issuecomment-4212713074) **denis-migdal** suggested assuming the callback had a ControllerProvider shape and using single or two-pass type inference guided by error feedback
 
-### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open, `Domain: check: Type Inference`, `Possible Improvement`)
 
 **Object properties are inferred in the wrong order: should infer properties with \`NoInfer\<T\>\` AFTER properties with \`T\`**
 

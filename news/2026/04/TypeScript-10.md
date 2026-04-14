@@ -23,7 +23,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/62508#issuecomment-4153001690) **dskloetc** thanked cscnk52 for the information and mentioned that the error message could have been more helpful
  * [later](https://github.com/microsoft/TypeScript/issues/62508#issuecomment-4228915356) **Kimxons** noted that the solution worked okay
 
-### [Issue microsoft/TypeScript#63384](https://github.com/microsoft/TypeScript/issues/63384) (Open)
+### [Issue microsoft/TypeScript#63384](https://github.com/microsoft/TypeScript/issues/63384) (Closed, `Won't Fix`, `7.0 LS Migration`)
 
 **JS and TS Tasking long time to start which make the save of tsx files slower\.**
 

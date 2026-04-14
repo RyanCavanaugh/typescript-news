@@ -305,7 +305,7 @@
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3398#issuecomment-4241355402) **jakebailey** said "Failing due to https://github.com/microsoft/vscode-extension-telemetry/issues/244"
 
-### [Issue microsoft/TypeScript-go#3399](https://github.com/microsoft/TypeScript-go/issues/3399) (Open, `duplicate`)
+### [Issue microsoft/TypeScript-go#3399](https://github.com/microsoft/TypeScript-go/issues/3399) (Closed, `duplicate`)
 
 **instance of narrowing loses property type for a class returned from a generic factory**
 

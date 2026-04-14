@@ -82,7 +82,7 @@
 
  * created by **SAY-5**
 
-### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open)
+### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`)
 
 **The module namespace object returned by \_\_importStar is not the same when import the same module multiple times**
 
@@ -90,7 +90,7 @@
 
  * created by **yanjiew1**
 
-### [Issue microsoft/TypeScript#63392](https://github.com/microsoft/TypeScript/issues/63392) (Open)
+### [Issue microsoft/TypeScript#63392](https://github.com/microsoft/TypeScript/issues/63392) (Open, `Docs`, **RyanCavanaugh**)
 
 **Review/update https://typescriptlang\.org/tsconfig for TS 6\.0**
 
