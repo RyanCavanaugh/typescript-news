@@ -1,6 +1,6 @@
 # Report for 2026-04-07 (Tuesday, April 7th, 2026)
 
-6 different users commented on 14 different issues.
+6 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -84,7 +84,7 @@
 
 **Implement LSP\-based code edits with file renaming**
 
-*Add support for performing Language Server Protocol code edits that include automatic file renaming handling.*
+*Implement LSP willRenameFiles support to perform file renames with module specifier updates and arbitrary extension handling.*
 
  * created by **Andarist**
  * **gabritto** assigned to **gabritto**
@@ -113,7 +113,7 @@
 
 **Fix nil pointer dereference in addPropertyToElementList**
 
-*Add nil guard for propertySymbol.Parent in addPropertyToElementList to prevent declaration emit crashes and include tests for mixin static accessors*
+*Add nil guard for propertySymbol.Parent in addPropertyToElementList to avoid crashes with synthetic union/intersection properties*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**

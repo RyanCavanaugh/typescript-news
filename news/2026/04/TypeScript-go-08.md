@@ -1,10 +1,10 @@
 # Report for 2026-04-08 (Wednesday, April 8th, 2026)
 
-9 different users commented on 21 different issues.
+9 different users commented on 24 different issues.
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript-go#2272](https://github.com/microsoft/TypeScript-go/pull/2272) (Open)
+### [PR microsoft/TypeScript-go#2272](https://github.com/microsoft/TypeScript-go/pull/2272) (Closed)
 
 **Revamp user preferences serialization/deserialization**
 
@@ -39,7 +39,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3139#issuecomment-4215019134) **vetptzru** reported that the fix resolved crashes and reduced the macFUSE thread count to under 26
  * [later](https://github.com/microsoft/TypeScript-go/issues/3139#issuecomment-4215101482) **jakebailey** said "I'm not sure if that's going to be the fix, as it very much hurts everyone else's perf."
 
-### [PR microsoft/TypeScript-go#3217](https://github.com/microsoft/TypeScript-go/pull/3217) (Open)
+### [PR microsoft/TypeScript-go#3217](https://github.com/microsoft/TypeScript-go/pull/3217) (Closed)
 
 **Watch cli efficiency update**
 
@@ -82,7 +82,7 @@
 
 **Fix nil pointer dereference in addPropertyToElementList**
 
-*Add nil guard for propertySymbol.Parent in addPropertyToElementList to prevent declaration emit crashes and include tests for mixin static accessors*
+*Add nil guard for propertySymbol.Parent in addPropertyToElementList to avoid crashes with synthetic union/intersection properties*
 
  * (yesterday) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3361#issuecomment-4202878806) **DanielRosenwasser** said "@copilot go."
@@ -118,7 +118,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** assigned to **Copilot**, **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#3365](https://github.com/microsoft/TypeScript-go/pull/3365) (Open)
+### [PR microsoft/TypeScript-go#3365](https://github.com/microsoft/TypeScript-go/pull/3365) (Closed)
 
 **Clamp LSP position conversions**
 
@@ -140,15 +140,15 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3366#issuecomment-4209741255) **DanielRosenwasser** said "@andrewbranch @jakebailey is this remotely correct? Feels like it's not."
  * [today](https://github.com/microsoft/TypeScript-go/pull/3366#issuecomment-4209761712) **jakebailey** questioned why the client was performing operations on an in-memory file despite no underlying file
 
-### [PR microsoft/TypeScript-go#3367](https://github.com/microsoft/TypeScript-go/pull/3367) (Open)
+### [PR microsoft/TypeScript-go#3367](https://github.com/microsoft/TypeScript-go/pull/3367) (Closed)
 
 **Codegen Go and TypeScript SyntaxKinds, ASTs, factories, visitors, type guards, encoders, decoders**
 
-*Generate Go and TypeScript code for SyntaxKinds, ASTs, factories, visitors, type guards, and encoders/decoders.*
+*Implement various updates to Go and TypeScript AST code generation, including SyntaxKind renames, factory adjustments, and structural enhancements.*
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3368](https://github.com/microsoft/TypeScript-go/pull/3368) (Open)
+### [PR microsoft/TypeScript-go#3368](https://github.com/microsoft/TypeScript-go/pull/3368) (Closed)
 
 **Add go\-osstat to NOTICE\.txt**
 
@@ -170,7 +170,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4210075529) **typescript-bot** reported that perf test jobs started and provided links to the build and results
  * [today](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4210183826) **typescript-bot** posted the requested performance run results
 
-### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Open)
+### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Open, `duplicate`)
 
 **Bad inference for param of type T\[\] \| T\[\]\[\]**
 

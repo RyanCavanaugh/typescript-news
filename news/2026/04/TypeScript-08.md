@@ -1,6 +1,6 @@
 # Report for 2026-04-08 (Wednesday, April 8th, 2026)
 
-8 different users commented on 19 different issues.
+11 different users commented on 23 different issues.
 
 ## Recommended Actions
 
@@ -8,6 +8,7 @@
     * @juhort asked @RyanCavanaugh for an example where doCall and overload would differ in [microsoft/TypeScript#32164](https://github.com/microsoft/TypeScript/issues/32164#issuecomment-4213346370)
     * @posva provided an example of oxc output as demonstration in [microsoft/TypeScript#58944](https://github.com/microsoft/TypeScript/issues/58944#issuecomment-4213203205)
     * @marqdouj asked someone to pass on feedback to the Azure Maps SDK team in [microsoft/TypeScript#63375](https://github.com/microsoft/TypeScript/issues/63375#issuecomment-4209974913)
+    * @RedCMD asked whether to use typeRoots or types in [microsoft/TypeScript#63382](https://github.com/microsoft/TypeScript/issues/63382#issuecomment-4218277248)
 
 ## Activity Summary
 
@@ -64,7 +65,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/63375#issuecomment-4209974913) **marqdouj** thanked the team and asked to forward feedback to the Azure Maps SDK team
 
-### [Issue microsoft/TypeScript#63376](https://github.com/microsoft/TypeScript/issues/63376) (Open)
+### [Issue microsoft/TypeScript#63376](https://github.com/microsoft/TypeScript/issues/63376) (Open, `Fixed`)
 
 **TS2589 regression in 6\.0: implements without type parameters causes excessive type instantiation when property uses concrete generic type**
 
@@ -77,7 +78,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63376#issuecomment-4210463969) **RyanCavanaugh** provided a smaller reproduction snippet demonstrating the issue
  * [later](https://github.com/microsoft/TypeScript/issues/63376#issuecomment-4212933992) **julienw** thanked the reviewer and mentioned that Claude had helped compare type instantiations with and without explicitly specifying the generic parameter
 
-### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Open)
+### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Open, `Question`)
 
 **TS doesn't properly infer generic callback \`\<T\>\(x: X\<T\>\) =\> T\` when providing \`\(x\) =\> new T\(\)\` \(parameter defined without type\)**
 
@@ -86,7 +87,7 @@
  * created by **denis-migdal**
  * [later](https://github.com/microsoft/TypeScript/issues/63377#issuecomment-4212713074) **denis-migdal** suggested assuming the callback had a ControllerProvider shape and using single or two-pass type inference guided by error feedback
 
-### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open)
+### [Issue microsoft/TypeScript#63378](https://github.com/microsoft/TypeScript/issues/63378) (Open, `Possible Improvement`)
 
 **Object properties are inferred in the wrong order: should infer properties with \`NoInfer\<T\>\` AFTER properties with \`T\`**
 
@@ -94,7 +95,7 @@
 
  * created by **denis-migdal**
 
-### [Issue microsoft/TypeScript#63379](https://github.com/microsoft/TypeScript/issues/63379) (Open)
+### [Issue microsoft/TypeScript#63379](https://github.com/microsoft/TypeScript/issues/63379) (Open, `Docs`)
 
 **\`es2025\` is not a valid enum option for \`jsconfig\.json\`'s \`compilerOptions\.target\` enum**
 
@@ -102,4 +103,23 @@
 
  * created by **Abrifq**
  * [later](https://github.com/microsoft/TypeScript/issues/63379#issuecomment-4215183885) **MartinJohns** noted the option was missing in jsconfig
+
+### [Issue microsoft/TypeScript#63382](https://github.com/microsoft/TypeScript/issues/63382) (Open, **mjbvz**)
+
+**Typescript Server syntax highlighting bug: introduced by recent update**
+
+*The latest VS Code update causes the TypeScript server to ignore custom global types, resulting in red syntax errors.*
+
+ * created by **kidCaulfield**
+ * [today](https://github.com/microsoft/TypeScript/issues/63382#issuecomment-4218277248) **RedCMD** said "typeRoots or types?"
+ * **vs-code-engineering[bot]** assigned to **mjbvz**
+
+### [Issue microsoft/TypeScript#63383](https://github.com/microsoft/TypeScript/issues/63383) (Closed, `Working as Intended`, **mjbvz**)
+
+**Typescript 'rootDir' error**
+
+*VSCode 1.114+ incorrectly reports TypeScript rootDir errors in a multi-package monorepo configuration despite successful CLI compilation*
+
+ * created by **m-hall**
+ * **vs-code-engineering[bot]** assigned to **mjbvz**
 

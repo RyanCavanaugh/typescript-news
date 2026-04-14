@@ -1,6 +1,6 @@
 # Report for 2026-04-07 (Tuesday, April 7th, 2026)
 
-10 different users commented on 22 different issues.
+10 different users commented on 23 different issues.
 
 ## Recommended Actions
 
@@ -88,7 +88,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63342#issuecomment-4197960180) **eps1lon** said "There's a Go port: https://github.com/microsoft/typescript-go/pull/3331"
  * (today) **RyanCavanaugh** added labels `Experimentation Needed`, `Possible Improvement`
 
-### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Open, `Question`)
+### [Issue microsoft/TypeScript#63346](https://github.com/microsoft/TypeScript/issues/63346) (Closed, `Question`)
 
 **Experimental \(deprecated\) decorators are included by default**
 
@@ -99,7 +99,7 @@
  * **RyanCavanaugh** added label `Question`
  * [today](https://github.com/microsoft/TypeScript/issues/63346#issuecomment-4200850258) **RyanCavanaugh** said "The error message means what it says; you are missing the export modifier on your type alias"
 
-### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Open, `Bug`, `Domain: lib.d.ts`)
+### [Issue microsoft/TypeScript#63352](https://github.com/microsoft/TypeScript/issues/63352) (Closed, `Bug`, `Domain: lib.d.ts`)
 
 **Trivial: typo**
 
