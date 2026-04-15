@@ -1,6 +1,6 @@
 # Report for 2026-04-11 (Saturday, April 11th, 2026)
 
-7 different users commented on 10 different issues.
+7 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -34,7 +34,7 @@
  * (5 days ago) **RyanCavanaugh** added labels `Bug`, `Domain: lib.d.ts`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63352#issuecomment-4229744543) **dagangtj** said "I'd like to work on this. I'll submit a PR shortly."
 
-### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Open, `Question`)
+### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Closed, `Question`)
 
 **TS doesn't properly infer generic callback \`\<T\>\(x: X\<T\>\) =\> T\` when providing \`\(x\) =\> new T\(\)\` \(parameter defined without type\)**
 
@@ -74,7 +74,7 @@
  * created by **bwalter007**
  * [today](https://github.com/microsoft/TypeScript/pull/63386#issuecomment-4229758174) **afurm** acknowledged the clarification and asked whether charCodeAt, codePointAt, and substring out-of-bounds behaviors are documented and if documentation updates are needed
 
-### [PR microsoft/TypeScript#63390](https://github.com/microsoft/TypeScript/pull/63390) (Open)
+### [PR microsoft/TypeScript#63390](https://github.com/microsoft/TypeScript/pull/63390) (Closed, `For Uncommitted Bug`)
 
 **feat: Higher\-Kinded Types prototype \(parser \+ RFC\)**
 
@@ -82,7 +82,7 @@
 
  * created by **SAY-5**
 
-### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`, `Fix Available`)
 
 **The module namespace object returned by \_\_importStar is not the same when import the same module multiple times**
 

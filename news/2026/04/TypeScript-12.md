@@ -31,7 +31,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63352#issuecomment-4234588240) **tomhamiltonlambda** said "At least one PR has been made. Closing."
  * (later) **tomhamiltonlambda** closed the issue
 
-### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open)
+### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open, `Design Limitation`)
 
 **\`null\`/\`undefined\` guards sometimes adds \`& \({} \| undefined\`/\`& \({} \| null\` \(out of nowhere\) to the tested variable\.**
 
@@ -44,7 +44,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63385#issuecomment-4236340685) **denis-migdal** noted that many people use X<any> without noticing its dangers and described his surprise at how the any constraint behaved, mentioned he found no existing issues on the topic, and stated he would wait for Ryan before opening a suggestion issue
  * [later](https://github.com/microsoft/TypeScript/issues/63385#issuecomment-4236655344) **denis-migdal** suggested a fourth workaround using an Ensure<T, U> type with example and linked to a Playground; noted uncertainty about inference in complex cases and preference for variance keywords
 
-### [PR microsoft/TypeScript#63395](https://github.com/microsoft/TypeScript/pull/63395) (Closed)
+### [PR microsoft/TypeScript#63395](https://github.com/microsoft/TypeScript/pull/63395) (Closed, `For Backlog Bug`)
 
 **Fix MIDIMessageEvent\.data incorrectly typed as nullable**
 
@@ -54,7 +54,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63395#issuecomment-4232364942) **typescript-bot** notified that the pull request updated generated DOM declaration files which should not be edited and that the PR would be closed
  * (today) **typescript-bot** closed the issue
 
-### [PR microsoft/TypeScript#63396](https://github.com/microsoft/TypeScript/pull/63396) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#63396](https://github.com/microsoft/TypeScript/pull/63396) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group with 2 updates**
 

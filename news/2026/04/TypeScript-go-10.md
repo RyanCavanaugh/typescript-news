@@ -1,6 +1,6 @@
 # Report for 2026-04-10 (Friday, April 10th, 2026)
 
-9 different users commented on 37 different issues.
+9 different users commented on 38 different issues.
 
 ## Recommended Actions
 
@@ -52,7 +52,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4205839648) **xenokratos** reported experiencing the same issue on a large monorepo and attached a screenshot
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4228201267) **shinichy** explained why Strada language service didn’t exhibit the issue, implemented the same NodeResolutionFeaturesExports check in Corsa with code and tsconfig updates, and observed reduced memory usage before offering to submit a PR
 
-### [Issue microsoft/TypeScript-go#3120](https://github.com/microsoft/TypeScript-go/issues/3120) (Open, `Crash`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3120](https://github.com/microsoft/TypeScript-go/issues/3120) (Closed, `Crash`, **iisaduan**)
 
 **thread exhaustion \- program exceeds 10000\-thread limit \- one off error**
 
@@ -207,7 +207,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3384](https://github.com/microsoft/TypeScript-go/issues/3384) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3384](https://github.com/microsoft/TypeScript-go/issues/3384) (Open, `Crash`, **andrewbranch**)
 
 **Crash in adjusting positions for folding ranges**
 
@@ -228,7 +228,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3386](https://github.com/microsoft/TypeScript-go/issues/3386) (Open)
+### [Issue microsoft/TypeScript-go#3386](https://github.com/microsoft/TypeScript-go/issues/3386) (Closed)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

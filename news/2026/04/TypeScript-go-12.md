@@ -1,6 +1,6 @@
 # Report for 2026-04-12 (Sunday, April 12th, 2026)
 
-5 different users commented on 7 different issues.
+5 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -21,7 +21,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/1685#issuecomment-4218922623) **jbeaudoin-lf** said "Thanks, gonna give it a try tomorrow then !"
  * [later](https://github.com/microsoft/TypeScript-go/issues/1685#issuecomment-4236896401) **jbeaudoin-lf** asked which version was used and provided the version output and resulting error messages
 
-### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Closed, `Needs More Info`, **jakebailey**)
 
 **runtime: failed to create new OS thread**
 

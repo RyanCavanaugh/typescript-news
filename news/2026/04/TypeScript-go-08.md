@@ -26,7 +26,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/2966#issuecomment-4212534855) **Andarist** said "superseded by https://github.com/microsoft/typescript-go/pull/3365"
  * (later) **Andarist** closed the issue
 
-### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Closed, `Needs More Info`, **jakebailey**)
 
 **runtime: failed to create new OS thread**
 
@@ -68,7 +68,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Open, `Crash`, **DanielRosenwasser**, **weswigham**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3357](https://github.com/microsoft/TypeScript-go/issues/3357) (Closed, `Crash`, **DanielRosenwasser**, **weswigham**, **Copilot**)
 
 **Nil pointer derefence in \`\(\*NodeBuilderImpl\)\.addPropertyToElementList\` with  \`\-\-tsBuildInfoFile\`**
 
@@ -78,7 +78,7 @@
  * (yesterday) **DanielRosenwasser** assigned to **Copilot**, **DanielRosenwasser**
  * **DanielRosenwasser** assigned to **weswigham**
 
-### [PR microsoft/TypeScript-go#3361](https://github.com/microsoft/TypeScript-go/pull/3361) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3361](https://github.com/microsoft/TypeScript-go/pull/3361) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix nil pointer dereference in addPropertyToElementList**
 
@@ -109,7 +109,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3364](https://github.com/microsoft/TypeScript-go/issues/3364) (Open, **DanielRosenwasser**, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3364](https://github.com/microsoft/TypeScript-go/issues/3364) (Open, **DanielRosenwasser**, **andrewbranch**, **mjbvz**, **Copilot**)
 
 **No project found for untitled file**
 
@@ -170,7 +170,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4210075529) **typescript-bot** reported that perf test jobs started and provided links to the build and results
  * [today](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4210183826) **typescript-bot** posted the requested performance run results
 
-### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Open, `duplicate`)
+### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Closed, `duplicate`)
 
 **Bad inference for param of type T\[\] \| T\[\]\[\]**
 

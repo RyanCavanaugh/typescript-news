@@ -44,7 +44,7 @@
  * (yesterday) **RyanCavanaugh** added labels `Experimentation Needed`, `Possible Improvement`
  * **RyanCavanaugh** added label `Domain: check: Big Unions`
 
-### [Issue microsoft/TypeScript#63373](https://github.com/microsoft/TypeScript/issues/63373) (Open)
+### [Issue microsoft/TypeScript#63373](https://github.com/microsoft/TypeScript/issues/63373) (Open, `External`)
 
 **tsserver hangs in Yarn PnP projects — incorrect directory watcher due to unchecked indexOf returning \-1**
 
@@ -78,7 +78,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63376#issuecomment-4210463969) **RyanCavanaugh** provided a smaller reproduction snippet demonstrating the issue
  * [later](https://github.com/microsoft/TypeScript/issues/63376#issuecomment-4212933992) **julienw** thanked the reviewer and mentioned that Claude had helped compare type instantiations with and without explicitly specifying the generic parameter
 
-### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Open, `Question`)
+### [Issue microsoft/TypeScript#63377](https://github.com/microsoft/TypeScript/issues/63377) (Closed, `Question`)
 
 **TS doesn't properly infer generic callback \`\<T\>\(x: X\<T\>\) =\> T\` when providing \`\(x\) =\> new T\(\)\` \(parameter defined without type\)**
 

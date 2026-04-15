@@ -1,6 +1,6 @@
 # Report for 2026-04-13 (Monday, April 13th, 2026)
 
-9 different users commented on 29 different issues.
+9 different users commented on 33 different issues.
 
 ## Recommended Actions
 
@@ -116,7 +116,7 @@
  * **RyanCavanaugh** assigned to **johnfav03**
  * (today) **johnfav03** closed the issue
 
-### [Issue microsoft/TypeScript-go#3120](https://github.com/microsoft/TypeScript-go/issues/3120) (Open, `Crash`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3120](https://github.com/microsoft/TypeScript-go/issues/3120) (Closed, `Crash`, **iisaduan**)
 
 **thread exhaustion \- program exceeds 10000\-thread limit \- one off error**
 
@@ -128,7 +128,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3120#issuecomment-4239471509) **jakebailey** said "It's possible that this would be fixed in the same way as #3139."
  * [today](https://github.com/microsoft/TypeScript-go/issues/3120#issuecomment-4239474401) **jakebailey** said "@ekazakov14 Can you try https://github.com/microsoft/typescript-go/pull/3369 or https://github.com/microsoft/typescript-go/pull/3394?"
 
-### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3139](https://github.com/microsoft/TypeScript-go/issues/3139) (Closed, `Needs More Info`, **jakebailey**)
 
 **runtime: failed to create new OS thread**
 
@@ -189,7 +189,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3345#issuecomment-4239881854) **jakebailey** said "Superseded by #3388"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3358](https://github.com/microsoft/TypeScript-go/pull/3358) (Open, **gabritto**)
+### [PR microsoft/TypeScript-go#3358](https://github.com/microsoft/TypeScript-go/pull/3358) (Closed, **gabritto**)
 
 **Implement LSP\-based code edits with file renaming**
 
@@ -199,7 +199,7 @@
  * **gabritto** assigned to **gabritto**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3358#issuecomment-4238669742) **jakebailey** said "This also closes #1882, yes?"
 
-### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Open, `duplicate`)
+### [Issue microsoft/TypeScript-go#3370](https://github.com/microsoft/TypeScript-go/issues/3370) (Closed, `duplicate`)
 
 **Bad inference for param of type T\[\] \| T\[\]\[\]**
 
@@ -218,7 +218,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3384](https://github.com/microsoft/TypeScript-go/issues/3384) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3384](https://github.com/microsoft/TypeScript-go/issues/3384) (Open, `Crash`, **andrewbranch**)
 
 **Crash in adjusting positions for folding ranges**
 
@@ -261,7 +261,7 @@
  * created by **virtulis**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3394](https://github.com/microsoft/TypeScript-go/pull/3394) (Open)
+### [PR microsoft/TypeScript-go#3394](https://github.com/microsoft/TypeScript-go/pull/3394) (Closed)
 
 **Limit all OS FS calls with semaphores**
 
@@ -272,7 +272,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3394#issuecomment-4238183692) **typescript-bot** reported starting CI jobs and provided links to status and results
  * [today](https://github.com/microsoft/TypeScript-go/pull/3394#issuecomment-4238322677) **typescript-bot** provided the requested perf run results
 
-### [PR microsoft/TypeScript-go#3395](https://github.com/microsoft/TypeScript-go/pull/3395) (Open)
+### [PR microsoft/TypeScript-go#3395](https://github.com/microsoft/TypeScript-go/pull/3395) (Closed)
 
 **Fix watching files outside the workspace and realpaths symlinked into programs**
 

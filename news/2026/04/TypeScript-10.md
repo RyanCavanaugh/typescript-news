@@ -1,6 +1,6 @@
 # Report for 2026-04-10 (Friday, April 10th, 2026)
 
-5 different users commented on 9 different issues.
+5 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -33,7 +33,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * **mjbvz** unassigned **mjbvz**
 
-### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open)
+### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open, `Design Limitation`)
 
 **\`null\`/\`undefined\` guards sometimes adds \`& \({} \| undefined\`/\`& \({} \| null\` \(out of nowhere\) to the tested variable\.**
 
@@ -74,7 +74,7 @@
  * created by **bwalter007**
  * (later) **bwalter007** closed the issue
 
-### [PR microsoft/TypeScript#63389](https://github.com/microsoft/TypeScript/pull/63389) (Open)
+### [PR microsoft/TypeScript#63389](https://github.com/microsoft/TypeScript/pull/63389) (Closed)
 
 **fix\(lib\): correct typo in es5\.d\.ts — paramater \-\> parameter**
 

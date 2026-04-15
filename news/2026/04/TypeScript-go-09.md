@@ -1,6 +1,6 @@
 # Report for 2026-04-09 (Thursday, April 9th, 2026)
 
-10 different users commented on 62 different issues.
+10 different users commented on 63 different issues.
 
 ## Activity Summary
 
@@ -232,7 +232,7 @@
  * [25 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1871#issuecomment-3412205579) **jakebailey** suggested using per-request caching to avoid persistence and questioned the value of keeping source maps in memory indefinitely for minimal performance gains
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#1882](https://github.com/microsoft/TypeScript-go/issues/1882) (Open, `Needs More Info`, **johnfav03**)
+### [Issue microsoft/TypeScript-go#1882](https://github.com/microsoft/TypeScript-go/issues/1882) (Closed, `Needs More Info`, **johnfav03**)
 
 **Renaming/moving file breaks imports**
 
@@ -288,7 +288,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2077#issuecomment-4216253320) **jakebailey** said "#3365 will fix this, clamping positions to the allowed ranges (for better or for worse)."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#2086](https://github.com/microsoft/TypeScript-go/issues/2086) (Open, `bug`, **Copilot**)
+### [Issue microsoft/TypeScript-go#2086](https://github.com/microsoft/TypeScript-go/issues/2086) (Closed, `bug`, **Copilot**)
 
 **Missing error when shadowing WeakMap/WeakSet in class private field's scope**
 
@@ -299,7 +299,7 @@
  * **jakebailey** assigned to **Copilot**
  * **RyanCavanaugh** added to milestone `Post-7.0`
 
-### [Issue microsoft/TypeScript-go#2133](https://github.com/microsoft/TypeScript-go/issues/2133) (Open, `Domain: Editor`, **gabritto**)
+### [Issue microsoft/TypeScript-go#2133](https://github.com/microsoft/TypeScript-go/issues/2133) (Closed, `Domain: Editor`, **gabritto**)
 
 **Renaming a file results in mis\-identifying the right sconfig file**
 
@@ -419,7 +419,7 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3364](https://github.com/microsoft/TypeScript-go/issues/3364) (Open, **DanielRosenwasser**, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3364](https://github.com/microsoft/TypeScript-go/issues/3364) (Open, **DanielRosenwasser**, **andrewbranch**, **mjbvz**, **Copilot**)
 
 **No project found for untitled file**
 
@@ -470,7 +470,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3371](https://github.com/microsoft/TypeScript-go/issues/3371) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3371](https://github.com/microsoft/TypeScript-go/issues/3371) (Closed, `Domain: Editor`, **andrewbranch**, **Copilot**)
 
 **Global keywords in code suggestion shadowed by auto imports with same name**
 
