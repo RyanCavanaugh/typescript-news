@@ -82,7 +82,7 @@
 
  * created by **SAY-5**
 
-### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`, `Domain: JS Emit`, `Fix Available`)
 
 **The module namespace object returned by \_\_importStar is not the same when import the same module multiple times**
 

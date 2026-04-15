@@ -1,6 +1,6 @@
 # Report for 2026-04-14 (Tuesday, April 14th, 2026)
 
-16 different users commented on 40 different issues.
+18 different users commented on 42 different issues.
 
 ## Recommended Actions
 
@@ -11,12 +11,15 @@
     * @freshp86 asked if the issue was still relevant in [microsoft/TypeScript#13569](https://github.com/microsoft/TypeScript/issues/13569#issuecomment-4247506804)
     * @everett1992 provided repro steps for .d.ts files referencing .ts extensions causing TS errors in [microsoft/TypeScript#61037](https://github.com/microsoft/TypeScript/issues/61037#issuecomment-4248673137)
     * @Bodlux asked for a preferred security contact for responsible disclosure in [microsoft/TypeScript#63404](https://github.com/microsoft/TypeScript/pull/63404#issuecomment-4247956854)
+    * @hikeeba reported experiencing the same error on a fresh Vite project with MUI in [microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253248545)
+    * @hikeeba reported that it filled up 3GB of RAM and crashed repeatedly on a fresh VSCode install in [microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253305882)
+    * @himhimlo reported the issue occurred on both MacBook Pro and Windows 11 laptop, indicating it wasn't machine-specific in [microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253355220)
     * @nmain asked about intention behind comma operator vs semicolon in [microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4252782247)
     * @dangreen requested to transpile to ES2021 in [microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4252904980)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#13569](https://github.com/microsoft/TypeScript/issues/13569) (Open, `Suggestion`, `Revisit`, `Domain: lib.d.ts`)
+### [Issue microsoft/TypeScript#13569](https://github.com/microsoft/TypeScript/issues/13569) (Closed, `Suggestion`, `Revisit`, `Domain: lib.d.ts`)
 
 **DOM: Font Loading API**
 
@@ -47,6 +50,7 @@
  * [27 weeks ago](https://github.com/microsoft/TypeScript/issues/29707#issuecomment-3375208966) **tysoncung** said "I'm interested in working on this issue. Could you provide more context about what you're looking for? Any additional details about requirements or constraints would be helpful."
  * **RyanCavanaugh** added label `Domain: classes`
  * [today](https://github.com/microsoft/TypeScript/issues/29707#issuecomment-4248128808) **alisa-xh** offered professional development services and asked to connect on WeChat
+ * [later](https://github.com/microsoft/TypeScript/issues/29707#issuecomment-4253541609) **RyanCavanaugh** said "@snarbles2 I'm tempted to set up a script to auto-ban anyone who gets a 🚀 reaction from you 😅"
 
 ### [Issue microsoft/TypeScript#46005](https://github.com/microsoft/TypeScript/issues/46005) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -202,7 +206,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63390#issuecomment-4247258973) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [today](https://github.com/microsoft/TypeScript/pull/63390#issuecomment-4247929135) **SAY-5** said "Understood. Apologies for not reading the contributing guidelines properly."
 
-### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63391](https://github.com/microsoft/TypeScript/issues/63391) (Open, `Bug`, `Domain: JS Emit`, `Fix Available`)
 
 **The module namespace object returned by \_\_importStar is not the same when import the same module multiple times**
 
@@ -212,6 +216,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63391#issuecomment-4245031560) **RyanCavanaugh** noted that there was no reasonable space for runtime helpers to stash a global lookup table and questioned why the user was using commonjs instead of a modern target
  * **RyanCavanaugh** added to milestone `Dormant`
  * **typescript-bot** added label `Fix Available`
+ * **RyanCavanaugh** added label `Domain: JS Emit`
 
 ### [Issue microsoft/TypeScript#63392](https://github.com/microsoft/TypeScript/issues/63392) (Open, `Docs`, **RyanCavanaugh**)
 
@@ -307,8 +312,17 @@
 *VSCode's TypeScript server repeatedly crashes with “TSServer exited. Code: 134” when opening a basic Vite React MUI project.*
 
  * created by **matthew-lo-housing**
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253248545) **hikeeba** said "Getting the exact same error on a freshly set up vite project w/ MUI and no other custom code added."
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253249507) **RyanCavanaugh** reported that it worked fine for them and noted that the issue is unlikely to meet the servicing bar if it is machine-specific
+ * (later) **RyanCavanaugh** added labels `7.0 LS Migration`, `Won't Fix`
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253305882) **hikeeba** said "It will work for a couple of minutes, but eventually it will fill up 3GB of RAM and crash and then do that forever. I have a fresh install of VSCode."
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253355220) **himhimlo** said "And I have the issue on both my MacBook Pro and win11 laptop. It doesn't like a very machine-specific issue."
+ * **RyanCavanaugh** removed label `Won't Fix`
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253390323) **hikeeba** stated that they tested on a Windows 11 laptop, offered to try on other machines later, and guessed that the previous test either didn’t wait long enough or didn’t include MUI lib usage
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253431817) **RyanCavanaugh** said "Yeah, I forgot I had the TypeScript-go LS (7.0) enabled. In 6.0 I'm seeing tsserver repeatedly spawn and exit, but I'm also seeing this in TypeScript 5.9. What changed for y'all?"
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253505723) **hikeeba** said "Unfortunately I don't have anything to point to here as for what changed. I have older projects that work, but I haven't spun up any new ones in a while until just now."
 
-### [Issue microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406) (Open)
+### [Issue microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406) (Open, `Not a Defect`)
 
 **TS incorrectly downgrades class fields**
 
@@ -321,4 +335,6 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4252886046) **dangreen** stated that they fixed the comma operator output issue
  * [later](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4252896319) **mkantor** said "Why are you running https://app.unpkg.com/lexical@0.43.0/files/Lexical.prod.mjs through tsc in the first place? That file is already valid JavaScript and it has no type annotations."
  * [later](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4252904980) **dangreen** said "@mkantor we want to transpile it to es2021 "
+ * **RyanCavanaugh** added label `Not a Defect`
+ * [later](https://github.com/microsoft/TypeScript/issues/63406#issuecomment-4253193942) **RyanCavanaugh** noted limitations in the downleveler and suggested using other tools for downleveling arbitrary third-party code
 

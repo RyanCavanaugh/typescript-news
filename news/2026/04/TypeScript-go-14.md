@@ -1,6 +1,6 @@
 # Report for 2026-04-14 (Tuesday, April 14th, 2026)
 
-16 different users commented on 96 different issues.
+17 different users commented on 97 different issues.
 
 ## Recommended Actions
 
@@ -514,6 +514,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4244950544) **andrewbranch** stated that the issue was likely caused by a fixable logic bug in a code path only exercised by an entrypoint included via "exports", rather than by scanning too many legitimate entrypoints
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4249139388) **shinichy** said "Ok. What would the fix look like? Do you still need access to the repo that reproduces the issue?"
+ * [later](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4253201729) **andrewbranch** said "Yes, that's the only way I can make progress, unless I just happen to stumble upon the same root cause as your repro as I'm investigating other performance issues."
 
 ### [Issue microsoft/TypeScript-go#2781](https://github.com/microsoft/TypeScript-go/issues/2781) (Closed, `possible improvement`, **andrewbranch**)
 
@@ -871,6 +872,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/3384#issuecomment-4227398094) **DanielRosenwasser** suspected the issue stemmed from the snapshotfs implementation because reloadEntry methods didn’t update certain fields and noted difficulty reproducing it end-to-end
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3384#issuecomment-4239589443) **jakebailey** said "Not overwriting those definitely feels like a bug. We should probably shove those off into a sidecar that can be overwritten with a new object each time the content changes."
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3384#issuecomment-4253249016) **andrewbranch** said "This doesn't look like a bug to me—e.Change clones the file which unsets its line map."
 
 ### [Issue microsoft/TypeScript-go#3386](https://github.com/microsoft/TypeScript-go/issues/3386) (Closed)
 
