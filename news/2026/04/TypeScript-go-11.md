@@ -41,7 +41,7 @@
 
 **Fix inference from unions of arrays with different nesting depths**
 
-*Add an intermediate matching pass to accurately infer generic types from unions combining arrays with different nesting depths*
+*Add a matching pass to infer equally nested arrays first, correcting generic type inference for unions like T[] | T[][]*
 
  * created by **Yiin**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3391#issuecomment-4231802984) **Yiin** said "@microsoft-github-policy-service agree"

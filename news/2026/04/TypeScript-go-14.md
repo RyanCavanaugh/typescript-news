@@ -935,7 +935,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3402](https://github.com/microsoft/TypeScript-go/pull/3402) (Open)
+### [PR microsoft/TypeScript-go#3402](https://github.com/microsoft/TypeScript-go/pull/3402) (Closed)
 
 **Support alternate spellings in JSDoc type annotations**
 
@@ -951,7 +951,7 @@
 
  * created by **navya9singh**
 
-### [Issue microsoft/TypeScript-go#3404](https://github.com/microsoft/TypeScript-go/issues/3404) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3404](https://github.com/microsoft/TypeScript-go/issues/3404) (Closed, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **Object\-like type not formatted well with verbosity level 0 in hover**
 
@@ -980,11 +980,11 @@
  * created by **sroussey**
  * **sroussey** added label `Crash`
 
-### [PR microsoft/TypeScript-go#3407](https://github.com/microsoft/TypeScript-go/pull/3407) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3407](https://github.com/microsoft/TypeScript-go/pull/3407) (Closed, **jakebailey**, **Copilot**)
 
 **Always format object\-like types multiline in hover**
 
-*Always render object-like types in hover tooltips as multiline with indentation regardless of verbosity level.*
+*Always format object-like types across multiple lines in hover by enabling the multiline flag and updating printer output and tests.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -998,7 +998,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3409](https://github.com/microsoft/TypeScript-go/pull/3409) (Open)
+### [PR microsoft/TypeScript-go#3409](https://github.com/microsoft/TypeScript-go/pull/3409) (Closed)
 
 **Fix nil\-config project crash during project tree loading**
 

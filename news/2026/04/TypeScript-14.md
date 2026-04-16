@@ -1,6 +1,6 @@
 # Report for 2026-04-14 (Tuesday, April 14th, 2026)
 
-18 different users commented on 42 different issues.
+18 different users commented on 43 different issues.
 
 ## Recommended Actions
 
@@ -262,7 +262,7 @@
  * (today) **RyanCavanaugh** added labels `Suggestion`, `Needs Proposal`
  * [today](https://github.com/microsoft/TypeScript/issues/63397#issuecomment-4245515366) **jakebailey** proposed introducing a new split for `.d.ts` file checking using existing root file rules
 
-### [PR microsoft/TypeScript#63401](https://github.com/microsoft/TypeScript/pull/63401) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#63401](https://github.com/microsoft/TypeScript/pull/63401) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Also check package name validity in InstallPackageRequest**
 
@@ -305,7 +305,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63404#issuecomment-4247956854) **Bodlux** asked for preferred security contact to share details of a potential CI security concern
  * [today](https://github.com/microsoft/TypeScript/pull/63404#issuecomment-4248030953) **RyanCavanaugh** said "Please consult SECURITY.md"
 
-### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Open)
+### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Open, `Question`)
 
 **VSCode's TypeScript Language Server Keeps Crashing on a Project**
 

@@ -134,7 +134,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/3355#issuecomment-4195301938) **jakebailey** said "This won't work without a pool change (so far)"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3355#issuecomment-4226977450) **jakebailey** said "This will fail until I can update the pool config, but I can't do that until nobody's running jobs, which sounds like a weekend merge."
 
-### [PR microsoft/TypeScript-go#3363](https://github.com/microsoft/TypeScript-go/pull/3363) (Open)
+### [PR microsoft/TypeScript-go#3363](https://github.com/microsoft/TypeScript-go/pull/3363) (Closed)
 
 **Make LS checkers time out after being idle, segment based on use**
 
@@ -157,7 +157,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3367#issuecomment-4225048512) **andrewbranch** said "There are things that I'd like to improve and additional things I'd like to generate, but need to get some more time-sensitive stuff out of the way first."
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3369](https://github.com/microsoft/TypeScript-go/pull/3369) (Open)
+### [PR microsoft/TypeScript-go#3369](https://github.com/microsoft/TypeScript-go/pull/3369) (Closed)
 
 **Limit loader/emitter to GOMAXPROCS**
 
