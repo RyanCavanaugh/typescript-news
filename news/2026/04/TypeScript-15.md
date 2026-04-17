@@ -1,6 +1,6 @@
 # Report for 2026-04-15 (Wednesday, April 15th, 2026)
 
-16 different users commented on 14 different issues.
+16 different users commented on 17 different issues.
 
 ## Recommended Actions
 
@@ -135,6 +135,7 @@
  * **RyanCavanaugh** added label `Question`
  * [today](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4256720363) **matthew-lo-housing** noted no issues in other projects, mentioned this was their first time using MUI, and asked if the issue only occurred with the MUI + Vite combination
  * [today](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4256731040) **matthew-lo-housing** asked if they should install TypeScript 7 globally
+ * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4261291709) **RyanCavanaugh** said "Yes, TypeScript provides language features in JavaScript projects"
 
 ### [PR microsoft/TypeScript#63407](https://github.com/microsoft/TypeScript/pull/63407) (Closed, `For Uncommitted Bug`, **DanielRosenwasser**)
 
@@ -156,7 +157,7 @@
  * created by **OldStarchy**
  * **typescript-bot** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63409](https://github.com/microsoft/TypeScript/issues/63409) (Open)
+### [Issue microsoft/TypeScript#63409](https://github.com/microsoft/TypeScript/issues/63409) (Closed, `Duplicate`)
 
 **Abstarct members of abstarct mixin is allowed to call**
 
@@ -165,4 +166,5 @@
  * created by **olegdunkan**
  * [later](https://github.com/microsoft/TypeScript/issues/63409#issuecomment-4259894246) **snarbles2** clarified that the error should be on `const u = new UL;` and that `u.log()` should succeed because abstract classes cannot be instantiated
  * [later](https://github.com/microsoft/TypeScript/issues/63409#issuecomment-4260085807) **MartinJohns** said "Essentially a duplicate of #32122. Mixins and abstract classes don't mix well."
+ * **RyanCavanaugh** added label `Duplicate`
 

@@ -124,7 +124,7 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3355](https://github.com/microsoft/TypeScript-go/pull/3355) (Open)
+### [PR microsoft/TypeScript-go#3355](https://github.com/microsoft/TypeScript-go/pull/3355) (Closed)
 
 **Switch to new CI runner system**
 

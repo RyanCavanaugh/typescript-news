@@ -1,11 +1,15 @@
 # Report for 2026-04-15 (Wednesday, April 15th, 2026)
 
-15 different users commented on 34 different issues.
+17 different users commented on 36 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @AndreiTS asked where to send a video and a private repo with the problem in [microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4259962263)
+    * @cupro29 asked to reopen the issue in [microsoft/TypeScript-go#3251](https://github.com/microsoft/TypeScript-go/issues/3251#issuecomment-4261474389)
+    * @sbking reported a memory leak in VSCode TypeScript Native Preview in [microsoft/TypeScript-go#3423](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261327047)
+    * @sbking provided requested heap profile attachments for diffing in [microsoft/TypeScript-go#3423](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261450546)
+    * @sbking provided requested heap profile with the setting disabled in [microsoft/TypeScript-go#3423](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261499932)
 
 ## Activity Summary
 
@@ -31,7 +35,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/1990#issuecomment-4256465623) **azure-pipelines[bot]** reported that one pipeline was filtered out due to trigger conditions
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#2115](https://github.com/microsoft/TypeScript-go/issues/2115) (Closed, `possible improvement`)
+### [Issue microsoft/TypeScript-go#2115](https://github.com/microsoft/TypeScript-go/issues/2115) (Open, `possible improvement`)
 
 **Refactor checker pool to limit checker creation for foreground tasks, segment diagnostic checkers**
 
@@ -63,6 +67,17 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4253201729) **andrewbranch** said "Yes, that's the only way I can make progress, unless I just happen to stumble upon the same root cause as your repro as I'm investigating other performance issues."
  * [later](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4259962263) **AndreiTS** said "@andrewbranch I want to share a video and a private repo with this problem, where I can send you?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4261231001) **andrewbranch** said "{firstname}.{lastname}@microsoft.com. Thanks!"
+
+### [Issue microsoft/TypeScript-go#3251](https://github.com/microsoft/TypeScript-go/issues/3251) (Closed, `Crash`, **DanielRosenwasser**, **Copilot**)
+
+**Signature help assertion failure**
+
+*An assertion failure in the Go language server's signature help getContainingArgumentInfo crashes without known repro steps, possibly tied to reparsing.*
+
+ * **DanielRosenwasser** assigned to **DanielRosenwasser**
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3251#issuecomment-4248113395) **RyanCavanaugh** said "Closing in the absence of a repro"
+ * (yesterday) **RyanCavanaugh** closed the issue
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3251#issuecomment-4261474389) **cupro29** demonstrated a repro using an invalid JSX snippet causing the LSP server to panic and requested reopening of the issue
 
 ### [PR microsoft/TypeScript-go#3289](https://github.com/microsoft/TypeScript-go/pull/3289) (Closed)
 
@@ -137,7 +152,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3355](https://github.com/microsoft/TypeScript-go/pull/3355) (Open)
+### [PR microsoft/TypeScript-go#3355](https://github.com/microsoft/TypeScript-go/pull/3355) (Closed)
 
 **Switch to new CI runner system**
 
@@ -253,7 +268,7 @@
  * created by **DanielRosenwasser**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3414#issuecomment-4255572022) **azure-pipelines[bot]** reported that one pipeline was filtered out due to trigger conditions
 
-### [PR microsoft/TypeScript-go#3415](https://github.com/microsoft/TypeScript-go/pull/3415) (Open)
+### [PR microsoft/TypeScript-go#3415](https://github.com/microsoft/TypeScript-go/pull/3415) (Closed)
 
 **Add VS client caps, use VS diagnostic format when asked**
 
@@ -265,7 +280,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3415#issuecomment-4257460709) **jakebailey** said "/azp where"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3415#issuecomment-4257461045) **azure-pipelines[bot]** notified that Azure DevOps orgs were getting events for this repository
 
-### [Issue microsoft/TypeScript-go#3416](https://github.com/microsoft/TypeScript-go/issues/3416) (Open, `Domain: Editor`, **jakebailey**)
+### [Issue microsoft/TypeScript-go#3416](https://github.com/microsoft/TypeScript-go/issues/3416) (Closed, `Domain: Editor`, **jakebailey**)
 
 **isolatedDeclarations quickfix: Parens not added to single arrow func param**
 
@@ -275,7 +290,7 @@
  * (today) **RyanCavanaugh** added label `Domain: Editor`, and assigned to **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3416#issuecomment-4257561923) **jakebailey** reported that the bug was preexisting and provided a TS Playground link
 
-### [Issue microsoft/TypeScript-go#3417](https://github.com/microsoft/TypeScript-go/issues/3417) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3417](https://github.com/microsoft/TypeScript-go/issues/3417) (Closed, `Domain: Editor`)
 
 **Default type param not displayed in hover**
 
@@ -284,7 +299,7 @@
  * created by **Withered-Flower-0422**
  * **Withered-Flower-0422** added label `Domain: Editor`
 
-### [PR microsoft/TypeScript-go#3418](https://github.com/microsoft/TypeScript-go/pull/3418) (Open)
+### [PR microsoft/TypeScript-go#3418](https://github.com/microsoft/TypeScript-go/pull/3418) (Closed)
 
 **Fix missing parens in ID fixes**
 
@@ -293,7 +308,7 @@
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3418#issuecomment-4257595864) **azure-pipelines[bot]** reported that one pipeline was filtered out due to trigger conditions
 
-### [PR microsoft/TypeScript-go#3419](https://github.com/microsoft/TypeScript-go/pull/3419) (Open)
+### [PR microsoft/TypeScript-go#3419](https://github.com/microsoft/TypeScript-go/pull/3419) (Closed)
 
 **Avoid panicking on duplicate document close notifications**
 
@@ -301,7 +316,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3420](https://github.com/microsoft/TypeScript-go/pull/3420) (Open)
+### [PR microsoft/TypeScript-go#3420](https://github.com/microsoft/TypeScript-go/pull/3420) (Closed)
 
 **Fix hover display of default type parameters**
 
@@ -309,7 +324,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3421](https://github.com/microsoft/TypeScript-go/pull/3421) (Open)
+### [PR microsoft/TypeScript-go#3421](https://github.com/microsoft/TypeScript-go/pull/3421) (Closed)
 
 **Fixed an issue with empty type argument lists not being reported on instantiation expressions**
 
@@ -326,7 +341,7 @@
  * created by **Withered-Flower-0422**
  * **Withered-Flower-0422** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#3423](https://github.com/microsoft/TypeScript-go/issues/3423) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3423](https://github.com/microsoft/TypeScript-go/issues/3423) (Closed, `Crash`)
 
 **Memory usage spiked in version 7\.0\.0\-dev\.20260416\.1**
 
@@ -336,6 +351,12 @@
  * **pedro757** added label `Crash`
  * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4260972387) **jakebailey** asked the user to build from source and bisect if they could reproduce the issue consistently
  * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4260979368) **jakebailey** said "And are you referring to the editor? CLI compilation?"
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261327047) **sbking** reported a massive memory leak in VSCode TypeScript Native Preview that consumed increasing RAM until the editor was closed
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261370867) **jakebailey** said "When this happens, can you please run the "Heap Profile" command in the command palette and upload it?"
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261404241) **jakebailey** said "Or, build https://github.com/microsoft/typescript-go/pull/3425 from source and see if that makes the problem go away."
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261450546) **sbking** provided two heap profile attachments for diffing
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261468808) **jakebailey** asked the user to try disabling semantic highlighting by setting editor.semanticHighlighting.enabled to false
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261499932) **sbking** provided a heap profile with the setting disabled
 
 ### [PR microsoft/TypeScript-go#3424](https://github.com/microsoft/TypeScript-go/pull/3424) (Open)
 
@@ -344,4 +365,12 @@
 *Corrects the resolution of function signature documentation when hovering over code elements.*
 
  * created by **a-tarasyuk**
+
+### [PR microsoft/TypeScript-go#3425](https://github.com/microsoft/TypeScript-go/pull/3425) (Closed)
+
+**Revert "Make LS checkers time out after being idle, segment based on use"**
+
+*Revert recent LS checker idle-timeout and segmentation changes to resolve a suspected memory retention bug in the checker pool.*
+
+ * created by **jakebailey**
 

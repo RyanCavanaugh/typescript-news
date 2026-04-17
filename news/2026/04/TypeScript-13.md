@@ -1,12 +1,11 @@
 # Report for 2026-04-13 (Monday, April 13th, 2026)
 
-16 different users commented on 14 different issues.
+15 different users commented on 14 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @Janther reported that TypeScript hover shows 'string' instead of an empty string literal in [microsoft/TypeScript#45329](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-4245129346)
-    * @valerciora asked for help resolving build errors with TypeScript configuration in [microsoft/TypeScript#62207](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4243807156)
     * @paztis reported a TypeScript configuration error TS5110 in [microsoft/TypeScript#63381](https://github.com/microsoft/TypeScript/issues/63381#issuecomment-4242101376)
     * @guillaumebrunerie asked if this approach suits the use case in [microsoft/TypeScript#63397](https://github.com/microsoft/TypeScript/issues/63397#issuecomment-4238179681)
     * @conartist6 reported that the TS parser accepted unconventional code as valid in [microsoft/TypeScript#63398](https://github.com/microsoft/TypeScript/issues/63398#issuecomment-4238372874)
@@ -39,17 +38,6 @@
  * [4.1 years ago](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-1059797670) **JoshuaKGoldberg** apologized for missing the mention and described using empty string instead of null or undefined in response type unions with an example
  * [36 weeks ago](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-3133678262) **chrisvfritz** highlighted the incomplete implementation of empty string type narrowing in TypeScript and advocated for improved narrowing to avoid hacks
  * [later](https://github.com/microsoft/TypeScript/issues/45329#issuecomment-4245129346) **Janther** mentioned encountering the same issue, shared a code example returning a Doc or string, and noted that TypeScript hover shows "string" instead of the empty string literal
-
-### [Issue microsoft/TypeScript#62207](https://github.com/microsoft/TypeScript/issues/62207) (Closed, `Suggestion`, `Breaking Change`, `Committed`, `Fix Available`, **andrewbranch**, **Copilot**)
-
-**Deprecate, remove support for \`baseUrl\`**
-
-*TypeScript 6.0 will deprecate baseUrl support and require explicit prefixes in paths mappings.*
-
- * [6 days ago](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4197912770) **SOMONSOUM** suggested removing the baseUrl setting and adding a paths configuration
- * [5 days ago](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4205504780) **ArfanFahad** removed baseUrl and confirmed it worked after adding paths
- * [4 days ago](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4220113144) **Jasper-Nelligan** reported that adding a catch-all paths entry caused VSCode to auto-suggest imports from node_modules and asked if anyone else was facing the issue
- * [later](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4243807156) **valerciora** asked for help resolving build failures and deprecation suppression errors when using TypeScript 5.9.3 with baseUrl and ignoreDeprecations settings
 
 ### [PR microsoft/TypeScript#63364](https://github.com/microsoft/TypeScript/pull/63364) (Closed)
 
@@ -153,7 +141,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63398#issuecomment-4244940165) **RyanCavanaugh** clarified that the issue was a misunderstanding and that TypeScript cannot permit invalid syntax
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63399](https://github.com/microsoft/TypeScript/issues/63399) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63399](https://github.com/microsoft/TypeScript/issues/63399) (Closed, `Duplicate`)
 
 **Make object type indexable**
 

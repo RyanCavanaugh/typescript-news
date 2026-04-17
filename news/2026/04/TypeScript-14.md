@@ -1,6 +1,6 @@
 # Report for 2026-04-14 (Tuesday, April 14th, 2026)
 
-18 different users commented on 43 different issues.
+18 different users commented on 44 different issues.
 
 ## Recommended Actions
 
@@ -105,7 +105,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/63334#issuecomment-4179530261) **RyanCavanaugh** listed similar issues in an auto-generated analysis
  * **RyanCavanaugh** added label `Website`
 
-### [Issue microsoft/TypeScript#63373](https://github.com/microsoft/TypeScript/issues/63373) (Open, `External`)
+### [Issue microsoft/TypeScript#63373](https://github.com/microsoft/TypeScript/issues/63373) (Closed, `External`)
 
 **tsserver hangs in Yarn PnP projects — incorrect directory watcher due to unchecked indexOf returning \-1**
 
@@ -159,7 +159,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript/issues/63382#issuecomment-4218277267) **kidCaulfield** clarified that typeRoots includes the global types folder, explained the docs distinction with types, and reported that switching to types reintroduced the VS Code syntax highlighting issue after restarting the TS server
  * [today](https://github.com/microsoft/TypeScript/issues/63382#issuecomment-4245536013) **RyanCavanaugh** provided automated suggestions for including declaration files and linking to relevant FAQs and similar issues
 
-### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Closed, `Design Limitation`)
 
 **\`null\`/\`undefined\` guards sometimes adds \`& \({} \| undefined\`/\`& \({} \| null\` \(out of nowhere\) to the tested variable\.**
 

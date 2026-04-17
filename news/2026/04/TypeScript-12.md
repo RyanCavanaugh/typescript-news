@@ -31,7 +31,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63352#issuecomment-4234588240) **tomhamiltonlambda** said "At least one PR has been made. Closing."
  * (later) **tomhamiltonlambda** closed the issue
 
-### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Closed, `Design Limitation`)
 
 **\`null\`/\`undefined\` guards sometimes adds \`& \({} \| undefined\`/\`& \({} \| null\` \(out of nowhere\) to the tested variable\.**
 

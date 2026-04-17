@@ -33,7 +33,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * **mjbvz** unassigned **mjbvz**
 
-### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63385](https://github.com/microsoft/TypeScript/issues/63385) (Closed, `Design Limitation`)
 
 **\`null\`/\`undefined\` guards sometimes adds \`& \({} \| undefined\`/\`& \({} \| null\` \(out of nowhere\) to the tested variable\.**
 

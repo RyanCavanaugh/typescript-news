@@ -52,7 +52,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3392](https://github.com/microsoft/TypeScript-go/pull/3392) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript-go#3392](https://github.com/microsoft/TypeScript-go/pull/3392) (Closed, `dependencies`, `github_actions`)
 
 **Bump actions/upload\-artifact from 7\.0\.0 to 7\.0\.1 in the github\-actions group across 1 directory**
 

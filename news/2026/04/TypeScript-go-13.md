@@ -280,7 +280,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3396](https://github.com/microsoft/TypeScript-go/pull/3396) (Open)
+### [PR microsoft/TypeScript-go#3396](https://github.com/microsoft/TypeScript-go/pull/3396) (Closed)
 
 **Use methods for client cap resolution**
 
