@@ -1,6 +1,6 @@
 # Report for 2026-04-16 (Thursday, April 16th, 2026)
 
-9 different users commented on 12 different issues.
+9 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -20,7 +20,7 @@
  * [1.7 years ago](https://github.com/microsoft/TypeScript/issues/32392#issuecomment-2211007664) **nathanchase** expressed frustration about missing IntelliSense on destructured composable properties
  * [today](https://github.com/microsoft/TypeScript/issues/32392#issuecomment-4263114003) **zoltanium** noted the issue had lingered for seven years, speculated about it gaining traction, and volunteered to investigate specific code segments
 
-### [Issue microsoft/TypeScript#62584](https://github.com/microsoft/TypeScript/issues/62584) (Open, `Discussion`)
+### [Issue microsoft/TypeScript#62584](https://github.com/microsoft/TypeScript/issues/62584) (Closed, `Discussion`)
 
 **Experimental TypeScript fork with operator overloading and overload dispatch—documenting a working implementation**
 

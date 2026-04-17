@@ -134,7 +134,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3319#issuecomment-4257481981) **jakebailey** said "Is this done with #3382? "
 
-### [PR microsoft/TypeScript-go#3334](https://github.com/microsoft/TypeScript-go/pull/3334) (Open)
+### [PR microsoft/TypeScript-go#3334](https://github.com/microsoft/TypeScript-go/pull/3334) (Closed)
 
 **Implement multi\-file doc highlights**
 
@@ -259,7 +259,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3413#issuecomment-4255533409) **DanielRosenwasser** explained that supporting prefix '?' and '!' in JSDoc and a leading '|' operator made standalone '?' invalid and caused it to swallow the union type to its right
  * (today) **DanielRosenwasser** added labels `Domain: Parser`, `Domain: JS`, and assigned to **ahejlsberg**
 
-### [PR microsoft/TypeScript-go#3414](https://github.com/microsoft/TypeScript-go/pull/3414) (Open)
+### [PR microsoft/TypeScript-go#3414](https://github.com/microsoft/TypeScript-go/pull/3414) (Closed)
 
 **Update CHANGES\.md to reflect that JSDoc types still permit postfix/prefix \`?\`/\`\!\`\.**
 
@@ -332,7 +332,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#3422](https://github.com/microsoft/TypeScript-go/issues/3422) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3422](https://github.com/microsoft/TypeScript-go/issues/3422) (Closed, `Domain: Editor`)
 
 **Wrong function signature and missing invoking description in hover**
 
@@ -358,7 +358,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261468808) **jakebailey** asked the user to try disabling semantic highlighting by setting editor.semanticHighlighting.enabled to false
  * [later](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4261499932) **sbking** provided a heap profile with the setting disabled
 
-### [PR microsoft/TypeScript-go#3424](https://github.com/microsoft/TypeScript-go/pull/3424) (Open)
+### [PR microsoft/TypeScript-go#3424](https://github.com/microsoft/TypeScript-go/pull/3424) (Closed)
 
 **fix\(3422\): fix resolving signature docs on hover**
 

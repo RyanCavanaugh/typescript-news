@@ -1,6 +1,6 @@
 # Report for 2026-04-16 (Thursday, April 16th, 2026)
 
-13 different users commented on 60 different issues.
+13 different users commented on 65 different issues.
 
 ## Recommended Actions
 
@@ -153,6 +153,26 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/2597#issuecomment-4263010167) **jakebailey** said "I think this is actually already fixed now"
  * (today) **jakebailey** closed the issue
 
+### [Issue microsoft/TypeScript-go#2621](https://github.com/microsoft/TypeScript-go/issues/2621) (Open, `bug`, **iisaduan**, **Copilot**)
+
+**Fourslash is broken when making requests in unconfigured \.js files**
+
+*Fourslash requests in unconfigured .js files fail with “no project found” errors, breaking tests such as auto-import completion.*
+
+ * [10 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2621#issuecomment-3825894034) **DanielRosenwasser** reported that restarting the extension while a .js file was open produced a 'no project found for URI' diagnostic error
+ * (5 weeks ago) **RyanCavanaugh** added label `bug`, and set milestone to `TypeScript 7.0 RC`
+ * [later](https://github.com/microsoft/TypeScript-go/issues/2621#issuecomment-4269361026) **jakebailey** investigated an issue with fourslash tests and explained why the new runner’s server-based approach loads JS files and alters behavior compared to Strada
+
+### [PR microsoft/TypeScript-go#2622](https://github.com/microsoft/TypeScript-go/pull/2622) (Closed, **iisaduan**, **Copilot**)
+
+**Fix inferred project JavaScript file support when compiler options are provided**
+
+*Apply AllowJs:true default for unset compilerOptions in inferred projects to include JavaScript files.*
+
+ * created by **Copilot**
+ * (10 weeks ago) **Copilot** assigned to **Copilot**, **iisaduan**
+ * (later) **jakebailey** closed the issue
+
 ### [PR microsoft/TypeScript-go#2629](https://github.com/microsoft/TypeScript-go/pull/2629) (Closed)
 
 **Experiment: Distribute Control Flow**
@@ -187,6 +207,27 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4261231001) **andrewbranch** said "{firstname}.{lastname}@microsoft.com. Thanks!"
  * [today](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4262619314) **andrewbranch** said "@AndreiTS I think the issue in your video is #3423."
  * [later](https://github.com/microsoft/TypeScript-go/issues/2780#issuecomment-4267836701) **AndreiTS** confirmed that the issue matched #3423 and reported it was fixed in the new tsgo version with about 1.3 GiB RAM usage
+
+### [PR microsoft/TypeScript-go#2908](https://github.com/microsoft/TypeScript-go/pull/2908) (Open, **DanielRosenwasser**, **Copilot**)
+
+**Add regression test for inlay hints crash on reparsed nodes \(\#2460\)**
+
+*Add a regression test to ensure computing inlay hints on reparsed AST nodes in a JS module.exports function prevents panics.*
+
+ * created by **Copilot**
+ * (7 weeks ago) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
+ * (later) **jakebailey** closed the issue
+ * (later) **jakebailey** reopened the issue
+
+### [PR microsoft/TypeScript-go#2913](https://github.com/microsoft/TypeScript-go/pull/2913) (Closed, **jakebailey**, **Copilot**)
+
+**Fix TS4053 when public method return type uses imported type alias for unexported symbol**
+
+*Add test reproducing TS4053 for public methods returning imported type aliases of unexported symbols and revert flawed alias resolution fix.*
+
+ * (6 weeks ago) **Copilot** assigned to **Copilot**, **jakebailey**
+ * [6 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2913#issuecomment-3968602566) **jakebailey** said "@copilot This is the wrong fix. See all the failing tests and newly added diffs."
+ * (later) **jakebailey** closed the issue
 
 ### [PR microsoft/TypeScript-go#3084](https://github.com/microsoft/TypeScript-go/pull/3084) (Closed)
 
@@ -301,7 +342,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3401](https://github.com/microsoft/TypeScript-go/pull/3401) (Open)
+### [PR microsoft/TypeScript-go#3401](https://github.com/microsoft/TypeScript-go/pull/3401) (Closed)
 
 **Fix file counts, jsx in project telemetry**
 
@@ -436,7 +477,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** assigned to **ahejlsberg**, and unassigned **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3428](https://github.com/microsoft/TypeScript-go/pull/3428) (Open)
+### [PR microsoft/TypeScript-go#3428](https://github.com/microsoft/TypeScript-go/pull/3428) (Closed)
 
 **Fix auto\-import log structure after deduplicating node\_modules package extractions**
 
@@ -468,6 +509,14 @@
 *Export alias symbols for CJS exports.Foo assignments on entity names or class expressions to preserve type and namespace semantics.*
 
  * created by **ahejlsberg**
+
+### [PR microsoft/TypeScript-go#3432](https://github.com/microsoft/TypeScript-go/pull/3432) (Open)
+
+**Enable allowJs when inferred project has root JS files**
+
+*Automatically enable allowJs for inferred projects with root JS files and introduce a @noDefaultOpen option to prevent default file openings in fourslash tests.*
+
+ * created by **jakebailey**
 
 ### [PR microsoft/TypeScript-go#731](https://github.com/microsoft/TypeScript-go/pull/731) (Closed)
 

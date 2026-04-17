@@ -296,7 +296,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3398](https://github.com/microsoft/TypeScript-go/pull/3398) (Open)
+### [PR microsoft/TypeScript-go#3398](https://github.com/microsoft/TypeScript-go/pull/3398) (Closed)
 
 **Update dependencies**
 

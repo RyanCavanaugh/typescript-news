@@ -88,7 +88,7 @@
  * **RyanCavanaugh** assigned to **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#2209](https://github.com/microsoft/TypeScript-go/issues/2209) (Open, `Domain: Editor`, **Copilot**)
+### [Issue microsoft/TypeScript-go#2209](https://github.com/microsoft/TypeScript-go/issues/2209) (Closed, `Domain: Editor`, **Copilot**)
 
 **\[lsp\] Go to Definition missing getter when property returns callable interface**
 
@@ -927,7 +927,7 @@
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3401](https://github.com/microsoft/TypeScript-go/pull/3401) (Open)
+### [PR microsoft/TypeScript-go#3401](https://github.com/microsoft/TypeScript-go/pull/3401) (Closed)
 
 **Fix file counts, jsx in project telemetry**
 
