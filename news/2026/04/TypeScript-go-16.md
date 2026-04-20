@@ -455,7 +455,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Open, `possible improvement`, **ahejlsberg**)
 
 **tsc produces error, tsgo doesn't with sufficiently nested type**
 
@@ -502,7 +502,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3431](https://github.com/microsoft/TypeScript-go/pull/3431) (Open)
+### [PR microsoft/TypeScript-go#3431](https://github.com/microsoft/TypeScript-go/pull/3431) (Closed)
 
 **Exports aliases for CJS \`exports\.Foo = \.\.\.\` assignments when appropriate**
 

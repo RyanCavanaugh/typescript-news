@@ -240,7 +240,7 @@
  * (2 days ago) **typescript-bot** closed the issue
  * **typescript-bot** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#63396](https://github.com/microsoft/TypeScript/pull/63396) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#63396](https://github.com/microsoft/TypeScript/pull/63396) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group with 2 updates**
 
@@ -322,7 +322,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253431817) **RyanCavanaugh** said "Yeah, I forgot I had the TypeScript-go LS (7.0) enabled. In 6.0 I'm seeing tsserver repeatedly spawn and exit, but I'm also seeing this in TypeScript 5.9. What changed for y'all?"
  * [later](https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4253505723) **hikeeba** said "Unfortunately I don't have anything to point to here as for what changed. I have older projects that work, but I haven't spun up any new ones in a while until just now."
 
-### [Issue microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63406](https://github.com/microsoft/TypeScript/issues/63406) (Closed, `Not a Defect`)
 
 **TS incorrectly downgrades class fields**
 
