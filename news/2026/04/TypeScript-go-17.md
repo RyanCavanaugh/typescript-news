@@ -422,7 +422,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3426#issuecomment-4271613649) **joshcartme** inquired whether differentiating between generic and concrete types in Copilot's PR was reasonable after building and testing it against his repro and noting tsgo reported the error
  * [later](https://github.com/microsoft/TypeScript-go/issues/3426#issuecomment-4273579488) **ahejlsberg** pointed out that the proposed fix was invalid because generative recursive type references such as Deep<Deep<T>> can lack generic types after instantiation but still require detection
 
-### [PR microsoft/TypeScript-go#3427](https://github.com/microsoft/TypeScript-go/pull/3427) (Open, **ahejlsberg**, **Copilot**)
+### [PR microsoft/TypeScript-go#3427](https://github.com/microsoft/TypeScript-go/pull/3427) (Closed, **ahejlsberg**, **Copilot**)
 
 **Fix isDeeplyNestedType false positive for concrete TypeReferences in multi\-checker mode**
 
@@ -532,7 +532,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3437#issuecomment-4271898868) **typescript-bot** reported that the server connection closed prematurely with an undefined error for the n8n repository and provided artifact links, recent editor requests, and repro steps
  * [today](https://github.com/microsoft/TypeScript-go/issues/3437#issuecomment-4271898938) **typescript-bot** reported a panic failure in textDocument/formatting handling due to false expression Token end is child end
 
-### [Issue microsoft/TypeScript-go#3438](https://github.com/microsoft/TypeScript-go/issues/3438) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3438](https://github.com/microsoft/TypeScript-go/issues/3438) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Referencing a \`\.d\.ts\` file on disk via \`\.ts\` in a paths entry crashes**
 
@@ -542,11 +542,11 @@
  * **Mike-Dax** added label `Crash`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3439](https://github.com/microsoft/TypeScript-go/pull/3439) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3439](https://github.com/microsoft/TypeScript-go/pull/3439) (Closed, **jakebailey**, **Copilot**)
 
 **Fix crash when paths entry references \.d\.ts file via \.ts extension**
 
-*A paths mapping referencing a nonexistent .ts file but existing .d.ts file incorrectly sets resolvedUsingTsExtension and crashes.*
+*Corrects module resolution to prevent crashes when a paths entry specifies a .ts extension but resolves to a .d.ts file.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**

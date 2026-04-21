@@ -503,7 +503,7 @@
  * (2 weeks ago) **DanielRosenwasser** reopened the issue
  * **RyanCavanaugh** added to milestone `Possible Improvement`
 
-### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Open, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Closed, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
 
 **High memory consumption in a large pnpm monorepo**
 

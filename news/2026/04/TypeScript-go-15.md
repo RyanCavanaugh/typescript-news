@@ -56,7 +56,7 @@
  * (2 weeks ago) **RyanCavanaugh** closed the issue
  * [later](https://github.com/microsoft/TypeScript-go/issues/2701#issuecomment-4259805234) **chriskrycho** checked notifications, began bumping to the latest nightly, and planned to switch the last package from tsc to tsgo after confirmation
 
-### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Open, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Closed, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
 
 **High memory consumption in a large pnpm monorepo**
 

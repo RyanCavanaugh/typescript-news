@@ -83,7 +83,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/63401#issuecomment-4254847938) **typescript-bot** said "Hey, @jakebailey! I've created #63407 for you."
  * **DanielRosenwasser** added to milestone `TypeScript 6.0.3`
 
-### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Open, `Question`)
+### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Closed, `Question`)
 
 **VSCode's TypeScript Language Server Keeps Crashing on a Project**
 
@@ -142,7 +142,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63413#issuecomment-4273656495) **Jah-yee** thanked for feedback and explained that the PR addressed issue #30408 by improving the diagnostic error message
  * [later](https://github.com/microsoft/TypeScript/pull/63413#issuecomment-4273921308) **jakebailey** asked to disclaim what tool was used to send the PR
 
-### [PR microsoft/TypeScript#63414](https://github.com/microsoft/TypeScript/pull/63414) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63414](https://github.com/microsoft/TypeScript/pull/63414) (Closed, `For Uncommitted Bug`)
 
 **Sort JSDoc parameter suggestions by argument position**
 

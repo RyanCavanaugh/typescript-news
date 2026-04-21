@@ -305,7 +305,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63404#issuecomment-4247956854) **Bodlux** asked for preferred security contact to share details of a potential CI security concern
  * [today](https://github.com/microsoft/TypeScript/pull/63404#issuecomment-4248030953) **RyanCavanaugh** said "Please consult SECURITY.md"
 
-### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Open, `Question`)
+### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Closed, `Question`)
 
 **VSCode's TypeScript Language Server Keeps Crashing on a Project**
 

@@ -4,7 +4,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Open, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Closed, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
 
 **High memory consumption in a large pnpm monorepo**
 
@@ -45,7 +45,7 @@
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3442#issuecomment-4278352667) **jakebailey** said "This is certainly a bug, but I don't think it's the actual bug"
 
-### [PR microsoft/TypeScript-go#3443](https://github.com/microsoft/TypeScript-go/pull/3443) (Open)
+### [PR microsoft/TypeScript-go#3443](https://github.com/microsoft/TypeScript-go/pull/3443) (Closed)
 
 **Provide more accurate rename range in \`prepareRename\` LSP response**
 
@@ -54,7 +54,7 @@
  * created by **auvred**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3443#issuecomment-4281810956) **jakebailey** said "This seems fine but, no tests change?"
 
-### [PR microsoft/TypeScript-go#3444](https://github.com/microsoft/TypeScript-go/pull/3444) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript-go#3444](https://github.com/microsoft/TypeScript-go/pull/3444) (Closed, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group across 1 directory with 2 updates**
 
@@ -71,5 +71,7 @@
 
  * created by **ahejlsberg**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3445#issuecomment-4282152133) **ahejlsberg** said "@typescript-bot test it"
- * [later](https://github.com/microsoft/TypeScript-go/pull/3445#issuecomment-4282152795) **typescript-bot** reported build jobs starting and displayed their statuses
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3445#issuecomment-4282152795) **typescript-bot** provided automated CI build status updates for various commands
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3445#issuecomment-4282308420) **typescript-bot** reported performance run results for requested comparison
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3445#issuecomment-4282349186) **typescript-bot** reported the test results comparing main with refs/pull/3445/merge, noted a git clone infrastructure failure, and confirmed everything else looked good
 

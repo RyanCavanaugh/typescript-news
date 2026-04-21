@@ -119,7 +119,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63401#issuecomment-4254590056) **typescript-bot** posted CI jobs start and completion status with links to actions runs and results
  * [today](https://github.com/microsoft/TypeScript/pull/63401#issuecomment-4254847938) **typescript-bot** said "Hey, @jakebailey! I've created #63407 for you."
 
-### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Open, `Question`)
+### [Issue microsoft/TypeScript#63405](https://github.com/microsoft/TypeScript/issues/63405) (Closed, `Question`)
 
 **VSCode's TypeScript Language Server Keeps Crashing on a Project**
 

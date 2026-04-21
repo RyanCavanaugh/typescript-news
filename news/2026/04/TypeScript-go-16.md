@@ -196,7 +196,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2701#issuecomment-4259805234) **chriskrycho** checked notifications, began bumping to the latest nightly, and planned to switch the last package from tsc to tsgo after confirmation
  * [today](https://github.com/microsoft/TypeScript-go/issues/2701#issuecomment-4264417445) **chriskrycho** said "Update: #2459 also had some fixes that we need to go chase down before landing it, and I’m off till the 27th, but should land it early that week; will report back then!"
 
-### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Open, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#2780](https://github.com/microsoft/TypeScript-go/issues/2780) (Closed, `Domain: Editor`, `Needs More Info`, **andrewbranch**)
 
 **High memory consumption in a large pnpm monorepo**
 
@@ -467,7 +467,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3426#issuecomment-4262716834) **RyanCavanaugh** investigated and ruled out the issue as a manifestation of TypeScript issue #52912
  * (today) **RyanCavanaugh** unassigned **RyanCavanaugh**, **Copilot**
 
-### [PR microsoft/TypeScript-go#3427](https://github.com/microsoft/TypeScript-go/pull/3427) (Open, **ahejlsberg**, **Copilot**)
+### [PR microsoft/TypeScript-go#3427](https://github.com/microsoft/TypeScript-go/pull/3427) (Closed, **ahejlsberg**, **Copilot**)
 
 **Fix isDeeplyNestedType false positive for concrete TypeReferences in multi\-checker mode**
 
