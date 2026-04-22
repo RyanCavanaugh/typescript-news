@@ -1,6 +1,6 @@
 # Report for 2026-04-20 (Monday, April 20th, 2026)
 
-5 different users commented on 19 different issues.
+5 different users commented on 20 different issues.
 
 ## Activity Summary
 
@@ -50,7 +50,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63414#issuecomment-4282856152) **RyanCavanaugh** said "See #62963; this does not meet the 6.0 patch bar"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open)
+### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open, `Duplicate`)
 
 **JSDoc parser treats \`@foo\` inside fenced code blocks as a tag, breaking hover previews**
 
@@ -60,7 +60,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63416#issuecomment-4276891516) **MartinJohns** said "Duplicate of #58992."
  * [today](https://github.com/microsoft/TypeScript/issues/63416#issuecomment-4282661729) **RyanCavanaugh** generated an automated analysis listing similar issues
 
-### [Issue microsoft/TypeScript#63418](https://github.com/microsoft/TypeScript/issues/63418) (Open)
+### [Issue microsoft/TypeScript#63418](https://github.com/microsoft/TypeScript/issues/63418) (Closed, `Unactionable`)
 
 **VS Code: support file jump for import paths with query params \(vanilla JS\)**
 
@@ -70,7 +70,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * **mjbvz** unassigned **mjbvz**
 
-### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Open)
+### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Open, `Won't Fix`)
 
 **Transformer that updates an ambient property declaration is emitted as non\-ambient**
 
@@ -78,7 +78,7 @@
 
  * created by **JoostK**
 
-### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open)
+### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open, `Bug`)
 
 **union of pattern template literals intersected with optional brand mutually assignable to one with incompatible brand**
 

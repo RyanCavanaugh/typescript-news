@@ -352,7 +352,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3401#issuecomment-4264189999) **DanielRosenwasser** asked which part of file counting this fix addressed
  * [today](https://github.com/microsoft/TypeScript-go/pull/3401#issuecomment-4264203781) **jakebailey** admitted that the change fixed nothing related to file counting and that he did not know what was wrong
 
-### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Open)
+### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Closed)
 
 **fix\(3410\): preserve type arguments in hover for qualified names**
 

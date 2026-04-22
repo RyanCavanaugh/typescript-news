@@ -229,7 +229,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3409#issuecomment-4254796332) **gabritto** described a proposed fix for the fuzzer crash and noted confusion about how a nil command line could occur in the fuzzer
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3410](https://github.com/microsoft/TypeScript-go/issues/3410) (Open, `bug`, `Domain: Editor`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3410](https://github.com/microsoft/TypeScript-go/issues/3410) (Closed, `bug`, `Domain: Editor`, **weswigham**)
 
 **Type serializer omits type arguments of outer functions**
 
@@ -241,7 +241,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3410#issuecomment-4253860186) **ahejlsberg** agreed that using ExpressionWithTypeArguments was the modern fix
  * [today](https://github.com/microsoft/TypeScript-go/issues/3410#issuecomment-4254159917) **weswigham** agreed on using ExpressionWithTypeArguments and suggested adding a node builder flag and leveraging the existing AST for type argument data
 
-### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Open)
+### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Closed)
 
 **fix\(3410\): preserve type arguments in hover for qualified names**
 

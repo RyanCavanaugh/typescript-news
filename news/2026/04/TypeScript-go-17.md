@@ -368,7 +368,7 @@
  * created by **navya9singh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Open)
+### [PR microsoft/TypeScript-go#3412](https://github.com/microsoft/TypeScript-go/pull/3412) (Closed)
 
 **fix\(3410\): preserve type arguments in hover for qualified names**
 

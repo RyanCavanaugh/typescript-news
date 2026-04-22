@@ -1,6 +1,6 @@
 # Report for 2026-04-19 (Sunday, April 19th, 2026)
 
-7 different users commented on 9 different issues.
+7 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63415#issuecomment-4277062057) **typescript-bot** reported the performance run results requested by @ahejlsberg
  * [today](https://github.com/microsoft/TypeScript/pull/63415#issuecomment-4277078148) **typescript-bot** reported type checking errors when comparing main and pull/63415 merge across top 400 repositories and highlighted errors in amruthpillai/reactive-resume
 
-### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open)
+### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open, `Duplicate`)
 
 **JSDoc parser treats \`@foo\` inside fenced code blocks as a tag, breaking hover previews**
 

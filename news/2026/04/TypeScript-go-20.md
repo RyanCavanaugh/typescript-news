@@ -1,6 +1,6 @@
 # Report for 2026-04-20 (Monday, April 20th, 2026)
 
-16 different users commented on 26 different issues.
+16 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3439#issuecomment-4284239059) **DanielRosenwasser** said "Would prefer for Copilot to make the change."
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3441](https://github.com/microsoft/TypeScript-go/issues/3441) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3441](https://github.com/microsoft/TypeScript-go/issues/3441) (Closed, **jakebailey**, **Copilot**)
 
 **Panic handling textDocument/semanticTokens/{full,range}: slice bounds out of range and token\-spans\-multiple\-lines**
 
@@ -269,7 +269,7 @@
  * (later) **ahejlsberg** added label `Domain: Declaration Emit`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3456#issuecomment-4289186020) **Andarist** suggested adding tests for static properties declared in static blocks because Strada emitted an empty class for them
 
-### [PR microsoft/TypeScript-go#3457](https://github.com/microsoft/TypeScript-go/pull/3457) (Open)
+### [PR microsoft/TypeScript-go#3457](https://github.com/microsoft/TypeScript-go/pull/3457) (Closed)
 
 **Fixed crash when resolving declaration spaces on merged symbols resolving to export assignment**
 
@@ -287,7 +287,7 @@
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3458#issuecomment-4289326792) **jakebailey** confirmed expectation and linked to the relevant code in hover.ts
 
-### [PR microsoft/TypeScript-go#3459](https://github.com/microsoft/TypeScript-go/pull/3459) (Open)
+### [PR microsoft/TypeScript-go#3459](https://github.com/microsoft/TypeScript-go/pull/3459) (Closed)
 
 **Baseline diff triaging**
 

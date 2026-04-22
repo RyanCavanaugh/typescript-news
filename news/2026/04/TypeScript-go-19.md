@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3364#issuecomment-4276783406) **mjbvz** said "@andrewbranch You're using Dirk's LSP host, right? Or are you using the VS Code apis directly? "
  * [later](https://github.com/microsoft/TypeScript-go/issues/3364#issuecomment-4278651871) **DanielRosenwasser** stated that functionality should be handled by the language client and noted the project is on version 10.0.0-next.21, linking to the package.json
 
-### [Issue microsoft/TypeScript-go#3441](https://github.com/microsoft/TypeScript-go/issues/3441) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3441](https://github.com/microsoft/TypeScript-go/issues/3441) (Closed, **jakebailey**, **Copilot**)
 
 **Panic handling textDocument/semanticTokens/{full,range}: slice bounds out of range and token\-spans\-multiple\-lines**
 
@@ -35,7 +35,7 @@
  * created by **liby**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3442](https://github.com/microsoft/TypeScript-go/pull/3442) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3442](https://github.com/microsoft/TypeScript-go/pull/3442) (Closed, **jakebailey**, **Copilot**)
 
 **Fix utf8\.RuneLen bug in LineAndCharacterToPosition for invalid UTF\-8 sequences**
 
