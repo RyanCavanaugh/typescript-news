@@ -36,7 +36,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2836#issuecomment-4286470961) **tido64** apologized for the delay and clarified that they stored the exec path in node_modules/.cache/tsgo, noted that the file location did not affect the architecture, and described using getExePath with persisting to disk (link provided)
  * [today](https://github.com/microsoft/TypeScript-go/issues/2836#issuecomment-4286516248) **jakebailey** said "I'm beyond surprised that this helps at all, given both hit the disk and "importing a module" should be the least of anyone's concerns. I'll have to try it and see..."
 
-### [PR microsoft/TypeScript-go#3328](https://github.com/microsoft/TypeScript-go/pull/3328) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#3328](https://github.com/microsoft/TypeScript-go/pull/3328) (Closed, **andrewbranch**, **Copilot**)
 
 **Fix auto\-imports inserting \`import\` in CJS files when \`moduleDetection\` is \`force\`**
 
@@ -107,7 +107,7 @@
  * (today) **dependabot[bot]** added labels `github_actions`, `dependencies`, `github_actions`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3445](https://github.com/microsoft/TypeScript-go/pull/3445) (Open)
+### [PR microsoft/TypeScript-go#3445](https://github.com/microsoft/TypeScript-go/pull/3445) (Closed)
 
 **Improve recursion identity for direct type instantiations**
 
@@ -206,7 +206,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3454](https://github.com/microsoft/TypeScript-go/pull/3454) (Open)
+### [PR microsoft/TypeScript-go#3454](https://github.com/microsoft/TypeScript-go/pull/3454) (Closed)
 
 **Cancel auto\-import cache warming if changes come in while building**
 
@@ -249,7 +249,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3454#issuecomment-4285883867) **typescript-bot** reported a panic during textDocument/hover handling due to an invalid memory address or nil pointer dereference
  * [today](https://github.com/microsoft/TypeScript-go/pull/3454#issuecomment-4285883907) **typescript-bot** reported a panic in textDocument/hover due to an unhandled case in Type.Target during the top 400 repos suite run
 
-### [Issue microsoft/TypeScript-go#3455](https://github.com/microsoft/TypeScript-go/issues/3455) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3455](https://github.com/microsoft/TypeScript-go/issues/3455) (Closed, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **Wrong highlight in hover for generic func type with \`property\` and \`accessor\` prefix**
 
@@ -277,7 +277,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3458](https://github.com/microsoft/TypeScript-go/pull/3458) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3458](https://github.com/microsoft/TypeScript-go/pull/3458) (Closed, **jakebailey**, **Copilot**)
 
 **Use \`typescript\` instead of \`tsx\` for hover code block language**
 

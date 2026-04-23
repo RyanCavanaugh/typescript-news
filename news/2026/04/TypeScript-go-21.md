@@ -1,6 +1,6 @@
 # Report for 2026-04-21 (Tuesday, April 21st, 2026)
 
-12 different users commented on 53 different issues.
+12 different users commented on 55 different issues.
 
 ## Activity Summary
 
@@ -89,7 +89,7 @@
  * created by **Andarist**
  * (today) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#3458](https://github.com/microsoft/TypeScript-go/pull/3458) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3458](https://github.com/microsoft/TypeScript-go/pull/3458) (Closed, **jakebailey**, **Copilot**)
 
 **Use \`typescript\` instead of \`tsx\` for hover code block language**
 
@@ -179,7 +179,7 @@
  * **gabritto** added label `Crash`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3467](https://github.com/microsoft/TypeScript-go/issues/3467) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3467](https://github.com/microsoft/TypeScript-go/issues/3467) (Closed, `Crash`)
 
 **panic handling request textDocument/hover: runtime error: invalid memory address or nil pointer dereference in \`HasTrailingComma\`**
 
@@ -187,6 +187,7 @@
 
  * created by **gabritto**
  * **gabritto** added label `Crash`
+ * (later) **gabritto** closed the issue
 
 ### [Issue microsoft/TypeScript-go#3468](https://github.com/microsoft/TypeScript-go/issues/3468) (Closed)
 
@@ -342,15 +343,16 @@
 
  * created by **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3485](https://github.com/microsoft/TypeScript-go/pull/3485) (Open)
+### [PR microsoft/TypeScript-go#3485](https://github.com/microsoft/TypeScript-go/pull/3485) (Closed)
 
 **Fix hover crash on classes with anonymous base class**
 
 *Hovering over classes inheriting from anonymous base classes causes the hover feature to crash.*
 
  * created by **Andarist**
+ * (later) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#3486](https://github.com/microsoft/TypeScript-go/pull/3486) (Open)
+### [PR microsoft/TypeScript-go#3486](https://github.com/microsoft/TypeScript-go/pull/3486) (Closed)
 
 **Updates to accepted/triaged submodule diffs**
 
@@ -383,7 +385,7 @@
 
  * created by **tomquist**
 
-### [Issue microsoft/TypeScript-go#3490](https://github.com/microsoft/TypeScript-go/issues/3490) (Open)
+### [Issue microsoft/TypeScript-go#3490](https://github.com/microsoft/TypeScript-go/issues/3490) (Open, `wontfix`)
 
 **TS2411 reported on properties declared in \`node\_modules\` \`\.d\.ts\` files \(e\.g\. @types/jsdom DOMWindow\), where tsc 6\.0 silently allows them**
 
@@ -409,7 +411,7 @@
 
  * created by **tomquist**
 
-### [Issue microsoft/TypeScript-go#3493](https://github.com/microsoft/TypeScript-go/issues/3493) (Open, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3493](https://github.com/microsoft/TypeScript-go/issues/3493) (Closed, **andrewbranch**)
 
 **\`maxNodeModuleJsDepth\` \+ \`allowJs\` does not load types from a CommonJS dependency in \`node\_modules\` \(TS7016 vs tsc 6\.0 success\)**
 
@@ -418,7 +420,7 @@
  * created by **tomquist**
  * (later) **ahejlsberg** assigned to **ahejlsberg**, **andrewbranch**, and unassigned **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3494](https://github.com/microsoft/TypeScript-go/issues/3494) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3494](https://github.com/microsoft/TypeScript-go/issues/3494) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **\`keyof this\` is computed too narrowly on a subclass that passes itself as its own type parameter, causing TS2345 / TS2322 variance failure**
 
@@ -453,7 +455,7 @@
 
  * created by **Andarist**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297503973) **ahejlsberg** said "@typescript-bot test it"
- * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297504524) **typescript-bot** posted CI job statuses with start links and placeholders for results
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297504524) **typescript-bot** posted automated build status updates
  * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297663352) **typescript-bot** posted performance run results requested by @ahejlsberg
  * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297722737) **typescript-bot** reported automated test results indicating potential infrastructure failures and new TS7053 errors in webpack's EnvironmentPlugin.js
 
@@ -474,7 +476,7 @@
 
  * created by **a-tarasyuk**
 
-### [PR microsoft/TypeScript-go#3500](https://github.com/microsoft/TypeScript-go/pull/3500) (Open)
+### [PR microsoft/TypeScript-go#3500](https://github.com/microsoft/TypeScript-go/pull/3500) (Closed)
 
 **Include member resolution status in \`getLiteralTypeFromProperties\` key**
 

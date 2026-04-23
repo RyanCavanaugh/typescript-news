@@ -78,7 +78,7 @@
 
  * created by **JoostK**
 
-### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open, `Bug`, `Domain: Intersection`)
 
 **union of pattern template literals intersected with optional brand mutually assignable to one with incompatible brand**
 

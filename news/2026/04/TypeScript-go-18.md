@@ -21,7 +21,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4274358674) **pedro757** said "@jakebailey I think it improved a bit in the latest version, but still not as good as version 20260408, latest version uses 50% more RAM"
  * [today](https://github.com/microsoft/TypeScript-go/issues/3423#issuecomment-4274597818) **jakebailey** said "There's nothing else that should have affected that; if possible a repro would be good, or a bisect "
 
-### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Open, `possible improvement`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Closed, `possible improvement`, **ahejlsberg**)
 
 **tsc produces error, tsgo doesn't with sufficiently nested type**
 

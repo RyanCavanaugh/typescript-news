@@ -1,6 +1,6 @@
 # Report for 2026-04-19 (Sunday, April 19th, 2026)
 
-10 different users commented on 7 different issues.
+10 different users commented on 8 different issues.
 
 ## Activity Summary
 
@@ -63,7 +63,7 @@
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [PR microsoft/TypeScript-go#3445](https://github.com/microsoft/TypeScript-go/pull/3445) (Open)
+### [PR microsoft/TypeScript-go#3445](https://github.com/microsoft/TypeScript-go/pull/3445) (Closed)
 
 **Improve recursion identity for direct type instantiations**
 

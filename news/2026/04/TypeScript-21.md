@@ -56,7 +56,7 @@
  * **RyanCavanaugh** added label `Won't Fix`
  * [today](https://github.com/microsoft/TypeScript/issues/63419#issuecomment-4290565099) **RyanCavanaugh** said "This doesn't meet the 6.0 patch bar, and 7.0+ doesn't have a corresponding implementation for this code."
 
-### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63420](https://github.com/microsoft/TypeScript/issues/63420) (Open, `Bug`, `Domain: Intersection`)
 
 **union of pattern template literals intersected with optional brand mutually assignable to one with incompatible brand**
 
@@ -66,7 +66,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63420#issuecomment-4290418908) **RyanCavanaugh** provided an automated analysis of why the two branded types are structurally assignable and linked relevant FAQs and issues
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Open)
+### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Open, `Not a Defect`)
 
 **"Using type predicates" documentation promotes lying to the type system**
 

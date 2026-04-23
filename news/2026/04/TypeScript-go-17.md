@@ -409,7 +409,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3424#issuecomment-4270507017) **DanielRosenwasser** said "Thanks!"
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Open, `possible improvement`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3426](https://github.com/microsoft/TypeScript-go/issues/3426) (Closed, `possible improvement`, **ahejlsberg**)
 
 **tsc produces error, tsgo doesn't with sufficiently nested type**
 
@@ -441,7 +441,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3430](https://github.com/microsoft/TypeScript-go/pull/3430) (Open)
+### [PR microsoft/TypeScript-go#3430](https://github.com/microsoft/TypeScript-go/pull/3430) (Closed)
 
 **Move @typescript/api and @typescript/ast into @typescript/native\-preview for publishing**
 
