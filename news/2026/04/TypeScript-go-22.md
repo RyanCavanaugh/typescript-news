@@ -1,6 +1,6 @@
 # Report for 2026-04-22 (Wednesday, April 22nd, 2026)
 
-19 different users commented on 45 different issues.
+20 different users commented on 47 different issues.
 
 ## Recommended Actions
 
@@ -78,7 +78,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3430#issuecomment-4298489649) **jakebailey** asked about excluding vendored code from formatting and bundling it with esbuild
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3436](https://github.com/microsoft/TypeScript-go/pull/3436) (Open)
+### [PR microsoft/TypeScript-go#3436](https://github.com/microsoft/TypeScript-go/pull/3436) (Closed)
 
 **feat: add textDocument/\_vs\_onAutoInsert handler for VS closing tag auto\-insertion**
 
@@ -240,7 +240,7 @@
 
  * created by **johnfav03**
 
-### [Issue microsoft/TypeScript-go#3506](https://github.com/microsoft/TypeScript-go/issues/3506) (Open, `Crash`, **gabritto**)
+### [Issue microsoft/TypeScript-go#3506](https://github.com/microsoft/TypeScript-go/issues/3506) (Closed, `Crash`, **gabritto**)
 
 **Verbose quick info crash when base type constructs an intersection**
 
@@ -255,7 +255,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3506#issuecomment-4299456045) **DanielRosenwasser** said "That should make the fix in my PR more understandable."
  * (today) **DanielRosenwasser** assigned to **gabritto**, and unassigned **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#3507](https://github.com/microsoft/TypeScript-go/pull/3507) (Open)
+### [PR microsoft/TypeScript-go#3507](https://github.com/microsoft/TypeScript-go/pull/3507) (Closed)
 
 **Avoid constructing empty \`extends\` clauses in hovers**
 
@@ -271,7 +271,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3509](https://github.com/microsoft/TypeScript-go/issues/3509) (Open)
+### [Issue microsoft/TypeScript-go#3509](https://github.com/microsoft/TypeScript-go/issues/3509) (Closed, **ahejlsberg**)
 
 **TS2690 \(with "Did you mean 'P in K'?" mapped type suggestion\) changed to TS2693 \(generic "refers to a type, but is being used as a value"\) — mapped type suggestion lost**
 
@@ -279,7 +279,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3510](https://github.com/microsoft/TypeScript-go/issues/3510) (Open)
+### [Issue microsoft/TypeScript-go#3510](https://github.com/microsoft/TypeScript-go/issues/3510) (Closed)
 
 **JS: \`{} == {}\` loose equality now also flagged with TS2839**
 
@@ -348,6 +348,7 @@
  * created by **Bertie690**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3514#issuecomment-4300077335) **Andarist** noted that baseline diffs already show this and suggested treating the change as intentional
  * [today](https://github.com/microsoft/TypeScript-go/issues/3514#issuecomment-4300374534) **Bertie690** noted that the inconsistency was likely accidental as `GenericA` remained typed as `any` and observed that error-suppression tools undermined the rule against making assumptions about code with errors
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3514#issuecomment-4305880059) **RyanCavanaugh** explained that both outcomes are defensible and no invariant exists for types from errorful expressions
 
 ### [PR microsoft/TypeScript-go#3515](https://github.com/microsoft/TypeScript-go/pull/3515) (Open)
 
@@ -384,7 +385,7 @@
  * created by **TorinAsakura**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3518#issuecomment-4301346088) **TorinAsakura** agreed to the CLA with no company specified
 
-### [Issue microsoft/TypeScript-go#3519](https://github.com/microsoft/TypeScript-go/issues/3519) (Open)
+### [Issue microsoft/TypeScript-go#3519](https://github.com/microsoft/TypeScript-go/issues/3519) (Closed)
 
 **Behaviour differences observed as react stuffs on a js file gets imported into another ts file**
 
@@ -409,12 +410,12 @@
 
 **Fix isolatedDeclarations errors for arrow functions with default parameters**
 
-*Update pseudochecker optionality and undefined inference for default arrow function parameters to fix spurious isolatedDeclarations errors.*
+*Fix isolatedDeclarations errors and optimize performance by improving pseudochecker default parameter handling and undefined recognition for arrow functions*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3522](https://github.com/microsoft/TypeScript-go/pull/3522) (Open)
+### [PR microsoft/TypeScript-go#3522](https://github.com/microsoft/TypeScript-go/pull/3522) (Closed)
 
 **Bring any back as default type param in JS files**
 
@@ -422,7 +423,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3523](https://github.com/microsoft/TypeScript-go/pull/3523) (Open)
+### [PR microsoft/TypeScript-go#3523](https://github.com/microsoft/TypeScript-go/pull/3523) (Closed)
 
 **Fix hover expansion for aliased default function exports**
 
@@ -438,11 +439,27 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3525](https://github.com/microsoft/TypeScript-go/pull/3525) (Open)
+### [PR microsoft/TypeScript-go#3525](https://github.com/microsoft/TypeScript-go/pull/3525) (Closed)
 
 **fix\(3510\): handle object\-equality diagnostics**
 
 *Implement correct diagnostic handling for object equality comparisons.*
 
  * created by **a-tarasyuk**
+
+### [Issue microsoft/TypeScript-go#3526](https://github.com/microsoft/TypeScript-go/issues/3526) (Closed)
+
+**Non\-deterministic error count in multi\-threaded mode**
+
+*tsgo’s multi-threaded mode produces non-deterministic module resolution errors across runs due to race conditions, while single-threaded runs remain stable.*
+
+ * created by **mikeduminy**
+
+### [PR microsoft/TypeScript-go#3527](https://github.com/microsoft/TypeScript-go/pull/3527) (Closed)
+
+**Add CLI and LSP attach to launch\.template**
+
+*Add CLI and LSP server attach configurations to the Go launch.template for easier debugging of LSP processes*
+
+ * created by **andrewbranch**
 

@@ -508,7 +508,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3436](https://github.com/microsoft/TypeScript-go/pull/3436) (Open)
+### [PR microsoft/TypeScript-go#3436](https://github.com/microsoft/TypeScript-go/pull/3436) (Closed)
 
 **feat: add textDocument/\_vs\_onAutoInsert handler for VS closing tag auto\-insertion**
 

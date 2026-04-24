@@ -20,7 +20,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4288080930) **ruizmarc** confirmed experiencing the same issue where autoimports start with node_modules/ instead of the library name
  * [today](https://github.com/microsoft/TypeScript/issues/62207#issuecomment-4293131060) **li-zck** affirmed encountering the issue and asked for a workaround
 
-### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Closed, `Duplicate`)
 
 **JSDoc parser treats \`@foo\` inside fenced code blocks as a tag, breaking hover previews**
 
@@ -45,7 +45,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63418#issuecomment-4290572603) **RyanCavanaugh** said "No repro steps or version information. Please log a new issue with enough information."
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Open, `Won't Fix`)
+### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Closed, `Won't Fix`)
 
 **Transformer that updates an ambient property declaration is emitted as non\-ambient**
 

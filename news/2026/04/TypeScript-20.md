@@ -50,7 +50,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63414#issuecomment-4282856152) **RyanCavanaugh** said "See #62963; this does not meet the 6.0 patch bar"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63416](https://github.com/microsoft/TypeScript/issues/63416) (Closed, `Duplicate`)
 
 **JSDoc parser treats \`@foo\` inside fenced code blocks as a tag, breaking hover previews**
 
@@ -70,7 +70,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * **mjbvz** unassigned **mjbvz**
 
-### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Open, `Won't Fix`)
+### [Issue microsoft/TypeScript#63419](https://github.com/microsoft/TypeScript/issues/63419) (Closed, `Won't Fix`)
 
 **Transformer that updates an ambient property declaration is emitted as non\-ambient**
 

@@ -1,6 +1,6 @@
 # Report for 2026-04-22 (Wednesday, April 22nd, 2026)
 
-13 different users commented on 13 different issues.
+14 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -119,8 +119,9 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4304286820) **mkantor** explained that JavaScript property keys are always strings or symbols and that TypeScript normalizes numeric keys, noted differences with keyof and referenced issue #47214
  * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4304393568) **mkantor** rephrased the issue by explaining that B is displayed as a valid but observably-distinct type, which may confuse users copying it
  * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4304396986) **codpro2005** acknowledged the oversight and explained scoping the issue to the hover inconsistency
+ * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4305918025) **RyanCavanaugh** provided a list of similar issues
 
-### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Open)
+### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Open, `Duplicate`)
 
 **Incorrect TS18047 Error \-\-\> "variable is possibly null"**
 
@@ -128,13 +129,15 @@
 
  * created by **PoseidonEnergy**
  * [later](https://github.com/microsoft/TypeScript/issues/63426#issuecomment-4305049124) **MartinJohns** said "Another duplicate of #9998."
- * [later](https://github.com/microsoft/TypeScript/issues/63426#issuecomment-4305301332) **PoseidonEnergy** said "Wow. There are hundreds of posts describing #9998 dating all the way back to 2016. This is an obvious bug, it's unfortunate it still exists."
+ * [later](https://github.com/microsoft/TypeScript/issues/63426#issuecomment-4305685799) **nmain** said "There are also hundreds of posts in #9998 and duplicates explaining why it's not easy to fix and why it hasn't been fixed yet."
+ * **RyanCavanaugh** added label `Duplicate`
 
-### [Issue microsoft/TypeScript#63427](https://github.com/microsoft/TypeScript/issues/63427) (Open)
+### [Issue microsoft/TypeScript#63427](https://github.com/microsoft/TypeScript/issues/63427) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **Add type definition for Math\.sumPrecise \(ES2025 / TC39 proposal\)**
 
-*TypeScript 6.x lacks built-in type definitions for the new ES2025 Math.sumPrecise API, causing compile errors without manual augmentation.*
+*Add missing TypeScript declaration for the ES2026 Math.sumPrecise method to prevent compile errors.*
 
  * created by **827652549**
+ * (later) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, `Domain: lib.d.ts`
 

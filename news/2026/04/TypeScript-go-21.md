@@ -360,7 +360,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3487](https://github.com/microsoft/TypeScript-go/issues/3487) (Open)
+### [Issue microsoft/TypeScript-go#3487](https://github.com/microsoft/TypeScript-go/issues/3487) (Closed)
 
 **tsgo reports downstream TS2339 in ignored for\-of over non\-iterable union that tsc 6\.0\.2 does not**
 
@@ -439,7 +439,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3496](https://github.com/microsoft/TypeScript-go/pull/3496) (Open)
+### [PR microsoft/TypeScript-go#3496](https://github.com/microsoft/TypeScript-go/pull/3496) (Closed)
 
 **Fix error propagation through non\-iterable unions**
 
