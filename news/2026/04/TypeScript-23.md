@@ -85,7 +85,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63419#issuecomment-4309798697) **typescript-bot** said "This issue has been marked as "Won't Fix" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Closed, `Not a Defect`)
 
 **"Using type predicates" documentation promotes lying to the type system**
 
@@ -96,7 +96,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63421#issuecomment-4303181436) **ilyash-b** asked whether to comment on this in the handbook or close the issue, noting that 'in' is not a clear winner over 'as'
  * [later](https://github.com/microsoft/TypeScript/issues/63421#issuecomment-4312902534) **jendrikw** said "Type guard are always circumventing the type system. I don't use them at all and just test for the properties that I actually need."
 
-### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Closed, `Duplicate`)
 
 **Incorrect TS18047 Error \-\-\> "variable is possibly null"**
 
@@ -132,7 +132,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63428#issuecomment-4308582992) **MartinJohns** explained that Number.POSITIVE_INFINITY is typed as number causing the union to be unbounded and that casting a literal to number has the same issue
  * (today) **walkerburgin** closed the issue
 
-### [PR microsoft/TypeScript#63429](https://github.com/microsoft/TypeScript/pull/63429) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63429](https://github.com/microsoft/TypeScript/pull/63429) (Open, `For Backlog Bug`)
 
 **lib: add Math\.sumPrecise type definition \(ES2025\)**
 
@@ -146,7 +146,7 @@
 
 **Paths from tsconfig are not used if declaration is on a different partition**
 
-*TypeScript ignores tsconfig path aliases in declaration files when source and mapped files reside on different drive partitions.*
+*TypeScript ignores tsconfig path mappings for imports on a different drive when emitting declaration files, producing absolute paths.*
 
  * created by **dragomirtitian**
 

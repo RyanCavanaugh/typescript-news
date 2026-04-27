@@ -29,7 +29,7 @@
 
 **Limit loader/emitter to GOMAXPROCS**
 
-*Limit loader and emitter concurrency to GOMAXPROCS to reduce overhead from excessive parallelism*
+*Limit parsing and emitting workloads to a GOMAXPROCS-sized goroutine pool to prevent unbounded concurrency and stack growth.*
 
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4227790485) **typescript-bot** posted update indicating performance test jobs started with status links
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4227905032) **typescript-bot** shared the requested performance run results
@@ -316,11 +316,11 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#3540](https://github.com/microsoft/TypeScript-go/pull/3540) (Open)
+### [PR microsoft/TypeScript-go#3540](https://github.com/microsoft/TypeScript-go/pull/3540) (Closed)
 
-**Proposed group triage for \.js and \.d\.ts emits**
+**Triage or accept \.js and \.d\.ts diffs**
 
-*Propose group triage review for baseline .js and .d.ts emit files prior to merging.*
+*Review and decide on accepting .js and .d.ts baseline file diffs, with .types updates to follow.*
 
  * created by **RyanCavanaugh**
 
@@ -332,7 +332,7 @@
 
  * created by **weswigham**
 
-### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open)
+### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open, `Domain: Declaration Emit`)
 
 **Baselines: JS declaration emit adds \`export import\` modifier for require\-style import assignments**
 
@@ -340,7 +340,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open)
+### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open, `Domain: Declaration Emit`)
 
 **Baselines: CJS \`module\.exports = {}\` now emits \`export = \_default\` with inlined object type instead of named exports**
 
@@ -348,7 +348,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open)
+### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open, `Domain: Declaration Emit`)
 
 **Baselines: CJS class expression exports emit anonymous constructor types instead of named class declarations**
 
@@ -356,7 +356,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open)
+### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`)
 
 **Baselines: CJS export alias and element access patterns changed**
 
@@ -374,7 +374,7 @@
  * (today) **ahejlsberg** added labels `bug`, `Domain: Declaration Emit`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3546#issuecomment-4309229554) **weswigham** referenced PR #3541 as already fixing the issue
 
-### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Open)
+### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Namespace\-to\-const restructuring with DtsFileErrors \(redeclaration errors\)**
 
@@ -390,7 +390,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Open)
+### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Missing generic type arguments no longer auto\-filled with any \(produces TS2314 errors\)**
 
@@ -398,7 +398,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3550](https://github.com/microsoft/TypeScript-go/issues/3550) (Open)
+### [Issue microsoft/TypeScript-go#3550](https://github.com/microsoft/TypeScript-go/issues/3550) (Open, `wontfix`, `Domain: Declaration Emit`)
 
 **Baselines: Optional property types in JS declarations drop \| undefined**
 
@@ -406,7 +406,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open)
+### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Output file ordering changed \+ declaration types resolve to any instead of typeof references**
 
@@ -414,7 +414,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open)
+### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `wontfix`, `Domain: Declaration Emit`)
 
 **Baselines: export = a reordered; ESM side\-effect import replaces export {}**
 
@@ -422,7 +422,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3553](https://github.com/microsoft/TypeScript-go/issues/3553) (Open)
+### [Issue microsoft/TypeScript-go#3553](https://github.com/microsoft/TypeScript-go/issues/3553) (Closed, `Domain: Emit`, **DanielRosenwasser**, **Copilot**)
 
 **Baselines: JSX factory call changed from indirect \(0, \_a\.jsx\)\(\.\.\.\) to direct \_jsx\(\.\.\.\) call**
 
@@ -430,7 +430,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3554](https://github.com/microsoft/TypeScript-go/issues/3554) (Open, `wontfix`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3554](https://github.com/microsoft/TypeScript-go/issues/3554) (Closed, `wontfix`, **ahejlsberg**)
 
 **Baselines: null\-initialized variable inferred as any instead of null type**
 
@@ -441,7 +441,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3554#issuecomment-4314143927) **ahejlsberg** identified an issue in Strada where the auto-typed variable `l11` was mis-serialized as non-auto-typed because of its null initializer
  * (later) **ahejlsberg** added label `wontfix`, and removed label `Domain: Type Checking`
 
-### [Issue microsoft/TypeScript-go#3555](https://github.com/microsoft/TypeScript-go/issues/3555) (Open)
+### [Issue microsoft/TypeScript-go#3555](https://github.com/microsoft/TypeScript-go/issues/3555) (Open, `Domain: Declaration Emit`)
 
 **Baselines: @overload handling changes in JS declaration emit**
 
@@ -449,7 +449,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open)
+### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`)
 
 **Baselines: @callback/@overload tags reordered and restructured in declaration emit**
 
@@ -457,7 +457,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3557](https://github.com/microsoft/TypeScript-go/issues/3557) (Open)
+### [Issue microsoft/TypeScript-go#3557](https://github.com/microsoft/TypeScript-go/issues/3557) (Open, `Domain: Parser`)
 
 **Baselines: @satisfies tag handling changes: functions become const declarations**
 
@@ -465,15 +465,15 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3558](https://github.com/microsoft/TypeScript-go/issues/3558) (Open)
+### [Issue microsoft/TypeScript-go#3558](https://github.com/microsoft/TypeScript-go/issues/3558) (Open, `Domain: Declaration Emit`, **DanielRosenwasser**, **Copilot**)
 
 **Baselines: Labeled statement followed by export declaration loses original text**
 
-*Labeled statements preceding export declarations no longer preserve the original text, emitting only a semicolon.*
+*Labeled statements followed by export declarations lose their original semicolon in emitted baselines*
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open)
+### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`)
 
 **Baselines: CJS exports pattern changes in declaration emit**
 
@@ -481,7 +481,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Open)
+### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Open, `Domain: Declaration Emit`)
 
 **Baselines: exportNonInitializedVariables crash in declaration emit**
 
@@ -489,7 +489,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3561](https://github.com/microsoft/TypeScript-go/issues/3561) (Open)
+### [Issue microsoft/TypeScript-go#3561](https://github.com/microsoft/TypeScript-go/issues/3561) (Open, `wontfix`, `Domain: Declaration Emit`)
 
 **Baselines: noImplicitThis functions returning this now fully expand the object type**
 
@@ -497,7 +497,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open)
+### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open, `Domain: Type Checking`)
 
 **Baselines: JSDoc module namepath module:A emits as unresolved module instead of any**
 
@@ -505,7 +505,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3563](https://github.com/microsoft/TypeScript-go/issues/3563) (Open)
+### [Issue microsoft/TypeScript-go#3563](https://github.com/microsoft/TypeScript-go/issues/3563) (Open, **ahejlsberg**)
 
 **Baselines: definiteAssignment shorthand in object literal loses optional modifier**
 
@@ -513,7 +513,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3564](https://github.com/microsoft/TypeScript-go/issues/3564) (Open)
+### [Issue microsoft/TypeScript-go#3564](https://github.com/microsoft/TypeScript-go/issues/3564) (Open, `Domain: Type Checking`)
 
 **Baselines: Generic function parameter inference change**
 
@@ -521,7 +521,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3565](https://github.com/microsoft/TypeScript-go/issues/3565) (Open)
+### [Issue microsoft/TypeScript-go#3565](https://github.com/microsoft/TypeScript-go/issues/3565) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Declaration emit trailing comma changes in destructuring parameters**
 
@@ -529,7 +529,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -538,7 +538,7 @@
  * created by **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3566#issuecomment-4309176683) **RyanCavanaugh** said "This seems like a won't fix, actually. Both emits are equivalent."
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -546,7 +546,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open)
+### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `Domain: Declaration Emit`)
 
 **Baselines: export as namespace added or restructured in declaration emit**
 
@@ -554,7 +554,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -562,7 +562,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3570](https://github.com/microsoft/TypeScript-go/issues/3570) (Open)
+### [Issue microsoft/TypeScript-go#3570](https://github.com/microsoft/TypeScript-go/issues/3570) (Open, `Domain: Declaration Emit`)
 
 **Baselines: Declaration emit type parameter renaming bug \(regression\)**
 
@@ -570,7 +570,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3571](https://github.com/microsoft/TypeScript-go/issues/3571) (Open)
+### [Issue microsoft/TypeScript-go#3571](https://github.com/microsoft/TypeScript-go/issues/3571) (Closed, **ahejlsberg**)
 
 **Module augmentation not merged when upstream \.d\.ts uses top\-level \`export interface\` \+ self\-referential \`declare module \.\.\. export =\`**
 
@@ -610,7 +610,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#3576](https://github.com/microsoft/TypeScript-go/issues/3576) (Open)
+### [Issue microsoft/TypeScript-go#3576](https://github.com/microsoft/TypeScript-go/issues/3576) (Closed)
 
 **\[Proposal\] strictArrayVariance: opt\-in invariance for mutable Array\<T\> element type \(post\-7\.0 discussion\)**
 
@@ -619,7 +619,7 @@
  * created by **JustFly1984**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3576#issuecomment-4313817349) **jakebailey** said "This is most certainly the wrong repo to file this in. We are not adding new features in 7.0. Those need to wait for 7.1, and will not be taken in this repo."
 
-### [PR microsoft/TypeScript-go#3577](https://github.com/microsoft/TypeScript-go/pull/3577) (Open)
+### [PR microsoft/TypeScript-go#3577](https://github.com/microsoft/TypeScript-go/pull/3577) (Closed)
 
 **feat\(checker\): strictArrayVariance flag — invariant mutable Array\<T\> element type \(DRAFT for post\-7\.0 discussion\)**
 
@@ -659,7 +659,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/3581#issuecomment-4314307272) **jakebailey** said "@andrewbranch I think those comments might be correct for #3516, reading..."
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3582](https://github.com/microsoft/TypeScript-go/pull/3582) (Open)
+### [PR microsoft/TypeScript-go#3582](https://github.com/microsoft/TypeScript-go/pull/3582) (Closed)
 
 **Move test to accepted bucket**
 
@@ -667,7 +667,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3583](https://github.com/microsoft/TypeScript-go/issues/3583) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3583](https://github.com/microsoft/TypeScript-go/issues/3583) (Closed, **jakebailey**, **Copilot**)
 
 **Support disabling ATA via VS Code settings for inferred projects**
 
@@ -677,11 +677,11 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3583#issuecomment-4314421930) **jakebailey** identified missing user preferences and suggested adding options with JSON snippets and provided precedence logic
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3584](https://github.com/microsoft/TypeScript-go/pull/3584) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3584](https://github.com/microsoft/TypeScript-go/pull/3584) (Closed, **jakebailey**, **Copilot**)
 
 **Support disabling ATA via VS Code settings for inferred projects**
 
-*Enable respecting VS Code automatic type acquisition settings to disable ATA for inferred TypeScript and JavaScript projects.*
+*Add VS Code settings to disable automatic type acquisition in inferred projects with dynamic refresh handling and tests.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**

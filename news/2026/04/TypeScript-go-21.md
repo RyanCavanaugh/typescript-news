@@ -15,7 +15,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/2836#issuecomment-4286516248) **jakebailey** said "I'm beyond surprised that this helps at all, given both hit the disk and "importing a module" should be the least of anyone's concerns. I'll have to try it and see..."
  * [today](https://github.com/microsoft/TypeScript-go/issues/2836#issuecomment-4291900328) **jakebailey** provided a CommonJS wrapper script that improved performance and noted that caching the path did not help much
 
-### [PR microsoft/TypeScript-go#2914](https://github.com/microsoft/TypeScript-go/pull/2914) (Open)
+### [PR microsoft/TypeScript-go#2914](https://github.com/microsoft/TypeScript-go/pull/2914) (Closed)
 
 **adds tracing \(\-\-generateTrace\)**
 

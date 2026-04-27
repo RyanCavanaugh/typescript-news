@@ -65,7 +65,7 @@
  * (yesterday) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
  * **RyanCavanaugh** added label `Domain: Intersection`
 
-### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Closed, `Not a Defect`)
 
 **"Using type predicates" documentation promotes lying to the type system**
 
@@ -109,7 +109,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63424#issuecomment-4302615156) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63424#issuecomment-4302615177) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#63425](https://github.com/microsoft/TypeScript/issues/63425) (Open)
+### [Issue microsoft/TypeScript#63425](https://github.com/microsoft/TypeScript/issues/63425) (Open, `Suggestion`, `Experimentation Needed`)
 
 **Hover display for non\-homomorphic mapped types renders numeric\-string keys indistinguishably from numeric keys**
 
@@ -121,7 +121,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4304396986) **codpro2005** acknowledged the oversight and explained scoping the issue to the hover inconsistency
  * [later](https://github.com/microsoft/TypeScript/issues/63425#issuecomment-4305918025) **RyanCavanaugh** provided a list of similar issues
 
-### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63426](https://github.com/microsoft/TypeScript/issues/63426) (Closed, `Duplicate`)
 
 **Incorrect TS18047 Error \-\-\> "variable is possibly null"**
 

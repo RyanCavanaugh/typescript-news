@@ -2,19 +2,19 @@
 
 ## TypeScript
 
+- [Sunday, April 26 2026](news/2026/04/TypeScript-26.md)
+- [Saturday, April 25 2026](news/2026/04/TypeScript-25.md)
+- [Friday, April 24 2026](news/2026/04/TypeScript-24.md)
 - [Thursday, April 23 2026](news/2026/04/TypeScript-23.md)
 - [Wednesday, April 22 2026](news/2026/04/TypeScript-22.md)
 - [Tuesday, April 21 2026](news/2026/04/TypeScript-21.md)
-- [Monday, April 20 2026](news/2026/04/TypeScript-20.md)
-- [Sunday, April 19 2026](news/2026/04/TypeScript-19.md)
-- [Saturday, April 18 2026](news/2026/04/TypeScript-18.md)
 
 ## TypeScript-go
 
+- [Sunday, April 26 2026](news/2026/04/TypeScript-go-26.md)
+- [Saturday, April 25 2026](news/2026/04/TypeScript-go-25.md)
+- [Friday, April 24 2026](news/2026/04/TypeScript-go-24.md)
 - [Thursday, April 23 2026](news/2026/04/TypeScript-go-23.md)
 - [Wednesday, April 22 2026](news/2026/04/TypeScript-go-22.md)
 - [Tuesday, April 21 2026](news/2026/04/TypeScript-go-21.md)
-- [Monday, April 20 2026](news/2026/04/TypeScript-go-20.md)
-- [Sunday, April 19 2026](news/2026/04/TypeScript-go-19.md)
-- [Saturday, April 18 2026](news/2026/04/TypeScript-go-18.md)
 

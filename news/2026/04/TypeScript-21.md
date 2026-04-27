@@ -66,7 +66,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63420#issuecomment-4290418908) **RyanCavanaugh** provided an automated analysis of why the two branded types are structurally assignable and linked relevant FAQs and issues
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63421](https://github.com/microsoft/TypeScript/issues/63421) (Closed, `Not a Defect`)
 
 **"Using type predicates" documentation promotes lying to the type system**
 
