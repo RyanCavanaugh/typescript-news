@@ -1,6 +1,6 @@
 # Report for 2026-04-25 (Saturday, April 25th, 2026)
 
-6 different users commented on 8 different issues.
+6 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -9,7 +9,7 @@
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript#63434](https://github.com/microsoft/TypeScript/pull/63434) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63434](https://github.com/microsoft/TypeScript/pull/63434) (Closed, `For Backlog Bug`)
 
 **fix: allow bracket\-notation enum access as computed property name in type positions**
 
@@ -21,7 +21,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4320134255) **Scolliq** explained using Claude Code and an Opus 4.7 model to discover and analyze the issue, stated academic background and compliance with the repo’s AI tools policy
  * [later](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4322270123) **mkantor** noted that the contributor failed to disclose AI usage as required by CONTRIBUTING.md and reminded them that PRs belong in the typescript-go repo and only critical fixes will be merged
 
-### [PR microsoft/TypeScript#63435](https://github.com/microsoft/TypeScript/pull/63435) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63435](https://github.com/microsoft/TypeScript/pull/63435) (Closed, `For Uncommitted Bug`)
 
 **fix\(loc\): correct reversed subject/object in zh\-CN translation of TS2561**
 
@@ -62,7 +62,7 @@
  * **typescript-bot** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63438#issuecomment-4322343495) **jakebailey** said "Can you please tell me what tool you used to send this PR, and how you chose this issue to fix?"
 
-### [PR microsoft/TypeScript#63439](https://github.com/microsoft/TypeScript/pull/63439) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63439](https://github.com/microsoft/TypeScript/pull/63439) (Closed, `For Backlog Bug`)
 
 **fix\(completions\): sort JSDoc @param suggestions by declaration order**
 

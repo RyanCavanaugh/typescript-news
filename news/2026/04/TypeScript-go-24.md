@@ -1,6 +1,6 @@
 # Report for 2026-04-24 (Friday, April 24th, 2026)
 
-19 different users commented on 64 different issues.
+19 different users commented on 65 different issues.
 
 ## Recommended Actions
 
@@ -164,7 +164,7 @@
  * created by **RyanCavanaugh**
  * **ahejlsberg** added label `Domain: Declaration Emit`
 
-### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `wontfix`, `Domain: Declaration Emit`)
+### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `Domain: Declaration Emit`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: export = a reordered; ESM side\-effect import replaces export {}**
 
@@ -524,7 +524,7 @@
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript-go#3595](https://github.com/microsoft/TypeScript-go/pull/3595) (Open)
+### [PR microsoft/TypeScript-go#3595](https://github.com/microsoft/TypeScript-go/pull/3595) (Closed)
 
 **Don't cancel refresh except on file change**
 
@@ -536,7 +536,7 @@
 
 **TS2883 regression in \-\-build with project references on inferred export from referenced package**
 
-*Regression in tsgo --build with project references causes TS2883 on inferred type exports, forcing manual type annotation.*
+*tsgo --build now fails with TS2883 on inferred exports referencing types from a project-referenced package in a pnpm monorepo*
 
  * created by **kbrooks**
 
@@ -579,7 +579,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3599#issuecomment-4317050309) **typescript-bot** reported that the server connection closed prematurely with an undefined error and provided repro steps for babel/babel
  * [today](https://github.com/microsoft/TypeScript-go/issues/3599#issuecomment-4317050349) **typescript-bot** reported a premature server connection closure with associated logs, affected repo details, recent requests, and repro steps
 
-### [Issue microsoft/TypeScript-go#3600](https://github.com/microsoft/TypeScript-go/issues/3600) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3600](https://github.com/microsoft/TypeScript-go/issues/3600) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behaviour differences observed when plain js class getter return null in conditional branch**
 
@@ -606,7 +606,7 @@
 
  * created by **ekazakov14**
 
-### [PR microsoft/TypeScript-go#3603](https://github.com/microsoft/TypeScript-go/pull/3603) (Open)
+### [PR microsoft/TypeScript-go#3603](https://github.com/microsoft/TypeScript-go/pull/3603) (Closed)
 
 **Fix go to implementation crash on invalid CJS shorthand exports**
 
@@ -614,7 +614,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#3604](https://github.com/microsoft/TypeScript-go/pull/3604) (Open)
+### [PR microsoft/TypeScript-go#3604](https://github.com/microsoft/TypeScript-go/pull/3604) (Closed)
 
 **Fix rename panic on unresolved reexports**
 

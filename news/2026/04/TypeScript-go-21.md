@@ -451,7 +451,7 @@
 
 **Widen types assigned to auto\-typed variables**
 
-*Widen inferred types for auto-typed variables to accept a broader range of assignments.*
+*Widen the types assigned to automatically-typed variables to improve type coverage and flexibility.*
 
  * created by **Andarist**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4297503973) **ahejlsberg** said "@typescript-bot test it"

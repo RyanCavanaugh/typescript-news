@@ -1,6 +1,6 @@
 # Report for 2026-04-26 (Sunday, April 26th, 2026)
 
-9 different users commented on 13 different issues.
+10 different users commented on 20 different issues.
 
 ## Recommended Actions
 
@@ -10,6 +10,17 @@
     * @creazyfrog asked if the PR did not meet expectations in [microsoft/TypeScript#63438](https://github.com/microsoft/TypeScript/pull/63438#issuecomment-4322551280)
 
 ## Activity Summary
+
+### [Issue microsoft/TypeScript#25083](https://github.com/microsoft/TypeScript/issues/25083) (Open, `Bug`, `Good First Issue`, `Domain: enum`)
+
+**Enum keys not accepted as computed properties if their name is not a valid identifier**
+
+*TypeScript rejects using enum members accessed with bracket notation as computed property keys when their names aren’t valid identifiers.*
+
+ * [4.6 years ago](https://github.com/microsoft/TypeScript/issues/25083#issuecomment-901094714) **akbhuker** asked to be assigned the issue and requested guidance
+ * [1.1 years ago](https://github.com/microsoft/TypeScript/issues/25083#issuecomment-2653704669) **Abrenstorm** said ""Hi! I’d like to work on this issue as my first contribution. Can I take it?""
+ * **RyanCavanaugh** added label `Domain: enum`
+ * [later](https://github.com/microsoft/TypeScript/issues/25083#issuecomment-4328482421) **RyanCavanaugh** cautioned that the issue did not meet the 6.0 patch bar, advised against sending a PR, and recommended reading AGENTS.md
 
 ### [Issue microsoft/TypeScript#38638](https://github.com/microsoft/TypeScript/issues/38638) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -77,6 +88,50 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63426#issuecomment-4323651561) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
+### [Issue microsoft/TypeScript#63432](https://github.com/microsoft/TypeScript/issues/63432) (Closed, `Possible Improvement`)
+
+**\`Math\.sign\` JSDoc comment has grammatical typo**
+
+*Fix JSDoc comment in Math.sign for grammar by changing “the x” to “x”.*
+
+ * created by **Bertie690**
+ * [later](https://github.com/microsoft/TypeScript/issues/63432#issuecomment-4328388994) **RyanCavanaugh** said "To quote Ezra Koenig,"
+ * (later) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Backlog`
+
+### [PR microsoft/TypeScript#63433](https://github.com/microsoft/TypeScript/pull/63433) (Closed, `For Backlog Bug`)
+
+**docs: improve Math\.sign JSDoc grammar and clarity**
+
+*Updated Math.sign JSDoc in es2015.core.d.ts to correct phrasing and add missing comma for consistency.*
+
+ * created by **SkyCoderAakash**
+ * **typescript-bot** added label `For Uncommitted Bug`
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63433#issuecomment-4318410016) **MartinJohns** cited the pull request template discouraging typo-only fixes
+ * (later) **typescript-bot** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [PR microsoft/TypeScript#63434](https://github.com/microsoft/TypeScript/pull/63434) (Closed, `For Backlog Bug`)
+
+**fix: allow bracket\-notation enum access as computed property name in type positions**
+
+*Extend binding logic to allow bracket-notation enum access with literal keys as computed property names in type declarations*
+
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4319842552) **jakebailey** said "Can you please tell me what tool you used to send this PR, and how you chose this issue to fix?"
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4320134255) **Scolliq** explained using Claude Code and an Opus 4.7 model to discover and analyze the issue, stated academic background and compliance with the repo’s AI tools policy
+ * [today](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4322270123) **mkantor** noted that the contributor failed to disclose AI usage as required by CONTRIBUTING.md and reminded them that PRs belong in the typescript-go repo and only critical fixes will be merged
+ * [later](https://github.com/microsoft/TypeScript/pull/63434#issuecomment-4328477078) **RyanCavanaugh** said "This doesn't meet the 6.0 patch bar."
+ * (later) **RyanCavanaugh** closed the issue
+
+### [PR microsoft/TypeScript#63435](https://github.com/microsoft/TypeScript/pull/63435) (Closed, `For Uncommitted Bug`)
+
+**fix\(loc\): correct reversed subject/object in zh\-CN translation of TS2561**
+
+*Corrected the Simplified Chinese translation of TS2561 to fix swapped subject and object and improve phrasing.*
+
+ * created by **creazyfrog**
+ * **typescript-bot** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63435#issuecomment-4328306103) **RyanCavanaugh** said "Unfortunately we're not able to take localization fixes externally - these files are sourced from our translation team and they don't have an upstream merging process"
+ * (later) **RyanCavanaugh** closed the issue
+
 ### [PR microsoft/TypeScript#63438](https://github.com/microsoft/TypeScript/pull/63438) (Closed, `For Backlog Bug`)
 
 **fix\(checker\): emit precise error when labeled continue/break targets a non\-enclosing label**
@@ -90,7 +145,18 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63438#issuecomment-4322761471) **jakebailey** said "Please read CONTRIBUTING.md"
  * (today) **creazyfrog** closed the issue
 
-### [Issue microsoft/TypeScript#63442](https://github.com/microsoft/TypeScript/issues/63442) (Open)
+### [PR microsoft/TypeScript#63439](https://github.com/microsoft/TypeScript/pull/63439) (Closed, `For Backlog Bug`)
+
+**fix\(completions\): sort JSDoc @param suggestions by declaration order**
+
+*Add parameter index to completion sortText so JSDoc @param suggestions appear in declaration order rather than alphabetically.*
+
+ * created by **creazyfrog**
+ * **typescript-bot** added label `For Backlog Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63439#issuecomment-4328336816) **RyanCavanaugh** stated that the PR didn't meet the bar for a 6.0 patch and asked whether the agent correctly prompted that the PR wouldn't be accepted
+ * (later) **RyanCavanaugh** closed the issue
+
+### [Issue microsoft/TypeScript#63442](https://github.com/microsoft/TypeScript/issues/63442) (Closed)
 
 **Formatting fails for entire file when a line contains only whitespace between two comments**
 
@@ -108,20 +174,24 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-bot** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#63444](https://github.com/microsoft/TypeScript/pull/63444) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63444](https://github.com/microsoft/TypeScript/pull/63444) (Closed, `For Backlog Bug`)
 
 **fix: remove grammatically incorrect 'the' before x in Math\.sign JSDoc**
 
 *Remove the grammatically incorrect 'the' before x in the Math.sign JSDoc description.*
 
  * created by **AmSach**
- * **typescript-bot** added label `For Uncommitted Bug`
+ * (later) **typescript-bot** added labels `For Uncommitted Bug`, `For Backlog Bug`, and removed label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63444#issuecomment-4328397275) **RyanCavanaugh** said "This is worse than the other PR for the same issue..."
+ * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63445](https://github.com/microsoft/TypeScript/issues/63445) (Open)
+### [Issue microsoft/TypeScript#63445](https://github.com/microsoft/TypeScript/issues/63445) (Open, `Duplicate`)
 
 **TS server crashes with \`@mui/icons\-material\` v9 package**
 
 *@mui/icons-material v9 causes the TypeScript server to crash repeatedly during tsconfig.app.json initialization in VS Code.*
 
  * created by **mliebold-jax**
+ * [later](https://github.com/microsoft/TypeScript/issues/63445#issuecomment-4328357252) **RyanCavanaugh** said "See https://github.com/microsoft/TypeScript/issues/63405#issuecomment-4254729016"
+ * **RyanCavanaugh** added label `Duplicate`
 

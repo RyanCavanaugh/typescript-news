@@ -1,6 +1,6 @@
 # Report for 2026-04-24 (Friday, April 24th, 2026)
 
-9 different users commented on 9 different issues.
+9 different users commented on 11 different issues.
 
 ## Recommended Actions
 
@@ -74,7 +74,7 @@
  * created by **dragomirtitian**
  * [today](https://github.com/microsoft/TypeScript/issues/63430#issuecomment-4314787953) **RyanCavanaugh** provided an automated list of similar issues to the report
 
-### [Issue microsoft/TypeScript#63432](https://github.com/microsoft/TypeScript/issues/63432) (Open)
+### [Issue microsoft/TypeScript#63432](https://github.com/microsoft/TypeScript/issues/63432) (Closed, `Possible Improvement`)
 
 **\`Math\.sign\` JSDoc comment has grammatical typo**
 
@@ -82,7 +82,7 @@
 
  * created by **Bertie690**
 
-### [PR microsoft/TypeScript#63433](https://github.com/microsoft/TypeScript/pull/63433) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63433](https://github.com/microsoft/TypeScript/pull/63433) (Closed, `For Backlog Bug`)
 
 **docs: improve Math\.sign JSDoc grammar and clarity**
 
@@ -92,7 +92,7 @@
  * **typescript-bot** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63433#issuecomment-4318410016) **MartinJohns** cited the pull request template discouraging typo-only fixes
 
-### [PR microsoft/TypeScript#63434](https://github.com/microsoft/TypeScript/pull/63434) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63434](https://github.com/microsoft/TypeScript/pull/63434) (Closed, `For Backlog Bug`)
 
 **fix: allow bracket\-notation enum access as computed property name in type positions**
 

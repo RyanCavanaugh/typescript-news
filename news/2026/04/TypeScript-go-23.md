@@ -1,6 +1,6 @@
 # Report for 2026-04-23 (Thursday, April 23rd, 2026)
 
-18 different users commented on 77 different issues.
+18 different users commented on 78 different issues.
 
 ## Recommended Actions
 
@@ -69,7 +69,7 @@
 
 **Widen types assigned to auto\-typed variables**
 
-*Widen inferred types for auto-typed variables to accept a broader range of assignments.*
+*Widen the types assigned to automatically-typed variables to improve type coverage and flexibility.*
 
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4298082276) **typescript-bot** reported build comparison results between main and pull request for the top 400 repos and highlighted a TS2339 error in RooCodeInc/Roo-Code
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4300255694) **ahejlsberg** said "Looks like we're fine on perf, but wondering what the changes in user tests and top 400 are about?"
@@ -324,7 +324,7 @@
 
  * created by **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3541](https://github.com/microsoft/TypeScript-go/pull/3541) (Open)
+### [PR microsoft/TypeScript-go#3541](https://github.com/microsoft/TypeScript-go/pull/3541) (Closed)
 
 **Collect this property assignments in JS declaration emit and transform them to TS declarations**
 
@@ -414,7 +414,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `wontfix`, `Domain: Declaration Emit`)
+### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `Domain: Declaration Emit`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: export = a reordered; ESM side\-effect import replaces export {}**
 

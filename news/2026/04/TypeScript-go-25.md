@@ -44,7 +44,7 @@
  * created by **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3585#issuecomment-4320288542) **Andarist** noted that a change around ensureModifiers/maskModifierFlags wouldn't quite eliminate all diverging declare modifiers and linked a comparison
 
-### [Issue microsoft/TypeScript-go#3600](https://github.com/microsoft/TypeScript-go/issues/3600) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3600](https://github.com/microsoft/TypeScript-go/issues/3600) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behaviour differences observed when plain js class getter return null in conditional branch**
 
@@ -62,7 +62,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#3607](https://github.com/microsoft/TypeScript-go/issues/3607) (Open, `bug`, `Domain: Editor`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3607](https://github.com/microsoft/TypeScript-go/issues/3607) (Closed, `bug`, `Domain: Editor`, **ahejlsberg**)
 
 **Missing hover for nullable method in type and interface**
 
@@ -72,7 +72,7 @@
  * **Withered-Flower-0422** added label `Domain: Editor`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3607#issuecomment-4320395685) **Withered-Flower-0422** identified missing '?' suffix for nullable property and method and missing hover output in tsgo
 
-### [PR microsoft/TypeScript-go#3608](https://github.com/microsoft/TypeScript-go/pull/3608) (Open)
+### [PR microsoft/TypeScript-go#3608](https://github.com/microsoft/TypeScript-go/pull/3608) (Closed)
 
 **Reparse JSDoc annotations on get accessors**
 
@@ -80,7 +80,7 @@
 
  * created by **ahejlsberg**
 
-### [PR microsoft/TypeScript-go#3609](https://github.com/microsoft/TypeScript-go/pull/3609) (Open)
+### [PR microsoft/TypeScript-go#3609](https://github.com/microsoft/TypeScript-go/pull/3609) (Closed)
 
 **Fix hover for optional method members in types and interfaces**
 

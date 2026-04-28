@@ -1,10 +1,28 @@
 # Report for 2026-04-26 (Sunday, April 26th, 2026)
 
-5 different users commented on 9 different issues.
+5 different users commented on 10 different issues.
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#3607](https://github.com/microsoft/TypeScript-go/issues/3607) (Open, `bug`, `Domain: Editor`, **ahejlsberg**)
+### [PR microsoft/TypeScript-go#3603](https://github.com/microsoft/TypeScript-go/pull/3603) (Closed)
+
+**Fix go to implementation crash on invalid CJS shorthand exports**
+
+*Prevent go to implementation crashes on invalid CommonJS shorthand exports.*
+
+ * created by **Andarist**
+ * (later) **gabritto** closed the issue
+
+### [PR microsoft/TypeScript-go#3604](https://github.com/microsoft/TypeScript-go/pull/3604) (Closed)
+
+**Fix rename panic on unresolved reexports**
+
+*Add handling to prevent rename operation panics caused by unresolved reexports*
+
+ * created by **Andarist**
+ * (later) **gabritto** closed the issue
+
+### [Issue microsoft/TypeScript-go#3607](https://github.com/microsoft/TypeScript-go/issues/3607) (Closed, `bug`, `Domain: Editor`, **ahejlsberg**)
 
 **Missing hover for nullable method in type and interface**
 
@@ -15,7 +33,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3607#issuecomment-4320395685) **Withered-Flower-0422** identified missing '?' suffix for nullable property and method and missing hover output in tsgo
  * (later) **ahejlsberg** added label `bug`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3615](https://github.com/microsoft/TypeScript-go/issues/3615) (Open)
+### [Issue microsoft/TypeScript-go#3615](https://github.com/microsoft/TypeScript-go/issues/3615) (Open, **andrewbranch**, **Copilot**)
 
 **Server stops responding after \`Running scheduled diagnostics refresh\`**
 
