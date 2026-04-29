@@ -79,7 +79,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63421#issuecomment-4298029720) **RyanCavanaugh** argued that there’s usually no perfect way to write a type predicate function because built-in narrowing suffices and noted that using ‘in’ loses type safety on the key
  * [later](https://github.com/microsoft/TypeScript/issues/63421#issuecomment-4303181436) **ilyash-b** asked whether to comment on this in the handbook or close the issue, noting that 'in' is not a clear winner over 'as'
 
-### [Issue microsoft/TypeScript#63422](https://github.com/microsoft/TypeScript/issues/63422) (Open)
+### [Issue microsoft/TypeScript#63422](https://github.com/microsoft/TypeScript/issues/63422) (Closed)
 
 **@typescript/typescript6 does not proxy subpath imports**
 

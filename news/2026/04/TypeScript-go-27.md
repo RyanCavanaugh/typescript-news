@@ -1,6 +1,6 @@
 # Report for 2026-04-27 (Monday, April 27th, 2026)
 
-22 different users commented on 48 different issues.
+22 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -297,7 +297,7 @@
 
 **Fix server hang after "Running scheduled diagnostics refresh"**
 
-*To prevent client-induced deadlocks, diagnostics refresh now fires without waiting and file watch requests use a one-second timeout and retry.*
+*Prevent server deadlocks by making diagnostics refresh fire-and-forget, adding a 1s updateWatch timeout with rollback, and centralizing watch bookkeeping.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
@@ -394,16 +394,16 @@
 
 ### [Issue microsoft/TypeScript-go#3638](https://github.com/microsoft/TypeScript-go/issues/3638) (Open, `Domain: Editor`)
 
-**Cannot find name 'div'\.**
+**Cannot find name html element\.**
 
-*Closing div tags in .tsx files intermittently trigger a "Cannot find name 'div'" TypeScript error requiring LSP restart.*
+*Closing div tags in .tsx files intermittently trigger “Cannot find name 'div'” errors in VS Code’s TypeScript language server until it’s restarted.*
 
  * created by **Netail**
  * **Netail** added label `Domain: Editor`
  * [later](https://github.com/microsoft/TypeScript-go/issues/3638#issuecomment-4335853459) **jakebailey** said "We would really need a repro, or at least some logs"
  * [later](https://github.com/microsoft/TypeScript-go/issues/3638#issuecomment-4335893311) **Netail** explained that the issue occurred randomly across multiple TSX files and offered to provide logs
 
-### [Issue microsoft/TypeScript-go#3639](https://github.com/microsoft/TypeScript-go/issues/3639) (Open)
+### [Issue microsoft/TypeScript-go#3639](https://github.com/microsoft/TypeScript-go/issues/3639) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behaviour differences: plain js's ternary assignment of objects in different shapes confuses tsgo**
 

@@ -68,7 +68,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63439#issuecomment-4328732077) **creazyfrog** asked whether PRs created with AI agents were accepted and when the 6.0 patch was planned for release
  * [today](https://github.com/microsoft/TypeScript/pull/63439#issuecomment-4328766437) **RyanCavanaugh** thanked and pointed to the AGENTS.md document regarding AI-assisted PR acceptance and patching policy for critical issues in 6.0
 
-### [Issue microsoft/TypeScript#63441](https://github.com/microsoft/TypeScript/issues/63441) (Open)
+### [Issue microsoft/TypeScript#63441](https://github.com/microsoft/TypeScript/issues/63441) (Open, `Bug`)
 
 **\`symbolToNode\` stack overflow when using recursive types and functions with type parameters**
 
@@ -97,7 +97,7 @@
  * (today) **typescript-bot** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Open)
+### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Open, `Duplicate`)
 
 **5\.9 regression: Union types served by mutually exclusive function overloads not working**
 

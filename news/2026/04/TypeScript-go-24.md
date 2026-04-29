@@ -560,7 +560,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3598#issuecomment-4316990736) **jakebailey** said "@copilot+claude-opus-4.6 This PR should have a hover test."
  * [today](https://github.com/microsoft/TypeScript-go/pull/3598#issuecomment-4317058374) **Copilot** added a fourslash hover test in quickInfoJSDocCodefenceAtSign_test.go to verify that @ symbols inside fenced code blocks render as literal text and that @param after the closing fence is parsed as a JSDoc tag
 
-### [Issue microsoft/TypeScript-go#3599](https://github.com/microsoft/TypeScript-go/issues/3599) (Open)
+### [Issue microsoft/TypeScript-go#3599](https://github.com/microsoft/TypeScript-go/issues/3599) (Closed)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -590,7 +590,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3600#issuecomment-4319705569) **ahejlsberg** said "Looks like tsgo isn't picking up the JSDoc annotation on k1."
  * (later) **ahejlsberg** added labels `bug`, `Domain: Type Checking`
 
-### [Issue microsoft/TypeScript-go#3601](https://github.com/microsoft/TypeScript-go/issues/3601) (Open)
+### [Issue microsoft/TypeScript-go#3601](https://github.com/microsoft/TypeScript-go/issues/3601) (Closed)
 
 **Restart Server: "Stopping timed out" on first click when server is hung**
 
@@ -598,7 +598,7 @@
 
  * created by **ekazakov14**
 
-### [PR microsoft/TypeScript-go#3602](https://github.com/microsoft/TypeScript-go/pull/3602) (Open)
+### [PR microsoft/TypeScript-go#3602](https://github.com/microsoft/TypeScript-go/pull/3602) (Closed)
 
 **Recover from shutdown timeout in tryRestart**
 
@@ -622,7 +622,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#3605](https://github.com/microsoft/TypeScript-go/issues/3605) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3605](https://github.com/microsoft/TypeScript-go/issues/3605) (Closed, `Domain: Editor`)
 
 **Missing generic param displayed in hover**
 

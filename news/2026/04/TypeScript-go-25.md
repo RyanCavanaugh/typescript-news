@@ -1,6 +1,6 @@
 # Report for 2026-04-25 (Saturday, April 25th, 2026)
 
-13 different users commented on 13 different issues.
+13 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -54,11 +54,11 @@
  * (today) **ahejlsberg** added labels `bug`, `Domain: Type Checking`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3600#issuecomment-4321250824) **hkleungai** observed that moving the map assignment into the constructor caused errors in tsgo but not in tsc and updated the comment to include both cases
 
-### [PR microsoft/TypeScript-go#3606](https://github.com/microsoft/TypeScript-go/pull/3606) (Open)
+### [PR microsoft/TypeScript-go#3606](https://github.com/microsoft/TypeScript-go/pull/3606) (Closed)
 
 **fix\(3605\): Missing generic param displayed in hover**
 
-*Ensure generic type parameters are correctly displayed in hover tooltips.*
+*Restore display of missing generic parameters in hover tooltips to prevent related crash.*
 
  * created by **a-tarasyuk**
 
