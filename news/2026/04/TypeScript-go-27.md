@@ -297,7 +297,7 @@
 
 **Fix server hang after "Running scheduled diagnostics refresh"**
 
-*Prevent server deadlocks by making diagnostics refresh fire-and-forget, adding a 1s updateWatch timeout with rollback, and centralizing watch bookkeeping.*
+*Unbounded diagnostic and watch waits causing server hangs are fixed by non-blocking refresh, timed rollback, and a watch registry.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**

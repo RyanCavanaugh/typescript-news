@@ -80,7 +80,7 @@
  * created by **creazyfrog**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63441](https://github.com/microsoft/TypeScript/issues/63441) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63441](https://github.com/microsoft/TypeScript/issues/63441) (Open, `Bug`, `Domain: check: Type Circularity`)
 
 **\`symbolToNode\` stack overflow when using recursive types and functions with type parameters**
 

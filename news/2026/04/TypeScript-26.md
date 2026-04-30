@@ -185,7 +185,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63444#issuecomment-4328397275) **RyanCavanaugh** said "This is worse than the other PR for the same issue..."
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63445](https://github.com/microsoft/TypeScript/issues/63445) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63445](https://github.com/microsoft/TypeScript/issues/63445) (Closed, `Duplicate`)
 
 **TS server crashes with \`@mui/icons\-material\` v9 package**
 

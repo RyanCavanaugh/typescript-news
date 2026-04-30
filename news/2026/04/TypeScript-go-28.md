@@ -1,6 +1,6 @@
 # Report for 2026-04-28 (Tuesday, April 28th, 2026)
 
-10 different users commented on 36 different issues.
+11 different users commented on 37 different issues.
 
 ## Recommended Actions
 
@@ -31,6 +31,15 @@
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4306383124) **Andarist** said "New tests are in now."
  * [today](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4338203608) **ahejlsberg** questioned whether the proposed change would cause property accesses (x.a, x.b, w.a, w.b) to error and argued this is undesirable
  * [today](https://github.com/microsoft/TypeScript-go/pull/3497#issuecomment-4339455258) **Andarist** demonstrated a TypeScript repro where accessing x.a should error but doesn’t, noted that the displayed type doesn’t reflect this, and said they would review all cases and propose a design over the upcoming weekend
+
+### [PR microsoft/TypeScript-go#3505](https://github.com/microsoft/TypeScript-go/pull/3505) (Open)
+
+**integrated filewatcher with lsp**
+
+*Refactor vfswatch.FileWatcher for use by both CLI and LSP, integrating polling for clients without didChangeWatchedFiles support.*
+
+ * created by **johnfav03**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3505#issuecomment-4345380442) **andrewbranch** suggested trying usePollingWatcher and noted that the LSP client watcher still ran, observed that it scanned the .git directory causing slow performance, started profiling and recommended manual testing
 
 ### [Issue microsoft/TypeScript-go#3599](https://github.com/microsoft/TypeScript-go/issues/3599) (Closed)
 
@@ -123,7 +132,7 @@
 
 **Fix server hang after "Running scheduled diagnostics refresh"**
 
-*Prevent server deadlocks by making diagnostics refresh fire-and-forget, adding a 1s updateWatch timeout with rollback, and centralizing watch bookkeeping.*
+*Unbounded diagnostic and watch waits causing server hangs are fixed by non-blocking refresh, timed rollback, and a watch registry.*
 
  * (yesterday) **Copilot** assigned to **Copilot**, **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4336939973) **andrewbranch** said "@copilot fix review comments"
@@ -245,11 +254,11 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#3649](https://github.com/microsoft/TypeScript-go/pull/3649) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3649](https://github.com/microsoft/TypeScript-go/pull/3649) (Closed, **RyanCavanaugh**, **Copilot**)
 
-**Add TSGO\_DEBUG\_STACK\_LIMIT to cap goroutine stack size at entry points**
+**Add TS\_GO\_DEBUG\_STACK\_LIMIT to cap goroutine stack size at entry points**
 
-*Introduce an optional TSGO_DEBUG_STACK_LIMIT environment variable to cap goroutine stack size at startup and detect runaway recursion early*
+*Add an opt-in TS_GO_DEBUG_STACK_LIMIT environment variable to cap each goroutine’s stack size at startup, enabling early detection of runaway recursion.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
@@ -312,7 +321,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3656](https://github.com/microsoft/TypeScript-go/issues/3656) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3656](https://github.com/microsoft/TypeScript-go/issues/3656) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Optional marking with jsdoc does not correctly treat param as undefined**
 
@@ -321,13 +330,14 @@
  * created by **hkleungai**
  * (later) **ahejlsberg** added labels `bug`, `Domain: Type Checking`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3657](https://github.com/microsoft/TypeScript-go/issues/3657) (Open)
+### [Issue microsoft/TypeScript-go#3657](https://github.com/microsoft/TypeScript-go/issues/3657) (Closed, `wontfix`)
 
 **Behavior difference: TS2349 error does not tell resolution\-mode in tsgo**
 
 *tsgo’s TS2349 error output omits the resolution-mode annotation that tsc includes under nodenext module resolution.*
 
  * created by **hkleungai**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3657#issuecomment-4345351366) **jakebailey** said "I have no idea why 6.0 would print it that way, when the import statement does not have  resolution-mode written?"
 
 ### [PR microsoft/TypeScript-go#3658](https://github.com/microsoft/TypeScript-go/pull/3658) (Closed)
 
