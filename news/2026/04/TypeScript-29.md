@@ -1,6 +1,6 @@
 # Report for 2026-04-29 (Wednesday, April 29th, 2026)
 
-9 different users commented on 15 different issues.
+9 different users commented on 17 different issues.
 
 ## Recommended Actions
 
@@ -80,27 +80,39 @@
  * created by **EvertsRozz**
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * **mjbvz** unassigned **mjbvz**
+ * [later](https://github.com/microsoft/TypeScript/issues/63450#issuecomment-4354002353) **RyanCavanaugh** generated an automated response listing similar issues to help start analysis
 
-### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open)
+### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`)
 
 **\`new super\(\)\` in static method does not cause error**
 
 *TypeScript 6.0 incorrectly allows new super() in static blocks and methods without error.*
 
  * created by **Withered-Flower-0422**
+ * [later](https://github.com/microsoft/TypeScript/issues/63451#issuecomment-4354002466) **RyanCavanaugh** thanked the user, listed similar issues, and explained that 'new super()' is valid per the ECMAScript spec
+
+### [Issue microsoft/TypeScript#63452](https://github.com/microsoft/TypeScript/issues/63452) (Open, `Needs Investigation`)
+
+**TS IntelliSense is very slow or loads endlessly on simple ArkType wrapper**
+
+*VSCode’s TypeScript IntelliSense hangs indefinitely and exhibits extremely slow error detection in a simple ArkType wrapper project*
+
+ * created by **FunctionDJ**
+ * **vs-code-engineering[bot]** assigned to **mjbvz**
+ * [later](https://github.com/microsoft/TypeScript/issues/63452#issuecomment-4354002566) **RyanCavanaugh** provided an automatically generated list of similar issues with relevance percentages
 
 ### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Open, `For Uncommitted Bug`)
 
 **fix: detected calls to child\_process from a function\.\.\. in\.\.\.**
 
-*Fixed a high-severity command injection vulnerability by removing or sanitizing child_process calls in scripts/find-unused-diganostic-messages.mjs.*
+*Sanitized child_process usage in scripts/find-unused-diganostic-messages.mjs to prevent command injection*
 
  * created by **orbisai0security**
  * (later) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4351194500) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4351194517) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open)
+### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open, `Design Limitation`)
 
 **\`1 \| 2 \| 3\` can be assigned to \`1 \| 2\` when using a recursive type**
 
@@ -109,4 +121,5 @@
  * created by **carljohnsonnewhampshire-hue**
  * [later](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4353396688) **carljohnsonnewhampshire-hue** demonstrated that the BuildType example allowed num and str to be assigned to each other without type errors
  * [later](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4353411975) **carljohnsonnewhampshire-hue** demonstrated that when object type nesting is one level shallower, both assignments fail as expected
+ * [later](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4354002694) **RyanCavanaugh** provided an automatically generated analysis with links to similar issues
 

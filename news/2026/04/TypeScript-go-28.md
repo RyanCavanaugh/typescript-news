@@ -1,6 +1,6 @@
 # Report for 2026-04-28 (Tuesday, April 28th, 2026)
 
-11 different users commented on 37 different issues.
+11 different users commented on 39 different issues.
 
 ## Recommended Actions
 
@@ -109,7 +109,7 @@
  * created by **alexswan93**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3611#issuecomment-4339900462) **DanielRosenwasser** described that the current strategy was naive polling at a fixed frequency and mentioned that @jakebailey was implementing perf infrastructure in the typescript-go repo
 
-### [Issue microsoft/TypeScript-go#3613](https://github.com/microsoft/TypeScript-go/issues/3613) (Open)
+### [Issue microsoft/TypeScript-go#3613](https://github.com/microsoft/TypeScript-go/issues/3613) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behaviour difference: merging \`interface\`s with identically named getter/setter pair and field**
 
@@ -142,7 +142,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4338480676) **Copilot** added synctest subtests verifying that a slow client triggers timeout and rollback and that a subsequent call succeeds
  * [today](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4339083623) **Copilot** rewrote the test for updateWatch timeout and retry using real session operations and synctest, mocking WatchFilesFunc to block on the first batch and verifying that after a timeout-induced rollback the registry remained clean for re-registration
 
-### [PR microsoft/TypeScript-go#3636](https://github.com/microsoft/TypeScript-go/pull/3636) (Open)
+### [PR microsoft/TypeScript-go#3636](https://github.com/microsoft/TypeScript-go/pull/3636) (Closed)
 
 **Fix signature help crash in WIP JSX text on opening \`\<\`**
 
@@ -213,7 +213,7 @@
  * **ahejlsberg** added label `wontfix`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3645](https://github.com/microsoft/TypeScript-go/issues/3645) (Open, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3645](https://github.com/microsoft/TypeScript-go/issues/3645) (Open, `Domain: Editor`, `Crash`, **andrewbranch**, **Copilot**)
 
 **Auto\-imports for JSX tag trigger assertion violation when React is type\-imported\.**
 
@@ -258,7 +258,7 @@
 
 **Add TS\_GO\_DEBUG\_STACK\_LIMIT to cap goroutine stack size at entry points**
 
-*Add an opt-in TS_GO_DEBUG_STACK_LIMIT environment variable to cap each goroutine’s stack size at startup, enabling early detection of runaway recursion.*
+*Add an opt-in TS_GO_DEBUG_STACK_LIMIT environment variable to configure and enforce goroutine stack size caps at startup.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
@@ -268,7 +268,7 @@
 
 **Fix assertion violation in auto\-imports for JSX tag when React is type\-imported**
 
-*Iterate through all symbol names for auto-importing JSX tags with type-only React imports to prevent assertion failures.*
+*Refactor symbol import logic to handle type-only React imports and prevent JSX auto-import assertion failures.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**

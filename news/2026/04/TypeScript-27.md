@@ -97,7 +97,7 @@
  * (today) **typescript-bot** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Closed, `Duplicate`)
 
 **5\.9 regression: Union types served by mutually exclusive function overloads not working**
 

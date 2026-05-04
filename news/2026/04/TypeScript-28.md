@@ -39,13 +39,13 @@
 
 **Bump the github\-actions group across 1 directory with 5 updates**
 
-*Update five GitHub Actions packages in the root directory to newer versions.*
+*Update actions/setup-node, upload-artifact, cache, codeql-action, and github-script to their latest versions in the root directory.*
 
  * (2 days ago) **dependabot[bot]** added labels `dependencies`, `github_actions`
  * **typescript-bot** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63443#issuecomment-4342434504) **G-11-P** said "Merge approval granted"
 
-### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63447](https://github.com/microsoft/TypeScript/issues/63447) (Closed, `Duplicate`)
 
 **5\.9 regression: Union types served by mutually exclusive function overloads not working**
 

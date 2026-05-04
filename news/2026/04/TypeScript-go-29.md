@@ -1,6 +1,6 @@
 # Report for 2026-04-29 (Wednesday, April 29th, 2026)
 
-10 different users commented on 17 different issues.
+10 different users commented on 18 different issues.
 
 ## Recommended Actions
 
@@ -22,7 +22,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **navya9singh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3610](https://github.com/microsoft/TypeScript-go/issues/3610) (Open)
+### [Issue microsoft/TypeScript-go#3610](https://github.com/microsoft/TypeScript-go/issues/3610) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **API: additional Checker methods for transpiler consumers \(follow\-up to \#3403\)**
 
@@ -31,6 +31,7 @@
  * created by **RealColdFry**
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3610#issuecomment-4329142502) **andrewbranch** thanked for the list and asked if anything outside the checker is missing or if the list fully unblocks migration
  * [later](https://github.com/microsoft/TypeScript-go/issues/3610#issuecomment-4351861910) **RealColdFry** listed the remaining API gaps for the TSTL feature, including missing Program methods and checker-side accessors
+ * (later) **andrewbranch** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
 
 ### [PR microsoft/TypeScript-go#3628](https://github.com/microsoft/TypeScript-go/pull/3628) (Open, **andrewbranch**, **Copilot**)
 
@@ -59,7 +60,7 @@
 
 **Add TS\_GO\_DEBUG\_STACK\_LIMIT to cap goroutine stack size at entry points**
 
-*Add an opt-in TS_GO_DEBUG_STACK_LIMIT environment variable to cap each goroutine’s stack size at startup, enabling early detection of runaway recursion.*
+*Add an opt-in TS_GO_DEBUG_STACK_LIMIT environment variable to configure and enforce goroutine stack size caps at startup.*
 
  * (yesterday) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3649#issuecomment-4339647092) **RyanCavanaugh** tested stack limit thresholds and observed instant failure at 1,000,000 with 3,000 elided frames and fast execution at 5,000,000 with 28,000 elided frames, recommending the latter for local development
@@ -172,7 +173,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3667](https://github.com/microsoft/TypeScript-go/issues/3667) (Open)
+### [Issue microsoft/TypeScript-go#3667](https://github.com/microsoft/TypeScript-go/issues/3667) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Assigning array to uninitialized class members yields different error on tsc & tsgo**
 

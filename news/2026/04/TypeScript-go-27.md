@@ -172,7 +172,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3609#issuecomment-4329522556) **MukundaKatta** said "Thanks @ahejlsberg, makes sense. #3620 looks like the cleaner fix at the source. Closing this in favor of yours."
  * (today) **MukundaKatta** closed the issue
 
-### [Issue microsoft/TypeScript-go#3610](https://github.com/microsoft/TypeScript-go/issues/3610) (Open)
+### [Issue microsoft/TypeScript-go#3610](https://github.com/microsoft/TypeScript-go/issues/3610) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **API: additional Checker methods for transpiler consumers \(follow\-up to \#3403\)**
 
@@ -363,7 +363,7 @@
  * created by **jakebailey**
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3635](https://github.com/microsoft/TypeScript-go/issues/3635) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3635](https://github.com/microsoft/TypeScript-go/issues/3635) (Closed, `Crash`)
 
 **When entering "\<" in it, it will panic**
 
@@ -372,7 +372,7 @@
  * created by **liy010**
  * **liy010** added label `Crash`
 
-### [PR microsoft/TypeScript-go#3636](https://github.com/microsoft/TypeScript-go/pull/3636) (Open)
+### [PR microsoft/TypeScript-go#3636](https://github.com/microsoft/TypeScript-go/pull/3636) (Closed)
 
 **Fix signature help crash in WIP JSX text on opening \`\<\`**
 
