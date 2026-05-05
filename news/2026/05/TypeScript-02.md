@@ -35,7 +35,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4366481833) **carljohnsonnewhampshire-hue** asked why a recursive mapped type over an infinite circular type worked in one version but broke after slight modifications
  * [later](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4366526176) **jcalz** guessed that TypeScript's variance markers cause the issue, described a workaround using an Invariant wrapper type, and asked for advice
 
-### [Issue microsoft/TypeScript#63456](https://github.com/microsoft/TypeScript/issues/63456) (Open)
+### [Issue microsoft/TypeScript#63456](https://github.com/microsoft/TypeScript/issues/63456) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **String\.split\(\) method's separator argument should allow undefined**
 

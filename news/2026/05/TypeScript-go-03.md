@@ -1,6 +1,6 @@
 # Report for 2026-05-03 (Sunday, May 3rd, 2026)
 
-6 different users commented on 8 different issues.
+7 different users commented on 11 different issues.
 
 ## Recommended Actions
 
@@ -20,7 +20,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2478#issuecomment-4270354928) **jakebailey** explained that a client could set up a FIFO as the file descriptor for a child process which might never close
  * [later](https://github.com/microsoft/TypeScript-go/pull/2478#issuecomment-4372407010) **andrewbranch** said "I ended last week with 7 orphaned tsgo processes, so I guess we do still need this."
 
-### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`, `Needs More Info`)
 
 **Panic Alert Notification when Cursor edits some file and opening that file causes panic\.**
 
@@ -31,7 +31,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3621#issuecomment-4361443953) **Raynos** said "Observing same issue in cursor too."
  * [later](https://github.com/microsoft/TypeScript-go/issues/3621#issuecomment-4369143872) **CarlosZiegler** said "Observing same issue in cursor too. "
 
-### [Issue microsoft/TypeScript-go#3691](https://github.com/microsoft/TypeScript-go/issues/3691) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3691](https://github.com/microsoft/TypeScript-go/issues/3691) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Assigning \`Object\.values\(obj\)\` to \`obj\[field\]\` gives error on tsgo but not on tsc**
 
@@ -41,7 +41,16 @@
  * (later) **ahejlsberg** added labels `bug`, `Domain: Type Checking`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3691#issuecomment-4372295101) **ahejlsberg** explained that failing to recognize an expando object literal had led to inferring an index type and causing circularity
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open)
+### [Issue microsoft/TypeScript-go#3693](https://github.com/microsoft/TypeScript-go/issues/3693) (Closed, `wontfix`)
+
+**Behavior difference: Exporting object literal from js file emits object literal type in tsgo, as opposed to \`namespace\` in tsc\.**
+
+*tsgo exports JavaScript object literals as literal types instead of namespaces like tsc, and this behavior difference (along with optional omission of @satisfies JSDoc comments) should be documented in CHANGES.md.*
+
+ * created by **hkleungai**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3693#issuecomment-4372517238) **ahejlsberg** explained that the new declaration file emitter differs from Strada and stays closer to the original code and pointed to the CHANGES.md section
+
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, **DanielRosenwasser**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 
@@ -74,4 +83,20 @@
 
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
+
+### [PR microsoft/TypeScript-go#3698](https://github.com/microsoft/TypeScript-go/pull/3698) (Open)
+
+**Add minimal tsc output format**
+
+*Implement a new --outputFormat minimal option in tsgo to emit compact, one-line diagnostics for easier parsing and reduced token usage.*
+
+ * created by **JoviDeCroock**
+
+### [PR microsoft/TypeScript-go#3699](https://github.com/microsoft/TypeScript-go/pull/3699) (Closed)
+
+**Fix circularity in expando object property assignment**
+
+*Break the circular reference causing infinite recursion during expando object property assignments.*
+
+ * created by **ahejlsberg**
 

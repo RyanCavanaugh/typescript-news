@@ -1,6 +1,6 @@
 # Report for 2026-04-29 (Wednesday, April 29th, 2026)
 
-9 different users commented on 17 different issues.
+9 different users commented on 18 different issues.
 
 ## Recommended Actions
 
@@ -101,7 +101,7 @@
  * **vs-code-engineering[bot]** assigned to **mjbvz**
  * [later](https://github.com/microsoft/TypeScript/issues/63452#issuecomment-4354002566) **RyanCavanaugh** provided an automatically generated list of similar issues with relevance percentages
 
-### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Closed, `For Uncommitted Bug`)
 
 **fix: detected calls to child\_process from a function\.\.\. in\.\.\.**
 

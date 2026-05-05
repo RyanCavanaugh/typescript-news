@@ -41,7 +41,7 @@
  * (4 days ago) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **Copilot**, **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3552#issuecomment-4361735218) **andrewbranch** acknowledged that JS elision behavior was unique to the Strada JS declaration emitter and suggested standardizing on the TS emitter, possibly marking the issue as wontfix
 
-### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`, `Needs More Info`)
 
 **Panic Alert Notification when Cursor edits some file and opening that file causes panic\.**
 
@@ -164,7 +164,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3681#issuecomment-4362138979) **typescript-bot** reported server connection closed prematurely error for cypress-io/cypress and shared logs, request details, and reproduction steps
  * [today](https://github.com/microsoft/TypeScript-go/issues/3681#issuecomment-4362139013) **typescript-bot** reported server connection closed prematurely error and provided logs and repro steps for n8n-io/n8n
 
-### [Issue microsoft/TypeScript-go#3682](https://github.com/microsoft/TypeScript-go/issues/3682) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3682](https://github.com/microsoft/TypeScript-go/issues/3682) (Closed, `wontfix`)
 
 **Behavior difference: Assigning static field outside class definition gives TS7005 in tsc but gives TS7008 in tsgo**
 
@@ -174,7 +174,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3682#issuecomment-4364020807) **ahejlsberg** stated that Strada incorrectly tagged expando properties as variables and that the Corsa terminology was more correct, so no fix was needed
  * **ahejlsberg** added label `wontfix`
 
-### [Issue microsoft/TypeScript-go#3683](https://github.com/microsoft/TypeScript-go/issues/3683) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3683](https://github.com/microsoft/TypeScript-go/issues/3683) (Closed, `wontfix`)
 
 **Behavior difference: jsdoc \`@readonly\` placed on class getter gives error on tsgo but not in tsc**
 

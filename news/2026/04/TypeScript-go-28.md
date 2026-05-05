@@ -1,6 +1,6 @@
 # Report for 2026-04-28 (Tuesday, April 28th, 2026)
 
-11 different users commented on 39 different issues.
+11 different users commented on 40 different issues.
 
 ## Recommended Actions
 
@@ -118,7 +118,7 @@
  * created by **mcpower**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3613#issuecomment-4340199480) **ahejlsberg** said "Strada doesn't really get this one right either. If you reverse the two interface declarations, Strada also errors. Corsa is at least consistent here in that it always errors."
 
-### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`, `Needs More Info`)
 
 **Panic Alert Notification when Cursor edits some file and opening that file causes panic\.**
 

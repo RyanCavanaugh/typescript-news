@@ -1,6 +1,6 @@
 # Report for 2026-05-02 (Saturday, May 2nd, 2026)
 
-7 different users commented on 9 different issues.
+7 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -56,7 +56,7 @@
 
  * created by **Zzzen**
 
-### [Issue microsoft/TypeScript-go#3691](https://github.com/microsoft/TypeScript-go/issues/3691) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3691](https://github.com/microsoft/TypeScript-go/issues/3691) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Assigning \`Object\.values\(obj\)\` to \`obj\[field\]\` gives error on tsgo but not on tsc**
 
@@ -74,7 +74,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4365884783) **Jelcoo** shared WebStorm TypeScript server settings screenshot
  * [later](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4365889287) **Jelcoo** said "While writing this issue I was working on https://github.com/calagopus/panel/commit/2db0200f2c03ab2174db6f012363fe0a49a7c967, but it has been happening with all sorts of other changes."
 
-### [Issue microsoft/TypeScript-go#3693](https://github.com/microsoft/TypeScript-go/issues/3693) (Open)
+### [Issue microsoft/TypeScript-go#3693](https://github.com/microsoft/TypeScript-go/issues/3693) (Closed, `wontfix`)
 
 **Behavior difference: Exporting object literal from js file emits object literal type in tsgo, as opposed to \`namespace\` in tsc\.**
 

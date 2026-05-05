@@ -57,7 +57,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63452#issuecomment-4354134744) **RyanCavanaugh** noted that the video showed insertion at the log end, reported his own local responsiveness, suggested @ssalbdivad for clues, and concluded it likely didn't meet the 6.0 LS patch bar
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and unassigned **mjbvz**
 
-### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Closed, `For Uncommitted Bug`)
 
 **fix: detected calls to child\_process from a function\.\.\. in\.\.\.**
 

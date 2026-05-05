@@ -52,7 +52,7 @@
  * (yesterday) **RyanCavanaugh** added label `Needs Investigation`, and unassigned **mjbvz**
  * [today](https://github.com/microsoft/TypeScript/issues/63452#issuecomment-4362048572) **FunctionDJ** suggested creating an independent reproduction repository and asked how to replicate VSCode's language server interactions
 
-### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63453](https://github.com/microsoft/TypeScript/pull/63453) (Closed, `For Uncommitted Bug`)
 
 **fix: detected calls to child\_process from a function\.\.\. in\.\.\.**
 
@@ -74,7 +74,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63455#issuecomment-4362839179) **garysassano** thanked mkantor and explained that updating VS Code to TypeScript 6.0.2 resolved the discrepancy between tsc and VS Code errors
  * (today) **garysassano** closed the issue
 
-### [Issue microsoft/TypeScript#63456](https://github.com/microsoft/TypeScript/issues/63456) (Open)
+### [Issue microsoft/TypeScript#63456](https://github.com/microsoft/TypeScript/issues/63456) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **String\.split\(\) method's separator argument should allow undefined**
 
