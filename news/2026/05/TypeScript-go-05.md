@@ -386,7 +386,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3573](https://github.com/microsoft/TypeScript-go/pull/3573) (Open)
+### [PR microsoft/TypeScript-go#3573](https://github.com/microsoft/TypeScript-go/pull/3573) (Closed)
 
 **Optimize type variable scope map cloning with CoW**
 
