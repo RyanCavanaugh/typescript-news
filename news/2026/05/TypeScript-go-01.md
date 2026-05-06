@@ -1,6 +1,6 @@
 # Report for 2026-05-01 (Friday, May 1st, 2026)
 
-12 different users commented on 19 different issues.
+12 different users commented on 20 different issues.
 
 ## Recommended Actions
 
@@ -127,7 +127,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#3679](https://github.com/microsoft/TypeScript-go/issues/3679) (Open)
+### [Issue microsoft/TypeScript-go#3679](https://github.com/microsoft/TypeScript-go/issues/3679) (Closed)
 
 **\[ServerErrors\]\[JavaScript\] main vs **
 
@@ -145,7 +145,7 @@
  * created by **ahejlsberg**
  * (later) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3681](https://github.com/microsoft/TypeScript-go/issues/3681) (Open)
+### [Issue microsoft/TypeScript-go#3681](https://github.com/microsoft/TypeScript-go/issues/3681) (Closed)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -193,7 +193,7 @@
  * created by **SAY-5**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3684#issuecomment-4363050752) **jakebailey** critiqued the proposed fix for masking the root cause and requested adding a reproducing test after #3483
 
-### [PR microsoft/TypeScript-go#3685](https://github.com/microsoft/TypeScript-go/pull/3685) (Open)
+### [PR microsoft/TypeScript-go#3685](https://github.com/microsoft/TypeScript-go/pull/3685) (Closed)
 
 **Fix flake in TestRegistryLifecycle pnpm\-style symlink test**
 
@@ -201,7 +201,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3686](https://github.com/microsoft/TypeScript-go/issues/3686) (Open)
+### [Issue microsoft/TypeScript-go#3686](https://github.com/microsoft/TypeScript-go/issues/3686) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Unnecessary declaration in \.d\.ts**
 

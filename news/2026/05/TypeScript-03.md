@@ -33,7 +33,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4372510948) **RyanCavanaugh** said "This repo is closed to new PRs except for critical issues, which this isn't."
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Closed, `Design Limitation`)
 
 **\`1 \| 2 \| 3\` can be assigned to \`1 \| 2\` when using a recursive type**
 

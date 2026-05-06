@@ -21,7 +21,7 @@
  * (1 week ago) **andrewbranch** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/46726#issuecomment-4365508467) **Zain-ul-din** said "Actually, my bad here, Claude Code installed version 3 of the package, where the latest is i think, 5 rn."
 
-### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Closed, `Design Limitation`)
 
 **\`1 \| 2 \| 3\` can be assigned to \`1 \| 2\` when using a recursive type**
 

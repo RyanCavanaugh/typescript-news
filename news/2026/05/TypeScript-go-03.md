@@ -1,6 +1,6 @@
 # Report for 2026-05-03 (Sunday, May 3rd, 2026)
 
-7 different users commented on 11 different issues.
+7 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -50,7 +50,7 @@
  * created by **hkleungai**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3693#issuecomment-4372517238) **ahejlsberg** explained that the new declaration file emitter differs from Strada and stays closer to the original code and pointed to the CHANGES.md section
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, `Needs Investigation`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 
@@ -58,7 +58,7 @@
 
  * created by **hkleungai**
 
-### [PR microsoft/TypeScript-go#3695](https://github.com/microsoft/TypeScript-go/pull/3695) (Open)
+### [PR microsoft/TypeScript-go#3695](https://github.com/microsoft/TypeScript-go/pull/3695) (Closed)
 
 **Fix inference from never into union targets**
 

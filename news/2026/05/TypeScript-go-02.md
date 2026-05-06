@@ -30,7 +30,7 @@
 
  * created by **mudcovered**
 
-### [Issue microsoft/TypeScript-go#3688](https://github.com/microsoft/TypeScript-go/issues/3688) (Open)
+### [Issue microsoft/TypeScript-go#3688](https://github.com/microsoft/TypeScript-go/issues/3688) (Closed)
 
 **Behavior difference: const T extends string = string binds to default instead of inferring never**
 

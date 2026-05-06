@@ -82,7 +82,7 @@
  * **mjbvz** unassigned **mjbvz**
  * [later](https://github.com/microsoft/TypeScript/issues/63450#issuecomment-4354002353) **RyanCavanaugh** generated an automated response listing similar issues to help start analysis
 
-### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`, `Domain: classes`)
 
 **\`new super\(\)\` in static method does not cause error**
 
@@ -112,7 +112,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4351194500) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4351194517) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Closed, `Design Limitation`)
 
 **\`1 \| 2 \| 3\` can be assigned to \`1 \| 2\` when using a recursive type**
 

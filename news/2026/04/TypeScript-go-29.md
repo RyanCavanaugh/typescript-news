@@ -1,6 +1,6 @@
 # Report for 2026-04-29 (Wednesday, April 29th, 2026)
 
-10 different users commented on 18 different issues.
+10 different users commented on 20 different issues.
 
 ## Recommended Actions
 
@@ -33,11 +33,11 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3610#issuecomment-4351861910) **RealColdFry** listed the remaining API gaps for the TSTL feature, including missing Program methods and checker-side accessors
  * (later) **andrewbranch** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3628](https://github.com/microsoft/TypeScript-go/pull/3628) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#3628](https://github.com/microsoft/TypeScript-go/pull/3628) (Closed, **andrewbranch**, **Copilot**)
 
 **Fix server hang after "Running scheduled diagnostics refresh"**
 
-*Unbounded diagnostic and watch waits causing server hangs are fixed by non-blocking refresh, timed rollback, and a watch registry.*
+*Convert scheduled diagnostics refresh to non-blocking and introduce per-request timeouts, watcher deduplication, and registry encapsulation to prevent server deadlocks.*
 
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4338359955) **andrewbranch** said "@copilot write a test for the updateWatch timeout and retry. I think you should be able to mock the client implementation using synctest."
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4338480676) **Copilot** added synctest subtests verifying that a slow client triggers timeout and rollback and that a subsequent call succeeds
@@ -67,7 +67,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3649#issuecomment-4345431990) **jakebailey** discussed the choice of the TSGO prefix and questioned how much 'Go' should be included in names
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3655](https://github.com/microsoft/TypeScript-go/issues/3655) (Open)
+### [Issue microsoft/TypeScript-go#3655](https://github.com/microsoft/TypeScript-go/issues/3655) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: Pattern matching against \`extends { \[P in K\]?: unknown }\` emit slightly different error in tsgo**
 
@@ -123,7 +123,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3660#issuecomment-4346062582) **jakebailey** said "I think you should also delete this entry: https://github.com/microsoft/typescript-go/blob/main/CHANGES.md#optional-marking-on-parameter-names-now-makes-the-parameter-both-optional-and-undefined"
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3661](https://github.com/microsoft/TypeScript-go/issues/3661) (Open)
+### [Issue microsoft/TypeScript-go#3661](https://github.com/microsoft/TypeScript-go/issues/3661) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: tsgo emits an "extra" TS7006 along with TS2769 at the same line in case of overload mismatch**
 
@@ -131,7 +131,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3662](https://github.com/microsoft/TypeScript-go/issues/3662) (Open)
+### [Issue microsoft/TypeScript-go#3662](https://github.com/microsoft/TypeScript-go/issues/3662) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: tsgo wrongly allows \`include\` to contain files that is not under \`rootDir\` from tsconfig**
 
@@ -157,7 +157,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3664#issuecomment-4347464727) **kbrooks** agreed with the policy service and indicated affiliation with Snap Inc.
  * [today](https://github.com/microsoft/TypeScript-go/pull/3664#issuecomment-4347528448) **kbrooks** agreed to policy request and specified company as Snap Inc.
 
-### [Issue microsoft/TypeScript-go#3665](https://github.com/microsoft/TypeScript-go/issues/3665) (Open)
+### [Issue microsoft/TypeScript-go#3665](https://github.com/microsoft/TypeScript-go/issues/3665) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: jsdoc typing on child class member overrides parent class's type in tsgo but not in tsc**
 
@@ -165,7 +165,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3666](https://github.com/microsoft/TypeScript-go/issues/3666) (Open)
+### [Issue microsoft/TypeScript-go#3666](https://github.com/microsoft/TypeScript-go/issues/3666) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: tsgo does not \(fully\) respect jsdoc \`@extend\` clause**
 

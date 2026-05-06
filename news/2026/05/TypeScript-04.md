@@ -49,7 +49,7 @@
  * (5 days ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
  * [today](https://github.com/microsoft/TypeScript/issues/63448#issuecomment-4373762285) **freshp86** thanked the proposal and said they would try it and provide updates, explained that during the TypeScript v7 migration they needed both v6 and v7 compilers side by side and wanted to use libReplacement for consistent local patches
 
-### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`, `Domain: classes`)
 
 **\`new super\(\)\` in static method does not cause error**
 

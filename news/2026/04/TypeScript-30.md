@@ -33,7 +33,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/62660#issuecomment-4355388632) **AlexeiDarmin-SA** analyzed declaration emit output, identified hotspots from long inferred type chains in reselect/redux selectors, added explicit type annotations and reduced deep createSelector composition, and resolved memory and emit performance issues enabling upgrade beyond 5.5.4 and migration to TS Go
  * (today) **AlexeiDarmin-SA** closed the issue
 
-### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`, `Domain: classes`)
 
 **\`new super\(\)\` in static method does not cause error**
 
@@ -69,7 +69,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4354624555) **jakebailey** noted that this was not a security problem, suggested the author hadn't tested locally, pointed out formatting issues, and asked if the author was a bot and how they determined the issue needed fixing
  * [later](https://github.com/microsoft/TypeScript/pull/63453#issuecomment-4359360882) **ritschwumm** asked why the change modified every line of the diagnostic script and whether the line endings were switched
 
-### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63454](https://github.com/microsoft/TypeScript/issues/63454) (Closed, `Design Limitation`)
 
 **\`1 \| 2 \| 3\` can be assigned to \`1 \| 2\` when using a recursive type**
 

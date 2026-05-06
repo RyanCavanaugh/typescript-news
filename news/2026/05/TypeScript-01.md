@@ -32,7 +32,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63447#issuecomment-4362557182) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63451](https://github.com/microsoft/TypeScript/issues/63451) (Open, `Bug`, `Fix Available`, `Domain: classes`)
 
 **\`new super\(\)\` in static method does not cause error**
 

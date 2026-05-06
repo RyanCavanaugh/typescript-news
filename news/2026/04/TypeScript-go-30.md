@@ -1,6 +1,6 @@
 # Report for 2026-04-30 (Thursday, April 30th, 2026)
 
-13 different users commented on 19 different issues.
+13 different users commented on 21 different issues.
 
 ## Recommended Actions
 
@@ -87,7 +87,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3636#issuecomment-4354599699) **DanielRosenwasser** said "Thanks!"
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3665](https://github.com/microsoft/TypeScript-go/issues/3665) (Open)
+### [Issue microsoft/TypeScript-go#3665](https://github.com/microsoft/TypeScript-go/issues/3665) (Open, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: jsdoc typing on child class member overrides parent class's type in tsgo but not in tsc**
 

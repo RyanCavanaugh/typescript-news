@@ -1,6 +1,6 @@
 # Report for 2026-05-04 (Monday, May 4th, 2026)
 
-12 different users commented on 27 different issues.
+12 different users commented on 28 different issues.
 
 ## Recommended Actions
 
@@ -154,7 +154,7 @@
  * **ahejlsberg** added label `wontfix`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, `Needs Investigation`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 
