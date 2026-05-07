@@ -183,7 +183,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3521#issuecomment-4308858686) **Copilot** addressed remaining comments by fixing the `lastRequiredParamIndex` doc comment and adding an early-return fast path in `typeFromParameter`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: JS declaration emit adds \`export import\` modifier for require\-style import assignments**
 
@@ -193,7 +193,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: CJS \`module\.exports = {}\` now emits \`export = \_default\` with inlined object type instead of named exports**
 
@@ -203,7 +203,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: CJS class expression exports emit anonymous constructor types instead of named class declarations**
 
@@ -213,7 +213,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: CJS export alias and element access patterns changed**
 
@@ -223,7 +223,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Namespace\-to\-const restructuring with DtsFileErrors \(redeclaration errors\)**
 
@@ -233,7 +233,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Missing generic type arguments no longer auto\-filled with any \(produces TS2314 errors\)**
 
@@ -243,7 +243,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Output file ordering changed \+ declaration types resolve to any instead of typeof references**
 
@@ -253,7 +253,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3555](https://github.com/microsoft/TypeScript-go/issues/3555) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3555](https://github.com/microsoft/TypeScript-go/issues/3555) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: @overload handling changes in JS declaration emit**
 
@@ -263,7 +263,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: @callback/@overload tags reordered and restructured in declaration emit**
 
@@ -284,7 +284,7 @@
  * (1 week ago) **DanielRosenwasser** assigned to **Copilot**, **DanielRosenwasser**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: CJS exports pattern changes in declaration emit**
 
@@ -294,7 +294,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: exportNonInitializedVariables crash in declaration emit**
 
@@ -325,7 +325,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -336,7 +336,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -346,7 +346,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: export as namespace added or restructured in declaration emit**
 
@@ -356,7 +356,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -782,7 +782,7 @@
  * created by **sandersn**
  * (later) **sandersn** closed the issue
 
-### [Issue microsoft/TypeScript-go#3719](https://github.com/microsoft/TypeScript-go/issues/3719) (Open)
+### [Issue microsoft/TypeScript-go#3719](https://github.com/microsoft/TypeScript-go/issues/3719) (Open, `bug`, **iisaduan**)
 
 **Support localized user\-facing strings in VS Code extension**
 

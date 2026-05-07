@@ -1,6 +1,6 @@
 # Report for 2026-05-06 (Wednesday, May 6th, 2026)
 
-14 different users commented on 47 different issues.
+14 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -41,7 +41,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **iisaduan**
 
-### [Issue microsoft/TypeScript-go#3489](https://github.com/microsoft/TypeScript-go/issues/3489) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#3489](https://github.com/microsoft/TypeScript-go/issues/3489) (Open, `bug`, **iisaduan**)
 
 **Lowercase\<"İ"\>\` differs between tsgo and tsc \(Go strings\.ToLower vs JS String\.prototype\.toLowerCase\)**
 
@@ -341,7 +341,7 @@
  * (today) **ahejlsberg** added label `wontfix`, removed label `Needs Investigation`, and removed from milestone `TypeScript 7.0 RC`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3719](https://github.com/microsoft/TypeScript-go/issues/3719) (Open)
+### [Issue microsoft/TypeScript-go#3719](https://github.com/microsoft/TypeScript-go/issues/3719) (Open, `bug`, **iisaduan**)
 
 **Support localized user\-facing strings in VS Code extension**
 
@@ -447,7 +447,7 @@
 
 **Handle config file diagnostics updates via file watching**
 
-*Implement file watcher-based tsconfig diagnostic updates for unopened projects, excluding non-workspace and node_modules files.*
+*Implement file watching for tsconfig changes to update diagnostics even for unopened projects and exclude irrelevant files.*
 
  * created by **gabritto**
 
@@ -468,7 +468,7 @@
  * created by **jansedlon**
  * **jansedlon** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`, `Needs More Info`, **jakebailey**, **Copilot**)
 
 **Entering "ai\.messages\.find\(m =\> m\.\)" will cause the language server to crash\.**
 
@@ -476,12 +476,26 @@
 
  * created by **ShenHongFei**
  * **ShenHongFei** added label `Crash`
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
+ * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
 ### [Issue microsoft/TypeScript-go#3735](https://github.com/microsoft/TypeScript-go/issues/3735) (Open)
 
 **Behavior difference: tsgo fails to emit error on class field's unmatched params between jsdoc & js code**
 
-*tsgo fails to report all JSDoc @param mismatches on JavaScript class fields, emitting only one error instead of two.*
+*tsgo reports unmatched JSDoc '@param' errors for methods but not for class field arrow functions, unlike TypeScript.*
 
  * created by **hkleungai**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3735#issuecomment-4398617779) **a-tarasyuk** said "@hkleungai could you add simplified repro? Thanks "
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3735#issuecomment-4398629943) **hkleungai** said "Sorry just notice that. "
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3735#issuecomment-4398645120) **a-tarasyuk** said "Thanks, I’ll check the issue "
+
+### [PR microsoft/TypeScript-go#3736](https://github.com/microsoft/TypeScript-go/pull/3736) (Closed, **jakebailey**, **Copilot**)
+
+**Investigate format crash during auto\-import completion resolve**
+
+*Resolving auto-import completions crashes the Go language server due to assertion failures from mutated node positions during formatting*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
