@@ -1,6 +1,6 @@
 # Report for 2026-05-05 (Tuesday, May 5th, 2026)
 
-8 different users commented on 8 different issues.
+8 different users commented on 9 different issues.
 
 ## Recommended Actions
 
@@ -32,7 +32,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63454#issuecomment-4384473701) **typescript-bot** said "This issue has been marked as "Design Limitation" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [PR microsoft/TypeScript#63458](https://github.com/microsoft/TypeScript/pull/63458) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63458](https://github.com/microsoft/TypeScript/pull/63458) (Closed, `For Backlog Bug`)
 
 **feat: Add Math\.sumPrecise type definition \(ES2025\)**
 

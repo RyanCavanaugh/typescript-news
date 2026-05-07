@@ -22,7 +22,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3684#issuecomment-4364438002) **SAY-5** closed the issue per @jakebailey's read and agreed to defer a proper parser fix
  * (today) **SAY-5** closed the issue
 
-### [Issue microsoft/TypeScript-go#3687](https://github.com/microsoft/TypeScript-go/issues/3687) (Open)
+### [Issue microsoft/TypeScript-go#3687](https://github.com/microsoft/TypeScript-go/issues/3687) (Open, `possible improvement`)
 
 **No compiled packages for netbsd**
 
@@ -40,7 +40,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3688#issuecomment-4365074002) **jakebailey** said "Have you tested with --stableTypeOrdering in 6.0?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/3688#issuecomment-4366254698) **birkskyum** tested various compiler commands including tsc and tsgo with and without stableTypeOrdering and found the type-check divergence persisted
 
-### [Issue microsoft/TypeScript-go#3689](https://github.com/microsoft/TypeScript-go/issues/3689) (Open)
+### [Issue microsoft/TypeScript-go#3689](https://github.com/microsoft/TypeScript-go/issues/3689) (Open, `Needs Investigation`, **andrewbranch**)
 
 **project reference resolution fails when workspace is opened through a symlinked root path**
 
@@ -64,7 +64,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open)
+### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open, `Needs More Info`)
 
 **Excessive CPU usage**
 

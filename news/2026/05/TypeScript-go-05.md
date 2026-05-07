@@ -5,7 +5,7 @@
 ## Recommended Actions
 
  * Response Recommended
-    * @Jelcoo asked how to manually take a profile in [microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4385893760)
+    * @Jelcoo asked if there's a manual way to take a profile in [microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4385893760)
     * @GrygrFlzr provided reproduction steps and commit range for the error in [microsoft/TypeScript-go#3709](https://github.com/microsoft/TypeScript-go/issues/3709#issuecomment-4381470213)
 
 ## Activity Summary
@@ -543,7 +543,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3665#issuecomment-4384208278) **ahejlsberg** described inconsistent JSDoc @type behavior between Strada and Corsa and concluded no change was needed
  * [today](https://github.com/microsoft/TypeScript-go/issues/3665#issuecomment-4385084347) **hkleungai** speculated that 'unknown' is uncommon in plain JavaScript, observed that some developers prefer using Object types, and suggested TS7 inherit some TS6 behavior
 
-### [Issue microsoft/TypeScript-go#3666](https://github.com/microsoft/TypeScript-go/issues/3666) (Open, `Needs Investigation`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3666](https://github.com/microsoft/TypeScript-go/issues/3666) (Closed, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: tsgo does not \(fully\) respect jsdoc \`@extend\` clause**
 
@@ -616,7 +616,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3688#issuecomment-4366254698) **birkskyum** tested various compiler commands including tsc and tsgo with and without stableTypeOrdering and found the type-check divergence persisted
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open)
+### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open, `Needs More Info`)
 
 **Excessive CPU usage**
 
@@ -625,9 +625,9 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4365889287) **Jelcoo** said "While writing this issue I was working on https://github.com/calagopus/panel/commit/2db0200f2c03ab2174db6f012363fe0a49a7c967, but it has been happening with all sorts of other changes."
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4374556539) **jakebailey** said "I have no idea how WebStorm works, but in VS Code, we have a command that can take a profile and you could upload that."
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4374635334) **andrewbranch** explained that briefly spiking to 80–100% CPU usage when adding imports was not unusual, and that only sustained high usage would be abnormal
- * [later](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4385893760) **Jelcoo** reported that the issue did not occur in VS Code, asked how to manually take a profile, and noted that the CPU spike halted autocomplete, requiring a TS server restart
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4385893760) **Jelcoo** mentioned that the issue did not occur in VS Code, asked how to manually capture a profile, and noted that CPU spikes halted autocomplete
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, `Needs Investigation`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Closed, `wontfix`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 
@@ -799,7 +799,7 @@
 
  * created by **DanielRosenwasser**
 
-### [Issue microsoft/TypeScript-go#3721](https://github.com/microsoft/TypeScript-go/issues/3721) (Open)
+### [Issue microsoft/TypeScript-go#3721](https://github.com/microsoft/TypeScript-go/issues/3721) (Closed, `wontfix`)
 
 **tsgo drops re\-exported names when declare module combines export = X with a type\-only export**
 

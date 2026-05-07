@@ -112,7 +112,7 @@
  * **ahejlsberg** added label `wontfix`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3687](https://github.com/microsoft/TypeScript-go/issues/3687) (Open)
+### [Issue microsoft/TypeScript-go#3687](https://github.com/microsoft/TypeScript-go/issues/3687) (Open, `possible improvement`)
 
 **No compiled packages for netbsd**
 
@@ -131,7 +131,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3691#issuecomment-4372295101) **ahejlsberg** explained that failing to recognize an expando object literal had led to inferring an index type and causing circularity
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open)
+### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open, `Needs More Info`)
 
 **Excessive CPU usage**
 
@@ -154,7 +154,7 @@
  * **ahejlsberg** added label `wontfix`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, `Needs Investigation`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Closed, `wontfix`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 

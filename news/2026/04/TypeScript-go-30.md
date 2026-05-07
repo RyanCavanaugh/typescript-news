@@ -132,7 +132,7 @@
 
  * created by **johnfav03**
 
-### [PR microsoft/TypeScript-go#3671](https://github.com/microsoft/TypeScript-go/pull/3671) (Open)
+### [PR microsoft/TypeScript-go#3671](https://github.com/microsoft/TypeScript-go/pull/3671) (Closed)
 
 **Fix JSDoc \`@extends\` mismatch diagnostics for property access bases**
 

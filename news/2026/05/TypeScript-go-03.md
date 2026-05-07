@@ -50,7 +50,7 @@
  * created by **hkleungai**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3693#issuecomment-4372517238) **ahejlsberg** explained that the new declaration file emitter differs from Strada and stays closer to the original code and pointed to the CHANGES.md section
 
-### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Open, `Needs Investigation`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3694](https://github.com/microsoft/TypeScript-go/issues/3694) (Closed, `wontfix`, **DanielRosenwasser**, **iisaduan**, **Copilot**)
 
 **Behavior difference: jsdoc \`@param\` referencing object attribute value throws TS2749 in tsc but throws TS2503 in tsgo**
 

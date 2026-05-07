@@ -1,6 +1,6 @@
 # Report for 2026-05-04 (Monday, May 4th, 2026)
 
-7 different users commented on 12 different issues.
+7 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63457#issuecomment-4374434222) **mkantor** asked what the use case for the type was and suggested that mutual assignability might be the intended concept instead of type equality
  * [later](https://github.com/microsoft/TypeScript/issues/63457#issuecomment-4378267616) **carljohnsonnewhampshire-hue** explained that he wanted strong type assertions in unit tests to ensure types are identical without unsoundness and decided to stick to the augmented Equals definition
 
-### [PR microsoft/TypeScript#63458](https://github.com/microsoft/TypeScript/pull/63458) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63458](https://github.com/microsoft/TypeScript/pull/63458) (Closed, `For Backlog Bug`)
 
 **feat: Add Math\.sumPrecise type definition \(ES2025\)**
 
