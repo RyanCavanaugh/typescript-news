@@ -9,7 +9,7 @@
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript-go#2478](https://github.com/microsoft/TypeScript-go/pull/2478) (Open)
+### [PR microsoft/TypeScript-go#2478](https://github.com/microsoft/TypeScript-go/pull/2478) (Closed)
 
 **Exit LSP process if parent process stops existing**
 

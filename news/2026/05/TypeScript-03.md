@@ -57,7 +57,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63456#issuecomment-4372476749) **RyanCavanaugh** explained that the split behavior is entirely defined by the spec, highlighted the significant difference between split() and split(c), and requested a code sample with a strong feedback signal to consider changing it
  * (later) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
 
-### [Issue microsoft/TypeScript#63457](https://github.com/microsoft/TypeScript/issues/63457) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63457](https://github.com/microsoft/TypeScript/issues/63457) (Closed, `Duplicate`)
 
 **\`Equals\<T, U\>\` used inside of generic type gets simplified to \`false\` immediately if only \`T\` or only \`U\` depends on a type variable**
 

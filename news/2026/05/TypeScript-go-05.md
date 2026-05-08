@@ -84,11 +84,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3406#issuecomment-4383399093) **RyanCavanaugh** said "I'm guessing this was a stack overflow that has since been fixed. Please log a new issue with a repro if possible. Thanks!"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3413](https://github.com/microsoft/TypeScript-go/issues/3413) (Open, `Domain: JS`, `Domain: Parser`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3413](https://github.com/microsoft/TypeScript-go/issues/3413) (Closed, `Domain: JS`, `Domain: Parser`, **DanielRosenwasser**)
 
 **\`?\` can be used as a standalone JSDoc type when followed by \`\|\`**
 
-*? used standalone in JSDoc unions is treated as null or never, resulting in unexpected type inference.*
+*Using standalone `?` in JSDoc union types leads to incorrect inferred union types and hover tooltips.*
 
  * (2 weeks ago) **DanielRosenwasser** added labels `Domain: Parser`, `Domain: JS`, and assigned to **ahejlsberg**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
@@ -151,7 +151,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#3491](https://github.com/microsoft/TypeScript-go/issues/3491) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3491](https://github.com/microsoft/TypeScript-go/issues/3491) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Excess\-property check fires on a nested object literal that is later assigned to an annotated return type, where tsc 6\.0 does not**
 
@@ -183,7 +183,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3521#issuecomment-4308858686) **Copilot** addressed remaining comments by fixing the `lastRequiredParamIndex` doc comment and adding an early-return fast path in `typeFromParameter`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3542](https://github.com/microsoft/TypeScript-go/issues/3542) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **RyanCavanaugh**)
 
 **Baselines: JS declaration emit adds \`export import\` modifier for require\-style import assignments**
 
@@ -193,7 +193,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3543](https://github.com/microsoft/TypeScript-go/issues/3543) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **RyanCavanaugh**)
 
 **Baselines: CJS \`module\.exports = {}\` now emits \`export = \_default\` with inlined object type instead of named exports**
 
@@ -203,7 +203,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3544](https://github.com/microsoft/TypeScript-go/issues/3544) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **johnfav03**)
 
 **Baselines: CJS class expression exports emit anonymous constructor types instead of named class declarations**
 
@@ -243,7 +243,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `bug`, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Output file ordering changed \+ declaration types resolve to any instead of typeof references**
 
@@ -294,7 +294,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3560](https://github.com/microsoft/TypeScript-go/issues/3560) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: exportNonInitializedVariables crash in declaration emit**
 
@@ -346,7 +346,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `wontfix`, `Domain: Declaration Emit`, **weswigham**, **jakebailey**, **Copilot**)
 
 **Baselines: export as namespace added or restructured in declaration emit**
 
@@ -404,7 +404,7 @@
  * created by **a-tarasyuk**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3588](https://github.com/microsoft/TypeScript-go/issues/3588) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3588](https://github.com/microsoft/TypeScript-go/issues/3588) (Closed, **jakebailey**, **Copilot**)
 
 **Behaviour differences observed when varying tsconfig option key letter cases randomly**
 
@@ -425,7 +425,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/3593#issuecomment-4316621736) **typescript-bot** reported a panic handling textDocument/hover due to unhandled TypeNode KindTypeParameter
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3597](https://github.com/microsoft/TypeScript-go/issues/3597) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3597](https://github.com/microsoft/TypeScript-go/issues/3597) (Closed, **jakebailey**, **Copilot**)
 
 **Broken JSDoc codeblock parsing**
 
@@ -808,7 +808,7 @@
  * created by **vasilev-alex**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3721#issuecomment-4389411834) **ahejlsberg** explained that removing skipLibCheck reveals errors due to mixing export = with regular exports and suggested properly augmenting the module by making the declaration file a module with export {} and a declare module 'react'
 
-### [Issue microsoft/TypeScript-go#3722](https://github.com/microsoft/TypeScript-go/issues/3722) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3722](https://github.com/microsoft/TypeScript-go/issues/3722) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **custom tsgo path is now ignored**
 

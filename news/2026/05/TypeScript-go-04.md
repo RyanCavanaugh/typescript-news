@@ -10,7 +10,7 @@
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript-go#2478](https://github.com/microsoft/TypeScript-go/pull/2478) (Open)
+### [PR microsoft/TypeScript-go#2478](https://github.com/microsoft/TypeScript-go/pull/2478) (Closed)
 
 **Exit LSP process if parent process stops existing**
 
@@ -209,11 +209,11 @@
 
 **Update dependencies**
 
-*Update various project dependencies including npm (excluding TAS client), golangci-lint, Go jsonv2, and dprint plugins with a new gofumpt version.*
+*Update npm, Go, golangci-lint, jsonv2, and dprint plugin dependencies (including gofumpt).*
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3703](https://github.com/microsoft/TypeScript-go/pull/3703) (Open)
+### [PR microsoft/TypeScript-go#3703](https://github.com/microsoft/TypeScript-go/pull/3703) (Open, **jakebailey**)
 
 **Fixes to \-\-generateTrace to make analyze\-trace work**
 

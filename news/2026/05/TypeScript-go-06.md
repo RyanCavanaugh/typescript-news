@@ -62,7 +62,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3492#issuecomment-4390392921) **RyanCavanaugh** explained that error span shifts are allowable due to determinism changes between versions
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3504](https://github.com/microsoft/TypeScript-go/issues/3504) (Open, `Crash`, **weswigham**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3504](https://github.com/microsoft/TypeScript-go/issues/3504) (Closed, `Crash`, **weswigham**, **Copilot**)
 
 **Crash in declaration emit for JavaScript Test262 reserved\-words**
 
@@ -103,7 +103,7 @@
  * **RyanCavanaugh** added label `wontfix`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3548](https://github.com/microsoft/TypeScript-go/issues/3548) (Open, `bug`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3548](https://github.com/microsoft/TypeScript-go/issues/3548) (Closed, `bug`, **weswigham**)
 
 **Baselines: Decorator metadata reflects stable union type ordering**
 
@@ -112,7 +112,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#3557](https://github.com/microsoft/TypeScript-go/issues/3557) (Open, `Domain: Parser`, `Needs Investigation`, **sandersn**)
+### [Issue microsoft/TypeScript-go#3557](https://github.com/microsoft/TypeScript-go/issues/3557) (Closed, `Domain: Parser`, `Needs Investigation`, **sandersn**, **Copilot**)
 
 **Baselines: @satisfies tag handling changes: functions become const declarations**
 
@@ -122,7 +122,7 @@
  * **ahejlsberg** added label `Domain: Parser`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **sandersn**
 
-### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open, `Domain: Type Checking`, `Needs Investigation`, **sandersn**)
+### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open, `Domain: Type Checking`, `Needs Investigation`, **sandersn**, **jakebailey**, **Copilot**)
 
 **Baselines: JSDoc module namepath module:A emits as unresolved module instead of any**
 
@@ -164,7 +164,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3573#issuecomment-4383719204) **jakebailey** said "Not a bad idea to formalize this, I'll give it a go"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3575](https://github.com/microsoft/TypeScript-go/pull/3575) (Open)
+### [PR microsoft/TypeScript-go#3575](https://github.com/microsoft/TypeScript-go/pull/3575) (Closed)
 
 **Avoid over\-expanding recursive constraints in \`getBaseSignature\`**
 
@@ -183,7 +183,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/3585#issuecomment-4320288542) **Andarist** noted that a change around ensureModifiers/maskModifierFlags wouldn't quite eliminate all diverging declare modifiers and linked a comparison
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**, **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3596](https://github.com/microsoft/TypeScript-go/issues/3596) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#3596](https://github.com/microsoft/TypeScript-go/issues/3596) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
 
 **TS2883 regression in \-\-build with project references on inferred export from referenced package**
 
@@ -191,6 +191,7 @@
 
  * created by **kbrooks**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
+ * **andrewbranch** assigned to **Copilot**
 
 ### [Issue microsoft/TypeScript-go#3611](https://github.com/microsoft/TypeScript-go/issues/3611) (Open, `bug`, **jakebailey**, **johnfav03**)
 
@@ -270,7 +271,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/3659#issuecomment-4346021402) **Withered-Flower-0422** said "Maybe related to #3405 ?"
  * (today) **RyanCavanaugh** added label `bug`, and set milestone to `Post-7.0`
 
-### [PR microsoft/TypeScript-go#3664](https://github.com/microsoft/TypeScript-go/pull/3664) (Open)
+### [PR microsoft/TypeScript-go#3664](https://github.com/microsoft/TypeScript-go/pull/3664) (Closed)
 
 **Align dependency symlink handling with TS6 for module specifiers**
 
@@ -362,7 +363,7 @@
  * **RyanCavanaugh** added label `wontfix`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#3723](https://github.com/microsoft/TypeScript-go/pull/3723) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3723](https://github.com/microsoft/TypeScript-go/pull/3723) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix nil pointer in transformExpandoAssignment for element access expressions**
 
@@ -434,7 +435,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3730](https://github.com/microsoft/TypeScript-go/pull/3730) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#3730](https://github.com/microsoft/TypeScript-go/pull/3730) (Closed, **andrewbranch**, **Copilot**)
 
 **Fix TS2883 regression in \-\-build with project references on inferred export from non\-index file**
 
@@ -447,11 +448,11 @@
 
 **Handle config file diagnostics updates via file watching**
 
-*Implement file watching for tsconfig changes to update diagnostics even for unopened projects and exclude irrelevant files.*
+*Enable file-watching for tsconfig.json to update diagnostics for both open and closed projects, ignoring configs outside the workspace or in node_modules.*
 
  * created by **gabritto**
 
-### [PR microsoft/TypeScript-go#3732](https://github.com/microsoft/TypeScript-go/pull/3732) (Open)
+### [PR microsoft/TypeScript-go#3732](https://github.com/microsoft/TypeScript-go/pull/3732) (Closed)
 
 **fix\(3560\): fix nested export variable transformation in if/labeled statements**
 
@@ -468,7 +469,7 @@
  * created by **jansedlon**
  * **jansedlon** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`, `Needs More Info`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`, `Needs More Info`)
 
 **Entering "ai\.messages\.find\(m =\> m\.\)" will cause the language server to crash\.**
 
@@ -479,7 +480,7 @@
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3735](https://github.com/microsoft/TypeScript-go/issues/3735) (Open)
+### [Issue microsoft/TypeScript-go#3735](https://github.com/microsoft/TypeScript-go/issues/3735) (Closed)
 
 **Behavior difference: tsgo fails to emit error on class field's unmatched params between jsdoc & js code**
 

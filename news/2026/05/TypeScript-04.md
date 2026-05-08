@@ -60,7 +60,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript/issues/63451#issuecomment-4361516140) **mkantor** asked why the bot added the "Fix Available" label and noted it happened on issue #63391 as well
  * [today](https://github.com/microsoft/TypeScript/issues/63451#issuecomment-4372524268) **RyanCavanaugh** said "Bot's broken and no one has had the time to figure out why 😅. We don't really use the label for anything at the moment"
 
-### [Issue microsoft/TypeScript#63457](https://github.com/microsoft/TypeScript/issues/63457) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63457](https://github.com/microsoft/TypeScript/issues/63457) (Closed, `Duplicate`)
 
 **\`Equals\<T, U\>\` used inside of generic type gets simplified to \`false\` immediately if only \`T\` or only \`U\` depends on a type variable**
 

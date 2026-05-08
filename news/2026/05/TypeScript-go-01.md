@@ -5,7 +5,6 @@
 ## Recommended Actions
 
  * Response Recommended
-    * @purelualight requested a review from @gabritto in [microsoft/TypeScript-go#3528](https://github.com/microsoft/TypeScript-go/pull/3528#issuecomment-4360385161)
     * @Raynos reported that the same issue occurred in cursor in [microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621#issuecomment-4361443953)
     * @Withered-Flower-0422 reported that the emitted .d.ts files differ between TypeScript 6.0 and tsgo and provided examples in [microsoft/TypeScript-go#3686](https://github.com/microsoft/TypeScript-go/issues/3686#issuecomment-4363259768)
 
@@ -21,7 +20,7 @@
  * (2 weeks ago) **RyanCavanaugh** added label `Domain: Editor`, and set milestone to `Post-7.0`
  * [later](https://github.com/microsoft/TypeScript-go/issues/3318#issuecomment-4364081565) **dhoulb** said "Have become so reliant on this it might force me back to the non-experimental extension for now."
 
-### [PR microsoft/TypeScript-go#3528](https://github.com/microsoft/TypeScript-go/pull/3528) (Open)
+### [PR microsoft/TypeScript-go#3528](https://github.com/microsoft/TypeScript-go/pull/3528) (Closed)
 
 **chore: fix some minor issues in comments**
 
@@ -32,7 +31,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3528#issuecomment-4306116514) **purelualight** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3528#issuecomment-4360385161) **purelualight** said "@gabritto Hi, Could you please review this PR at your convenience? Thank you very much."
 
-### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Open, `Domain: Declaration Emit`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3552](https://github.com/microsoft/TypeScript-go/issues/3552) (Closed, `Domain: Declaration Emit`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: export = a reordered; ESM side\-effect import replaces export {}**
 
@@ -52,7 +51,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3621#issuecomment-4342371254) **Swiftwork** said "Observing same issue for the last 1-2 weeks"
  * [today](https://github.com/microsoft/TypeScript-go/issues/3621#issuecomment-4361443953) **Raynos** said "Observing same issue in cursor too."
 
-### [Issue microsoft/TypeScript-go#3645](https://github.com/microsoft/TypeScript-go/issues/3645) (Open, `Domain: Editor`, `Crash`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3645](https://github.com/microsoft/TypeScript-go/issues/3645) (Closed, `Domain: Editor`, `Crash`, **andrewbranch**, **Copilot**)
 
 **Auto\-imports for JSX tag trigger assertion violation when React is type\-imported\.**
 
@@ -63,7 +62,7 @@
  * (today) **DanielRosenwasser** assigned to **andrewbranch**, and unassigned **DanielRosenwasser**
  * (today) **andrewbranch** added labels `Domain: Editor`, `Crash`, and set milestone to `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3650](https://github.com/microsoft/TypeScript-go/pull/3650) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3650](https://github.com/microsoft/TypeScript-go/pull/3650) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix assertion violation in auto\-imports for JSX tag when React is type\-imported**
 
