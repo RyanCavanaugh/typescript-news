@@ -1,6 +1,6 @@
 # Report for 2026-05-07 (Thursday, May 7th, 2026)
 
-20 different users commented on 111 different issues.
+20 different users commented on 112 different issues.
 
 ## Recommended Actions
 
@@ -10,7 +10,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Closed, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
+### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Open, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
 
 **\`ts\-check\` used with \`@typedef\` causes an error on \`module\.exports = \.\.\.\`**
 
@@ -89,6 +89,17 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2944#issuecomment-4238228195) **typescript-bot** provided performance run results
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2944#issuecomment-4238257454) **typescript-bot** said "@iisaduan, the perf run you requested failed. You can check the log here."
  * **iisaduan** added to milestone `Post-7.0`
+
+### [Issue microsoft/TypeScript-go#2953](https://github.com/microsoft/TypeScript-go/issues/2953) (Closed, `Crash`, **ahejlsberg**, **Copilot**)
+
+**Inlay hints triggers crash during checker initialization**
+
+*Inlay hints cause the TypeScript checker to crash during initialization in the editor.*
+
+ * [9 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2953#issuecomment-3992836790) **Andarist** shared a contrived Go fourslash test that reproduced an earlier crash and noted it also crashed in Strada requiring esModuleInterop
+ * [9 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2953#issuecomment-3993412640) **Andarist** provided a TypeScript code snippet illustrating correct augmentation resolution
+ * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
+ * (today) **DanielRosenwasser** assigned to **ahejlsberg**, and unassigned **DanielRosenwasser**
 
 ### [PR microsoft/TypeScript-go#2962](https://github.com/microsoft/TypeScript-go/pull/2962) (Closed, **DanielRosenwasser**, **Copilot**)
 
@@ -368,7 +379,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3544#issuecomment-4400094208) **weswigham** explained that transformCommonJSExport needed to handle class expressions by treating them like aliases and hoisting them, or by adjusting the enclosing declaration logic
  * (today) **weswigham** assigned to **johnfav03**, and unassigned **weswigham**
 
-### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS export alias and element access patterns changed**
 
@@ -379,7 +390,7 @@
  * **RyanCavanaugh** assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3545#issuecomment-4400155946) **weswigham** suggested relaxing checking to allow non-identifier export/import aliases in declaration files across all target levels and asked for @RyanCavanaugh's thoughts
 
-### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3547](https://github.com/microsoft/TypeScript-go/issues/3547) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Namespace\-to\-const restructuring with DtsFileErrors \(redeclaration errors\)**
 
@@ -399,7 +410,7 @@
  * (yesterday) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3549](https://github.com/microsoft/TypeScript-go/issues/3549) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Missing generic type arguments no longer auto\-filled with any \(produces TS2314 errors\)**
 
@@ -446,7 +457,7 @@
  * **RyanCavanaugh** assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3555#issuecomment-4400834104) **weswigham** noted that the diffs were due to missing `declare` modifiers, jsdoc comments, or reordered declarations and said no further action was needed
 
-### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **sandersn**, **weswigham**)
 
 **Baselines: @callback/@overload tags reordered and restructured in declaration emit**
 
@@ -468,7 +479,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3557#issuecomment-4401323163) **sandersn** said "Later: nope it was the other way round. satisfies' synthetic expression blocked the later attachment of param tags."
  * (today) **sandersn** closed the issue
 
-### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS exports pattern changes in declaration emit**
 
@@ -490,7 +501,7 @@
  * **RyanCavanaugh** assigned to **weswigham**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open, `Domain: Type Checking`, `Needs Investigation`, **sandersn**, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Closed, `Domain: Type Checking`, `Needs Investigation`, **sandersn**, **jakebailey**, **Copilot**)
 
 **Baselines: JSDoc module namepath module:A emits as unresolved module instead of any**
 
@@ -503,7 +514,7 @@
  * (today) **jakebailey** reopened the issue
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -513,7 +524,7 @@
  * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -523,7 +534,7 @@
  * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Open, `wontfix`, `Domain: Declaration Emit`, **weswigham**, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3568](https://github.com/microsoft/TypeScript-go/issues/3568) (Closed, `wontfix`, `Domain: Declaration Emit`, **weswigham**, **jakebailey**, **Copilot**)
 
 **Baselines: export as namespace added or restructured in declaration emit**
 
@@ -539,7 +550,7 @@
  * (today) **jakebailey** reopened the issue
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -786,7 +797,7 @@
  * created by **a-tarasyuk**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Closed, `Crash`, `Needs More Info`)
 
 **Entering "ai\.messages\.find\(m =\> m\.\)" will cause the language server to crash\.**
 
@@ -839,7 +850,7 @@
  * (today) **Copilot** assigned to **Copilot**, **gabritto**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3738#issuecomment-4400192625) **jakebailey** said "I think this is technically a dupe of #1301 but it's been a while so I think we don't need some of the fixes in that PR?"
 
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
 
@@ -858,7 +869,7 @@
  * (today) **Copilot** assigned to **Copilot**, **sandersn**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3741](https://github.com/microsoft/TypeScript-go/pull/3741) (Open)
+### [PR microsoft/TypeScript-go#3741](https://github.com/microsoft/TypeScript-go/pull/3741) (Closed)
 
 **Only transform expando assignments that wont be represented elsewhere in the emit already**
 
@@ -892,7 +903,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript-go#3745](https://github.com/microsoft/TypeScript-go/pull/3745) (Open)
+### [PR microsoft/TypeScript-go#3745](https://github.com/microsoft/TypeScript-go/pull/3745) (Closed)
 
 **Add missing type argument count sanity check to handle nodes from js …**
 
@@ -919,7 +930,7 @@
  * created by **Apollon77**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3747#issuecomment-4404886819) **Andarist** said "Please prepare a self-contained repro that somebody could investigate. This kind of an issue should be easily reproducible with code fitting a TS playground."
 
-### [Issue microsoft/TypeScript-go#3748](https://github.com/microsoft/TypeScript-go/issues/3748) (Open)
+### [Issue microsoft/TypeScript-go#3748](https://github.com/microsoft/TypeScript-go/issues/3748) (Closed, `wontfix`)
 
 **Behavior difference: type testing, order**
 
@@ -947,7 +958,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added label `possible improvement`, and set milestone to `Possible Improvement`
 
-### [PR microsoft/TypeScript-go#3751](https://github.com/microsoft/TypeScript-go/pull/3751) (Open, **gabritto**, **Copilot**)
+### [PR microsoft/TypeScript-go#3751](https://github.com/microsoft/TypeScript-go/pull/3751) (Closed, **gabritto**, **Copilot**)
 
 **Implement checkExternalEmitHelpers for tslib helper validation**
 
@@ -965,7 +976,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open)
+### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open, `bug`)
 
 **Missing error for non\-existent root files**
 
@@ -1011,21 +1022,11 @@
  * created by **Cellule**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3758](https://github.com/microsoft/TypeScript-go/issues/3758) (Open)
+### [Issue microsoft/TypeScript-go#3758](https://github.com/microsoft/TypeScript-go/issues/3758) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **File argument of \`@\` crashes CLI**
 
 *Providing `@` with no file path to tsgo crashes the CLI with a “path "" is not absolute” panic.*
 
  * created by **DanielRosenwasser**
-
-### [Issue microsoft/TypeScript-go#3759](https://github.com/microsoft/TypeScript-go/issues/3759) (Closed, `Crash`, **DanielRosenwasser**)
-
-**Crash for array destructuring under noUncheckedIndexedAccess & noLib**
-
-*Array destructuring under noUncheckedIndexedAccess and noLib causes the TypeScript compiler to crash.*
-
- * created by **DanielRosenwasser**
- * (today) **DanielRosenwasser** added label `Crash`, set milestone to `TypeScript 7.0 RC`, and assigned to **DanielRosenwasser**
- * (today) **DanielRosenwasser** closed the issue
 

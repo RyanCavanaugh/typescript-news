@@ -122,7 +122,7 @@
  * **ahejlsberg** added label `Domain: Parser`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **sandersn**
 
-### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Open, `Domain: Type Checking`, `Needs Investigation`, **sandersn**, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3562](https://github.com/microsoft/TypeScript-go/issues/3562) (Closed, `Domain: Type Checking`, `Needs Investigation`, **sandersn**, **jakebailey**, **Copilot**)
 
 **Baselines: JSDoc module namepath module:A emits as unresolved module instead of any**
 
@@ -173,7 +173,7 @@
  * created by **Andarist**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3575#issuecomment-4392766649) **ahejlsberg** said "Looks like we need conformance/genericFunctionParameters.js.diff removed from submoduleTriaged.txt."
 
-### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Open, `bug`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Open, `wontfix`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Remove extraneous \`declare\` in \.d\.ts output to better match strada**
 
@@ -460,7 +460,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733) (Open, `Domain: Editor`, `Needs More Info`)
 
 **No autocomplete for local symbols and some global types when creating a new file**
 
@@ -469,7 +469,7 @@
  * created by **jansedlon**
  * **jansedlon** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Open, `Crash`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3734](https://github.com/microsoft/TypeScript-go/issues/3734) (Closed, `Crash`, `Needs More Info`)
 
 **Entering "ai\.messages\.find\(m =\> m\.\)" will cause the language server to crash\.**
 

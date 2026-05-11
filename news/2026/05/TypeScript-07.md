@@ -1,6 +1,6 @@
 # Report for 2026-05-07 (Thursday, May 7th, 2026)
 
-4 different users commented on 3 different issues.
+5 different users commented on 5 different issues.
 
 ## Recommended Actions
 
@@ -32,7 +32,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63457#issuecomment-4402575271) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63461](https://github.com/microsoft/TypeScript/issues/63461) (Open)
+### [Issue microsoft/TypeScript#63461](https://github.com/microsoft/TypeScript/issues/63461) (Closed, `Design Limitation`)
 
 **\[6\.x\] Getting'unassingable to type' when returning value from method that needs to infer generic from parameters**
 
@@ -42,4 +42,5 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63461#issuecomment-4406369813) **mkantor** explained that inference from the return type was relevant and noted that string is assignable to Record<PropertyKey, unknown>, provided a link showing that changing RuntimePrimitive to string | Label resolves the issue, and suggested using NoInfer to disable return type inference
  * [later](https://github.com/microsoft/TypeScript/issues/63461#issuecomment-4406385564) **spaceemotion** questioned where to apply NoInfer after noting that return type precedence and assignment to a temporary variable eliminate the error, and checked the tsgo playground where the error appears in output but is not highlighted, wondering if the behavior differs between TS versions
  * [later](https://github.com/microsoft/TypeScript/issues/63461#issuecomment-4406402893) **mkantor** provided a playground link demonstrating where to place the `NoInfer` suggestion so that the return type of `mapTo` becomes `RuntimeList<NoInfer<TTo>>`
+ * [later](https://github.com/microsoft/TypeScript/issues/63461#issuecomment-4407822649) **RyanCavanaugh** provided automated analysis on TS 6.0 inference change affecting mapTo and suggested using explicit type arguments or contextual typing to restore inference
 
