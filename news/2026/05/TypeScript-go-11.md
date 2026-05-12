@@ -1,6 +1,6 @@
 # Report for 2026-05-11 (Monday, May 11th, 2026)
 
-15 different users commented on 38 different issues.
+16 different users commented on 43 different issues.
 
 ## Recommended Actions
 
@@ -149,6 +149,15 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3705#issuecomment-4425472560) **Copilot** explained that the binding pattern node is only placed once and clones are used for export assignments, mirroring existing patterns, and clarified reason for sharing visitedName
  * [today](https://github.com/microsoft/TypeScript-go/pull/3705#issuecomment-4425533988) **jakebailey** said "@copilot+claude-opus-4.6 Address feedback. Also, any new .diff files this PR introduces should be put into submoduleAccepted, with a link back to https://github.com/microsoft/typescript-go/issues/3701"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3705#issuecomment-4425642750) **Copilot** addressed feedback by renaming the `name` parameter to `pattern`, correcting the alias exports comment, relocating new .diff files to submoduleAccepted, and updating submoduleAccepted.txt with a link to issue #3701
+
+### [PR microsoft/TypeScript-go#3731](https://github.com/microsoft/TypeScript-go/pull/3731) (Closed)
+
+**Handle config file diagnostics updates via file watching**
+
+*Enable file-watching for tsconfig.json to update diagnostics for both open and closed projects, ignoring configs outside the workspace or in node_modules.*
+
+ * created by **gabritto**
+ * (later) **gabritto** closed the issue
 
 ### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
@@ -369,4 +378,30 @@
 
  * created by **Withered-Flower-0422**
  * **Withered-Flower-0422** added label `Domain: Editor`
+
+### [Issue microsoft/TypeScript-go#3811](https://github.com/microsoft/TypeScript-go/issues/3811) (Open, **jakebailey**, **Copilot**)
+
+**\`\.d\.ts\.map\` includes \`sourcesContent\` when \`inlineSources\` is enabled**
+
+*tsgo emits declaration map files containing sourcesContent when inlineSources is enabled, unlike TypeScript which omits them.*
+
+ * created by **jfirebaugh**
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
+
+### [PR microsoft/TypeScript-go#3812](https://github.com/microsoft/TypeScript-go/pull/3812) (Open, **jakebailey**, **Copilot**)
+
+**Exclude sourcesContent from \.d\.ts\.map when inlineSources is enabled**
+
+*Remove inlineSources from the declaration printer options so .d.ts.map files omit sourcesContent when inlineSources is enabled, aligning with TypeScript’s behavior.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
+
+### [Issue microsoft/TypeScript-go#3813](https://github.com/microsoft/TypeScript-go/issues/3813) (Open)
+
+**TS2300 on duplicate computed property in type literal, tsc accepts it**
+
+*tsc accepts duplicate computed properties in type literals whereas tsgo incorrectly emits TS2300 errors.*
+
+ * created by **jfirebaugh**
 

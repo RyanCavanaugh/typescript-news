@@ -1,6 +1,6 @@
 # Report for 2026-05-07 (Thursday, May 7th, 2026)
 
-20 different users commented on 115 different issues.
+20 different users commented on 116 different issues.
 
 ## Recommended Actions
 
@@ -1002,14 +1002,5 @@
 
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** set milestone to `TypeScript 7.0 RC`, and assigned to **DanielRosenwasser**
- * (today) **DanielRosenwasser** closed the issue
-
-### [PR microsoft/TypeScript-go#3755](https://github.com/microsoft/TypeScript-go/pull/3755) (Closed)
-
-**Port missing \`nil\` check in \`getContextualTypeForReturnExpression\`**
-
-*Port a missing nil check into getContextualTypeForReturnExpression to fix potential nil dereference.*
-
- * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 

@@ -444,7 +444,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3731](https://github.com/microsoft/TypeScript-go/pull/3731) (Open)
+### [PR microsoft/TypeScript-go#3731](https://github.com/microsoft/TypeScript-go/pull/3731) (Closed)
 
 **Handle config file diagnostics updates via file watching**
 
