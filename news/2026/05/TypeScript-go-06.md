@@ -173,7 +173,7 @@
  * created by **Andarist**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3575#issuecomment-4392766649) **ahejlsberg** said "Looks like we need conformance/genericFunctionParameters.js.diff removed from submoduleTriaged.txt."
 
-### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Open, `wontfix`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Closed, `wontfix`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Remove extraneous \`declare\` in \.d\.ts output to better match strada**
 
@@ -240,7 +240,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3628#issuecomment-4383561544) **Copilot** moved mutex locking into watchRegistry methods and removed external lock calls from session.go
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#3638](https://github.com/microsoft/TypeScript-go/issues/3638) (Open, `Domain: Editor`, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript-go#3638](https://github.com/microsoft/TypeScript-go/issues/3638) (Closed, `Domain: Editor`, `Needs Investigation`, **gabritto**)
 
 **Cannot find name html element\.**
 

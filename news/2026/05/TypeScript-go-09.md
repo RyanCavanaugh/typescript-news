@@ -40,7 +40,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3791](https://github.com/microsoft/TypeScript-go/issues/3791) (Open, `Domain: Type Checking`, `Crash`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3791](https://github.com/microsoft/TypeScript-go/issues/3791) (Closed, `Domain: Type Checking`, `Crash`, **ahejlsberg**)
 
 **tsgo panics on a recursive\-mapped\-type \+ intersection \+ generic\-signature pattern**
 
@@ -71,7 +71,7 @@
 
  * created by **rchl**
 
-### [PR microsoft/TypeScript-go#3794](https://github.com/microsoft/TypeScript-go/pull/3794) (Open)
+### [PR microsoft/TypeScript-go#3794](https://github.com/microsoft/TypeScript-go/pull/3794) (Closed)
 
 **Remove assertion that doesn't hold after excessive stack depth overflow**
 

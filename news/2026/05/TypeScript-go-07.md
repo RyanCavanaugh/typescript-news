@@ -1,6 +1,6 @@
 # Report for 2026-05-07 (Thursday, May 7th, 2026)
 
-20 different users commented on 112 different issues.
+20 different users commented on 115 different issues.
 
 ## Recommended Actions
 
@@ -220,6 +220,15 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3451#issuecomment-4333762563) **nileshpatil6** proposed dropping TSGO_BINARY and asked whether to push a revised version with only the sibling check
  * [today](https://github.com/microsoft/TypeScript-go/pull/3451#issuecomment-4400589309) **RyanCavanaugh** closed the issue for now due to scoping concerns and expressed skepticism about the profiling results
  * (today) **RyanCavanaugh** closed the issue
+
+### [Issue microsoft/TypeScript-go#3476](https://github.com/microsoft/TypeScript-go/issues/3476) (Closed, `Needs Investigation`, **gabritto**, **Copilot**)
+
+**No error reported when tslib helpers aren't found**
+
+*The TypeScript compiler fails to report errors when tslib helper functions are missing, causing undetected issues.*
+
+ * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **gabritto**
+ * **gabritto** assigned to **Copilot**
 
 ### [Issue microsoft/TypeScript-go#3489](https://github.com/microsoft/TypeScript-go/issues/3489) (Open, `bug`, **iisaduan**)
 
@@ -514,7 +523,7 @@
  * (today) **jakebailey** reopened the issue
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -524,7 +533,7 @@
  * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -550,7 +559,7 @@
  * (today) **jakebailey** reopened the issue
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -719,11 +728,11 @@
  * created by **johnfav03**
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript-go#3703](https://github.com/microsoft/TypeScript-go/pull/3703) (Open, **jakebailey**)
+### [PR microsoft/TypeScript-go#3703](https://github.com/microsoft/TypeScript-go/pull/3703) (Closed, **jakebailey**)
 
 **Fixes to \-\-generateTrace to make analyze\-trace work**
 
-*Fix the --generateTrace option to ensure analyze-trace functions correctly.*
+*Update --generateTrace to use synthetic logical thread IDs for nested events and output per-checker type JSON with mappings for analyze-trace*
 
  * created by **jakebailey**
  * (today) **RyanCavanaugh** set milestone to `Possible Improvement`, and assigned to **jakebailey**
@@ -850,7 +859,7 @@
  * (today) **Copilot** assigned to **Copilot**, **gabritto**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3738#issuecomment-4400192625) **jakebailey** said "I think this is technically a dupe of #1301 but it's been a while so I think we don't need some of the fixes in that PR?"
 
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
 
@@ -1003,30 +1012,4 @@
 
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
-
-### [PR microsoft/TypeScript-go#3756](https://github.com/microsoft/TypeScript-go/pull/3756) (Closed)
-
-**Accept JS declaration emit preserving side effect imports**
-
-*Enable JavaScript declaration file emission while preserving side-effect imports.*
-
- * created by **andrewbranch**
- * (today) **andrewbranch** closed the issue
-
-### [Issue microsoft/TypeScript-go#3757](https://github.com/microsoft/TypeScript-go/issues/3757) (Open, **jakebailey**, **Copilot**)
-
-**Declaration emit renames a method's shadowed type parameter to the outer class generic \(\`Table\` \-\> \`Table\_1\`\)**
-
-*Declaration emit incorrectly renames a method’s shadowed type parameter to the outer class generic, resulting in incorrect .d.ts return types.*
-
- * created by **Cellule**
- * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
-
-### [Issue microsoft/TypeScript-go#3758](https://github.com/microsoft/TypeScript-go/issues/3758) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
-
-**File argument of \`@\` crashes CLI**
-
-*Providing `@` with no file path to tsgo crashes the CLI with a “path "" is not absolute” panic.*
-
- * created by **DanielRosenwasser**
 

@@ -113,7 +113,7 @@
  * created by **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `Post-7.0`
 
-### [Issue microsoft/TypeScript-go#3476](https://github.com/microsoft/TypeScript-go/issues/3476) (Open, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript-go#3476](https://github.com/microsoft/TypeScript-go/issues/3476) (Closed, `Needs Investigation`, **gabritto**, **Copilot**)
 
 **No error reported when tslib helpers aren't found**
 
@@ -325,7 +325,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -336,7 +336,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -356,7 +356,7 @@
  * **ahejlsberg** added label `Domain: Declaration Emit`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -660,7 +660,7 @@
 
 **Preserve native destructuring for CommonJS exports to keep iterator semantics**
 
-*Emit native destructuring for CommonJS exports and generate separate export assignments per identifier to preserve iterator semantics.*
+*Preserve native destructuring semantics in CommonJS exports by reusing nodes, suppressing source maps, adding tests, and refining implementation.*
 
  * (yesterday) **Copilot** assigned to **Copilot**, **jakebailey**
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3705#issuecomment-4374885896) **jakebailey** noted uncertainty about its impact on cjs-module-lexer scanning and asked if it was the intended change

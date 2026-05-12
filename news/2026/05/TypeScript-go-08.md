@@ -1,6 +1,6 @@
 # Report for 2026-05-08 (Friday, May 8th, 2026)
 
-16 different users commented on 60 different issues.
+16 different users commented on 62 different issues.
 
 ## Recommended Actions
 
@@ -130,7 +130,7 @@
  * (yesterday) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3566](https://github.com/microsoft/TypeScript-go/issues/3566) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Late\-bound computed property \[prop\] preserved instead of resolved to plain prop**
 
@@ -140,7 +140,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3566#issuecomment-4408960638) **weswigham** said "I agree, both are equivalent and now we use the []s because we're actually traversing the input nodes (which use brackets) instead of generating the type whole-cloth from symbol information."
  * (today) **RyanCavanaugh** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3567](https://github.com/microsoft/TypeScript-go/issues/3567) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Symbol getter/setter declaration emit change**
 
@@ -160,7 +160,7 @@
  * (yesterday) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3569](https://github.com/microsoft/TypeScript-go/issues/3569) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: Declaration emit simplification of class extending built\-in Array**
 
@@ -170,7 +170,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3569#issuecomment-4408936938) **weswigham** explained that the outputs were functionally identical and the new output better matched the input source, noted improvements in static block this assignment declarations, and clarified why <any> was generated for extends positions
  * (today) **RyanCavanaugh** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Open, `wontfix`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3585](https://github.com/microsoft/TypeScript-go/issues/3585) (Closed, `wontfix`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Remove extraneous \`declare\` in \.d\.ts output to better match strada**
 
@@ -294,7 +294,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3734#issuecomment-4408357849) **RyanCavanaugh** said "OK, please log a new issue if it comes up again and there's a repro. Thanks!"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
 
@@ -461,7 +461,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3774](https://github.com/microsoft/TypeScript-go/issues/3774) (Open)
+### [Issue microsoft/TypeScript-go#3774](https://github.com/microsoft/TypeScript-go/issues/3774) (Closed, `wontfix`)
 
 **Behavior difference: tsgo emit different error codes when it comes to assignability**
 
@@ -488,7 +488,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3777](https://github.com/microsoft/TypeScript-go/pull/3777) (Open)
+### [PR microsoft/TypeScript-go#3777](https://github.com/microsoft/TypeScript-go/pull/3777) (Closed)
 
 **Port checks for tslib helpers**
 
@@ -497,7 +497,7 @@
  * created by **gabritto**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3777#issuecomment-4410186212) **jakebailey** said "This seems 1:1 but I think the copilot comments are worth addresssing"
 
-### [PR microsoft/TypeScript-go#3778](https://github.com/microsoft/TypeScript-go/pull/3778) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3778](https://github.com/microsoft/TypeScript-go/pull/3778) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Accept symbolDeclarationEmit12\.js baseline change**
 
@@ -506,7 +506,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3779](https://github.com/microsoft/TypeScript-go/pull/3779) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3779](https://github.com/microsoft/TypeScript-go/pull/3779) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Accept late\-bound computed property baseline diffs**
 
@@ -515,7 +515,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3780](https://github.com/microsoft/TypeScript-go/pull/3780) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3780](https://github.com/microsoft/TypeScript-go/pull/3780) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Accept baseline: declaration emit simplification of class extending built\-in Array**
 
@@ -597,7 +597,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`
 
-### [PR microsoft/TypeScript-go#3786](https://github.com/microsoft/TypeScript-go/pull/3786) (Open)
+### [PR microsoft/TypeScript-go#3786](https://github.com/microsoft/TypeScript-go/pull/3786) (Closed)
 
 **Fix crashes related to call hierarchy container names for computed properties**
 
