@@ -70,7 +70,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4418269879) **qwq0** demonstrated that adding information allowed it to pass through successfully and attached an image
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4420939011) **mkantor** identified that behavior changed between versions 3.6 and 3.7 with TS Play repro links
 
-### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open)
+### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open, **joj**)
 
 **"TypeScript for Visual Studio" installer not available for 6\.0**
 

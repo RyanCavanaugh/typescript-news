@@ -64,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4420939011) **mkantor** identified that behavior changed between versions 3.6 and 3.7 with TS Play repro links
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4432297254) **RyanCavanaugh** explained that JSDoc’s type parser stops at the first closing brace and ignores trailing []—so the parameter was treated as typeof Model rather than an array—and suggested using a recognised array syntax like Array<typeof Model>
 
-### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open)
+### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open, **joj**)
 
 **"TypeScript for Visual Studio" installer not available for 6\.0**
 
@@ -93,7 +93,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63471#issuecomment-4425528242) **jakebailey** asked how the bug was determined to be worth fixing given the contributing guidelines and asked what tool was used to send the PR
  * [today](https://github.com/microsoft/TypeScript/pull/63471#issuecomment-4425606887) **MukundaKatta** said "I used VS Code with GitHub Copilot assistance for drafting/editing, but I reviewed and prepared the final change manually before submitting the PR."
 
-### [PR microsoft/TypeScript#63472](https://github.com/microsoft/TypeScript/pull/63472) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63472](https://github.com/microsoft/TypeScript/pull/63472) (Closed, `For Backlog Bug`)
 
 **Improve label reference diagnostics**
 
