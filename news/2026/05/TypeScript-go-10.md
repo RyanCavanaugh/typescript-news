@@ -1,6 +1,6 @@
 # Report for 2026-05-10 (Sunday, May 10th, 2026)
 
-8 different users commented on 15 different issues.
+8 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -112,7 +112,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/3794#issuecomment-4420526658) **ahejlsberg** noted that the assertion in reportRelationError can fail due to stack overflows and suggested removing it
  * [later](https://github.com/microsoft/TypeScript-go/pull/3794#issuecomment-4420743416) **ahejlsberg** noted Copilot's successful single-file repro but found it slow and limited to strict:false, decided against adding it to the test suite, and added a cautionary comment about type relation assumptions
 
-### [Issue microsoft/TypeScript-go#3795](https://github.com/microsoft/TypeScript-go/issues/3795) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3795](https://github.com/microsoft/TypeScript-go/issues/3795) (Closed, `wontfix`)
 
 **tsc & tsgo difference in project reference build order**
 

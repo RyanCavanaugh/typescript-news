@@ -12,7 +12,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#3480](https://github.com/microsoft/TypeScript-go/issues/3480) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3480](https://github.com/microsoft/TypeScript-go/issues/3480) (Closed, `Needs Investigation`, **weswigham**)
 
 **Missing error about jsx\-runtime package**
 
@@ -32,7 +32,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/issues/3481#issuecomment-4291838613) **ahejlsberg** said "The issue in augmentExportEquals2.errors.txt.diff is actually that the test is broken. There are two // @filename: file3.ts in a row, which we apparently no longer handle."
  * (today) **RyanCavanaugh** added label `help wanted`, and set milestone to `Post-7.0`
 
-### [Issue microsoft/TypeScript-go#3484](https://github.com/microsoft/TypeScript-go/issues/3484) (Open, `bug`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3484](https://github.com/microsoft/TypeScript-go/issues/3484) (Closed, `bug`, **iisaduan**)
 
 **Static property conflicts with built\-in Function properties \(TS2699\) no longer reported when useDefineForClassFields is false**
 

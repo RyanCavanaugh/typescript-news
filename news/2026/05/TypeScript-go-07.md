@@ -57,7 +57,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2621#issuecomment-4270442818) **DanielRosenwasser** suggested switching to use the "state baselining" infrastructure if needed
  * (today) **iisaduan** set milestone to `Post-7.0`, and removed from milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#2857](https://github.com/microsoft/TypeScript-go/issues/2857) (Open, `Domain: Editor`, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#2857](https://github.com/microsoft/TypeScript-go/issues/2857) (Closed, `Domain: Editor`, `Needs Investigation`, **andrewbranch**)
 
 **Formatters get stuck**
 
@@ -388,7 +388,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3544#issuecomment-4400094208) **weswigham** explained that transformCommonJSExport needed to handle class expressions by treating them like aliases and hoisting them, or by adjusting the enclosing declaration logic
  * (today) **weswigham** assigned to **johnfav03**, and unassigned **weswigham**
 
-### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS export alias and element access patterns changed**
 
@@ -430,7 +430,7 @@
  * **RyanCavanaugh** assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3549#issuecomment-4400657746) **weswigham** noted the restoration of fewer-than-required type argument allowances for Array, Promise, and Object, referenced related TODOs, and opened #3745 with a fix
 
-### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Open, `bug`, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3551](https://github.com/microsoft/TypeScript-go/issues/3551) (Closed, `bug`, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **Baselines: Output file ordering changed \+ declaration types resolve to any instead of typeof references**
 
@@ -488,7 +488,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3557#issuecomment-4401323163) **sandersn** said "Later: nope it was the other way round. satisfies' synthetic expression blocked the later attachment of param tags."
  * (today) **sandersn** closed the issue
 
-### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS exports pattern changes in declaration emit**
 
@@ -985,7 +985,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open, `bug`, **iisaduan**)
 
 **Missing error for non\-existent root files**
 

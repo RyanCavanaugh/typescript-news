@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63461#issuecomment-4416972950) **typescript-bot** said "This issue has been marked as "Design Limitation" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open)
+### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open, `Bug`, `Domain: LS: Completion Lists`)
 
 **\`default\` keyword is offered in expression\-bodied arrow function completions**
 
@@ -70,7 +70,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4418269879) **qwq0** demonstrated that adding information allowed it to pass through successfully and attached an image
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4420939011) **mkantor** identified that behavior changed between versions 3.6 and 3.7 with TS Play repro links
 
-### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open, **joj**)
+### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Closed, `Needs Investigation`, **joj**)
 
 **"TypeScript for Visual Studio" installer not available for 6\.0**
 

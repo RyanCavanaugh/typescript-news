@@ -9,7 +9,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open)
+### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open, `Bug`, `Domain: LS: Completion Lists`)
 
 **\`default\` keyword is offered in expression\-bodied arrow function completions**
 
@@ -64,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4420939011) **mkantor** identified that behavior changed between versions 3.6 and 3.7 with TS Play repro links
  * [later](https://github.com/microsoft/TypeScript/issues/63468#issuecomment-4432297254) **RyanCavanaugh** explained that JSDoc’s type parser stops at the first closing brace and ignores trailing []—so the parameter was treated as typeof Model rather than an array—and suggested using a recognised array syntax like Array<typeof Model>
 
-### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Open, **joj**)
+### [Issue microsoft/TypeScript#63469](https://github.com/microsoft/TypeScript/issues/63469) (Closed, `Needs Investigation`, **joj**)
 
 **"TypeScript for Visual Studio" installer not available for 6\.0**
 
@@ -102,7 +102,7 @@
  * created by **MukundaKatta**
  * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63473](https://github.com/microsoft/TypeScript/issues/63473) (Open)
+### [Issue microsoft/TypeScript#63473](https://github.com/microsoft/TypeScript/issues/63473) (Closed)
 
 **\`default\` keyword is incorrectly offered in expression\-bodied arrow function completions**
 

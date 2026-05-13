@@ -60,7 +60,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`, `dependencies`, `javascript`
  * **typescript-bot** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open)
+### [Issue microsoft/TypeScript#63463](https://github.com/microsoft/TypeScript/issues/63463) (Open, `Bug`, `Domain: LS: Completion Lists`)
 
 **\`default\` keyword is offered in expression\-bodied arrow function completions**
 

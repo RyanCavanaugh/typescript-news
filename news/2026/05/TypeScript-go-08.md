@@ -1,6 +1,6 @@
 # Report for 2026-05-08 (Friday, May 8th, 2026)
 
-16 different users commented on 62 different issues.
+16 different users commented on 63 different issues.
 
 ## Recommended Actions
 
@@ -67,7 +67,7 @@
  * (3 days ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3545](https://github.com/microsoft/TypeScript-go/issues/3545) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS export alias and element access patterns changed**
 
@@ -109,7 +109,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3556#issuecomment-4408832253) **weswigham** said "@sandersn and @ahejlsberg - where did you land on how to interpret ...T jsdoc types? Like strada jsdoc, or like a TS variadic param?"
  * **RyanCavanaugh** assigned to **sandersn**
 
-### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3559](https://github.com/microsoft/TypeScript-go/issues/3559) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**, **RyanCavanaugh**, **Copilot**)
 
 **Baselines: CJS exports pattern changes in declaration emit**
 
@@ -356,7 +356,7 @@
  * (yesterday) **Copilot** assigned to **Copilot**, **gabritto**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#3753](https://github.com/microsoft/TypeScript-go/issues/3753) (Open, `bug`, **iisaduan**)
 
 **Missing error for non\-existent root files**
 
@@ -441,7 +441,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3772](https://github.com/microsoft/TypeScript-go/pull/3772) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3772](https://github.com/microsoft/TypeScript-go/pull/3772) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix panic on bare \`@\` CLI argument**
 
@@ -524,7 +524,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#3781](https://github.com/microsoft/TypeScript-go/pull/3781) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3781](https://github.com/microsoft/TypeScript-go/pull/3781) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Accept CJS exports pattern baseline diffs**
 
@@ -533,7 +533,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3782](https://github.com/microsoft/TypeScript-go/issues/3782) (Open)
+### [Issue microsoft/TypeScript-go#3782](https://github.com/microsoft/TypeScript-go/issues/3782) (Closed)
 
 **\[ServerErrors\]\[JavaScript\] main vs **
 
@@ -562,7 +562,7 @@
 
  * created by **iisaduan**
 
-### [Issue microsoft/TypeScript-go#3784](https://github.com/microsoft/TypeScript-go/issues/3784) (Open)
+### [Issue microsoft/TypeScript-go#3784](https://github.com/microsoft/TypeScript-go/issues/3784) (Closed)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -605,7 +605,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#3787](https://github.com/microsoft/TypeScript-go/issues/3787) (Open)
+### [Issue microsoft/TypeScript-go#3787](https://github.com/microsoft/TypeScript-go/issues/3787) (Open, `Needs More Info`)
 
 **tsgo and tsc diverge on incomplete composite\-ref declaration cache: TS2305 vs filterable TS6305**
 

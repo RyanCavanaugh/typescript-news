@@ -1,6 +1,6 @@
 # Report for 2026-05-11 (Monday, May 11th, 2026)
 
-16 different users commented on 43 different issues.
+16 different users commented on 44 different issues.
 
 ## Recommended Actions
 
@@ -73,7 +73,7 @@
  * **gabritto** assigned to **Copilot**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3480](https://github.com/microsoft/TypeScript-go/issues/3480) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#3480](https://github.com/microsoft/TypeScript-go/issues/3480) (Closed, `Needs Investigation`, **weswigham**)
 
 **Missing error about jsx\-runtime package**
 
@@ -215,7 +215,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/3777#issuecomment-4410186212) **jakebailey** said "This seems 1:1 but I think the copilot comments are worth addresssing"
  * (today) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#3781](https://github.com/microsoft/TypeScript-go/pull/3781) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3781](https://github.com/microsoft/TypeScript-go/pull/3781) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Accept CJS exports pattern baseline diffs**
 
@@ -249,7 +249,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3794#issuecomment-4420743416) **ahejlsberg** noted Copilot's successful single-file repro but found it slow and limited to strict:false, decided against adding it to the test suite, and added a cautionary comment about type relation assumptions
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3795](https://github.com/microsoft/TypeScript-go/issues/3795) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3795](https://github.com/microsoft/TypeScript-go/issues/3795) (Closed, `wontfix`)
 
 **tsc & tsgo difference in project reference build order**
 
@@ -270,7 +270,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Open, `bug`, `Domain: Editor`, `Crash`)
+### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Open, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
 
 **Debug assertion violation for document highlights on \`export =\` in merged namespace**
 
@@ -288,7 +288,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, `Crash`
 
-### [Issue microsoft/TypeScript-go#3801](https://github.com/microsoft/TypeScript-go/issues/3801) (Open, `bug`, `Domain: Editor`, `Crash`)
+### [Issue microsoft/TypeScript-go#3801](https://github.com/microsoft/TypeScript-go/issues/3801) (Open, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
 
 **Unhandled case when auto\-completing decorator on private method under \-\-experimentalDecorators**
 
@@ -308,7 +308,7 @@
  * (today) **gabritto** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/3802#issuecomment-4425277275) **gabritto** explained that GetTypeOfSymbolAtLocation already adjusts the location to the parent in property access cases
 
-### [PR microsoft/TypeScript-go#3803](https://github.com/microsoft/TypeScript-go/pull/3803) (Open)
+### [PR microsoft/TypeScript-go#3803](https://github.com/microsoft/TypeScript-go/pull/3803) (Closed)
 
 **Always generate a jsx implicit import specifier for tsx/jsx files**
 
@@ -316,7 +316,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#3804](https://github.com/microsoft/TypeScript-go/pull/3804) (Open)
+### [PR microsoft/TypeScript-go#3804](https://github.com/microsoft/TypeScript-go/pull/3804) (Closed)
 
 **add static property duplicate name check **
 
@@ -324,7 +324,7 @@
 
  * created by **iisaduan**
 
-### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Open, `Crash`, **ahejlsberg**, **jakebailey**, **Copilot**)
 
 **Panic if there's a circular reference after \`satisfies\`**
 
@@ -362,7 +362,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Open)
+### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Open, `bug`)
 
 **Enum member after \`NaN\` must have initializer in tsgo, which is not in ts6\.0**
 
@@ -379,7 +379,7 @@
  * created by **Withered-Flower-0422**
  * **Withered-Flower-0422** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#3811](https://github.com/microsoft/TypeScript-go/issues/3811) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3811](https://github.com/microsoft/TypeScript-go/issues/3811) (Closed, **jakebailey**, **Copilot**)
 
 **\`\.d\.ts\.map\` includes \`sourcesContent\` when \`inlineSources\` is enabled**
 
@@ -388,16 +388,16 @@
  * created by **jfirebaugh**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3812](https://github.com/microsoft/TypeScript-go/pull/3812) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3812](https://github.com/microsoft/TypeScript-go/pull/3812) (Closed, **jakebailey**, **Copilot**)
 
-**Exclude sourcesContent from \.d\.ts\.map when inlineSources is enabled**
+**Align declaration emit printer options with strada**
 
-*Remove inlineSources from the declaration printer options so .d.ts.map files omit sourcesContent when inlineSources is enabled, aligning with TypeScript’s behavior.*
+*Synchronize declaration emit printer options with strada's implementation and add a test for inlineSources in declaration maps.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3813](https://github.com/microsoft/TypeScript-go/issues/3813) (Open)
+### [Issue microsoft/TypeScript-go#3813](https://github.com/microsoft/TypeScript-go/issues/3813) (Closed, `wontfix`)
 
 **TS2300 on duplicate computed property in type literal, tsc accepts it**
 
