@@ -128,7 +128,7 @@
  * created by **XavierGeerinck**
  * **RyanCavanaugh** added label `Needs More Info`
 
-### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Open, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Closed, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
 
 **Debug assertion violation for document highlights on \`export =\` in merged namespace**
 
@@ -164,7 +164,7 @@
  * created by **iisaduan**
  * (today) **iisaduan** closed the issue
 
-### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Open, `Crash`, **ahejlsberg**, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Closed, `Crash`, **ahejlsberg**, **jakebailey**, **Copilot**)
 
 **Panic if there's a circular reference after \`satisfies\`**
 
@@ -174,7 +174,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3805#issuecomment-4430105271) **ahejlsberg** expressed concern about circularity in error reporting and suggested having TypeToString return '?' on recursive invocation to avoid stack overflows
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Closed, `bug`)
 
 **Enum member after \`NaN\` must have initializer in tsgo, which is not in ts6\.0**
 
@@ -254,7 +254,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, `Crash`
 
-### [PR microsoft/TypeScript-go#3818](https://github.com/microsoft/TypeScript-go/pull/3818) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3818](https://github.com/microsoft/TypeScript-go/pull/3818) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix debug assertion violation for document highlights on \`export =\` in merged namespace**
 
@@ -298,7 +298,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript-go#3823](https://github.com/microsoft/TypeScript-go/pull/3823) (Open)
+### [PR microsoft/TypeScript-go#3823](https://github.com/microsoft/TypeScript-go/pull/3823) (Closed)
 
 **Don't recursively scan auto\-import packages for non\-main \.d\.ts files unless option is set**
 
@@ -318,11 +318,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3824#issuecomment-4435875173) **DanielRosenwasser** said "If we can pretty confidently validate that we have a stack trace, we can do some client-side sanitization like we used to. We have some stuff on the endpoint to get rid of PII just in case."
  * [today](https://github.com/microsoft/TypeScript-go/pull/3824#issuecomment-4435891054) **andrewbranch** asked if they could collect everything between the displayed elements and what kind of client-side sanitization was desired
 
-### [PR microsoft/TypeScript-go#3825](https://github.com/microsoft/TypeScript-go/pull/3825) (Open)
+### [PR microsoft/TypeScript-go#3825](https://github.com/microsoft/TypeScript-go/pull/3825) (Closed)
 
 **Avoid repeated realpath in vfsmatch**
 
-*Optimize vfsmatch performance on slow IO systems by reducing repeated realpath calls*
+*Improve vfsmatch performance by reusing parent directory realpaths and avoiding repeated EvalSymlink calls for non-symlinks.*
 
  * created by **jakebailey**
 
@@ -360,7 +360,7 @@
  * created by **hkleungai**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3829#issuecomment-4440059685) **hkleungai** mentioned that TS8022 appears to be a known issue and asked whether it is marked as `wontfix`
 
-### [PR microsoft/TypeScript-go#3830](https://github.com/microsoft/TypeScript-go/pull/3830) (Open)
+### [PR microsoft/TypeScript-go#3830](https://github.com/microsoft/TypeScript-go/pull/3830) (Closed)
 
 **fix\(3809\): Enum member after NaN must have initializer in tsgo, which is not in ts6\.0**
 
@@ -376,7 +376,7 @@
 
  * created by **a-tarasyuk**
 
-### [PR microsoft/TypeScript-go#3832](https://github.com/microsoft/TypeScript-go/pull/3832) (Open)
+### [PR microsoft/TypeScript-go#3832](https://github.com/microsoft/TypeScript-go/pull/3832) (Closed)
 
 **Add recursion limiter for \`TypeToString\`**
 

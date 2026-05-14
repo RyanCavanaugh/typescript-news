@@ -212,7 +212,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3651#issuecomment-4408432477) **andrewbranch** said "This was fixed by #3652 "
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#3662](https://github.com/microsoft/TypeScript-go/issues/3662) (Open, `bug`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3662](https://github.com/microsoft/TypeScript-go/issues/3662) (Closed, `bug`, **iisaduan**)
 
 **Behavior difference: tsgo wrongly allows \`include\` to contain files that is not under \`rootDir\` from tsconfig**
 
@@ -554,7 +554,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3782#issuecomment-4410162410) **typescript-bot** reported a server connection closed prematurely error and provided related logs, affected repo, old server result, and last requests
  * [today](https://github.com/microsoft/TypeScript-go/issues/3782#issuecomment-4410162452) **typescript-bot** reported a panic handling textDocument/diagnostic due to an unhandled case in Node.Initializer
 
-### [PR microsoft/TypeScript-go#3783](https://github.com/microsoft/TypeScript-go/pull/3783) (Open)
+### [PR microsoft/TypeScript-go#3783](https://github.com/microsoft/TypeScript-go/pull/3783) (Closed)
 
 **check that files specified in tsconfig\.json "include" is located in "rootdir"**
 

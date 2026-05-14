@@ -270,7 +270,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Open, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3799](https://github.com/microsoft/TypeScript-go/issues/3799) (Closed, `bug`, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **gabritto**, **Copilot**)
 
 **Debug assertion violation for document highlights on \`export =\` in merged namespace**
 
@@ -324,7 +324,7 @@
 
  * created by **iisaduan**
 
-### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Open, `Crash`, **ahejlsberg**, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3805](https://github.com/microsoft/TypeScript-go/issues/3805) (Closed, `Crash`, **ahejlsberg**, **jakebailey**, **Copilot**)
 
 **Panic if there's a circular reference after \`satisfies\`**
 
@@ -362,7 +362,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#3809](https://github.com/microsoft/TypeScript-go/issues/3809) (Closed, `bug`)
 
 **Enum member after \`NaN\` must have initializer in tsgo, which is not in ts6\.0**
 

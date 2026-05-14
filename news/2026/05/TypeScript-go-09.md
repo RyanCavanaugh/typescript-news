@@ -63,7 +63,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3792#issuecomment-4415658755) **rchl** pointed out a spec violation and suggested moving the properties to an experimental object and phasing out the root ones
  * [later](https://github.com/microsoft/TypeScript-go/issues/3792#issuecomment-4415691581) **jakebailey** said "The VS ones are pretty locked in stone "
 
-### [Issue microsoft/TypeScript-go#3793](https://github.com/microsoft/TypeScript-go/issues/3793) (Open)
+### [Issue microsoft/TypeScript-go#3793](https://github.com/microsoft/TypeScript-go/issues/3793) (Open, `possible improvement`)
 
 **\[lsp\] make source action kinds more specific**
 
