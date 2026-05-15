@@ -32,7 +32,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63464#issuecomment-4424595257) **RyanCavanaugh** said "This doesn't meet the bar for a 6.0 patch. See #62963"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63465](https://github.com/microsoft/TypeScript/issues/63465) (Open)
+### [Issue microsoft/TypeScript#63465](https://github.com/microsoft/TypeScript/issues/63465) (Open, `Won't Fix`)
 
 **Implement interface codefix is offered when the implemented interface type is invalid**
 
@@ -53,7 +53,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63466#issuecomment-4424611053) **RyanCavanaugh** said "This doesn't meet the bar for a 6.0 patch. See #62963"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63468](https://github.com/microsoft/TypeScript/issues/63468) (Open)
+### [Issue microsoft/TypeScript#63468](https://github.com/microsoft/TypeScript/issues/63468) (Closed)
 
 **This type in jsdoc cause ts2502 but cannot reproduce with ts**
 
@@ -73,7 +73,7 @@
  * created by **wnayes**
  * [later](https://github.com/microsoft/TypeScript/issues/63469#issuecomment-4432297356) **RyanCavanaugh** provided automated analysis and listed similar issues for duplicate checking
 
-### [Issue microsoft/TypeScript#63470](https://github.com/microsoft/TypeScript/issues/63470) (Open)
+### [Issue microsoft/TypeScript#63470](https://github.com/microsoft/TypeScript/issues/63470) (Closed, `Won't Fix`)
 
 **Defined prototype properties resolve to potentially undefined type when assigned to from class method \(when using JavaScript ES5 syntax\)**
 

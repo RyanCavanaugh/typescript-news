@@ -1,6 +1,6 @@
 # Report for 2026-05-14 (Thursday, May 14th, 2026)
 
-15 different users commented on 48 different issues.
+16 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -8,6 +8,7 @@
     * @Okanlawon2259 posted unrelated content in [microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815#issuecomment-4456030799)
  * Response Recommended
     * @blickly asked for clarification on the meaning of 'the current (array-assuming) emit.' in [microsoft/TypeScript-go#3705](https://github.com/microsoft/TypeScript-go/pull/3705#issuecomment-4455898533)
+    * @jansedlon provided repro steps as requested in [microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733#issuecomment-4460635515)
 
 ## Activity Summary
 
@@ -153,6 +154,17 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/3727#issuecomment-4399622023) **DanielRosenwasser** said "We may need some sort of marker file to tell us "this is a TS7 directory"."
  * (today) **DanielRosenwasser** set milestone to `TypeScript 7.0 RC`, and removed from milestone `Possible Improvement`
  * **RyanCavanaugh** assigned to **jakebailey**
+
+### [Issue microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733) (Open, `Domain: Editor`, `Needs More Info`)
+
+**No autocomplete for local symbols and some global types when creating a new file**
+
+*VS Code fails to autocomplete or auto-import local symbols and ESNext types like Temporal in new TypeScript files until restart.*
+
+ * **jansedlon** added label `Domain: Editor`
+ * [6 days ago](https://github.com/microsoft/TypeScript-go/issues/3733#issuecomment-4408882714) **RyanCavanaugh** said "We really need concrete file contents in order to investigate these kinds of things."
+ * **RyanCavanaugh** added label `Needs More Info`
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3733#issuecomment-4460635515) **jansedlon** provided a partial repro showing that the Temporal namespace was not recognized initially when typing 'type A = Temporal.' in a new file and noted inability to reproduce the local exports issue
 
 ### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 

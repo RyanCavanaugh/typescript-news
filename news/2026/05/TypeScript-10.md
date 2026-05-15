@@ -42,7 +42,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63463#issuecomment-4418273467) **DhineshPonnarasan** described pausing a PR, explaining the broader issue with arrow expression bodies, and proposing next steps pending maintainer approval
  * [later](https://github.com/microsoft/TypeScript/issues/63463#issuecomment-4422368020) **RyanCavanaugh** provided an automated analysis listing similar issues and noting that suggesting 'default' after an arrow appeared to be a bug
 
-### [Issue microsoft/TypeScript#63465](https://github.com/microsoft/TypeScript/issues/63465) (Open)
+### [Issue microsoft/TypeScript#63465](https://github.com/microsoft/TypeScript/issues/63465) (Open, `Won't Fix`)
 
 **Implement interface codefix is offered when the implemented interface type is invalid**
 
@@ -60,7 +60,7 @@
  * created by **danyalahmed1995**
  * (today) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63468](https://github.com/microsoft/TypeScript/issues/63468) (Open)
+### [Issue microsoft/TypeScript#63468](https://github.com/microsoft/TypeScript/issues/63468) (Closed)
 
 **This type in jsdoc cause ts2502 but cannot reproduce with ts**
 
