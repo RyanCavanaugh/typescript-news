@@ -198,7 +198,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3747#issuecomment-4455324118) **RyanCavanaugh** verified that the issue was fixed in 7.0.0-dev.20260514.1 and requested confirmation from Apollon77
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Open, `Crash`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Closed, `Crash`, **andrewbranch**, **Copilot**)
 
 **Panic in overlayfs\.go when switching back to a TS file after saving package\.json**
 
@@ -230,7 +230,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/3792#issuecomment-4415691581) **jakebailey** said "The VS ones are pretty locked in stone "
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Open, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Closed, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Error when auto\-importing relative \.css augmentation from ESM file with package\.json**
 
@@ -330,7 +330,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3836#issuecomment-4445955151) **andrewbranch** described that the PR makes workspace symbols align with document symbols by including the name range so the cursor snaps to the name
  * [today](https://github.com/microsoft/TypeScript-go/pull/3836#issuecomment-4452730448) **jakebailey** said "You modified generated tests which isn't allowed; the top of the generated tests says how to manually modify them."
 
-### [PR microsoft/TypeScript-go#3837](https://github.com/microsoft/TypeScript-go/pull/3837) (Open)
+### [PR microsoft/TypeScript-go#3837](https://github.com/microsoft/TypeScript-go/pull/3837) (Closed)
 
 **Update snapshot and projects on file close**
 
@@ -403,7 +403,7 @@
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3845](https://github.com/microsoft/TypeScript-go/pull/3845) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3845](https://github.com/microsoft/TypeScript-go/pull/3845) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix panic when auto\-importing relative \.css augmentation from ESM file**
 
@@ -438,7 +438,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added label `Domain: Editor`, set milestone to `TypeScript 7.0 RC`, and assigned to **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#3849](https://github.com/microsoft/TypeScript-go/pull/3849) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3849](https://github.com/microsoft/TypeScript-go/pull/3849) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix panic in overlayfs when saving a file without an overlay**
 

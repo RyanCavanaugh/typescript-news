@@ -279,7 +279,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, `Crash`
 
-### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Open, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Closed, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Error when auto\-importing relative \.css augmentation from ESM file with package\.json**
 

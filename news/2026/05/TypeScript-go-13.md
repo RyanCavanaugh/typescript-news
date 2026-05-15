@@ -1,6 +1,6 @@
 # Report for 2026-05-13 (Wednesday, May 13th, 2026)
 
-12 different users commented on 35 different issues.
+12 different users commented on 37 different issues.
 
 ## Recommended Actions
 
@@ -283,7 +283,7 @@
  * created by **joj**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3836#issuecomment-4445955151) **andrewbranch** described that the PR makes workspace symbols align with document symbols by including the name range so the cursor snaps to the name
 
-### [PR microsoft/TypeScript-go#3837](https://github.com/microsoft/TypeScript-go/pull/3837) (Open)
+### [PR microsoft/TypeScript-go#3837](https://github.com/microsoft/TypeScript-go/pull/3837) (Closed)
 
 **Update snapshot and projects on file close**
 

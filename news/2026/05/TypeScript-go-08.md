@@ -413,7 +413,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Open, `Crash`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Closed, `Crash`, **andrewbranch**, **Copilot**)
 
 **Panic in overlayfs\.go when switching back to a TS file after saving package\.json**
 
