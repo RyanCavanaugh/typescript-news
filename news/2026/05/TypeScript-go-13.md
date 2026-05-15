@@ -274,7 +274,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#3836](https://github.com/microsoft/TypeScript-go/pull/3836) (Open)
+### [PR microsoft/TypeScript-go#3836](https://github.com/microsoft/TypeScript-go/pull/3836) (Closed)
 
 **fix\(workspace/symbol\): use name span in ProvideWorkspaceSymbols**
 
