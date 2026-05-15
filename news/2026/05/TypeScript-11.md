@@ -82,7 +82,7 @@
  * created by **Iemand005**
  * [later](https://github.com/microsoft/TypeScript/issues/63470#issuecomment-4432297503) **RyanCavanaugh** provided an auto-generated list of similar issues and guidance on potential duplicates
 
-### [PR microsoft/TypeScript#63471](https://github.com/microsoft/TypeScript/pull/63471) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63471](https://github.com/microsoft/TypeScript/pull/63471) (Closed, `For Backlog Bug`)
 
 **Clarify charCodeAt and codePointAt documentation**
 

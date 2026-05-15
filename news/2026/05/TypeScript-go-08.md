@@ -98,7 +98,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3549#issuecomment-4400657746) **weswigham** noted the restoration of fewer-than-required type argument allowances for Array, Promise, and Object, referenced related TODOs, and opened #3745 with a fix
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **sandersn**, **weswigham**)
+### [Issue microsoft/TypeScript-go#3556](https://github.com/microsoft/TypeScript-go/issues/3556) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **sandersn**, **weswigham**)
 
 **Baselines: @callback/@overload tags reordered and restructured in declaration emit**
 
@@ -294,7 +294,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3734#issuecomment-4408357849) **RyanCavanaugh** said "OK, please log a new issue if it comes up again and there's a repro. Thanks!"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
 
@@ -324,7 +324,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#3747](https://github.com/microsoft/TypeScript-go/issues/3747) (Open)
+### [Issue microsoft/TypeScript-go#3747](https://github.com/microsoft/TypeScript-go/issues/3747) (Closed)
 
 **Regression in 20260506\.1: generic substitution lost through method\-returned mapped type**
 
@@ -413,7 +413,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#3768](https://github.com/microsoft/TypeScript-go/issues/3768) (Open, `Crash`, **andrewbranch**, **Copilot**)
 
 **Panic in overlayfs\.go when switching back to a TS file after saving package\.json**
 

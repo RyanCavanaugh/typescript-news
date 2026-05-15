@@ -1,6 +1,6 @@
 # Report for 2026-05-13 (Wednesday, May 13th, 2026)
 
-10 different users commented on 7 different issues.
+9 different users commented on 8 different issues.
 
 ## Recommended Actions
 
@@ -9,8 +9,6 @@
     * @danon asked how to narrow unknown to Record<> using type guards in [microsoft/TypeScript#63474](https://github.com/microsoft/TypeScript/issues/63474#issuecomment-4448332825)
     * @danon asked how to generalize their TypeScript casting functions to work with arbitrary string fields in [microsoft/TypeScript#63474](https://github.com/microsoft/TypeScript/issues/63474#issuecomment-4448669897)
     * @danon provided repro steps showing unexpected behavior in [microsoft/TypeScript#63474](https://github.com/microsoft/TypeScript/issues/63474#issuecomment-4450943690)
-    * @microsoft-github-policy-service asked the contributor to agree to the CLA in [microsoft/TypeScript#63475](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613248)
-    * @microsoft-github-policy-service asked the contributor to agree to the CLA in [microsoft/TypeScript#63475](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613282)
     * @Hamzaa6296 asked whether the team would accept a PR to fix the issue in [microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4449294554)
 
 ## Activity Summary
@@ -59,7 +57,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63474#issuecomment-4450482265) **mkantor** pointed out that general language discussions belong in the TypeScript Community Chat, provided an example generic cast function implementation, suggested using established validation libraries, and clarified the safe use and risks of type assertions
  * [later](https://github.com/microsoft/TypeScript/issues/63474#issuecomment-4450943690) **danon** demonstrated that cast returned undefined instead of throwing when given a string and property key
 
-### [PR microsoft/TypeScript#63475](https://github.com/microsoft/TypeScript/pull/63475) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63475](https://github.com/microsoft/TypeScript/pull/63475) (Closed, `For Uncommitted Bug`)
 
 **Fix minor typos in protocol\.ts **
 
@@ -70,10 +68,8 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448612041) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613123) **typescript-bot** thanked the author for the PR, cautioned to preserve TSServer API compatibility, and pinged reviewers for extra review
- * [later](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613248) **microsoft-github-policy-service[bot]** requested the contributor to agree to the CLA by replying with the appropriate template
- * [later](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613282) **microsoft-github-policy-service[bot]** requested the contributor to agree to the CLA by replying with the appropriate template
 
-### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Open)
+### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Open, `Duplicate`)
 
 **\`===\` is not strong enough to narrow equal values to the same type**
 
@@ -83,7 +79,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4449294554) **Hamzaa6296** reproduced the issue, proposed updating the type narrowing logic for === between unknown and a generic type T, and asked if the team would accept a PR
  * [later](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4451293547) **jcalz** marked the issue as a duplicate of #36772
 
-### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Open)
+### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Open, `Duplicate`)
 
 **\`NoInfer\` on second generic parameter doesn't pick up inference from sibling methods**
 

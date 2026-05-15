@@ -1,6 +1,6 @@
 # Report for 2026-05-11 (Monday, May 11th, 2026)
 
-16 different users commented on 44 different issues.
+16 different users commented on 46 different issues.
 
 ## Recommended Actions
 
@@ -159,7 +159,7 @@
  * created by **gabritto**
  * (later) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Open, `bug`, `Domain: Type Checking`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
 
 **Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
 
@@ -279,7 +279,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, `Crash`
 
-### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Open, `bug`, `Domain: Editor`, `Crash`)
+### [Issue microsoft/TypeScript-go#3800](https://github.com/microsoft/TypeScript-go/issues/3800) (Open, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Error when auto\-importing relative \.css augmentation from ESM file with package\.json**
 
@@ -354,7 +354,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3807#issuecomment-4427875598) **jakebailey** said "@copilot+claude-opus-4.6 is this a porting bug? If not why doesn't Strada hit this?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3807#issuecomment-4427900074) **Copilot** described the issue as a porting bug and explained why Strada didn’t hit it due to lacking the pseudochecker path, outlining the cyclic call sequence in the Go port
 
-### [PR microsoft/TypeScript-go#3808](https://github.com/microsoft/TypeScript-go/pull/3808) (Open)
+### [PR microsoft/TypeScript-go#3808](https://github.com/microsoft/TypeScript-go/pull/3808) (Closed)
 
 **Provide implicit index signatures for JS expando object literals**
 
@@ -370,7 +370,7 @@
 
  * created by **Withered-Flower-0422**
 
-### [Issue microsoft/TypeScript-go#3810](https://github.com/microsoft/TypeScript-go/issues/3810) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#3810](https://github.com/microsoft/TypeScript-go/issues/3810) (Closed, `Domain: Editor`, **gabritto**)
 
 **Deprecated members still shown in dropdown menu with \`editor\.suggest\.showDeprecated\` set to \`false\`**
 

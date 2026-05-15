@@ -1,6 +1,6 @@
 # Report for 2026-05-12 (Tuesday, May 12th, 2026)
 
-13 different users commented on 40 different issues.
+13 different users commented on 41 different issues.
 
 ## Recommended Actions
 
@@ -73,7 +73,7 @@
  * (4 days ago) **RyanCavanaugh** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Open, `Crash`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3621](https://github.com/microsoft/TypeScript-go/issues/3621) (Closed, `Crash`, `Needs More Info`)
 
 **Panic Alert Notification when Cursor edits some file and opening that file causes panic\.**
 
@@ -306,7 +306,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3824](https://github.com/microsoft/TypeScript-go/pull/3824) (Open)
+### [PR microsoft/TypeScript-go#3824](https://github.com/microsoft/TypeScript-go/pull/3824) (Closed)
 
 **Collect telemetry on recovered notification panics and stderr on unrecovered panics**
 
@@ -343,7 +343,7 @@
 
  * created by **a-tarasyuk**
 
-### [PR microsoft/TypeScript-go#3828](https://github.com/microsoft/TypeScript-go/pull/3828) (Open)
+### [PR microsoft/TypeScript-go#3828](https://github.com/microsoft/TypeScript-go/pull/3828) (Closed)
 
 **fix\(3810\): handle deprecated tags in completions**
 
@@ -351,7 +351,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#3829](https://github.com/microsoft/TypeScript-go/issues/3829) (Open)
+### [Issue microsoft/TypeScript-go#3829](https://github.com/microsoft/TypeScript-go/issues/3829) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Behavior difference: tsgo fails to report TS8022 as tsc does**
 

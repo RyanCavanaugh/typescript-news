@@ -152,7 +152,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3824](https://github.com/microsoft/TypeScript-go/pull/3824) (Open)
+### [PR microsoft/TypeScript-go#3824](https://github.com/microsoft/TypeScript-go/pull/3824) (Closed)
 
 **Collect telemetry on recovered notification panics and stderr on unrecovered panics**
 
@@ -195,7 +195,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3827#issuecomment-4444706016) **DanielRosenwasser** said "Thanks!"
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript-go#3828](https://github.com/microsoft/TypeScript-go/pull/3828) (Open)
+### [PR microsoft/TypeScript-go#3828](https://github.com/microsoft/TypeScript-go/pull/3828) (Closed)
 
 **fix\(3810\): handle deprecated tags in completions**
 
@@ -262,11 +262,11 @@
 
 **add localization for extension**
 
-*Integrate localization into the extension using resources from the vscode-loc repository to address issue #3719.*
+*Add localization support to the TypeScript VS Code extension by integrating non-English translation files and enabling pseudo-language testing.*
 
  * created by **iisaduan**
 
-### [PR microsoft/TypeScript-go#3835](https://github.com/microsoft/TypeScript-go/pull/3835) (Open)
+### [PR microsoft/TypeScript-go#3835](https://github.com/microsoft/TypeScript-go/pull/3835) (Closed)
 
 **Update README with current jsdoc/declarations status**
 
@@ -291,7 +291,7 @@
 
  * created by **gabritto**
 
-### [PR microsoft/TypeScript-go#3838](https://github.com/microsoft/TypeScript-go/pull/3838) (Open)
+### [PR microsoft/TypeScript-go#3838](https://github.com/microsoft/TypeScript-go/pull/3838) (Closed)
 
 **Speed up realpath on Linux and macOS**
 
@@ -299,7 +299,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#3839](https://github.com/microsoft/TypeScript-go/pull/3839) (Open)
+### [PR microsoft/TypeScript-go#3839](https://github.com/microsoft/TypeScript-go/pull/3839) (Closed)
 
 **Don't double count approximateLength during tryReuseExistingNodeHelper**
 
@@ -322,7 +322,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/3840#issuecomment-4448739859) **jakebailey** said "No, but it's just hereby build which does all the work to build it, and the herebyfile contains more info about how we build the releases"
  * [later](https://github.com/microsoft/TypeScript-go/pull/3840#issuecomment-4448742318) **jakebailey** said "I don't think this PR is wrong, but we probably need a test that is conditional on whether or not embedding is enabled"
 
-### [Issue microsoft/TypeScript-go#3841](https://github.com/microsoft/TypeScript-go/issues/3841) (Open)
+### [Issue microsoft/TypeScript-go#3841](https://github.com/microsoft/TypeScript-go/issues/3841) (Closed, `wontfix`)
 
 **Behavior difference: tsgo prints namespace in TS2740 but tsc does not**
 

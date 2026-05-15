@@ -51,7 +51,7 @@
  * (later) **ahejlsberg** added label `Domain: Type Checking`, and assigned to **ahejlsberg**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3791#issuecomment-4415501540) **ahejlsberg** said "This assertion failure happens with both tsc and tsgo. A condition that shouldn't be false ends up being so due to an excessive stack depth which the logic doesn't account for."
 
-### [Issue microsoft/TypeScript-go#3792](https://github.com/microsoft/TypeScript-go/issues/3792) (Open)
+### [Issue microsoft/TypeScript-go#3792](https://github.com/microsoft/TypeScript-go/issues/3792) (Open, `Needs Investigation`, **andrewbranch**)
 
 **\[lsp\] Experimental server capabilities should be defined on "experimental" object**
 
