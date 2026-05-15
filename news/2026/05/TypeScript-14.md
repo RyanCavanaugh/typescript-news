@@ -150,7 +150,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63479#issuecomment-4460517556) **RyanCavanaugh** said "User was blocked for this PR: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md#use-of-ai-assistance"
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63480](https://github.com/microsoft/TypeScript/issues/63480) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#63480](https://github.com/microsoft/TypeScript/issues/63480) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **\`Set\#size\` has grammar typo in \`lib\.es2015\.collection\.d\.ts\`**
 
