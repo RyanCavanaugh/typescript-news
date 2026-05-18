@@ -67,7 +67,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63485#issuecomment-4468427264) **DhineshPonnarasan** thanked for the guidance, closed the PR in favor of microsoft/typescript-go, and disclosed use of AI assistance
  * (today) **DhineshPonnarasan** closed the issue
 
-### [Issue microsoft/TypeScript#63486](https://github.com/microsoft/TypeScript/issues/63486) (Open)
+### [Issue microsoft/TypeScript#63486](https://github.com/microsoft/TypeScript/issues/63486) (Closed, `Suggestion`, `Out of Scope`)
 
 **\[Feature Request\] Official native AOT binary compiler**
 

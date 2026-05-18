@@ -102,7 +102,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript-go/issues/3638#issuecomment-4394496405) **jakebailey** said "I suspect #3435 would fix this by way of not sharing checkers."
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Closed)
 
 **Excessive CPU usage**
 
@@ -261,7 +261,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3795#issuecomment-4424580108) **RyanCavanaugh** said "We're supposed to have a check that detects this situation and warns you, but I think the nested tsconfig setup here defeats it"
  * [today](https://github.com/microsoft/TypeScript-go/issues/3795#issuecomment-4427512523) **SPGoding** reported that the build passed after moving dependency project references from the parent-level tsconfig.json to the nested src-level tsconfig.json
 
-### [PR microsoft/TypeScript-go#3798](https://github.com/microsoft/TypeScript-go/pull/3798) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript-go#3798](https://github.com/microsoft/TypeScript-go/pull/3798) (Closed, `dependencies`, `github_actions`)
 
 **Bump github/codeql\-action from 4\.35\.2 to 4\.35\.4 in the github\-actions group across 1 directory**
 

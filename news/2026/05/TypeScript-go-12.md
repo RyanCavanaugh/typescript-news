@@ -215,7 +215,7 @@
  * **ahejlsberg** added label `wontfix`
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3814](https://github.com/microsoft/TypeScript-go/issues/3814) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3814](https://github.com/microsoft/TypeScript-go/issues/3814) (Closed, `wontfix`)
 
 **\`skipLibCheck\` does not suppress TS2430 for interface merging errors originating in user code**
 
@@ -225,7 +225,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3814#issuecomment-4433187187) **RyanCavanaugh** said "This seems like a bug in 6.0 more than anything. It's super weird that you could put an invalid declaration in user code and not get an error just because skipLibCheck is on."
  * [today](https://github.com/microsoft/TypeScript-go/issues/3814#issuecomment-4433206174) **jakebailey** said "This is definitely an intentional change, because we issue the errors on whichever thing we see first and therefore this is not deterministic, so we issue it everywhere"
 
-### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Closed, `wontfix`)
 
 **\`skipLibCheck\` does not suppress TS2320 when module augmentation in \`\.ts\` triggers interface merging conflict from \`\.d\.ts\`**
 

@@ -1,6 +1,6 @@
 # Report for 2026-05-17 (Sunday, May 17th, 2026)
 
-7 different users commented on 7 different issues.
+8 different users commented on 8 different issues.
 
 ## Recommended Actions
 
@@ -53,7 +53,19 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4473486961) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [Issue microsoft/TypeScript#63487](https://github.com/microsoft/TypeScript/issues/63487) (Open)
+### [Issue microsoft/TypeScript#63486](https://github.com/microsoft/TypeScript/issues/63486) (Closed, `Suggestion`, `Out of Scope`)
+
+**\[Feature Request\] Official native AOT binary compiler**
+
+*Propose Microsoft develop an official TypeScript native AOT compiler to generate cross-platform binaries with native library linking and UI/GPU support.*
+
+ * created by **adevart**
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63486#issuecomment-4468699394) **MartinJohns** said "This is out of scope. Check the Viability Checklist again."
+ * (later) **RyanCavanaugh** added labels `Suggestion`, `Out of Scope`
+ * [later](https://github.com/microsoft/TypeScript/issues/63486#issuecomment-4479351292) **RyanCavanaugh** said "TypeScript is a type checker for JavaScript, not a runtime stack."
+ * (later) **RyanCavanaugh** closed the issue
+
+### [Issue microsoft/TypeScript#63487](https://github.com/microsoft/TypeScript/issues/63487) (Open, `Duplicate`)
 
 **Type\-narrowing on array elements persists after array mutations**
 
@@ -61,6 +73,7 @@
 
  * created by **raydog**
  * [today](https://github.com/microsoft/TypeScript/issues/63487#issuecomment-4472011859) **MartinJohns** said "This is essentially another duplicate of #9998. And a duplicate of #31334."
+ * **RyanCavanaugh** added label `Duplicate`
 
 ### [PR microsoft/TypeScript#63488](https://github.com/microsoft/TypeScript/pull/63488) (Closed)
 

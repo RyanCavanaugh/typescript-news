@@ -104,7 +104,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3692](https://github.com/microsoft/TypeScript-go/issues/3692) (Closed)
 
 **Excessive CPU usage**
 
@@ -166,7 +166,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3806#issuecomment-4464392347) **RyanCavanaugh** said "If you can confirm repro on latest we can try another round of synthesizing a repro, or if you can come up with a concrete repro that'd be great."
 
-### [Issue microsoft/TypeScript-go#3814](https://github.com/microsoft/TypeScript-go/issues/3814) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3814](https://github.com/microsoft/TypeScript-go/issues/3814) (Closed, `wontfix`)
 
 **\`skipLibCheck\` does not suppress TS2430 for interface merging errors originating in user code**
 
@@ -177,7 +177,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/3814#issuecomment-4433206174) **jakebailey** said "This is definitely an intentional change, because we issue the errors on whichever thing we see first and therefore this is not deterministic, so we issue it everywhere"
  * **RyanCavanaugh** added label `wontfix`
 
-### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Open, `wontfix`)
+### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Closed, `wontfix`)
 
 **\`skipLibCheck\` does not suppress TS2320 when module augmentation in \`\.ts\` triggers interface merging conflict from \`\.d\.ts\`**
 
@@ -456,7 +456,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3876](https://github.com/microsoft/TypeScript-go/issues/3876) (Open, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3876](https://github.com/microsoft/TypeScript-go/issues/3876) (Closed, `bug`, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Error when retrieving diagnostics**
 
@@ -465,11 +465,11 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `Domain: Editor`, `Crash`, `bug`, and assigned to **Copilot**, **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#3877](https://github.com/microsoft/TypeScript-go/pull/3877) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3877](https://github.com/microsoft/TypeScript-go/pull/3877) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix panic in getTsConfigObjectLiteralExpression for malformed tsconfig**
 
-*Add a guard to prevent panicking when tsconfig.json contains a non-object expression and include a test reproducing the crash.*
+*getTsConfigObjectLiteralExpression now checks for object literals to avoid panicking on malformed tsconfig.json values, and a test case was added.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
@@ -519,7 +519,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#3883](https://github.com/microsoft/TypeScript-go/issues/3883) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3883](https://github.com/microsoft/TypeScript-go/issues/3883) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo panics when inferring \[\.\.\.rest, \.\.\.T\] from a tuple shorter than fixed\-arity constraint**
 
@@ -546,7 +546,7 @@
  * created by **mariusschulz**
  * **mariusschulz** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#3886](https://github.com/microsoft/TypeScript-go/issues/3886) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3886](https://github.com/microsoft/TypeScript-go/issues/3886) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo printer panics when emitting declarations for CommonJS files with numeric export names**
 
@@ -592,7 +592,7 @@
  * created by **mariusschulz**
  * **mariusschulz** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#3891](https://github.com/microsoft/TypeScript-go/issues/3891) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3891](https://github.com/microsoft/TypeScript-go/issues/3891) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo panics when an anonymous class declaration has a member decorator when downleveling to ES2022**
 
@@ -617,7 +617,7 @@
 
  * created by **mariusschulz**
 
-### [Issue microsoft/TypeScript-go#3894](https://github.com/microsoft/TypeScript-go/issues/3894) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3894](https://github.com/microsoft/TypeScript-go/issues/3894) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo JSX entity decoder skips entities that follow a non\-entity ampersand**
 
@@ -645,16 +645,16 @@
  * created by **mariusschulz**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3896#issuecomment-4467305977) **jakebailey** said "I'm not sure this is really a bug, but rather an improvement in node reuse"
 
-### [PR microsoft/TypeScript-go#3897](https://github.com/microsoft/TypeScript-go/pull/3897) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3897](https://github.com/microsoft/TypeScript-go/pull/3897) (Closed, **jakebailey**, **Copilot**)
 
 **Fix JSX entity decoder skipping entities after non\-entity ampersand**
 
-*Fix JSX entity decoder to skip non-entity ampersands and correctly decode subsequent entities*
+*Update JSX entity decoder to skip intervening non-entity ampersands and correctly decode entities.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3898](https://github.com/microsoft/TypeScript-go/issues/3898) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3898](https://github.com/microsoft/TypeScript-go/issues/3898) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo creates a distinct enum literal type for each NaN\-valued enum member**
 

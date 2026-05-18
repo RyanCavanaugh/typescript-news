@@ -1,6 +1,6 @@
 # Report for 2026-05-17 (Sunday, May 17th, 2026)
 
-11 different users commented on 59 different issues.
+12 different users commented on 61 different issues.
 
 ## Recommended Actions
 
@@ -30,6 +30,17 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4476496557) **Andarist** explained that using Go's unicode ranges wasn't possible, added a code comment, and implemented a commitable code generator to keep the output file up to date
  * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4478753309) **jakebailey** said "See also https://github.com/microsoft/typescript-go/pull/3930 which uses x/text for this, though I'm wary of that too..."
+
+### [PR microsoft/TypeScript-go#3877](https://github.com/microsoft/TypeScript-go/pull/3877) (Closed, **DanielRosenwasser**, **Copilot**)
+
+**Fix panic in getTsConfigObjectLiteralExpression for malformed tsconfig**
+
+*getTsConfigObjectLiteralExpression now checks for object literals to avoid panicking on malformed tsconfig.json values, and a test case was added.*
+
+ * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3877#issuecomment-4464433812) **RyanCavanaugh** questioned the theory of the case, asserted that the testcase did not reproduce the problem, noted that tsgo already reported the correct TS5092 error, and mentioned that the call stack indicated a related diagnostic was being computed
+ * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3877#issuecomment-4465771376) **DanielRosenwasser** said "@copilot fix it"
+ * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3877#issuecomment-4465830661) **Copilot** acknowledged that the original test didn’t exercise the diagnostic explanation code and updated the test to use an array-literal tsconfig to trigger the crash path
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3877#issuecomment-4479412000) **RyanCavanaugh** updated the test to use a specific compilerOptions types array and confirmed that this triggers the tsgo cmdline crash
 
 ### [Issue microsoft/TypeScript-go#3887](https://github.com/microsoft/TypeScript-go/issues/3887) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
@@ -81,11 +92,11 @@
  * (yesterday) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (later) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#3897](https://github.com/microsoft/TypeScript-go/pull/3897) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3897](https://github.com/microsoft/TypeScript-go/pull/3897) (Closed, **jakebailey**, **Copilot**)
 
 **Fix JSX entity decoder skipping entities after non\-entity ampersand**
 
-*Fix JSX entity decoder to skip non-entity ampersands and correctly decode subsequent entities*
+*Update JSX entity decoder to skip intervening non-entity ampersands and correctly decode entities.*
 
  * created by **Copilot**
  * (yesterday) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -289,13 +300,14 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#3944](https://github.com/microsoft/TypeScript-go/issues/3944) (Open)
+### [Issue microsoft/TypeScript-go#3944](https://github.com/microsoft/TypeScript-go/issues/3944) (Closed)
 
 **Request failure for import with non\-textual specifier node**
 
 *Auto-import quick fixes fail to generate edits when using non-textual module specifiers like template literals.*
 
  * created by **DanielRosenwasser**
+ * (later) **jakebailey** closed the issue
 
 ### [Issue microsoft/TypeScript-go#3945](https://github.com/microsoft/TypeScript-go/issues/3945) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
 
@@ -325,13 +337,14 @@
  * created by **ahejlsberg**
  * (later) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#3948](https://github.com/microsoft/TypeScript-go/pull/3948) (Open)
+### [PR microsoft/TypeScript-go#3948](https://github.com/microsoft/TypeScript-go/pull/3948) (Closed)
 
 **Fix crash on non\-textual module specifiers in auto\-import promote fixes**
 
 *Prevent crash in auto-import promote fixes when handling non-textual module specifiers*
 
  * created by **Andarist**
+ * (later) **jakebailey** closed the issue
 
 ### [PR microsoft/TypeScript-go#3949](https://github.com/microsoft/TypeScript-go/pull/3949) (Open)
 
@@ -364,7 +377,7 @@
 
 **Fix auto\-import lowercasing PascalCase default\-import bindings on case\-insensitive file systems**
 
-*Ensure auto-import default bindings preserve PascalCase on case-insensitive file systems by using the original file name.*
+*Use moduleFileName for fallback paths to preserve PascalCase default-import identifiers on case-insensitive file systems*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -373,18 +386,19 @@
 
 **Fix \`importModuleSpecifier: "project\-relative"\` ignored when tsconfig \`paths\` are configured**
 
-*Correct project-relative imports to always use relative paths instead of tsconfig path aliases by fixing projectDirectory handling and return logic.*
+*Project-relative auto-imports were emitting tsconfig alias paths instead of relative paths due to projectDirectory miscalculation and conditional logic gating regressions.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3954](https://github.com/microsoft/TypeScript-go/issues/3954) (Open)
+### [Issue microsoft/TypeScript-go#3954](https://github.com/microsoft/TypeScript-go/issues/3954) (Closed)
 
 **JSDoc comment stripped from async private method**
 
 *Private async methods lose JSDoc comments in declaration files generated by tsgo while non-async methods retain theirs.*
 
  * created by **dragomirtitian**
+ * (later) **jakebailey** closed the issue
 
 ### [Issue microsoft/TypeScript-go#3955](https://github.com/microsoft/TypeScript-go/issues/3955) (Open, **jakebailey**, **Copilot**)
 
@@ -437,13 +451,14 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3959#issuecomment-4479088971) **jakebailey** said "Duplicate of #3907"
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3960](https://github.com/microsoft/TypeScript-go/pull/3960) (Open)
+### [PR microsoft/TypeScript-go#3960](https://github.com/microsoft/TypeScript-go/pull/3960) (Closed)
 
 **fix\(3954\): preserve jsdoc on private async method declarations**
 
 *Preserve JSDoc comments on private async method declarations during transpilation.*
 
  * created by **a-tarasyuk**
+ * (later) **jakebailey** closed the issue
 
 ### [Issue microsoft/TypeScript-go#3961](https://github.com/microsoft/TypeScript-go/issues/3961) (Open, **jakebailey**, **Copilot**)
 
@@ -467,32 +482,32 @@
 
 ### [PR microsoft/TypeScript-go#3963](https://github.com/microsoft/TypeScript-go/pull/3963) (Open, **jakebailey**, **Copilot**)
 
-**\[WIP\] Fix JSDoc comment preservation for elided imports**
+**Fix JSDoc comment of elided import being preserved in declaration emit**
 
-*Add tests and implement a printer fix to preserve JSDoc comments when imports are elided.*
+*Fixed JSDoc comments being incorrectly preserved for elided imports in declaration emit*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
 ### [PR microsoft/TypeScript-go#3964](https://github.com/microsoft/TypeScript-go/pull/3964) (Open, **jakebailey**, **Copilot**)
 
-**\[WIP\] Fix parentheses around typeof type expression**
+**Preserve parsed \`typeof X\` in postfix type contexts**
 
-*tsgo adds unnecessary parentheses around typeof type expressions in type aliases, unlike TypeScript 6.0*
+*Declaration emit now preserves parsed typeof expressions without parentheses in array, indexed access, and optional type contexts.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
 ### [PR microsoft/TypeScript-go#3965](https://github.com/microsoft/TypeScript-go/pull/3965) (Open, **jakebailey**, **Copilot**)
 
-**\[WIP\] Fix property names quoting in inferred type**
+**Normalize reused string\-literal property names to identifiers in declaration emit**
 
-*Normalize quoting of string-named properties in emitted declarations by updating the reuseName logic and adding tests.*
+*Declaration emit now normalizes reused string-literal property names into identifiers when the text is a valid identifier.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3966](https://github.com/microsoft/TypeScript-go/issues/3966) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3966](https://github.com/microsoft/TypeScript-go/issues/3966) (Closed, **jakebailey**, **Copilot**)
 
 **Emojis from inferred types are written as unicode escapes in declaration files**
 
@@ -501,11 +516,11 @@
  * created by **dragomirtitian**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3967](https://github.com/microsoft/TypeScript-go/pull/3967) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3967](https://github.com/microsoft/TypeScript-go/pull/3967) (Closed, **jakebailey**, **Copilot**)
 
-**\[WIP\] Fix unicode escapes for emojis in declaration files**
+**Preserve non\-ASCII characters in declaration emit for string literal types**
 
-*tsgo-generated declaration files replace emoji characters with unicode escape sequences rather than preserving the actual emojis.*
+*Preserve non-ASCII characters in string literal types in emitted declaration files by applying the no-ASCII-escaping printer flag to reused nodes.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -522,9 +537,9 @@
 
 ### [PR microsoft/TypeScript-go#3969](https://github.com/microsoft/TypeScript-go/pull/3969) (Open, **jakebailey**, **Copilot**)
 
-**\[WIP\] Fix extra suffix in type parameters for object literal methods**
+**Fix spurious \`\_N\` suffix on type parameters of sibling object\-literal methods in declaration emit**
 
-*Object literal method type parameters are renamed with unnecessary suffixes (e.g., M_1) in declaration files.*
+*Declaration emit incorrectly adds a _N suffix to generic type parameters of sibling object-literal methods due to deferred scope cleanup*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -538,4 +553,12 @@
  * created by **dragomirtitian**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3970#issuecomment-4479325033) **jakebailey** explained that they opted not to bring forward the complex behavior and are emitting namespaces to merge without extra work
  * (later) **dragomirtitian** closed the issue
+
+### [Issue microsoft/TypeScript-go#3971](https://github.com/microsoft/TypeScript-go/issues/3971) (Open, **jakebailey**, **Copilot**)
+
+**Assertion in JSX spread causes missing newline in JS output**
+
+*A type assertion in a JSX spread property causes the emitted JavaScript to remove surrounding newlines when transpiled with tsgo.*
+
+ * created by **dragomirtitian**
 

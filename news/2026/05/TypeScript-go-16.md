@@ -31,7 +31,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/2928#issuecomment-4467971908) **jakebailey** said "Also #3917 and #3883, might need to consolidate tests and/or fixes"
  * (later) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#3883](https://github.com/microsoft/TypeScript-go/issues/3883) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3883](https://github.com/microsoft/TypeScript-go/issues/3883) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo panics when inferring \[\.\.\.rest, \.\.\.T\] from a tuple shorter than fixed\-arity constraint**
 
@@ -63,7 +63,7 @@
  * **mariusschulz** added label `Crash`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3886](https://github.com/microsoft/TypeScript-go/issues/3886) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3886](https://github.com/microsoft/TypeScript-go/issues/3886) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo printer panics when emitting declarations for CommonJS files with numeric export names**
 
@@ -114,7 +114,7 @@
  * **mariusschulz** added label `Crash`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3891](https://github.com/microsoft/TypeScript-go/issues/3891) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3891](https://github.com/microsoft/TypeScript-go/issues/3891) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo panics when an anonymous class declaration has a member decorator when downleveling to ES2022**
 
@@ -162,7 +162,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3896#issuecomment-4467305977) **jakebailey** said "I'm not sure this is really a bug, but rather an improvement in node reuse"
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3898](https://github.com/microsoft/TypeScript-go/issues/3898) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3898](https://github.com/microsoft/TypeScript-go/issues/3898) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo creates a distinct enum literal type for each NaN\-valued enum member**
 
@@ -241,7 +241,7 @@
  * **mariusschulz** added label `Crash`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3906](https://github.com/microsoft/TypeScript-go/issues/3906) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3906](https://github.com/microsoft/TypeScript-go/issues/3906) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo emits incorrect string value when encountering a backslash before a non\-special character**
 
@@ -281,12 +281,12 @@
 
 **Fix incorrect renaming of \`arguments\` in non\-reference positions in async downlevel**
 
-*The async transformer for ES2015 downleveling improperly renames destructured and JSX attribute 'arguments' identifiers due to missing guard checks.*
+*Async downlevel incorrectly renames `arguments` in non-reference contexts, now fixed by using the AST IsIdentifierName utility and label checks.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3911](https://github.com/microsoft/TypeScript-go/pull/3911) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3911](https://github.com/microsoft/TypeScript-go/pull/3911) (Closed, **jakebailey**, **Copilot**)
 
 **Fix scanEscapeSequence for multi\-byte UTF\-8 characters after backslash**
 
@@ -299,7 +299,7 @@
 
 **Fix type soundness for lone\-surrogate string literals**
 
-*Use CESU-8 encoding and decoding to preserve distinct lone-surrogate string literals and enforce correct type mismatches.*
+*Ensure lone-surrogate string literals are encoded and compared distinctly to maintain type soundness and correctness.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -340,7 +340,7 @@
  * created by **a-tarasyuk**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3917](https://github.com/microsoft/TypeScript-go/pull/3917) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3917](https://github.com/microsoft/TypeScript-go/pull/3917) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic when inferring \[\.\.\.rest, \.\.\.T\] from tuple shorter than fixed\-arity constraint**
 
@@ -361,7 +361,7 @@
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
  * (later) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#3919](https://github.com/microsoft/TypeScript-go/pull/3919) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3919](https://github.com/microsoft/TypeScript-go/pull/3919) (Closed, **jakebailey**, **Copilot**)
 
 **Handle numeric literal export names in declaration emit**
 
@@ -426,7 +426,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3926](https://github.com/microsoft/TypeScript-go/pull/3926) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3926](https://github.com/microsoft/TypeScript-go/pull/3926) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic on anonymous class declaration with decorator targeting ES2022**
 
@@ -477,12 +477,12 @@
 
 **Fix \-NaN emission for enum members in declaration output**
 
-*Enum declaration output now includes NaN and Infinity checks to avoid emitting -NaN or invalid infinite literals.*
+*Fix -NaN emission for enum members in declaration output by adding explicit NaN and Infinity checks*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3932](https://github.com/microsoft/TypeScript-go/pull/3932) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3932](https://github.com/microsoft/TypeScript-go/pull/3932) (Closed, **jakebailey**, **Copilot**)
 
 **Fix NaN\-valued enum members creating distinct literal types**
 
