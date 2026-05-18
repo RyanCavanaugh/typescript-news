@@ -269,7 +269,7 @@
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **gabritto**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Open)
+### [Issue microsoft/TypeScript-go#3815](https://github.com/microsoft/TypeScript-go/issues/3815) (Open, `wontfix`)
 
 **\`skipLibCheck\` does not suppress TS2320 when module augmentation in \`\.ts\` triggers interface merging conflict from \`\.d\.ts\`**
 

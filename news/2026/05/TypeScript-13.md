@@ -35,7 +35,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63473#issuecomment-4432297625) **RyanCavanaugh** provided automated analysis suggesting the behavior is a genuine completion bug, referenced a similar issue, and explained why default completions are inappropriate in expression-bodied arrow functions
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63474](https://github.com/microsoft/TypeScript/issues/63474) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63474](https://github.com/microsoft/TypeScript/issues/63474) (Closed, `Design Limitation`)
 
 **Simple inversion of \`&&\` causes types to stop being valid, even though the js execution is the same**
 
@@ -69,7 +69,7 @@
  * (later) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4448613123) **typescript-bot** thanked the author for the PR, cautioned to preserve TSServer API compatibility, and pinged reviewers for extra review
 
-### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Closed, `Duplicate`)
 
 **\`===\` is not strong enough to narrow equal values to the same type**
 
@@ -79,7 +79,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4449294554) **Hamzaa6296** reproduced the issue, proposed updating the type narrowing logic for === between unknown and a generic type T, and asked if the team would accept a PR
  * [later](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4451293547) **jcalz** marked the issue as a duplicate of #36772
 
-### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Closed, `Duplicate`)
 
 **\`NoInfer\` on second generic parameter doesn't pick up inference from sibling methods**
 

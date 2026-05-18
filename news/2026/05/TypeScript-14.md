@@ -1,6 +1,6 @@
 # Report for 2026-05-14 (Thursday, May 14th, 2026)
 
-9 different users commented on 29 different issues.
+9 different users commented on 30 different issues.
 
 ## Recommended Actions
 
@@ -102,7 +102,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63475#issuecomment-4454413159) **RyanCavanaugh** said "This doesn't meet the 6.0 patch bar. See https://github.com/microsoft/TypeScript/issues/62963#issuecomment-4100336368"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63476](https://github.com/microsoft/TypeScript/issues/63476) (Closed, `Duplicate`)
 
 **\`===\` is not strong enough to narrow equal values to the same type**
 
@@ -115,7 +115,7 @@
  * **RyanCavanaugh** added label `Duplicate`
  * [later](https://github.com/microsoft/TypeScript/issues/63476#issuecomment-4458703337) **khalil-mhiri-cyber** said "I can work on this issue if you need"
 
-### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63477](https://github.com/microsoft/TypeScript/issues/63477) (Closed, `Duplicate`)
 
 **\`NoInfer\` on second generic parameter doesn't pick up inference from sibling methods**
 

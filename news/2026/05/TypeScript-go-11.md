@@ -335,7 +335,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3805#issuecomment-4430105271) **ahejlsberg** expressed concern about circularity in error reporting and suggested having TypeToString return '?' on recursive invocation to avoid stack overflows
 
-### [Issue microsoft/TypeScript-go#3806](https://github.com/microsoft/TypeScript-go/issues/3806) (Open)
+### [Issue microsoft/TypeScript-go#3806](https://github.com/microsoft/TypeScript-go/issues/3806) (Open, `Needs More Info`)
 
 **Intermittent \`TS2307\` on directory imports — \`tsc\` passes, \`tsgo\` intermittently fails on the same tree**
 
