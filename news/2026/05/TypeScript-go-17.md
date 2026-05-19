@@ -418,7 +418,7 @@
  * created by **dragomirtitian**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Open, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Property names are quoted one level deep in inferred type**
 
@@ -460,7 +460,7 @@
  * created by **a-tarasyuk**
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3961](https://github.com/microsoft/TypeScript-go/issues/3961) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3961](https://github.com/microsoft/TypeScript-go/issues/3961) (Closed, **jakebailey**, **Copilot**)
 
 **Parentheses always added around \`typeof\` type expression**
 
@@ -489,7 +489,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3964](https://github.com/microsoft/TypeScript-go/pull/3964) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3964](https://github.com/microsoft/TypeScript-go/pull/3964) (Closed, **jakebailey**, **Copilot**)
 
 **Preserve parsed \`typeof X\` in postfix type contexts**
 
@@ -554,7 +554,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3970#issuecomment-4479325033) **jakebailey** explained that they opted not to bring forward the complex behavior and are emitting namespaces to merge without extra work
  * (later) **dragomirtitian** closed the issue
 
-### [Issue microsoft/TypeScript-go#3971](https://github.com/microsoft/TypeScript-go/issues/3971) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3971](https://github.com/microsoft/TypeScript-go/issues/3971) (Closed, **jakebailey**, **Copilot**)
 
 **Assertion in JSX spread causes missing newline in JS output**
 
