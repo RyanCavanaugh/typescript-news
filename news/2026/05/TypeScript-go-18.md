@@ -1,6 +1,6 @@
 # Report for 2026-05-18 (Monday, May 18th, 2026)
 
-12 different users commented on 56 different issues.
+14 different users commented on 62 different issues.
 
 ## Recommended Actions
 
@@ -22,6 +22,16 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3159#issuecomment-4479867256) **jakebailey** said "@copilot+gpt-5.5 merge main and fix the issues"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3159#issuecomment-4480080104) **Copilot** merged origin/main, fixed format settings API issues, verified build, test, and lint passed, reported format failure due to plugins.dprint.dev DNS block, and suggested updating Actions setup or allowlist
 
+### [PR microsoft/TypeScript-go#3212](https://github.com/microsoft/TypeScript-go/pull/3212) (Open)
+
+**Fix error spans for \`@satisfies\`**
+
+*Fix error span calculation for @satisfies to ensure accurate error highlighting.*
+
+ * (1 month ago) **RyanCavanaugh** set milestones to `TypeScript 7.0 RC`, `TypeScript 7.0 RC`
+ * [today](https://github.com/microsoft/TypeScript-go/pull/3212#issuecomment-4478733292) **jakebailey** said "This is failing all the tests"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3212#issuecomment-4489235370) **Andarist** apologized that syncing with main introduced test failures
+
 ### [PR microsoft/TypeScript-go#3495](https://github.com/microsoft/TypeScript-go/pull/3495) (Open)
 
 **Use JS\-compatible Unicode casing for intrinsic string mappings**
@@ -33,6 +43,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4478753309) **jakebailey** said "See also https://github.com/microsoft/typescript-go/pull/3930 which uses x/text for this, though I'm wary of that too..."
  * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4486782037) **Andarist** mentioned having used AI assistance to draft an uncommitted audit script for js casing and shared its code
  * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4488896476) **jakebailey** said "What were the results of the analysis? What is the difference?"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4489383166) **Andarist** reported no divergences between the implementation and v8 except for toLowerCase final-sigma contexts in rΣ strings, providing example outputs
 
 ### [Issue microsoft/TypeScript-go#3612](https://github.com/microsoft/TypeScript-go/issues/3612) (Closed, `Needs More Info`)
 
@@ -174,6 +185,16 @@
  * (2 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **DanielRosenwasser** closed the issue
 
+### [Issue microsoft/TypeScript-go#3896](https://github.com/microsoft/TypeScript-go/issues/3896) (Closed, **jakebailey**, **Copilot**)
+
+**tsgo emits \-NaN for enum members with NaN value in declaration output**
+
+*tsgo outputs -NaN instead of normalizing NaN values when emitting enum member declarations initialized with -NaN.*
+
+ * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3896#issuecomment-4467305977) **jakebailey** said "I'm not sure this is really a bug, but rather an improvement in node reuse"
+ * (2 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
+ * (later) **jakebailey** closed the issue
+
 ### [PR microsoft/TypeScript-go#3897](https://github.com/microsoft/TypeScript-go/pull/3897) (Closed, **jakebailey**, **Copilot**)
 
 **Fix JSX entity decoder skipping entities after non\-entity ampersand**
@@ -260,7 +281,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3926#issuecomment-4468420316) **Copilot** applied both requested changes: short-circuited ChildIsDecorated behind name == nil and replaced hardcoded false with tx.compilerOptions.ExperimentalDecorators.IsTrue()
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3931](https://github.com/microsoft/TypeScript-go/pull/3931) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3931](https://github.com/microsoft/TypeScript-go/pull/3931) (Closed, **jakebailey**, **Copilot**)
 
 **Fix \-NaN emission for enum members in declaration output**
 
@@ -270,6 +291,7 @@
  * (2 days ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3931#issuecomment-4482202170) **jakebailey** said "@copilot+gpt-5.5 merge main and update baselines"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3931#issuecomment-4482377077) **Copilot** merged latest main and updated affected enum NaN baseline, then reported that build, test, lint, format, and validation checks passed
+ * (later) **jakebailey** closed the issue
 
 ### [PR microsoft/TypeScript-go#3932](https://github.com/microsoft/TypeScript-go/pull/3932) (Closed, **jakebailey**, **Copilot**)
 
@@ -363,7 +385,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3972#issuecomment-4482971407) **jakebailey** said "If it changed, it would be in the PR; accepting a baseline does not delete it."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3973](https://github.com/microsoft/TypeScript-go/issues/3973) (Open, `Type Ordering`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3973](https://github.com/microsoft/TypeScript-go/issues/3973) (Closed, `Type Ordering`, **ahejlsberg**)
 
 **Variance check skipped on union of intersections when one branch's recursive cycle goes through a covariant \`TValue\`**
 
@@ -373,7 +395,7 @@
  * (today) **RyanCavanaugh** added label `Type Ordering`, and assigned to **ahejlsberg**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3973#issuecomment-4484334937) **RyanCavanaugh** described an analogous variance-cycle issue in tsgo and explained how renaming affected error reporting
 
-### [PR microsoft/TypeScript-go#3974](https://github.com/microsoft/TypeScript-go/pull/3974) (Open)
+### [PR microsoft/TypeScript-go#3974](https://github.com/microsoft/TypeScript-go/pull/3974) (Closed)
 
 **fix\(checker\): check type expressions on unmatched JSDoc @param tags**
 
@@ -390,7 +412,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`
 
-### [Issue microsoft/TypeScript-go#3976](https://github.com/microsoft/TypeScript-go/issues/3976) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3976](https://github.com/microsoft/TypeScript-go/issues/3976) (Closed, `bug`, **ahejlsberg**)
 
 **tsgo does not correctly infer array type assignment on callable type with fields since 20260503\.1**
 
@@ -400,13 +422,14 @@
  * **jakebailey** assigned to **ahejlsberg**
  * [today](https://github.com/microsoft/TypeScript-go/issues/3976#issuecomment-4482730647) **Zelys-DFKH** pointed out the root cause was a circular type resolution path that settled [] as never[] before the annotation check and announced a tested fix with a forthcoming PR
 
-### [PR microsoft/TypeScript-go#3977](https://github.com/microsoft/TypeScript-go/pull/3977) (Open)
+### [PR microsoft/TypeScript-go#3977](https://github.com/microsoft/TypeScript-go/pull/3977) (Closed)
 
 **Emit publish\-order\.json with per\-package npm dist\-tag**
 
 *Emit publish-order.json with per-package npm dist-tag entries to enable custom publisher tagging.*
 
  * created by **jakebailey**
+ * (later) **jakebailey** closed the issue
 
 ### [PR microsoft/TypeScript-go#3978](https://github.com/microsoft/TypeScript-go/pull/3978) (Open, `dependencies`, `github_actions`)
 
@@ -417,13 +440,14 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [PR microsoft/TypeScript-go#3979](https://github.com/microsoft/TypeScript-go/pull/3979) (Open)
+### [PR microsoft/TypeScript-go#3979](https://github.com/microsoft/TypeScript-go/pull/3979) (Closed)
 
 **fix\(checker\): suppress false TS7008 for empty array assigned to annotated expando property**
 
 *Suppress the TS7008 "implicitly has any[]" error for empty array assignments to explicitly annotated expando properties on callable types.*
 
  * created by **Zelys-DFKH**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3979#issuecomment-4489361131) **ahejlsberg** said "@Zelys-DFKH Appreciate the effort, but I have a simpler fix in #3986."
 
 ### [PR microsoft/TypeScript-go#3980](https://github.com/microsoft/TypeScript-go/pull/3980) (Open)
 
@@ -444,7 +468,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, and assigned to **gabritto**
 
-### [PR microsoft/TypeScript-go#3982](https://github.com/microsoft/TypeScript-go/pull/3982) (Open)
+### [PR microsoft/TypeScript-go#3982](https://github.com/microsoft/TypeScript-go/pull/3982) (Closed)
 
 **Fix repeated path component in exports completions after directory separator**
 
@@ -461,11 +485,27 @@
  * created by **MgmClientGuy**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3983#issuecomment-4488712247) **danyalahmed1995** reproduced the stripInternal issue and observed that TS 6.0.3 omits the merged namespace while TS 7 native preview still emits it, indicating a declaration emit parity gap
 
-### [Issue microsoft/TypeScript-go#3984](https://github.com/microsoft/TypeScript-go/issues/3984) (Open)
+### [Issue microsoft/TypeScript-go#3984](https://github.com/microsoft/TypeScript-go/issues/3984) (Open, `documentation`)
 
 **Bloomberg feedback for 7\.0 beta**
 
 *Bloomberg feedback highlights tsgo vs tsc declaration emit and type-checking discrepancies in the 7.0 beta, most fixed or minor.*
 
  * created by **dragomirtitian**
+
+### [Issue microsoft/TypeScript-go#3985](https://github.com/microsoft/TypeScript-go/issues/3985) (Closed, `wontfix`)
+
+**\`@typedef\` in jsdoc must have an identifier in tsgo; not in ts6\.0**
+
+*tsgo reports an 'Identifier expected' error for JSDoc @typedef without an identifier unlike TypeScript 6.0.*
+
+ * created by **Withered-Flower-0422**
+
+### [PR microsoft/TypeScript-go#3986](https://github.com/microsoft/TypeScript-go/pull/3986) (Closed)
+
+**No widening to \`any\[\]\` when parent of expando has type annotation**
+
+*Empty array literals assigned to expando properties on type-annotated objects no longer widen to any[], matching Strada behavior.*
+
+ * created by **ahejlsberg**
 

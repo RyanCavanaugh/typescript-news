@@ -1,6 +1,6 @@
 # Report for 2026-05-17 (Sunday, May 17th, 2026)
 
-12 different users commented on 61 different issues.
+12 different users commented on 63 different issues.
 
 ## Recommended Actions
 
@@ -283,7 +283,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3941#issuecomment-4474794206) **DanielRosenwasser** said "The test seems insufficient if this is about race conditions. @copilot is there a better test here? Possibly a server test or a programmatic test of our APIs?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3941#issuecomment-4474873463) **Copilot** replaced the compiler test with a programmatic race condition test and detailed deterministic reproduction steps
 
-### [Issue microsoft/TypeScript-go#3942](https://github.com/microsoft/TypeScript-go/issues/3942) (Open, `Domain: Editor`, `Crash`)
+### [Issue microsoft/TypeScript-go#3942](https://github.com/microsoft/TypeScript-go/issues/3942) (Open, `Domain: Editor`, `Crash`, **RyanCavanaugh**, **Copilot**)
 
 **Fatal server crash at \`markProjectsAffectedByConfigChanges\`**
 
@@ -309,7 +309,7 @@
  * created by **DanielRosenwasser**
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3945](https://github.com/microsoft/TypeScript-go/issues/3945) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3945](https://github.com/microsoft/TypeScript-go/issues/3945) (Closed, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **importModuleSpecifier: "project\-relative" is ignored by TS Native extension \(forces tsconfig paths instead of relative imports\)**
 
@@ -319,7 +319,7 @@
  * **jerePixelgenau** added label `Domain: Editor`
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3946](https://github.com/microsoft/TypeScript-go/issues/3946) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3946](https://github.com/microsoft/TypeScript-go/issues/3946) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Auto\-import lowercases internal capitals in PascalCase default\-import bindings**
 
@@ -373,7 +373,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3952](https://github.com/microsoft/TypeScript-go/pull/3952) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3952](https://github.com/microsoft/TypeScript-go/pull/3952) (Closed, **jakebailey**, **Copilot**)
 
 **Fix auto\-import lowercasing PascalCase default\-import bindings on case\-insensitive file systems**
 
@@ -382,7 +382,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3953](https://github.com/microsoft/TypeScript-go/pull/3953) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3953](https://github.com/microsoft/TypeScript-go/pull/3953) (Closed, **jakebailey**, **Copilot**)
 
 **Fix \`importModuleSpecifier: "project\-relative"\` ignored when tsconfig \`paths\` are configured**
 
@@ -400,7 +400,7 @@
  * created by **dragomirtitian**
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3955](https://github.com/microsoft/TypeScript-go/issues/3955) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3955](https://github.com/microsoft/TypeScript-go/issues/3955) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **JSDoc comment of elided import is preserved**
 
@@ -409,7 +409,7 @@
  * created by **dragomirtitian**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3956](https://github.com/microsoft/TypeScript-go/issues/3956) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3956](https://github.com/microsoft/TypeScript-go/issues/3956) (Closed, **jakebailey**, **Copilot**)
 
 **Empty JSDoc comment is removed**
 
@@ -471,7 +471,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3961#issuecomment-4479155423) **dragomirtitian** noted that adding parentheses to user code for declaration files seemed strange and asked if it could be avoided
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3962](https://github.com/microsoft/TypeScript-go/pull/3962) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3962](https://github.com/microsoft/TypeScript-go/pull/3962) (Closed, **jakebailey**, **Copilot**)
 
 **Fix empty JSDoc comment \(\`/\*\*\*/\`\) being removed during declaration emit**
 
@@ -480,7 +480,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3963](https://github.com/microsoft/TypeScript-go/pull/3963) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3963](https://github.com/microsoft/TypeScript-go/pull/3963) (Closed, **jakebailey**, **Copilot**)
 
 **Fix JSDoc comment of elided import being preserved in declaration emit**
 
@@ -502,7 +502,7 @@
 
 **Normalize reused string\-literal property names to identifiers in declaration emit**
 
-*Declaration emit now normalizes reused string-literal property names into identifiers when the text is a valid identifier.*
+*Convert reused string-literal property names with valid identifier text into identifiers in declaration emit, excluding 'new' to preserve method signatures.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -525,7 +525,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3968](https://github.com/microsoft/TypeScript-go/issues/3968) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3968](https://github.com/microsoft/TypeScript-go/issues/3968) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Type parameters in object literal methods get extra unnecessary suffix in declaration files**
 
@@ -535,7 +535,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3968#issuecomment-4479289078) **jakebailey** said "Probably related to #3761 and co"
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3969](https://github.com/microsoft/TypeScript-go/pull/3969) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3969](https://github.com/microsoft/TypeScript-go/pull/3969) (Closed, **jakebailey**, **Copilot**)
 
 **Fix spurious \`\_N\` suffix on type parameters of sibling object\-literal methods in declaration emit**
 

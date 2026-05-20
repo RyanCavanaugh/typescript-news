@@ -142,7 +142,7 @@
  * created by **mariusschulz**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3895](https://github.com/microsoft/TypeScript-go/issues/3895) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3895](https://github.com/microsoft/TypeScript-go/issues/3895) (Closed, `duplicate`, **jakebailey**, **Copilot**)
 
 **tsgo's Uppercase/Lowercase intrinsic types don't apply Unicode special case mappings**
 
@@ -152,7 +152,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3895#issuecomment-4467314515) **jakebailey** said "This is effectively https://github.com/microsoft/typescript-go/issues/3489"
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3896](https://github.com/microsoft/TypeScript-go/issues/3896) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3896](https://github.com/microsoft/TypeScript-go/issues/3896) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo emits \-NaN for enum members with NaN value in declaration output**
 
@@ -250,7 +250,7 @@
  * created by **mariusschulz**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3907](https://github.com/microsoft/TypeScript-go/issues/3907) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3907](https://github.com/microsoft/TypeScript-go/issues/3907) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo declaration emit drops readonly from method shorthands and outer properties in \`as const\` object literal**
 
@@ -473,7 +473,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3931](https://github.com/microsoft/TypeScript-go/pull/3931) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3931](https://github.com/microsoft/TypeScript-go/pull/3931) (Closed, **jakebailey**, **Copilot**)
 
 **Fix \-NaN emission for enum members in declaration output**
 
@@ -491,11 +491,11 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3933](https://github.com/microsoft/TypeScript-go/pull/3933) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3933](https://github.com/microsoft/TypeScript-go/pull/3933) (Closed, **jakebailey**, **Copilot**)
 
 **Fix declaration emit dropping readonly from \`as const\` object literal properties**
 
-*Declaration emit omits readonly on as const object literal methods and properties due to method-level const context detection bug*
+*Ensure TypeScript declaration emit correctly preserves readonly modifiers on object literal properties specified with as const.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -536,7 +536,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3938](https://github.com/microsoft/TypeScript-go/issues/3938) (Open)
+### [Issue microsoft/TypeScript-go#3938](https://github.com/microsoft/TypeScript-go/issues/3938) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Result of getTypeOfLocation for \`PropertyAccessExpression\` and \`ElementAccessExpression\` may be different between 6 and 7**
 

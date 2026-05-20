@@ -213,7 +213,7 @@
  * created by **a-tarasyuk**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3831](https://github.com/microsoft/TypeScript-go/pull/3831) (Open)
+### [PR microsoft/TypeScript-go#3831](https://github.com/microsoft/TypeScript-go/pull/3831) (Closed)
 
 **fix\(3829\): handle extends tag not attached to a class**
 
@@ -330,7 +330,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Open)
+### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Missing support for namespaces in JSDoc types**
 

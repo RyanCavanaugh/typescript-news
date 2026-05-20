@@ -1,6 +1,6 @@
 # Report for 2026-05-18 (Monday, May 18th, 2026)
 
-11 different users commented on 16 different issues.
+12 different users commented on 24 different issues.
 
 ## Recommended Actions
 
@@ -44,6 +44,17 @@
  * (2 weeks ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
  * [today](https://github.com/microsoft/TypeScript/issues/63456#issuecomment-4482691858) **JohanRonnblom** questioned how splitting with undefined could be harmful and argued that MDN specifies split(undefined) returns the original string in an array, so found the type error surprising
 
+### [PR microsoft/TypeScript#63482](https://github.com/microsoft/TypeScript/pull/63482) (Closed, `For Backlog Bug`)
+
+**Fix Set size doc comment grammar**
+
+*Correct the Set#size doc comment by changing “in Set” to “in the Set.”*
+
+ * created by **popsiclelmlm**
+ * **typescript-bot** added label `For Backlog Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63482#issuecomment-4489595751) **RyanCavanaugh** said "CI failed due to incorrect formatting."
+ * (later) **RyanCavanaugh** closed the issue
+
 ### [PR microsoft/TypeScript#63483](https://github.com/microsoft/TypeScript/pull/63483) (Open, `For Backlog Bug`)
 
 **docs: add JSDoc comments to ReadonlySet interface**
@@ -64,7 +75,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63490#issuecomment-4480192501) **MartinJohns** said "Duplicate of #44253."
  * **RyanCavanaugh** added label `Duplicate`
 
-### [PR microsoft/TypeScript#63491](https://github.com/microsoft/TypeScript/pull/63491) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63491](https://github.com/microsoft/TypeScript/pull/63491) (Closed, `For Uncommitted Bug`)
 
 **63480**
 
@@ -76,7 +87,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63491#issuecomment-4483689362) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63491#issuecomment-4487784135) **MartinJohns** said "Duplicate of #63482."
 
-### [PR microsoft/TypeScript#63492](https://github.com/microsoft/TypeScript/pull/63492) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63492](https://github.com/microsoft/TypeScript/pull/63492) (Closed, `For Uncommitted Bug`)
 
 **Fix typo in README: behavorial \-\> behavioral**
 
@@ -88,7 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63492#issuecomment-4484937258) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63492#issuecomment-4487776201) **MartinJohns** quoted the pull request template warning against sending typo-fix-only PRs
 
-### [Issue microsoft/TypeScript#63493](https://github.com/microsoft/TypeScript/issues/63493) (Open)
+### [Issue microsoft/TypeScript#63493](https://github.com/microsoft/TypeScript/issues/63493) (Open, `Suggestion`, `Awaiting More Feedback`, `Domain: LS: Auto-import`)
 
 **Configuration to auto\-import with inline type specifiers**
 
@@ -98,12 +109,17 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63493#issuecomment-4487563985) **angrybacon** said "Possibly related https://github.com/microsoft/TypeScript/issues/54664"
  * [later](https://github.com/microsoft/TypeScript/issues/63493#issuecomment-4488450779) **danyalahmed1995** noted that the request was reasonable but did not meet the bar for a TS 7 change and recommended maintainer guidance before implementation
  * [later](https://github.com/microsoft/TypeScript/issues/63493#issuecomment-4488958755) **MartinJohns** clarified that the TS7 bar applies to pull requests not issues, noting the codebase switch to Go to minimize porting changes
+ * [later](https://github.com/microsoft/TypeScript/issues/63493#issuecomment-4489346033) **RyanCavanaugh** provided an automatically generated comment listing similar issues for reference
+ * (later) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
+ * [later](https://github.com/microsoft/TypeScript/issues/63493#issuecomment-4489509337) **RyanCavanaugh** asked what the goal of the lint rule preferring type-only imports was
+ * **RyanCavanaugh** added label `Domain: LS: Auto-import`
 
-### [Issue microsoft/TypeScript#63494](https://github.com/microsoft/TypeScript/issues/63494) (Open)
+### [Issue microsoft/TypeScript#63494](https://github.com/microsoft/TypeScript/issues/63494) (Closed)
 
 **Typo in README: 'behavorial' should be 'behavioral'**
 
 *The README incorrectly spells 'behavioral' as 'behavorial'.*
 
  * created by **Lefgk**
+ * [later](https://github.com/microsoft/TypeScript/issues/63494#issuecomment-4489346219) **RyanCavanaugh** said "🤖 This is an automated response. I looked for things that might help (duplicates, FAQ entries, etc) but didn't find anything. A human will take a look!"
 

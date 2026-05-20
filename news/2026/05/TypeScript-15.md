@@ -77,7 +77,7 @@
  * **RyanCavanaugh** added label `Won't Fix`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63480](https://github.com/microsoft/TypeScript/issues/63480) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
+### [Issue microsoft/TypeScript#63480](https://github.com/microsoft/TypeScript/issues/63480) (Closed, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **\`Set\#size\` has grammar typo in \`lib\.es2015\.collection\.d\.ts\`**
 
@@ -86,7 +86,7 @@
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
  * **RyanCavanaugh** added label `Domain: lib.d.ts`
 
-### [PR microsoft/TypeScript#63482](https://github.com/microsoft/TypeScript/pull/63482) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63482](https://github.com/microsoft/TypeScript/pull/63482) (Closed, `For Backlog Bug`)
 
 **Fix Set size doc comment grammar**
 

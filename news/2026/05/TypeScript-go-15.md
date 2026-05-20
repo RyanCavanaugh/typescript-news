@@ -115,7 +115,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4426707829) **andrewbranch** asked whether the reporter was using WebStorm, suggested reproducing the issue in VS Code and using TypeScript Native Preview commands to gather logs and CPU profiles, and recommended collecting logs and CPU profiles when reproducing in WebStorm
  * [today](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4463720030) **Jelcoo** noted that WebStorm had no built-in CPU profiling and that using lsp4ij caused issues and failed to initialize the project
 
-### [Issue microsoft/TypeScript-go#3701](https://github.com/microsoft/TypeScript-go/issues/3701) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3701](https://github.com/microsoft/TypeScript-go/issues/3701) (Closed, **jakebailey**, **Copilot**)
 
 **When using \`module=commonjs\`, Array destructuring is transpiled with wrong \(non\-iterator\) behavior**
 
@@ -627,7 +627,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/3894#issuecomment-4467303139) **jakebailey** said "Could be my code was wrong in https://github.com/microsoft/typescript-go/pull/2510"
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3895](https://github.com/microsoft/TypeScript-go/issues/3895) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3895](https://github.com/microsoft/TypeScript-go/issues/3895) (Closed, `duplicate`, **jakebailey**, **Copilot**)
 
 **tsgo's Uppercase/Lowercase intrinsic types don't apply Unicode special case mappings**
 
@@ -636,7 +636,7 @@
  * created by **mariusschulz**
  * [later](https://github.com/microsoft/TypeScript-go/issues/3895#issuecomment-4467314515) **jakebailey** said "This is effectively https://github.com/microsoft/typescript-go/issues/3489"
 
-### [Issue microsoft/TypeScript-go#3896](https://github.com/microsoft/TypeScript-go/issues/3896) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3896](https://github.com/microsoft/TypeScript-go/issues/3896) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo emits \-NaN for enum members with NaN value in declaration output**
 

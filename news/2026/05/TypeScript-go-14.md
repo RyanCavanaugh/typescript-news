@@ -110,7 +110,7 @@
  * (1 week ago) **DanielRosenwasser** added label `Domain: Editor`, set milestone to `TypeScript 7.0 RC`, and assigned to **johnfav03**
  * (today) **johnfav03** closed the issue
 
-### [Issue microsoft/TypeScript-go#3701](https://github.com/microsoft/TypeScript-go/issues/3701) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3701](https://github.com/microsoft/TypeScript-go/issues/3701) (Closed, **jakebailey**, **Copilot**)
 
 **When using \`module=commonjs\`, Array destructuring is transpiled with wrong \(non\-iterator\) behavior**
 
@@ -120,7 +120,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3701#issuecomment-4455680011) **jakebailey** asked for an explanation of necessity and queried if it was due to dropping ES5 and downlevelIteration
 
-### [PR microsoft/TypeScript-go#3705](https://github.com/microsoft/TypeScript-go/pull/3705) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3705](https://github.com/microsoft/TypeScript-go/pull/3705) (Closed, **jakebailey**, **Copilot**)
 
 **Preserve native destructuring for CommonJS exports to keep iterator semantics**
 
@@ -301,7 +301,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3828#issuecomment-4444720376) **DanielRosenwasser** said "Is there some non-converted test that this should fix?"
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3829](https://github.com/microsoft/TypeScript-go/issues/3829) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3829](https://github.com/microsoft/TypeScript-go/issues/3829) (Closed, `wontfix`, **ahejlsberg**)
 
 **Behavior difference: tsgo fails to report TS8022 as tsc does**
 
@@ -371,7 +371,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3841#issuecomment-4454295866) **RyanCavanaugh** said "This is just better behavior; Mock is not a name in scope at that location, fake.Mock is"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Open)
+### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Missing support for namespaces in JSDoc types**
 
