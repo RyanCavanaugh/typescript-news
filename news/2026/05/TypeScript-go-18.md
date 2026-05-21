@@ -312,7 +312,7 @@
  * created by **Andarist**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3943#issuecomment-4479716867) **jakebailey** said "We have a couple of PRs touching this same code, e.g. #3917, #2928; I feel a little unclear what combo is correct in all of these"
 
-### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Open, `possible improvement`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Property names are quoted one level deep in inferred type**
 

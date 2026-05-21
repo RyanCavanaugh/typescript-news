@@ -1,6 +1,6 @@
 # Report for 2026-05-15 (Friday, May 15th, 2026)
 
-10 different users commented on 89 different issues.
+10 different users commented on 90 different issues.
 
 ## Recommended Actions
 
@@ -127,7 +127,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/3701#issuecomment-4464739228) **blickly** said "We set downlevelIteration even when targetting ES2015+ since we need iterator support.  With downlevelIteration going away, we don't want to lose support for iterators."
  * [today](https://github.com/microsoft/TypeScript-go/issues/3701#issuecomment-4464760179) **jakebailey** expressed confusion about how the option had any effect and declared issue #3705 ready to go
 
-### [Issue microsoft/TypeScript-go#3758](https://github.com/microsoft/TypeScript-go/issues/3758) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3758](https://github.com/microsoft/TypeScript-go/issues/3758) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **File argument of \`@\` crashes CLI**
 
@@ -282,7 +282,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript-go#3859](https://github.com/microsoft/TypeScript-go/pull/3859) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#3859](https://github.com/microsoft/TypeScript-go/pull/3859) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix panic when passing \`@\` response file argument to CLI**
 

@@ -418,7 +418,7 @@
  * created by **dragomirtitian**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Open, `possible improvement`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3957](https://github.com/microsoft/TypeScript-go/issues/3957) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Property names are quoted one level deep in inferred type**
 
@@ -498,7 +498,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#3965](https://github.com/microsoft/TypeScript-go/pull/3965) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3965](https://github.com/microsoft/TypeScript-go/pull/3965) (Closed, **jakebailey**, **Copilot**)
 
 **Normalize reused string\-literal property names to identifiers in declaration emit**
 

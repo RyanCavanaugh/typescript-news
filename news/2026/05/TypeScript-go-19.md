@@ -1,6 +1,6 @@
 # Report for 2026-05-19 (Tuesday, May 19th, 2026)
 
-17 different users commented on 59 different issues.
+17 different users commented on 62 different issues.
 
 ## Recommended Actions
 
@@ -544,7 +544,7 @@
  * created by **weswigham**
  * [later](https://github.com/microsoft/TypeScript-go/pull/3996#issuecomment-4496173212) **jakebailey** said "Not sure I like this, but at the very least I think the filenames shouldn't start with capital T"
 
-### [PR microsoft/TypeScript-go#3997](https://github.com/microsoft/TypeScript-go/pull/3997) (Open)
+### [PR microsoft/TypeScript-go#3997](https://github.com/microsoft/TypeScript-go/pull/3997) (Closed)
 
 **Warn against AI botting**
 
@@ -552,7 +552,7 @@
 
  * created by **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3998](https://github.com/microsoft/TypeScript-go/issues/3998) (Open)
+### [Issue microsoft/TypeScript-go#3998](https://github.com/microsoft/TypeScript-go/issues/3998) (Open, `bug`, **andrewbranch**)
 
 **Intermittent \`tsgo \-\-build\` TS2345: \`paths\` \+ \`@types/\*\` conflict \(\`tsc\` accepts\)**
 
@@ -591,7 +591,7 @@
  * **ahejlsberg** added label `wontfix`
  * (later) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4002](https://github.com/microsoft/TypeScript-go/issues/4002) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4002](https://github.com/microsoft/TypeScript-go/issues/4002) (Closed, `Domain: Editor`, `Needs More Info`)
 
 **Image JSX type**
 

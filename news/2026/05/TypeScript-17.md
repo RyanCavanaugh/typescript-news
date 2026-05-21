@@ -65,7 +65,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63486#issuecomment-4479351292) **RyanCavanaugh** said "TypeScript is a type checker for JavaScript, not a runtime stack."
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63487](https://github.com/microsoft/TypeScript/issues/63487) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63487](https://github.com/microsoft/TypeScript/issues/63487) (Closed, `Duplicate`)
 
 **Type\-narrowing on array elements persists after array mutations**
 

@@ -65,7 +65,7 @@
  * **typescript-bot** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63483#issuecomment-4485867222) **niledas** said "Hi @RyanCavanaugh, please help review this small PR. Let me know if you have any suggestions."
 
-### [Issue microsoft/TypeScript#63490](https://github.com/microsoft/TypeScript/issues/63490) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63490](https://github.com/microsoft/TypeScript/issues/63490) (Closed, `Duplicate`)
 
 **Improve control\-flow narrowing for Object\.hasOwn\(obj, key\)**
 
