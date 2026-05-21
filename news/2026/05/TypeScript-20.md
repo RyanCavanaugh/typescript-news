@@ -102,7 +102,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63497#issuecomment-4505501992) **Derugon** apologized for simplified snippet and clarified actual use case using conditional matches that triggers the 'never' type error
  * [later](https://github.com/microsoft/TypeScript/issues/63497#issuecomment-4505625574) **Derugon** suggested a proper fix for element.matches narrowing issues and provided test cases with playground links
 
-### [Issue microsoft/TypeScript#63498](https://github.com/microsoft/TypeScript/issues/63498) (Open)
+### [Issue microsoft/TypeScript#63498](https://github.com/microsoft/TypeScript/issues/63498) (Open, `Needs Investigation`)
 
 **\`js/ts\.preferences\.autoImportFileExcludePatterns\` is not reflected promptly in IntelliSense suggestions**
 

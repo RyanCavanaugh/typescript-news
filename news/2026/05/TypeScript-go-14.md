@@ -209,7 +209,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript-go/issues/3768#issuecomment-4411321552) **usernein** reported the same issue with tsconfig.json after modifying it
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, assigned to **Copilot**, **RyanCavanaugh**, **andrewbranch**, and unassigned **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#3787](https://github.com/microsoft/TypeScript-go/issues/3787) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3787](https://github.com/microsoft/TypeScript-go/issues/3787) (Closed, `Needs More Info`)
 
 **tsgo and tsc diverge on incomplete composite\-ref declaration cache: TS2305 vs filterable TS6305**
 

@@ -253,7 +253,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4005#issuecomment-4502684407) **a-tarasyuk** said "It could be useful, for instance, if VS Code tracked which quick fixes are used most often (if any 😄 )."
 
-### [PR microsoft/TypeScript-go#4006](https://github.com/microsoft/TypeScript-go/pull/4006) (Open)
+### [PR microsoft/TypeScript-go#4006](https://github.com/microsoft/TypeScript-go/pull/4006) (Closed)
 
 **Bump fast\-uri to 3\.1\.2**
 
@@ -301,7 +301,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4010#issuecomment-4502313040) **rchl** said "@typescript/native-preview@7.0.0-dev.20260512.1 works correctly."
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **gabritto**
 
-### [Issue microsoft/TypeScript-go#4011](https://github.com/microsoft/TypeScript-go/issues/4011) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4011](https://github.com/microsoft/TypeScript-go/issues/4011) (Open, `bug`, **weswigham**)
 
 **Property names from JSDoc types not escaped in declaration files**
 
@@ -342,7 +342,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4013#issuecomment-4509208640) **RyanCavanaugh** said "Already addressed in #3859"
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#4014](https://github.com/microsoft/TypeScript-go/issues/4014) (Open)
+### [Issue microsoft/TypeScript-go#4014](https://github.com/microsoft/TypeScript-go/issues/4014) (Open, `Domain: Declaration Emit`, `Domain: Build Mode`, `Needs More Info`, `Needs Investigation`)
 
 **\`DeepCloneNode\` allocation runaway \(44 GB / 308 s\) for recursive tagged\-tuple type alias**
 
@@ -405,7 +405,7 @@
 
  * created by **a-tarasyuk**
 
-### [PR microsoft/TypeScript-go#4021](https://github.com/microsoft/TypeScript-go/pull/4021) (Open)
+### [PR microsoft/TypeScript-go#4021](https://github.com/microsoft/TypeScript-go/pull/4021) (Closed)
 
 **Rewrite invalid identifiers originating in JSDoc**
 

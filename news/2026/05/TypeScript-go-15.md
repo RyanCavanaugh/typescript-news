@@ -156,7 +156,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **DanielRosenwasser** closed the issue
 
-### [Issue microsoft/TypeScript-go#3806](https://github.com/microsoft/TypeScript-go/issues/3806) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3806](https://github.com/microsoft/TypeScript-go/issues/3806) (Closed, `Needs More Info`)
 
 **Intermittent \`TS2307\` on directory imports — \`tsc\` passes, \`tsgo\` intermittently fails on the same tree**
 
