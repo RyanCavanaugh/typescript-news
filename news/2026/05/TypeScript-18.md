@@ -99,7 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63492#issuecomment-4484937258) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63492#issuecomment-4487776201) **MartinJohns** quoted the pull request template warning against sending typo-fix-only PRs
 
-### [Issue microsoft/TypeScript#63493](https://github.com/microsoft/TypeScript/issues/63493) (Open, `Suggestion`, `Awaiting More Feedback`, `Domain: LS: Auto-import`)
+### [Issue microsoft/TypeScript#63493](https://github.com/microsoft/TypeScript/issues/63493) (Closed, `Suggestion`, `Awaiting More Feedback`, `Domain: LS: Auto-import`)
 
 **Configuration to auto\-import with inline type specifiers**
 

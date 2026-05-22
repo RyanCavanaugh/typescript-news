@@ -346,7 +346,7 @@
  * created by **Andarist**
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3949](https://github.com/microsoft/TypeScript-go/pull/3949) (Open)
+### [PR microsoft/TypeScript-go#3949](https://github.com/microsoft/TypeScript-go/pull/3949) (Closed)
 
 **feat: completion snippets**
 

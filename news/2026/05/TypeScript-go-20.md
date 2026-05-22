@@ -358,7 +358,7 @@
 
  * created by **weswigham**
 
-### [Issue microsoft/TypeScript-go#4016](https://github.com/microsoft/TypeScript-go/issues/4016) (Open)
+### [Issue microsoft/TypeScript-go#4016](https://github.com/microsoft/TypeScript-go/issues/4016) (Closed)
 
 **@fileoverview breaks @jsx comments**
 
@@ -397,7 +397,7 @@
  * created by **mpal9000**
  * **mpal9000** added label `Crash`
 
-### [PR microsoft/TypeScript-go#4020](https://github.com/microsoft/TypeScript-go/pull/4020) (Open)
+### [PR microsoft/TypeScript-go#4020](https://github.com/microsoft/TypeScript-go/pull/4020) (Closed)
 
 **fix\(4016\): skip unknown pragmas**
 

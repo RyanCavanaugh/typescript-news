@@ -511,7 +511,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#3882](https://github.com/microsoft/TypeScript-go/pull/3882) (Open)
+### [PR microsoft/TypeScript-go#3882](https://github.com/microsoft/TypeScript-go/pull/3882) (Closed)
 
 **feat: unused identifier**
 
