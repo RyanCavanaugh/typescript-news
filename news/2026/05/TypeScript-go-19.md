@@ -264,7 +264,7 @@
  * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#3950](https://github.com/microsoft/TypeScript-go/issues/3950) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#3950](https://github.com/microsoft/TypeScript-go/issues/3950) (Closed, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **Hovering on type \`const\` does not display the specific type**
 

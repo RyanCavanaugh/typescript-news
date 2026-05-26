@@ -1,6 +1,6 @@
 # Report for 2026-05-20 (Wednesday, May 20th, 2026)
 
-18 different users commented on 42 different issues.
+18 different users commented on 43 different issues.
 
 ## Recommended Actions
 
@@ -290,7 +290,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#4010](https://github.com/microsoft/TypeScript-go/issues/4010) (Open, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4010](https://github.com/microsoft/TypeScript-go/issues/4010) (Open, `bug`, `Domain: Editor`, **gabritto**)
 
 **\[lsp\] Hover verbosity fails after increasing verbosity**
 
