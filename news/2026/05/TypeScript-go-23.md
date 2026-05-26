@@ -54,7 +54,7 @@
  * created by **hkleungai**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4040#issuecomment-4527951322) **jakebailey** said "This is entirely benign and a side effect of https://github.com/microsoft/typescript-go/pull/3541 (see comments there)"
 
-### [Issue microsoft/TypeScript-go#4041](https://github.com/microsoft/TypeScript-go/issues/4041) (Open)
+### [Issue microsoft/TypeScript-go#4041](https://github.com/microsoft/TypeScript-go/issues/4041) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Behavior difference: getTypeAtLocation returns method type for private method call**
 

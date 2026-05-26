@@ -1,6 +1,6 @@
 # Report for 2026-05-25 (Monday, May 25th, 2026)
 
-7 different users commented on 7 different issues.
+7 different users commented on 21 different issues.
 
 ## Recommended Actions
 
@@ -64,7 +64,7 @@
  * created by **youngspe**
  * [later](https://github.com/microsoft/TypeScript/issues/63503#issuecomment-4543926827) **nmain** said "Interestingly, the canonical name of the parameter in the ECMAScript spec is maxLength.  Fortunately parameter names don't have any intrinsic meaning, so Typescript can diverge if it wants to."
 
-### [PR microsoft/TypeScript#63505](https://github.com/microsoft/TypeScript/pull/63505) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63505](https://github.com/microsoft/TypeScript/pull/63505) (Closed, `For Backlog Bug`)
 
 **Fix narrowing of destructured discriminated union parameters with defaults**
 
@@ -74,7 +74,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63505#issuecomment-4535358692) **wolfe8105** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript/pull/63505#issuecomment-4536419332) **MartinJohns** said "@wolfe8105 You should read this: https://github.com/microsoft/TypeScript/issues/62963"
 
-### [Issue microsoft/TypeScript#63507](https://github.com/microsoft/TypeScript/issues/63507) (Open)
+### [Issue microsoft/TypeScript#63507](https://github.com/microsoft/TypeScript/issues/63507) (Open, `Needs More Info`)
 
 **Font bug**
 
@@ -83,4 +83,5 @@
  * created by **Liam1-dev**
  * [later](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4543905948) **MartinJohns** said "I can't see any issue with TypeScript here, and the description does not make it any clearer. Can you reduce your example to a minimum and describe the issue in more detail?"
  * [later](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4544050956) **snarbles2** asked whether the option was in the “Customize” settings at the bottom of the playground and noted it worked for them
+ * **RyanCavanaugh** added label `Needs More Info`
 

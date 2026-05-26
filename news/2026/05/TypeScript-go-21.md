@@ -93,7 +93,7 @@
  * created by **a-tarasyuk**
  * (today) **a-tarasyuk** closed the issue
 
-### [Issue microsoft/TypeScript-go#4005](https://github.com/microsoft/TypeScript-go/issues/4005) (Open, `Domain: Editor`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4005](https://github.com/microsoft/TypeScript-go/issues/4005) (Closed, `Domain: Editor`, `Needs More Info`)
 
 **Native Preview returns no code actions for any TS diagnostic**
 

@@ -81,7 +81,7 @@
  * **typescript-bot** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/63504#issuecomment-4531146841) **youngspe** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#63505](https://github.com/microsoft/TypeScript/pull/63505) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63505](https://github.com/microsoft/TypeScript/pull/63505) (Closed, `For Backlog Bug`)
 
 **Fix narrowing of destructured discriminated union parameters with defaults**
 

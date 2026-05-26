@@ -241,7 +241,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4004#issuecomment-4502260136) **RyanCavanaugh** said "Same root cause as #3899"
  * **RyanCavanaugh** added label `duplicate`
 
-### [Issue microsoft/TypeScript-go#4005](https://github.com/microsoft/TypeScript-go/issues/4005) (Open, `Domain: Editor`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4005](https://github.com/microsoft/TypeScript-go/issues/4005) (Closed, `Domain: Editor`, `Needs More Info`)
 
 **Native Preview returns no code actions for any TS diagnostic**
 
@@ -290,7 +290,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript-go#4010](https://github.com/microsoft/TypeScript-go/issues/4010) (Open, `bug`, `Domain: Editor`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4010](https://github.com/microsoft/TypeScript-go/issues/4010) (Closed, `bug`, `Domain: Editor`, **gabritto**)
 
 **\[lsp\] Hover verbosity fails after increasing verbosity**
 
