@@ -37,7 +37,7 @@
 
  * created by **avivkeller**
 
-### [Issue microsoft/TypeScript-go#4039](https://github.com/microsoft/TypeScript-go/issues/4039) (Open)
+### [Issue microsoft/TypeScript-go#4039](https://github.com/microsoft/TypeScript-go/issues/4039) (Open, `Domain: Declaration Emit`, `Domain: Comment Emit`)
 
 **Behavior difference: Inline comment on arrow function parameters is emitted on tsc but not on tsgo**
 
@@ -45,7 +45,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4040](https://github.com/microsoft/TypeScript-go/issues/4040) (Open)
+### [Issue microsoft/TypeScript-go#4040](https://github.com/microsoft/TypeScript-go/issues/4040) (Closed, `Working As Intended`)
 
 **Behavior difference: Implicitly declared class member appear after constructor in tsc emit, but show up before constructor in tsgo**
 

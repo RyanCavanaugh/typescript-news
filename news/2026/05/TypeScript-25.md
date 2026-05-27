@@ -55,7 +55,7 @@
  * (11 weeks ago) **RyanCavanaugh** added label `Docs`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63212#issuecomment-4536146400) **YukiCodepth** said "Hi, I would like to work on this issue and update the release notes documentation."
 
-### [Issue microsoft/TypeScript#63503](https://github.com/microsoft/TypeScript/issues/63503) (Open)
+### [Issue microsoft/TypeScript#63503](https://github.com/microsoft/TypeScript/issues/63503) (Closed)
 
 **Name of \`String\.padStart\`'s \`maxLength\` parameter is misleading**
 

@@ -63,7 +63,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * (today) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63503](https://github.com/microsoft/TypeScript/issues/63503) (Open)
+### [Issue microsoft/TypeScript#63503](https://github.com/microsoft/TypeScript/issues/63503) (Closed)
 
 **Name of \`String\.padStart\`'s \`maxLength\` parameter is misleading**
 
@@ -71,7 +71,7 @@
 
  * created by **youngspe**
 
-### [PR microsoft/TypeScript#63504](https://github.com/microsoft/TypeScript/pull/63504) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63504](https://github.com/microsoft/TypeScript/pull/63504) (Closed, `For Uncommitted Bug`)
 
 **lib: fix misleading \`maxLength\` param on string pad\* methods**
 

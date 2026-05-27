@@ -1,6 +1,6 @@
 # Report for 2026-05-25 (Monday, May 25th, 2026)
 
-7 different users commented on 11 different issues.
+7 different users commented on 12 different issues.
 
 ## Activity Summary
 
@@ -44,7 +44,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#4048](https://github.com/microsoft/TypeScript-go/issues/4048) (Open, `possible improvement`)
+### [Issue microsoft/TypeScript-go#4048](https://github.com/microsoft/TypeScript-go/issues/4048) (Closed, `possible improvement`)
 
 **Behavior difference: Object key named \`new\` is double\-quoted in tsgo emit, but not in tsc emit**
 
@@ -52,7 +52,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4049](https://github.com/microsoft/TypeScript-go/issues/4049) (Open)
+### [Issue microsoft/TypeScript-go#4049](https://github.com/microsoft/TypeScript-go/issues/4049) (Closed, `wontfix`)
 
 **Cannot reference class type assigned to static member**
 
@@ -76,7 +76,7 @@
 
  * created by **arawrdn**
 
-### [PR microsoft/TypeScript-go#4052](https://github.com/microsoft/TypeScript-go/pull/4052) (Open, **weswigham**)
+### [PR microsoft/TypeScript-go#4052](https://github.com/microsoft/TypeScript-go/pull/4052) (Closed, **weswigham**)
 
 **fix\(4048\): fix declaration emit for new keyword used as property names**
 

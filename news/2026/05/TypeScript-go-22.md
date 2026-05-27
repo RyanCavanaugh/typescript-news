@@ -109,7 +109,7 @@
 
  * created by **jet2jet**
 
-### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Open)
+### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Open, `Domain: Declaration Emit`, `possible improvement`, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: tsgo emits different output when keys from one object are referenced in another object**
 
@@ -117,7 +117,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `Domain: Editor`, `Needs Investigation`, **gabritto**)
 
 **VSCode bulk save \(Replace All / Save All across many \.ts files\) deadlocks the LSP server**
 

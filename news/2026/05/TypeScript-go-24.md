@@ -41,7 +41,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4044](https://github.com/microsoft/TypeScript-go/issues/4044) (Open)
+### [Issue microsoft/TypeScript-go#4044](https://github.com/microsoft/TypeScript-go/issues/4044) (Closed, `Working As Intended`, **weswigham**)
 
 **Behavior difference: tsc mark class method with \`override\` keyword according to jsdoc, but tsgo fails to do so\.**
 
@@ -50,7 +50,7 @@
  * created by **hkleungai**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4044#issuecomment-4533873443) **a-tarasyuk** asked whether override should be stripped from declaration emit for JS files with @override jsdoc tags
 
-### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Open)
+### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Open, `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`)
 
 **Behavior difference: Notable gap regarding expando declaration on a function between tsc & tsgo**
 
@@ -58,7 +58,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4046](https://github.com/microsoft/TypeScript-go/issues/4046) (Open)
+### [Issue microsoft/TypeScript-go#4046](https://github.com/microsoft/TypeScript-go/issues/4046) (Open, `Domain: Declaration Emit`)
 
 **Behavior difference: Side\-effect imports of custom file extension are emitted by tsgo but not tsc**
 
