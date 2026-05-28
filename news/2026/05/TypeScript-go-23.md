@@ -29,7 +29,7 @@
 
  * created by **antichris**
 
-### [Issue microsoft/TypeScript-go#4038](https://github.com/microsoft/TypeScript-go/issues/4038) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4038](https://github.com/microsoft/TypeScript-go/issues/4038) (Closed, `bug`, **ahejlsberg**)
 
 **TS2315 when using \`@template\` more than once in a file**
 

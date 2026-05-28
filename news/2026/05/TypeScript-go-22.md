@@ -76,7 +76,7 @@
 
  * created by **ahejlsberg**
 
-### [PR microsoft/TypeScript-go#4030](https://github.com/microsoft/TypeScript-go/pull/4030) (Open)
+### [PR microsoft/TypeScript-go#4030](https://github.com/microsoft/TypeScript-go/pull/4030) (Closed)
 
 ** Add classified text output for VS Find All References**
 

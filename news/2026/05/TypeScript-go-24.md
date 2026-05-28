@@ -13,7 +13,7 @@
  * created by **antichris**
  * (today) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4038](https://github.com/microsoft/TypeScript-go/issues/4038) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4038](https://github.com/microsoft/TypeScript-go/issues/4038) (Closed, `bug`, **ahejlsberg**)
 
 **TS2315 when using \`@template\` more than once in a file**
 
@@ -33,7 +33,7 @@
  * (today) **re-thc** closed the issue
  * (today) **re-thc** reopened the issue
 
-### [PR microsoft/TypeScript-go#4043](https://github.com/microsoft/TypeScript-go/pull/4043) (Open)
+### [PR microsoft/TypeScript-go#4043](https://github.com/microsoft/TypeScript-go/pull/4043) (Closed)
 
 **Resolve aliases in \`resolveEntityName\` until we find the given meaning**
 

@@ -1,6 +1,6 @@
 # Report for 2026-05-26 (Tuesday, May 26th, 2026)
 
-11 different users commented on 27 different issues.
+12 different users commented on 28 different issues.
 
 ## Recommended Actions
 
@@ -29,7 +29,7 @@
  * (6 weeks ago) **RyanCavanaugh** added label `Domain: Editor`, and set milestone to `Post-7.0`
  * [later](https://github.com/microsoft/TypeScript-go/issues/3320#issuecomment-4554817607) **a-tarasyuk** asked whether implementing support for removeUnused/removeUnusedImports/unusedIdentifier was still considered useful
 
-### [Issue microsoft/TypeScript-go#3661](https://github.com/microsoft/TypeScript-go/issues/3661) (Open, `Needs Investigation`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3661](https://github.com/microsoft/TypeScript-go/issues/3661) (Closed, `Needs Investigation`, **iisaduan**)
 
 **Behavior difference: tsgo emits an "extra" TS7006 along with TS2769 at the same line in case of overload mismatch**
 
@@ -99,6 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4546878117) **ahejlsberg** identified two issues with JSDoc @overload handling and offered to submit a PR fixing the first and documenting the second
  * [today](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4547708507) **antichris** lamented lack of arrow function overloading support, said they would have to rewrite their overloaded arrow functions as declarations, and thanked the maintainers
  * [today](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4549213250) **ahejlsberg** proposed a TypeScript overload translation from JSDoc overloads and said they would include it in their PR
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4556263858) **ahejlsberg** explained that the JSDoc @type annotation on the variable and tags on the function expression already worked and suggested recommending that pattern for overloads
 
 ### [Issue microsoft/TypeScript-go#4039](https://github.com/microsoft/TypeScript-go/issues/4039) (Open, `Domain: Declaration Emit`, `Domain: Comment Emit`)
 
@@ -227,15 +228,15 @@
  * created by **gabritto**
  * (today) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#4054](https://github.com/microsoft/TypeScript-go/pull/4054) (Open)
+### [PR microsoft/TypeScript-go#4054](https://github.com/microsoft/TypeScript-go/pull/4054) (Closed)
 
 **Fix configuration lookups and prefer saving as \`js/ts\`**
 
-*Prefer js/ts.experimental.useTsgo over deprecated typescript settings, respect workspace specificity, migrate settings, and prevent server startup when disabled in development.*
+*Favor workspace-specific TypeScript useTsgo settings over global JS/TS, migrate deprecated keys, and stop server startup when disabled in development.*
 
  * created by **DanielRosenwasser**
 
-### [Issue microsoft/TypeScript-go#4055](https://github.com/microsoft/TypeScript-go/issues/4055) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4055](https://github.com/microsoft/TypeScript-go/issues/4055) (Closed, `wontfix`, **ahejlsberg**)
 
 **Type recursion limit \(TS2589\) on recursive mapped types**
 
@@ -262,11 +263,20 @@
  * created by **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4549523307) **DanielRosenwasser** said "Can we give a more-specialized error message for reserved names?"
 
-### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Open)
+### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **reference directive caused issue with ts\-check**
 
 *Placing a triple-slash reference directive after a // @ts-check comment causes tsgo to bypass type-checking, effectively acting like ts-nocheck.*
 
  * created by **jasonlyu123**
+
+### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Open, `Crash`)
+
+**Data race in module resolver — SIGSEGV in \`loadModuleFromTargetExportOrImport\` / \`OrderedMap\.Keys\` under concurrent goroutines**
+
+*Concurrent access to OrderedMap.Keys within the module resolver's loadModuleFromTargetExportOrImport triggers a data race causing a SIGSEGV.*
+
+ * created by **mscrivo**
+ * **mscrivo** added label `Crash`
 

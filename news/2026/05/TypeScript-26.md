@@ -1,6 +1,6 @@
 # Report for 2026-05-26 (Tuesday, May 26th, 2026)
 
-6 different users commented on 14 different issues.
+8 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -111,4 +111,17 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4546240951) **guillaumebrunerie** described that changing the font updated the playground but the dropdown label remained 'Cascadia'
  * [today](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4547275063) **nmain** reported seeing the same issue and questioned the relevance of the code sample
+
+### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Open, `For Backlog Bug`)
+
+**Add missing JSDoc to ReadonlySet and ReadonlyMap members**
+
+*Add JSDoc comments to ReadonlySet and ReadonlyMap methods to match their mutable counterparts.*
+
+ * created by **TxsharDev**
+ * **typescript-bot** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4556208480) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [later](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4556208485) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [later](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4556218663) **TxsharDev** said "@microsoft-github-policy-service agree"
+ * (later) **typescript-bot** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
