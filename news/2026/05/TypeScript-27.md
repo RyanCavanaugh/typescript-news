@@ -43,7 +43,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63509#issuecomment-4559874600) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **Se3do** closed the issue
 
-### [Issue microsoft/TypeScript#63510](https://github.com/microsoft/TypeScript/issues/63510) (Open)
+### [Issue microsoft/TypeScript#63510](https://github.com/microsoft/TypeScript/issues/63510) (Closed, `AI Spam`)
 
 **TypeScript compiler incorrectly reports duplicate identifiers for types and variables**
 

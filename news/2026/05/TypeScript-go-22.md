@@ -19,7 +19,7 @@
  * (5 weeks ago) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **gabritto**
  * [today](https://github.com/microsoft/TypeScript-go/pull/3264#issuecomment-4523942459) **geekeren** said "do we have any beta version to validate?"
 
-### [Issue microsoft/TypeScript-go#3405](https://github.com/microsoft/TypeScript-go/issues/3405) (Open, `Domain: Editor`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3405](https://github.com/microsoft/TypeScript-go/issues/3405) (Closed, `Domain: Editor`, **ahejlsberg**)
 
 **JSDoc disapprears after type calculation**
 
@@ -68,7 +68,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4028#issuecomment-4522106807) **dcsid** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4028#issuecomment-4523304765) **DanielRosenwasser** said "Are we going to miss rename locations in any unloaded programs? In other words, should we be loading the programs on the fly? If not, whose responsibility is it to do that?"
 
-### [PR microsoft/TypeScript-go#4029](https://github.com/microsoft/TypeScript-go/pull/4029) (Open)
+### [PR microsoft/TypeScript-go#4029](https://github.com/microsoft/TypeScript-go/pull/4029) (Closed)
 
 **Fix and simplify JSDoc handling for binding elements**
 
@@ -109,7 +109,7 @@
 
  * created by **jet2jet**
 
-### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Open, `Domain: Declaration Emit`, `possible improvement`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Closed, `Domain: Declaration Emit`, `possible improvement`, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: tsgo emits different output when keys from one object are referenced in another object**
 
@@ -117,7 +117,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `Domain: Editor`, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `bug`, `Domain: Editor`, **gabritto**)
 
 **VSCode bulk save \(Replace All / Save All across many \.ts files\) deadlocks the LSP server**
 

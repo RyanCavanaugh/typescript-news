@@ -1,6 +1,6 @@
 # Report for 2026-05-27 (Wednesday, May 27th, 2026)
 
-11 different users commented on 24 different issues.
+11 different users commented on 25 different issues.
 
 ## Recommended Actions
 
@@ -183,7 +183,7 @@
 
  * created by **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#4064](https://github.com/microsoft/TypeScript-go/pull/4064) (Open)
+### [PR microsoft/TypeScript-go#4064](https://github.com/microsoft/TypeScript-go/pull/4064) (Closed)
 
 **Emit index components for computed names instead of signatures**
 
@@ -233,7 +233,7 @@
 
  * created by **cjc0013**
 
-### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Open)
+### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Open, `Needs Investigation`, **DanielRosenwasser**, **Copilot**)
 
 **typescript\.native\-preview\.tsdk: relative path in committed \.vscode/settings\.json gets overwritten with absolute path when accepting the workspace version prompt**
 

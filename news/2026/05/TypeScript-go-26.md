@@ -68,7 +68,7 @@
  * (yesterday) **gabritto** added labels `bug`, `Domain: Editor`, and removed label `Needs Investigation`
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Open, `Domain: Declaration Emit`, `possible improvement`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4034](https://github.com/microsoft/TypeScript-go/issues/4034) (Closed, `Domain: Declaration Emit`, `possible improvement`, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: tsgo emits different output when keys from one object are referenced in another object**
 
@@ -79,7 +79,7 @@
  * (today) **weswigham** added labels `Domain: Declaration Emit`, `possible improvement`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4034#issuecomment-4549484598) **weswigham** explained that the behavior was intentional for synthesized node types, acknowledged that more verbose output is preferable, and noted that the logic tracking original computed property names got lost in the port and needs reporting
 
-### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `Domain: Editor`, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `bug`, `Domain: Editor`, **gabritto**)
 
 **VSCode bulk save \(Replace All / Save All across many \.ts files\) deadlocks the LSP server**
 
