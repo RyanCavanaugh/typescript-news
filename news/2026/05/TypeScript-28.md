@@ -41,7 +41,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4575913496) **MartinJohns** suggested using the '@typescript-eslint/no-unsafe-type-assertion' rule and clarified thinking about forbidding indexing with any or never types
  * [later](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4575968627) **nmain** said "https://typescript-eslint.io/rules/no-unsafe-member-access/ handles an any indexer but not a never indexer."
 
-### [Issue microsoft/TypeScript#63515](https://github.com/microsoft/TypeScript/issues/63515) (Open)
+### [Issue microsoft/TypeScript#63515](https://github.com/microsoft/TypeScript/issues/63515) (Closed, `Not a Defect`)
 
 **Excess property check on nested object literals dropped in 6\.0 when parameter is a generic "Exact" mapped\-type guard**
 

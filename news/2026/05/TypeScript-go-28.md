@@ -203,7 +203,7 @@
  * created by **iisaduan**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#3842](https://github.com/microsoft/TypeScript-go/issues/3842) (Closed, `bug`, **ahejlsberg**)
 
 **Missing support for namespaces in JSDoc types**
 
@@ -481,7 +481,7 @@
 
 **Fix tsdk relative path overwrite and unnecessary prompt on workspace open**
 
-*Prevent tsdk setting from being overwritten with machine-specific absolute paths by auto-detecting workspace tsdk, skipping prompts, and using relative paths.*
+*Prevent committed relative tsdk paths from being overwritten with absolute paths and suppress redundant workspace version prompts.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
@@ -489,7 +489,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4072#issuecomment-4569028963) **DanielRosenwasser** requested more feedback and asked about built-in TS extension behavior with an explicit tsdk even after workspace trust
  * [today](https://github.com/microsoft/TypeScript-go/pull/4072#issuecomment-4569059752) **Copilot** addressed both reviewer points regarding restart on early-return and multi-root workspaces path resolution and explained the built-in TS extension tsdk prompt behavior
 
-### [PR microsoft/TypeScript-go#4073](https://github.com/microsoft/TypeScript-go/pull/4073) (Open)
+### [PR microsoft/TypeScript-go#4073](https://github.com/microsoft/TypeScript-go/pull/4073) (Closed)
 
 **Restore JSDoc namespace declarations**
 
@@ -497,7 +497,7 @@
 
  * created by **ahejlsberg**
 
-### [PR microsoft/TypeScript-go#4074](https://github.com/microsoft/TypeScript-go/pull/4074) (Open)
+### [PR microsoft/TypeScript-go#4074](https://github.com/microsoft/TypeScript-go/pull/4074) (Closed)
 
 **Fix stale pull diagnostics after document edits**
 
