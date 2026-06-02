@@ -1,6 +1,6 @@
 # Report for 2026-05-26 (Tuesday, May 26th, 2026)
 
-8 different users commented on 15 different issues.
+8 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -112,7 +112,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4546240951) **guillaumebrunerie** described that changing the font updated the playground but the dropdown label remained 'Cascadia'
  * [today](https://github.com/microsoft/TypeScript/issues/63507#issuecomment-4547275063) **nmain** reported seeing the same issue and questioned the relevance of the code sample
 
-### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Closed, `For Backlog Bug`)
 
 **Add missing JSDoc to ReadonlySet and ReadonlyMap members**
 

@@ -1,6 +1,6 @@
 # Report for 2026-05-31 (Sunday, May 31st, 2026)
 
-10 different users commented on 11 different issues.
+9 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -44,7 +44,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63517#issuecomment-4588771313) **arnavnagzirkar** closed the PR as a duplicate of existing issues and apologized for the noise, noting AI assistance
  * (today) **arnavnagzirkar** closed the issue
 
-### [PR microsoft/TypeScript#63518](https://github.com/microsoft/TypeScript/pull/63518) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63518](https://github.com/microsoft/TypeScript/pull/63518) (Closed, `For Backlog Bug`)
 
 **fix: Inconsistencies in ESM\-style imports of accessibility\-modified proper\.\.\.**
 
@@ -53,7 +53,7 @@
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#63519](https://github.com/microsoft/TypeScript/pull/63519) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63519](https://github.com/microsoft/TypeScript/pull/63519) (Closed, `For Backlog Bug`)
 
 **fix: \`silentNeverType\` leak in contextual parameter types coming from anon\.\.\.**
 
@@ -62,7 +62,7 @@
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#63520](https://github.com/microsoft/TypeScript/pull/63520) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63520](https://github.com/microsoft/TypeScript/pull/63520) (Closed, `For Backlog Bug`)
 
 **fix: Deprecation error message reporting method type as deprecated instead\.\.\.**
 
@@ -71,7 +71,7 @@
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#63521](https://github.com/microsoft/TypeScript/pull/63521) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63521](https://github.com/microsoft/TypeScript/pull/63521) (Closed, `For Backlog Bug`)
 
 **fix: Incorrect report of self\-referencing type for static fields**
 
@@ -99,7 +99,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4591680219) **MartinJohns** explained that .d.ts files took priority over .js files and suggested enabling --skipLibCheck or generating .d.ts from .js
  * [later](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4592123266) **hkleungai** noted skipLibCheck was enabled but the bug persisted, questioned that .d.ts files took priority over .js files, and suggested documentation clarification, highlighting a tsc ordering inconsistency
 
-### [PR microsoft/TypeScript#63524](https://github.com/microsoft/TypeScript/pull/63524) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63524](https://github.com/microsoft/TypeScript/pull/63524) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **feat\(lib\): add Math\.sumPrecise type definition \(ES2026\)**
 
@@ -107,6 +107,4 @@
 
  * created by **godfengliang**
  * **typescript-bot** added label `For Backlog Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/63524#issuecomment-4592317358) **microsoft-github-policy-service[bot]** provided Contributor License Agreement details and requested the contributor to agree by responding with a specific command
- * [later](https://github.com/microsoft/TypeScript/pull/63524#issuecomment-4592317410) **microsoft-github-policy-service[bot]** provided Contributor License Agreement details and requested the contributor to agree by responding with a specific command
 

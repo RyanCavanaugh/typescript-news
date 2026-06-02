@@ -21,7 +21,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3172#issuecomment-4567420125) **RyanCavanaugh** said "Not a regression and I'm not 100% on this fix"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#3354](https://github.com/microsoft/TypeScript-go/pull/3354) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3354](https://github.com/microsoft/TypeScript-go/pull/3354) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic in declaration emit for named CommonJS exports from \.cjs files**
 
@@ -61,7 +61,7 @@
  * (6 days ago) **ahejlsberg** assigned to **ahejlsberg**, and unassigned **jakebailey**, **Copilot**
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#3408](https://github.com/microsoft/TypeScript-go/pull/3408) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3408](https://github.com/microsoft/TypeScript-go/pull/3408) (Closed, **jakebailey**, **Copilot**)
 
 **Fix JSDoc disappearing on destructured parameters from intersection types**
 
@@ -183,7 +183,7 @@
  * (2 weeks ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3807](https://github.com/microsoft/TypeScript-go/pull/3807) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3807](https://github.com/microsoft/TypeScript-go/pull/3807) (Closed, **jakebailey**, **Copilot**)
 
 **Fix stack overflow on circular reference after \`satisfies\`**
 
@@ -372,7 +372,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/4034#issuecomment-4549484598) **weswigham** explained that the behavior was intentional for synthesized node types, acknowledged that more verbose output is preferable, and noted that the logic tracking original computed property names got lost in the port and needs reporting
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `bug`, `Domain: Editor`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Closed, `bug`, `Domain: Editor`, **gabritto**)
 
 **VSCode bulk save \(Replace All / Save All across many \.ts files\) deadlocks the LSP server**
 
@@ -422,7 +422,7 @@
  * (yesterday) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#4062](https://github.com/microsoft/TypeScript-go/pull/4062) (Open)
+### [PR microsoft/TypeScript-go#4062](https://github.com/microsoft/TypeScript-go/pull/4062) (Closed)
 
 **Check \`this\` params when comparing pseudotype signatures to type signatures**
 
@@ -450,7 +450,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Open)
+### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Closed)
 
 **Revise logic for gathering JSDoc \`@template\` type parameters**
 
@@ -459,7 +459,7 @@
  * created by **ahejlsberg**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Open, `Needs Investigation`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Closed, `Needs Investigation`, **DanielRosenwasser**, **Copilot**)
 
 **typescript\.native\-preview\.tsdk: relative path in committed \.vscode/settings\.json gets overwritten with absolute path when accepting the workspace version prompt**
 
@@ -477,7 +477,7 @@
 
  * created by **hkleungai**
 
-### [PR microsoft/TypeScript-go#4072](https://github.com/microsoft/TypeScript-go/pull/4072) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4072](https://github.com/microsoft/TypeScript-go/pull/4072) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix tsdk relative path overwrite and unnecessary prompt on workspace open**
 

@@ -1,6 +1,6 @@
 # Report for 2026-05-30 (Saturday, May 30th, 2026)
 
-7 different users commented on 55 different issues.
+7 different users commented on 57 different issues.
 
 ## Recommended Actions
 
@@ -144,7 +144,7 @@
 
 **Fix async arrow \`this\` capture in static field emit**
 
-*Use the class constructor instead of ambient this when emitting downleveled async arrow functions in static field initializers.*
+*Downleveled async arrow functions in relocated static initializers now avoid capturing ambient this and correctly reference the class constructor.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -237,7 +237,7 @@
 
  * created by **piotrtomiak**
 
-### [PR microsoft/TypeScript-go#4114](https://github.com/microsoft/TypeScript-go/pull/4114) (Open)
+### [PR microsoft/TypeScript-go#4114](https://github.com/microsoft/TypeScript-go/pull/4114) (Closed)
 
 **fix\(4087\): fix declaration emit modifiers for constructor types**
 
@@ -245,7 +245,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Open)
+### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Open, **jakebailey**, **Copilot**)
 
 **Exit codes 1 and 2 \(OutputsSkipped vs OutputsGenerated\) are swapped**
 
@@ -253,7 +253,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open)
+### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, **jakebailey**, **Copilot**)
 
 **Declaration emit differs for negative numeric const literals**
 
@@ -286,7 +286,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open)
+### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, **jakebailey**, **Copilot**)
 
 **With multiple \`/\*\* @jsx \*/\` pragmas in one file, tsc uses the first and tsgo uses the last**
 
@@ -311,7 +311,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4123](https://github.com/microsoft/TypeScript-go/issues/4123) (Open)
+### [Issue microsoft/TypeScript-go#4123](https://github.com/microsoft/TypeScript-go/issues/4123) (Closed, **jakebailey**, **Copilot**)
 
 **\`in\`/\`out\` variance modifiers on a class member leak into the emitted JS**
 
@@ -319,7 +319,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4124](https://github.com/microsoft/TypeScript-go/issues/4124) (Open)
+### [Issue microsoft/TypeScript-go#4124](https://github.com/microsoft/TypeScript-go/issues/4124) (Closed, **jakebailey**, **Copilot**)
 
 **Different treatment for zero\-byte tsconfig\.json**
 
@@ -327,7 +327,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Open)
+### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Open, **jakebailey**, **Copilot**)
 
 **'Duplicate function implementation' reported on function redeclaration in checked \.js files**
 
@@ -335,7 +335,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4126](https://github.com/microsoft/TypeScript-go/issues/4126) (Open)
+### [Issue microsoft/TypeScript-go#4126](https://github.com/microsoft/TypeScript-go/issues/4126) (Closed)
 
 **Spurious TS1024 when \`@readonly\` documents a get/set accessor or method in checked JS**
 
@@ -360,7 +360,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Open)
+### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Open, **jakebailey**, **Copilot**)
 
 **tsgo reports compiler\-option diagnostics even when syntactic errors exist**
 
@@ -385,7 +385,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Open)
+### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Open, **jakebailey**, **Copilot**)
 
 **tsgo reports different parameter name for incompatible function types**
 
@@ -402,7 +402,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Open)
+### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Open, `bug`, **ahejlsberg**)
 
 **tsgo does not report TS2565 for conditionally\-assigned expando function properties**
 
@@ -418,7 +418,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4136](https://github.com/microsoft/TypeScript-go/issues/4136) (Open)
+### [Issue microsoft/TypeScript-go#4136](https://github.com/microsoft/TypeScript-go/issues/4136) (Closed)
 
 **tsgo does not produce TS6053 for a missing root file**
 
@@ -455,9 +455,9 @@
 
 ### [PR microsoft/TypeScript-go#4140](https://github.com/microsoft/TypeScript-go/pull/4140) (Open, **jakebailey**, **Copilot**)
 
-**Avoid duplicate TS1327 diagnostics for unquoted tsconfig keys**
+**Align tsconfig JSON key diagnostics with TypeScript**
 
-*Eliminate duplicate TS1327 errors in tsconfig object conversion so JSON parser diagnostics alone report unquoted key issues*
+*Removed duplicate unquoted key TS1327 diagnostics in tsconfig.json, retained parser errors, added TS8009 for optional property tokens, and updated tests.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**

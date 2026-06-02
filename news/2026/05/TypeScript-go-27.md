@@ -1,6 +1,6 @@
 # Report for 2026-05-27 (Wednesday, May 27th, 2026)
 
-11 different users commented on 26 different issues.
+11 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -167,7 +167,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#4062](https://github.com/microsoft/TypeScript-go/pull/4062) (Open)
+### [PR microsoft/TypeScript-go#4062](https://github.com/microsoft/TypeScript-go/pull/4062) (Closed)
 
 **Check \`this\` params when comparing pseudotype signatures to type signatures**
 
@@ -191,7 +191,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Open)
+### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Closed)
 
 **Revise logic for gathering JSDoc \`@template\` type parameters**
 
@@ -216,7 +216,7 @@
 
  * created by **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#4068](https://github.com/microsoft/TypeScript-go/pull/4068) (Open, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript-go#4068](https://github.com/microsoft/TypeScript-go/pull/4068) (Closed, `dependencies`, `javascript`)
 
 **Bump tmp from 0\.2\.5 to 0\.2\.7**
 
@@ -233,7 +233,7 @@
 
  * created by **cjc0013**
 
-### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Open, `Needs Investigation`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4070](https://github.com/microsoft/TypeScript-go/issues/4070) (Closed, `Needs Investigation`, **DanielRosenwasser**, **Copilot**)
 
 **typescript\.native\-preview\.tsdk: relative path in committed \.vscode/settings\.json gets overwritten with absolute path when accepting the workspace version prompt**
 

@@ -52,7 +52,7 @@
  * **RyanCavanaugh** added label `Not a Defect`
  * [today](https://github.com/microsoft/TypeScript/issues/63515#issuecomment-4577630364) **RyanCavanaugh** explained that simulated exact types aren't perfect and that two different function signatures having different behavior isn't a bug
 
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
 

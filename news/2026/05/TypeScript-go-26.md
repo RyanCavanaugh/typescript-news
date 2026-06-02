@@ -47,7 +47,7 @@
  * (1 week ago) **DanielRosenwasser** added labels `bug`, `Domain: Editor`, and assigned to **gabritto**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#3983](https://github.com/microsoft/TypeScript-go/issues/3983) (Closed, `wontfix`)
+### [Issue microsoft/TypeScript-go#3983](https://github.com/microsoft/TypeScript-go/issues/3983) (Closed)
 
 **Declaration emit leaks namespace declarations for \`@internal\` functions with static property assignments**
 
@@ -79,7 +79,7 @@
  * (today) **weswigham** added labels `Domain: Declaration Emit`, `possible improvement`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4034#issuecomment-4549484598) **weswigham** explained that the behavior was intentional for synthesized node types, acknowledged that more verbose output is preferable, and noted that the logic tracking original computed property names got lost in the port and needs reporting
 
-### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Open, `bug`, `Domain: Editor`, **gabritto**)
+### [Issue microsoft/TypeScript-go#4035](https://github.com/microsoft/TypeScript-go/issues/4035) (Closed, `bug`, `Domain: Editor`, **gabritto**)
 
 **VSCode bulk save \(Replace All / Save All across many \.ts files\) deadlocks the LSP server**
 
@@ -89,7 +89,7 @@
  * **AdrianBannister** added label `Domain: Editor`
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **gabritto**
 
-### [Issue microsoft/TypeScript-go#4037](https://github.com/microsoft/TypeScript-go/issues/4037) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4037](https://github.com/microsoft/TypeScript-go/issues/4037) (Closed, `bug`, **ahejlsberg**)
 
 **TS2304 when a generic \(@template\) function JSDoc contains @overload**
 
@@ -101,7 +101,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4549213250) **ahejlsberg** proposed a TypeScript overload translation from JSDoc overloads and said they would include it in their PR
  * [later](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4556263858) **ahejlsberg** explained that the JSDoc @type annotation on the variable and tags on the function expression already worked and suggested recommending that pattern for overloads
 
-### [Issue microsoft/TypeScript-go#4039](https://github.com/microsoft/TypeScript-go/issues/4039) (Open, `Domain: Declaration Emit`, `Domain: Comment Emit`)
+### [Issue microsoft/TypeScript-go#4039](https://github.com/microsoft/TypeScript-go/issues/4039) (Open, `Domain: Declaration Emit`, `Domain: Comment Emit`, **jakebailey**, **Copilot**)
 
 **Behavior difference: Inline comment on arrow function parameters is emitted on tsc but not on tsgo**
 
@@ -167,7 +167,7 @@
  * (today) **weswigham** added labels `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`
  * [later](https://github.com/microsoft/TypeScript-go/issues/4045#issuecomment-4553479379) **hkleungai** expressed hope that tsgo continued to support expando types and requested a fix for Storybook CSF2 syntax
 
-### [Issue microsoft/TypeScript-go#4046](https://github.com/microsoft/TypeScript-go/issues/4046) (Open, `Domain: Declaration Emit`)
+### [Issue microsoft/TypeScript-go#4046](https://github.com/microsoft/TypeScript-go/issues/4046) (Closed, `Domain: Declaration Emit`)
 
 **Behavior difference: Side\-effect imports of custom file extension are emitted by tsgo but not tsc**
 
@@ -245,7 +245,7 @@
  * created by **blickly**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4057](https://github.com/microsoft/TypeScript-go/issues/4057) (Open, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4057](https://github.com/microsoft/TypeScript-go/issues/4057) (Closed, `Domain: Declaration Emit`, `Needs Investigation`, **weswigham**)
 
 **New isolatedDeclarations error with generic \`this\` parameter inference**
 

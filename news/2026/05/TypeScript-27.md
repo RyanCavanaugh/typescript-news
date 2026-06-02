@@ -20,7 +20,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0 lib candidates`
  * [today](https://github.com/microsoft/TypeScript/pull/63064#issuecomment-4557603112) **vrjordant** said "Is there something that needs to be done before this can be merged?"
 
-### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Closed, `For Backlog Bug`)
 
 **Add missing JSDoc to ReadonlySet and ReadonlyMap members**
 
@@ -64,7 +64,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63511#issuecomment-4562647363) **johanrd** said "@MartinJohns thanks"
  * (later) **johanrd** closed the issue
 
-### [Issue microsoft/TypeScript#63512](https://github.com/microsoft/TypeScript/issues/63512) (Open)
+### [Issue microsoft/TypeScript#63512](https://github.com/microsoft/TypeScript/issues/63512) (Closed, `Not a Defect`)
 
 **Missing JSDoc annotations in esnext lib declaration files**
 
@@ -72,7 +72,7 @@
 
  * created by **Se3do**
 
-### [PR microsoft/TypeScript#63513](https://github.com/microsoft/TypeScript/pull/63513) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63513](https://github.com/microsoft/TypeScript/pull/63513) (Closed, `For Uncommitted Bug`)
 
 **Add missing JSDoc param and returns tags to lib\.d\.ts esnext files**
 

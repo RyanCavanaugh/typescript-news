@@ -42,7 +42,7 @@
  * (yesterday) **ahejlsberg** added label `bug`, and removed label `Needs Investigation`
  * (later) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#4008](https://github.com/microsoft/TypeScript-go/pull/4008) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4008](https://github.com/microsoft/TypeScript-go/pull/4008) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix intermittent TS2345 with paths \+ @types/\* conflict in concurrent builds**
 
@@ -54,7 +54,7 @@
  * (today) **andrewbranch** reopened the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4008#issuecomment-4579739549) **Copilot** extracted duplicated directory correction into InfoCacheEntry.WithPackageDirectory with explanatory comment
 
-### [Issue microsoft/TypeScript-go#4037](https://github.com/microsoft/TypeScript-go/issues/4037) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4037](https://github.com/microsoft/TypeScript-go/issues/4037) (Closed, `bug`, **ahejlsberg**)
 
 **TS2304 when a generic \(@template\) function JSDoc contains @overload**
 
@@ -65,7 +65,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4556263858) **ahejlsberg** explained that the JSDoc @type annotation on the variable and tags on the function expression already worked and suggested recommending that pattern for overloads
  * [today](https://github.com/microsoft/TypeScript-go/issues/4037#issuecomment-4580165398) **antichris** described having to rewrite code around overloaded arrow functions using single-use consts for type checking, deemed it not ideal but workable, and thanked maintainers
 
-### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Open)
+### [PR microsoft/TypeScript-go#4065](https://github.com/microsoft/TypeScript-go/pull/4065) (Closed)
 
 **Revise logic for gathering JSDoc \`@template\` type parameters**
 
@@ -75,7 +75,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [today](https://github.com/microsoft/TypeScript-go/pull/4065#issuecomment-4580869494) **ahejlsberg** explained that Strada collects all @template tags across the JSDoc block and provided an example using separate JSDoc comments for individual overload type parameters
 
-### [PR microsoft/TypeScript-go#4072](https://github.com/microsoft/TypeScript-go/pull/4072) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4072](https://github.com/microsoft/TypeScript-go/pull/4072) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix tsdk relative path overwrite and unnecessary prompt on workspace open**
 
@@ -172,7 +172,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Open, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in declaration emit for a set accessor with no parameters**
 
@@ -190,7 +190,7 @@
  * created by **mds-ant**
  * (later) **mds-ant** closed the issue
 
-### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Open, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in \`tryLoadInputFileForPath\` when an exports/imports target equals the declarationDir/outDir**
 
@@ -199,7 +199,7 @@
  * created by **mds-ant**
  * **mds-ant** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Open, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic on overlapping wildcard patterns**
 
@@ -217,7 +217,7 @@
  * created by **mds-ant**
  * **mds-ant** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4087](https://github.com/microsoft/TypeScript-go/issues/4087) (Open)
+### [Issue microsoft/TypeScript-go#4087](https://github.com/microsoft/TypeScript-go/issues/4087) (Closed)
 
 **Spurious \`export\` modifier injected into a constructor type in \.d\.ts output**
 
@@ -225,7 +225,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Open)
+### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Open, **jakebailey**, **Copilot**)
 
 **Expando function inside a namespace emits \`export declare namespace\`**
 
@@ -273,7 +273,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Open)
+### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Open, **jakebailey**, **Copilot**)
 
 **Emitted JSX factory differs for @jsx pragma preceded by another @token in the same comment**
 
@@ -305,7 +305,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Open)
+### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Open, **jakebailey**, **Copilot**)
 
 **tsgo drops TS2527 and emits an invalid \.d\.ts when a class member's inferred type is an object literal containing \`this\`**
 

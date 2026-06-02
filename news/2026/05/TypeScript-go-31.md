@@ -1,6 +1,6 @@
 # Report for 2026-05-31 (Sunday, May 31st, 2026)
 
-11 different users commented on 12 different issues.
+11 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -60,7 +60,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4135#issuecomment-4591466372) **mds-ant** said "Sounds good, will close this issue given that the discrepancy in behavior is intentional (and arguably better in tsgo)."
  * (later) **mds-ant** closed the issue
 
-### [Issue microsoft/TypeScript-go#4136](https://github.com/microsoft/TypeScript-go/issues/4136) (Open)
+### [Issue microsoft/TypeScript-go#4136](https://github.com/microsoft/TypeScript-go/issues/4136) (Closed)
 
 **tsgo does not produce TS6053 for a missing root file**
 
@@ -87,7 +87,7 @@
  * created by **JerryPeace**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4145#issuecomment-4589740264) **jakebailey** advised checking against TS 6.0 instead of 5.9 and linked the announcement
 
-### [Issue microsoft/TypeScript-go#4146](https://github.com/microsoft/TypeScript-go/issues/4146) (Open)
+### [Issue microsoft/TypeScript-go#4146](https://github.com/microsoft/TypeScript-go/issues/4146) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\`FreshableType\` interface is missing in the API**
 
@@ -103,7 +103,7 @@
 
  * created by **matyasf**
 
-### [Issue microsoft/TypeScript-go#4148](https://github.com/microsoft/TypeScript-go/issues/4148) (Open)
+### [Issue microsoft/TypeScript-go#4148](https://github.com/microsoft/TypeScript-go/issues/4148) (Closed)
 
 **hc\<\> RPC client instantiates ~12× more types under tsgo than tsc \(server app type at parity\)**
 
