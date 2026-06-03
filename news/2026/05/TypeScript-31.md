@@ -80,7 +80,7 @@
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open)
+### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`)
 
 **Declarations that shadow global \`Symbol\`  break emit for \`using\` declarations**
 
@@ -89,7 +89,7 @@
  * created by **DanielRosenwasser**
  * [later](https://github.com/microsoft/TypeScript/issues/63522#issuecomment-4592215906) **nmain** said "Similar to https://github.com/microsoft/TypeScript/issues/61150."
 
-### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Open)
+### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Open, `Working as Intended`)
 
 **tsc may fail to report error when \`file\.js\` & \`file\.d\.ts\` coexist, even when \`@ts\-check\` is added on \`file\.js\`\.**
 

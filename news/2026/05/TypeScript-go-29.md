@@ -112,7 +112,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4074#issuecomment-4577406329) **jakebailey** said "The comments on the linked issue also mentions the client so I'm not sure where this comes from"
  * (today) **Kelpy2004** closed the issue
 
-### [Issue microsoft/TypeScript-go#4075](https://github.com/microsoft/TypeScript-go/issues/4075) (Open)
+### [Issue microsoft/TypeScript-go#4075](https://github.com/microsoft/TypeScript-go/issues/4075) (Closed)
 
 **TS7009 on new of default\-imported untyped CommonJS constructor — passes in tsc 6\.0, fails in tsgo**
 
@@ -208,7 +208,7 @@
  * created by **mds-ant**
  * **mds-ant** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4086](https://github.com/microsoft/TypeScript-go/issues/4086) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4086](https://github.com/microsoft/TypeScript-go/issues/4086) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic on \`"target": null\` \(or any enum\-typed option set to null\) in tsconfig\.json**
 
@@ -233,7 +233,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4089](https://github.com/microsoft/TypeScript-go/issues/4089) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4089](https://github.com/microsoft/TypeScript-go/issues/4089) (Closed, **jakebailey**, **Copilot**)
 
 **\`super\.m\(\)\` in a downleveled async function's parameter default survives into the inner \`function\*\`**
 
@@ -241,7 +241,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4090](https://github.com/microsoft/TypeScript-go/issues/4090) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4090](https://github.com/microsoft/TypeScript-go/issues/4090) (Closed, **jakebailey**, **Copilot**)
 
 **Imported/exported identifier used as a shorthand destructuring default initializer is not rewritten**
 
@@ -249,7 +249,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4091](https://github.com/microsoft/TypeScript-go/issues/4091) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4091](https://github.com/microsoft/TypeScript-go/issues/4091) (Closed, **jakebailey**, **Copilot**)
 
 **JSX hex entity with uppercase marker decoded by tsgo, left literal by tsc**
 
@@ -265,7 +265,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4093](https://github.com/microsoft/TypeScript-go/issues/4093) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4093](https://github.com/microsoft/TypeScript-go/issues/4093) (Closed, **jakebailey**, **Copilot**)
 
 **design:type metadata for \`bigint\` omits the \`typeof BigInt === "function"\` runtime fallback below ES2020**
 
@@ -281,7 +281,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4095](https://github.com/microsoft/TypeScript-go/issues/4095) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4095](https://github.com/microsoft/TypeScript-go/issues/4095) (Closed, **jakebailey**, **Copilot**)
 
 **Namespace import used only by a type\-only \`export import X = ns\.Y\` is not elided**
 
@@ -289,7 +289,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4096](https://github.com/microsoft/TypeScript-go/issues/4096) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4096](https://github.com/microsoft/TypeScript-go/issues/4096) (Closed, **jakebailey**, **Copilot**)
 
 **Downleveled async arrow in a static field initializer captures the wrong \`this\`**
 
@@ -297,7 +297,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4097](https://github.com/microsoft/TypeScript-go/issues/4097) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4097](https://github.com/microsoft/TypeScript-go/issues/4097) (Closed, **jakebailey**, **Copilot**)
 
 **Enum member named with a Unicode escape emits the raw escape text**
 
@@ -313,7 +313,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4099](https://github.com/microsoft/TypeScript-go/issues/4099) (Open)
+### [Issue microsoft/TypeScript-go#4099](https://github.com/microsoft/TypeScript-go/issues/4099) (Closed)
 
 **A single legacy \`assert {\.\.\.}\` import suppresses every semantic diagnostic in the program**
 

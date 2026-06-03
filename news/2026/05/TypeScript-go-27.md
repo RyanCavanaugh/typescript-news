@@ -136,7 +136,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4549523307) **DanielRosenwasser** said "Can we give a more-specialized error message for reserved names?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4556668076) **weswigham** clarified that keywords were allowed as identifiers and that the check concerned only actual allowed characters in JS identifiers
 
-### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **reference directive caused issue with ts\-check**
 
@@ -145,7 +145,7 @@
  * created by **jasonlyu123**
  * (today) **RyanCavanaugh** added label `bug`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Closed, `Crash`, **jakebailey**)
 
 **Data race in module resolver — SIGSEGV in \`loadModuleFromTargetExportOrImport\` / \`OrderedMap\.Keys\` under concurrent goroutines**
 
@@ -158,7 +158,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4060#issuecomment-4564424105) **mscrivo** identified that the crash started in version 20260515.1 through a binary search and offered to provide repo access
  * [later](https://github.com/microsoft/TypeScript-go/issues/4060#issuecomment-4564450769) **mscrivo** suggested a related PR and noted that the issue only occurred on macOS arm machines, not on Linux CI runners
 
-### [PR microsoft/TypeScript-go#4061](https://github.com/microsoft/TypeScript-go/pull/4061) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4061](https://github.com/microsoft/TypeScript-go/pull/4061) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Preserve ts\-check across reference directives**
 

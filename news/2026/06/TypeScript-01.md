@@ -1,6 +1,6 @@
 # Report for 2026-06-01 (Monday, June 1st, 2026)
 
-10 different users commented on 22 different issues.
+9 different users commented on 22 different issues.
 
 ## Recommended Actions
 
@@ -145,9 +145,8 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055168) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055185) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599056099) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with a specific command
 
-### [PR microsoft/TypeScript#63526](https://github.com/microsoft/TypeScript/pull/63526) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63526](https://github.com/microsoft/TypeScript/pull/63526) (Closed, `For Backlog Bug`)
 
 **Allow element access on enum as computed property name in type literal**
 
@@ -155,10 +154,8 @@
 
  * created by **driphtyio**
  * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63526#issuecomment-4599078574) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with a specific command
- * [today](https://github.com/microsoft/TypeScript/pull/63526#issuecomment-4599078577) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with a specific command
 
-### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Open)
+### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **\`erasableSyntaxOnly\` should error on unerasable \`as\`/\`satisfies\`**
 

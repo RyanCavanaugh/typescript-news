@@ -282,7 +282,7 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3912](https://github.com/microsoft/TypeScript-go/pull/3912) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3912](https://github.com/microsoft/TypeScript-go/pull/3912) (Closed, **jakebailey**, **Copilot**)
 
 **Fix type soundness for lone\-surrogate string literals**
 
@@ -353,7 +353,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#4033](https://github.com/microsoft/TypeScript-go/pull/4033) (Open)
+### [PR microsoft/TypeScript-go#4033](https://github.com/microsoft/TypeScript-go/pull/4033) (Closed)
 
 **Fix resolveNodeHandle to check not only child nodes but ancestor nodes**
 
@@ -392,7 +392,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4556668076) **weswigham** clarified that keywords were allowed as identifiers and that the check concerned only actual allowed characters in JS identifiers
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4059](https://github.com/microsoft/TypeScript-go/issues/4059) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **reference directive caused issue with ts\-check**
 
@@ -401,7 +401,7 @@
  * (yesterday) **RyanCavanaugh** added label `bug`, and assigned to **Copilot**, **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Closed, `Crash`, **jakebailey**)
 
 **Data race in module resolver — SIGSEGV in \`loadModuleFromTargetExportOrImport\` / \`OrderedMap\.Keys\` under concurrent goroutines**
 
@@ -412,7 +412,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4060#issuecomment-4564450769) **mscrivo** suggested a related PR and noted that the issue only occurred on macOS arm machines, not on Linux CI runners
  * [later](https://github.com/microsoft/TypeScript-go/issues/4060#issuecomment-4574995897) **anotheri** reported experiencing the same issue and linked to a related issue with additional macOS AMD machine details
 
-### [PR microsoft/TypeScript-go#4061](https://github.com/microsoft/TypeScript-go/pull/4061) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4061](https://github.com/microsoft/TypeScript-go/pull/4061) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Preserve ts\-check across reference directives**
 
@@ -469,7 +469,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **DanielRosenwasser**
  * **DanielRosenwasser** assigned to **Copilot**
 
-### [Issue microsoft/TypeScript-go#4071](https://github.com/microsoft/TypeScript-go/issues/4071) (Open)
+### [Issue microsoft/TypeScript-go#4071](https://github.com/microsoft/TypeScript-go/issues/4071) (Open, **jakebailey**)
 
 **Behavior difference: Emoji string in tsgo emit does not align well with tsc**
 

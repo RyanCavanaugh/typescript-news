@@ -40,7 +40,7 @@
  * created by **piotrtomiak**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4113#issuecomment-4590353737) **piotrtomiak** said "@microsoft-github-policy-service agree company="JetBrains""
 
-### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Open)
+### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Closed)
 
 **Different emit for import\.defer\(\) in a CommonJS module**
 

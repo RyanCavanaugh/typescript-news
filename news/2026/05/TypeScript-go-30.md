@@ -29,7 +29,7 @@
  * (yesterday) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4086](https://github.com/microsoft/TypeScript-go/issues/4086) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4086](https://github.com/microsoft/TypeScript-go/issues/4086) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic on \`"target": null\` \(or any enum\-typed option set to null\) in tsconfig\.json**
 
@@ -39,7 +39,7 @@
  * **mds-ant** added label `Crash`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4089](https://github.com/microsoft/TypeScript-go/issues/4089) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4089](https://github.com/microsoft/TypeScript-go/issues/4089) (Closed, **jakebailey**, **Copilot**)
 
 **\`super\.m\(\)\` in a downleveled async function's parameter default survives into the inner \`function\*\`**
 
@@ -48,7 +48,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4090](https://github.com/microsoft/TypeScript-go/issues/4090) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4090](https://github.com/microsoft/TypeScript-go/issues/4090) (Closed, **jakebailey**, **Copilot**)
 
 **Imported/exported identifier used as a shorthand destructuring default initializer is not rewritten**
 
@@ -57,7 +57,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4091](https://github.com/microsoft/TypeScript-go/issues/4091) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4091](https://github.com/microsoft/TypeScript-go/issues/4091) (Closed, **jakebailey**, **Copilot**)
 
 **JSX hex entity with uppercase marker decoded by tsgo, left literal by tsc**
 
@@ -75,7 +75,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4093](https://github.com/microsoft/TypeScript-go/issues/4093) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4093](https://github.com/microsoft/TypeScript-go/issues/4093) (Closed, **jakebailey**, **Copilot**)
 
 **design:type metadata for \`bigint\` omits the \`typeof BigInt === "function"\` runtime fallback below ES2020**
 
@@ -84,7 +84,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4095](https://github.com/microsoft/TypeScript-go/issues/4095) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4095](https://github.com/microsoft/TypeScript-go/issues/4095) (Closed, **jakebailey**, **Copilot**)
 
 **Namespace import used only by a type\-only \`export import X = ns\.Y\` is not elided**
 
@@ -93,7 +93,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4096](https://github.com/microsoft/TypeScript-go/issues/4096) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4096](https://github.com/microsoft/TypeScript-go/issues/4096) (Closed, **jakebailey**, **Copilot**)
 
 **Downleveled async arrow in a static field initializer captures the wrong \`this\`**
 
@@ -102,7 +102,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4097](https://github.com/microsoft/TypeScript-go/issues/4097) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4097](https://github.com/microsoft/TypeScript-go/issues/4097) (Closed, **jakebailey**, **Copilot**)
 
 **Enum member named with a Unicode escape emits the raw escape text**
 
@@ -111,7 +111,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4099](https://github.com/microsoft/TypeScript-go/issues/4099) (Open)
+### [Issue microsoft/TypeScript-go#4099](https://github.com/microsoft/TypeScript-go/issues/4099) (Closed)
 
 **A single legacy \`assert {\.\.\.}\` import suppresses every semantic diagnostic in the program**
 
@@ -140,7 +140,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4101#issuecomment-4583182120) **jakebailey** assured that the pprof files contain no sensitive information and can be shared as-is
  * [today](https://github.com/microsoft/TypeScript-go/issues/4101#issuecomment-4585528342) **Zzzen** attached a CPU profile file and offered to provide a matching memory profile
 
-### [PR microsoft/TypeScript-go#4103](https://github.com/microsoft/TypeScript-go/pull/4103) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4103](https://github.com/microsoft/TypeScript-go/pull/4103) (Closed, **jakebailey**, **Copilot**)
 
 **Fix async arrow \`this\` capture in static field emit**
 
@@ -149,7 +149,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4104](https://github.com/microsoft/TypeScript-go/pull/4104) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4104](https://github.com/microsoft/TypeScript-go/pull/4104) (Closed, **jakebailey**, **Copilot**)
 
 **Fix downlevel async \`super\` in default parameters**
 
@@ -158,7 +158,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4105](https://github.com/microsoft/TypeScript-go/pull/4105) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4105](https://github.com/microsoft/TypeScript-go/pull/4105) (Closed, **jakebailey**, **Copilot**)
 
 **Handle null enum values in tsconfig parsing**
 
@@ -167,7 +167,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4106](https://github.com/microsoft/TypeScript-go/pull/4106) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4106](https://github.com/microsoft/TypeScript-go/pull/4106) (Closed, **jakebailey**, **Copilot**)
 
 **Add BigInt fallback for decorator metadata below ES2020**
 
@@ -176,7 +176,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4107](https://github.com/microsoft/TypeScript-go/pull/4107) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4107](https://github.com/microsoft/TypeScript-go/pull/4107) (Closed, **jakebailey**, **Copilot**)
 
 **Fix enum member emit for escaped identifiers**
 
@@ -185,7 +185,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4108](https://github.com/microsoft/TypeScript-go/pull/4108) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4108](https://github.com/microsoft/TypeScript-go/pull/4108) (Closed, **jakebailey**, **Copilot**)
 
 **Match tsc for JSX uppercase hex entities**
 
@@ -203,7 +203,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4110](https://github.com/microsoft/TypeScript-go/pull/4110) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4110](https://github.com/microsoft/TypeScript-go/pull/4110) (Closed, **jakebailey**, **Copilot**)
 
 **Elide namespace imports used only by type\-only export aliases**
 
@@ -212,7 +212,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4111](https://github.com/microsoft/TypeScript-go/pull/4111) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4111](https://github.com/microsoft/TypeScript-go/pull/4111) (Closed, **jakebailey**, **Copilot**)
 
 **Fix CommonJS rewrites in shorthand destructuring defaults**
 
@@ -278,7 +278,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open)
+### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open, **jakebailey**)
 
 **U\+2028/U\+2029 inside a multi\-line comment leaves 2 stray bytes in emitted JS \(invalid UTF\-8\)**
 
@@ -294,7 +294,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4121](https://github.com/microsoft/TypeScript-go/issues/4121) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4121](https://github.com/microsoft/TypeScript-go/issues/4121) (Closed, **jakebailey**, **Copilot**)
 
 **Non\-deterministic export specifier order for hoisted exports after a top\-level \`using\`**
 
@@ -303,7 +303,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Open)
+### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Closed)
 
 **Different emit for import\.defer\(\) in a CommonJS module**
 
@@ -360,7 +360,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports compiler\-option diagnostics even when syntactic errors exist**
 
@@ -368,7 +368,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4130](https://github.com/microsoft/TypeScript-go/issues/4130) (Open)
+### [Issue microsoft/TypeScript-go#4130](https://github.com/microsoft/TypeScript-go/issues/4130) (Closed, `bug`, **ahejlsberg**)
 
 **tsgo reports additional type error when a property is followed by an auto\-accessor of the same name**
 
@@ -385,7 +385,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports different parameter name for incompatible function types**
 
@@ -402,7 +402,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Closed, `bug`, **ahejlsberg**)
 
 **tsgo does not report TS2565 for conditionally\-assigned expando function properties**
 
@@ -426,7 +426,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open)
+### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open, **jakebailey**)
 
 **Single\-character template literal inference consumes a full code point in tsgo vs one UTF\-16 code unit in tsc**
 
@@ -434,7 +434,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4138](https://github.com/microsoft/TypeScript-go/issues/4138) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4138](https://github.com/microsoft/TypeScript-go/issues/4138) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo does not reject include spec with \`\.\.\` after a recursive wildcard**
 
@@ -444,7 +444,7 @@
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4138#issuecomment-4586635441) **jakebailey** said "You've filed so many issues. Can you please say how you're finding these? Through AI? Something else?"
 
-### [PR microsoft/TypeScript-go#4139](https://github.com/microsoft/TypeScript-go/pull/4139) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4139](https://github.com/microsoft/TypeScript-go/pull/4139) (Closed, **jakebailey**, **Copilot**)
 
 **Reject include specs with parent traversal after recursive wildcards**
 
@@ -471,7 +471,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4142](https://github.com/microsoft/TypeScript-go/pull/4142) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4142](https://github.com/microsoft/TypeScript-go/pull/4142) (Closed, **jakebailey**, **Copilot**)
 
 **Stabilize hoisted export specifier order after top\-level using**
 

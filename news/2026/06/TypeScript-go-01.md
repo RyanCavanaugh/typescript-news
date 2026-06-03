@@ -239,7 +239,7 @@
  * (6 days ago) **RyanCavanaugh** added label `Domain: Declaration Emit`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4060](https://github.com/microsoft/TypeScript-go/issues/4060) (Closed, `Crash`, **jakebailey**)
 
 **Data race in module resolver — SIGSEGV in \`loadModuleFromTargetExportOrImport\` / \`OrderedMap\.Keys\` under concurrent goroutines**
 
@@ -446,7 +446,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Open)
+### [Issue microsoft/TypeScript-go#4122](https://github.com/microsoft/TypeScript-go/issues/4122) (Closed)
 
 **Different emit for import\.defer\(\) in a CommonJS module**
 
@@ -515,7 +515,7 @@
  * created by **mds-ant**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4128#issuecomment-4595097154) **jakebailey** said "This feels vaguely like #4127"
 
-### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports compiler\-option diagnostics even when syntactic errors exist**
 
@@ -524,7 +524,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4132](https://github.com/microsoft/TypeScript-go/issues/4132) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports different parameter name for incompatible function types**
 
@@ -533,7 +533,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4134](https://github.com/microsoft/TypeScript-go/issues/4134) (Closed, `bug`, **ahejlsberg**)
 
 **tsgo does not report TS2565 for conditionally\-assigned expando function properties**
 
@@ -552,7 +552,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4136#issuecomment-4589547405) **JoostK** said "https://github.com/microsoft/typescript-go/issues/3753"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open)
+### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open, **jakebailey**)
 
 **Single\-character template literal inference consumes a full code point in tsgo vs one UTF\-16 code unit in tsc**
 
@@ -575,7 +575,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4148#issuecomment-4598287059) **daviduzumeri** said "Sorry for the false alarm! No drift from TS6 at all, I think this is something to just take up with Hono in this case."
  * (today) **daviduzumeri** closed the issue
 
-### [PR microsoft/TypeScript-go#4149](https://github.com/microsoft/TypeScript-go/pull/4149) (Open)
+### [PR microsoft/TypeScript-go#4149](https://github.com/microsoft/TypeScript-go/pull/4149) (Closed)
 
 **fix\(4122\): preserve import\.defer in CommonJS emit**
 
@@ -604,7 +604,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4151#issuecomment-4596495578) **typescript-bot** reported the requested performance run results
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4152](https://github.com/microsoft/TypeScript-go/pull/4152) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4152](https://github.com/microsoft/TypeScript-go/pull/4152) (Closed, **jakebailey**, **Copilot**)
 
 **Use tuple element label for parameter name in incompatible function type diagnostics**
 
@@ -613,7 +613,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4153](https://github.com/microsoft/TypeScript-go/pull/4153) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4153](https://github.com/microsoft/TypeScript-go/pull/4153) (Closed, **jakebailey**, **Copilot**)
 
 **Suppress compiler\-option diagnostics when syntactic errors exist**
 
@@ -800,7 +800,7 @@
 
  * created by **danyalahmed1995**
 
-### [PR microsoft/TypeScript-go#4173](https://github.com/microsoft/TypeScript-go/pull/4173) (Open)
+### [PR microsoft/TypeScript-go#4173](https://github.com/microsoft/TypeScript-go/pull/4173) (Closed)
 
 **Consistently name VS types with prefix VS**
 

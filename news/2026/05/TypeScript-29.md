@@ -29,7 +29,7 @@
  * (5.1 years ago) **RyanCavanaugh** added labels `Bug`, `Domain: Type Inference`, and set milestone to `Backlog`
  * [later](https://github.com/microsoft/TypeScript/issues/43429#issuecomment-4583036195) **jacekkopecky** demonstrated a simpler reproduction where a union of constant tuples was not recognized as a tuple type and triggered a spread argument error
 
-### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open)
+### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open, `Not a Defect`)
 
 **Reassigning of inferred \`object\` with Indexed access value does not widen it's type**
 

@@ -25,7 +25,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * **RyanCavanaugh** added label `AI Spam`
 
-### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open)
+### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open, `Not a Defect`)
 
 **Reassigning of inferred \`object\` with Indexed access value does not widen it's type**
 
