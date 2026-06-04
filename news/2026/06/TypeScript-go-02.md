@@ -1,6 +1,6 @@
 # Report for 2026-06-02 (Tuesday, June 2nd, 2026)
 
-16 different users commented on 78 different issues.
+17 different users commented on 83 different issues.
 
 ## Recommended Actions
 
@@ -110,6 +110,15 @@
  * (2 weeks ago) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4606291860) **lith-x** reported high CPU usage with no upper limit for the LSP and suggested using limitcpu as a workaround
  * [today](https://github.com/microsoft/TypeScript-go/issues/3692#issuecomment-4606525861) **Jelcoo** referenced a commit and mentioned resolving the issue by optimizing types
+
+### [Issue microsoft/TypeScript-go#3792](https://github.com/microsoft/TypeScript-go/issues/3792) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
+
+**\[lsp\] Experimental server capabilities should be defined on "experimental" object**
+
+*Align server capabilities with the LSP specification by defining experimental features under the "experimental" property*
+
+ * (2 weeks ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **andrewbranch**
+ * **andrewbranch** assigned to **Copilot**
 
 ### [PR microsoft/TypeScript-go#3871](https://github.com/microsoft/TypeScript-go/pull/3871) (Open, **sandersn**, **RyanCavanaugh**, **Copilot**)
 
@@ -312,7 +321,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/4099#issuecomment-4583419517) **mds-ant** wondered whether the behavior was intentional and noted it shouldn't be a major issue as users migrate from `assert` to `with`, observing other tools might face similar parse error issues
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open)
+### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open, `Needs More Info`)
 
 **Declaration emit spends significant CPU in getAliasForSymbolInContainer / getAlternativeContainingModules**
 
@@ -443,6 +452,17 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4122#issuecomment-4594562881) **jakebailey** said "It's definitely an error, but I have no idea why this would be getting transformed; this isn't critical but I would be interested in a PR, sure."
  * (today) **jakebailey** closed the issue
 
+### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Open)
+
+**JSDoc @satisfies on export default is enforced by tsgo but ignored by tsc**
+
+*tsgo enforces JSDoc @satisfies on export default assignments while tsc ignores the type mismatch*
+
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594569156) **a-tarasyuk** asked whether JSDocSatisfiesTag should apply to a direct ExportAssignment
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594581173) **jakebailey** questioned whether this behavior in 6.0 was an oversight and provided a code snippet that errors
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594583449) **jakebailey** said "But maybe the "right" way is to stick @satisfies onto the expression inside the export."
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4614286914) **sandersn** recalled intentionally pushing satisfies down to the expression in Corsa and for issue #4128, and noted uncertainty about Strada and possibly not updating CHANGES.md
+
 ### [Issue microsoft/TypeScript-go#4129](https://github.com/microsoft/TypeScript-go/issues/4129) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports compiler\-option diagnostics even when syntactic errors exist**
@@ -513,7 +533,7 @@
  * (2 days ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4140](https://github.com/microsoft/TypeScript-go/pull/4140) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4140](https://github.com/microsoft/TypeScript-go/pull/4140) (Closed, **jakebailey**, **Copilot**)
 
 **Align tsconfig JSON key diagnostics with TypeScript**
 
@@ -583,7 +603,7 @@
  * (yesterday) **Copilot** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4163](https://github.com/microsoft/TypeScript-go/pull/4163) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4163](https://github.com/microsoft/TypeScript-go/pull/4163) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic on overlapping wildcard path patterns**
 
@@ -594,7 +614,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4163#issuecomment-4606796387) **jakebailey** said "@copilot Fix your lint failures"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4163#issuecomment-4606881201) **Copilot** mentioned fixing lint failures by adding t.Parallel() to TestPatternOverlappingMatch in internal/core/pattern_test.go and noting commit 2a206597
 
-### [PR microsoft/TypeScript-go#4171](https://github.com/microsoft/TypeScript-go/pull/4171) (Open)
+### [PR microsoft/TypeScript-go#4171](https://github.com/microsoft/TypeScript-go/pull/4171) (Closed)
 
 **Consolidate LSP logs into single output pane**
 
@@ -661,7 +681,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4179#issuecomment-4606298832) **gabritto** asked how Visual Studio would use the project information and whether having only partial project info was acceptable
  * [today](https://github.com/microsoft/TypeScript-go/pull/4179#issuecomment-4606882567) **navya9singh** explained how Visual Studio uses partial project information from the snapshot to populate the Roslyn workspace for the Task List and why partial data suffices
 
-### [Issue microsoft/TypeScript-go#4180](https://github.com/microsoft/TypeScript-go/issues/4180) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4180](https://github.com/microsoft/TypeScript-go/issues/4180) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **tsgo LSP crashes in WebStorm when opening \.mts file in mixed CJS/ESM repo**
 
@@ -676,7 +696,7 @@
 
 **Fix a slew of UTF\-8/UTF\-16 related issues**
 
-*Implement WTF-8 based handling and raw-byte storage to fix multiple UTF-8 and UTF-16 related bugs.*
+*Adopt a WTF-8-inspired approach to fix multiple UTF-8/UTF-16 encoding issues while preserving raw byte storage of source files.*
 
  * created by **jakebailey**
 
@@ -709,7 +729,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#4185](https://github.com/microsoft/TypeScript-go/pull/4185) (Open)
+### [PR microsoft/TypeScript-go#4185](https://github.com/microsoft/TypeScript-go/pull/4185) (Closed)
 
 **\[API\] use integer ids, look up node handles by visit\-order index in file**
 
@@ -717,18 +737,18 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#4186](https://github.com/microsoft/TypeScript-go/pull/4186) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#4186](https://github.com/microsoft/TypeScript-go/pull/4186) (Closed, **andrewbranch**, **Copilot**)
 
-**Move experimental server capabilities to \`experimental\` object per LSP spec**
+**Move experimental LSP capabilities to \`experimental\` object per spec**
 
-*Relocate customSourceDefinitionProvider and customMultiDocumentHighlightProvider into the experimental field of ServerCapabilities to comply with the LSP spec*
+*Move all non-VS experimental LSP client and server capabilities into the experimental field as per spec.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4186#issuecomment-4607734441) **andrewbranch** said "@copilot I can't believe I'm saying this but I'm not sure you need a test for this. I will validate in actual VS Code end to end."
  * [today](https://github.com/microsoft/TypeScript-go/pull/4186#issuecomment-4607752496) **Copilot** stated that they would validate in VS Code end-to-end and removed the test in commit 7f2e507
 
-### [Issue microsoft/TypeScript-go#4187](https://github.com/microsoft/TypeScript-go/issues/4187) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4187](https://github.com/microsoft/TypeScript-go/issues/4187) (Closed, `Crash`)
 
 **panic handling request textDocument/definition**
 
@@ -737,15 +757,16 @@
  * created by **Withered-Flower-0422**
  * **Withered-Flower-0422** added label `Crash`
 
-### [PR microsoft/TypeScript-go#4188](https://github.com/microsoft/TypeScript-go/pull/4188) (Open)
+### [PR microsoft/TypeScript-go#4188](https://github.com/microsoft/TypeScript-go/pull/4188) (Closed)
 
 **Remove fswatch cross\-platform CI VM testing**
 
 *Remove flaky fswatch cross-platform CI VM tests that block merges and provide little benefit*
 
  * created by **jakebailey**
+ * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4189](https://github.com/microsoft/TypeScript-go/pull/4189) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4189](https://github.com/microsoft/TypeScript-go/pull/4189) (Closed, **jakebailey**, **Copilot**)
 
 **Fix overlay script kind fallback for unknown LSP language IDs**
 
@@ -754,11 +775,20 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4190](https://github.com/microsoft/TypeScript-go/pull/4190) (Open)
+### [PR microsoft/TypeScript-go#4190](https://github.com/microsoft/TypeScript-go/pull/4190) (Closed)
 
 **fix\(4187\): avoid decorator signature panic on invalid targets**
 
 *Avoid panics by validating decorator targets before signature processing for invalid decorator applications.*
 
  * created by **a-tarasyuk**
+
+### [PR microsoft/TypeScript-go#4191](https://github.com/microsoft/TypeScript-go/pull/4191) (Closed)
+
+**Fix infinite recursion caused by CFA in loop with destructuring**
+
+*Exclude binding elements from computed property name extraction to prevent infinite recursion in control flow analysis loops with destructuring.*
+
+ * created by **ahejlsberg**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4191#issuecomment-4614175653) **jakebailey** questioned using the phrase 'This PR fixes microsoft/TypeScript#63192' and suggested opening a Strada PR to properly close the issue
 

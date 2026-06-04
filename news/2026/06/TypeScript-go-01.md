@@ -1,6 +1,6 @@
 # Report for 2026-06-01 (Monday, June 1st, 2026)
 
-18 different users commented on 104 different issues.
+18 different users commented on 105 different issues.
 
 ## Recommended Actions
 
@@ -138,7 +138,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4008#issuecomment-4579739549) **Copilot** extracted duplicated directory correction into InfoCacheEntry.WithPackageDirectory with explanatory comment
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4015](https://github.com/microsoft/TypeScript-go/pull/4015) (Open)
+### [PR microsoft/TypeScript-go#4015](https://github.com/microsoft/TypeScript-go/pull/4015) (Closed)
 
 **Do not emit declaration files when they contain a declaration emit error**
 
@@ -315,7 +315,7 @@
  * created by **hkleungai**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4079#issuecomment-4597396462) **danyalahmed1995** opened a PR to focus the fix on declaration emit for optional/defaulted parameters, added a regression test, and updated the baselines
 
-### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in declaration emit for a set accessor with no parameters**
 
@@ -325,7 +325,7 @@
  * **mds-ant** added label `Crash`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in \`tryLoadInputFileForPath\` when an exports/imports target equals the declarationDir/outDir**
 
@@ -335,7 +335,7 @@
  * **mds-ant** added label `Crash`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic on overlapping wildcard patterns**
 
@@ -354,7 +354,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Closed, **jakebailey**, **Copilot**)
 
 **Expando function inside a namespace emits \`export declare namespace\`**
 
@@ -363,7 +363,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Closed, **jakebailey**, **Copilot**)
 
 **Emitted JSX factory differs for @jsx pragma preceded by another @token in the same comment**
 
@@ -372,7 +372,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo drops TS2527 and emits an invalid \.d\.ts when a class member's inferred type is an object literal containing \`this\`**
 
@@ -381,7 +381,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open)
+### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open, `Needs More Info`)
 
 **Declaration emit spends significant CPU in getAliasForSymbolInContainer / getAlternativeContainingModules**
 
@@ -409,7 +409,7 @@
  * created by **a-tarasyuk**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Closed, **jakebailey**, **Copilot**)
 
 **Exit codes 1 and 2 \(OutputsSkipped vs OutputsGenerated\) are swapped**
 
@@ -428,7 +428,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4116#issuecomment-4595112491) **jakebailey** said "Odd that we are not reusing these nodes."
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, **jakebailey**, **Copilot**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -476,7 +476,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Closed, **jakebailey**, **Copilot**)
 
 **'Duplicate function implementation' reported on function redeclaration in checked \.js files**
 
@@ -622,7 +622,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4154](https://github.com/microsoft/TypeScript-go/pull/4154) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4154](https://github.com/microsoft/TypeScript-go/pull/4154) (Closed, **jakebailey**, **Copilot**)
 
 **Fix spurious TS2393 on function redeclaration in checked \.js files**
 
@@ -676,7 +676,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4158#issuecomment-4595857814) **jakebailey** said "@copilot+claude-opus-4.8 no test??"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4158#issuecomment-4595951958) **Copilot** added a compiler test covering negative and positive numeric literal behaviors with baselines
 
-### [PR microsoft/TypeScript-go#4159](https://github.com/microsoft/TypeScript-go/pull/4159) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4159](https://github.com/microsoft/TypeScript-go/pull/4159) (Closed, **jakebailey**, **Copilot**)
 
 **Fix swapped OutputsSkipped/OutputsGenerated exit codes**
 
@@ -694,7 +694,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4161](https://github.com/microsoft/TypeScript-go/pull/4161) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4161](https://github.com/microsoft/TypeScript-go/pull/4161) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic in declaration emit for a set accessor with no parameters**
 
@@ -703,7 +703,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4162](https://github.com/microsoft/TypeScript-go/pull/4162) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4162](https://github.com/microsoft/TypeScript-go/pull/4162) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic in tryLoadInputFileForPath when an exports/imports target equals the declarationDir/outDir**
 
@@ -712,7 +712,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4163](https://github.com/microsoft/TypeScript-go/pull/4163) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4163](https://github.com/microsoft/TypeScript-go/pull/4163) (Closed, **jakebailey**, **Copilot**)
 
 **Fix panic on overlapping wildcard path patterns**
 
@@ -721,7 +721,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4164](https://github.com/microsoft/TypeScript-go/pull/4164) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4164](https://github.com/microsoft/TypeScript-go/pull/4164) (Closed, **jakebailey**, **Copilot**)
 
 **Fix expando function in namespace emitting invalid nested \`declare namespace\`**
 
@@ -730,7 +730,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4165](https://github.com/microsoft/TypeScript-go/pull/4165) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4165](https://github.com/microsoft/TypeScript-go/pull/4165) (Closed, **jakebailey**, **Copilot**)
 
 **Match TypeScript's per\-line pragma scanning for @jsx in multi\-line comments**
 
@@ -739,7 +739,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4166](https://github.com/microsoft/TypeScript-go/pull/4166) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4166](https://github.com/microsoft/TypeScript-go/pull/4166) (Closed, **jakebailey**, **Copilot**)
 
 **Report TS2527 for inferred object\-literal types referencing \`this\` in declaration emit**
 
@@ -748,7 +748,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4167](https://github.com/microsoft/TypeScript-go/issues/4167) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4167](https://github.com/microsoft/TypeScript-go/issues/4167) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo mis\-parses \`\.await\` member access as top\-level await in module\-scope JS with JSDoc \(spurious TS1146/TS1161\)**
 
@@ -766,7 +766,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4169](https://github.com/microsoft/TypeScript-go/pull/4169) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4169](https://github.com/microsoft/TypeScript-go/pull/4169) (Closed, **jakebailey**, **Copilot**)
 
 **Fix \`\.await\` member access mis\-parsed as top\-level await in JS modules with JSDoc**
 
@@ -784,7 +784,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4171](https://github.com/microsoft/TypeScript-go/pull/4171) (Open)
+### [PR microsoft/TypeScript-go#4171](https://github.com/microsoft/TypeScript-go/pull/4171) (Closed)
 
 **Consolidate LSP logs into single output pane**
 
@@ -799,12 +799,4 @@
 *Update declaration emission for optional parameters to avoid redundant '| undefined' wrapping when types already include undefined*
 
  * created by **danyalahmed1995**
-
-### [PR microsoft/TypeScript-go#4173](https://github.com/microsoft/TypeScript-go/pull/4173) (Closed)
-
-**Consistently name VS types with prefix VS**
-
-*Apply the Go-style VS prefix to all relevant types to ensure consistent naming*
-
- * created by **jakebailey**
 

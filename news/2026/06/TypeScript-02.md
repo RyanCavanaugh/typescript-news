@@ -1,8 +1,24 @@
 # Report for 2026-06-02 (Tuesday, June 2nd, 2026)
 
-7 different users commented on 23 different issues.
+8 different users commented on 33 different issues.
+
+## Recommended Actions
+
+ * Response Recommended
+    * @umenosuke reported a potential bug where the compiler accepted incorrect types via index signatures under strict mode in [microsoft/TypeScript#27144](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-4614095827)
 
 ## Activity Summary
+
+### [Issue microsoft/TypeScript#27144](https://github.com/microsoft/TypeScript/issues/27144) (Open, `Bug`, `Domain: Index Types`)
+
+**Index signature is assignable to weak type whose properties don't match the signature type**
+
+*TypeScript allows assigning a string-indexed number type to an interface with an optional string property without error.*
+
+ * [1.5 years ago](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-2487564210) **umenosuke** reported having trouble and provided a playground link
+ * [1 year ago](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-2825552889) **jthemphill** explained that all file properties being optional means any object matches the type and suggested making size non-optional, providing a playground link
+ * **RyanCavanaugh** added label `Domain: Index Types`
+ * [later](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-4614095827) **umenosuke** demonstrated that boolean values were accepted for an optional string property via an index signature without strict mode errors
 
 ### [Issue microsoft/TypeScript#63498](https://github.com/microsoft/TypeScript/issues/63498) (Open, `Needs Investigation`)
 
@@ -36,7 +52,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4605191004) **RyanCavanaugh** explained that never must always be a valid keyof object using logical arguments
  * **RyanCavanaugh** added label `Not a Defect`
 
-### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`, `Domain: JS Emit`)
 
 **Declarations that shadow global \`Symbol\`  break emit for \`using\` declarations**
 
@@ -44,7 +60,7 @@
 
  * created by **DanielRosenwasser**
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63522#issuecomment-4592215906) **nmain** said "Similar to https://github.com/microsoft/TypeScript/issues/61150."
- * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+ * (today) **RyanCavanaugh** added labels `Bug`, `Domain: JS Emit`, and set milestone to `Backlog`
 
 ### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Open, `Working as Intended`)
 

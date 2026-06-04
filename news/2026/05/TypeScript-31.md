@@ -80,7 +80,7 @@
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`, `Domain: JS Emit`)
 
 **Declarations that shadow global \`Symbol\`  break emit for \`using\` declarations**
 

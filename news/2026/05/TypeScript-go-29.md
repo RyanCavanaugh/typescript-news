@@ -1,6 +1,6 @@
 # Report for 2026-05-29 (Friday, May 29th, 2026)
 
-12 different users commented on 38 different issues.
+12 different users commented on 39 different issues.
 
 ## Recommended Actions
 
@@ -140,7 +140,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#4078](https://github.com/microsoft/TypeScript-go/pull/4078) (Open)
+### [PR microsoft/TypeScript-go#4078](https://github.com/microsoft/TypeScript-go/pull/4078) (Closed, **DanielRosenwasser**)
 
 **Quick info & find\-all\-refs tests for JSDoc namespaces**
 
@@ -172,7 +172,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4082](https://github.com/microsoft/TypeScript-go/issues/4082) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in declaration emit for a set accessor with no parameters**
 
@@ -190,7 +190,7 @@
  * created by **mds-ant**
  * (later) **mds-ant** closed the issue
 
-### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4084](https://github.com/microsoft/TypeScript-go/issues/4084) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic in \`tryLoadInputFileForPath\` when an exports/imports target equals the declarationDir/outDir**
 
@@ -199,7 +199,7 @@
  * created by **mds-ant**
  * **mds-ant** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4085](https://github.com/microsoft/TypeScript-go/issues/4085) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **Panic on overlapping wildcard patterns**
 
@@ -225,7 +225,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4088](https://github.com/microsoft/TypeScript-go/issues/4088) (Closed, **jakebailey**, **Copilot**)
 
 **Expando function inside a namespace emits \`export declare namespace\`**
 
@@ -273,7 +273,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4094](https://github.com/microsoft/TypeScript-go/issues/4094) (Closed, **jakebailey**, **Copilot**)
 
 **Emitted JSX factory differs for @jsx pragma preceded by another @token in the same comment**
 
@@ -305,7 +305,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4098](https://github.com/microsoft/TypeScript-go/issues/4098) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo drops TS2527 and emits an invalid \.d\.ts when a class member's inferred type is an object literal containing \`this\`**
 
@@ -329,7 +329,7 @@
 
  * created by **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open)
+### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open, `Needs More Info`)
 
 **Declaration emit spends significant CPU in getAliasForSymbolInContainer / getAlternativeContainingModules**
 

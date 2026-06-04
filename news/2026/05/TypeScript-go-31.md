@@ -69,7 +69,7 @@
  * created by **mds-ant**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4136#issuecomment-4589547405) **JoostK** said "https://github.com/microsoft/typescript-go/issues/3753"
 
-### [PR microsoft/TypeScript-go#4144](https://github.com/microsoft/TypeScript-go/pull/4144) (Open)
+### [PR microsoft/TypeScript-go#4144](https://github.com/microsoft/TypeScript-go/pull/4144) (Closed)
 
 **fix\(checker\): align template literal inference with tsc UTF\-16 surrog…**
 
@@ -78,7 +78,7 @@
  * created by **Utsav006**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4144#issuecomment-4589427919) **Utsav006** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript-go#4145](https://github.com/microsoft/TypeScript-go/issues/4145) (Open)
+### [Issue microsoft/TypeScript-go#4145](https://github.com/microsoft/TypeScript-go/issues/4145) (Closed)
 
 **strict\-family checks \(strictPropertyInitialization, useUnknownInCatchVariables\) incorrectly enabled when only strictNullChecks is set — regression in dev\.20260206\.1**
 
@@ -95,7 +95,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4147](https://github.com/microsoft/TypeScript-go/issues/4147) (Open)
+### [Issue microsoft/TypeScript-go#4147](https://github.com/microsoft/TypeScript-go/issues/4147) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **tsgo \-b emits src/ subpath in declaration files where tsc \-b emits types/**
 

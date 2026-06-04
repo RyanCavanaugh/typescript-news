@@ -250,7 +250,7 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3874](https://github.com/microsoft/TypeScript-go/pull/3874) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3874](https://github.com/microsoft/TypeScript-go/pull/3874) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix nil pointer crash in Program\.SingleThreaded on snapshot update**
 
@@ -293,7 +293,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3912#issuecomment-4481362050) **jakebailey** noted that the situation seemed spooky and suggested consistent use of WTF-8 everywhere
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3923](https://github.com/microsoft/TypeScript-go/pull/3923) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#3923](https://github.com/microsoft/TypeScript-go/pull/3923) (Closed, **jakebailey**, **Copilot**)
 
 **Fix source\-map emit panic for unclosed blocks**
 
@@ -303,11 +303,11 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3941](https://github.com/microsoft/TypeScript-go/pull/3941) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3941](https://github.com/microsoft/TypeScript-go/pull/3941) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix nil dereference crash in loadModuleFromSpecificNodeModulesDirectory**
 
-*Prevent nil dereference in loadModuleFromSpecificNodeModulesDirectory by adding a packageInfo.Exists() guard and a subpath node_modules resolution test case.*
+*Add packageInfo.Exists() check in loadModuleFromSpecificNodeModulesDirectory to prevent nil dereference and include concurrent-resolution regression tests.*
 
  * **Copilot** assigned to **DanielRosenwasser**
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3941#issuecomment-4474794206) **DanielRosenwasser** said "The test seems insufficient if this is about race conditions. @copilot is there a better test here? Possibly a server test or a programmatic test of our APIs?"
@@ -335,7 +335,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3994#issuecomment-4492417437) **Copilot** addressed the request by adding a fourslash test and verifying it failed without the production fix
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#4015](https://github.com/microsoft/TypeScript-go/pull/4015) (Open)
+### [PR microsoft/TypeScript-go#4015](https://github.com/microsoft/TypeScript-go/pull/4015) (Closed)
 
 **Do not emit declaration files when they contain a declaration emit error**
 

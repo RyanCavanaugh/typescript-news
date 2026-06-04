@@ -130,7 +130,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open)
+### [Issue microsoft/TypeScript-go#4101](https://github.com/microsoft/TypeScript-go/issues/4101) (Open, `Needs More Info`)
 
 **Declaration emit spends significant CPU in getAliasForSymbolInContainer / getAlternativeContainingModules**
 
@@ -194,7 +194,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4109](https://github.com/microsoft/TypeScript-go/pull/4109) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4109](https://github.com/microsoft/TypeScript-go/pull/4109) (Closed, **jakebailey**, **Copilot**)
 
 **Preserve lone surrogate escapes in string literal emit**
 
@@ -245,7 +245,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4115](https://github.com/microsoft/TypeScript-go/issues/4115) (Closed, **jakebailey**, **Copilot**)
 
 **Exit codes 1 and 2 \(OutputsSkipped vs OutputsGenerated\) are swapped**
 
@@ -261,7 +261,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4117](https://github.com/microsoft/TypeScript-go/issues/4117) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4117](https://github.com/microsoft/TypeScript-go/issues/4117) (Closed, **jakebailey**, **Copilot**)
 
 **\`\-\-inlineSourceMap\` leaks into \`\-\-declarationMap\` emit**
 
@@ -270,7 +270,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, **jakebailey**, **Copilot**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -327,7 +327,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4125](https://github.com/microsoft/TypeScript-go/issues/4125) (Closed, **jakebailey**, **Copilot**)
 
 **'Duplicate function implementation' reported on function redeclaration in checked \.js files**
 
@@ -393,7 +393,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4133](https://github.com/microsoft/TypeScript-go/issues/4133) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4133](https://github.com/microsoft/TypeScript-go/issues/4133) (Closed, **jakebailey**, **Copilot**)
 
 **Unquoted tsconfig\.json keys: tsgo reports each TS1327 twice**
 
@@ -453,7 +453,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4140](https://github.com/microsoft/TypeScript-go/pull/4140) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4140](https://github.com/microsoft/TypeScript-go/pull/4140) (Closed, **jakebailey**, **Copilot**)
 
 **Align tsconfig JSON key diagnostics with TypeScript**
 
@@ -480,7 +480,7 @@
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4143](https://github.com/microsoft/TypeScript-go/pull/4143) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4143](https://github.com/microsoft/TypeScript-go/pull/4143) (Closed, **jakebailey**, **Copilot**)
 
 **Prevent inline source maps in declaration map emit**
 
