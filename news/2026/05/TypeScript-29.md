@@ -1,6 +1,6 @@
 # Report for 2026-05-29 (Friday, May 29th, 2026)
 
-5 different users commented on 5 different issues.
+5 different users commented on 6 different issues.
 
 ## Recommended Actions
 
@@ -29,7 +29,7 @@
  * (5.1 years ago) **RyanCavanaugh** added labels `Bug`, `Domain: Type Inference`, and set milestone to `Backlog`
  * [later](https://github.com/microsoft/TypeScript/issues/43429#issuecomment-4583036195) **jacekkopecky** demonstrated a simpler reproduction where a union of constant tuples was not recognized as a tuple type and triggered a spread argument error
 
-### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Closed, `Not a Defect`)
 
 **Reassigning of inferred \`object\` with Indexed access value does not widen it's type**
 
@@ -52,7 +52,7 @@
  * **RyanCavanaugh** added label `Not a Defect`
  * [today](https://github.com/microsoft/TypeScript/issues/63515#issuecomment-4577630364) **RyanCavanaugh** explained that simulated exact types aren't perfect and that two different function signatures having different behavior isn't a bug
 
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
 

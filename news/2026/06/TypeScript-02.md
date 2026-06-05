@@ -40,7 +40,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63502#issuecomment-4605737454) **dependabot[bot]** said "Looks like these dependencies are updatable in another way, so this is no longer needed."
  * (today) **dependabot[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Closed, `Not a Defect`)
 
 **Reassigning of inferred \`object\` with Indexed access value does not widen it's type**
 
@@ -62,7 +62,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63522#issuecomment-4592215906) **nmain** said "Similar to https://github.com/microsoft/TypeScript/issues/61150."
  * (today) **RyanCavanaugh** added labels `Bug`, `Domain: JS Emit`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Closed, `Working as Intended`)
 
 **tsc may fail to report error when \`file\.js\` & \`file\.d\.ts\` coexist, even when \`@ts\-check\` is added on \`file\.js\`\.**
 
@@ -98,7 +98,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63526#issuecomment-4605326192) **RyanCavanaugh** said "This doesn't meet the 6.0 patch bar https://github.com/microsoft/TypeScript/issues/62963#issuecomment-4100336368"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
 
 **\`erasableSyntaxOnly\` should error on unerasable \`as\`/\`satisfies\`**
 

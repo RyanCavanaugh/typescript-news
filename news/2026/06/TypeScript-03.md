@@ -62,7 +62,7 @@
  * **typescript-bot** added label `Fix Available`
  * **andrewbranch** removed label `Fix Available`
 
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
 
@@ -74,7 +74,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * (today) **RyanCavanaugh** reopened the issue
 
-### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
 
 **\`erasableSyntaxOnly\` should error on unerasable \`as\`/\`satisfies\`**
 
@@ -84,7 +84,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4606483396) **RyanCavanaugh** summarized key takeaways about erasableSyntaxOnly, questioned shipped precedence rules, and proposed testing top1000 code to determine if a precedence error could be introduced in TS 7.0
  * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4615276410) **ahejlsberg** explained that only operators with lower or equal precedence can follow `as` or `satisfies`, provided an example, and proposed a PR to stop parsing at unexpected higher-precedence operators
 
-### [Issue microsoft/TypeScript#63531](https://github.com/microsoft/TypeScript/issues/63531) (Open)
+### [Issue microsoft/TypeScript#63531](https://github.com/microsoft/TypeScript/issues/63531) (Open, `Help Wanted`, `Docs`)
 
 **Markdown heading level bug in Narrowing documentation**
 
@@ -93,7 +93,7 @@
  * created by **mzleman**
  * [later](https://github.com/microsoft/TypeScript/issues/63531#issuecomment-4620530645) **MartinJohns** showed a screenshot of the bottom of the page
 
-### [Issue microsoft/TypeScript#63532](https://github.com/microsoft/TypeScript/issues/63532) (Open)
+### [Issue microsoft/TypeScript#63532](https://github.com/microsoft/TypeScript/issues/63532) (Closed, `Suggestion`, `Out of Scope`)
 
 **Runtime\-safe type casts and checks for TypeScript\.**
 

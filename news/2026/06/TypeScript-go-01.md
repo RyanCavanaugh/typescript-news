@@ -428,7 +428,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4116#issuecomment-4595112491) **jakebailey** said "Odd that we are not reusing these nodes."
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -506,7 +506,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594581173) **jakebailey** questioned whether this behavior in 6.0 was an oversight and provided a code snippet that errors
  * [today](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594583449) **jakebailey** said "But maybe the "right" way is to stick @satisfies onto the expression inside the export."
 
-### [Issue microsoft/TypeScript-go#4128](https://github.com/microsoft/TypeScript-go/issues/4128) (Open)
+### [Issue microsoft/TypeScript-go#4128](https://github.com/microsoft/TypeScript-go/issues/4128) (Closed)
 
 **JSDoc \`@type\` before \`return expr;\` acts as a type assertion in tsgo but is ignored in tsc**
 

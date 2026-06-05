@@ -68,7 +68,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63513#issuecomment-4594971656) **RyanCavanaugh** said "Linked issue is rejected."
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
 
@@ -155,7 +155,7 @@
  * created by **driphtyio**
  * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
 
 **\`erasableSyntaxOnly\` should error on unerasable \`as\`/\`satisfies\`**
 

@@ -471,7 +471,7 @@
  * (3 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -821,7 +821,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4191#issuecomment-4615250669) **RyanCavanaugh** said "We're already routinely closing bugs in the other repo if they've been fixed in 7.0. I don't see a contradiction"
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#4192](https://github.com/microsoft/TypeScript-go/pull/4192) (Open)
+### [PR microsoft/TypeScript-go#4192](https://github.com/microsoft/TypeScript-go/pull/4192) (Closed)
 
 **Stop parsing constructs that make it impossible to erase \`as\`/\`satisfies\`**
 

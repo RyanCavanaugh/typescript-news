@@ -270,7 +270,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -352,7 +352,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4128](https://github.com/microsoft/TypeScript-go/issues/4128) (Open)
+### [Issue microsoft/TypeScript-go#4128](https://github.com/microsoft/TypeScript-go/issues/4128) (Closed)
 
 **JSDoc \`@type\` before \`return expr;\` acts as a type assertion in tsgo but is ignored in tsc**
 
