@@ -1,6 +1,6 @@
 # Report for 2026-06-02 (Tuesday, June 2nd, 2026)
 
-8 different users commented on 33 different issues.
+7 different users commented on 33 different issues.
 
 ## Recommended Actions
 
@@ -74,7 +74,7 @@
  * **RyanCavanaugh** added label `Working as Intended`
  * [today](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4605129005) **RyanCavanaugh** noted that automatically ingesting both would cause duplicate identifier errors and suggested it was a configuration error
 
-### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Closed, `For Uncommitted Bug`)
 
 **Fix JSDoc grammar typo: 'returns a undefined' → 'returns undefined'**
 
@@ -85,7 +85,6 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **RyanCavanaugh** closed the issue
  * (today) **RyanCavanaugh** reopened the issue
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4606784748) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with a specific command
 
 ### [PR microsoft/TypeScript#63526](https://github.com/microsoft/TypeScript/pull/63526) (Closed, `For Backlog Bug`)
 

@@ -1,6 +1,6 @@
 # Report for 2026-05-30 (Saturday, May 30th, 2026)
 
-7 different users commented on 57 different issues.
+7 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -66,7 +66,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **Lone surrogate in enum member name / const enum value is corrupted to U\+FFFD in emitted JS**
 
@@ -229,7 +229,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#4113](https://github.com/microsoft/TypeScript-go/pull/4113) (Open)
+### [PR microsoft/TypeScript-go#4113](https://github.com/microsoft/TypeScript-go/pull/4113) (Closed)
 
 **Add missing APIs required for WebStorm integration\.**
 
@@ -253,7 +253,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Declaration emit differs for negative numeric const literals**
 
@@ -270,7 +270,7 @@
  * created by **mds-ant**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -278,7 +278,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open, `bug`, **jakebailey**)
 
 **U\+2028/U\+2029 inside a multi\-line comment leaves 2 stray bytes in emitted JS \(invalid UTF\-8\)**
 
@@ -286,7 +286,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, `possible improvement`, **jakebailey**, **Copilot**)
 
 **With multiple \`/\*\* @jsx \*/\` pragmas in one file, tsc uses the first and tsgo uses the last**
 
@@ -344,7 +344,7 @@
  * created by **mds-ant**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4126#issuecomment-4586850091) **hkleungai** said "Seems to be a duplicate of https://github.com/microsoft/typescript-go/issues/3683."
 
-### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Open)
+### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Closed)
 
 **JSDoc @satisfies on export default is enforced by tsgo but ignored by tsc**
 
@@ -376,7 +376,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4131](https://github.com/microsoft/TypeScript-go/issues/4131) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4131](https://github.com/microsoft/TypeScript-go/issues/4131) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **tsgo silently swallows JSON syntax errors in an extended tsconfig\.json file**
 
@@ -426,7 +426,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Closed, **jakebailey**)
 
 **Single\-character template literal inference consumes a full code point in tsgo vs one UTF\-16 code unit in tsc**
 

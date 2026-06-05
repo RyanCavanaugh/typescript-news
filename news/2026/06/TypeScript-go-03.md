@@ -322,7 +322,7 @@
  * created by **DanielRosenwasser**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#4069](https://github.com/microsoft/TypeScript-go/pull/4069) (Open)
+### [PR microsoft/TypeScript-go#4069](https://github.com/microsoft/TypeScript-go/pull/4069) (Open, `Voight-Kampff Anomaly`)
 
 **Fix JS bind expando declaration emit**
 
@@ -471,7 +471,7 @@
  * (3 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **gabritto** closed the issue
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -491,7 +491,7 @@
  * (2 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Open)
+### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Closed)
 
 **JSDoc @satisfies on export default is enforced by tsgo but ignored by tsc**
 
@@ -719,7 +719,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4171#issuecomment-4606607552) **jakebailey** said "LGTM though there are conflicts and maybe @DanielRosenwasser should comment."
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open)
+### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
 
 **Fix redundant undefined wrapping in optional parameter declaration emit**
 

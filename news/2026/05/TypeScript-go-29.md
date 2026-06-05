@@ -148,7 +148,7 @@
 
  * created by **DanielRosenwasser**
 
-### [Issue microsoft/TypeScript-go#4079](https://github.com/microsoft/TypeScript-go/issues/4079) (Open)
+### [Issue microsoft/TypeScript-go#4079](https://github.com/microsoft/TypeScript-go/issues/4079) (Open, `possible improvement`)
 
 **Behavior difference: Notable difference regarding optional function argument type emits**
 
@@ -257,7 +257,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **Lone surrogate in enum member name / const enum value is corrupted to U\+FFFD in emitted JS**
 

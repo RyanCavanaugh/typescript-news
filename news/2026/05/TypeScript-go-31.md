@@ -20,7 +20,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/issues/3617#issuecomment-4401880065) **RyanCavanaugh** said "@kuishou68 how does this manifest? There's no external-visible behavorial description nor testcase in that PR, so it's hard to know the severity/priority of this"
  * [later](https://github.com/microsoft/TypeScript-go/issues/3617#issuecomment-4592514890) **matyasf** described reproduction steps demonstrating incorrect import paths when building with tsgo in a composite TypeScript project
 
-### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open)
+### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open, `Voight-Kampff Anomaly`)
 
 **fix: prevent wildcard pattern from overriding exact match in FindBestPatternMatch**
 
@@ -31,7 +31,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [later](https://github.com/microsoft/TypeScript-go/pull/3618#issuecomment-4590877856) **kuishou68** explained why they traced tsconfig paths resolution, identified and fixed the StarIndex logic in FindBestPatternMatch, and added the requested test cases while requesting another review
 
-### [PR microsoft/TypeScript-go#4113](https://github.com/microsoft/TypeScript-go/pull/4113) (Open)
+### [PR microsoft/TypeScript-go#4113](https://github.com/microsoft/TypeScript-go/pull/4113) (Closed)
 
 **Add missing APIs required for WebStorm integration\.**
 

@@ -49,7 +49,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4599345981) **Andarist** questioned whether tests were required for all 267 items, noting an existing unit test included a single example of divergence
  * [later](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4600953236) **jakebailey** said "No, not all of them I don't think, but a few. Or some sort of way to generate them and then use https://github.com/microsoft/typescript-go/tree/main/internal/testutil/jstest to cross check?"
 
-### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open)
+### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open, `Voight-Kampff Anomaly`)
 
 **fix: prevent wildcard pattern from overriding exact match in FindBestPatternMatch**
 
@@ -306,7 +306,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4072#issuecomment-4578900164) **Copilot** extracted `relativeWorkspacePath` as a constant and used it for both `joinPath` and the relative tsdk path calculation
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#4079](https://github.com/microsoft/TypeScript-go/issues/4079) (Open)
+### [Issue microsoft/TypeScript-go#4079](https://github.com/microsoft/TypeScript-go/issues/4079) (Open, `possible improvement`)
 
 **Behavior difference: Notable difference regarding optional function argument type emits**
 
@@ -418,7 +418,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, `possible improvement`, **jakebailey**, **Copilot**)
 
 **Declaration emit differs for negative numeric const literals**
 
@@ -428,7 +428,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4116#issuecomment-4595112491) **jakebailey** said "Odd that we are not reusing these nodes."
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -437,7 +437,7 @@
  * created by **mds-ant**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4118#issuecomment-4595109846) **jakebailey** said "I suspect this is sort of intentional (or at least, was not thought of), given our reparsing system... Does anyone actually do this?"
 
-### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, `possible improvement`, **jakebailey**, **Copilot**)
 
 **With multiple \`/\*\* @jsx \*/\` pragmas in one file, tsc uses the first and tsgo uses the last**
 
@@ -495,7 +495,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4126#issuecomment-4586850091) **hkleungai** said "Seems to be a duplicate of https://github.com/microsoft/typescript-go/issues/3683."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Open)
+### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Closed)
 
 **JSDoc @satisfies on export default is enforced by tsgo but ignored by tsc**
 
@@ -552,7 +552,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4136#issuecomment-4589547405) **JoostK** said "https://github.com/microsoft/typescript-go/issues/3753"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Open, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Closed, **jakebailey**)
 
 **Single\-character template literal inference consumes a full code point in tsgo vs one UTF\-16 code unit in tsc**
 
@@ -792,7 +792,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open)
+### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
 
 **Fix redundant undefined wrapping in optional parameter declaration emit**
 

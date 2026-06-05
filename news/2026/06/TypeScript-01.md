@@ -134,7 +134,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63524#issuecomment-4594888219) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md#use-of-ai-assistance"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Closed, `For Uncommitted Bug`)
 
 **Fix JSDoc grammar typo: 'returns a undefined' → 'returns undefined'**
 

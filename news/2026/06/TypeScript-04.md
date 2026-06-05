@@ -1,6 +1,6 @@
 # Report for 2026-06-04 (Thursday, June 4th, 2026)
 
-9 different users commented on 20 different issues.
+9 different users commented on 23 different issues.
 
 ## Recommended Actions
 
@@ -79,15 +79,15 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4627426281) **typescript-bot** said "This issue has been marked as "Working as Intended" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-bot** closed the issue
 
-### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Closed, `For Uncommitted Bug`)
 
 **Fix JSDoc grammar typo: 'returns a undefined' → 'returns undefined'**
 
 *Grammar typo corrected in JSDoc for SymbolConstructor.keyFor by changing '@returns a undefined' to '@returns undefined'*
 
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (2 days ago) **RyanCavanaugh** closed the issue
  * (2 days ago) **RyanCavanaugh** reopened the issue
- * [2 days ago](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4606784748) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with a specific command
  * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4625580688) **RyanCavanaugh** said "@driphtyio need CLA sign before we can merge this"
 
 ### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
@@ -150,7 +150,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63534#issuecomment-4626922086) **RyanCavanaugh** said "#9998"
  * **RyanCavanaugh** added label `Duplicate`
 
-### [PR microsoft/TypeScript#63535](https://github.com/microsoft/TypeScript/pull/63535) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63535](https://github.com/microsoft/TypeScript/pull/63535) (Closed, `For Backlog Bug`)
 
 **Allow lone ampersands in Unicode sets regex classes**
 
@@ -160,7 +160,7 @@
  * **typescript-bot** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63535#issuecomment-4629413532) **Ijtihed** agreed to the Contributor License Agreement using the microsoft-github-policy-service command
 
-### [PR microsoft/TypeScript#63536](https://github.com/microsoft/TypeScript/pull/63536) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63536](https://github.com/microsoft/TypeScript/pull/63536) (Closed, `For Uncommitted Bug`, `Voight-Kampff Anomaly`)
 
 **fix catastrophic backtracking in jquery typesMap rule**
 
@@ -174,4 +174,5 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63536#issuecomment-4630607045) **jakebailey** stated they didn't plan to fix this now and noted it wasn't an issue in the new language server
  * [later](https://github.com/microsoft/TypeScript/pull/63536#issuecomment-4631652211) **dxbjavid** acknowledged that the Go server uses RE2, agreed there was no backtracking issue, and consented to leave the JS language service as-is
  * [later](https://github.com/microsoft/TypeScript/pull/63536#issuecomment-4633060366) **jakebailey** said "It's not that, but that it doesn't uses regexes for this at all"
+ * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
