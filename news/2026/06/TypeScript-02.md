@@ -1,138 +1,78 @@
-# Report for 2026-06-02 (Monday, June 1st, 2026)
+# Report for 2026-06-02 (Tuesday, June 2nd, 2026)
 
-9 different users commented on 22 different issues.
+7 different users commented on 33 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @ritschwumm asked where the `as` operator precedence is documented in [microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4602727661)
-    * @snarbles2 asked if “erasable syntax only” implies “blankable” or if that was just assumed in [microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603029422)
+    * @umenosuke reported a potential bug where the compiler accepted incorrect types via index signatures under strict mode in [microsoft/TypeScript#27144](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-4614095827)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#43368](https://github.com/microsoft/TypeScript/issues/43368) (Open, `Suggestion`, `Awaiting More Feedback`)
+### [Issue microsoft/TypeScript#27144](https://github.com/microsoft/TypeScript/issues/27144) (Open, `Bug`, `Domain: Index Types`)
 
-**Suggestion: Allow getters to have predicate return types**
+**Index signature is assignable to weak type whose properties don't match the signature type**
 
-*Enable TypeScript class getters to have user-defined type predicate return types for type guards.*
+*TypeScript allows assigning a string-indexed number type to an interface with an optional string property without error.*
 
- * [39 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-3243558010) **qolity** described encountering incorrect type inference with a property-based isRight approach and explaining why the type predicate method, though accurate, is prone to accidental misuse
- * [11 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4046270378) **alex-at-happening** said "That would be awesome to have it in TS"
- * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4410653140) **owenoak** said "+1 for this"
- * [later](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4600711749) **MaestroDD0S** said "+1 "
+ * [1.5 years ago](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-2487564210) **umenosuke** reported having trouble and provided a playground link
+ * [1 year ago](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-2825552889) **jthemphill** explained that all file properties being optional means any object matches the type and suggested making size non-optional, providing a playground link
+ * **RyanCavanaugh** added label `Domain: Index Types`
+ * [later](https://github.com/microsoft/TypeScript/issues/27144#issuecomment-4614095827) **umenosuke** demonstrated that boolean values were accepted for an optional string property via an index signature without strict mode errors
 
-### [Issue microsoft/TypeScript#63481](https://github.com/microsoft/TypeScript/issues/63481) (Open, `Help Wanted`, `Domain: lib.d.ts`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63498](https://github.com/microsoft/TypeScript/issues/63498) (Open, `Needs Investigation`)
 
-**\`ReadonlySet\` lacks documentation for \`has\`, \`forEach\` and \`size\`**
+**\`js/ts\.preferences\.autoImportFileExcludePatterns\` is not reflected promptly in IntelliSense suggestions**
 
-*ReadonlySet<T> in lib.es2015.collection.d.ts lacks documentation for its has, forEach, and size members.*
+*Changes to js/ts.preferences.autoImportFileExcludePatterns are not promptly reflected in IntelliSense import suggestions*
 
- * (2 weeks ago) **RyanCavanaugh** added labels `Domain: lib.d.ts`, `Possible Improvement`
- * [1 week ago](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4531194717) **vitalysinitsin** said "I'd like to do that!"
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4594935599) **RyanCavanaugh** said "Can people PLEASE stop sending PRs when there's already an open identical PR open for the issue? What is going on??"
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4595081680) **vitalysinitsin** noted that there were enough people looking into the issue and that they would bow out
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4595148889) **RyanCavanaugh** appreciated the check before PRing and noted that Claude’s issue search list top issue often attracts multiple PRs regardless of the docs
+ * created by **heroboy**
+ * (1 week ago) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `Backlog`
+ * [later](https://github.com/microsoft/TypeScript/issues/63498#issuecomment-4612318584) **jakebailey** said "This is more or less mooted by the new language server, no? I don't think we have this problem there."
 
-### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Closed, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63502](https://github.com/microsoft/TypeScript/pull/63502) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
-**Add missing JSDoc to ReadonlySet and ReadonlyMap members**
+**Bump the github\-actions group across 1 directory with 6 updates**
 
-*Add JSDoc comments to ReadonlySet and ReadonlyMap methods to match their mutable counterparts.*
+*Update six GitHub Actions in the repository root to their latest patch and minor versions.*
 
- * **typescript-bot** added label `For Backlog Bug`
- * [5 days ago](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4559385934) **MartinJohns** said "Why another one? There's already #63483 and #63488. Seems to be done by AI."
- * [5 days ago](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4559644821) **TxsharDev** thanked MartinJohns, noted that #63488 was closed and #63483 only covered ReadonlySet, added JSDoc to ReadonlyMap methods to fill the same documentation gap, offered to remove the ReadonlySet portion if maintainers preferred, and clarified that the JSDoc was hand-written rather than AI-generated
- * [today](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4595017578) **RyanCavanaugh** closed the pull request because it duplicated work and contained unhelpful commentary on JavaScript Map semantics
- * (today) **RyanCavanaugh** closed the issue
+ * (1 week ago) **typescript-bot** added labels `For Uncommitted Bug`, `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63502#issuecomment-4605737454) **dependabot[bot]** said "Looks like these dependencies are updatable in another way, so this is no longer needed."
+ * (today) **dependabot[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63512](https://github.com/microsoft/TypeScript/issues/63512) (Closed, `Not a Defect`)
+### [Issue microsoft/TypeScript#63514](https://github.com/microsoft/TypeScript/issues/63514) (Closed, `Not a Defect`)
 
-**Missing JSDoc annotations in esnext lib declaration files**
+**Reassigning of inferred \`object\` with Indexed access value does not widen it's type**
 
-*ESNext lib declaration files are missing JSDoc @param and @returns annotations, undermining IntelliSense documentation consistency.*
+*Reassigning an inferred object via indexed access in TypeScript fails to widen its type beyond object.*
 
- * created by **Se3do**
- * [today](https://github.com/microsoft/TypeScript/issues/63512#issuecomment-4594969497) **RyanCavanaugh** argued that adding tautological comments was noise and that feedback-driven actionable comments were needed
- * (today) **RyanCavanaugh** closed the issue
+ * [4 days ago](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4575968627) **nmain** said "https://typescript-eslint.io/rules/no-unsafe-member-access/ handles an any indexer but not a never indexer."
+ * [4 days ago](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4577327383) **svenvandescheur** explained that never is a valid keyof and that any opts out of type checks, referenced related issues, and noted that defaulting to any and never feels counterintuitive versus using unknown or treating never as a noop
+ * [4 days ago](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4577403452) **nmain** explained that the `never` type contains no values, thus satisfies all predicates, and that asserting a value as `never` implies unreachable code
+ * [today](https://github.com/microsoft/TypeScript/issues/63514#issuecomment-4605191004) **RyanCavanaugh** explained that never must always be a valid keyof object using logical arguments
  * **RyanCavanaugh** added label `Not a Defect`
 
-### [PR microsoft/TypeScript#63513](https://github.com/microsoft/TypeScript/pull/63513) (Closed, `For Uncommitted Bug`)
+### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`, `Domain: JS Emit`)
 
-**Add missing JSDoc param and returns tags to lib\.d\.ts esnext files**
+**Declarations that shadow global \`Symbol\`  break emit for \`using\` declarations**
 
-*Add missing JSDoc @param and @returns annotations to esnext lib.d.ts APIs including Error.isError, Date.toTemporalInstant, Atomics.pause, Map/WeakMap getOrInsert, Array.fromAsync, and Uint8Array.fromHex.*
+*Declaring a local Symbol class that shadows the global Symbol breaks using declaration emissions and leads to runtime Symbol.dispose errors.*
 
- * created by **Se3do**
- * **typescript-bot** added label `For Uncommitted Bug`
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/63513#issuecomment-4562709948) **Se3do** said "@microsoft-github-policy-service agree"
- * [today](https://github.com/microsoft/TypeScript/pull/63513#issuecomment-4594971656) **RyanCavanaugh** said "Linked issue is rejected."
- * (today) **RyanCavanaugh** closed the issue
+ * created by **DanielRosenwasser**
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63522#issuecomment-4592215906) **nmain** said "Similar to https://github.com/microsoft/TypeScript/issues/61150."
+ * (today) **RyanCavanaugh** added labels `Bug`, `Domain: JS Emit`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Closed, `Working as Intended`)
 
-**Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
+**tsc may fail to report error when \`file\.js\` & \`file\.d\.ts\` coexist, even when \`@ts\-check\` is added on \`file\.js\`\.**
 
-*Update Number.prototype.toFixed, toExponential, and toPrecision documentation to reflect the ES2018 spec’s increased digit limits of 0–100 and 1–100.*
+*After TypeScript 4.5 update, JavaScript files with @ts-check ignore errors if a corresponding .d.ts file is present.*
 
- * created by **ibondarenko1**
- * **typescript-bot** added label `For Backlog Bug`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
-
-### [PR microsoft/TypeScript#63518](https://github.com/microsoft/TypeScript/pull/63518) (Closed, `For Backlog Bug`)
-
-**fix: Inconsistencies in ESM\-style imports of accessibility\-modified proper\.\.\.**
-
-*Resolve inconsistencies in ESM-style imports of accessibility-modified class exports by updating checker logic and related documentation.*
-
- * created by **arnavnagzirkar**
- * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63518#issuecomment-4594906811) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63519](https://github.com/microsoft/TypeScript/pull/63519) (Closed, `For Backlog Bug`)
-
-**fix: \`silentNeverType\` leak in contextual parameter types coming from anon\.\.\.**
-
-*Propagate NonInferrableType flags to anonymous object type instantiations to prevent silentNeverType leaking in contextual parameter types.*
-
- * created by **arnavnagzirkar**
- * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63519#issuecomment-4594865254) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63520](https://github.com/microsoft/TypeScript/pull/63520) (Closed, `For Backlog Bug`)
-
-**fix: Deprecation error message reporting method type as deprecated instead\.\.\.**
-
-*Add an identifier check in addDeprecatedSuggestionWithSignature to display the deprecated method name instead of its full signature in deprecation messages.*
-
- * created by **arnavnagzirkar**
- * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63520#issuecomment-4594862655) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63521](https://github.com/microsoft/TypeScript/pull/63521) (Closed, `For Backlog Bug`)
-
-**fix: Incorrect report of self\-referencing type for static fields**
-
-*Prevent false circularity errors when inferring static property initializer types in generic class expressions by detecting in-progress symbol resolutions.*
-
- * created by **arnavnagzirkar**
- * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123) **RyanCavanaugh** noted that the change didn't meet the 6.0 patch bar and asked how Copilot was invoked
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63524](https://github.com/microsoft/TypeScript/pull/63524) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
-
-**feat\(lib\): add Math\.sumPrecise type definition \(ES2026\)**
-
-*Add Math.sumPrecise type definition to TypeScript library declarations for ES2026.*
-
- * created by **godfengliang**
- * **typescript-bot** added label `For Backlog Bug`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
- * [today](https://github.com/microsoft/TypeScript/pull/63524#issuecomment-4594888219) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md#use-of-ai-assistance"
- * (today) **RyanCavanaugh** closed the issue
+ * created by **hkleungai**
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4591680219) **MartinJohns** explained that .d.ts files took priority over .js files and suggested enabling --skipLibCheck or generating .d.ts from .js
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4592123266) **hkleungai** noted skipLibCheck was enabled but the bug persisted, questioned that .d.ts files took priority over .js files, and suggested documentation clarification, highlighting a tsc ordering inconsistency
+ * **RyanCavanaugh** added label `Working as Intended`
+ * [today](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4605129005) **RyanCavanaugh** noted that automatically ingesting both would cause duplicate identifier errors and suggested it was a configuration error
 
 ### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Closed, `For Uncommitted Bug`)
 
@@ -140,11 +80,11 @@
 
 *Grammar typo corrected in JSDoc for SymbolConstructor.keyFor by changing '@returns a undefined' to '@returns undefined'*
 
- * created by **driphtyio**
- * **typescript-bot** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055168) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055185) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055168) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055185) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **RyanCavanaugh** closed the issue
+ * (today) **RyanCavanaugh** reopened the issue
 
 ### [PR microsoft/TypeScript#63526](https://github.com/microsoft/TypeScript/pull/63526) (Closed, `For Backlog Bug`)
 
@@ -153,7 +93,9 @@
 *Permit using enum members with non-identifier names as computed property keys in type literals by treating bracket access expressions as late-bindable.*
 
  * created by **driphtyio**
- * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
+ * (yesterday) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63526#issuecomment-4605326192) **RyanCavanaugh** said "This doesn't meet the 6.0 patch bar https://github.com/microsoft/TypeScript/issues/62963#issuecomment-4100336368"
+ * (today) **RyanCavanaugh** closed the issue
 
 ### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
 
@@ -161,8 +103,43 @@
 
 *ErasableSyntaxOnly should report errors for as or satisfies expressions that cannot be safely removed.*
 
- * created by **robpalme**
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4602727661) **ritschwumm** expressed surprise at the `as` operator precedence and wondered where it was documented
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603029422) **snarbles2** mentioned inability to find documentation for the `as` operator precedence and asked whether “erasable syntax only” implies “blankable” or if that was merely assumed
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603595943) **acutmore** questioned whether “erasable syntax only” implies “blankable” and referenced a precedent banning old `<Type>val` assertion syntax with an example illustrating the need for parentheses
+ * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4602727661) **ritschwumm** expressed surprise at the `as` operator precedence and wondered where it was documented
+ * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603029422) **snarbles2** mentioned inability to find documentation for the `as` operator precedence and asked whether “erasable syntax only” implies “blankable” or if that was merely assumed
+ * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603595943) **acutmore** questioned whether “erasable syntax only” implies “blankable” and referenced a precedent banning old `<Type>val` assertion syntax with an example illustrating the need for parentheses
+ * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4605100332) **RyanCavanaugh** questioned whether erasable syntax only implied blankability and noted that blanking-only was a retrospective outcome rather than an initial design goal for ESO
+ * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **ahejlsberg**
+ * [today](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4606483396) **RyanCavanaugh** summarized key takeaways about erasableSyntaxOnly, questioned shipped precedence rules, and proposed testing top1000 code to determine if a precedence error could be introduced in TS 7.0
+
+### [PR microsoft/TypeScript#63528](https://github.com/microsoft/TypeScript/pull/63528) (Closed, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**)
+
+**Delete browser\-integration job from ci\.yml**
+
+*Remove browser-integration job from CI workflow due to persistent external failures and discontinue its maintenance*
+
+ * created by **RyanCavanaugh**
+ * (today) **typescript-bot** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
+ * (today) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#63529](https://github.com/microsoft/TypeScript/pull/63529) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+
+**Bump the github\-actions group across 1 directory with 7 updates**
+
+*Update seven GitHub Actions in the root directory to their latest versions.*
+
+ * created by **dependabot[bot]**
+ * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
+ * **typescript-bot** added label `For Uncommitted Bug`
+
+### [PR microsoft/TypeScript#63530](https://github.com/microsoft/TypeScript/pull/63530) (Closed, `For Uncommitted Bug`)
+
+**Fix typo in es5\.d\.ts JSDoc: 'paramater' \-\> 'parameter'**
+
+*A typo in the Array.prototype.splice JSDoc comment in src/lib/es5.d.ts is corrected from 'paramater' to 'parameter'.*
+
+ * created by **driphtyio**
+ * **typescript-bot** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63530#issuecomment-4607074332) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [today](https://github.com/microsoft/TypeScript/pull/63530#issuecomment-4607074337) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **RyanCavanaugh** closed the issue
+ * [today](https://github.com/microsoft/TypeScript/pull/63530#issuecomment-4609279991) **MartinJohns** said "This has to be another AI spam bot."
 

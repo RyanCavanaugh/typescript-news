@@ -1,53 +1,55 @@
-# Report for 2026-06-07 (Saturday, June 6th, 2026)
+# Report for 2026-06-07 (Sunday, June 7th, 2026)
 
-7 different users commented on 4 different issues.
+3 different users commented on 23 different issues.
+
+## Recommended Actions
+
+ * Response Recommended
+    * @scarab-systems provided requested test results and update after review in [microsoft/TypeScript#63543](https://github.com/microsoft/TypeScript/pull/63543#issuecomment-4645878227)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#63534](https://github.com/microsoft/TypeScript/issues/63534) (Closed, `Duplicate`)
+### [Issue microsoft/TypeScript#34692](https://github.com/microsoft/TypeScript/issues/34692) (Open, `Suggestion`, `Awaiting More Feedback`)
 
-**TypeScript incorrectly reports literal comparison error inside class method after state mutation**
+**Enhance members of literal type like const array type \(e\.g\. string literal types should have literal length property\)**
 
-*TypeScript incorrectly infers this.n as 0 within the first conditional and flags a false-positive comparison to 1 after mutation.*
+*Request to improve string literal types by inferring exact length and character literal types for indexed access similar to const arrays.*
 
- * **mjbvz** unassigned **mjbvz**
- * [2 days ago](https://github.com/microsoft/TypeScript/issues/63534#issuecomment-4626922086) **RyanCavanaugh** said "#9998"
- * **RyanCavanaugh** added label `Duplicate`
- * [today](https://github.com/microsoft/TypeScript/issues/63534#issuecomment-4641072161) **typescript-bot** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
- * (today) **typescript-bot** closed the issue
+ * [1.8 years ago](https://github.com/microsoft/TypeScript/issues/34692#issuecomment-2286102351) **castarco** critiqued proposals for introducing new intrinsic types as against guidelines and lacking broad usefulness
+ * [1.8 years ago](https://github.com/microsoft/TypeScript/issues/34692#issuecomment-2286898441) **augustobmoura** discussed adding literal string length metadata, provided example implementations, and asked how to store the length value and define literal types
+ * [1.4 years ago](https://github.com/microsoft/TypeScript/issues/34692#issuecomment-2543328551) **HansBrende** argued that supporting length on string literals would simplify useful type patterns and provided examples using index signatures or existential types
+ * [today](https://github.com/microsoft/TypeScript/issues/34692#issuecomment-4644344222) **jcalz** shared a recursive TypeScript utility type for determining string literal lengths, working up to length 8191, and linked to a playground
 
-### [PR microsoft/TypeScript#63539](https://github.com/microsoft/TypeScript/pull/63539) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [Issue microsoft/TypeScript#41952](https://github.com/microsoft/TypeScript/issues/41952) (Open, `Docs`)
 
-**ignore me, testing bot**
+**Document File name has a '\.js' extension \- stripping it**
 
-*A placeholder issue created to test the bot’s functionality and can be ignored.*
+*Document TypeScript's process of stripping .js and .jsx extensions and subsequent module lookup behavior.*
 
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4637387520) **typescript-automation[bot]** reported starting jobs and provided CI status and result links
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4637449383) **typescript-automation[bot]** reported that DT test results were ready and unchanged
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4637526646) **typescript-automation[bot]** provided the requested performance run results
- * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4639681143) **MartinJohns** defended the testing speed stating it was working as fast as it could
- * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4640039030) **jakebailey** said "@typescript-bot test top100"
- * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4640039237) **typescript-automation[bot]** reported CI jobs started and displayed a status table
- * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4640250342) **typescript-automation[bot]** reported that running tsc on the top 400 repos comparing main and the pull request produced no issues
+ * created by **sguillia**
+ * **RyanCavanaugh** added label `Docs`
+ * [today](https://github.com/microsoft/TypeScript/issues/41952#issuecomment-4644017200) **EECOLOR** pointed to the TypeScript documentation on file extension substitution
 
-### [Issue microsoft/TypeScript#63540](https://github.com/microsoft/TypeScript/issues/63540) (Open)
+### [Issue microsoft/TypeScript#63531](https://github.com/microsoft/TypeScript/issues/63531) (Closed, `Help Wanted`, `Docs`)
 
-**Better ownership lint to eliminate ownership chaos for generated code**
+**Markdown heading level bug in Narrowing documentation**
 
-*Add a TypeScript ownership lint enforcing explicit resource management to avoid disposal-related crashes in generated code.*
+*The 'Truthiness narrowing' heading in the TypeScript Narrowing documentation is formatted as H1 instead of H2, causing subsequent sections to be incorrectly nested under it in the table of contents.*
 
- * [today](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638114882) **loynoir** described that using file and file.readable together led to server crashes, noted the absence of linter errors, recommended using a simple open-and-return pattern, and requested feature enhancements for clearer resource management naming conventions
- * [today](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638502645) **MartinJohns** said "This has absolutely nothing to do with AI. Same code can be written by humans. Better Code can be written by AI."
- * [today](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638663487) **loynoir** noted that AI could write better code but might introduce double free issues and suggested adopting a stricter type system like Rust's
- * [later](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4642992017) **loynoir** reaffirmed that humans are humans regardless of skin color or wealth, and that AI is AI regardless of nationality or performance or price, and updated the title to generated code as @MartinJohns suggested
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63531#issuecomment-4625038495) **RyanCavanaugh** said "Weird, the accessibility scan is supposed to yell at us when this happens"
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63531#issuecomment-4630156658) **MannXo** said "I'll take this if no one's working on it yet."
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63531#issuecomment-4630477675) **MartinJohns** said "@MannXo There are already open PR to address this issue. Generally, the TypeScript team does not assign issues to users. You're free to just work on issues labelled as "Help wanted" and issue PRs."
+ * (later) **mzleman** closed the issue
 
-### [PR microsoft/TypeScript#63542](https://github.com/microsoft/TypeScript/pull/63542) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63543](https://github.com/microsoft/TypeScript/pull/63543) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
-**fix jsx error location when empty JsxExpression precedes failing child**
+**Fix wildcard export target containment in auto\-imports**
 
-*Skip empty JSX expressions when locating error nodes so type mismatches highlight the correct expression instead of comments.*
+*Apply containment validation to wildcard export targets in auto-imports to prevent out-of-package file enumeration*
 
- * created by **harsha-cpp**
- * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/63542#issuecomment-4642748032) **microsoft-github-policy-service[bot]** prompted the user to agree to the Contributor License Agreement by replying with an agree command
+ * created by **scarab-systems**
+ * **typescript-automation[bot]** added label `For Backlog Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63543#issuecomment-4644002105) **scarab-systems** expressed agreement with microsoft-github-policy-service
+ * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
+ * [today](https://github.com/microsoft/TypeScript/pull/63543#issuecomment-4645878227) **scarab-systems** updated the PR to address review feedback, force-pushed an amended commit, reviewed changes, reran validation tests locally, and offered to make further adjustments
 

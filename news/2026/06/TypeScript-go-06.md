@@ -1,470 +1,35 @@
-# Report for 2026-06-06 (Friday, June 5th, 2026)
+# Report for 2026-06-06 (Saturday, June 6th, 2026)
 
-13 different users commented on 53 different issues.
+10 different users commented on 18 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @hkleungai asked if the code snippet should emit an error on TS6 and TS7 in [microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739#issuecomment-4637552800)
-    * @hkleungai requested that the issue be considered for a future improvement in [microsoft/TypeScript-go#3742](https://github.com/microsoft/TypeScript-go/issues/3742#issuecomment-4635212453)
-    * @hkleungai asked whether this PR also solves the issue they raised in issue #4045 in [microsoft/TypeScript-go#4198](https://github.com/microsoft/TypeScript-go/pull/4198#issuecomment-4638216073)
-    * @hkleungai requested consistent `| undefined` emission in tsgo outputs in [microsoft/TypeScript-go#4205](https://github.com/microsoft/TypeScript-go/issues/4205#issuecomment-4634944783)
-    * @JoostK asked if the tsgo Node wrapper could attempt the trick during execution after spawning the native binary in [microsoft/TypeScript-go#4211](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635638532)
-    * @hkleungai requested consistent emission of `| undefined` as a feature suggestion in [microsoft/TypeScript-go#4221](https://github.com/microsoft/TypeScript-go/issues/4221#issuecomment-4638796522)
+    * @apostate0 asked why duplicate directives are used and reported a semantic regression in module augmentation in [microsoft/TypeScript-go#3481](https://github.com/microsoft/TypeScript-go/issues/3481#issuecomment-4642469732)
+    * @rubenferreira97 provided regression tests for dependency invalidation and watch path casing for maintainers to validate in [microsoft/TypeScript-go#3670](https://github.com/microsoft/TypeScript-go/pull/3670#issuecomment-4642936422)
+    * @mds-ant asked if there's precedent for enabling optimizations only for batch compilations in [microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4640495531)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Open, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
+### [Issue microsoft/TypeScript-go#3481](https://github.com/microsoft/TypeScript-go/issues/3481) (Open, `help wanted`)
 
-**\`ts\-check\` used with \`@typedef\` causes an error on \`module\.exports = \.\.\.\`**
+**Corsa differences in \`export=\` module augmentation**
 
-*Combining @ts-check and @typedef in a CommonJS file causes a TS2309 export assignment error with tsgo.*
+*Corsa changes how export= module augmentation works, causing differences in exported name visibility.*
 
- * [1 month ago](https://github.com/microsoft/TypeScript-go/issues/1685#issuecomment-4406356310) **jbeaudoin-lf** reported the same issue on Version 7.0.0-dev.20260508.1 and asked to reopen the issue
- * (1 month ago) **RyanCavanaugh** reopened the issue
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
- * [today](https://github.com/microsoft/TypeScript-go/issues/1685#issuecomment-4636409370) **ahejlsberg** explained the errors in the example were a known TS7 restriction and referenced CHANGES.md describing the Corsa module.exports assignment rule
+ * [6 weeks ago](https://github.com/microsoft/TypeScript-go/issues/3481#issuecomment-4291838613) **ahejlsberg** said "The issue in augmentExportEquals2.errors.txt.diff is actually that the test is broken. There are two // @filename: file3.ts in a row, which we apparently no longer handle."
+ * (1 month ago) **RyanCavanaugh** added label `help wanted`, and set milestone to `Post-7.0`
+ * [later](https://github.com/microsoft/TypeScript-go/issues/3481#issuecomment-4642469732) **apostate0** described that augmentExportEquals2.errors.txt.diff wasn't a real bug but caused by duplicate filename directives and asked why they're used; identified a real semantic regression in exportAssignmentMembersVisibleInAugmentation.errors.txt.diff due to module augmentation symbol lookup and suggested a root cause in checker.go
 
-### [Issue microsoft/TypeScript-go#2792](https://github.com/microsoft/TypeScript-go/issues/2792) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
+### [PR microsoft/TypeScript-go#3670](https://github.com/microsoft/TypeScript-go/pull/3670) (Open, **johnfav03**)
 
-**\[Feature request\] Provide "Relater" typechecker api**
+**Watcher build mode efficiency updates**
 
-*Expose the internal Relater type-checker's isTypeAssignableTo method in the public TypeScript API*
+*Refactors tsc --build --watch to use a shared FileWatcher and trackingVFS structure, reducing code duplication and redundant dependency scanning.*
 
- * [15 weeks ago](https://github.com/microsoft/TypeScript-go/issues/2792#issuecomment-3929476730) **DanielRosenwasser** said "We're investigating stuff around this. #2831 adds more of the foundation of type-space APIs. I anticipate we'll have relater APIs as well."
- * **DanielRosenwasser** assigned to **andrewbranch**
- * **RyanCavanaugh** added to milestone `Post-7.0`
- * (today) **andrewbranch** closed the issue
-
-### [Issue microsoft/TypeScript-go#3032](https://github.com/microsoft/TypeScript-go/issues/3032) (Closed, `Domain: Editor`, `Needs More Info`)
-
-**tsgo \-\-lsp memory leak on large projects / triggers OOM**
-
-*The tsgo LSP process in the TypeScript Native Preview extension leaks memory when handling large projects, causing OOM on low-RAM Linux machines.*
-
- * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/3032#issuecomment-4614729351) **andrewbranch** said "Indeed, so strange, all of these are invalid. I've never seen this before. What OS are you on?"
- * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3032#issuecomment-4623028146) **doylio** said "MacOS Tahoe 26.5.1"
- * [yesterday](https://github.com/microsoft/TypeScript-go/issues/3032#issuecomment-4623808592) **andrewbranch** said "@jakebailey any ideas?"
- * [today](https://github.com/microsoft/TypeScript-go/issues/3032#issuecomment-4634340466) **jakebailey** said "I have no idea, the only way I can think this is breaking is due to truncation but if the process is not exiting, there's no reason for it."
-
-### [PR microsoft/TypeScript-go#3263](https://github.com/microsoft/TypeScript-go/pull/3263) (Closed)
-
-**Preserve original comments on params in dts generated by pseudo type node builder under \`removeComments: false\`**
-
-*Declaration files generated by the pseudo type node builder with removeComments disabled fail to preserve original parameter comments.*
-
- * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/3263#issuecomment-4606680148) **jakebailey** said "I think this PR is fine, but, does this also cause non-JSDoc comments to be emitted? Hopefully not?"
- * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3263#issuecomment-4626325477) **iisaduan** asked what non-JSDoc comments were a concern and reported that the PR behaved as expected compared to strada's emit, providing example code
- * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3263#issuecomment-4626691248) **jakebailey** said "It was the non-jsdoc stuff I was concerned about, but if it matches Strada then LGTM"
- * (today) **iisaduan** closed the issue
-
-### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open, `Voight-Kampff Anomaly`)
-
-**fix: prevent wildcard pattern from overriding exact match in FindBestPatternMatch**
-
-*Assign math.MaxInt for exact matches in FindBestPatternMatch to ensure wildcard patterns cannot override exact matches.*
-
- * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/3618#issuecomment-4597839476) **kuishou68** added test cases covering exact match behavior and wildcard patterns in internal/core/pattern_test.go and requested a re-review
- * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/3618#issuecomment-4598338818) **kuishou68** followed up on the PR, added requested test cases, and requested another review
- * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/3618#issuecomment-4608256862) **kuishou68** added test cases and requested a re-review
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
-
-### [Issue microsoft/TypeScript-go#3665](https://github.com/microsoft/TypeScript-go/issues/3665) (Closed, **iisaduan**)
-
-**Behavior difference: jsdoc typing on child class member overrides parent class's type in tsgo but not in tsc**
-
-*tsgo incorrectly reports an error when a child class’s JSDoc-typed state property overrides its parent class’s type, while tsc accepts it.*
-
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
- * [1 month ago](https://github.com/microsoft/TypeScript-go/issues/3665#issuecomment-4384208278) **ahejlsberg** described inconsistent JSDoc @type behavior between Strada and Corsa and concluded no change was needed
- * [1 month ago](https://github.com/microsoft/TypeScript-go/issues/3665#issuecomment-4385084347) **hkleungai** speculated that 'unknown' is uncommon in plain JavaScript, observed that some developers prefer using Object types, and suggested TS7 inherit some TS6 behavior
- * [today](https://github.com/microsoft/TypeScript-go/issues/3665#issuecomment-4635236666) **ahejlsberg** said "I think the TS7 behavior is desirable and more consistent, so I'm closing this. "
- * (today) **ahejlsberg** closed the issue
- * **ahejlsberg** removed label `Needs Investigation`
-
-### [Issue microsoft/TypeScript-go#3739](https://github.com/microsoft/TypeScript-go/issues/3739) (Closed, `bug`, `Domain: Type Checking`, **ahejlsberg**)
-
-**Behavior difference: Variable with type \`{}\` can be "wrongly" assigned to Record in tsgo but not in tsc**
-
-*tsgo does not report errors when assigning {} to typed Record<string, ...> types in JavaScript, whereas tsc correctly flags the type mismatch.*
-
- * **ahejlsberg** added label `Domain: Type Checking`
- * [3 weeks ago](https://github.com/microsoft/TypeScript-go/issues/3739#issuecomment-4424600997) **ahejlsberg** said "I will put up a PR that consistently implements implied index signatures for expando object literals."
- * (3 weeks ago) **ahejlsberg** closed the issue
- * [today](https://github.com/microsoft/TypeScript-go/issues/3739#issuecomment-4637552800) **hkleungai** asked whether the code snippet should emit an error in TS6 and TS7
-
-### [Issue microsoft/TypeScript-go#3742](https://github.com/microsoft/TypeScript-go/issues/3742) (Closed, **ahejlsberg**)
-
-**Behavior difference: tsgo skip reporting invalid jsdoc type when param is missing from function signature**
-
-*tsgo omits the generic type argument error for invalid JSDoc types when a @param name is missing from the function signature, unlike tsc.*
-
- * (3 weeks ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.0 RC`, and assigned to **iisaduan**
- * (today) **ahejlsberg** assigned to **ahejlsberg**, and unassigned **iisaduan**
- * [today](https://github.com/microsoft/TypeScript-go/issues/3742#issuecomment-4635161832) **ahejlsberg** said "This is behaving as intended and is an effect of TS7's reparsing approach. We only check the type if it actually applies to something, because only then does it get reparsed into a type annotation."
- * (today) **ahejlsberg** closed the issue
- * **ahejlsberg** removed label `Needs Investigation`
- * [today](https://github.com/microsoft/TypeScript-go/issues/3742#issuecomment-4635212453) **hkleungai** lamented that the behavior prevented viewing all mistakes in a single tsgo run and requested that it be considered for future improvement
-
-### [Issue microsoft/TypeScript-go#4000](https://github.com/microsoft/TypeScript-go/issues/4000) (Closed, `enhancement`)
-
-**Make typedef exporting explicit**
-
-*Propose introducing a new @export JSDoc tag to explicitly mark exported typedefs and type re-exports in TypeScript 7*
-
- * **RyanCavanaugh** added to milestone `Post-7.0`
- * [today](https://github.com/microsoft/TypeScript-go/issues/4000#issuecomment-4630041208) **a-tarasyuk** asked whether the expected scope should include JSDoc equivalents for type exports/re-exports or only introduce @export as a modifier for typedef/callback declarations
- * [today](https://github.com/microsoft/TypeScript-go/issues/4000#issuecomment-4631674493) **remcohaszing** suggested adding @export as a typedef/callback modifier in TS 7.0, noted overlap with type exports/re-exports issue, and asked about cross-repo issue handling
- * [later](https://github.com/microsoft/TypeScript-go/issues/4000#issuecomment-4638094426) **a-tarasyuk** offered to implement the changes but expressed uncertainty about proceeding without confirming the intended direction
- * [later](https://github.com/microsoft/TypeScript-go/issues/4000#issuecomment-4639240663) **ahejlsberg** stated that new JSDoc features breaking backward compatibility, like requiring an @export modifier for a typedef, would not be considered
- * [later](https://github.com/microsoft/TypeScript-go/issues/4000#issuecomment-4639352997) **remcohaszing** closed the issue and referenced the ESM-like @export syntax tracking issue #48104
- * (later) **remcohaszing** closed the issue
-
-### [Issue microsoft/TypeScript-go#4014](https://github.com/microsoft/TypeScript-go/issues/4014) (Open, `Domain: Declaration Emit`, `Domain: Build Mode`, `Needs More Info`, `Needs Investigation`)
-
-**\`DeepCloneNode\` allocation runaway \(44 GB / 308 s\) for recursive tagged\-tuple type alias**
-
-*tsgo’s DeepCloneNode allocation spikes (44 GB over 308 s) when type-checking a recursive variadic tuple alias with a .tsbuildinfo file.*
-
- * (2 weeks ago) **weswigham** added labels `Domain: Build Mode`, `Needs More Info`, `Needs Investigation`
- * **RyanCavanaugh** added to milestone `Possible Improvement`
-
-### [Issue microsoft/TypeScript-go#4019](https://github.com/microsoft/TypeScript-go/issues/4019) (Open, `Crash`, **weswigham**)
-
-**Crash on file rename \+ \`workspace/didChangeWatchedFiles\`, \\w \`composite\` option enabled**
-
-*The TypeScript language server crashes with a nil pointer panic when processing a file rename alongside workspace/didChangeWatchedFiles in composite-enabled projects.*
-
- * created by **mpal9000**
- * **mpal9000** added label `Crash`
- * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
-
-### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Open, `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`, **weswigham**)
-
-**Behavior difference: Notable gap regarding expando declaration on a function between tsc & tsgo**
-
-*tsgo aliases bound functions without namespaces compared to tsc, causing inconsistent type emissions for both PublicInternalBinding and PublicExportedBinding.*
-
- * (1 week ago) **weswigham** added labels `Domain: JS`, `Needs Investigation`
- * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/4045#issuecomment-4553479379) **hkleungai** expressed hope that tsgo continued to support expando types and requested a fix for Storybook CSF2 syntax
- * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
-
-### [PR microsoft/TypeScript-go#4058](https://github.com/microsoft/TypeScript-go/pull/4058) (Open)
-
-**Reparse non\-identifier jsdoc names where possible, error otherwise**
-
-*The parser now reparses non-identifier JSDoc names when possible and errors on unsupported nameless typedef patterns.*
-
- * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4549523307) **DanielRosenwasser** said "Can we give a more-specialized error message for reserved names?"
- * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4556668076) **weswigham** clarified that keywords were allowed as identifiers and that the check concerned only actual allowed characters in JS identifiers
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
- * [today](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4635078850) **DanielRosenwasser** asked whether backtick-wrapped property names still work with the PR
-
-### [Issue microsoft/TypeScript-go#4066](https://github.com/microsoft/TypeScript-go/issues/4066) (Open, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **gabritto**)
-
-**Panic on file rename with solution\-style \`tsconfig\.json\`**
-
-*File renaming with a solution-style tsconfig.json causes a nil pointer dereference panic in the Go-based TypeScript language service.*
-
- * (1 week ago) **DanielRosenwasser** added labels `Domain: Editor`, `Crash`, and assigned to **gabritto**
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
-
-### [PR microsoft/TypeScript-go#4069](https://github.com/microsoft/TypeScript-go/pull/4069) (Open, `Voight-Kampff Anomaly`)
-
-**Fix JS bind expando declaration emit**
-
-*Emit bound JS functions as proper function declarations with preserved expando properties instead of const alias types*
-
- * created by **cjc0013**
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
-
-### [Issue microsoft/TypeScript-go#4071](https://github.com/microsoft/TypeScript-go/issues/4071) (Open, `bug`, **jakebailey**)
-
-**Behavior difference: Emoji string in tsgo emit does not align well with tsc**
-
-*Emoji-containing string literal types emit differently in tsgo than tsc, causing misalignment after recent emoji handling fixes.*
-
- * created by **hkleungai**
- * **jakebailey** assigned to **jakebailey**
- * **RyanCavanaugh** added label `bug`
- * [today](https://github.com/microsoft/TypeScript-go/issues/4071#issuecomment-4634923755) **RyanCavanaugh** said "The ones where we keep the emoji as-is are Good Actually, but foo and bar not good"
- * **RyanCavanaugh** added to milestone `Possible Improvement`
-
-### [Issue microsoft/TypeScript-go#4079](https://github.com/microsoft/TypeScript-go/issues/4079) (Open, `possible improvement`)
-
-**Behavior difference: Notable difference regarding optional function argument type emits**
-
-*tsgo outputs extra parentheses and verbose optional argument types unlike tsc’s simpler inferred function signatures.*
-
- * created by **hkleungai**
- * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4079#issuecomment-4597396462) **danyalahmed1995** opened a PR to focus the fix on declaration emit for optional/defaulted parameters, added a regression test, and updated the baselines
- * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
-
-### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, `bug`, **jakebailey**, **Copilot**)
-
-**Lone surrogate in enum member name / const enum value is corrupted to U\+FFFD in emitted JS**
-
-*tsgo emits U+FFFD in place of lone surrogates in enum member names and const enum values in the generated JavaScript*
-
- * created by **mds-ant**
- * (6 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
- * (today) **RyanCavanaugh** added label `bug`, and set milestone to `TypeScript 7.0 RC`
-
-### [PR microsoft/TypeScript-go#4113](https://github.com/microsoft/TypeScript-go/pull/4113) (Closed)
-
-**Add missing APIs required for WebStorm integration\.**
-
-*Add missing TS-GO service APIs required for WebStorm inspections, find usages, and refactorings to avoid forking.*
-
- * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4113#issuecomment-4590353737) **piotrtomiak** said "@microsoft-github-policy-service agree company="JetBrains""
- * **RyanCavanaugh** added to milestone `Post-7.0`
- * [today](https://github.com/microsoft/TypeScript-go/pull/4113#issuecomment-4631918250) **piotrtomiak** said "@andrewbranch - please review the updated PR."
- * [today](https://github.com/microsoft/TypeScript-go/pull/4113#issuecomment-4633326137) **andrewbranch** said "@piotrtomiak needs a hereby format"
- * (today) **andrewbranch** closed the issue
-
-### [Issue microsoft/TypeScript-go#4116](https://github.com/microsoft/TypeScript-go/issues/4116) (Open, `possible improvement`, **jakebailey**, **Copilot**)
-
-**Declaration emit differs for negative numeric const literals**
-
-*tsgo’s declaration emitter transforms negative numeric const literals into -Infinity or approximate values instead of preserving the original literal*
-
- * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4116#issuecomment-4595112491) **jakebailey** said "Odd that we are not reusing these nodes."
- * (4 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
- * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
-
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
-
-**Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
-
-*Tsgo's declaration emitter only emits expando function properties assigned as top-level statements and drops those assigned within initializers or blocks.*
-
- * (yesterday) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
- * **ahejlsberg** added label `Domain: Declaration Emit`
-
-### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open, `bug`, **jakebailey**)
-
-**U\+2028/U\+2029 inside a multi\-line comment leaves 2 stray bytes in emitted JS \(invalid UTF\-8\)**
-
-*tsgo outputs invalid UTF-8 stray bytes when emitting multi-line comments containing U+2028/U+2029 line separators*
-
- * created by **mds-ant**
- * **jakebailey** assigned to **jakebailey**
- * (today) **RyanCavanaugh** added label `bug`, and set milestone to `TypeScript 7.0 RC`
-
-### [Issue microsoft/TypeScript-go#4120](https://github.com/microsoft/TypeScript-go/issues/4120) (Open, `possible improvement`, **jakebailey**, **Copilot**)
-
-**With multiple \`/\*\* @jsx \*/\` pragmas in one file, tsc uses the first and tsgo uses the last**
-
-*When a file contains multiple /** @jsx */ pragmas, TypeScript’s compiler uses the first pragma but tsgo applies the last.*
-
- * created by **mds-ant**
- * (4 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
- * [today](https://github.com/microsoft/TypeScript-go/issues/4120#issuecomment-4634462463) **ahejlsberg** mentioned missing tests for multiple @jsx pragmas, noted that tests for @jsxruntime pick the last pragma, and suggested picking the first pragma consistently and erroring on duplicates
- * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Post-7.0`
-
-### [Issue microsoft/TypeScript-go#4127](https://github.com/microsoft/TypeScript-go/issues/4127) (Closed)
-
-**JSDoc @satisfies on export default is enforced by tsgo but ignored by tsc**
-
-*tsgo enforces JSDoc @satisfies on export default assignments while tsc ignores the type mismatch*
-
- * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4594583449) **jakebailey** said "But maybe the "right" way is to stick @satisfies onto the expression inside the export."
- * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4614286914) **sandersn** recalled intentionally pushing satisfies down to the expression in Corsa and for issue #4128, and noted uncertainty about Strada and possibly not updating CHANGES.md
- * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4616226804) **jakebailey** said "For this / #4128 I do not remember at all what we said or if we even said anything."
- * [today](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4634436481) **ahejlsberg** said "See my comment here. We want to keep this behavior."
- * (today) **ahejlsberg** closed the issue
-
-### [Issue microsoft/TypeScript-go#4131](https://github.com/microsoft/TypeScript-go/issues/4131) (Open, `bug`, **jakebailey**, **Copilot**)
-
-**tsgo silently swallows JSON syntax errors in an extended tsconfig\.json file**
-
-*tsgo silently ignores JSON syntax errors in extended tsconfig.json files, causing invalid configurations to go unreported.*
-
- * created by **mds-ant**
- * (5 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
- * (today) **RyanCavanaugh** added label `bug`, and set milestone to `TypeScript 7.0 RC`
-
-### [Issue microsoft/TypeScript-go#4137](https://github.com/microsoft/TypeScript-go/issues/4137) (Closed, **jakebailey**)
-
-**Single\-character template literal inference consumes a full code point in tsgo vs one UTF\-16 code unit in tsc**
-
-*tsgo incorrectly infers single-character template literals by consuming only a UTF-16 code unit, mis-splitting multi-code-point characters like emojis.*
-
- * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4137#issuecomment-4597137700) **jakebailey** noted that the issue had a broader root cause, linked related unicode and encoding issues, and suggested using WTF-8 encoding
- * **jakebailey** assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript-go/issues/4137#issuecomment-4633104938) **RyanCavanaugh** said "This is now the "correct" behavior per https://github.com/microsoft/TypeScript/issues/63533"
- * (today) **RyanCavanaugh** closed the issue
-
-### [Issue microsoft/TypeScript-go#4146](https://github.com/microsoft/TypeScript-go/issues/4146) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
-
-**\`FreshableType\` interface is missing in the API**
-
-*Add a FreshableType interface and the complementary getFreshType and getRegularType methods to the API alongside the TypeFlags.Freshable flag.*
-
- * (3 days ago) **andrewbranch** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
- * [today](https://github.com/microsoft/TypeScript-go/issues/4146#issuecomment-4637062678) **mrazauskas** said "Was added in #4113"
- * (today) **mrazauskas** closed the issue
-
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
-
-**Fix redundant undefined wrapping in optional parameter declaration emit**
-
-*Update declaration emission for optional parameters to avoid redundant '| undefined' wrapping when types already include undefined*
-
- * created by **danyalahmed1995**
- * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
-
-### [PR microsoft/TypeScript-go#4198](https://github.com/microsoft/TypeScript-go/pull/4198) (Open, **jakebailey**, **Copilot**)
-
-**Emit nested expando function assignments in declarations**
-
-*Extend declaration emitter to include nested expando function property assignments within initializers and blocks.*
-
- * created by **Copilot**
- * (yesterday) **Copilot** assigned to **Copilot**, **jakebailey**
- * [later](https://github.com/microsoft/TypeScript-go/pull/4198#issuecomment-4638216073) **hkleungai** said "Just curious, is this PR also solving the issue I raised in https://github.com/microsoft/typescript-go/issues/4045? If not, also fine :)"
-
-### [Issue microsoft/TypeScript-go#4204](https://github.com/microsoft/TypeScript-go/issues/4204) (Closed, `wontfix`)
-
-**Behavior difference: For \`@returns {Promise}\`, tsc emits \`Promise\<any\>\` but tsgo emits \`Promise\`**
-
-*Using JSDoc @returns {Promise} in a .js file leads tsc to emit Promise<any> declarations while tsgo emits an untyped Promise.*
-
- * **RyanCavanaugh** added label `wontfix`
- * [today](https://github.com/microsoft/TypeScript-go/issues/4204#issuecomment-4633236295) **RyanCavanaugh** said "This is caused by being more consistent about re-emitting types as-written, which is intentional"
- * (today) **RyanCavanaugh** closed the issue
- * [today](https://github.com/microsoft/TypeScript-go/issues/4204#issuecomment-4633347247) **jakebailey** said "But shouldn't we make sure we error on the missing required type param? We have to do one or the other."
- * [today](https://github.com/microsoft/TypeScript-go/issues/4204#issuecomment-4633374604) **RyanCavanaugh** confirmed encountering the TS2314 error requiring a generic type argument
- * [today](https://github.com/microsoft/TypeScript-go/issues/4204#issuecomment-4633409070) **jakebailey** mentioned being bamboozled by a double negative when describing checkjs behavior
- * [today](https://github.com/microsoft/TypeScript-go/issues/4204#issuecomment-4633958517) **a-tarasyuk** demonstrated that a JSDoc-returned untyped Promise in JS didn't error but produced an invalid .d.ts causing a TS2314 error
-
-### [Issue microsoft/TypeScript-go#4205](https://github.com/microsoft/TypeScript-go/issues/4205) (Closed, `wontfix`)
-
-**Behavior difference: For \`@param {\.\.\.} \[outer\.inner\]\`, tsc emits \`inner?: \.\.\. \| undefined\`, but tsgo emits \`inner?: \.\.\.;\`**
-
-*A discrepancy where tsgo generates `inner?: string;` instead of `inner?: string | undefined;` for optional nested JSDoc parameters.*
-
- * **RyanCavanaugh** added label `wontfix`
- * [today](https://github.com/microsoft/TypeScript-go/issues/4205#issuecomment-4633207969) **RyanCavanaugh** said "tsgo behavior looks better to me; this is fine."
- * (today) **RyanCavanaugh** closed the issue
- * [today](https://github.com/microsoft/TypeScript-go/issues/4205#issuecomment-4634944783) **hkleungai** requested consistent `| undefined` emission in tsgo to avoid consumer issues with exactOptionalPropertyTypes
-
-### [Issue microsoft/TypeScript-go#4206](https://github.com/microsoft/TypeScript-go/issues/4206) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
-
-**Behavior difference: tsgo fails to infer type for undeclared class member when assignment happen inside \`new Promise\` callback**
-
-*tsgo omits the undeclared class member `_resource` in declaration output when first assigned inside a Promise callback, unlike tsc.*
-
- * created by **hkleungai**
- * [today](https://github.com/microsoft/TypeScript-go/issues/4206#issuecomment-4634330760) **ahejlsberg** said "I think this is pretty much the same issue as #4118."
- * [today](https://github.com/microsoft/TypeScript-go/issues/4206#issuecomment-4634348562) **ahejlsberg** explained that the issue title was misleading and that declaration emit didn't include the expando property despite correct type inference for `_resource`
- * (today) **ahejlsberg** added labels `bug`, `Domain: Declaration Emit`, set milestone to `TypeScript 7.0 RC`, assigned to **ahejlsberg**, **weswigham**, and unassigned **ahejlsberg**
-
-### [Issue microsoft/TypeScript-go#4208](https://github.com/microsoft/TypeScript-go/issues/4208) (Open, `Needs Investigation`)
-
-**\`isSourceFile\(\)\` is missing in the API**
-
-*The project lacks an isSourceFile() type guard in the API despite having a SourceFile interface.*
-
- * created by **mrazauskas**
- * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `Post-7.0`
-
-### [PR microsoft/TypeScript-go#4209](https://github.com/microsoft/TypeScript-go/pull/4209) (Closed)
-
-**Mark imports in \`ast\.generated\.ts\` and \`ast\.ts‎\` as type\-only**
-
-*Update generate-ts-ast.ts to mark SyntaxKind and TokenFlags enum imports as type-only in ast.generated.ts and ast.ts*
-
- * created by **mrazauskas**
- * [today](https://github.com/microsoft/TypeScript-go/pull/4209#issuecomment-4634902414) **RyanCavanaugh** said "There's no value in tree-shaking a one-off build script. Rejecting as other PRs that might be merge conflicted by this might be doing something more useful."
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript-go#4210](https://github.com/microsoft/TypeScript-go/pull/4210) (Open)
-
-**Add \`isSourceFile\(\)\` type guard**
-
-*Introduce an isSourceFile() type guard function, ported from the TypeScript compiler, to enhance AST node checking.*
-
- * created by **mrazauskas**
- * **RyanCavanaugh** added to milestone `Post-7.0`
-
-### [PR microsoft/TypeScript-go#4211](https://github.com/microsoft/TypeScript-go/pull/4211) (Open)
-
-**Optimize bin by replacing node\_modules/\.bin/tsgo with a symlink**
-
-*Propose replacing node_modules/.bin/tsgo shims with symlinks to the real binary to improve startup performance despite requiring a postinstall script.*
-
- * created by **jakebailey**
- * **RyanCavanaugh** added to milestone `Possible Improvement`
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635638532) **JoostK** asked if the tsgo Node wrapper could attempt the trick during execution after spawning the native binary
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635681397) **jakebailey** mentioned that deleting executables during runtime likely failed on Windows and that package managers didn't expect post-install modifications, but suggested that Node scripts might allow mutability and symlinks could work
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635887333) **jakebailey** said "dprint modifies at first run, so that may be possible! https://app.unpkg.com/dprint@0.54.0/files/bin.cjs"
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635966363) **JoostK** observed that sprint did not handle that, suggested spawning another process to avoid open file handles, and warned that it could block execve and increase startup latency
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4635984150) **jakebailey** confirmed that requiring install_api.cjs and running the Dprint executable works, noted no Windows tmp-file issues, and questioned if execve concerns applied to direct bin execution given the JS shebang
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4636091218) **JoostK** acknowledged the missed code detail due to mobile view, noted potential Windows tmp-related issues not observed, clarified that process.execve in tsgo.js must be replaced early to avoid overhead on failure
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4636103270) **jakebailey** explained that the package.json bin entry moved to tsgo, clarified that tsgo.js always runs the real binary instead of the symlink, and noted uncertainty about the described situation
- * [today](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4636140027) **jakebailey** said "Seems to work!"
- * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638058619) **JoostK** proposed spawning native tsgo before attempting optimization to avoid unnecessary optimizeBin overhead, noted this isn’t feasible with process.execve not forking, and questioned whether the overhead is significant
- * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638069692) **JoostK** suggested invoking tsgo with an --optimize-bin flag to move optimization into the native binary, but noted it was probably not worth it
-
-### [PR microsoft/TypeScript-go#4212](https://github.com/microsoft/TypeScript-go/pull/4212) (Open)
-
-**Update dependencies**
-
-*Update dependencies to include the newly released LSP libraries.*
-
- * created by **jakebailey**
-
-### [PR microsoft/TypeScript-go#4213](https://github.com/microsoft/TypeScript-go/pull/4213) (Closed)
-
-**Go to Implementation fix for not finding type\-annotated implementation**
-
-*addImplementationReferences fails to locate type-annotated implementations because its AddIfAbsent call was incorrectly negated.*
-
- * created by **navya9singh**
- * (today) **navya9singh** closed the issue
-
-### [Issue microsoft/TypeScript-go#4214](https://github.com/microsoft/TypeScript-go/issues/4214) (Open)
-
-**Behavior difference: tsgo & tsc throw differently when spreading variable with type \`{}\`**
-
-*tsgo and tsc report property-not-found errors on different destructuring patterns involving default empty object assignments.*
-
- * created by **hkleungai**
-
-### [Issue microsoft/TypeScript-go#4215](https://github.com/microsoft/TypeScript-go/issues/4215) (Open)
-
-**\`SourceFile\` is missing \`\.getLineStarts\(\)\` and \`\.getLineAndCharacterOfPosition\(\)\`**
-
-*Add getLineStarts() and getLineAndCharacterOfPosition() getters to SourceFile for convenient API usage.*
-
- * created by **mrazauskas**
-
-### [Issue microsoft/TypeScript-go#4216](https://github.com/microsoft/TypeScript-go/issues/4216) (Open)
-
-**\`Node\` is missing \`getFullStart\(\)\`, \`getStart\(\)\` and other getters**
-
-*Add missing getters (getFullStart, getStart, getFullWidth, getWidth, getLeadingTriviaWidth, getFullText, getText) to Node to improve API usability.*
-
- * created by **mrazauskas**
-
-### [Issue microsoft/TypeScript-go#4217](https://github.com/microsoft/TypeScript-go/issues/4217) (Open)
-
-**Behavior difference: TS2741 diagnostic misalignment observed for nested array / object literals**
-
-*tsgo fails to report TS2741 for nested object literal assignments missing the required 'missing' property, unlike tsc.*
-
- * created by **hkleungai**
-
-### [PR microsoft/TypeScript-go#4218](https://github.com/microsoft/TypeScript-go/pull/4218) (Open)
-
-**Allow lone & in Unicode sets regexp classes**
-
-*Update native scanner to allow lone & in Unicode Set regex character classes while preserving && intersections.*
-
- * created by **Ijtihed**
+ * created by **johnfav03**
+ * (1 month ago) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **johnfav03**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/3670#issuecomment-4642936422) **rubenferreira97** shared a test-only branch with two regression tests and described failures in dependency invalidation and path casing when building and watching
 
 ### [Issue microsoft/TypeScript-go#4219](https://github.com/microsoft/TypeScript-go/issues/4219) (Closed, `bug`, **ahejlsberg**)
 
@@ -472,37 +37,8 @@
 
 *tsgo ignores JSDoc @private/@protected on constructors, permitting instantiation that TypeScript correctly errors on.*
 
- * created by **mds-ant**
- * (later) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
-
-### [Issue microsoft/TypeScript-go#4220](https://github.com/microsoft/TypeScript-go/issues/4220) (Closed)
-
-**Assigning 'Object' to an object type reports top\-level TS2322 in tsgo instead of TS2696**
-
-*Using tsgo strict mode, assigning type Object to a typed object incorrectly yields TS2322 instead of TS2696.*
-
- * created by **mds-ant**
- * [later](https://github.com/microsoft/TypeScript-go/issues/4220#issuecomment-4638834322) **hkleungai** said "I have seen this difference too often actually, that I kinda suspect it may actually be an intentional breaking change..."
- * [later](https://github.com/microsoft/TypeScript-go/issues/4220#issuecomment-4639290890) **ahejlsberg** explained that TS7 intentionally includes the first line of the error message whereas TS6 omits it
- * (later) **ahejlsberg** closed the issue
-
-### [Issue microsoft/TypeScript-go#4221](https://github.com/microsoft/TypeScript-go/issues/4221) (Closed, `bug`, **ahejlsberg**)
-
-**tsgo reports TS2345 instead of TS2379 for exactOptionalPropertyTypes argument mismatches**
-
-*tsgo reports TS2345 errors without exactOptionalPropertyTypes hints instead of TS2379 for property type mismatches*
-
- * created by **mds-ant**
- * [later](https://github.com/microsoft/TypeScript-go/issues/4221#issuecomment-4638796522) **hkleungai** reminded of a related issue and requested consistent `| undefined` emission, noting it would be a breaking change
- * (later) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
-
-### [Issue microsoft/TypeScript-go#4222](https://github.com/microsoft/TypeScript-go/issues/4222) (Open)
-
-**isolatedDeclarations: TS9007/TS9008 replaced by TS9039/TS9013 on the return expression**
-
-*tsgo’s isolatedDeclarations option emits TS9039 and TS9013 errors on return expressions instead of expected TS9007/TS9008 errors.*
-
- * created by **mds-ant**
+ * (today) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4223](https://github.com/microsoft/TypeScript-go/issues/4223) (Closed, `bug`, **ahejlsberg**)
 
@@ -510,8 +46,8 @@
 
 *tsgo’s spelling suggestion for the non-ASCII identifier Aé diverges by recommending class Aé instead of class.*
 
- * created by **mds-ant**
- * (later) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
+ * (today) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4224](https://github.com/microsoft/TypeScript-go/issues/4224) (Closed, `bug`, **ahejlsberg**)
 
@@ -520,6 +56,8 @@
 *tsgo misreports late-bound computed-name property incompatibility as a class-level TS2415 error instead of the more specific TS2416 property error*
 
  * created by **mds-ant**
+ * (today) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4225](https://github.com/microsoft/TypeScript-go/issues/4225) (Open, **jakebailey**, **Copilot**)
 
@@ -528,6 +66,7 @@
 *tsgo incorrectly reports error positions by not skipping whitespace after '<' when determining type argument counts.*
 
  * created by **mds-ant**
+ * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
 ### [PR microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226) (Open)
 
@@ -536,7 +75,13 @@
 *Replace valueSymbolLinks and symbolNodeLinks map stores with ID-paged arrays to reduce hash lookup costs and improve typechecking performance*
 
  * created by **mds-ant**
- * [later](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639120627) **mds-ant** said "@microsoft-github-policy-service agree company="Anthropic""
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639120627) **mds-ant** said "@microsoft-github-policy-service agree company="Anthropic""
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639582618) **jakebailey** said "@typescript-bot perf test this"
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639582927) **typescript-automation[bot]** reported that the perf test job started and provided links to the build status and results
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639658148) **typescript-automation[bot]** posted performance run results including a comparison report of baseline versus pr metrics
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4639982017) **ahejlsberg** highlighted performance gains and memory trade-offs of using dense node and symbol IDs, noting potential costs for less common links and increasing memory usage over long sessions
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4640495531) **mds-ant** tried converting a handful more stores to the page array scheme but observed increased memory usage, suggested converting only valueSymbolLinks and symbolNodeLinks for performance gains, asked if there was precedent for enabling optimizations only for batch compilations and retaining the existing link store for the language server use case
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4226#issuecomment-4640630251) **jakebailey** suggested that it'd require a runtime switch but could be noted on Program or Checker creation, though found it weird
 
 ### [PR microsoft/TypeScript-go#4227](https://github.com/microsoft/TypeScript-go/pull/4227) (Closed)
 
@@ -545,4 +90,83 @@
 *Correct the JSDoc accessibility modifiers on class constructors to reflect intended access levels.*
 
  * created by **a-tarasyuk**
+ * (today) **a-tarasyuk** closed the issue
+
+### [PR microsoft/TypeScript-go#4228](https://github.com/microsoft/TypeScript-go/pull/4228) (Closed)
+
+**fix exact optional argument diagnostic**
+
+*Refines the TypeScript diagnostic for non-assignable arguments when exactOptionalPropertyTypes is enabled to recommend adding undefined to target properties.*
+
+ * created by **a-tarasyuk**
+
+### [PR microsoft/TypeScript-go#4229](https://github.com/microsoft/TypeScript-go/pull/4229) (Closed)
+
+**Fix reparsing of JSDoc modifiers on constructor declarations**
+
+*Improves reparsing logic for JSDoc modifiers applied to constructor declarations.*
+
+ * created by **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
+
+### [Issue microsoft/TypeScript-go#4230](https://github.com/microsoft/TypeScript-go/issues/4230) (Open)
+
+**Behavior difference: tsgo no longer infer variadic \`args\` type when \`arguments\[\.\.\.\]\` is referenced inside plain js function body**
+
+*tsgo no longer infers variadic args in plain JS functions referencing 'arguments', causing missing rest parameter types.*
+
+ * created by **hkleungai**
+
+### [PR microsoft/TypeScript-go#4231](https://github.com/microsoft/TypeScript-go/pull/4231) (Open, **jakebailey**, **Copilot**)
+
+**Skip trivia after '\<' in type\-argument arity error spans**
+
+*Skip whitespace and newlines after '<' when computing type-argument arity error spans, matching TypeScript behavior*
+
+ * created by **Copilot**
+ * (today) **Copilot** assigned to **Copilot**, **jakebailey**
+
+### [PR microsoft/TypeScript-go#4232](https://github.com/microsoft/TypeScript-go/pull/4232) (Closed)
+
+**Fix spelling suggestions involving Unicode characters**
+
+*Fix spelling suggestion logic to correctly handle and process Unicode characters.*
+
+ * created by **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
+
+### [PR microsoft/TypeScript-go#4233](https://github.com/microsoft/TypeScript-go/pull/4233) (Closed)
+
+**Obtain late\-bound symbol in error reporting**
+
+*Retrieve late-bound symbols for error reports to improve diagnostic accuracy.*
+
+ * created by **ahejlsberg**
+ * (today) **ahejlsberg** closed the issue
+
+### [PR microsoft/TypeScript-go#4234](https://github.com/microsoft/TypeScript-go/pull/4234) (Open)
+
+**Skip mark/rewind in \`tryParseTypeArgumentsInExpression\` when token isn't \`\<\`**
+
+*Optimize tryParseTypeArgumentsInExpression by skipping parser mark/rewind overhead when the token isn't '<', improving performance.*
+
+ * created by **mds-ant**
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640652269) **jakebailey** said "Do you have a benchmark that would show where this matters? And how often it matters?"
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640655237) **mds-ant** committed to adding a benchmark before marking the PR ready for review
+
+### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Open)
+
+**Behavior difference: tsgo no longer emits comment on \`@typedef\` style object attributes**
+
+*tsgo no longer preserves JSDoc comments on object properties defined via @typedef, causing missing documentation in emitted types.*
+
+ * created by **hkleungai**
+
+### [Issue microsoft/TypeScript-go#4236](https://github.com/microsoft/TypeScript-go/issues/4236) (Open)
+
+**\[Post\-7\.0\] Improve readability of \`Array\.from\` / \`TypedArray\.from\` \`mapFn\` parameters**
+
+*Rename Array.from and TypedArray.from mapFn parameter names from v and k to element and index for improved IDE tooltip readability.*
+
+ * created by **AXT-AyaKoto**
 
