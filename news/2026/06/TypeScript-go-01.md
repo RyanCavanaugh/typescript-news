@@ -1,6 +1,6 @@
 # Report for 2026-06-01 (Monday, June 1st, 2026)
 
-18 different users commented on 105 different issues.
+18 different users commented on 106 different issues.
 
 ## Recommended Actions
 
@@ -40,7 +40,7 @@
 
 **Use JS\-compatible Unicode casing for intrinsic string mappings**
 
-*Implement JavaScript-compatible Unicode casing rules in TypeScript’s intrinsic string mapping functions.*
+*Update TypeScript’s intrinsic string mappings to apply JavaScript-compatible Unicode casing rules.*
 
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4486782037) **Andarist** mentioned having used AI assistance to draft an uncommitted audit script for js casing and shared its code
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4488896476) **jakebailey** said "What were the results of the analysis? What is the difference?"
@@ -660,7 +660,7 @@
 
 **Use first @jsx/@jsxfrag pragma to match tsc behavior**
 
-*Use the first @jsx/@jsxfrag pragma in tsgo to match tsc behavior and update utilities and tests accordingly.*
+*Fix tsgo to match tsc by using the first @jsx/@jsxfrag pragma for factory resolution and updating AST utilities and tests.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -791,12 +791,4 @@
 *Provide a unified VS Code output channel consolidating TypeScript-native-preview server logs and optional LSP traces with configurable levels.*
 
  * created by **andrewbranch**
-
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
-
-**Fix redundant undefined wrapping in optional parameter declaration emit**
-
-*Update declaration emission for optional parameters to avoid redundant '| undefined' wrapping when types already include undefined*
-
- * created by **danyalahmed1995**
 

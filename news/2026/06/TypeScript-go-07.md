@@ -1,6 +1,6 @@
 # Report for 2026-06-07 (Sunday, June 7th, 2026)
 
-4 different users commented on 10 different issues.
+5 different users commented on 12 different issues.
 
 ## Activity Summary
 
@@ -55,7 +55,7 @@
  * created by **a-tarasyuk**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4237](https://github.com/microsoft/TypeScript-go/issues/4237) (Open)
+### [Issue microsoft/TypeScript-go#4237](https://github.com/microsoft/TypeScript-go/issues/4237) (Open, `Domain: API and Extensibility`)
 
 **Consider shipping API enums without the \`const\` modifier**
 
@@ -63,7 +63,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Open)
+### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Open, `No linked issue`)
 
 **Several performance optimizations for the scanner's hot path**
 
@@ -71,15 +71,16 @@
 
  * created by **mds-ant**
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
 *Replace ForEachReturnStatement closure with a direct kind-switched recursive function to reduce allocations and improve performance.*
 
  * created by **mds-ant**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4239#issuecomment-4650627368) **jakebailey** mentioned that the hyperfine benchmark comparison was omitted and suspected the difference might be within noise
 
-### [PR microsoft/TypeScript-go#4240](https://github.com/microsoft/TypeScript-go/pull/4240) (Open)
+### [PR microsoft/TypeScript-go#4240](https://github.com/microsoft/TypeScript-go/pull/4240) (Open, `No linked issue`)
 
 **Inline \`GetCombinedNodeFlags\` and \`GetCombinedModifierFlags\` bodies**
 
@@ -87,7 +88,7 @@
 
  * created by **mds-ant**
 
-### [PR microsoft/TypeScript-go#4241](https://github.com/microsoft/TypeScript-go/pull/4241) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript-go#4241](https://github.com/microsoft/TypeScript-go/pull/4241) (Closed, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group across 1 directory with 3 updates**
 
@@ -95,4 +96,5 @@
 
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
+ * (later) **jakebailey** closed the issue
 

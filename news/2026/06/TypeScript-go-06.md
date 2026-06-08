@@ -59,7 +59,7 @@
  * (today) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4225](https://github.com/microsoft/TypeScript-go/issues/4225) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4225](https://github.com/microsoft/TypeScript-go/issues/4225) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **'Expected N type arguments' position does not skip trivia after '\<'**
 
@@ -68,7 +68,7 @@
  * created by **mds-ant**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226) (Open)
+### [PR microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226) (Open, `No linked issue`)
 
 **Convert \`valueSymbolLinks\` and \`symbolNodeLinks\` to id\-paged arrays**
 
@@ -109,7 +109,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4230](https://github.com/microsoft/TypeScript-go/issues/4230) (Open)
+### [Issue microsoft/TypeScript-go#4230](https://github.com/microsoft/TypeScript-go/issues/4230) (Open, `documentation`)
 
 **Behavior difference: tsgo no longer infer variadic \`args\` type when \`arguments\[\.\.\.\]\` is referenced inside plain js function body**
 
@@ -117,11 +117,11 @@
 
  * created by **hkleungai**
 
-### [PR microsoft/TypeScript-go#4231](https://github.com/microsoft/TypeScript-go/pull/4231) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4231](https://github.com/microsoft/TypeScript-go/pull/4231) (Closed, **jakebailey**, **Copilot**)
 
 **Skip trivia after '\<' in type\-argument arity error spans**
 
-*Skip whitespace and newlines after '<' when computing type-argument arity error spans, matching TypeScript behavior*
+*Modifies TypeScript's type-argument arity diagnostics to skip trivia after '<' so error spans start at the first type argument.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -144,7 +144,7 @@
  * created by **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript-go#4234](https://github.com/microsoft/TypeScript-go/pull/4234) (Open)
+### [PR microsoft/TypeScript-go#4234](https://github.com/microsoft/TypeScript-go/pull/4234) (Open, `No linked issue`)
 
 **Skip mark/rewind in \`tryParseTypeArgumentsInExpression\` when token isn't \`\<\`**
 
@@ -154,7 +154,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640652269) **jakebailey** said "Do you have a benchmark that would show where this matters? And how often it matters?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640655237) **mds-ant** committed to adding a benchmark before marking the PR ready for review
 
-### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Open)
+### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Open, `bug`)
 
 **Behavior difference: tsgo no longer emits comment on \`@typedef\` style object attributes**
 
@@ -162,7 +162,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4236](https://github.com/microsoft/TypeScript-go/issues/4236) (Open)
+### [Issue microsoft/TypeScript-go#4236](https://github.com/microsoft/TypeScript-go/issues/4236) (Open, `possible improvement`)
 
 **\[Post\-7\.0\] Improve readability of \`Array\.from\` / \`TypedArray\.from\` \`mapFn\` parameters**
 

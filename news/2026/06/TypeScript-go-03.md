@@ -60,7 +60,7 @@
 
 **Use JS\-compatible Unicode casing for intrinsic string mappings**
 
-*Implement JavaScript-compatible Unicode casing rules in TypeScript’s intrinsic string mapping functions.*
+*Update TypeScript’s intrinsic string mappings to apply JavaScript-compatible Unicode casing rules.*
 
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4598934154) **jakebailey** asked to ensure testing of toLowerCase final-sigma context divergences for strings of the form rΣ
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4599345981) **Andarist** questioned whether tests were required for all 267 items, noting an existing unit test included a single example of divergence
@@ -121,7 +121,7 @@
  * **andrewbranch** assigned to **Copilot**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#3826](https://github.com/microsoft/TypeScript-go/pull/3826) (Open)
+### [PR microsoft/TypeScript-go#3826](https://github.com/microsoft/TypeScript-go/pull/3826) (Open, `No linked issue`)
 
 **Add version & a common session identifier to events from LS clients**
 
@@ -132,7 +132,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3826#issuecomment-4444367810) **DanielRosenwasser** noted no indication that dotted names are illegal for end users and acknowledged possible error
  * **RyanCavanaugh** added to milestone `Possible Improvement`
 
-### [PR microsoft/TypeScript-go#3840](https://github.com/microsoft/TypeScript-go/pull/3840) (Open)
+### [PR microsoft/TypeScript-go#3840](https://github.com/microsoft/TypeScript-go/pull/3840) (Open, `No linked issue`)
 
 **Don't send bundled file watchers to client**
 
@@ -147,7 +147,7 @@
 
 **Reclassify \`nodeModulesAllowJsImportAssignment\` JS emit diffs as accepted baselines**
 
-*Reclassify nodeModulesAllowJsImportAssignment JS emit diffs as accepted baselines reflecting export import changes.*
+*Reclassify nodeModulesAllowJsImportAssignment JS emit diffs as accepted baselines to reflect the new export import output for import = require assignments.*
 
  * (2 weeks ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
@@ -191,7 +191,7 @@
 
 **Fix incorrect renaming of \`arguments\` in non\-reference positions in async downlevel**
 
-*Async downlevel incorrectly renames `arguments` in non-reference contexts, now fixed by using the AST IsIdentifierName utility and label checks.*
+*Fix async downlevel transform by preserving non-reference `arguments` uses in destructuring and JSX using `IsIdentifierName` and `IsLabelName`.*
 
  * (2 weeks ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
@@ -209,7 +209,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3923#issuecomment-4615804736) **Copilot** rebased the branch on main, refreshed the stale source-map baselines, and ran the tests successfully
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3935](https://github.com/microsoft/TypeScript-go/pull/3935) (Open)
+### [PR microsoft/TypeScript-go#3935](https://github.com/microsoft/TypeScript-go/pull/3935) (Open, `No linked issue`)
 
 **Narrow keyword completions for concise arrow expression bodies**
 
@@ -254,7 +254,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3941#issuecomment-4617935644) **Copilot** fixed lint failure in internal/module/resolver_test.go by removing an unnecessary loop-variable copy and making the successful waitForSignal case explicit, and verified lint and tests passed
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3943](https://github.com/microsoft/TypeScript-go/pull/3943) (Open)
+### [PR microsoft/TypeScript-go#3943](https://github.com/microsoft/TypeScript-go/pull/3943) (Open, `No linked issue`)
 
 **Fix crash inferring constrained variadic tuples with optional elements**
 
@@ -264,7 +264,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3943#issuecomment-4479716867) **jakebailey** said "We have a couple of PRs touching this same code, e.g. #3917, #2928; I feel a little unclear what combo is correct in all of these"
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#3996](https://github.com/microsoft/TypeScript-go/pull/3996) (Open)
+### [PR microsoft/TypeScript-go#3996](https://github.com/microsoft/TypeScript-go/pull/3996) (Open, `No linked issue`)
 
 **Extract tscInput tests to individual per\-scenario files with imperative edits to improve debuggability**
 
@@ -295,7 +295,7 @@
  * created by **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4024](https://github.com/microsoft/TypeScript-go/pull/4024) (Open)
+### [PR microsoft/TypeScript-go#4024](https://github.com/microsoft/TypeScript-go/pull/4024) (Closed)
 
 **Allow nil\-ing out arenas to break the GC link between nodes and the arena they came from**
 
@@ -528,7 +528,7 @@
 
 **Report JSON syntax errors from extended tsconfig files**
 
-*tsgo now surfaces JSON syntax errors in extended tsconfig files and includes regression tests to ensure proper diagnostic attribution.*
+*tsgo now surfaces JSON parsing errors from extended tsconfig files by propagating parser diagnostics and adding regression tests*
 
  * **Copilot** assigned to **jakebailey**
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4141#issuecomment-4607523204) **jakebailey** said "@copilot+gpt-5.5 merge main"
@@ -599,7 +599,7 @@
 
 **Use first @jsx/@jsxfrag pragma to match tsc behavior**
 
-*Use the first @jsx/@jsxfrag pragma in tsgo to match tsc behavior and update utilities and tests accordingly.*
+*Fix tsgo to match tsc by using the first @jsx/@jsxfrag pragma for factory resolution and updating AST utilities and tests.*
 
  * created by **Copilot**
  * (2 days ago) **Copilot** assigned to **Copilot**, **jakebailey**

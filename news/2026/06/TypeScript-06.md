@@ -1,6 +1,6 @@
 # Report for 2026-06-06 (Saturday, June 6th, 2026)
 
-7 different users commented on 4 different issues.
+6 different users commented on 4 different issues.
 
 ## Activity Summary
 
@@ -30,7 +30,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4640039237) **typescript-automation[bot]** reported CI jobs started and displayed a status table
  * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4640250342) **typescript-automation[bot]** reported that running tsc on the top 400 repos comparing main and the pull request produced no issues
 
-### [Issue microsoft/TypeScript#63540](https://github.com/microsoft/TypeScript/issues/63540) (Open)
+### [Issue microsoft/TypeScript#63540](https://github.com/microsoft/TypeScript/issues/63540) (Open, `Suggestion`, `Needs Proposal`)
 
 **Better ownership lint to eliminate ownership chaos for generated code**
 
@@ -41,7 +41,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638663487) **loynoir** noted that AI could write better code but might introduce double free issues and suggested adopting a stricter type system like Rust's
  * [later](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4642992017) **loynoir** reaffirmed that humans are humans regardless of skin color or wealth, and that AI is AI regardless of nationality or performance or price, and updated the title to generated code as @MartinJohns suggested
 
-### [PR microsoft/TypeScript#63542](https://github.com/microsoft/TypeScript/pull/63542) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63542](https://github.com/microsoft/TypeScript/pull/63542) (Closed, `For Backlog Bug`)
 
 **fix jsx error location when empty JsxExpression precedes failing child**
 
@@ -49,5 +49,4 @@
 
  * created by **harsha-cpp**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/63542#issuecomment-4642748032) **microsoft-github-policy-service[bot]** prompted the user to agree to the Contributor License Agreement by replying with an agree command
 

@@ -409,7 +409,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638058619) **JoostK** proposed spawning native tsgo before attempting optimization to avoid unnecessary optimizeBin overhead, noted this isn’t feasible with process.execve not forking, and questioned whether the overhead is significant
  * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638069692) **JoostK** suggested invoking tsgo with an --optimize-bin flag to move optimization into the native binary, but noted it was probably not worth it
 
-### [PR microsoft/TypeScript-go#4212](https://github.com/microsoft/TypeScript-go/pull/4212) (Open)
+### [PR microsoft/TypeScript-go#4212](https://github.com/microsoft/TypeScript-go/pull/4212) (Open, `No linked issue`)
 
 **Update dependencies**
 
@@ -426,7 +426,7 @@
  * created by **navya9singh**
  * (today) **navya9singh** closed the issue
 
-### [Issue microsoft/TypeScript-go#4214](https://github.com/microsoft/TypeScript-go/issues/4214) (Open)
+### [Issue microsoft/TypeScript-go#4214](https://github.com/microsoft/TypeScript-go/issues/4214) (Open, `Needs Investigation`)
 
 **Behavior difference: tsgo & tsc throw differently when spreading variable with type \`{}\`**
 
@@ -434,7 +434,7 @@
 
  * created by **hkleungai**
 
-### [Issue microsoft/TypeScript-go#4215](https://github.com/microsoft/TypeScript-go/issues/4215) (Open)
+### [Issue microsoft/TypeScript-go#4215](https://github.com/microsoft/TypeScript-go/issues/4215) (Open, `Domain: API and Extensibility`)
 
 **\`SourceFile\` is missing \`\.getLineStarts\(\)\` and \`\.getLineAndCharacterOfPosition\(\)\`**
 
@@ -442,7 +442,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4216](https://github.com/microsoft/TypeScript-go/issues/4216) (Open)
+### [Issue microsoft/TypeScript-go#4216](https://github.com/microsoft/TypeScript-go/issues/4216) (Open, `Domain: API and Extensibility`)
 
 **\`Node\` is missing \`getFullStart\(\)\`, \`getStart\(\)\` and other getters**
 
@@ -450,7 +450,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4217](https://github.com/microsoft/TypeScript-go/issues/4217) (Open)
+### [Issue microsoft/TypeScript-go#4217](https://github.com/microsoft/TypeScript-go/issues/4217) (Closed, `wontfix`)
 
 **Behavior difference: TS2741 diagnostic misalignment observed for nested array / object literals**
 
@@ -496,7 +496,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4221#issuecomment-4638796522) **hkleungai** reminded of a related issue and requested consistent `| undefined` emission, noting it would be a breaking change
  * (later) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4222](https://github.com/microsoft/TypeScript-go/issues/4222) (Open)
+### [Issue microsoft/TypeScript-go#4222](https://github.com/microsoft/TypeScript-go/issues/4222) (Closed, `wontfix`)
 
 **isolatedDeclarations: TS9007/TS9008 replaced by TS9039/TS9013 on the return expression**
 
@@ -521,7 +521,7 @@
 
  * created by **mds-ant**
 
-### [Issue microsoft/TypeScript-go#4225](https://github.com/microsoft/TypeScript-go/issues/4225) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4225](https://github.com/microsoft/TypeScript-go/issues/4225) (Closed, `possible improvement`, **jakebailey**, **Copilot**)
 
 **'Expected N type arguments' position does not skip trivia after '\<'**
 
@@ -529,7 +529,7 @@
 
  * created by **mds-ant**
 
-### [PR microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226) (Open)
+### [PR microsoft/TypeScript-go#4226](https://github.com/microsoft/TypeScript-go/pull/4226) (Open, `No linked issue`)
 
 **Convert \`valueSymbolLinks\` and \`symbolNodeLinks\` to id\-paged arrays**
 

@@ -34,9 +34,9 @@
 
 ### [PR microsoft/TypeScript-go#2907](https://github.com/microsoft/TypeScript-go/pull/2907) (Open, **RyanCavanaugh**, **Copilot**)
 
-**\[WIP\] Fix issue 63192 in TypeScript repository**
+**Fix issue 63192: infinite recursion when destructuring loop variables with defaults**
 
-*Add reentrancy guards in TypeScript compiler to prevent infinite recursion during destructuring loop variables with defaults.*
+*Prevent infinite recursion in flow analysis of destructured loop variables with defaults by excluding binding elements from tryGetNameFromEntityNameExpression*
 
  * [13 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2907#issuecomment-3963094319) **RyanCavanaugh** said "@ahejlsberg the code comments here are a bit much but does this look like a correct CFA fix?"
  * [13 weeks ago](https://github.com/microsoft/TypeScript-go/pull/2907#issuecomment-3963104509) **RyanCavanaugh** said "Via https://github.com/Microsoft/TypeScript/issues/63192"
@@ -124,7 +124,7 @@
 
 **Use named\-function overload diagnostic for JSDoc \`@overload\` return\-type omissions**
 
-*Change JSDoc @overload return-type omission diagnostics to report function names (TS7010) for named functions instead of generic TS7012 errors.*
+*Use named-function TS7010 diagnostics for JSDoc @overload return-type omissions when function is named, fallback to TS7012, updating tests and baselines.*
 
  * **Copilot** assigned to **RyanCavanaugh**
  * (2 weeks ago) **RyanCavanaugh** set milestone to `Post-7.0`, and assigned to **sandersn**
@@ -548,7 +548,7 @@
 
 **Report JSON syntax errors from extended tsconfig files**
 
-*tsgo now surfaces JSON syntax errors in extended tsconfig files and includes regression tests to ensure proper diagnostic attribution.*
+*tsgo now surfaces JSON parsing errors from extended tsconfig files by propagating parser diagnostics and adding regression tests*
 
  * created by **Copilot**
  * (2 days ago) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -671,7 +671,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4179](https://github.com/microsoft/TypeScript-go/pull/4179) (Open)
+### [PR microsoft/TypeScript-go#4179](https://github.com/microsoft/TypeScript-go/pull/4179) (Open, `No linked issue`)
 
 ** Add custom/projectFiles LSP request**
 

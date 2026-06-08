@@ -133,7 +133,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4637449383) **typescript-automation[bot]** reported that DT test results were ready and unchanged
  * [today](https://github.com/microsoft/TypeScript/pull/63539#issuecomment-4637526646) **typescript-automation[bot]** provided the requested performance run results
 
-### [Issue microsoft/TypeScript#63540](https://github.com/microsoft/TypeScript/issues/63540) (Open)
+### [Issue microsoft/TypeScript#63540](https://github.com/microsoft/TypeScript/issues/63540) (Open, `Suggestion`, `Needs Proposal`)
 
 **Better ownership lint to eliminate ownership chaos for generated code**
 
@@ -145,7 +145,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638502645) **MartinJohns** said "This has absolutely nothing to do with AI. Same code can be written by humans. Better Code can be written by AI."
  * [later](https://github.com/microsoft/TypeScript/issues/63540#issuecomment-4638663487) **loynoir** noted that AI could write better code but might introduce double free issues and suggested adopting a stricter type system like Rust's
 
-### [PR microsoft/TypeScript#63541](https://github.com/microsoft/TypeScript/pull/63541) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63541](https://github.com/microsoft/TypeScript/pull/63541) (Closed, `For Backlog Bug`)
 
 **Fix using declarations when Symbol is shadowed**
 
