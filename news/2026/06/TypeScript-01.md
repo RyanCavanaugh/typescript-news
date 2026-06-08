@@ -1,82 +1,48 @@
-# Report for 2026-06-01 (Monday, June 1st, 2026)
+# Report for 2026-06-01 (Sunday, May 31st, 2026)
 
-9 different users commented on 22 different issues.
+9 different users commented on 13 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @ritschwumm asked where the `as` operator precedence is documented in [microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4602727661)
-    * @snarbles2 asked if “erasable syntax only” implies “blankable” or if that was just assumed in [microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603029422)
+    * @hkleungai asked for documentation on .d.ts files taking priority over .js files in [microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4592123266)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#43368](https://github.com/microsoft/TypeScript/issues/43368) (Open, `Suggestion`, `Awaiting More Feedback`)
+### [Issue microsoft/TypeScript#62257](https://github.com/microsoft/TypeScript/issues/62257) (Open, `Bug`, `Domain: Declaration Emit`, `Fix Available`, **DanielRosenwasser**, **weswigham**, **Copilot**)
 
-**Suggestion: Allow getters to have predicate return types**
+**Declaration file emits symbol property keys without importing them**
 
-*Enable TypeScript class getters to have user-defined type predicate return types for type guards.*
+*TypeScript’s declaration file emitter omits imports for unique symbol property keys, causing undefined symbol errors in consumer d.ts files.*
 
- * [39 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-3243558010) **qolity** described encountering incorrect type inference with a property-based isRight approach and explaining why the type predicate method, though accurate, is prone to accidental misuse
- * [11 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4046270378) **alex-at-happening** said "That would be awesome to have it in TS"
- * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4410653140) **owenoak** said "+1 for this"
- * [later](https://github.com/microsoft/TypeScript/issues/43368#issuecomment-4600711749) **MaestroDD0S** said "+1 "
+ * **DanielRosenwasser** assigned to **DanielRosenwasser**
+ * (16 weeks ago) **typescript-bot** added labels `Fix Available`, `Fix Available`
+ * [today](https://github.com/microsoft/TypeScript/issues/62257#issuecomment-4589043826) **akbarim1689-wq** attached an image to the comment
 
-### [Issue microsoft/TypeScript#63481](https://github.com/microsoft/TypeScript/issues/63481) (Open, `Help Wanted`, `Domain: lib.d.ts`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63515](https://github.com/microsoft/TypeScript/issues/63515) (Closed, `Not a Defect`)
 
-**\`ReadonlySet\` lacks documentation for \`has\`, \`forEach\` and \`size\`**
+**Excess property check on nested object literals dropped in 6\.0 when parameter is a generic "Exact" mapped\-type guard**
 
-*ReadonlySet<T> in lib.es2015.collection.d.ts lacks documentation for its has, forEach, and size members.*
+*TypeScript 6.0 stops reporting nested excess properties in object literals when using a generic Exact mapped-type guard.*
 
- * (2 weeks ago) **RyanCavanaugh** added labels `Domain: lib.d.ts`, `Possible Improvement`
- * [1 week ago](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4531194717) **vitalysinitsin** said "I'd like to do that!"
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4594935599) **RyanCavanaugh** said "Can people PLEASE stop sending PRs when there's already an open identical PR open for the issue? What is going on??"
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4595081680) **vitalysinitsin** noted that there were enough people looking into the issue and that they would bow out
- * [today](https://github.com/microsoft/TypeScript/issues/63481#issuecomment-4595148889) **RyanCavanaugh** appreciated the check before PRing and noted that Claude’s issue search list top issue often attracts multiple PRs regardless of the docs
-
-### [PR microsoft/TypeScript#63508](https://github.com/microsoft/TypeScript/pull/63508) (Closed, `For Backlog Bug`)
-
-**Add missing JSDoc to ReadonlySet and ReadonlyMap members**
-
-*Add JSDoc comments to ReadonlySet and ReadonlyMap methods to match their mutable counterparts.*
-
- * **typescript-bot** added label `For Backlog Bug`
- * [5 days ago](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4559385934) **MartinJohns** said "Why another one? There's already #63483 and #63488. Seems to be done by AI."
- * [5 days ago](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4559644821) **TxsharDev** thanked MartinJohns, noted that #63488 was closed and #63483 only covered ReadonlySet, added JSDoc to ReadonlyMap methods to fill the same documentation gap, offered to remove the ReadonlySet portion if maintainers preferred, and clarified that the JSDoc was hand-written rather than AI-generated
- * [today](https://github.com/microsoft/TypeScript/pull/63508#issuecomment-4595017578) **RyanCavanaugh** closed the pull request because it duplicated work and contained unhelpful commentary on JavaScript Map semantics
- * (today) **RyanCavanaugh** closed the issue
-
-### [Issue microsoft/TypeScript#63512](https://github.com/microsoft/TypeScript/issues/63512) (Closed, `Not a Defect`)
-
-**Missing JSDoc annotations in esnext lib declaration files**
-
-*ESNext lib declaration files are missing JSDoc @param and @returns annotations, undermining IntelliSense documentation consistency.*
-
- * created by **Se3do**
- * [today](https://github.com/microsoft/TypeScript/issues/63512#issuecomment-4594969497) **RyanCavanaugh** argued that adding tautological comments was noise and that feedback-driven actionable comments were needed
- * (today) **RyanCavanaugh** closed the issue
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63515#issuecomment-4576549268) **snarbles2** analyzed type inference differences between TS 5.9.3 and 6.0 and concluded the issue wasn't with EPC
  * **RyanCavanaugh** added label `Not a Defect`
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63515#issuecomment-4577630364) **RyanCavanaugh** explained that simulated exact types aren't perfect and that two different function signatures having different behavior isn't a bug
+ * [today](https://github.com/microsoft/TypeScript/issues/63515#issuecomment-4588976504) **typescript-bot** said "This issue has been marked as "Not a Defect" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
+ * (today) **typescript-bot** closed the issue
 
-### [PR microsoft/TypeScript#63513](https://github.com/microsoft/TypeScript/pull/63513) (Closed, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63517](https://github.com/microsoft/TypeScript/pull/63517) (Closed, `For Backlog Bug`)
 
-**Add missing JSDoc param and returns tags to lib\.d\.ts esnext files**
+**fix: \`ReadonlySet\` lacks documentation for \`has\`, \`forEach\` and \`size\`**
 
-*Add missing JSDoc @param and @returns annotations to esnext lib.d.ts APIs including Error.isError, Date.toTemporalInstant, Atomics.pause, Map/WeakMap getOrInsert, Array.fromAsync, and Uint8Array.fromHex.*
+*Added missing JSDoc comments for ReadonlySet’s forEach, has, and size and ReadonlyMap’s methods to ensure consistency with the mutable interfaces*
 
- * created by **Se3do**
- * **typescript-bot** added label `For Uncommitted Bug`
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/63513#issuecomment-4562709948) **Se3do** said "@microsoft-github-policy-service agree"
- * [today](https://github.com/microsoft/TypeScript/pull/63513#issuecomment-4594971656) **RyanCavanaugh** said "Linked issue is rejected."
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63516](https://github.com/microsoft/TypeScript/pull/63516) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
-
-**Update toFixed/toExponential/toPrecision digit range in docs to match the spec**
-
-*Update Number.prototype.toFixed, toExponential, and toPrecision documentation to reflect the ES2018 spec’s increased digit limits of 0–100 and 1–100.*
-
- * created by **ibondarenko1**
- * **typescript-bot** added label `For Backlog Bug`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
+ * created by **arnavnagzirkar**
+ * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63517#issuecomment-4587815329) **arnavnagzirkar** said "@microsoft-github-policy-service agree"
+ * [today](https://github.com/microsoft/TypeScript/pull/63517#issuecomment-4587975021) **mkantor** noted that the diff duplicated existing proposals and lacked disclosure of AI coding tools
+ * [today](https://github.com/microsoft/TypeScript/pull/63517#issuecomment-4588771313) **arnavnagzirkar** closed the PR as a duplicate of existing issues and apologized for the noise, noting AI assistance
+ * (today) **arnavnagzirkar** closed the issue
 
 ### [PR microsoft/TypeScript#63518](https://github.com/microsoft/TypeScript/pull/63518) (Closed, `For Backlog Bug`)
 
@@ -86,8 +52,6 @@
 
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63518#issuecomment-4594906811) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
 
 ### [PR microsoft/TypeScript#63519](https://github.com/microsoft/TypeScript/pull/63519) (Closed, `For Backlog Bug`)
 
@@ -97,8 +61,6 @@
 
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63519#issuecomment-4594865254) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
 
 ### [PR microsoft/TypeScript#63520](https://github.com/microsoft/TypeScript/pull/63520) (Closed, `For Backlog Bug`)
 
@@ -108,8 +70,6 @@
 
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63520#issuecomment-4594862655) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123"
- * (today) **RyanCavanaugh** closed the issue
 
 ### [PR microsoft/TypeScript#63521](https://github.com/microsoft/TypeScript/pull/63521) (Closed, `For Backlog Bug`)
 
@@ -119,8 +79,25 @@
 
  * created by **arnavnagzirkar**
  * **typescript-bot** added label `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63521#issuecomment-4594858123) **RyanCavanaugh** noted that the change didn't meet the 6.0 patch bar and asked how Copilot was invoked
- * (today) **RyanCavanaugh** closed the issue
+
+### [Issue microsoft/TypeScript#63522](https://github.com/microsoft/TypeScript/issues/63522) (Open, `Bug`, `Domain: JS Emit`)
+
+**Declarations that shadow global \`Symbol\`  break emit for \`using\` declarations**
+
+*Declaring a local Symbol class that shadows the global Symbol breaks using declaration emissions and leads to runtime Symbol.dispose errors.*
+
+ * created by **DanielRosenwasser**
+ * [later](https://github.com/microsoft/TypeScript/issues/63522#issuecomment-4592215906) **nmain** said "Similar to https://github.com/microsoft/TypeScript/issues/61150."
+
+### [Issue microsoft/TypeScript#63523](https://github.com/microsoft/TypeScript/issues/63523) (Closed, `Working as Intended`)
+
+**tsc may fail to report error when \`file\.js\` & \`file\.d\.ts\` coexist, even when \`@ts\-check\` is added on \`file\.js\`\.**
+
+*After TypeScript 4.5 update, JavaScript files with @ts-check ignore errors if a corresponding .d.ts file is present.*
+
+ * created by **hkleungai**
+ * [later](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4591680219) **MartinJohns** explained that .d.ts files took priority over .js files and suggested enabling --skipLibCheck or generating .d.ts from .js
+ * [later](https://github.com/microsoft/TypeScript/issues/63523#issuecomment-4592123266) **hkleungai** noted skipLibCheck was enabled but the bug persisted, questioned that .d.ts files took priority over .js files, and suggested documentation clarification, highlighting a tsc ordering inconsistency
 
 ### [PR microsoft/TypeScript#63524](https://github.com/microsoft/TypeScript/pull/63524) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
@@ -130,39 +107,4 @@
 
  * created by **godfengliang**
  * **typescript-bot** added label `For Backlog Bug`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
- * [today](https://github.com/microsoft/TypeScript/pull/63524#issuecomment-4594888219) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md#use-of-ai-assistance"
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#63525](https://github.com/microsoft/TypeScript/pull/63525) (Closed, `For Uncommitted Bug`)
-
-**Fix JSDoc grammar typo: 'returns a undefined' → 'returns undefined'**
-
-*Grammar typo corrected in JSDoc for SymbolConstructor.keyFor by changing '@returns a undefined' to '@returns undefined'*
-
- * created by **driphtyio**
- * **typescript-bot** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055168) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055185) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63525#issuecomment-4599055199) **typescript-bot** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
-
-### [PR microsoft/TypeScript#63526](https://github.com/microsoft/TypeScript/pull/63526) (Closed, `For Backlog Bug`)
-
-**Allow element access on enum as computed property name in type literal**
-
-*Permit using enum members with non-identifier names as computed property keys in type literals by treating bracket access expressions as late-bindable.*
-
- * created by **driphtyio**
- * (today) **typescript-bot** added labels `For Backlog Bug`, `For Backlog Bug`
-
-### [Issue microsoft/TypeScript#63527](https://github.com/microsoft/TypeScript/issues/63527) (Closed, `Needs Investigation`, **ahejlsberg**)
-
-**\`erasableSyntaxOnly\` should error on unerasable \`as\`/\`satisfies\`**
-
-*ErasableSyntaxOnly should report errors for as or satisfies expressions that cannot be safely removed.*
-
- * created by **robpalme**
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4602727661) **ritschwumm** expressed surprise at the `as` operator precedence and wondered where it was documented
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603029422) **snarbles2** mentioned inability to find documentation for the `as` operator precedence and asked whether “erasable syntax only” implies “blankable” or if that was merely assumed
- * [later](https://github.com/microsoft/TypeScript/issues/63527#issuecomment-4603595943) **acutmore** questioned whether “erasable syntax only” implies “blankable” and referenced a precedent banning old `<Type>val` assertion syntax with an example illustrating the need for parentheses
 
