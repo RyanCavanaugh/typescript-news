@@ -1,6 +1,6 @@
 # Report for 2026-06-02 (Tuesday, June 2nd, 2026)
 
-7 different users commented on 33 different issues.
+7 different users commented on 34 different issues.
 
 ## Recommended Actions
 
@@ -120,7 +120,7 @@
  * (today) **typescript-bot** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#63529](https://github.com/microsoft/TypeScript/pull/63529) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#63529](https://github.com/microsoft/TypeScript/pull/63529) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group across 1 directory with 7 updates**
 

@@ -1,6 +1,6 @@
 # Report for 2026-06-05 (Friday, June 5th, 2026)
 
-13 different users commented on 53 different issues.
+13 different users commented on 54 different issues.
 
 ## Recommended Actions
 
@@ -14,7 +14,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Open, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
+### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Closed, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
 
 **\`ts\-check\` used with \`@typedef\` causes an error on \`module\.exports = \.\.\.\`**
 
@@ -160,7 +160,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * [today](https://github.com/microsoft/TypeScript-go/pull/4058#issuecomment-4635078850) **DanielRosenwasser** asked whether backtick-wrapped property names still work with the PR
 
-### [Issue microsoft/TypeScript-go#4066](https://github.com/microsoft/TypeScript-go/issues/4066) (Open, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **gabritto**)
+### [Issue microsoft/TypeScript-go#4066](https://github.com/microsoft/TypeScript-go/issues/4066) (Closed, `Domain: Editor`, `Crash`, **DanielRosenwasser**, **gabritto**)
 
 **Panic on file rename with solution\-style \`tsconfig\.json\`**
 
@@ -409,7 +409,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638058619) **JoostK** proposed spawning native tsgo before attempting optimization to avoid unnecessary optimizeBin overhead, noted this isn’t feasible with process.execve not forking, and questioned whether the overhead is significant
  * [later](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638069692) **JoostK** suggested invoking tsgo with an --optimize-bin flag to move optimization into the native binary, but noted it was probably not worth it
 
-### [PR microsoft/TypeScript-go#4212](https://github.com/microsoft/TypeScript-go/pull/4212) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4212](https://github.com/microsoft/TypeScript-go/pull/4212) (Closed, `No linked issue`)
 
 **Update dependencies**
 
@@ -426,7 +426,7 @@
  * created by **navya9singh**
  * (today) **navya9singh** closed the issue
 
-### [Issue microsoft/TypeScript-go#4214](https://github.com/microsoft/TypeScript-go/issues/4214) (Open, `Needs Investigation`)
+### [Issue microsoft/TypeScript-go#4214](https://github.com/microsoft/TypeScript-go/issues/4214) (Closed)
 
 **Behavior difference: tsgo & tsc throw differently when spreading variable with type \`{}\`**
 

@@ -101,7 +101,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63537#issuecomment-4635776575) **jakebailey** tested the new bot infrastructure
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#63538](https://github.com/microsoft/TypeScript/pull/63538) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#63538](https://github.com/microsoft/TypeScript/pull/63538) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Switch from bot PAT to GitHub App token via Azure Key Vault**
 

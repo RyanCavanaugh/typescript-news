@@ -313,7 +313,7 @@
  * (1 week ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4067](https://github.com/microsoft/TypeScript-go/pull/4067) (Open)
+### [PR microsoft/TypeScript-go#4067](https://github.com/microsoft/TypeScript-go/pull/4067) (Closed)
 
 **Fix file rename crashes when dealing with solution configuration files**
 
@@ -742,7 +742,7 @@
 
 **Fix a slew of UTF\-8/UTF\-16 related issues**
 
-*Adopt a WTF-8-inspired approach to fix multiple UTF-8/UTF-16 encoding issues while preserving raw byte storage of source files.*
+*Adopt a WTF-8-like approach to handle raw source bytes and resolve multiple UTF-8/UTF-16 encoding issues.*
 
  * created by **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`

@@ -4,7 +4,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Open, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
+### [Issue microsoft/TypeScript-go#1685](https://github.com/microsoft/TypeScript-go/issues/1685) (Closed, `Domain: Type Checking`, `Domain: JS`, **sandersn**)
 
 **\`ts\-check\` used with \`@typedef\` causes an error on \`module\.exports = \.\.\.\`**
 
@@ -55,7 +55,7 @@
  * created by **a-tarasyuk**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4237](https://github.com/microsoft/TypeScript-go/issues/4237) (Open, `Domain: API and Extensibility`)
+### [Issue microsoft/TypeScript-go#4237](https://github.com/microsoft/TypeScript-go/issues/4237) (Closed, `Domain: API and Extensibility`, **jakebailey**, **Copilot**)
 
 **Consider shipping API enums without the \`const\` modifier**
 
@@ -67,7 +67,7 @@
 
 **Several performance optimizations for the scanner's hot path**
 
-*Implements five hot-path scanner optimizations for ASCII parsing and comment/trivia scanning, yielding roughly 7.8% faster parse times.*
+*Fast-path scanner optimizations, including ASCII byte handling and a scanASCIIWhile helper, reduce parse times by ~7.5%.*
 
  * created by **mds-ant**
 

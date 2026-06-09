@@ -32,7 +32,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#2907](https://github.com/microsoft/TypeScript-go/pull/2907) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#2907](https://github.com/microsoft/TypeScript-go/pull/2907) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix issue 63192: infinite recursion when destructuring loop variables with defaults**
 
@@ -696,7 +696,7 @@
 
 **Fix a slew of UTF\-8/UTF\-16 related issues**
 
-*Adopt a WTF-8-inspired approach to fix multiple UTF-8/UTF-16 encoding issues while preserving raw byte storage of source files.*
+*Adopt a WTF-8-like approach to handle raw source bytes and resolve multiple UTF-8/UTF-16 encoding issues.*
 
  * created by **jakebailey**
 
