@@ -245,7 +245,7 @@
  * created by **navya9singh**
  * (today) **RyanCavanaugh** added label `No linked issue`, and set milestone to `Possible Improvement`
 
-### [PR microsoft/TypeScript-go#3854](https://github.com/microsoft/TypeScript-go/pull/3854) (Open)
+### [PR microsoft/TypeScript-go#3854](https://github.com/microsoft/TypeScript-go/pull/3854) (Closed)
 
 **check that all files in \`"files"\` in tsconfig exist**
 
@@ -672,7 +672,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4248#issuecomment-4661380146) **DanielRosenwasser** said "@copilot+gpt-5.5 you did not add a test"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4248#issuecomment-4661516807) **Copilot** added a focused regression test covering ResolveModuleName('./foo', '', ...) to exercise the non-absolute VFS lookup path that previously panicked; noted in commit f7f88aae
 
-### [Issue microsoft/TypeScript-go#4249](https://github.com/microsoft/TypeScript-go/issues/4249) (Open)
+### [Issue microsoft/TypeScript-go#4249](https://github.com/microsoft/TypeScript-go/issues/4249) (Open, `Domain: API and Extensibility`)
 
 **\`\.getProgramDiagnostics\(\)\` is missing in the API**
 
@@ -688,7 +688,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#4251](https://github.com/microsoft/TypeScript-go/issues/4251) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4251](https://github.com/microsoft/TypeScript-go/issues/4251) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **Triple slash reference does not emit files from referenced ts projects**
 
