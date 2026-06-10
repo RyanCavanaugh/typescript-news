@@ -719,7 +719,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4171#issuecomment-4606607552) **jakebailey** said "LGTM though there are conflicts and maybe @DanielRosenwasser should comment."
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`, **ahejlsberg**)
 
 **Fix redundant undefined wrapping in optional parameter declaration emit**
 
@@ -742,7 +742,7 @@
 
 **Fix a slew of UTF\-8/UTF\-16 related issues**
 
-*Adopt a WTF-8-like approach to handle raw source bytes and resolve multiple UTF-8/UTF-16 encoding issues.*
+*A series of UTF-8 and UTF-16 encoding bugs are fixed and updates applied across multiple related issues.*
 
  * created by **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`

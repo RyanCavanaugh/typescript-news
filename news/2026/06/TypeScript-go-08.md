@@ -215,7 +215,7 @@
  * **RyanCavanaugh** added to milestone `Possible Improvement`
  * **RyanCavanaugh** added label `No linked issue`
 
-### [PR microsoft/TypeScript-go#3832](https://github.com/microsoft/TypeScript-go/pull/3832) (Open)
+### [PR microsoft/TypeScript-go#3832](https://github.com/microsoft/TypeScript-go/pull/3832) (Closed)
 
 **Add recursion limiter for \`TypeToString\`**
 
@@ -236,7 +236,7 @@
  * (5 days ago) **RyanCavanaugh** set milestones to `TypeScript 7.0 RC`, `Possible Improvement`, and removed from milestone `TypeScript 7.0 RC`
  * (today) **RyanCavanaugh** added label `No linked issue`, set milestone to `Post-7.0`, and removed from milestone `Possible Improvement`
 
-### [PR microsoft/TypeScript-go#3846](https://github.com/microsoft/TypeScript-go/pull/3846) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#3846](https://github.com/microsoft/TypeScript-go/pull/3846) (Closed, `No linked issue`)
 
 **Find all references API endpoints**
 
@@ -533,7 +533,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4652926633) **typescript-automation[bot]** noted CI jobs started and linked to results
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4653159218) **typescript-automation[bot]** provided the requested performance run results
 
-### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Closed, `bug`)
 
 **Behavior difference: tsgo no longer emits comment on \`@typedef\` style object attributes**
 
@@ -680,7 +680,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript-go#4250](https://github.com/microsoft/TypeScript-go/pull/4250) (Open)
+### [PR microsoft/TypeScript-go#4250](https://github.com/microsoft/TypeScript-go/pull/4250) (Closed, **weswigham**)
 
 **preserve jsdoc prop descriptions in declaration emit**
 
@@ -688,7 +688,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#4251](https://github.com/microsoft/TypeScript-go/issues/4251) (Open, `bug`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4251](https://github.com/microsoft/TypeScript-go/issues/4251) (Closed, `bug`, **jakebailey**, **Copilot**)
 
 **Triple slash reference does not emit files from referenced ts projects**
 

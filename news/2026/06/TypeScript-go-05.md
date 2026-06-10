@@ -129,7 +129,7 @@
  * (2 weeks ago) **weswigham** added labels `Domain: Build Mode`, `Needs More Info`, `Needs Investigation`
  * **RyanCavanaugh** added to milestone `Possible Improvement`
 
-### [Issue microsoft/TypeScript-go#4019](https://github.com/microsoft/TypeScript-go/issues/4019) (Open, `Crash`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4019](https://github.com/microsoft/TypeScript-go/issues/4019) (Closed, `Crash`, **weswigham**)
 
 **Crash on file rename \+ \`workspace/didChangeWatchedFiles\`, \\w \`composite\` option enabled**
 
@@ -306,7 +306,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4146#issuecomment-4637062678) **mrazauskas** said "Was added in #4113"
  * (today) **mrazauskas** closed the issue
 
-### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4172](https://github.com/microsoft/TypeScript-go/pull/4172) (Open, `Voight-Kampff Anomaly`, **ahejlsberg**)
 
 **Fix redundant undefined wrapping in optional parameter declaration emit**
 

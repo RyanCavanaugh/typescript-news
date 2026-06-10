@@ -154,7 +154,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640652269) **jakebailey** said "Do you have a benchmark that would show where this matters? And how often it matters?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4640655237) **mds-ant** committed to adding a benchmark before marking the PR ready for review
 
-### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#4235](https://github.com/microsoft/TypeScript-go/issues/4235) (Closed, `bug`)
 
 **Behavior difference: tsgo no longer emits comment on \`@typedef\` style object attributes**
 
