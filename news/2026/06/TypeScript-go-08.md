@@ -1,6 +1,6 @@
 # Report for 2026-06-08 (Monday, June 8th, 2026)
 
-13 different users commented on 68 different issues.
+13 different users commented on 70 different issues.
 
 ## Recommended Actions
 
@@ -567,7 +567,7 @@
 
 **Several performance optimizations for the scanner's hot path**
 
-*Fast-path scanner optimizations, including ASCII byte handling and a scanASCIIWhile helper, reduce parse times by ~7.5%.*
+*Various per-commit optimizations to the scanner's hot path improve parsing performance by about 9.4% while keeping memory usage stable.*
 
  * created by **mds-ant**
  * (today) **RyanCavanaugh** added label `No linked issue`, and set milestone to `Possible Improvement`

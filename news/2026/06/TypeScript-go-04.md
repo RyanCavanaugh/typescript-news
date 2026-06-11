@@ -57,7 +57,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0`
  * [later](https://github.com/microsoft/TypeScript-go/pull/4113#issuecomment-4631918250) **piotrtomiak** said "@andrewbranch - please review the updated PR."
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Closed, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 

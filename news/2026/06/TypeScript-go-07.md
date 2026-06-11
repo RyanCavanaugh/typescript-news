@@ -67,7 +67,7 @@
 
 **Several performance optimizations for the scanner's hot path**
 
-*Fast-path scanner optimizations, including ASCII byte handling and a scanASCIIWhile helper, reduce parse times by ~7.5%.*
+*Various per-commit optimizations to the scanner's hot path improve parsing performance by about 9.4% while keeping memory usage stable.*
 
  * created by **mds-ant**
 

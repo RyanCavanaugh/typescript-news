@@ -1,11 +1,10 @@
 # Report for 2026-06-09 (Tuesday, June 9th, 2026)
 
-5 different users commented on 3 different issues.
+4 different users commented on 3 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @ibesuperv asked if they can continue working on the issue in [microsoft/TypeScript#63092](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4665997325)
     * @oe-andreas-soroko asked to mark the issue as a duplicate if it matches an existing one in [microsoft/TypeScript#63545](https://github.com/microsoft/TypeScript/issues/63545#issuecomment-4670545548)
 
 ## Activity Summary
@@ -19,7 +18,6 @@
  * (16 weeks ago) **RyanCavanaugh** added label `Domain: check: Control Flow`, and set milestone to `Backlog`
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4655578718) **ibesuperv** said "Yo if this issue still exists can you please assign me"
  * [today](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4663552465) **RyanCavanaugh** referred to the contributing guidelines and reminded the user to develop in the typescript-go repo because the bug didn't meet the 6.0 patch bar
- * [today](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4665997325) **ibesuperv** asked if they could continue working on the issue
 
 ### [Issue microsoft/TypeScript#63545](https://github.com/microsoft/TypeScript/issues/63545) (Open)
 

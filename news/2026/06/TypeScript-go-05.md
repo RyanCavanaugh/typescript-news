@@ -139,7 +139,7 @@
  * **mpal9000** added label `Crash`
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Open, `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Closed, `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: Notable gap regarding expando declaration on a function between tsc & tsgo**
 
@@ -169,7 +169,7 @@
  * (1 week ago) **DanielRosenwasser** added labels `Domain: Editor`, `Crash`, and assigned to **gabritto**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
 
-### [PR microsoft/TypeScript-go#4069](https://github.com/microsoft/TypeScript-go/pull/4069) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4069](https://github.com/microsoft/TypeScript-go/pull/4069) (Closed, `Voight-Kampff Anomaly`)
 
 **Fix JS bind expando declaration emit**
 
@@ -179,7 +179,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
-### [Issue microsoft/TypeScript-go#4071](https://github.com/microsoft/TypeScript-go/issues/4071) (Open, `bug`, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4071](https://github.com/microsoft/TypeScript-go/issues/4071) (Closed, `bug`, **jakebailey**)
 
 **Behavior difference: Emoji string in tsgo emit does not align well with tsc**
 
@@ -201,7 +201,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4079#issuecomment-4597396462) **danyalahmed1995** opened a PR to focus the fix on declaration emit for optional/defaulted parameters, added a regression test, and updated the baselines
  * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
 
-### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Open, `bug`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4092](https://github.com/microsoft/TypeScript-go/issues/4092) (Closed, `bug`, **jakebailey**, **Copilot**)
 
 **Lone surrogate in enum member name / const enum value is corrupted to U\+FFFD in emitted JS**
 
@@ -233,7 +233,7 @@
  * (4 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
 
-### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4118](https://github.com/microsoft/TypeScript-go/issues/4118) (Closed, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit drops expando function properties whose assignments are not top\-level expression statements**
 
@@ -242,7 +242,7 @@
  * (yesterday) **ahejlsberg** added label `bug`, set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
  * **ahejlsberg** added label `Domain: Declaration Emit`
 
-### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Open, `bug`, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4119](https://github.com/microsoft/TypeScript-go/issues/4119) (Closed, `bug`, **jakebailey**)
 
 **U\+2028/U\+2029 inside a multi\-line comment leaves 2 stray bytes in emitted JS \(invalid UTF\-8\)**
 
@@ -275,7 +275,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4127#issuecomment-4634436481) **ahejlsberg** said "See my comment here. We want to keep this behavior."
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript-go#4131](https://github.com/microsoft/TypeScript-go/issues/4131) (Open, `bug`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4131](https://github.com/microsoft/TypeScript-go/issues/4131) (Closed, `bug`, **jakebailey**, **Copilot**)
 
 **tsgo silently swallows JSON syntax errors in an extended tsconfig\.json file**
 
@@ -316,7 +316,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
-### [PR microsoft/TypeScript-go#4198](https://github.com/microsoft/TypeScript-go/pull/4198) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4198](https://github.com/microsoft/TypeScript-go/pull/4198) (Closed, **jakebailey**, **Copilot**)
 
 **Emit nested expando function assignments in declarations**
 
