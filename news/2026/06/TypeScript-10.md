@@ -1,6 +1,6 @@
 # Report for 2026-06-10 (Wednesday, June 10th, 2026)
 
-5 different users commented on 27 different issues.
+5 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -10,17 +10,6 @@
     * @ibesuperv asked to review the submitted fix in [microsoft/TypeScript#63092](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4679263794)
 
 ## Activity Summary
-
-### [Issue microsoft/TypeScript#14520](https://github.com/microsoft/TypeScript/issues/14520) (Open, `Suggestion`, `In Discussion`)
-
-**Enable type parameter lower\-bound syntax**
-
-*Support lower-bound type parameter syntax (using super) to constrain generics in TypeScript.*
-
- * [1.3 years ago](https://github.com/microsoft/TypeScript/issues/14520#issuecomment-2664216150) **phaux** said "@d07RiV https://github.com/microsoft/TypeScript/issues/21759"
- * [1.3 years ago](https://github.com/microsoft/TypeScript/issues/14520#issuecomment-2664736346) **RobertSandiford** explained a potential TS change using readonly and mutable flags but noted lack of TS team interest and provided a manual type-validation workaround
- * [1.2 years ago](https://github.com/microsoft/TypeScript/issues/14520#issuecomment-2719118867) **patricio-hondagneu-simplisafe** expressed annoyance that Array.includes expects searchElement to match array type, causing union type errors
- * [later](https://github.com/microsoft/TypeScript/issues/14520#issuecomment-4681163055) **eklenin** mocked TypeScript for making Array.includes unusable due to its type system and sarcastically suggested replacing JS engines with the TypeScript compiler
 
 ### [Issue microsoft/TypeScript#45560](https://github.com/microsoft/TypeScript/issues/45560) (Open, `Bug`, `Domain: Mapped Types`, `Fix Available`)
 
@@ -32,6 +21,7 @@
  * [3.7 years ago](https://github.com/microsoft/TypeScript/issues/45560#issuecomment-1260129973) **RyanCavanaugh** noted that the straightforward fix caused unacceptable performance hits in material-ui and suggested seeking a more performant solution since the bug is infrequent
  * **RyanCavanaugh** added label `Domain: Mapped Types`
  * [today](https://github.com/microsoft/TypeScript/issues/45560#issuecomment-4676880644) **mwg-ofx** said "I wonder if such a change could be reconsidered after the Go migration is complete, given the significant speed boost it provides."
+ * [later](https://github.com/microsoft/TypeScript/issues/45560#issuecomment-4682464840) **RyanCavanaugh** said "By "unacceptable perf hits" we mean like 40%, and people are already complaining that tsgo isn't fast enough in material-ui."
 
 ### [Issue microsoft/TypeScript#54087](https://github.com/microsoft/TypeScript/issues/54087) (Open, `Needs Investigation`, **sheetalkamat**)
 
@@ -55,7 +45,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4663552465) **RyanCavanaugh** referred to the contributing guidelines and reminded the user to develop in the typescript-go repo because the bug didn't meet the 6.0 patch bar
  * [later](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4679263794) **ibesuperv** submitted a fix in the typescript-go repository and asked for review
 
-### [Issue microsoft/TypeScript#63547](https://github.com/microsoft/TypeScript/issues/63547) (Open)
+### [Issue microsoft/TypeScript#63547](https://github.com/microsoft/TypeScript/issues/63547) (Open, `Won't Fix`)
 
 **packageId is not set when calling resolveModuleName on a directory with an index\.d\.ts file in a dependency**
 

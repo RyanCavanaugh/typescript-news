@@ -58,7 +58,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/3263#issuecomment-4626691248) **jakebailey** said "It was the non-jsdoc stuff I was concerned about, but if it matches Strada then LGTM"
  * (today) **iisaduan** closed the issue
 
-### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#3618](https://github.com/microsoft/TypeScript-go/pull/3618) (Closed, `Voight-Kampff Anomaly`)
 
 **fix: prevent wildcard pattern from overriding exact match in FindBestPatternMatch**
 
@@ -149,7 +149,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/4045#issuecomment-4553479379) **hkleungai** expressed hope that tsgo continued to support expando types and requested a fix for Storybook CSF2 syntax
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.0 RC`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript-go#4058](https://github.com/microsoft/TypeScript-go/pull/4058) (Open)
+### [PR microsoft/TypeScript-go#4058](https://github.com/microsoft/TypeScript-go/pull/4058) (Closed)
 
 **Reparse non\-identifier jsdoc names where possible, error otherwise**
 
@@ -351,7 +351,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/issues/4205#issuecomment-4634944783) **hkleungai** requested consistent `| undefined` emission in tsgo to avoid consumer issues with exactOptionalPropertyTypes
 
-### [Issue microsoft/TypeScript-go#4206](https://github.com/microsoft/TypeScript-go/issues/4206) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4206](https://github.com/microsoft/TypeScript-go/issues/4206) (Closed, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Behavior difference: tsgo fails to infer type for undeclared class member when assignment happen inside \`new Promise\` callback**
 

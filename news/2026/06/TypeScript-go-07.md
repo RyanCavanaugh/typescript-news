@@ -63,7 +63,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Closed, `No linked issue`)
 
 **Several performance optimizations for the scanner's hot path**
 

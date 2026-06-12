@@ -1,6 +1,6 @@
 # Report for 2026-06-09 (Tuesday, June 9th, 2026)
 
-4 different users commented on 3 different issues.
+4 different users commented on 4 different issues.
 
 ## Recommended Actions
 
@@ -19,7 +19,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4655578718) **ibesuperv** said "Yo if this issue still exists can you please assign me"
  * [today](https://github.com/microsoft/TypeScript/issues/63092#issuecomment-4663552465) **RyanCavanaugh** referred to the contributing guidelines and reminded the user to develop in the typescript-go repo because the bug didn't meet the 6.0 patch bar
 
-### [Issue microsoft/TypeScript#63545](https://github.com/microsoft/TypeScript/issues/63545) (Open)
+### [Issue microsoft/TypeScript#63545](https://github.com/microsoft/TypeScript/issues/63545) (Closed, `Duplicate`)
 
 **Missing contextual typing for object\-literal callback parameter causes generic return type to fall back to \`unknown\`**
 

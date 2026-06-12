@@ -1,6 +1,6 @@
 # Report for 2026-06-08 (Monday, June 8th, 2026)
 
-13 different users commented on 70 different issues.
+13 different users commented on 71 different issues.
 
 ## Recommended Actions
 
@@ -350,7 +350,7 @@
  * (today) **RyanCavanaugh** added label `No linked issue`, and set milestone to `Possible Improvement`
  * **johnfav03** removed label `No linked issue`
 
-### [PR microsoft/TypeScript-go#4058](https://github.com/microsoft/TypeScript-go/pull/4058) (Open)
+### [PR microsoft/TypeScript-go#4058](https://github.com/microsoft/TypeScript-go/pull/4058) (Closed)
 
 **Reparse non\-identifier jsdoc names where possible, error otherwise**
 
@@ -563,7 +563,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Closed, `No linked issue`)
 
 **Several performance optimizations for the scanner's hot path**
 

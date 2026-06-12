@@ -251,7 +251,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4258#issuecomment-4668341670) **mrazauskas** said "Oh… This is already available from sync and async entry points. Amazing! Thanks a lot! (Sorry, about the noise.)"
  * (later) **mrazauskas** closed the issue
 
-### [Issue microsoft/TypeScript-go#4259](https://github.com/microsoft/TypeScript-go/issues/4259) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4259](https://github.com/microsoft/TypeScript-go/issues/4259) (Closed, `Crash`)
 
 **panic: cache entry not found \[recovered, repanicked\] \- exponentially increasingly random sporadic crashes until full VSCode Restart**
 
@@ -260,7 +260,7 @@
  * created by **klydra**
  * **klydra** added label `Crash`
 
-### [PR microsoft/TypeScript-go#4260](https://github.com/microsoft/TypeScript-go/pull/4260) (Open)
+### [PR microsoft/TypeScript-go#4260](https://github.com/microsoft/TypeScript-go/pull/4260) (Closed)
 
 **Fix stack overflow caused by simplification of recursive type**
 

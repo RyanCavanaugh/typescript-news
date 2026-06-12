@@ -1,6 +1,6 @@
 # Report for 2026-06-10 (Wednesday, June 10th, 2026)
 
-17 different users commented on 46 different issues.
+18 different users commented on 48 different issues.
 
 ## Recommended Actions
 
@@ -63,7 +63,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3495#issuecomment-4674804028) **jakebailey** switched to unicode.RangeTable from surrogate pair slices, reduced binary size by 40%, improved speed by up to 3.3×, and reduced code
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#3617](https://github.com/microsoft/TypeScript-go/issues/3617) (Open, `Voight-Kampff Anomaly`, **iisaduan**)
+### [Issue microsoft/TypeScript-go#3617](https://github.com/microsoft/TypeScript-go/issues/3617) (Closed, `Voight-Kampff Anomaly`, **iisaduan**)
 
 **fix: FindBestPatternMatch incorrectly allows wildcard pattern to override exact match**
 
@@ -95,7 +95,7 @@
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3834](https://github.com/microsoft/TypeScript-go/pull/3834) (Open)
+### [PR microsoft/TypeScript-go#3834](https://github.com/microsoft/TypeScript-go/pull/3834) (Closed)
 
 **add localization for extension**
 
@@ -114,6 +114,17 @@
  * (3 weeks ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 RC`
  * (today) **jakebailey** closed the issue
+
+### [Issue microsoft/TypeScript-go#4019](https://github.com/microsoft/TypeScript-go/issues/4019) (Closed, `Crash`, **weswigham**)
+
+**Crash on file rename \+ \`workspace/didChangeWatchedFiles\`, \\w \`composite\` option enabled**
+
+*The TypeScript language server crashes with a nil pointer panic when processing a file rename alongside workspace/didChangeWatchedFiles in composite-enabled projects.*
+
+ * **RyanCavanaugh** assigned to **weswigham**
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4019#issuecomment-4663782366) **weswigham** said "Fixed in https://github.com/microsoft/typescript-go/commit/69b0d53976ef291fa0bb2b636ec1b557a015f6b3 (presumably - it no longer repros at main)"
+ * (yesterday) **weswigham** closed the issue
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4019#issuecomment-4682346177) **mpal9000** said "I don't see the problem anymore either. Thanks!"
 
 ### [Issue microsoft/TypeScript-go#4045](https://github.com/microsoft/TypeScript-go/issues/4045) (Closed, `bug`, `Domain: Declaration Emit`, `Domain: JS`, `Needs Investigation`, **weswigham**)
 
@@ -230,7 +241,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4198#issuecomment-4638216073) **hkleungai** said "Just curious, is this PR also solving the issue I raised in https://github.com/microsoft/typescript-go/issues/4045? If not, also fine :)"
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4238](https://github.com/microsoft/TypeScript-go/pull/4238) (Closed, `No linked issue`)
 
 **Several performance optimizations for the scanner's hot path**
 
@@ -246,7 +257,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4238#issuecomment-4682146434) **jakebailey** said "I like where this PR is now; much more contained. Are you planning on pushing anything else?"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4238#issuecomment-4682201403) **mds-ant** mentioned having another scanner change to propose in a separate PR and indicated the current PR was ready for review
 
-### [Issue microsoft/TypeScript-go#4259](https://github.com/microsoft/TypeScript-go/issues/4259) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4259](https://github.com/microsoft/TypeScript-go/issues/4259) (Closed, `Crash`)
 
 **panic: cache entry not found \[recovered, repanicked\] \- exponentially increasingly random sporadic crashes until full VSCode Restart**
 
@@ -257,7 +268,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4259#issuecomment-4678451986) **DanielRosenwasser** noted difficulty reproducing and asked if ESLint was the only extension performing actions on save and if TypeScript was formatting/organizing imports on save
  * [later](https://github.com/microsoft/TypeScript-go/issues/4259#issuecomment-4682036453) **klydra** described isolating ESLint as the only extension performing transformations on save and shared configuration settings and logs
 
-### [PR microsoft/TypeScript-go#4260](https://github.com/microsoft/TypeScript-go/pull/4260) (Open)
+### [PR microsoft/TypeScript-go#4260](https://github.com/microsoft/TypeScript-go/pull/4260) (Closed)
 
 **Fix stack overflow caused by simplification of recursive type**
 
@@ -281,7 +292,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4262](https://github.com/microsoft/TypeScript-go/issues/4262) (Open)
+### [Issue microsoft/TypeScript-go#4262](https://github.com/microsoft/TypeScript-go/issues/4262) (Open, `bug`, `Needs More Info`)
 
 **Non\-deterministic \`TS2305 "has no exported member"\` errors across project references with \`\-\-emitDeclarationOnly\`**
 
@@ -289,7 +300,7 @@
 
  * created by **benkeen**
 
-### [PR microsoft/TypeScript-go#4263](https://github.com/microsoft/TypeScript-go/pull/4263) (Open)
+### [PR microsoft/TypeScript-go#4263](https://github.com/microsoft/TypeScript-go/pull/4263) (Closed)
 
 **TS GO API: add getCompletionsAtPosition to the API and support includeSymbols**
 
@@ -298,7 +309,7 @@
  * created by **piotrtomiak**
  * **RyanCavanaugh** added to milestone `Post-7.0`
 
-### [PR microsoft/TypeScript-go#4264](https://github.com/microsoft/TypeScript-go/pull/4264) (Open)
+### [PR microsoft/TypeScript-go#4264](https://github.com/microsoft/TypeScript-go/pull/4264) (Closed)
 
 **Walk class children to find this property assignments beyond top level**
 
@@ -369,7 +380,7 @@
  * created by **clintonjrobinson**
  * (today) **clintonjrobinson** closed the issue
 
-### [Issue microsoft/TypeScript-go#4272](https://github.com/microsoft/TypeScript-go/issues/4272) (Open)
+### [Issue microsoft/TypeScript-go#4272](https://github.com/microsoft/TypeScript-go/issues/4272) (Closed, **jakebailey**, **Copilot**)
 
 **LSP: initialize rejected when initializationOptions is null**
 
@@ -377,7 +388,7 @@
 
  * created by **Macavirus**
 
-### [PR microsoft/TypeScript-go#4273](https://github.com/microsoft/TypeScript-go/pull/4273) (Open)
+### [PR microsoft/TypeScript-go#4273](https://github.com/microsoft/TypeScript-go/pull/4273) (Closed)
 
 **API: Add declaration property to IndexInfo\.**
 
@@ -394,7 +405,7 @@
  * created by **ibesuperv**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4274#issuecomment-4679008732) **ibesuperv** agreed with microsoft-github-policy-service
 
-### [Issue microsoft/TypeScript-go#4275](https://github.com/microsoft/TypeScript-go/issues/4275) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4275](https://github.com/microsoft/TypeScript-go/issues/4275) (Closed, **jakebailey**, **Copilot**)
 
 **\`tsconfig\.json\` included as JSON input reports TS1006 self\-reference**
 
@@ -424,7 +435,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4277#issuecomment-4681988280) **typescript-automation[bot]** reported the results of the requested performance run
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4278](https://github.com/microsoft/TypeScript-go/pull/4278) (Open)
+### [PR microsoft/TypeScript-go#4278](https://github.com/microsoft/TypeScript-go/pull/4278) (Closed)
 
 **API: Fix nil panic for instantiated types**
 
@@ -432,7 +443,7 @@
 
  * created by **piotrtomiak**
 
-### [PR microsoft/TypeScript-go#4279](https://github.com/microsoft/TypeScript-go/pull/4279) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4279](https://github.com/microsoft/TypeScript-go/pull/4279) (Closed, **jakebailey**, **Copilot**)
 
 **Fix false TS1006 for included tsconfig JSON imports**
 
