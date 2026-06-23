@@ -73,7 +73,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63561#issuecomment-4729759859) **nmain** questioned whether the facilitation was deliberate and asked why defaults are any on Generator<> and Iterable<> but unknown on IteratorObject<>
  * [later](https://github.com/microsoft/TypeScript/issues/63561#issuecomment-4732242373) **laverdet** described using generator functions for simple iterables, downcasting to Iterator<T> due to Generator<T,R,N>’s complexity, noted lost functionality with built-in iterators, suggested creating a custom interface extending Generator, and proposed considering void as a default for TReturn on IteratorObject while acknowledging it may be too late
 
-### [PR microsoft/TypeScript#63563](https://github.com/microsoft/TypeScript/pull/63563) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63563](https://github.com/microsoft/TypeScript/pull/63563) (Closed, `For Backlog Bug`)
 
 **Narrow destructured discriminated unions when the discriminant has a default**
 

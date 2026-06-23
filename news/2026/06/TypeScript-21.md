@@ -20,7 +20,7 @@
  * (22 weeks ago) **RyanCavanaugh** closed the issue
  * [later](https://github.com/microsoft/TypeScript/issues/62995#issuecomment-4768241891) **hesprs** asked whether they needed to open a new issue or report to the linked TypeScript issue after still encountering errors
 
-### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open)
+### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`)
 
 **\`export\` modifier on \`enum\` disables \`This condition will always return \* ts2845\`**
 
@@ -31,7 +31,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4751672793) **mkantor** clarified that they misread the condition and that the second part only checks the truthiness of AdapterOutputType.PAGES
  * [later](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4768133967) **eps1lon** said "The program would know all the values after declaration merging. How would more values in AdapterOutputType change AdapterOutputType.PAGES === 1"
 
-### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open)
+### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
 
 **TypeScript doesn't consider contravariance in member functions even with strictFunctionTypes**
 

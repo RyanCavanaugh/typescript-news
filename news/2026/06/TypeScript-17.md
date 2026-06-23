@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63564#issuecomment-4730271134) **MartinJohns** stated that it would still be rejected, noted similar past issues, argued that it adds no safety and misleads users about type checking, and suggested using declaration merging as a workaround
  * [today](https://github.com/microsoft/TypeScript/issues/63564#issuecomment-4734195934) **nmain** said "Duplicate of https://github.com/microsoft/TypeScript/issues/44000 / https://github.com/microsoft/TypeScript/issues/33037"
 
-### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open)
+### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`)
 
 **\`export\` modifier on \`enum\` disables \`This condition will always return \* ts2845\`**
 

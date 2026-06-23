@@ -112,6 +112,7 @@
  * created by **piotrtomiak**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4341#issuecomment-4776701704) **piotrtomiak** suggested improving symbol caching by moving the data cache to the Snapshot level and proposed relocating Checker methods to the Symbol interface for a more intuitive API
  * [later](https://github.com/microsoft/TypeScript-go/pull/4341#issuecomment-4780656375) **andrewbranch** said "I'm not sure that's a goal, since those Checker methods are identical to Strada. Either way, having Symbol reference equality (within a snapshot but across projects) is a hard requirement."
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4341#issuecomment-4780993512) **piotrtomiak** said "Ok, got it. I'll move symbols down to the snapshot level then, keeping types and signatures at project level. OK?"
 
 ### [PR microsoft/TypeScript-go#4344](https://github.com/microsoft/TypeScript-go/pull/4344) (Closed, **andrewbranch**, **Copilot**)
 
@@ -307,6 +308,7 @@
 
  * created by **johnfav03**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4399#issuecomment-4773796433) **jakebailey** said "Do you have any data about how this affects things?"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4399#issuecomment-4780787469) **johnfav03** provided benchmark results showing single-file edits had a 50% rebuild time decrease and higher-volume edits saw about 10% improvement
 
 ### [PR microsoft/TypeScript-go#4400](https://github.com/microsoft/TypeScript-go/pull/4400) (Open, **DanielRosenwasser**, **Copilot**)
 
@@ -397,4 +399,5 @@
 
  * created by **js2me**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4409#issuecomment-4779021262) **js2me** said "@microsoft-github-policy-service agree"
+ * **RyanCavanaugh** added to milestone `Possible Improvement`
 

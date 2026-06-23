@@ -31,7 +31,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/56235#issuecomment-4533848101) **mkantor** suggested using 'x satisfies as T' syntax and explained its benefits
  * [later](https://github.com/microsoft/TypeScript/issues/56235#issuecomment-4757663281) **michaelboyles** argued that using 'is' for this feature provided symmetry with type guards, was shorter and more readable, and that tooling could mitigate its visual similarity to 'as'.
 
-### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open)
+### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
 
 **TypeScript doesn't consider contravariance in member functions even with strictFunctionTypes**
 
@@ -39,7 +39,7 @@
 
  * created by **alecov**
 
-### [PR microsoft/TypeScript#63567](https://github.com/microsoft/TypeScript/pull/63567) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63567](https://github.com/microsoft/TypeScript/pull/63567) (Closed, `For Backlog Bug`)
 
 **fix\(checker\): avoid stack overflow for self\-referential computed enum member names**
 
@@ -56,7 +56,7 @@
 
  * created by **sinclairzx81**
 
-### [Issue microsoft/TypeScript#63569](https://github.com/microsoft/TypeScript/issues/63569) (Open)
+### [Issue microsoft/TypeScript#63569](https://github.com/microsoft/TypeScript/issues/63569) (Closed, `Suggestion`, `Out of Scope`)
 
 **Switch Expression**
 
