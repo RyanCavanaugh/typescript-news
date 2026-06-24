@@ -29,7 +29,7 @@
  * created by **eps1lon**
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4751644133) **mkantor** explained that enums can be declaration-merged and that external modules might define the same enum, causing pessimistic analysis
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4751672793) **mkantor** clarified that they misread the condition and that the second part only checks the truthiness of AdapterOutputType.PAGES
- * [later](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4768133967) **eps1lon** said "The program would know all the values after declaration merging. How would more values in AdapterOutputType change AdapterOutputType.PAGES === 1"
+ * [later](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4768133967) **eps1lon** said "The program would know all the values after declaration merging. How would more values in AdapterOutputType change AdapterOutputType.PAGES === 1?"
 
 ### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
 

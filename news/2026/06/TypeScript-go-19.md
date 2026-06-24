@@ -51,7 +51,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4372#issuecomment-4754939390) **nikelborm** said "It no longer throws errors, and changes propagate between packages properly"
  * [today](https://github.com/microsoft/TypeScript-go/issues/4372#issuecomment-4754941073) **nikelborm** said "Thanks! 🫶 "
 
-### [Issue microsoft/TypeScript-go#4375](https://github.com/microsoft/TypeScript-go/issues/4375) (Open)
+### [Issue microsoft/TypeScript-go#4375](https://github.com/microsoft/TypeScript-go/issues/4375) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Add native\-preview API for capturing \.d\.ts emit output**
 
@@ -81,7 +81,7 @@
  * created by **oMatheusmol**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4378](https://github.com/microsoft/TypeScript-go/issues/4378) (Open)
+### [Issue microsoft/TypeScript-go#4378](https://github.com/microsoft/TypeScript-go/issues/4378) (Open, `Needs Investigation`, **johnfav03**)
 
 **\`tsgo \-\-watch\` error: "error starting FSEvents stream" on large \`node\_modules\` since the fswatch rewrite**
 

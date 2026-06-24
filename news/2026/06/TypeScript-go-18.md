@@ -1,6 +1,6 @@
 # Report for 2026-06-18 (Thursday, June 18th, 2026)
 
-14 different users commented on 42 different issues.
+14 different users commented on 43 different issues.
 
 ## Recommended Actions
 
@@ -144,7 +144,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4297#issuecomment-4744853071) **christianvuerings** asked @jakebailey to take a look at the PR and noted that Claude code didn't support pull diagnostics and TypeScript Go didn't support push diagnostics
  * [today](https://github.com/microsoft/TypeScript-go/pull/4297#issuecomment-4745627690) **jakebailey** said "We haven't had time to test it; we'd have to disable pull diags and test in VS Code and make sure it works. Push diagnostics get tricky when dealing with LS restarts and other racy ish conditions."
 
-### [Issue microsoft/TypeScript-go#4310](https://github.com/microsoft/TypeScript-go/issues/4310) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4310](https://github.com/microsoft/TypeScript-go/issues/4310) (Closed, **jakebailey**, **Copilot**)
 
 **Behavior difference: \(Another\) Expando function emit between tsc & tsgo**
 
@@ -156,7 +156,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4310#issuecomment-4745602654) **hkleungai** said "I guess we can wait for the next nightly release then. 😄 "
  * [later](https://github.com/microsoft/TypeScript-go/issues/4310#issuecomment-4750101327) **hkleungai** said "Issue remains in 7.0.0-dev.20260619.1, in both .js & .tsx extensions 😓 "
 
-### [PR microsoft/TypeScript-go#4311](https://github.com/microsoft/TypeScript-go/pull/4311) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4311](https://github.com/microsoft/TypeScript-go/pull/4311) (Closed, **jakebailey**, **Copilot**)
 
 **Fix declaration emit for expando function aliases**
 
@@ -167,7 +167,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4311#issuecomment-4744669358) **jakebailey** said "@copilot+gpt-5.5 Merge main and update tests"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4311#issuecomment-4744899347) **Copilot** merged main, updated tests, and reported successful validation
 
-### [Issue microsoft/TypeScript-go#4317](https://github.com/microsoft/TypeScript-go/issues/4317) (Open, `bug`, `Domain: Declaration Emit`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4317](https://github.com/microsoft/TypeScript-go/issues/4317) (Closed, `bug`, `Domain: Declaration Emit`, **weswigham**)
 
 **Behavior difference: tsgo inconsistently emits overloaded signature**
 
@@ -225,7 +225,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4352](https://github.com/microsoft/TypeScript-go/issues/4352) (Open)
+### [Issue microsoft/TypeScript-go#4352](https://github.com/microsoft/TypeScript-go/issues/4352) (Open, `possible improvement`)
 
 **Behavior difference: Block comments on \`@typedef\` structural types are not preserved, if they are imported and reconstructed as inline types in another file**
 
@@ -307,7 +307,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4366#issuecomment-4745452398) **jakebailey** said "@copilot a now non-failing test needs to be removed from  internal/fourslash/_scripts/failingTests.txt"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4366#issuecomment-4745572053) **Copilot** removed the now-passing TestQuickInfoOnNewKeyword01 from failingTests.txt
 
-### [PR microsoft/TypeScript-go#4367](https://github.com/microsoft/TypeScript-go/pull/4367) (Open)
+### [PR microsoft/TypeScript-go#4367](https://github.com/microsoft/TypeScript-go/pull/4367) (Closed)
 
 **Allow parameter type reuse even when return type is inferred**
 
@@ -387,7 +387,7 @@
 
  * created by **sverrejoh**
 
-### [Issue microsoft/TypeScript-go#4375](https://github.com/microsoft/TypeScript-go/issues/4375) (Open)
+### [Issue microsoft/TypeScript-go#4375](https://github.com/microsoft/TypeScript-go/issues/4375) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Add native\-preview API for capturing \.d\.ts emit output**
 

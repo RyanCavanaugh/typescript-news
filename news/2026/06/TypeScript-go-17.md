@@ -65,7 +65,7 @@
 
  * created by **weswigham**
 
-### [Issue microsoft/TypeScript-go#4352](https://github.com/microsoft/TypeScript-go/issues/4352) (Open)
+### [Issue microsoft/TypeScript-go#4352](https://github.com/microsoft/TypeScript-go/issues/4352) (Open, `possible improvement`)
 
 **Behavior difference: Block comments on \`@typedef\` structural types are not preserved, if they are imported and reconstructed as inline types in another file**
 
@@ -114,7 +114,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4358](https://github.com/microsoft/TypeScript-go/issues/4358) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4358](https://github.com/microsoft/TypeScript-go/issues/4358) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **SourceFile\.ContainsNonASCII can be false for non\-ASCII in string literal fast path**
 
@@ -132,7 +132,7 @@
  * created by **hjkcai**
  * **hjkcai** added label `Domain: Editor`
 
-### [PR microsoft/TypeScript-go#4360](https://github.com/microsoft/TypeScript-go/pull/4360) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4360](https://github.com/microsoft/TypeScript-go/pull/4360) (Closed, **jakebailey**, **Copilot**)
 
 **Fix non\-ASCII detection for source file position maps**
 
@@ -141,7 +141,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4361](https://github.com/microsoft/TypeScript-go/issues/4361) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4361](https://github.com/microsoft/TypeScript-go/issues/4361) (Closed, **jakebailey**, **Copilot**)
 
 **${configDir} path candidate resolving is incorrect when extending base config**
 
@@ -150,7 +150,7 @@
  * created by **Matthieu7503**
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4362](https://github.com/microsoft/TypeScript-go/pull/4362) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4362](https://github.com/microsoft/TypeScript-go/pull/4362) (Closed, **jakebailey**, **Copilot**)
 
 **Fix ${configDir} path candidate resolving in extended config**
 

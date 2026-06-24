@@ -1,6 +1,6 @@
 # Report for 2026-06-21 (Sunday, June 21st, 2026)
 
-15 different users commented on 14 different issues.
+15 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -29,7 +29,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4769904119) **jakebailey** said "That isn't what I meant; if we have an API that can be accessed out-of-proc, you can ask for the type in opened files without being "inside" the process. Perhaps we are agreeing?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4769927814) **shining-mind** clarified that with an out-of-process API one could request types of opened files and expressed a desire to type-check HTML in tagged template literals with CLI support
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -75,7 +75,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4381#issuecomment-4766441812) **nikelborm** clarified that he meant import statements placement rather than file suffixes, noting that in the provided snippet the import statements were at the end of the file
  * [later](https://github.com/microsoft/TypeScript-go/issues/4381#issuecomment-4766499771) **hkleungai** said "Ohh, that. I believe it is existing tsc behaviors on js file, before tsgo happens."
 
-### [Issue microsoft/TypeScript-go#4388](https://github.com/microsoft/TypeScript-go/issues/4388) (Open)
+### [Issue microsoft/TypeScript-go#4388](https://github.com/microsoft/TypeScript-go/issues/4388) (Open, `bug`)
 
 **Parameters not automatically filled for JSdoc comments**
 
@@ -85,7 +85,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4765261220) **jakebailey** said "You haven't turned off the main TS extension, right? That's what should be doing this still."
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4765277247) **crystalfp** installed the Typescript native preview extension and enabled it with the 'Enable (experimental)' command then observed that disabling it reverted to v6 behavior
 
-### [PR microsoft/TypeScript-go#4389](https://github.com/microsoft/TypeScript-go/pull/4389) (Open)
+### [PR microsoft/TypeScript-go#4389](https://github.com/microsoft/TypeScript-go/pull/4389) (Closed)
 
 **Prefer covariant inferences with deeper type argument nesting**
 
@@ -115,7 +115,7 @@
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4391](https://github.com/microsoft/TypeScript-go/issues/4391) (Open)
+### [Issue microsoft/TypeScript-go#4391](https://github.com/microsoft/TypeScript-go/issues/4391) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **const type parameter doesn't capture string\-literal property when the parameter type is wrapped in Omit\<\.\.\.\>**
 
@@ -133,7 +133,7 @@
  * created by **motopods**
  * **motopods** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4393](https://github.com/microsoft/TypeScript-go/issues/4393) (Open)
+### [Issue microsoft/TypeScript-go#4393](https://github.com/microsoft/TypeScript-go/issues/4393) (Closed, `question`)
 
 **typescript@7\.0\.1\-rc: programmatic AST codegen with \`import ts from "typescript"\` fails**
 

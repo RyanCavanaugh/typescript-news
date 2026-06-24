@@ -1,6 +1,6 @@
 # Report for 2026-06-22 (Monday, June 22nd, 2026)
 
-15 different users commented on 38 different issues.
+15 different users commented on 39 different issues.
 
 ## Recommended Actions
 
@@ -56,7 +56,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4761761427) **mds-ant** said "@jakebailey @DanielRosenwasser Are there any changes you'd like me to make here? If not, are we good to merge this PR?"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -103,7 +103,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4770603293) **andrewbranch** asked whether the type flags disagreed with the underlying data after encountering a panic in c.getBaseTypes
  * [today](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4776387189) **ahejlsberg** clarified that the getBaseTypes function should test for ObjectFlagsClassOrInterface|ObjectFlagsTuple to return nil on plain type references and explained why the existing code still works
 
-### [PR microsoft/TypeScript-go#4341](https://github.com/microsoft/TypeScript-go/pull/4341) (Open)
+### [PR microsoft/TypeScript-go#4341](https://github.com/microsoft/TypeScript-go/pull/4341) (Closed)
 
 **API: make object registries project\-specific to avoid id collisions on types and signatures**
 
@@ -219,7 +219,7 @@
  * created by **oMatheusmol**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4388](https://github.com/microsoft/TypeScript-go/issues/4388) (Open)
+### [Issue microsoft/TypeScript-go#4388](https://github.com/microsoft/TypeScript-go/issues/4388) (Open, `bug`)
 
 **Parameters not automatically filled for JSdoc comments**
 
@@ -230,7 +230,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4765277247) **crystalfp** installed the Typescript native preview extension and enabled it with the 'Enable (experimental)' command then observed that disabling it reverted to v6 behavior
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4776578634) **crystalfp** said "Nothing change disabling all the other extensions."
 
-### [PR microsoft/TypeScript-go#4389](https://github.com/microsoft/TypeScript-go/pull/4389) (Open)
+### [PR microsoft/TypeScript-go#4389](https://github.com/microsoft/TypeScript-go/pull/4389) (Closed)
 
 **Prefer covariant inferences with deeper type argument nesting**
 
@@ -274,9 +274,9 @@
 
 ### [PR microsoft/TypeScript-go#4396](https://github.com/microsoft/TypeScript-go/pull/4396) (Open, **jakebailey**, **Copilot**)
 
-**Emit JS constructor \`this\` properties in declarations**
+**Emit JS \`this\` properties in declarations matching tsc's serializePropertySymbol**
 
-*Emit JS constructor-assigned properties in .d.ts files even when inherited so React-style this.state appears in declarations*
+*Align JS declaration emit with tsc by skipping redundant this-assigned properties inherited from base classes and add regression tests.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -332,7 +332,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4401#issuecomment-4773780014) **jakebailey** said "Huh... Worse?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4401#issuecomment-4773785662) **jakebailey** said "Well, more worse than I was expecting anyway"
 
-### [PR microsoft/TypeScript-go#4402](https://github.com/microsoft/TypeScript-go/pull/4402) (Open)
+### [PR microsoft/TypeScript-go#4402](https://github.com/microsoft/TypeScript-go/pull/4402) (Closed)
 
 **\[api\] Flesh out project/file open state management**
 
@@ -351,9 +351,9 @@
 
 ### [PR microsoft/TypeScript-go#4404](https://github.com/microsoft/TypeScript-go/pull/4404) (Open)
 
-**Add repro for CommonJS export destructuring emit**
+**Fix CommonJS export destructuring emit**
 
-*Add a reproduction example showing CommonJS export destructuring emission*
+*Correct the code generation for destructured exports in CommonJS modules.*
 
  * created by **jakebailey**
 
@@ -365,7 +365,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4406](https://github.com/microsoft/TypeScript-go/issues/4406) (Open)
+### [Issue microsoft/TypeScript-go#4406](https://github.com/microsoft/TypeScript-go/issues/4406) (Closed)
 
 **Independent cross\-platform benchmark of TypeScript 7\.0\.1 RC vs TypeScript 6\.0\.3**
 
@@ -375,9 +375,9 @@
 
 ### [PR microsoft/TypeScript-go#4407](https://github.com/microsoft/TypeScript-go/pull/4407) (Open, **jakebailey**, **Copilot**)
 
-**Restore tsgo exit code for type errors**
+**Restore tsgo exit code for noEmit type errors**
 
-*Restore tsgo exit code 2 for type errors by mapping tsc diagnostic statuses in cmd/tsgo and adding focused regression tests.*
+*Fix tsgo’s --noEmit exit code to match tsc by correcting EmitSkipped logic for type errors.*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
