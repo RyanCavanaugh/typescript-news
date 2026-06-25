@@ -1,6 +1,6 @@
 # Report for 2026-06-20 (Saturday, June 20th, 2026)
 
-7 different users commented on 8 different issues.
+7 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -33,7 +33,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4653159218) **typescript-automation[bot]** provided the requested performance run results
  * [later](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4761761427) **mds-ant** said "@jakebailey @DanielRosenwasser Are there any changes you'd like me to make here? If not, are we good to merge this PR?"
 
-### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Open)
+### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Closed)
 
 **fix\(relater\): add property comparison cache fast path to avoid false TS2321**
 

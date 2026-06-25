@@ -1,6 +1,6 @@
 # Report for 2026-06-23 (Tuesday, June 23rd, 2026)
 
-15 different users commented on 60 different issues.
+15 different users commented on 67 different issues.
 
 ## Recommended Actions
 
@@ -44,7 +44,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-4782550377) **RyanCavanaugh** explained that the label is applied to high-PR contributors under the bulk contributors policy and asked why the user decided to fix that particular issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-4785998449) **Ijtihed** explained that they were a junior engineer who picked the issue to learn after browsing rather than from personal need
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -55,6 +55,8 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4239#issuecomment-4770330390) **typescript-automation[bot]** provided the requested TypeScript compiler performance run results in a detailed comparison report
  * [later](https://github.com/microsoft/TypeScript-go/pull/4239#issuecomment-4787742205) **mds-ant** said "Let's close out this PR given that it improves some benchmarks but slightly regresses others."
  * (later) **mds-ant** closed the issue
+ * (later) **DanielRosenwasser** reopened the issue
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4239#issuecomment-4790862837) **DanielRosenwasser** said "We're actually not convinced it's a regression - the benchmarking infra has a lot of noise."
 
 ### [Issue microsoft/TypeScript-go#4249](https://github.com/microsoft/TypeScript-go/issues/4249) (Closed, `Domain: API and Extensibility`)
 
@@ -180,6 +182,16 @@
  * (5 days ago) **weswigham** added labels `bug`, `Domain: Declaration Emit`, and removed label `Needs Investigation`
  * (today) **weswigham** closed the issue
 
+### [Issue microsoft/TypeScript-go#4332](https://github.com/microsoft/TypeScript-go/issues/4332) (Open, `possible improvement`, **jakebailey**, **Copilot**)
+
+**Behavior difference: Type emit inconsistency with dangling block comment in file**
+
+*Dangling block comments in top-level files are incorrectly attached to variables by tsgo while tsc erases them*
+
+ * (1 week ago) **jakebailey** assigned to **Copilot**, **jakebailey**
+ * **RyanCavanaugh** added to milestone `Post-7.0`
+ * **RyanCavanaugh** added label `possible improvement`
+
 ### [PR microsoft/TypeScript-go#4333](https://github.com/microsoft/TypeScript-go/pull/4333) (Closed)
 
 **feat\(ast\): implement GetLineStarts and GetLineAndCharacterOfPosition \(\#4215\)**
@@ -192,6 +204,29 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4333#issuecomment-4783420849) **jakebailey** said "the issue was filed about the JS API, not the Go API, which already has this"
  * (today) **jakebailey** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4333#issuecomment-4786542946) **ntoulasm** said "Ah, got it! Thank you for the clarification.. I completely missed that the issue was specifically about the JS API."
+
+### [Issue microsoft/TypeScript-go#4335](https://github.com/microsoft/TypeScript-go/issues/4335) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
+
+**checker\.getBaseTypes panics for type alias to generic interface instantiation**
+
+*checker.getBaseTypes panics with a nil pointer dereference when processing a type alias to a generic interface instantiation*
+
+ * [4 days ago](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4752576072) **ahejlsberg** explained that getBaseTypes was being called on a type reference and suggested calling getTarget first
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4770603293) **andrewbranch** asked whether the type flags disagreed with the underlying data after encountering a panic in c.getBaseTypes
+ * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4776387189) **ahejlsberg** clarified that the getBaseTypes function should test for ObjectFlagsClassOrInterface|ObjectFlagsTuple to return nil on plain type references and explained why the existing code still works
+ * (later) **andrewbranch** closed the issue
+
+### [PR microsoft/TypeScript-go#4337](https://github.com/microsoft/TypeScript-go/pull/4337) (Closed)
+
+**API: add checker methods to get true and false types of a conditional type**
+
+*Add API checker methods for obtaining the true and false branch types of a conditional type.*
+
+ * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4337#issuecomment-4726236305) **mrazauskas** asked to link to issue #2851 and suggested adding getTrueType() and getFalseType() to ConditionalType
+ * [6 days ago](https://github.com/microsoft/TypeScript-go/pull/4337#issuecomment-4731859787) **piotrtomiak** asked what “link” referred to and said they would implement the change after PR 4341 merged due to needing a Type–projectId association
+ * [6 days ago](https://github.com/microsoft/TypeScript-go/pull/4337#issuecomment-4738685584) **mrazauskas** responded that they originally thought the PR could close issue #2851 but then noted they seem different domains and that the PR’s motivation is missing
+ * (later) **piotrtomiak** closed the issue
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4337#issuecomment-4790918979) **piotrtomiak** said "Sorry, accidentally closed - followed up in #4431"
 
 ### [Issue microsoft/TypeScript-go#4338](https://github.com/microsoft/TypeScript-go/issues/4338) (Open, `bug`, `Domain: API and Extensibility`)
 
@@ -229,6 +264,17 @@
  * **weswigham** added label `Needs Investigation`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4342#issuecomment-4782035354) **weswigham** explained that strada incorrectly emitted computed property names for constMap, provided a TypeScript code example, and noted it was fixed during the corsa ID rework
  * (today) **weswigham** closed the issue
+
+### [PR microsoft/TypeScript-go#4345](https://github.com/microsoft/TypeScript-go/pull/4345) (Closed, **andrewbranch**, **Copilot**)
+
+**Fix getBaseTypes panic on type reference instantiations**
+
+*Change getBaseTypes guard flags to exclude plain type references and prevent nil pointer panics on generic instantiations.*
+
+ * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4345#issuecomment-4725013121) **Copilot** acknowledged overstatement and corrected the wording, explained the behavioral equivalence and redirect mechanism compared to Strada, and noted the fix in commit 1e9b
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4345#issuecomment-4780674562) **andrewbranch** said "@copilot this is wrong. Check the latest conversation in https://github.com/microsoft/typescript-go/issues/4335 and update accordingly."
+ * [today](https://github.com/microsoft/TypeScript-go/pull/4345#issuecomment-4780728949) **Copilot** updated the guard to use ObjectFlagsClassOrInterface|ObjectFlagsTuple, removed the ref.target redirect, and reverted commit bb5ad67 per Anders' guidance
+ * (later) **andrewbranch** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4352](https://github.com/microsoft/TypeScript-go/issues/4352) (Open, `possible improvement`)
 
@@ -420,9 +466,9 @@
 
 ### [PR microsoft/TypeScript-go#4407](https://github.com/microsoft/TypeScript-go/pull/4407) (Open, **jakebailey**, **Copilot**)
 
-**Restore tsgo exit code for noEmit type errors**
+**Restore tsgo noEmit exit status semantics**
 
-*Fix tsgo’s --noEmit exit code to match tsc by correcting EmitSkipped logic for type errors.*
+*Restore tsgo’s noEmit exit status semantics by porting tsc’s handleNoEmitOptions logic to ensure exit code 2 for type errors*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -485,6 +531,7 @@
 *Guard exported Checker.GetTypeArguments to return an empty slice for non-reference types instead of panicking.*
 
  * created by **UditDewan**
+ * **RyanCavanaugh** added to milestone `Post-7.0`
 
 ### [Issue microsoft/TypeScript-go#4417](https://github.com/microsoft/TypeScript-go/issues/4417) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
@@ -524,7 +571,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript-go#4421](https://github.com/microsoft/TypeScript-go/pull/4421) (Open)
+### [PR microsoft/TypeScript-go#4421](https://github.com/microsoft/TypeScript-go/pull/4421) (Closed)
 
 **Add \`arguments\` inference removal to CHANGES\.md**
 
@@ -540,7 +587,7 @@
 
  * created by **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#4423](https://github.com/microsoft/TypeScript-go/pull/4423) (Open)
+### [PR microsoft/TypeScript-go#4423](https://github.com/microsoft/TypeScript-go/pull/4423) (Closed)
 
 **Fix macOS lspwatcher missing directory recovery**
 
@@ -548,7 +595,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#4424](https://github.com/microsoft/TypeScript-go/pull/4424) (Open)
+### [PR microsoft/TypeScript-go#4424](https://github.com/microsoft/TypeScript-go/pull/4424) (Closed)
 
 **\[api\] Add missing checker methods**
 
@@ -568,7 +615,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4425#issuecomment-4785817337) **UditDewan** apologized for not checking for duplicate issues and promised to verify before coding late at night
  * (today) **UditDewan** closed the issue
 
-### [Issue microsoft/TypeScript-go#4426](https://github.com/microsoft/TypeScript-go/issues/4426) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4426](https://github.com/microsoft/TypeScript-go/issues/4426) (Open, `Crash`, **andrewbranch**)
 
 **Panic \(Unhandled case in Type\.Types\) in checker\.Type\.Types for non\-union types \(e\.g\. string\) via the API getTypes\(\)**
 
@@ -594,12 +641,28 @@
  * created by **DanielRosenwasser**
  * (later) **DanielRosenwasser** added label `Domain: Editor`, and assigned to **Copilot**, **DanielRosenwasser**
 
-### [PR microsoft/TypeScript-go#4429](https://github.com/microsoft/TypeScript-go/pull/4429) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4429](https://github.com/microsoft/TypeScript-go/pull/4429) (Closed, **DanielRosenwasser**, **Copilot**)
 
-**\[WIP\] Fix \`js/ts\.reportStyleChecksAsWarnings\` not respected in TypeScript**
+**Fix \`js/ts\.reportStyleChecksAsWarnings\` not being read from VS Code config**
 
-*Add the missing reportStyleChecksAsWarnings config tag to TypeScript user preferences and implement a fourslash test.*
+*Add missing config annotation and tests so VS Code js/ts.reportStyleChecksAsWarnings setting is correctly parsed*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
+
+### [PR microsoft/TypeScript-go#4430](https://github.com/microsoft/TypeScript-go/pull/4430) (Open)
+
+**Match Strada's behavior to allow satisfying recursive indexed access**
+
+*Align Corsa’s base-constraint caching with Strada’s two-tier model to restore correct recursive indexed-access constraint resolution.*
+
+ * created by **RyanCavanaugh**
+
+### [PR microsoft/TypeScript-go#4431](https://github.com/microsoft/TypeScript-go/pull/4431) (Open)
+
+**API: add checker methods to get true and false types of a conditional type**
+
+*Add API checker methods to fetch true and false branches of a conditional type.*
+
+ * created by **piotrtomiak**
 

@@ -1,6 +1,6 @@
 # Report for 2026-06-19 (Friday, June 19th, 2026)
 
-10 different users commented on 14 different issues.
+10 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -27,7 +27,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/4265#issuecomment-4696292204) **RyanCavanaugh** provided a concrete repro that yielded a similar but not identical callstack and noted the AI couldn't find an exact repro case
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4347](https://github.com/microsoft/TypeScript-go/issues/4347) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4347](https://github.com/microsoft/TypeScript-go/issues/4347) (Closed)
 
 **CPU usage spikes to 80% to 100% when using \`tsgo \-\-lsp \-\-stdio\`**
 
@@ -106,7 +106,7 @@
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4379#issuecomment-4754939213) **jakebailey** said "This is doing this in the layer above fswatch, but, going to try and shove it down..."
 
-### [Issue microsoft/TypeScript-go#4380](https://github.com/microsoft/TypeScript-go/issues/4380) (Open)
+### [Issue microsoft/TypeScript-go#4380](https://github.com/microsoft/TypeScript-go/issues/4380) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -129,7 +129,7 @@
 
  * created by **hkleungai**
 
-### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Open)
+### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Closed)
 
 **fix\(relater\): add property comparison cache fast path to avoid false TS2321**
 

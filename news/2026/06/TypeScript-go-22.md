@@ -1,6 +1,6 @@
 # Report for 2026-06-22 (Monday, June 22nd, 2026)
 
-15 different users commented on 39 different issues.
+15 different users commented on 41 different issues.
 
 ## Recommended Actions
 
@@ -56,7 +56,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4234#issuecomment-4761761427) **mds-ant** said "@jakebailey @DanielRosenwasser Are there any changes you'd like me to make here? If not, are we good to merge this PR?"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -91,7 +91,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4319#issuecomment-4775915822) **mrazauskas** said "Got added in #4344"
  * (today) **mrazauskas** closed the issue
 
-### [Issue microsoft/TypeScript-go#4335](https://github.com/microsoft/TypeScript-go/issues/4335) (Open, `Needs Investigation`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4335](https://github.com/microsoft/TypeScript-go/issues/4335) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
 
 **checker\.getBaseTypes panics for type alias to generic interface instantiation**
 
@@ -125,7 +125,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript-go/pull/4344#issuecomment-4725077495) **Copilot** addressed review feedback by updating value handling to treat undefined and null as absent, allowing null on the wire, and retaining BigInt decoding keyed on the BigIntLiteral flag
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4345](https://github.com/microsoft/TypeScript-go/pull/4345) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#4345](https://github.com/microsoft/TypeScript-go/pull/4345) (Closed, **andrewbranch**, **Copilot**)
 
 **Fix getBaseTypes panic on type reference instantiations**
 
@@ -199,7 +199,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4381#issuecomment-4766499771) **hkleungai** said "Ohh, that. I believe it is existing tsc behaviors on js file, before tsgo happens."
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Open)
+### [PR microsoft/TypeScript-go#4382](https://github.com/microsoft/TypeScript-go/pull/4382) (Closed)
 
 **fix\(relater\): add property comparison cache fast path to avoid false TS2321**
 
@@ -242,7 +242,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4389#issuecomment-4770703379) **typescript-automation[bot]** reported successful tsc runs on top 400 repos comparing main and the PR merge
  * **ahejlsberg** added to milestone `TypeScript 7.0 Stable`
 
-### [Issue microsoft/TypeScript-go#4392](https://github.com/microsoft/TypeScript-go/issues/4392) (Open, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4392](https://github.com/microsoft/TypeScript-go/issues/4392) (Open, `Crash`, **DanielRosenwasser**, **andrewbranch**, **Copilot**)
 
 **panic: cache entry not found \[recovered, repanicked\]**
 
@@ -310,7 +310,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4399#issuecomment-4773796433) **jakebailey** said "Do you have any data about how this affects things?"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4399#issuecomment-4780787469) **johnfav03** provided benchmark results showing single-file edits had a 50% rebuild time decrease and higher-volume edits saw about 10% improvement
 
-### [PR microsoft/TypeScript-go#4400](https://github.com/microsoft/TypeScript-go/pull/4400) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4400](https://github.com/microsoft/TypeScript-go/pull/4400) (Closed, **DanielRosenwasser**, **andrewbranch**, **Copilot**)
 
 **Fix parse cache ref race during cloned program updates**
 
@@ -340,7 +340,7 @@
 
  * created by **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#4403](https://github.com/microsoft/TypeScript-go/issues/4403) (Open, **jakebailey**)
+### [Issue microsoft/TypeScript-go#4403](https://github.com/microsoft/TypeScript-go/issues/4403) (Closed, `bug`, **jakebailey**)
 
 **Regression: CJS emit drops namespace qualifier on RHS of module\-scope \`export const { … } = importedValue\` → ReferenceError**
 
@@ -349,7 +349,7 @@
  * created by **thaoula**
  * **jakebailey** assigned to **jakebailey**
 
-### [PR microsoft/TypeScript-go#4404](https://github.com/microsoft/TypeScript-go/pull/4404) (Open)
+### [PR microsoft/TypeScript-go#4404](https://github.com/microsoft/TypeScript-go/pull/4404) (Closed)
 
 **Fix CommonJS export destructuring emit**
 
@@ -357,7 +357,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4405](https://github.com/microsoft/TypeScript-go/issues/4405) (Open)
+### [Issue microsoft/TypeScript-go#4405](https://github.com/microsoft/TypeScript-go/issues/4405) (Open, `Needs Investigation`, **andrewbranch**)
 
 **App using programmatic APIs fails to typecheck with \`exactOptionalPropertyTypes: true\` and \`@types/node\` v24**
 
@@ -375,14 +375,14 @@
 
 ### [PR microsoft/TypeScript-go#4407](https://github.com/microsoft/TypeScript-go/pull/4407) (Open, **jakebailey**, **Copilot**)
 
-**Restore tsgo exit code for noEmit type errors**
+**Restore tsgo noEmit exit status semantics**
 
-*Fix tsgo’s --noEmit exit code to match tsc by correcting EmitSkipped logic for type errors.*
+*Restore tsgo’s noEmit exit status semantics by porting tsc’s handleNoEmitOptions logic to ensure exit code 2 for type errors*
 
  * created by **Copilot**
  * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4408](https://github.com/microsoft/TypeScript-go/issues/4408) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4408](https://github.com/microsoft/TypeScript-go/issues/4408) (Open, `Needs More Info`)
 
 **Regression: recursive conditional\+mapped "serialize" type no longer proves \`Transform\<X\>\` assignable to \`X\` on deeply\-nested compound types \(native\-preview; works in tsc\)**
 

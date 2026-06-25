@@ -29,7 +29,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4769904119) **jakebailey** said "That isn't what I meant; if we have an API that can be accessed out-of-proc, you can ask for the type in opened files without being "inside" the process. Perhaps we are agreeing?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4769927814) **shining-mind** clarified that with an out-of-process API one could request types of opened files and expressed a desire to type-check HTML in tagged template literals with CLI support
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -52,7 +52,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4240#issuecomment-4658350219) **mds-ant** noted that code duplication was necessary to enable the optimization, explained the trade-offs of a shared helper, and offered to close the PR if the duplication is unwanted
  * [later](https://github.com/microsoft/TypeScript-go/pull/4240#issuecomment-4766982146) **mds-ant** said "@jakebailey Are you happy merging this, or would you rather not? The win is measurable in relative terms, but small in absolute terms."
 
-### [Issue microsoft/TypeScript-go#4347](https://github.com/microsoft/TypeScript-go/issues/4347) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4347](https://github.com/microsoft/TypeScript-go/issues/4347) (Closed)
 
 **CPU usage spikes to 80% to 100% when using \`tsgo \-\-lsp \-\-stdio\`**
 
@@ -124,7 +124,7 @@
  * created by **IanVS**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4391#issuecomment-4769860340) **jakebailey** said "Bisects to #4242. @ahejlsberg"
 
-### [Issue microsoft/TypeScript-go#4392](https://github.com/microsoft/TypeScript-go/issues/4392) (Open, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4392](https://github.com/microsoft/TypeScript-go/issues/4392) (Open, `Crash`, **DanielRosenwasser**, **andrewbranch**, **Copilot**)
 
 **panic: cache entry not found \[recovered, repanicked\]**
 

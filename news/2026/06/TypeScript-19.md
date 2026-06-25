@@ -48,7 +48,7 @@
  * created by **yen0304**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#63568](https://github.com/microsoft/TypeScript/issues/63568) (Open)
+### [Issue microsoft/TypeScript#63568](https://github.com/microsoft/TypeScript/issues/63568) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Regression: 7\.0\.1\-RC Unable to Satisfy Recursive Mapped Type Constraint**
 

@@ -20,7 +20,7 @@
  * (22 weeks ago) **RyanCavanaugh** closed the issue
  * [later](https://github.com/microsoft/TypeScript/issues/62995#issuecomment-4768241891) **hesprs** asked whether they needed to open a new issue or report to the linked TypeScript issue after still encountering errors
 
-### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`, `Domain: check: Control Flow`)
 
 **\`export\` modifier on \`enum\` disables \`This condition will always return \* ts2845\`**
 

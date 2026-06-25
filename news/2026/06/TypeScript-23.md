@@ -1,6 +1,6 @@
 # Report for 2026-06-23 (Tuesday, June 23rd, 2026)
 
-9 different users commented on 49 different issues.
+9 different users commented on 51 different issues.
 
 ## Recommended Actions
 
@@ -42,7 +42,7 @@
  * **RyanCavanaugh** added to milestone `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63427#issuecomment-4781901022) **RyanCavanaugh** said "Anyone planning to open the sixth PR to implement this should say why they're doing so, otherwise I'm going to assume they're an undisclosed bot and ban them."
 
-### [PR microsoft/TypeScript#63483](https://github.com/microsoft/TypeScript/pull/63483) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63483](https://github.com/microsoft/TypeScript/pull/63483) (Closed, `For Backlog Bug`)
 
 **docs: add JSDoc comments to ReadonlySet interface**
 
@@ -53,6 +53,19 @@
  * [5 weeks ago](https://github.com/microsoft/TypeScript/pull/63483#issuecomment-4485867222) **niledas** said "Hi @RyanCavanaugh, please help review this small PR. Let me know if you have any suggestions."
  * (today) **RyanCavanaugh** closed the issue
  * (today) **RyanCavanaugh** reopened the issue
+
+### [Issue microsoft/TypeScript#63546](https://github.com/microsoft/TypeScript/issues/63546) (Open, `Bug`)
+
+**Duplicate function declarations in generated \`\.d\.ts\` for non\-module JS files with \`allowJs\` \+ \`declaration\`**
+
+*Non-module JavaScript files compiled with allowJs and declaration produce duplicate global function declarations across their emitted .d.ts files.*
+
+ * **RyanCavanaugh** added label `Fixed`
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/63546#issuecomment-4686993381) **LangLangBart** asked whether tsgo should exit with a non-zero status after observing that the latest 7.0.0-dev.20260604.1 version silently aborts declaration emit and exits with code 0, unlike earlier versions that reported 'Duplicate function implementation' errors and exited with code 1
+ * **RyanCavanaugh** removed label `Fixed`
+ * **RyanCavanaugh** added label `Bug`
+ * [later](https://github.com/microsoft/TypeScript/issues/63546#issuecomment-4791015251) **RyanCavanaugh** said "Tagging bug for the exit code thing"
+ * **RyanCavanaugh** added to milestone `Backlog`
 
 ### [Issue microsoft/TypeScript#63553](https://github.com/microsoft/TypeScript/issues/63553) (Closed)
 
@@ -100,7 +113,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/63556#issuecomment-4713780576) **jcalz** said "Pls edit to say "overload" and not "override" (those are different things)"
  * (today) **RyanCavanaugh** added labels `Domain: lib.d.ts`, `Possible Improvement`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63559](https://github.com/microsoft/TypeScript/issues/63559) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63559](https://github.com/microsoft/TypeScript/issues/63559) (Open, `Bug`, `Fix Available`, `Domain: classes`)
 
 **Incorrect type resolution with nested constructors**
 
@@ -109,6 +122,7 @@
  * created by **Mudloop**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Dormant`
  * **typescript-automation[bot]** added label `Fix Available`
+ * **RyanCavanaugh** added label `Domain: classes`
 
 ### [Issue microsoft/TypeScript#63560](https://github.com/microsoft/TypeScript/issues/63560) (Open, `Domain: Performance`, `Possible Improvement`)
 
@@ -145,7 +159,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63563#issuecomment-4781311586) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`, `Domain: check: Control Flow`)
 
 **\`export\` modifier on \`enum\` disables \`This condition will always return \* ts2845\`**
 
@@ -156,7 +170,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4768133967) **eps1lon** said "The program would know all the values after declaration merging. How would more values in AdapterOutputType change AdapterOutputType.PAGES === 1?"
  * **RyanCavanaugh** added label `Bug`
  * [today](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4781453442) **RyanCavanaugh** said "Repros in 7.0 as well."
- * **RyanCavanaugh** added to milestone `Backlog`
+ * (today) **RyanCavanaugh** added label `Domain: check: Control Flow`, and set milestone to `Backlog`
 
 ### [PR microsoft/TypeScript#63567](https://github.com/microsoft/TypeScript/pull/63567) (Closed, `For Backlog Bug`)
 
@@ -169,7 +183,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63567#issuecomment-4781304230) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the contributor to the typescript-go repo, referring to CONTRIBUTING.md and pinned issue #62963; requested future responses in Latin
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63568](https://github.com/microsoft/TypeScript/issues/63568) (Open)
+### [Issue microsoft/TypeScript#63568](https://github.com/microsoft/TypeScript/issues/63568) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Regression: 7\.0\.1\-RC Unable to Satisfy Recursive Mapped Type Constraint**
 
@@ -178,6 +192,7 @@
  * created by **sinclairzx81**
  * [today](https://github.com/microsoft/TypeScript/issues/63568#issuecomment-4781844137) **RyanCavanaugh** provided an isolated TypeScript snippet demonstrating ZodType, OptionalInternals, ZodObject, Properties, FromObject, and FromSchema definitions
  * [today](https://github.com/microsoft/TypeScript/issues/63568#issuecomment-4783629409) **RyanCavanaugh** presented a simplified TypeScript type example illustrating Wrapped, FromObject, and FromSchema types
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **ahejlsberg**
 
 ### [Issue microsoft/TypeScript#63569](https://github.com/microsoft/TypeScript/issues/63569) (Closed, `Suggestion`, `Out of Scope`)
 
@@ -213,15 +228,17 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63577#issuecomment-4781717544) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63578](https://github.com/microsoft/TypeScript/issues/63578) (Open)
+### [Issue microsoft/TypeScript#63578](https://github.com/microsoft/TypeScript/issues/63578) (Open, `Not a Defect`)
 
 **Unexpectedly narrow implicit generator type**
 
 *TypeScript’s implicit type inference for generator functions produces an unexpectedly narrow union type across multiple versions.*
 
  * created by **badeball**
+ * [later](https://github.com/microsoft/TypeScript/issues/63578#issuecomment-4791228589) **RyanCavanaugh** provided a minimal TypeScript example demonstrating that FeatureChild is assignable to RuleChild, causing FeatureChild | RuleChild to simplify to RuleChild and affecting the inferred yield type
+ * **RyanCavanaugh** added label `Not a Defect`
 
-### [Issue microsoft/TypeScript#63579](https://github.com/microsoft/TypeScript/issues/63579) (Open)
+### [Issue microsoft/TypeScript#63579](https://github.com/microsoft/TypeScript/issues/63579) (Open, `Needs Investigation`, **johnfav03**)
 
 **tsc \-\-build false negative through export star facade project**
 
@@ -229,13 +246,15 @@
 
  * created by **jasonkuhrt**
 
-### [Issue microsoft/TypeScript#63580](https://github.com/microsoft/TypeScript/issues/63580) (Open)
+### [Issue microsoft/TypeScript#63580](https://github.com/microsoft/TypeScript/issues/63580) (Open, `Bug`)
 
 **Parser hangs on comment ending with \`\-\*/\`**
 
 *TypeScript's createSourceFile function hangs indefinitely when parsing a comment that begins with /** and ends with -*/.*
 
  * created by **core-dumpling**
+ * [later](https://github.com/microsoft/TypeScript/issues/63580#issuecomment-4790844410) **RyanCavanaugh** said "Doesn't repro in tsgo but a total LS hang is quite bad; we might want to take this for a 6.0 patch"
+ * **RyanCavanaugh** added label `Bug`
 
 ### [PR microsoft/TypeScript#63581](https://github.com/microsoft/TypeScript/pull/63581) (Open, `For Uncommitted Bug`)
 

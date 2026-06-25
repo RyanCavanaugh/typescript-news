@@ -197,7 +197,7 @@
  * (2 days ago) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4335](https://github.com/microsoft/TypeScript-go/issues/4335) (Open, `Needs Investigation`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4335](https://github.com/microsoft/TypeScript-go/issues/4335) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
 
 **checker\.getBaseTypes panics for type alias to generic interface instantiation**
 
@@ -207,7 +207,7 @@
  * **andrewbranch** assigned to **Copilot**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4335#issuecomment-4752576072) **ahejlsberg** explained that getBaseTypes was being called on a type reference and suggested calling getTarget first
 
-### [PR microsoft/TypeScript-go#4349](https://github.com/microsoft/TypeScript-go/pull/4349) (Open)
+### [PR microsoft/TypeScript-go#4349](https://github.com/microsoft/TypeScript-go/pull/4349) (Closed)
 
 **Collate\-free import sorting**
 
@@ -351,11 +351,11 @@
  * **LiamMorrow** added label `Domain: Editor`
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [PR microsoft/TypeScript-go#4371](https://github.com/microsoft/TypeScript-go/pull/4371) (Open, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript-go#4371](https://github.com/microsoft/TypeScript-go/pull/4371) (Closed, **jakebailey**, **Copilot**)
 
 **Respect useAliasesForRenames in rename edits**
 
-*Renames now respect the useAliasesForRenames preference, updating exported declarations when disabled instead of aliasing imports.*
+*Rename edits now honor the useAliasesForRenames preference, renaming exported symbols directly when disabled instead of introducing import aliases.*
 
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
@@ -371,7 +371,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4372#issuecomment-4752646521) **jakebailey** suggested ensuring that fswatch validated directory paths or ignored non-directory symlinks
  * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4373](https://github.com/microsoft/TypeScript-go/issues/4373) (Open)
+### [Issue microsoft/TypeScript-go#4373](https://github.com/microsoft/TypeScript-go/issues/4373) (Open, `Needs Investigation`, **johnfav03**)
 
 **Project\-reference redirect fails for directory \(\`index\.ts\`\) subpaths of symlinked packages**
 
@@ -379,7 +379,7 @@
 
  * created by **sverrejoh**
 
-### [PR microsoft/TypeScript-go#4374](https://github.com/microsoft/TypeScript-go/pull/4374) (Open)
+### [PR microsoft/TypeScript-go#4374](https://github.com/microsoft/TypeScript-go/pull/4374) (Closed)
 
 **Resolve symlinked project\-reference directory \(\`index\.ts\`\) subpaths to source**
 

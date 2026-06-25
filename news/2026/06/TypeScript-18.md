@@ -15,7 +15,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/62508#issuecomment-4743768229) **sahin52** pointed out that the default value of "strict" became true and linked the related pull request and issue
  * [today](https://github.com/microsoft/TypeScript/issues/62508#issuecomment-4744398238) **sahin52** said "Also various other changes can be found in the milestone: https://github.com/microsoft/TypeScript/milestone/218?closed=1"
 
-### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63565](https://github.com/microsoft/TypeScript/issues/63565) (Open, `Bug`, `Domain: check: Control Flow`)
 
 **\`export\` modifier on \`enum\` disables \`This condition will always return \* ts2845\`**
 
