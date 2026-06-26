@@ -31,7 +31,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/56235#issuecomment-4533848101) **mkantor** suggested using 'x satisfies as T' syntax and explained its benefits
  * [later](https://github.com/microsoft/TypeScript/issues/56235#issuecomment-4757663281) **michaelboyles** argued that using 'is' for this feature provided symmetry with type guards, was shorter and more readable, and that tooling could mitigate its visual similarity to 'as'.
 
-### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Closed, `Working as Intended`)
 
 **TypeScript doesn't consider contravariance in member functions even with strictFunctionTypes**
 

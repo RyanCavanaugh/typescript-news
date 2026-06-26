@@ -1,6 +1,6 @@
 # Report for 2026-06-24 (Wednesday, June 24th, 2026)
 
-5 different users commented on 11 different issues.
+6 different users commented on 17 different issues.
 
 ## Recommended Actions
 
@@ -41,6 +41,17 @@
  * (yesterday) **RyanCavanaugh** closed the issue
  * (yesterday) **RyanCavanaugh** reopened the issue
  * (today) **RyanCavanaugh** closed the issue
+
+### [Issue microsoft/TypeScript#63546](https://github.com/microsoft/TypeScript/issues/63546) (Open, `Bug`, `Domain: Declaration Emit`)
+
+**Duplicate function declarations in generated \`\.d\.ts\` for non\-module JS files with \`allowJs\` \+ \`declaration\`**
+
+*Non-module JavaScript files compiled with allowJs and declaration produce duplicate global function declarations across their emitted .d.ts files.*
+
+ * **RyanCavanaugh** added label `Bug`
+ * [today](https://github.com/microsoft/TypeScript/issues/63546#issuecomment-4791015251) **RyanCavanaugh** said "Tagging bug for the exit code thing"
+ * **RyanCavanaugh** added to milestone `Backlog`
+ * **RyanCavanaugh** added label `Domain: Declaration Emit`
 
 ### [Issue microsoft/TypeScript#63551](https://github.com/microsoft/TypeScript/issues/63551) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -88,6 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63578#issuecomment-4791228589) **RyanCavanaugh** provided a minimal TypeScript example demonstrating that FeatureChild is assignable to RuleChild, causing FeatureChild | RuleChild to simplify to RuleChild and affecting the inferred yield type
  * **RyanCavanaugh** added label `Not a Defect`
  * [later](https://github.com/microsoft/TypeScript/issues/63578#issuecomment-4797686402) **badeball** pointed out a discrepancy in TypeScript's type inference where foo.location was inferred properly but foo.rule was typed as unknown and asked if this was due to union simplification
+ * [later](https://github.com/microsoft/TypeScript/issues/63578#issuecomment-4800938464) **RyanCavanaugh** said "I agree in principle, but subtype reduction is critical for a lot of stuff to work and is always legal to occur. That sort of check isn't sound in the first place, since object types aren't sealed."
 
 ### [Issue microsoft/TypeScript#63579](https://github.com/microsoft/TypeScript/issues/63579) (Open, `Needs Investigation`, **johnfav03**)
 
@@ -98,7 +110,18 @@
  * created by **jasonkuhrt**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#63581](https://github.com/microsoft/TypeScript/pull/63581) (Open, `For Uncommitted Bug`)
+### [Issue microsoft/TypeScript#63580](https://github.com/microsoft/TypeScript/issues/63580) (Closed, `Bug`, `Domain: Parser`)
+
+**Parser hangs on comment ending with \`\-\*/\`**
+
+*TypeScript's createSourceFile function hangs indefinitely when parsing a comment that begins with /** and ends with -*/.*
+
+ * created by **core-dumpling**
+ * [today](https://github.com/microsoft/TypeScript/issues/63580#issuecomment-4790844410) **RyanCavanaugh** said "Doesn't repro in tsgo but a total LS hang is quite bad; we might want to take this for a 6.0 patch"
+ * **RyanCavanaugh** added label `Bug`
+ * **RyanCavanaugh** added label `Domain: Parser`
+
+### [PR microsoft/TypeScript#63581](https://github.com/microsoft/TypeScript/pull/63581) (Closed, `For Uncommitted Bug`)
 
 **Fix infinite loop**
 
@@ -108,19 +131,31 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63581#issuecomment-4800446635) **core-dumpling** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#63582](https://github.com/microsoft/TypeScript/issues/63582) (Open)
+### [Issue microsoft/TypeScript#63582](https://github.com/microsoft/TypeScript/issues/63582) (Open, `Suggestion`, `Out of Scope`)
 
 **how can I make typescript recognize css or svg files that exist while still warning about files that don't exist \(without allegedly creating \.d\.css\.ts or whatever AI is trying to claim\)?**
 
 *How can TypeScript be configured to recognize existing CSS or SVG imports and still warn about missing files without needing artificial declaration files?*
 
  * created by **Arlen22**
+ * [later](https://github.com/microsoft/TypeScript/issues/63582#issuecomment-4800900797) **RyanCavanaugh** explained that build tools, not Node, resolve .svg imports and that TypeScript should rely on the build tool as the single source of truth for valid module paths
+ * (later) **RyanCavanaugh** added labels `Suggestion`, `Out of Scope`
 
-### [Issue microsoft/TypeScript#63583](https://github.com/microsoft/TypeScript/issues/63583) (Open)
+### [Issue microsoft/TypeScript#63583](https://github.com/microsoft/TypeScript/issues/63583) (Open, `Bug`)
 
 **Finally is not implemented correctly in all cases**
 
 *TypeScript incorrectly flags missing return statements or unreachable code when a finally block both reads and writes a variable.*
 
  * created by **Mudloop**
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+
+### [Issue microsoft/TypeScript#63584](https://github.com/microsoft/TypeScript/issues/63584) (Open, `Bug`)
+
+**tagged/named rest parameter participating in circular reference causes error**
+
+*TypeScript incorrectly reports circular reference errors when a recursive tuple union uses a named rest parameter*
+
+ * created by **dragoncoder047**
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 

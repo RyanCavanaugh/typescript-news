@@ -658,7 +658,7 @@
 
  * created by **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#4431](https://github.com/microsoft/TypeScript-go/pull/4431) (Open)
+### [PR microsoft/TypeScript-go#4431](https://github.com/microsoft/TypeScript-go/pull/4431) (Closed)
 
 **API: add checker methods to get true and false types of a conditional type**
 

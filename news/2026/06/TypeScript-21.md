@@ -31,7 +31,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4751672793) **mkantor** clarified that they misread the condition and that the second part only checks the truthiness of AdapterOutputType.PAGES
  * [later](https://github.com/microsoft/TypeScript/issues/63565#issuecomment-4768133967) **eps1lon** said "The program would know all the values after declaration merging. How would more values in AdapterOutputType change AdapterOutputType.PAGES === 1?"
 
-### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Closed, `Working as Intended`)
 
 **TypeScript doesn't consider contravariance in member functions even with strictFunctionTypes**
 

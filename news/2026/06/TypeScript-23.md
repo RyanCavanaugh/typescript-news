@@ -54,7 +54,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * (today) **RyanCavanaugh** reopened the issue
 
-### [Issue microsoft/TypeScript#63546](https://github.com/microsoft/TypeScript/issues/63546) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63546](https://github.com/microsoft/TypeScript/issues/63546) (Open, `Bug`, `Domain: Declaration Emit`)
 
 **Duplicate function declarations in generated \`\.d\.ts\` for non\-module JS files with \`allowJs\` \+ \`declaration\`**
 
@@ -246,7 +246,7 @@
 
  * created by **jasonkuhrt**
 
-### [Issue microsoft/TypeScript#63580](https://github.com/microsoft/TypeScript/issues/63580) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63580](https://github.com/microsoft/TypeScript/issues/63580) (Closed, `Bug`, `Domain: Parser`)
 
 **Parser hangs on comment ending with \`\-\*/\`**
 
@@ -256,7 +256,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63580#issuecomment-4790844410) **RyanCavanaugh** said "Doesn't repro in tsgo but a total LS hang is quite bad; we might want to take this for a 6.0 patch"
  * **RyanCavanaugh** added label `Bug`
 
-### [PR microsoft/TypeScript#63581](https://github.com/microsoft/TypeScript/pull/63581) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63581](https://github.com/microsoft/TypeScript/pull/63581) (Closed, `For Uncommitted Bug`)
 
 **Fix infinite loop**
 

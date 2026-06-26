@@ -21,7 +21,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/issues/63560#issuecomment-4716141044) **MartinJohns** said "Kinda pointless then, since that version is not continued. 🤷‍♂️ "
  * [later](https://github.com/microsoft/TypeScript/issues/63560#issuecomment-4777370635) **canonic-epicure** said "I guess I can submit a reproduction-only issue to tsgo version, w/o a fix."
 
-### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63566](https://github.com/microsoft/TypeScript/issues/63566) (Closed, `Working as Intended`)
 
 **TypeScript doesn't consider contravariance in member functions even with strictFunctionTypes**
 

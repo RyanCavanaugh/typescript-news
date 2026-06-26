@@ -1,6 +1,6 @@
 # Report for 2026-06-24 (Wednesday, June 24th, 2026)
 
-13 different users commented on 45 different issues.
+14 different users commented on 47 different issues.
 
 ## Recommended Actions
 
@@ -339,7 +339,7 @@
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript-go#4431](https://github.com/microsoft/TypeScript-go/pull/4431) (Open)
+### [PR microsoft/TypeScript-go#4431](https://github.com/microsoft/TypeScript-go/pull/4431) (Closed)
 
 **API: add checker methods to get true and false types of a conditional type**
 
@@ -415,7 +415,7 @@
 
  * created by **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#4439](https://github.com/microsoft/TypeScript-go/issues/4439) (Open)
+### [Issue microsoft/TypeScript-go#4439](https://github.com/microsoft/TypeScript-go/issues/4439) (Open, `bug`, **andrewbranch**, **Copilot**)
 
 **Feature Request: Permit backward\-compatible version checks at main export**
 
@@ -441,6 +441,25 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4441#issuecomment-4799973021) **jakebailey** said "This is happening when you run multiple tsc invocations?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/4441#issuecomment-4800016780) **jakebailey** linked a related issue and noted uncertainty about resolving cross-process watcher limits, observing no similar reports in VS Code
  * [later](https://github.com/microsoft/TypeScript-go/issues/4441#issuecomment-4800070354) **WoodyWoodsta** described testing two packages in different sequences and observed that the second invocation always failed, even when the packages were unrelated
+
+### [PR microsoft/TypeScript-go#4442](https://github.com/microsoft/TypeScript-go/pull/4442) (Open, **RyanCavanaugh**, **Copilot**)
+
+**Fix false implicit\-return/unreachable diagnostics in \`try/finally\` with logical assignment \(\`\|\|=\`\)**
+
+*Adjust TypeScript’s reachability caching to prevent erroneous missing-return and unreachable-code diagnostics in try/finally blocks using logical assignment.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4442#issuecomment-4800960525) **RyanCavanaugh** said "@typescript-bot test top999"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4442#issuecomment-4800961276) **typescript-automation[bot]** reported starting build jobs with initial status for test top999
+
+### [PR microsoft/TypeScript-go#4443](https://github.com/microsoft/TypeScript-go/pull/4443) (Open)
+
+**Fixed build mode false negative from export\-star facade**
+
+*Fix false negative TypeScript build-mode error caused by export-star facade usage.*
+
+ * created by **johnfav03**
 
 ### [Issue microsoft/TypeScript-go#928](https://github.com/microsoft/TypeScript-go/issues/928) (Closed)
 
