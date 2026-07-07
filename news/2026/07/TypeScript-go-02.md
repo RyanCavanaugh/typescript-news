@@ -1,6 +1,6 @@
 # Report for 2026-07-02 (Thursday, July 2nd, 2026)
 
-11 different users commented on 29 different issues.
+11 different users commented on 31 different issues.
 
 ## Recommended Actions
 
@@ -8,7 +8,6 @@
     * @KostyaTretyak posted unrelated content in [microsoft/TypeScript-go#4520](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4868442056)
  * Response Recommended
     * @typescript-automation[bot] provided requested performance results in [microsoft/TypeScript-go#3362](https://github.com/microsoft/TypeScript-go/pull/3362#issuecomment-4870283060)
-    * @jansedlon provided the PR link as requested in [microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733#issuecomment-4877704092)
     * @KostyaTretyak provided memory usage output in [microsoft/TypeScript-go#4520](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4867769184)
     * @KostyaTretyak provided filesystem type information in [microsoft/TypeScript-go#4520](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4868195100)
     * @KostyaTretyak provided requested arcstat and arcstats outputs in [microsoft/TypeScript-go#4520](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4868427022)
@@ -50,7 +49,7 @@
  * (7 weeks ago) **RyanCavanaugh** set milestone to `Possible Improvement`, and unassigned **gabritto**, **Copilot**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733) (Open, `Domain: Editor`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#3733](https://github.com/microsoft/TypeScript-go/issues/3733) (Closed, `Domain: Editor`, `Needs More Info`)
 
 **No autocomplete for local symbols and some global types when creating a new file**
 
@@ -212,7 +211,7 @@
 
  * created by **hsheth2**
 
-### [PR microsoft/TypeScript-go#4529](https://github.com/microsoft/TypeScript-go/pull/4529) (Open)
+### [PR microsoft/TypeScript-go#4529](https://github.com/microsoft/TypeScript-go/pull/4529) (Closed)
 
 **Fix wildcard directories being dropped for "\./"\-prefixed includes with dot\-directory excludes**
 

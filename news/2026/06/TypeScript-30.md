@@ -15,7 +15,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63579#issuecomment-4846863745) **jakebailey** said "@jasonkuhrt @johnfav03 Is this a 7.0 regression? Or does this reproduce in 6.0?"
  * [today](https://github.com/microsoft/TypeScript/issues/63579#issuecomment-4846969089) **johnfav03** clarified that the issue was not a 7.0 regression and that it reproduced in 6.0
 
-### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open)
+### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Fix Available`, **gabritto**)
 
 **"Token end is child end" when '= ${id}id' is used in a property annotation**
 
@@ -24,7 +24,7 @@
  * created by **DanielRosenwasser**
  * [today](https://github.com/microsoft/TypeScript/issues/63598#issuecomment-4846219140) **DanielRosenwasser** shared a Copilot suggestion patch and said he would revisit it post 7.0
 
-### [Issue microsoft/TypeScript#63603](https://github.com/microsoft/TypeScript/issues/63603) (Open)
+### [Issue microsoft/TypeScript#63603](https://github.com/microsoft/TypeScript/issues/63603) (Open, `Bug`, `Domain: LS: Completion Lists`)
 
 **Issue: TypeScript autocomplete for template literal types ignores user's Quote Style preference**
 

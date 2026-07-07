@@ -1,6 +1,6 @@
 # Report for 2026-07-05 (Sunday, July 5th, 2026)
 
-7 different users commented on 10 different issues.
+7 different users commented on 11 different issues.
 
 ## Recommended Actions
 
@@ -40,6 +40,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4849992184) **jakebailey** stated that VS Code's TS extension disabled JSDoc snippets and concluded that they needed to port it over
  * (4 days ago) **jakebailey** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4889323880) **crystalfp** asked when the fix would be available and noted that the problem still persisted with the specified version
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4894864042) **jakebailey** attached an image and said they tested the example explicitly
 
 ### [PR microsoft/TypeScript-go#4522](https://github.com/microsoft/TypeScript-go/pull/4522) (Closed)
 
@@ -68,7 +69,7 @@
  * created by **liu-idf18**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4539](https://github.com/microsoft/TypeScript-go/issues/4539) (Open)
+### [Issue microsoft/TypeScript-go#4539](https://github.com/microsoft/TypeScript-go/issues/4539) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Add \`StructuredType\` type to the API**
 

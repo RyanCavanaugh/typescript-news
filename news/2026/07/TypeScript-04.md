@@ -1,6 +1,6 @@
 # Report for 2026-07-04 (Saturday, July 4th, 2026)
 
-3 different users commented on 7 different issues.
+3 different users commented on 8 different issues.
 
 ## Recommended Actions
 
@@ -55,7 +55,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885496605) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #17002. If you can get it accepted, this PR will have a better chance of being reviewed."
  * [later](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885496673) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #17002. If you can get it accepted, this PR will have a better chance of being reviewed."
 
-### [PR microsoft/TypeScript#63610](https://github.com/microsoft/TypeScript/pull/63610) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63610](https://github.com/microsoft/TypeScript/pull/63610) (Closed, `For Uncommitted Bug`)
 
 **feat\(checker\): add Object\.hasOwn\(\) type narrowing**
 

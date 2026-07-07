@@ -145,7 +145,7 @@
  * (2 weeks ago) **Copilot** assigned to **Copilot**, **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#4380](https://github.com/microsoft/TypeScript-go/issues/4380) (Closed, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript-go#4380](https://github.com/microsoft/TypeScript-go/issues/4380) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -255,7 +255,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4480#issuecomment-4841415885) **Vorobey31415** said "@microsoft-github-policy-service agree company="JetBrains""
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4482](https://github.com/microsoft/TypeScript-go/pull/4482) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4482](https://github.com/microsoft/TypeScript-go/pull/4482) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Fix auto\-imports crash in GetSourceOfProjectReferenceIfOutputIncluded**
 
@@ -315,11 +315,11 @@
  * created by **johnfav03**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4488#issuecomment-4847479452) **jakebailey** said "Something is wrong with this PR, it is hanging in CI in the new code. "
 
-### [PR microsoft/TypeScript-go#4489](https://github.com/microsoft/TypeScript-go/pull/4489) (Open)
+### [PR microsoft/TypeScript-go#4489](https://github.com/microsoft/TypeScript-go/pull/4489) (Closed)
 
 **New extension layout**
 
-*Redesigns the TypeScript extension into vscode-typescript 7 and a native-preview nightly extension with updated installation, settings, and packaging.*
+*Restructure the TypeScript extension with the new TS7 layout under its native-preview identity, updating settings and packaging.*
 
  * created by **jakebailey**
 
@@ -404,7 +404,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#4499](https://github.com/microsoft/TypeScript-go/issues/4499) (Open)
+### [Issue microsoft/TypeScript-go#4499](https://github.com/microsoft/TypeScript-go/issues/4499) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Add \`TupleTypeReference\` interface to the API**
 
@@ -432,7 +432,7 @@
  * **fisallllll280-code** added label `Porting PR`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4502](https://github.com/microsoft/TypeScript-go/issues/4502) (Open)
+### [Issue microsoft/TypeScript-go#4502](https://github.com/microsoft/TypeScript-go/issues/4502) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\`Program\` is missing \`\.getSourceFiles\(\)\` getter**
 
@@ -440,7 +440,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4503](https://github.com/microsoft/TypeScript-go/issues/4503) (Open)
+### [Issue microsoft/TypeScript-go#4503](https://github.com/microsoft/TypeScript-go/issues/4503) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Add APIs that set the compiler options programatically**
 

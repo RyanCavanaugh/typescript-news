@@ -1,6 +1,6 @@
 # Report for 2026-07-05 (Sunday, July 5th, 2026)
 
-6 different users commented on 11 different issues.
+8 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -30,7 +30,63 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63596#issuecomment-4888254828) **dependabot[bot]** said "Looks like actions/cache is updatable in another way, so this is no longer needed."
  * (today) **dependabot[bot]** closed the issue
 
-### [PR microsoft/TypeScript#63610](https://github.com/microsoft/TypeScript/pull/63610) (Open, `For Uncommitted Bug`)
+### [Issue microsoft/TypeScript#63597](https://github.com/microsoft/TypeScript/issues/63597) (Open, `Suggestion`, `Awaiting More Feedback`)
+
+**add an option to report an error when \`Symbol\.dispose\`/\`Symbol\.asyncDispose\` objects are used without the \`using\` keyword**
+
+*Add a TypeScript compiler option to error when objects with Symbol.dispose or Symbol.asyncDispose are used without the using keyword.*
+
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4832681103) **DetachHead** questioned whether objects with Symbol.dispose should require using and suggested documentation mention this behavior
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4833162597) **MartinJohns** explained that implementing Symbol.dispose indicates intent to provide explicit resource release and compared it to C#'s IDisposable, then asked how to prevent errors when not using a using statement intentionally
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4838772087) **Renegade334** referred to typescript-eslint/typescript-eslint#8255 to agree that it’s a linter job
+ * (later) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
+
+### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Fix Available`, **gabritto**)
+
+**"Token end is child end" when '= ${id}id' is used in a property annotation**
+
+*Formatting a property annotation using a malformed template literal triggers a 'Token end is child end' debug failure in TypeScript.*
+
+ * created by **DanielRosenwasser**
+ * [5 days ago](https://github.com/microsoft/TypeScript/issues/63598#issuecomment-4846219140) **DanielRosenwasser** shared a Copilot suggestion patch and said he would revisit it post 7.0
+ * (later) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **gabritto**
+ * **typescript-automation[bot]** added label `Fix Available`
+
+### [Issue microsoft/TypeScript#63601](https://github.com/microsoft/TypeScript/issues/63601) (Open, `Needs Investigation`, **jakebailey**)
+
+**@typescript/typescript6 does not have all versions that regular v6 branch has**
+
+*The @typescript/typescript6 npm package lags behind the regular typescript v6 branch, missing versions like 6.0.3.*
+
+ * created by **ZuBB**
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **jakebailey**
+ * [later](https://github.com/microsoft/TypeScript/issues/63601#issuecomment-4894812442) **jakebailey** said "Why? The version you place there will have no impact on what version of TS your package manager selects to be reexported."
+
+### [Issue microsoft/TypeScript#63605](https://github.com/microsoft/TypeScript/issues/63605) (Closed)
+
+**Is developing interpreter on top of Node\.js good?**
+
+*Developing an interpreter on Node.js enables rapid prototyping and cross-platform deployment but sacrifices performance and memory efficiency versus native implementations.*
+
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4869918188) **dominexmacedon-docs** denied being AI spam and suggested learning the Node.js-based language for its critical features
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4869947662) **MartinJohns** called the issue spam, said it was AI generated and unrelated to the repository
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4870009171) **dominexmacedon-docs** acknowledged the content was AI-generated spam, explained they used Copilot to generate markdown, and clarified that the language is real and built on Node.js
+ * (later) **RyanCavanaugh** closed the issue
+ * [later](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4894749621) **RyanCavanaugh** said "Issues are not for advertising your project."
+
+### [Issue microsoft/TypeScript#63607](https://github.com/microsoft/TypeScript/issues/63607) (Closed)
+
+**Why can't we build a VM on the top of Node\.js? Is it because of not being Native?**
+
+*Building a VM on Node.js supports basic features but fails to handle advanced capabilities like object iteration and control flow, so most implementations use C.*
+
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4872986822) **MartinJohns** said "This issue tracker is meant for bug reports and feature requests regarding TypeScript. It's not suited for your ChatGPT questions."
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4873016141) **dominexmacedon-docs** replied defensively accusing the commenter of jealousy
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4873037523) **dominexmacedon-docs** insulted the maintainer and asserted their right to post ChatGPT questions
+ * [later](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4894761556) **RyanCavanaugh** said "User was blocked for this."
+ * (later) **RyanCavanaugh** closed the issue
+
+### [PR microsoft/TypeScript#63610](https://github.com/microsoft/TypeScript/pull/63610) (Closed, `For Uncommitted Bug`)
 
 **feat\(checker\): add Object\.hasOwn\(\) type narrowing**
 
@@ -40,6 +96,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4885496751) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #44253. If you can get it accepted, this PR will have a better chance of being reviewed."
  * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4885496820) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #44253. If you can get it accepted, this PR will have a better chance of being reviewed."
  * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4887234053) **MartinJohns** said "@daishuge You should read this: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md"
+ * (later) **RyanCavanaugh** closed the issue
 
 ### [PR microsoft/TypeScript#63611](https://github.com/microsoft/TypeScript/pull/63611) (Closed, `For Uncommitted Bug`)
 
@@ -98,7 +155,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open)
+### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`)
 
 **Inconsistent \`typeof this\` when the \`this\` parameter declared in the signature of a function parameter**
 

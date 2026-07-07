@@ -95,7 +95,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/63604#issuecomment-4869923852) **MartinJohns** said "@tsushanth You should read this: https://github.com/microsoft/TypeScript/issues/62963"
 
-### [Issue microsoft/TypeScript#63605](https://github.com/microsoft/TypeScript/issues/63605) (Open)
+### [Issue microsoft/TypeScript#63605](https://github.com/microsoft/TypeScript/issues/63605) (Closed)
 
 **Is developing interpreter on top of Node\.js good?**
 
@@ -107,7 +107,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4869947662) **MartinJohns** called the issue spam, said it was AI generated and unrelated to the repository
  * [today](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4870009171) **dominexmacedon-docs** acknowledged the content was AI-generated spam, explained they used Copilot to generate markdown, and clarified that the language is real and built on Node.js
 
-### [Issue microsoft/TypeScript#63606](https://github.com/microsoft/TypeScript/issues/63606) (Open)
+### [Issue microsoft/TypeScript#63606](https://github.com/microsoft/TypeScript/issues/63606) (Open, `Bug`, `Domain: lib.d.ts`)
 
 **Intl\.PluralRules constructor should not be callable without new**
 
@@ -115,7 +115,7 @@
 
  * created by **ptomato**
 
-### [Issue microsoft/TypeScript#63607](https://github.com/microsoft/TypeScript/issues/63607) (Open)
+### [Issue microsoft/TypeScript#63607](https://github.com/microsoft/TypeScript/issues/63607) (Closed)
 
 **Why can't we build a VM on the top of Node\.js? Is it because of not being Native?**
 

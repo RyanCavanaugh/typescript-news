@@ -60,7 +60,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4408#issuecomment-4867414171) **jakebailey** said "@ahejlsberg Is this exactly like #4451?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/4408#issuecomment-4867661889) **jakebailey** said "Thinking harder, I'm 99% percent certain it's exactly the same and this is working as intended."
 
-### [PR microsoft/TypeScript-go#4420](https://github.com/microsoft/TypeScript-go/pull/4420) (Open)
+### [PR microsoft/TypeScript-go#4420](https://github.com/microsoft/TypeScript-go/pull/4420) (Closed)
 
 **\[api\] Add SourceFile line mapping methods**
 
@@ -228,7 +228,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4519](https://github.com/microsoft/TypeScript-go/issues/4519) (Open)
+### [Issue microsoft/TypeScript-go#4519](https://github.com/microsoft/TypeScript-go/issues/4519) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **Consider exporting the \`inferredProjectName\` constant from the API**
 

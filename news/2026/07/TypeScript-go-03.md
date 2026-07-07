@@ -27,7 +27,7 @@
  * (today) **ahejlsberg** added labels `Domain: Type Checking`, `Type Ordering`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4528#issuecomment-4879046574) **ahejlsberg** suggested refactoring Node<TNodeType> into a NodeExtras mapping with specific extensions per type
 
-### [PR microsoft/TypeScript-go#4529](https://github.com/microsoft/TypeScript-go/pull/4529) (Open)
+### [PR microsoft/TypeScript-go#4529](https://github.com/microsoft/TypeScript-go/pull/4529) (Closed)
 
 **Fix wildcard directories being dropped for "\./"\-prefixed includes with dot\-directory excludes**
 

@@ -1,10 +1,10 @@
 # Report for 2026-07-03 (Friday, July 3rd, 2026)
 
-1 different users commented on 1 different issues.
+1 different users commented on 2 different issues.
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript#63608](https://github.com/microsoft/TypeScript/pull/63608) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63608](https://github.com/microsoft/TypeScript/pull/63608) (Open, `For Backlog Bug`)
 
 **fix\(lib\): remove callable signature without new from Intl\.PluralRules…**
 
