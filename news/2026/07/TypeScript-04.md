@@ -43,7 +43,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63604#issuecomment-4884534330) **tsushanth** said "Thanks for the pointer — I see #62963. With the 6.0 merge criteria and the focus on TS7/Go rewrite this fix doesn't qualify. I'll close this out."
  * (today) **tsushanth** closed the issue
 
-### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Closed, `For Uncommitted Bug`)
 
 **fix\(lib\): preserve readonly narrowing in Array\.isArray type guard**
 

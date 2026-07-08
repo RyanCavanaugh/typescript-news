@@ -85,7 +85,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript-go#4541](https://github.com/microsoft/TypeScript-go/pull/4541) (Open, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript-go#4541](https://github.com/microsoft/TypeScript-go/pull/4541) (Closed, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group across 1 directory with 3 updates**
 

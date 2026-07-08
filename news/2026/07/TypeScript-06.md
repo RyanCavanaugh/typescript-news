@@ -1,6 +1,6 @@
 # Report for 2026-07-06 (Monday, July 6th, 2026)
 
-16 different users commented on 35 different issues.
+17 different users commented on 39 different issues.
 
 ## Recommended Actions
 
@@ -70,6 +70,16 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/63594#issuecomment-4824702514) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
+### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Domain: Formatter`, `Fix Available`, **gabritto**)
+
+**"Token end is child end" when '= ${id}id' is used in a property annotation**
+
+*Formatting a property annotation using a malformed template literal triggers a 'Token end is child end' debug failure in TypeScript.*
+
+ * (today) **RyanCavanaugh** set milestone to `Backlog`, and assigned to **gabritto**
+ * **typescript-automation[bot]** added label `Fix Available`
+ * **RyanCavanaugh** added label `Domain: Formatter`
+
 ### [Issue microsoft/TypeScript#63603](https://github.com/microsoft/TypeScript/issues/63603) (Open, `Bug`, `Domain: LS: Completion Lists`)
 
 **Issue: TypeScript autocomplete for template literal types ignores user's Quote Style preference**
@@ -98,7 +108,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/63608#issuecomment-4881716027) **SiddGud** said "@microsoft-github-policy-service agree"
  * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Closed, `For Uncommitted Bug`)
 
 **fix\(lib\): preserve readonly narrowing in Array\.isArray type guard**
 
@@ -109,14 +119,14 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885496673) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #17002. If you can get it accepted, this PR will have a better chance of being reviewed."
  * [today](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4896919593) **anderson-pete** explained that the first overload collapses to any, making it always chosen, and argued that stricter readonly typing, while correct, would break existing code
 
-### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`, `Domain: This-Typing`)
 
 **Inconsistent \`typeof this\` when the \`this\` parameter declared in the signature of a function parameter**
 
 *Declaring a this parameter for callback functions leads to inconsistent inferred types for typeof this depending on whether this is used in the function body.*
 
  * created by **mpal9000**
- * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+ * (today) **RyanCavanaugh** added labels `Bug`, `Domain: This-Typing`, and set milestone to `Backlog`
 
 ### [Issue microsoft/TypeScript#63619](https://github.com/microsoft/TypeScript/issues/63619) (Open, `Fixed`)
 
@@ -210,7 +220,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63626#issuecomment-4897299647) **MartinJohns** mentioned that focusVisible is already supported and suggested adding the type definition via declaration merging
  * **RyanCavanaugh** added label `Fixed`
 
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open)
+### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Not a Defect`)
 
 **\`NoInfer\` changes behavior for type matching on spread**
 
@@ -218,7 +228,7 @@
 
  * created by **upsuper**
 
-### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open)
+### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`)
 
 **Incorrect diagnostic message in TS2814**
 
@@ -227,7 +237,7 @@
  * created by **bvanjoi**
  * [later](https://github.com/microsoft/TypeScript/issues/63628#issuecomment-4903849625) **snarbles2** clarified that `function Foo();` is invalid syntax, noted the need for the `declare` keyword and a return type under `noImplicitAny`, and mentioned that this fix did not address other errors
 
-### [PR microsoft/TypeScript#63629](https://github.com/microsoft/TypeScript/pull/63629) (Open)
+### [PR microsoft/TypeScript#63629](https://github.com/microsoft/TypeScript/pull/63629) (Open, `For Milestone Bug`, `Voight-Kampff Anomaly`, **gabritto**)
 
 **fix\(formatting\): recover from token spans outside property children**
 
@@ -236,8 +246,10 @@
  * created by **ahfoysal**
  * [later](https://github.com/microsoft/TypeScript/pull/63629#issuecomment-4901819030) **ahfoysal** said "@microsoft-github-policy-service agree"
  * [later](https://github.com/microsoft/TypeScript/pull/63629#issuecomment-4903493769) **MartinJohns** said "@ahfoysal You should read this: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md"
+ * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
+ * (later) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **gabritto**
 
-### [PR microsoft/TypeScript#63630](https://github.com/microsoft/TypeScript/pull/63630) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63630](https://github.com/microsoft/TypeScript/pull/63630) (Closed, `For Uncommitted Bug`)
 
 **Create frontend change**
 
@@ -247,4 +259,14 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63630#issuecomment-4904905880) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [later](https://github.com/microsoft/TypeScript/pull/63630#issuecomment-4904905941) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (later) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#63631](https://github.com/microsoft/TypeScript/pull/63631) (Closed, `For Backlog Bug`)
+
+**fix\(2814\): correct misleading error message for functions without bodies**
+
+*Remove 'with bodies' qualifier from TS2814 error to clarify merge restrictions apply to any function declaration.*
+
+ * created by **Nabeel-akk**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
 

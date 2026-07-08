@@ -1,14 +1,26 @@
 # Report for 2026-07-06 (Monday, July 6th, 2026)
 
-11 different users commented on 39 different issues.
+13 different users commented on 45 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
+    * @proyectoramirez asked for instructions on testing the PR in a yarn project in [microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4905614254)
     * @acutmore reported that the fix was in #4549 in [microsoft/TypeScript-go#4548](https://github.com/microsoft/TypeScript-go/issues/4548#issuecomment-4901398372)
     * @acutmore confirmed that the patch fixes the benchmark case in #4548 in [microsoft/TypeScript-go#4549](https://github.com/microsoft/TypeScript-go/pull/4549#issuecomment-4901474940)
 
 ## Activity Summary
+
+### [PR microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966) (Open, `No linked issue`)
+
+**Add Yarn PnP support**
+
+*Add native Yarn Plug'n'Play support to TypeScript Go with VFS integration and manifest handling following PnP specification.*
+
+ * **RyanCavanaugh** added label `No linked issue`
+ * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4707217638) **GGomez99** provided the full link to the linked issue and asked if it should be linked differently
+ * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4709751672) **SerenModz21** suggested adding "Closes #460" to the PR description to properly link the issue and provided a documentation link
+ * [later](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4905614254) **proyectoramirez** said "What is a good way to try this PR in a yarn project?"
 
 ### [PR microsoft/TypeScript-go#3252](https://github.com/microsoft/TypeScript-go/pull/3252) (Closed, **DanielRosenwasser**, **Copilot**)
 
@@ -166,6 +178,16 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4420#issuecomment-4867307173) **mrazauskas** suggested that using getConfigFileParsingDiagnostics to obtain a tsconfig SourceFile might suffice and asked whether to open a separate issue for SourceFile handling
  * (today) **andrewbranch** closed the issue
 
+### [PR microsoft/TypeScript-go#4458](https://github.com/microsoft/TypeScript-go/pull/4458) (Closed)
+
+**Vendor dprint plugins**
+
+*Vendor copies of dprint plugins in the repository and add a script to update them, avoiding firewall fetch issues.*
+
+ * created by **jakebailey**
+ * [6 days ago](https://github.com/microsoft/TypeScript-go/pull/4458#issuecomment-4848601346) **jakebailey** said "dprint is getting "plugins via node_modules" so I'll hold off."
+ * (later) **jakebailey** closed the issue
+
 ### [Issue microsoft/TypeScript-go#4476](https://github.com/microsoft/TypeScript-go/issues/4476) (Closed, `Domain: Editor`, **gabritto**)
 
 **Only show notifications for failed LSP responses in VS Code Insiders**
@@ -261,7 +283,7 @@
  * created by **UditDewan**
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
-### [Issue microsoft/TypeScript-go#4536](https://github.com/microsoft/TypeScript-go/issues/4536) (Open, `Domain: API and Extensibility`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#4536](https://github.com/microsoft/TypeScript-go/issues/4536) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\`Type\` object is missing \`\.getCallSignatures\(\)\` and \`\.getConstructSignatures\(\)\` getters in the API**
 
@@ -269,6 +291,8 @@
 
  * created by **mrazauskas**
  * (today) **andrewbranch** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4536#issuecomment-4905155803) **mrazauskas** reconsidered adding methods to Checker and realized getSignaturesOfType sufficed
+ * (later) **mrazauskas** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4539](https://github.com/microsoft/TypeScript-go/issues/4539) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
@@ -341,7 +365,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#4548](https://github.com/microsoft/TypeScript-go/issues/4548) (Open)
+### [Issue microsoft/TypeScript-go#4548](https://github.com/microsoft/TypeScript-go/issues/4548) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
 
 **NodeList loop performance**
 
@@ -350,7 +374,7 @@
  * created by **acutmore**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4548#issuecomment-4901398372) **acutmore** said "Fixed in #4549"
 
-### [PR microsoft/TypeScript-go#4549](https://github.com/microsoft/TypeScript-go/pull/4549) (Open)
+### [PR microsoft/TypeScript-go#4549](https://github.com/microsoft/TypeScript-go/pull/4549) (Closed)
 
 **\[api\] Optimize RemoteNodeList child access**
 
@@ -359,11 +383,11 @@
  * created by **andrewbranch**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4549#issuecomment-4901474940) **acutmore** said "Nice fix! Applying this patch locally I can confirm it fixes the benchmark case in #4548"
 
-### [PR microsoft/TypeScript-go#4550](https://github.com/microsoft/TypeScript-go/pull/4550) (Open)
+### [PR microsoft/TypeScript-go#4550](https://github.com/microsoft/TypeScript-go/pull/4550) (Closed)
 
-**Set up stable / nightly extension split**
+**Set up stable / nightly extension split, other prep**
 
-*Configure separate stable and nightly extension builds, currently disabled.*
+*Configure separate stable and nightly extension builds and related preparatory work, currently disabled.*
 
  * created by **jakebailey**
 
@@ -383,4 +407,20 @@
 *Enable passing multiple files to get*Diagnostics to batch diagnostic requests and reduce performance overhead.*
 
  * created by **dragomirtitian**
+
+### [Issue microsoft/TypeScript-go#4553](https://github.com/microsoft/TypeScript-go/issues/4553) (Open, `Domain: API and Extensibility`, **andrewbranch**, **Copilot**)
+
+**Add \`\.getConstraint\(\)\` and \`\.getDefault\(\)\` getter to \`TypeParameter\`**
+
+*Add getConstraint() and getDefault() methods to TypeParameter for consistency with other type classes.*
+
+ * created by **mrazauskas**
+
+### [PR microsoft/TypeScript-go#4554](https://github.com/microsoft/TypeScript-go/pull/4554) (Closed)
+
+**Move dprint plugins to npm**
+
+*Publish dprint plugins to npm to circumvent firewall restrictions and eliminate manual pre-seeding in Copilot agent setup.*
+
+ * created by **jakebailey**
 

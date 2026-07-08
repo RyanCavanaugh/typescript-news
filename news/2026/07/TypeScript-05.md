@@ -41,7 +41,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4838772087) **Renegade334** referred to typescript-eslint/typescript-eslint#8255 to agree that it’s a linter job
  * (later) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
 
-### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Fix Available`, **gabritto**)
+### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Domain: Formatter`, `Fix Available`, **gabritto**)
 
 **"Token end is child end" when '= ${id}id' is used in a property annotation**
 
@@ -155,7 +155,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`, `Domain: This-Typing`)
 
 **Inconsistent \`typeof this\` when the \`this\` parameter declared in the signature of a function parameter**
 

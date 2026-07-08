@@ -1,6 +1,6 @@
 # Report for 2026-07-04 (Saturday, July 4th, 2026)
 
-3 different users commented on 3 different issues.
+3 different users commented on 4 different issues.
 
 ## Activity Summary
 
@@ -20,7 +20,7 @@
 
  * created by **UditDewan**
 
-### [Issue microsoft/TypeScript-go#4536](https://github.com/microsoft/TypeScript-go/issues/4536) (Open, `Domain: API and Extensibility`, **andrewbranch**)
+### [Issue microsoft/TypeScript-go#4536](https://github.com/microsoft/TypeScript-go/issues/4536) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\`Type\` object is missing \`\.getCallSignatures\(\)\` and \`\.getConstructSignatures\(\)\` getters in the API**
 

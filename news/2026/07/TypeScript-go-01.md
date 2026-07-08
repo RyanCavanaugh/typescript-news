@@ -250,7 +250,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4867700307) **KostyaTretyak** said "I'm not a system administrator, so I can't answer your question. Another strange thing is how the memory cache changes."
  * [later](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4867717299) **jakebailey** clarified that cache memory is just available for processes and showed free -h output, questioned if the user was using gnome-system-monitor, and suggested using htop to identify processes
 
-### [Issue microsoft/TypeScript-go#4521](https://github.com/microsoft/TypeScript-go/issues/4521) (Open, `Domain: API and Extensibility`)
+### [Issue microsoft/TypeScript-go#4521](https://github.com/microsoft/TypeScript-go/issues/4521) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **SourceFile text does not include BOM**
 

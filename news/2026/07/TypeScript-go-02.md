@@ -146,7 +146,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4869357111) **KostyaTretyak** clarified that adding a default package.json with npm init -y prevented the memory leak and suggested a nearby service might be scanning git repositories
  * [today](https://github.com/microsoft/TypeScript-go/issues/4520#issuecomment-4869534469) **KostyaTretyak** confirmed no memory leak when moving folder to a directory without other git repositories and suggested a service might misdetect neighboring repositories as part of the monorepo
 
-### [Issue microsoft/TypeScript-go#4521](https://github.com/microsoft/TypeScript-go/issues/4521) (Open, `Domain: API and Extensibility`)
+### [Issue microsoft/TypeScript-go#4521](https://github.com/microsoft/TypeScript-go/issues/4521) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **SourceFile text does not include BOM**
 
@@ -193,7 +193,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4526#issuecomment-4870817595) **weswigham** said "cc @gabritto Honestly, with fixes for what I saw as the top 3 built in to this PR, there aren't too many distinct issues left to look into, I think."
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4527](https://github.com/microsoft/TypeScript-go/issues/4527) (Open, `bug`, `meta-issue`)
+### [Issue microsoft/TypeScript-go#4527](https://github.com/microsoft/TypeScript-go/issues/4527) (Open, `bug`, `meta-issue`, **weswigham**)
 
 **Investigate inconsistent diagnostic output in baselines & make builds with inconsistent diagnostic output fail tests**
 
