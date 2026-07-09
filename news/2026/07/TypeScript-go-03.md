@@ -1,6 +1,6 @@
 # Report for 2026-07-03 (Friday, July 3rd, 2026)
 
-4 different users commented on 6 different issues.
+4 different users commented on 7 different issues.
 
 ## Recommended Actions
 
@@ -38,7 +38,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4529#issuecomment-4877759536) **jakebailey** said "Can you point to the Strada code, if this is just a porting bug?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4529#issuecomment-4880819285) **jansedlon** pointed to the normalizePath implementation and explained how simpleNormalizePath strips './' segments to prevent the bug
 
-### [Issue microsoft/TypeScript-go#4532](https://github.com/microsoft/TypeScript-go/issues/4532) (Open)
+### [Issue microsoft/TypeScript-go#4532](https://github.com/microsoft/TypeScript-go/issues/4532) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

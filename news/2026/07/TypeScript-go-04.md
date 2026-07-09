@@ -8,11 +8,11 @@
 
 **Update tooling deps: npm/json and devcontainer lock**
 
-*Pin tooling versions by adding a JSON devDependency and committing package-lock and devcontainer-lock files.*
+*Add json to _scripts dependencies and generate package-lock.json and devcontainer-lock.json to pin tooling versions.*
 
  * created by **MasterTLF**
 
-### [PR microsoft/TypeScript-go#4535](https://github.com/microsoft/TypeScript-go/pull/4535) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4535](https://github.com/microsoft/TypeScript-go/pull/4535) (Closed, `Voight-Kampff Anomaly`)
 
 **Emit expando properties for functions that only become visible late in declaration emit**
 

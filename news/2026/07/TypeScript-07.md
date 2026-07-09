@@ -1,6 +1,6 @@
 # Report for 2026-07-07 (Tuesday, July 7th, 2026)
 
-5 different users commented on 7 different issues.
+6 different users commented on 9 different issues.
 
 ## Recommended Actions
 
@@ -20,6 +20,17 @@
  * [today](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4903238427) **Svish** recommended defining the object as Record<string, string | undefined> directly instead of using satisfies or as
  * [today](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4904748607) **c-harding** clarified that object literal syntax doesn't work for nested object parts and that the entire object must be defined that way
  * [today](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4909361174) **tvogel** clarified that the object literal workaround didn't work for nested object parts and suggested using separately typed consts or a check-and-bless operator for expressions
+
+### [PR microsoft/TypeScript#63574](https://github.com/microsoft/TypeScript/pull/63574) (Closed, `For Uncommitted Bug`, `dependencies`, `javascript`)
+
+**Bump js\-yaml from 4\.1\.1 to 4\.2\.0**
+
+*Upgrade js-yaml to version 4.2.0 from 4.1.1 to incorporate safety documentation, new loader options, and bug fixes.*
+
+ * **dependabot[bot]** added label `javascript`
+ * (2 weeks ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63574#issuecomment-4916588698) **dependabot[bot]** said "Superseded by #63633."
+ * (later) **dependabot[bot]** closed the issue
 
 ### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Closed, `For Uncommitted Bug`)
 
@@ -45,7 +56,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63619#issuecomment-4907024735) **tonyboho** said "Shouldn't it be pinned with a test, to avoid regressions in the future?"
  * [today](https://github.com/microsoft/TypeScript/issues/63619#issuecomment-4909508046) **RyanCavanaugh** said "Feel free to send a PR with a test, no objections to that"
 
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open)
 
 **\`NoInfer\` changes behavior for type matching on spread**
 
@@ -57,6 +68,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909418101) **upsuper** demonstrated that wrapping NoInfer around a type parameter triggered the same type inference error and presented a code example and error message
  * [today](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909504855) **RyanCavanaugh** said "Why do you have NoInfer there either? e.g. what's a sample call that it fixes?"
  * [today](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909777910) **upsuper** explained that NoInfer allows a function to have fewer parameters than A and illustrated inference errors without it using a TypeScript example
+ * **RyanCavanaugh** removed label `Not a Defect`
 
 ### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`)
 
@@ -90,4 +102,14 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/63632#issuecomment-4906907326) **jakebailey** doubted that adapters would be supported or included in version 7.0 and suggested moving the feature while relying on the API
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/63632#issuecomment-4906907350) **Alex-Bond** agreed to target the change for version 7.1 to avoid additional cleanup, acknowledged overengineering by considering SARIF, JSONL, and template outputs, and explained the adapter motivation
  * (today) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
+
+### [PR microsoft/TypeScript#63633](https://github.com/microsoft/TypeScript/pull/63633) (Open, `For Uncommitted Bug`, `dependencies`, `javascript`)
+
+**Bump js\-yaml from 4\.1\.1 to 4\.3\.0**
+
+*Upgrade js-yaml dependency from version 4.1.1 to 4.3.0 for security fixes and new features.*
+
+ * created by **dependabot[bot]**
+ * (later) **dependabot[bot]** added labels `dependencies`, `javascript`
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
 

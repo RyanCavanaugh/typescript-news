@@ -1,6 +1,6 @@
 # Report for 2026-07-06 (Monday, July 6th, 2026)
 
-13 different users commented on 45 different issues.
+13 different users commented on 47 different issues.
 
 ## Recommended Actions
 
@@ -157,7 +157,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4894925036) **crystalfp** thanked and reported that it worked in another project and said they would investigate differences between the two projects
  * [today](https://github.com/microsoft/TypeScript-go/issues/4388#issuecomment-4900774066) **crystalfp** said "Now started working everywhere. After an update of @typescript/native-preview maybe. Anyway, thanks for your effort!"
 
-### [PR microsoft/TypeScript-go#4416](https://github.com/microsoft/TypeScript-go/pull/4416) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4416](https://github.com/microsoft/TypeScript-go/pull/4416) (Closed, `Voight-Kampff Anomaly`)
 
 **Fix panic in checker\.GetTypeArguments for non\-reference types \(\#4338\)**
 
@@ -269,12 +269,12 @@
 
 **Update tooling deps: npm/json and devcontainer lock**
 
-*Pin tooling versions by adding a JSON devDependency and committing package-lock and devcontainer-lock files.*
+*Add json to _scripts dependencies and generate package-lock.json and devcontainer-lock.json to pin tooling versions.*
 
  * created by **MasterTLF**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4535](https://github.com/microsoft/TypeScript-go/pull/4535) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4535](https://github.com/microsoft/TypeScript-go/pull/4535) (Closed, `Voight-Kampff Anomaly`)
 
 **Emit expando properties for functions that only become visible late in declaration emit**
 

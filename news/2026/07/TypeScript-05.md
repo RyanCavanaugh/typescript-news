@@ -52,7 +52,7 @@
  * (later) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **gabritto**
  * **typescript-automation[bot]** added label `Fix Available`
 
-### [Issue microsoft/TypeScript#63601](https://github.com/microsoft/TypeScript/issues/63601) (Open, `Needs Investigation`, **jakebailey**)
+### [Issue microsoft/TypeScript#63601](https://github.com/microsoft/TypeScript/issues/63601) (Closed, `Needs Investigation`, **jakebailey**)
 
 **@typescript/typescript6 does not have all versions that regular v6 branch has**
 

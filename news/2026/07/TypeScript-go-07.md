@@ -1,6 +1,6 @@
 # Report for 2026-07-07 (Tuesday, July 7th, 2026)
 
-6 different users commented on 27 different issues.
+6 different users commented on 28 different issues.
 
 ## Activity Summary
 
@@ -59,7 +59,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/issues/4459#issuecomment-4814130201) **typescript-automation[bot]** reported server connection closed prematurely with undefined error and provided error logs, last requests, and repro steps for n8n-io/n8n
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript-go#4461](https://github.com/microsoft/TypeScript-go/issues/4461) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4461](https://github.com/microsoft/TypeScript-go/issues/4461) (Closed, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: Inconsistency when supplying \(internal\) expando function to another generic function call for exports**
 
