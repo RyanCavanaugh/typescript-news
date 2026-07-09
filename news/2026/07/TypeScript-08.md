@@ -1,6 +1,6 @@
 # Report for 2026-07-08 (Wednesday, July 8th, 2026)
 
-13 different users commented on 10 different issues.
+13 different users commented on 11 different issues.
 
 ## Recommended Actions
 
@@ -58,7 +58,18 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63601#issuecomment-4916871012) **ZuBB** acknowledged that typescript6 is a proxy for the regular package and apologized for the confusion
  * (today) **ZuBB** closed the issue
 
-### [Issue microsoft/TypeScript#63634](https://github.com/microsoft/TypeScript/issues/63634) (Open)
+### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Needs Investigation`, **ahejlsberg**)
+
+**\`NoInfer\` changes behavior for type matching on spread**
+
+*Applying NoInfer to spread types unexpectedly produces type errors whereas equivalent spreads without NoInfer succeed*
+
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909504855) **RyanCavanaugh** said "Why do you have NoInfer there either? e.g. what's a sample call that it fixes?"
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909777910) **upsuper** explained that NoInfer allows a function to have fewer parameters than A and illustrated inference errors without it using a TypeScript example
+ * **RyanCavanaugh** removed label `Not a Defect`
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **ahejlsberg**
+
+### [Issue microsoft/TypeScript#63634](https://github.com/microsoft/TypeScript/issues/63634) (Closed)
 
 **\`tsc\` incorrectly points to v6 rather than v7**
 
@@ -67,6 +78,7 @@
  * created by **abrahamguo**
  * [today](https://github.com/microsoft/TypeScript/issues/63634#issuecomment-4919175665) **igordanchenko** detailed the root cause of a conflicting tsc bin resolution between TypeScript 6 and 7 and provided a postinstall/prepare rebuild workaround
  * [today](https://github.com/microsoft/TypeScript/issues/63634#issuecomment-4919621853) **RyanCavanaugh** said "See https://github.com/microsoft/typescript-go/issues/4567#issuecomment-4919083741"
+ * (later) **RyanCavanaugh** closed the issue
 
 ### [Issue microsoft/TypeScript#63635](https://github.com/microsoft/TypeScript/issues/63635) (Closed, `Question`)
 
@@ -81,7 +93,7 @@
  * **RyanCavanaugh** added label `Question`
  * (today) **kirkwaiblinger** closed the issue
 
-### [Issue microsoft/TypeScript#63636](https://github.com/microsoft/TypeScript/issues/63636) (Open)
+### [Issue microsoft/TypeScript#63636](https://github.com/microsoft/TypeScript/issues/63636) (Closed)
 
 **Undocumented incompatibilities in TypeScript 7**
 
@@ -90,6 +102,7 @@
  * created by **Vessel9817**
  * [today](https://github.com/microsoft/TypeScript/issues/63636#issuecomment-4921046408) **MartinJohns** provided documentation link and noted that TypeScript 7+ is written in Go and not directly usable in JavaScript projects
  * [later](https://github.com/microsoft/TypeScript/issues/63636#issuecomment-4923549862) **jakebailey** referenced a blog post stating that there is no API and provided the link
+ * (later) **RyanCavanaugh** closed the issue
 
 ### [Issue microsoft/TypeScript#63637](https://github.com/microsoft/TypeScript/issues/63637) (Open)
 
@@ -113,7 +126,7 @@
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63638#issuecomment-4924177988) **AmariahAK** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#63639](https://github.com/microsoft/TypeScript/issues/63639) (Open)
+### [Issue microsoft/TypeScript#63639](https://github.com/microsoft/TypeScript/issues/63639) (Open, `Duplicate`)
 
 **Consistent Typechecking Mode**
 
@@ -121,4 +134,5 @@
 
  * created by **p-98**
  * [later](https://github.com/microsoft/TypeScript/issues/63639#issuecomment-4925849782) **MartinJohns** said "Essentially you want #12936."
+ * **RyanCavanaugh** added label `Duplicate`
 

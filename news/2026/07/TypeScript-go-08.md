@@ -1,11 +1,12 @@
 # Report for 2026-07-08 (Wednesday, July 8th, 2026)
 
-19 different users commented on 25 different issues.
+20 different users commented on 26 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @parched provided repro steps and code in [microsoft/TypeScript-go#1057](https://github.com/microsoft/TypeScript-go/issues/1057#issuecomment-4919142288)
+    * @GGomez99 provided instructions for how to build and run the PR in a yarn project in [microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4926997057)
     * @HolgerJeromin requested an updated NuGet package with TypeScript 7.0.2 and reported a build configuration bug in [microsoft/TypeScript-go#2310](https://github.com/microsoft/TypeScript-go/issues/2310#issuecomment-4923231836)
     * @dummdidumm asked whether content mappers can be asynchronous and influence LSP functionality such as diagnostics and rename behavior in [microsoft/TypeScript-go#2824](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4924997952)
     * @remcohaszing provided detailed discussion and suggestions regarding diagnostics, config, and editor integration in [microsoft/TypeScript-go#2824](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4925537831)
@@ -32,6 +33,17 @@
  * (2 weeks ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `TypeScript 7.0 Stable`
  * (today) **jakebailey** set milestone to `Post-7.0`, and removed from milestone `TypeScript 7.0 Stable`
+
+### [PR microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966) (Open, `No linked issue`)
+
+**Add Yarn PnP support**
+
+*Add native Yarn Plug'n'Play support to TypeScript Go with VFS integration and manifest handling following PnP specification.*
+
+ * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4707217638) **GGomez99** provided the full link to the linked issue and asked if it should be linked differently
+ * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4709751672) **SerenModz21** suggested adding "Closes #460" to the PR description to properly link the issue and provided a documentation link
+ * [yesterday](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4905614254) **proyectoramirez** said "What is a good way to try this PR in a yarn project?"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4926997057) **GGomez99** suggested cloning the repository and following the How to build and run section of the contributing doc
 
 ### [Issue microsoft/TypeScript-go#2310](https://github.com/microsoft/TypeScript-go/issues/2310) (Open, `possible improvement`, **joj**)
 
@@ -172,6 +184,7 @@
  * created by **abrahamguo**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4919083741) **RyanCavanaugh** explained that npm picks bin winners based on lexical sort, provided a working alias configuration, and noted that the blog would be fixed
  * [later](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4926594165) **AndrewMax** reported that the suggested config still didn't work and asked @RyanCavanaugh for help
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4926910710) **RyanCavanaugh** said "@AndrewMax which package manager, and which version, are you running?"
 
 ### [PR microsoft/TypeScript-go#4568](https://github.com/microsoft/TypeScript-go/pull/4568) (Closed)
 

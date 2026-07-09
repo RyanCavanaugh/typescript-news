@@ -56,7 +56,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63619#issuecomment-4907024735) **tonyboho** said "Shouldn't it be pinned with a test, to avoid regressions in the future?"
  * [today](https://github.com/microsoft/TypeScript/issues/63619#issuecomment-4909508046) **RyanCavanaugh** said "Feel free to send a PR with a test, no objections to that"
 
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open)
+### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **\`NoInfer\` changes behavior for type matching on spread**
 

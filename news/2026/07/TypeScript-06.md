@@ -220,7 +220,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63626#issuecomment-4897299647) **MartinJohns** mentioned that focusVisible is already supported and suggested adding the type definition via declaration merging
  * **RyanCavanaugh** added label `Fixed`
 
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open)
+### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **\`NoInfer\` changes behavior for type matching on spread**
 
