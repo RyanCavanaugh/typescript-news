@@ -228,7 +228,7 @@
 
  * created by **upsuper**
 
-### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`, `Domain: Error Messages`)
 
 **Incorrect diagnostic message in TS2814**
 

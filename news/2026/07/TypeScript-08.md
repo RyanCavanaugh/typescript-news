@@ -104,7 +104,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63636#issuecomment-4923549862) **jakebailey** referenced a blog post stating that there is no API and provided the link
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63637](https://github.com/microsoft/TypeScript/issues/63637) (Open)
+### [Issue microsoft/TypeScript#63637](https://github.com/microsoft/TypeScript/issues/63637) (Open, `Question`)
 
 **v7 missing GitHub releases**
 
@@ -116,7 +116,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63637#issuecomment-4923638845) **jakebailey** said "Bugs are fine to file here and that's the main place the project lives; is this causing a problem for you in some way?"
  * [later](https://github.com/microsoft/TypeScript/issues/63637#issuecomment-4923690763) **hyunbinseo** mentioned confusion about how to follow up with the v7 release and updated the issue body with a tl;dr section
 
-### [PR microsoft/TypeScript#63638](https://github.com/microsoft/TypeScript/pull/63638) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63638](https://github.com/microsoft/TypeScript/pull/63638) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Fix inconsistent \`typeof this\` when \`this\` parameter comes from a contextual signature \(\#63616\)**
 

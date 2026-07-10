@@ -70,7 +70,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4909777910) **upsuper** explained that NoInfer allows a function to have fewer parameters than A and illustrated inference errors without it using a TypeScript example
  * **RyanCavanaugh** removed label `Not a Defect`
 
-### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`, `Domain: Error Messages`)
 
 **Incorrect diagnostic message in TS2814**
 

@@ -1,6 +1,6 @@
 # Report for 2026-07-08 (Wednesday, July 8th, 2026)
 
-20 different users commented on 26 different issues.
+21 different users commented on 26 different issues.
 
 ## Recommended Actions
 
@@ -11,6 +11,7 @@
     * @dummdidumm asked whether content mappers can be asynchronous and influence LSP functionality such as diagnostics and rename behavior in [microsoft/TypeScript-go#2824](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4924997952)
     * @remcohaszing provided detailed discussion and suggestions regarding diagnostics, config, and editor integration in [microsoft/TypeScript-go#2824](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4925537831)
     * @AndrewMax asked for assistance after the workaround did not work in [microsoft/TypeScript-go#4567](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4926594165)
+    * @AndrewMax asked for advice on resolving the Yarn-related issue in [microsoft/TypeScript-go#4567](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4927038067)
 
 ## Activity Summary
 
@@ -53,6 +54,7 @@
 
  * (14 weeks ago) **RyanCavanaugh** added label `possible improvement`, set milestone to `Possible Improvement`, and assigned to **joj**
  * [later](https://github.com/microsoft/TypeScript-go/issues/2310#issuecomment-4923231836) **HolgerJeromin** reported that the Microsoft.TypeScript.MSBuild 7.0.0-beta NuGet package worked but had a buggy TypeScript build configuration (missing module and target settings in TypeScriptProjectProperties.xaml), showed comparison images, and requested an updated package with TypeScript 7.0.2
+ * [later](https://github.com/microsoft/TypeScript-go/issues/2310#issuecomment-4927037353) **joj** asked for more information about the setup and a build binlog, and explained the upcoming NuGet update and deprecated options
 
 ### [Issue microsoft/TypeScript-go#2824](https://github.com/microsoft/TypeScript-go/issues/2824) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
@@ -131,7 +133,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4535#issuecomment-4918888371) **UditDewan** suggested considering a backport for a silent declaration emit regression in non-exported React components and offered to prepare a backport PR
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript-go#4562](https://github.com/microsoft/TypeScript-go/pull/4562) (Open)
+### [PR microsoft/TypeScript-go#4562](https://github.com/microsoft/TypeScript-go/pull/4562) (Closed)
 
 **Fix concurrent extractionCache read/write**
 
@@ -175,7 +177,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4567](https://github.com/microsoft/TypeScript-go/issues/4567) (Open)
+### [Issue microsoft/TypeScript-go#4567](https://github.com/microsoft/TypeScript-go/issues/4567) (Closed)
 
 **\`tsc\` incorrectly points to v6 rather than v7**
 
@@ -185,6 +187,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4919083741) **RyanCavanaugh** explained that npm picks bin winners based on lexical sort, provided a working alias configuration, and noted that the blog would be fixed
  * [later](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4926594165) **AndrewMax** reported that the suggested config still didn't work and asked @RyanCavanaugh for help
  * [later](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4926910710) **RyanCavanaugh** said "@AndrewMax which package manager, and which version, are you running?"
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4567#issuecomment-4927038067) **AndrewMax** specified package manager as Yarn Berry 4.17.1 and asked for advice on resolving the Yarn-related issue
 
 ### [PR microsoft/TypeScript-go#4568](https://github.com/microsoft/TypeScript-go/pull/4568) (Closed)
 
@@ -209,7 +212,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4570](https://github.com/microsoft/TypeScript-go/pull/4570) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#4570](https://github.com/microsoft/TypeScript-go/pull/4570) (Closed, **andrewbranch**, **Copilot**)
 
 **Resolving unchecked assertion in parseProjectReference**
 
