@@ -1,58 +1,64 @@
-# Report for 2026-07-11 (Friday, July 10th, 2026)
+# Report for 2026-07-11 (Saturday, July 11th, 2026)
 
-2 different users commented on 5 different issues.
+3 different users commented on 5 different issues.
+
+## Recommended Actions
+
+ * Response Recommended
+    * @Mahnoor-Zaffar requested assignment to the issue in [microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616#issuecomment-4951667613)
+    * @Mahnoor-Zaffar asked to assign the issue to them in [microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628#issuecomment-4951665353)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#63094](https://github.com/microsoft/TypeScript/issues/63094) (Closed, `Bug`, `Help Wanted`, `Domain: Decorators`)
+### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`, `Domain: This-Typing`)
 
-**Crash: Debug Failure\. False expression in getArgumentArityError when resolving overloaded decorators with \-\-experimentalDecorators**
+**Inconsistent \`typeof this\` when the \`this\` parameter declared in the signature of a function parameter**
 
-*TypeScript crashes with a 'Debug Failure. False expression' error in getArgumentArityError when resolving overloaded decorators under --experimentalDecorators.*
+*Declaring a this parameter for callback functions leads to inconsistent inferred types for typeof this depending on whether this is used in the function body.*
 
- * (20 weeks ago) **RyanCavanaugh** added labels `Help Wanted`, `Domain: Decorators`, and set milestone to `Backlog`
- * [today](https://github.com/microsoft/TypeScript/issues/63094#issuecomment-4939620640) **Andarist** said "@RyanCavanaugh this no longer reproduces in ts-go, it can likely be closed"
- * (today) **RyanCavanaugh** closed the issue
+ * (5 days ago) **RyanCavanaugh** added labels `Bug`, `Domain: This-Typing`, and set milestone to `Backlog`
+ * [later](https://github.com/microsoft/TypeScript/issues/63616#issuecomment-4951667613) **Mahnoor-Zaffar** noted the inconsistency with `typeof this` in function signatures and requested to be assigned to the issue
 
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`, `Domain: Error Messages`)
 
-**\`NoInfer\` changes behavior for type matching on spread**
+**Incorrect diagnostic message in TS2814**
 
-*Applying NoInfer to spread types unexpectedly produces type errors whereas equivalent spreads without NoInfer succeed*
+*TS2814’s misleading error “Function with bodies can only merge with ambient classes” is shown when merging a body-less function declaration with a class.*
 
- * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, removed label `Not a Defect`, and assigned to **ahejlsberg**
- * [today](https://github.com/microsoft/TypeScript/issues/63627#issuecomment-4939682173) **Andarist** said "This strongly overlaps with https://github.com/microsoft/TypeScript/issues/59668"
+ * (4 days ago) **RyanCavanaugh** added labels `Bug`, `Domain: Error Messages`, and set milestone to `Backlog`
+ * [later](https://github.com/microsoft/TypeScript/issues/63628#issuecomment-4951665353) **Mahnoor-Zaffar** noticed that the diagnostic message for function declarations was misleading when there was no body, planned to update checker.ts and diagnosticMessages.json accordingly, and asked to have the issue assigned to them
 
-### [PR microsoft/TypeScript#63629](https://github.com/microsoft/TypeScript/pull/63629) (Closed, `For Milestone Bug`, `Voight-Kampff Anomaly`, **gabritto**)
+### [Issue microsoft/TypeScript#63632](https://github.com/microsoft/TypeScript/issues/63632) (Open, `Suggestion`, `Awaiting More Feedback`)
 
-**fix\(formatting\): recover from token spans outside property children**
+**Feature request: machine\-readable \(JSONL\) diagnostics output**
 
-*Recover from tokens overrunning node boundaries by fixing the formatting recursion guard in processChildNode and adding a regression test.*
+*Add a JSONL output flag to the TypeScript compiler to provide machine-readable diagnostics in watch and noEmit modes.*
 
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
- * (3 days ago) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **gabritto**
- * [today](https://github.com/microsoft/TypeScript/pull/63629#issuecomment-4939027264) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
- * (today) **RyanCavanaugh** closed the issue
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/63632#issuecomment-4906907350) **Alex-Bond** agreed to target the change for version 7.1 to avoid additional cleanup, acknowledged overengineering by considering SARIF, JSONL, and template outputs, and explained the adapter motivation
+ * (4 days ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
+ * [today](https://github.com/microsoft/TypeScript/issues/63632#issuecomment-4948211325) **MartinJohns** said "Related: #31566"
 
-### [PR microsoft/TypeScript#63638](https://github.com/microsoft/TypeScript/pull/63638) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [Issue microsoft/TypeScript#63637](https://github.com/microsoft/TypeScript/issues/63637) (Closed, `Question`)
 
-**Fix inconsistent \`typeof this\` when \`this\` parameter comes from a contextual signature \(\#63616\)**
+**v7 missing GitHub releases**
 
-*TypeScript incorrectly resolves typeof this as the enclosing type instead of the contextual this in type queries.*
+*TypeScript v7.0.2 is missing from the main repository's GitHub releases page and appears only under typescript-go.*
 
- * **typescript-automation[bot]** added label `For Backlog Bug`
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63638#issuecomment-4924177988) **AmariahAK** said "@microsoft-github-policy-service agree"
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
- * [today](https://github.com/microsoft/TypeScript/pull/63638#issuecomment-4937571940) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
- * (today) **RyanCavanaugh** closed the issue
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63637#issuecomment-4923638845) **jakebailey** said "Bugs are fine to file here and that's the main place the project lives; is this causing a problem for you in some way?"
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63637#issuecomment-4923690763) **hyunbinseo** mentioned confusion about how to follow up with the v7 release and updated the issue body with a tl;dr section
+ * **RyanCavanaugh** added label `Question`
+ * [today](https://github.com/microsoft/TypeScript/issues/63637#issuecomment-4949496717) **typescript-automation[bot]** said "This issue has been marked as "Question" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
+ * (today) **typescript-automation[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63642](https://github.com/microsoft/TypeScript/issues/63642) (Open, `Bug`, `Domain: check: Control Flow`)
+### [Issue microsoft/TypeScript#63639](https://github.com/microsoft/TypeScript/issues/63639) (Closed, `Duplicate`)
 
-**TS2871 'always nullish' false positive on binding destructured from \.map over spread\-of\-union \(regression 5\.9\.3 → 6\.0\.3; also in 7\.0\.2\)**
+**Consistent Typechecking Mode**
 
-*TypeScript 6.0.3 and 7.0.2 incorrectly report a map-destructured ternary over a spread union as always nullish.*
+*Add a TypeScript compiler option enabling consistent typechecking by treating missing object keys as never or unknown.*
 
- * created by **nejim123**
- * [today](https://github.com/microsoft/TypeScript/issues/63642#issuecomment-4937170024) **RyanCavanaugh** provided a smaller repro with a concise TypeScript snippet
- * (today) **RyanCavanaugh** added labels `Bug`, `Domain: check: Control Flow`
+ * created by **p-98**
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/63639#issuecomment-4925849782) **MartinJohns** said "Essentially you want #12936."
+ * **RyanCavanaugh** added label `Duplicate`
+ * [today](https://github.com/microsoft/TypeScript/issues/63639#issuecomment-4949496635) **typescript-automation[bot]** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
+ * (today) **typescript-automation[bot]** closed the issue
 
