@@ -1,74 +1,45 @@
-# Report for 2026-07-06 (Monday, July 6th, 2026)
+# Report for 2026-07-06 (Sunday, July 5th, 2026)
 
-17 different users commented on 39 different issues.
+8 different users commented on 16 different issues.
 
 ## Recommended Actions
 
- * Moderation
-    * @subweave-bot posted spam content in [microsoft/TypeScript#63343](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4903271233)
  * Response Recommended
-    * @anderson-pete noted that the fix would break a lot of existing code in [microsoft/TypeScript#17002](https://github.com/microsoft/TypeScript/issues/17002#issuecomment-4896931936)
-    * @tvogel asked for alternative ways to achieve the typing constraint without duplicating the type in [microsoft/TypeScript#47920](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4901884856)
-    * @snarbles2 provided syntax correction advice in [microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628#issuecomment-4903849625)
+    * @guest271314 provided correction about nullability in the specification in [microsoft/TypeScript#62224](https://github.com/microsoft/TypeScript/issues/62224#issuecomment-4892501637)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#17002](https://github.com/microsoft/TypeScript/issues/17002) (Open, `Suggestion`, `In Discussion`, `Domain: lib.d.ts`, `Fix Available`)
+### [Issue microsoft/TypeScript#62224](https://github.com/microsoft/TypeScript/issues/62224) (Open, `Suggestion`, `Awaiting More Feedback`)
 
-**Array\.isArray type narrows to any\[\] for ReadonlyArray\<T\>**
+**\`controller\.byobRequest\` type incorrectly says value is possibly null while \`autoAllocateChunkSize\` is present\.**
 
-*Array.isArray fails to correctly narrow a union including ReadonlyArray<T>, resulting in an any[] type instead of ReadonlyArray<T>.*
+*TypeScript mistakenly treats controller.byobRequest as possibly null when autoAllocateChunkSize is specified on a ReadableStream.*
 
- * [15 weeks ago](https://github.com/microsoft/TypeScript/issues/17002#issuecomment-4076378007) **slztfn** said "I believe @cahnory solution is the best one so far and it should be in the standard library"
- * [15 weeks ago](https://github.com/microsoft/TypeScript/issues/17002#issuecomment-4080971605) **cahnory** described augmenting ArrayConstructor.isArray to use a readonly unknown[] type guard, compared approaches, noted a minor type-narrowing difference, and expressed a preference for a dedicated helper over standard-library augmentation
- * [yesterday](https://github.com/microsoft/TypeScript/issues/17002#issuecomment-4885934843) **daishuge** submitted a minimal fix in PR #63609 that added an overload in es5.d.ts to preserve readonly input types without affecting unknown narrowing
- * [today](https://github.com/microsoft/TypeScript/issues/17002#issuecomment-4896931936) **anderson-pete** noted that the proposed fix would break a lot of existing code
+ * (45 weeks ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
+ * [45 weeks ago](https://github.com/microsoft/TypeScript/issues/62224#issuecomment-3213000720) **BlackAsLight** said "It would just be a nice typing to have and I don't really see any reason somebody wouldn't want to use the property when making a byob stream."
+ * [later](https://github.com/microsoft/TypeScript/issues/62224#issuecomment-4892501637) **guest271314** noted that the property could still be null even with autoAllocateChunkSize set
 
-### [Issue microsoft/TypeScript#47920](https://github.com/microsoft/TypeScript/issues/47920) (Closed, `Suggestion`, `Fixed`, `Fix Available`)
+### [PR microsoft/TypeScript#63596](https://github.com/microsoft/TypeScript/pull/63596) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
-**"satisfies" operator to ensure an expression matches some type \(feedback reset\)**
+**Bump actions/cache from 5\.0\.5 to 6\.1\.0 in the github\-actions group**
 
-*Collecting feedback and refining scenarios for adding a TypeScript ‘satisfies’ operator that enforces type compatibility.*
+*Upgrade actions/cache in the GitHub Actions group from v5.0.5 to v6.1.0 to add read-only cache access support.*
 
- * [3.2 years ago](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-1513473903) **RyanCavanaugh** linked to the TypeScript 4.9 announcement showing the 'satisfies' feature is available
- * [3.2 years ago](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-1513479417) **BribeFromTheHive** expressed surprise that the fix existed and thanked the author for sharing because they couldn’t find any information elsewhere
- * [2 years ago](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-2198376324) **maksverver** indicated that the satisfies constraint works for function expressions but not declarations, and suggested adding syntax for function declarations
- * [later](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4901884856) **tvogel** described using satisfies to constrain nested object literal types and asked for alternative approaches without duplicating the type
- * [later](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4903238427) **Svish** recommended defining the object as Record<string, string | undefined> directly instead of using satisfies or as
- * [later](https://github.com/microsoft/TypeScript/issues/47920#issuecomment-4904748607) **c-harding** clarified that object literal syntax doesn't work for nested object parts and that the entire object must be defined that way
-
-### [PR microsoft/TypeScript#63343](https://github.com/microsoft/TypeScript/pull/63343) (Open)
-
-**Use trie for removeStringLiteralsMatchedByTemplateLiterals**
-
-*Optimize removeStringLiteralsMatchedByTemplateLiterals by building a prefix trie for efficient template literal matching*
-
- * [13 weeks ago](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4180238308) **jakebailey** said "Is this different than https://github.com/microsoft/TypeScript/pull/59759?"
- * [13 weeks ago](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4180269841) **eps1lon** said "Looks like the same at a glance. Yours is already doing some size estimation it seems. I haven't accounted for opting out of trie-based search for small types."
- * [12 weeks ago](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4234453594) **afurm** asked whether the trie needed to index non-prefix segments too
- * [later](https://github.com/microsoft/TypeScript/pull/63343#issuecomment-4903271233) **subweave-bot** praised the trie-based matching as smart and fast and included a Subweave map link
-
-### [PR microsoft/TypeScript#63593](https://github.com/microsoft/TypeScript/pull/63593) (Open, `For Uncommitted Bug`, `Voight-Kampff Anomaly`)
-
-**ci: pin GitHub Actions to full commit SHAs**
-
-*Pin GitHub Actions to specific commit SHAs to prevent supply-chain attacks while retaining version tags as comments.*
-
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/63593#issuecomment-4824701768) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/63593#issuecomment-4824701769) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (1 week ago) **dependabot[bot]** added labels `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
+ * [today](https://github.com/microsoft/TypeScript/pull/63596#issuecomment-4888254828) **dependabot[bot]** said "Looks like actions/cache is updatable in another way, so this is no longer needed."
+ * (today) **dependabot[bot]** closed the issue
 
-### [PR microsoft/TypeScript#63594](https://github.com/microsoft/TypeScript/pull/63594) (Open, `For Uncommitted Bug`, `Voight-Kampff Anomaly`)
+### [Issue microsoft/TypeScript#63597](https://github.com/microsoft/TypeScript/issues/63597) (Open, `Suggestion`, `Awaiting More Feedback`)
 
-**ci: pin GitHub Actions to full commit SHAs**
+**add an option to report an error when \`Symbol\.dispose\`/\`Symbol\.asyncDispose\` objects are used without the \`using\` keyword**
 
-*Pin GitHub Actions to specific commit SHAs to prevent supply-chain attacks while retaining version tags as comments.*
+*Add a TypeScript compiler option to error when objects with Symbol.dispose or Symbol.asyncDispose are used without the using keyword.*
 
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/63594#issuecomment-4824702512) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/63594#issuecomment-4824702514) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4832681103) **DetachHead** questioned whether objects with Symbol.dispose should require using and suggested documentation mention this behavior
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4833162597) **MartinJohns** explained that implementing Symbol.dispose indicates intent to provide explicit resource release and compared it to C#'s IDisposable, then asked how to prevent errors when not using a using statement intentionally
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/63597#issuecomment-4838772087) **Renegade334** referred to typescript-eslint/typescript-eslint#8255 to agree that it’s a linter job
+ * (later) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
 
 ### [Issue microsoft/TypeScript#63598](https://github.com/microsoft/TypeScript/issues/63598) (Open, `Bug`, `Domain: Formatter`, `Fix Available`, **gabritto**)
 
@@ -76,48 +47,113 @@
 
 *Formatting a property annotation using a malformed template literal triggers a 'Token end is child end' debug failure in TypeScript.*
 
- * (today) **RyanCavanaugh** set milestone to `Backlog`, and assigned to **gabritto**
+ * created by **DanielRosenwasser**
+ * [5 days ago](https://github.com/microsoft/TypeScript/issues/63598#issuecomment-4846219140) **DanielRosenwasser** shared a Copilot suggestion patch and said he would revisit it post 7.0
+ * (later) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **gabritto**
  * **typescript-automation[bot]** added label `Fix Available`
- * **RyanCavanaugh** added label `Domain: Formatter`
 
-### [Issue microsoft/TypeScript#63603](https://github.com/microsoft/TypeScript/issues/63603) (Open, `Bug`, `Domain: LS: Completion Lists`)
+### [Issue microsoft/TypeScript#63601](https://github.com/microsoft/TypeScript/issues/63601) (Closed, `Needs Investigation`, **jakebailey**)
 
-**Issue: TypeScript autocomplete for template literal types ignores user's Quote Style preference**
+**@typescript/typescript6 does not have all versions that regular v6 branch has**
 
-*Autocomplete suggestions for template literal type keys always use double quotes, ignoring the user's configured quote style preference.*
+*The @typescript/typescript6 npm package lags behind the regular typescript v6 branch, missing versions like 6.0.3.*
 
- * created by **Gabilabrebi**
- * (today) **RyanCavanaugh** added labels `Bug`, `Domain: LS: Completion Lists`, and set milestone to `Backlog`
+ * created by **ZuBB**
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **jakebailey**
+ * [later](https://github.com/microsoft/TypeScript/issues/63601#issuecomment-4894812442) **jakebailey** said "Why? The version you place there will have no impact on what version of TS your package manager selects to be reexported."
 
-### [Issue microsoft/TypeScript#63606](https://github.com/microsoft/TypeScript/issues/63606) (Open, `Bug`, `Domain: lib.d.ts`)
+### [Issue microsoft/TypeScript#63605](https://github.com/microsoft/TypeScript/issues/63605) (Closed)
 
-**Intl\.PluralRules constructor should not be callable without new**
+**Is developing interpreter on top of Node\.js good?**
 
-*The TypeScript lib.es2020.intl.d.ts incorrectly allows calling Intl.PluralRules without new, contrary to the ECMA-402 specification.*
+*Developing an interpreter on Node.js enables rapid prototyping and cross-platform deployment but sacrifices performance and memory efficiency versus native implementations.*
 
- * created by **ptomato**
- * (today) **RyanCavanaugh** added labels `Bug`, `Domain: lib.d.ts`, and set milestone to `Backlog`
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4869918188) **dominexmacedon-docs** denied being AI spam and suggested learning the Node.js-based language for its critical features
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4869947662) **MartinJohns** called the issue spam, said it was AI generated and unrelated to the repository
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4870009171) **dominexmacedon-docs** acknowledged the content was AI-generated spam, explained they used Copilot to generate markdown, and clarified that the language is real and built on Node.js
+ * (later) **RyanCavanaugh** closed the issue
+ * [later](https://github.com/microsoft/TypeScript/issues/63605#issuecomment-4894749621) **RyanCavanaugh** said "Issues are not for advertising your project."
 
-### [PR microsoft/TypeScript#63608](https://github.com/microsoft/TypeScript/pull/63608) (Open, `For Backlog Bug`)
+### [Issue microsoft/TypeScript#63607](https://github.com/microsoft/TypeScript/issues/63607) (Closed)
 
-**fix\(lib\): remove callable signature without new from Intl\.PluralRules…**
+**Why can't we build a VM on the top of Node\.js? Is it because of not being Native?**
 
-*Remove callable signature from Intl.PluralRules in type definitions to enforce constructor invocation with new.*
+*Building a VM on Node.js supports basic features but fails to handle advanced capabilities like object iteration and control flow, so most implementations use C.*
 
- * (2 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
- * [2 days ago](https://github.com/microsoft/TypeScript/pull/63608#issuecomment-4881716027) **SiddGud** said "@microsoft-github-policy-service agree"
- * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4872986822) **MartinJohns** said "This issue tracker is meant for bug reports and feature requests regarding TypeScript. It's not suited for your ChatGPT questions."
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4873016141) **dominexmacedon-docs** replied defensively accusing the commenter of jealousy
+ * [3 days ago](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4873037523) **dominexmacedon-docs** insulted the maintainer and asserted their right to post ChatGPT questions
+ * [later](https://github.com/microsoft/TypeScript/issues/63607#issuecomment-4894761556) **RyanCavanaugh** said "User was blocked for this."
+ * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#63609](https://github.com/microsoft/TypeScript/pull/63609) (Closed, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63610](https://github.com/microsoft/TypeScript/pull/63610) (Closed, `For Uncommitted Bug`)
 
-**fix\(lib\): preserve readonly narrowing in Array\.isArray type guard**
+**feat\(checker\): add Object\.hasOwn\(\) type narrowing**
 
-*Introduce a new overload for Array.isArray in es5.d.ts to correctly preserve readonly array types during type narrowing.*
+*Support type narrowing of object properties in Object.hasOwn() calls by leveraging existing in-operator logic.*
 
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885475302) **daishuge** said "@microsoft-github-policy-service agree"
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885496605) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #17002. If you can get it accepted, this PR will have a better chance of being reviewed."
- * [yesterday](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4885496673) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #17002. If you can get it accepted, this PR will have a better chance of being reviewed."
- * [today](https://github.com/microsoft/TypeScript/pull/63609#issuecomment-4896919593) **anderson-pete** explained that the first overload collapses to any, making it always chosen, and argued that stricter readonly typing, while correct, would break existing code
+ * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4885475416) **daishuge** said "@microsoft-github-policy-service agree"
+ * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4885496751) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #44253. If you can get it accepted, this PR will have a better chance of being reviewed."
+ * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4885496820) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #44253. If you can get it accepted, this PR will have a better chance of being reviewed."
+ * [today](https://github.com/microsoft/TypeScript/pull/63610#issuecomment-4887234053) **MartinJohns** said "@daishuge You should read this: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md"
+ * (later) **RyanCavanaugh** closed the issue
+
+### [PR microsoft/TypeScript#63611](https://github.com/microsoft/TypeScript/pull/63611) (Closed, `For Uncommitted Bug`)
+
+**Update codecov\.yml**
+
+*Update the codecov.yml configuration file to implement changes required by TZAHAL 1165.*
+
+ * created by **liu-idf18**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63611#issuecomment-4887064701) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [today](https://github.com/microsoft/TypeScript/pull/63611#issuecomment-4887064702) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#63612](https://github.com/microsoft/TypeScript/pull/63612) (Closed, `For Uncommitted Bug`)
+
+**gh pr checkout 63612 \- Atualização **
+
+*Use gh pr checkout 63612 to update the TZAHAL component to version 165.*
+
+ * created by **liu-idf18**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63612#issuecomment-4887096971) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#63613](https://github.com/microsoft/TypeScript/pull/63613) (Closed, `For Uncommitted Bug`)
+
+**gh pr checkout 63613 \- Revert "Fix infinite loop"**
+
+*Reverts the infinite loop fix introduced in Pull Request #63581 for the TypeScript repository.*
+
+ * created by **liu-idf18**
+ * [today](https://github.com/microsoft/TypeScript/pull/63613#issuecomment-4887174326) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [today](https://github.com/microsoft/TypeScript/pull/63613#issuecomment-4887174329) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * (today) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#63614](https://github.com/microsoft/TypeScript/pull/63614) (Closed, `For Uncommitted Bug`)
+
+**gh pr checkout 63614 \- Atualização **
+
+*Use GitHub CLI to check out and update pull request 63614 for the TZAHAL/FOIA repository.*
+
+ * created by **liu-idf18**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/63614#issuecomment-4887529635) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [today](https://github.com/microsoft/TypeScript/pull/63614#issuecomment-4887529656) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **liu-idf18** closed the issue
+
+### [PR microsoft/TypeScript#63615](https://github.com/microsoft/TypeScript/pull/63615) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+
+**Bump the github\-actions group across 1 directory with 5 updates**
+
+*Updates actions/cache from 5.0.5 to 6.1.0 and all CodeQL GitHub Action steps from 4.36.2 to 4.36.3 in the root directory.*
+
+ * created by **dependabot[bot]**
+ * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
 ### [Issue microsoft/TypeScript#63616](https://github.com/microsoft/TypeScript/issues/63616) (Open, `Bug`, `Domain: This-Typing`)
 
@@ -126,147 +162,27 @@
 *Declaring a this parameter for callback functions leads to inconsistent inferred types for typeof this depending on whether this is used in the function body.*
 
  * created by **mpal9000**
- * (today) **RyanCavanaugh** added labels `Bug`, `Domain: This-Typing`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63619](https://github.com/microsoft/TypeScript/issues/63619) (Open, `Fixed`)
+### [PR microsoft/TypeScript#63617](https://github.com/microsoft/TypeScript/pull/63617) (Closed, `For Uncommitted Bug`)
 
-**\`get self\(\): this\` in an interface crashes the checker \(6\.0 regression\)**
+**Revert "Fix infinite loop"**
 
-*Interface accessor declarations using a ‘this’ return type crash the TypeScript 6.0 checker, regressing from 5.9.*
-
- * created by **tonyboho**
- * [today](https://github.com/microsoft/TypeScript/issues/63619#issuecomment-4897160218) **RyanCavanaugh** marked the issue as fixed in 7.0 and suggested 'readonly self: this' as a 6.0 workaround
- * **RyanCavanaugh** added label `Fixed`
-
-### [PR microsoft/TypeScript#63620](https://github.com/microsoft/TypeScript/pull/63620) (Closed, `For Uncommitted Bug`)
-
-**Update and rename protocol\.ts to protocol\_print\.ts**
-
-*Rename the protocol.ts file to protocol_print.ts and apply necessary updates according to TZAHAL 1165.*
+*Revert the infinite loop fix introduced in microsoft/TypeScript#63581.*
 
  * created by **liu-idf18**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63620#issuecomment-4895906378) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63620#issuecomment-4895906397) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * (today) **jakebailey** closed the issue
-
-### [PR microsoft/TypeScript#63621](https://github.com/microsoft/TypeScript/pull/63621) (Closed, `For Uncommitted Bug`)
-
-**Atualização **
-
-*Requesting status updates for cases TZAHAL 19715 and FOIA 151465.*
-
- * created by **liu-idf18**
- * [today](https://github.com/microsoft/TypeScript/pull/63621#issuecomment-4896025442) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63621#issuecomment-4896025454) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * (today) **jakebailey** closed the issue
-
-### [PR microsoft/TypeScript#63622](https://github.com/microsoft/TypeScript/pull/63622) (Closed, `For Uncommitted Bug`)
-
-**Update copilot\-setup\-steps\.yml**
-
-*Align copilot-setup-steps.yml with TZAHAL-165 requirements*
-
- * created by **liu-idf18**
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63622#issuecomment-4896177680) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63622#issuecomment-4896177684) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * (today) **jakebailey** closed the issue
-
-### [PR microsoft/TypeScript#63623](https://github.com/microsoft/TypeScript/pull/63623) (Closed, `For Uncommitted Bug`)
-
-**Update codeql\-configuration\.yml**
-
-*Update codeql-configuration.yml to incorporate changes required by TZAHAL-165 and FOIA-151874.*
-
- * created by **liu-idf18**
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63623#issuecomment-4896233862) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63623#issuecomment-4896233874) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * (today) **jakebailey** closed the issue
-
-### [PR microsoft/TypeScript#63624](https://github.com/microsoft/TypeScript/pull/63624) (Closed, `For Uncommitted Bug`)
-
-**gh pr checkout 63624 \- Atualização **
-
-*Update pull request 63624 to incorporate the TZAHAL 165 changes.*
-
- * created by **liu-idf18**
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63624#issuecomment-4896288678) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [today](https://github.com/microsoft/TypeScript/pull/63624#issuecomment-4896335223) **MartinJohns** said "What's with the sudden increase of pull request spam?"
- * (today) **jakebailey** closed the issue
-
-### [PR microsoft/TypeScript#63625](https://github.com/microsoft/TypeScript/pull/63625) (Closed, `For Uncommitted Bug`)
-
-**Atualização **
-
-*Requesting an update on TZAHAL.*
-
- * created by **liu-idf18**
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/63625#issuecomment-4896388386) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * (today) **jakebailey** closed the issue
-
-### [Issue microsoft/TypeScript#63626](https://github.com/microsoft/TypeScript/issues/63626) (Open, `Fixed`)
-
-**Support HTMLElement\.focus\(\) Option FocusVisible**
-
-*Add FocusVisible to FocusOptions in TypeScript's HTMLElement.focus() definitions to match modern browser support.*
-
- * created by **larnett**
- * [today](https://github.com/microsoft/TypeScript/issues/63626#issuecomment-4897299647) **MartinJohns** mentioned that focusVisible is already supported and suggested adding the type definition via declaration merging
- * **RyanCavanaugh** added label `Fixed`
-
-### [Issue microsoft/TypeScript#63627](https://github.com/microsoft/TypeScript/issues/63627) (Open, `Needs Investigation`, **ahejlsberg**)
-
-**\`NoInfer\` changes behavior for type matching on spread**
-
-*Applying NoInfer to spread types unexpectedly produces type errors whereas equivalent spreads without NoInfer succeed*
-
- * created by **upsuper**
-
-### [Issue microsoft/TypeScript#63628](https://github.com/microsoft/TypeScript/issues/63628) (Open, `Bug`, `Domain: Error Messages`)
-
-**Incorrect diagnostic message in TS2814**
-
-*TS2814’s misleading error “Function with bodies can only merge with ambient classes” is shown when merging a body-less function declaration with a class.*
-
- * created by **bvanjoi**
- * [later](https://github.com/microsoft/TypeScript/issues/63628#issuecomment-4903849625) **snarbles2** clarified that `function Foo();` is invalid syntax, noted the need for the `declare` keyword and a return type under `noImplicitAny`, and mentioned that this fix did not address other errors
-
-### [PR microsoft/TypeScript#63629](https://github.com/microsoft/TypeScript/pull/63629) (Open, `For Milestone Bug`, `Voight-Kampff Anomaly`, **gabritto**)
-
-**fix\(formatting\): recover from token spans outside property children**
-
-*Recover from tokens overrunning node boundaries by fixing the formatting recursion guard in processChildNode and adding a regression test.*
-
- * created by **ahfoysal**
- * [later](https://github.com/microsoft/TypeScript/pull/63629#issuecomment-4901819030) **ahfoysal** said "@microsoft-github-policy-service agree"
- * [later](https://github.com/microsoft/TypeScript/pull/63629#issuecomment-4903493769) **MartinJohns** said "@ahfoysal You should read this: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md"
- * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
- * (later) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **gabritto**
-
-### [PR microsoft/TypeScript#63630](https://github.com/microsoft/TypeScript/pull/63630) (Closed, `For Uncommitted Bug`)
-
-**Create frontend change**
-
-*Implement frontend changes according to contribution guidelines, keeping code up-to-date, passing all tests, and adding new unit tests.*
-
- * created by **AFJAL23**
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/63630#issuecomment-4904905880) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [later](https://github.com/microsoft/TypeScript/pull/63630#issuecomment-4904905941) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [today](https://github.com/microsoft/TypeScript/pull/63617#issuecomment-4889181542) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#63631](https://github.com/microsoft/TypeScript/pull/63631) (Closed, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63618](https://github.com/microsoft/TypeScript/pull/63618) (Closed, `For Uncommitted Bug`)
 
-**fix\(2814\): correct misleading error message for functions without bodies**
+**gh pr checkout 63618 \- **
 
-*Remove 'with bodies' qualifier from TS2814 error to clarify merge restrictions apply to any function declaration.*
+*Support checking out pull request 63618 (TZAHAL 1165) via the gh pr checkout command.*
 
- * created by **Nabeel-akk**
+ * created by **liu-idf18**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/63618#issuecomment-4893510792) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [later](https://github.com/microsoft/TypeScript/pull/63618#issuecomment-4893510900) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (later) **liu-idf18** closed the issue
 
