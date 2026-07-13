@@ -1,6 +1,6 @@
 # Report for 2026-07-12 (Sunday, July 12th, 2026)
 
-10 different users commented on 13 different issues.
+11 different users commented on 14 different issues.
 
 ## Recommended Actions
 
@@ -30,6 +30,7 @@
  * (6 days ago) **andrewbranch** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4503#issuecomment-4956401973) **mrazauskas** described using vfs, a virtual tsconfig file, and openProjects to meet their project needs and closed the issue
  * (later) **mrazauskas** closed the issue
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4503#issuecomment-4959823560) **andrewbranch** said "FYI, I think I'll also eventually add a top-level createProgram(rootFiles, compilerOptions) API, separate from the snapshot system but with no ability to incrementally update that program."
 
 ### [Issue microsoft/TypeScript-go#4519](https://github.com/microsoft/TypeScript-go/issues/4519) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
 
