@@ -128,7 +128,7 @@
 
 **Improve responsiveness of \`tsc build\` to interruption**
 
-*Improve tsc and tsc build interruption responsiveness by threading cancellation context for prompt aborts and correct exit codes.*
+*Enhance tsc build responsiveness to SIGINT and SIGTERM by threading cancellation contexts through compilation, exiting with proper codes, and adding tests.*
 
  * created by **lukesandberg**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4592#issuecomment-4939791695) **lukesandberg** said "@microsoft-github-policy-service agree [company="Vercel"]"

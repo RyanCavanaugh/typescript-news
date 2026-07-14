@@ -29,7 +29,7 @@
  * [2.2 years ago](https://github.com/microsoft/TypeScript/issues/55908#issuecomment-2045729363) **Yona-Appletree** suggested enabling type inference for destructured function arguments in defineAction
  * [later](https://github.com/microsoft/TypeScript/issues/55908#issuecomment-4956529812) **denis-migdal** suggested using Partial<Person> in the satisfies clause and Partial<Context> in the defineAction signature
 
-### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Open)
+### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Open, `Duplicate`)
 
 **Reusable callbacks: When destructuring, missing properties should be excluded from the infered type\.**
 

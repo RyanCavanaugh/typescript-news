@@ -56,7 +56,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63638#issuecomment-4924177988) **AmariahAK** said "@microsoft-github-policy-service agree"
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
-### [Issue microsoft/TypeScript#63640](https://github.com/microsoft/TypeScript/issues/63640) (Open)
+### [Issue microsoft/TypeScript#63640](https://github.com/microsoft/TypeScript/issues/63640) (Open, `Bug`, `Help Wanted`, `Domain: LS: Quick Info`)
 
 **JSDoc for properties of intersected types is no longer merged**
 
