@@ -61,7 +61,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0`
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4274](https://github.com/microsoft/TypeScript-go/pull/4274) (Closed, **ahejlsberg**)
+### [PR microsoft/TypeScript-go#4274](https://github.com/microsoft/TypeScript-go/pull/4274) (Open, **ahejlsberg**)
 
 **Fix CFA stack overflow crash in for loops where initializer throws**
 

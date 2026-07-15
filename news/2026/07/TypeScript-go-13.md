@@ -176,7 +176,7 @@
 
  * created by **justinsmid**
 
-### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Open)
+### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Open, `Working As Intended`)
 
 **Error TS2590 after migration to Typescript 7\.**
 

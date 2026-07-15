@@ -57,7 +57,7 @@
 
  * created by **denis-migdal**
 
-### [Issue microsoft/TypeScript#63645](https://github.com/microsoft/TypeScript/issues/63645) (Open)
+### [Issue microsoft/TypeScript#63645](https://github.com/microsoft/TypeScript/issues/63645) (Closed, `Duplicate`)
 
 **Narrowing union types requires at least 2 members**
 
