@@ -1,6 +1,6 @@
 # Report for 2026-07-14 (Tuesday, July 14th, 2026)
 
-5 different users commented on 7 different issues.
+5 different users commented on 12 different issues.
 
 ## Recommended Actions
 
@@ -45,7 +45,7 @@
  * **RyanCavanaugh** added label `Duplicate`
  * (later) **500-internal-server-error** closed the issue
 
-### [Issue microsoft/TypeScript#63646](https://github.com/microsoft/TypeScript/issues/63646) (Open)
+### [Issue microsoft/TypeScript#63646](https://github.com/microsoft/TypeScript/issues/63646) (Open, `Needs Investigation`, **johnfav03**)
 
 **tsc \-\-watch does not work in docker**
 

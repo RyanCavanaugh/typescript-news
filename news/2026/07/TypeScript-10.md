@@ -1,6 +1,11 @@
 # Report for 2026-07-10 (Friday, July 10th, 2026)
 
-2 different users commented on 5 different issues.
+3 different users commented on 6 different issues.
+
+## Recommended Actions
+
+ * Response Recommended
+    * @ayosec asked if the issue should be moved to the microsoft/TypeScript repository in [microsoft/TypeScript#63648](https://github.com/microsoft/TypeScript/issues/63648#issuecomment-4985206740)
 
 ## Activity Summary
 
@@ -55,4 +60,14 @@
  * created by **nejim123**
  * [today](https://github.com/microsoft/TypeScript/issues/63642#issuecomment-4937170024) **RyanCavanaugh** provided a smaller repro with a concise TypeScript snippet
  * (today) **RyanCavanaugh** added labels `Bug`, `Domain: check: Control Flow`
+
+### [Issue microsoft/TypeScript#63648](https://github.com/microsoft/TypeScript/issues/63648) (Open)
+
+**Some colors make error messages hard to read on white backgrounds\.**
+
+*Diagnosticwriter’s forced bright ANSI color codes make error messages illegible on white backgrounds and should use default colors instead.*
+
+ * created by **ayosec**
+ * [today](https://github.com/microsoft/TypeScript/issues/63648#issuecomment-4985206698) **jakebailey** questioned whether the issue was new in v7 and linked to existing code
+ * [today](https://github.com/microsoft/TypeScript/issues/63648#issuecomment-4985206740) **ayosec** noted that the issue also existed in the original compiler and asked if it should be moved to the microsoft/TypeScript repository
 

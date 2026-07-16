@@ -1,6 +1,6 @@
 # Report for 2026-07-13 (Monday, July 13th, 2026)
 
-18 different users commented on 22 different issues.
+18 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/issues/4579#issuecomment-4949748665) **XiNiHa** said "Do you mean the behavior is expected/intended? Should it be fixed from the library side?"
  * [later](https://github.com/microsoft/TypeScript-go/issues/4579#issuecomment-4970222219) **ahejlsberg** said "@XiNiHa Yes, the behavior is expected. TS6 would similarly slow down if the changes in #3445 were applied to that codebase. The core problem is the complexity and expense of the types."
 
-### [Issue microsoft/TypeScript-go#4619](https://github.com/microsoft/TypeScript-go/issues/4619) (Open)
+### [Issue microsoft/TypeScript-go#4619](https://github.com/microsoft/TypeScript-go/issues/4619) (Open, `possible improvement`, **andrewbranch**)
 
 **Improve API performance when using virtual file system**
 
@@ -84,7 +84,7 @@
 
  * created by **dragomirtitian**
 
-### [Issue microsoft/TypeScript-go#4620](https://github.com/microsoft/TypeScript-go/issues/4620) (Open)
+### [Issue microsoft/TypeScript-go#4620](https://github.com/microsoft/TypeScript-go/issues/4620) (Open, `Needs Investigation`, **jakebailey**)
 
 **tsc is not resposive to \`ctrl\-c\`**
 
@@ -101,7 +101,7 @@
  * created by **joaquinjulca26**
  * (today) **joaquinjulca26** closed the issue
 
-### [Issue microsoft/TypeScript-go#4622](https://github.com/microsoft/TypeScript-go/issues/4622) (Open)
+### [Issue microsoft/TypeScript-go#4622](https://github.com/microsoft/TypeScript-go/issues/4622) (Closed, `Non-regression`)
 
 **High memory usage for packages such as \`@microsoft/teams\.graph\-endpoints\`**
 
@@ -159,7 +159,7 @@
 
  * created by **UditDewan**
 
-### [Issue microsoft/TypeScript-go#4629](https://github.com/microsoft/TypeScript-go/issues/4629) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4629](https://github.com/microsoft/TypeScript-go/issues/4629) (Closed, `Crash`, **weswigham**)
 
 **panic: Unknown parent for parameter: KindArrowFunction**
 
@@ -168,7 +168,7 @@
  * created by **tido64**
  * **tido64** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Open)
+### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Open, `Needs More Info`)
 
 **"Type instantiation is excessively deep and possibly infinite" error with tsgo in v7**
 
@@ -176,7 +176,7 @@
 
  * created by **justinsmid**
 
-### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Open, `Working As Intended`)
+### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Closed, `Working As Intended`)
 
 **Error TS2590 after migration to Typescript 7\.**
 
@@ -184,7 +184,7 @@
 
  * created by **aleks-elkin**
 
-### [Issue microsoft/TypeScript-go#4632](https://github.com/microsoft/TypeScript-go/issues/4632) (Open)
+### [Issue microsoft/TypeScript-go#4632](https://github.com/microsoft/TypeScript-go/issues/4632) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **experimentalDecorators: a class name used as an object literal key is renamed to the self\-reference alias**
 
@@ -192,7 +192,7 @@
 
  * created by **omairvaiyani**
 
-### [Issue microsoft/TypeScript-go#4633](https://github.com/microsoft/TypeScript-go/issues/4633) (Open)
+### [Issue microsoft/TypeScript-go#4633](https://github.com/microsoft/TypeScript-go/issues/4633) (Open, `Needs Investigation`, **jakebailey**)
 
 **Publish an official wasip1 \(WASI\) build artifact of tsgo**
 

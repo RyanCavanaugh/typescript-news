@@ -116,7 +116,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4570#issuecomment-4930225699) **andrewbranch** said "Never mind, this brings parity with Strada but #4494 actually improves on Strada"
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4577](https://github.com/microsoft/TypeScript-go/pull/4577) (Open)
+### [PR microsoft/TypeScript-go#4577](https://github.com/microsoft/TypeScript-go/pull/4577) (Open, **iisaduan**)
 
 **Fix stack overflow in inherited JSDoc resolution**
 
@@ -185,7 +185,7 @@
 
  * created by **ibesuperv**
 
-### [Issue microsoft/TypeScript-go#4585](https://github.com/microsoft/TypeScript-go/issues/4585) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4585](https://github.com/microsoft/TypeScript-go/issues/4585) (Open, `Domain: Editor`, `Needs Investigation`, **andrewbranch**)
 
 **Local auto\-imports disappear when a Yarn workspace dependency resolves a subpath back to the current project**
 

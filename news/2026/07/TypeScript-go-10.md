@@ -1,6 +1,6 @@
 # Report for 2026-07-10 (Friday, July 10th, 2026)
 
-15 different users commented on 26 different issues.
+15 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -134,7 +134,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4592#issuecomment-4939791695) **lukesandberg** said "@microsoft-github-policy-service agree [company="Vercel"]"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4592#issuecomment-4939873881) **lukesandberg** agreed that the company was Vercel
 
-### [Issue microsoft/TypeScript-go#4593](https://github.com/microsoft/TypeScript-go/issues/4593) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4593](https://github.com/microsoft/TypeScript-go/issues/4593) (Closed, `Domain: Editor`)
 
 **File change events always trigger project recheck even if file content hasn't actually changed**
 
@@ -143,7 +143,7 @@
  * created by **mjbvz**
  * **mjbvz** added label `Domain: Editor`
 
-### [PR microsoft/TypeScript-go#4594](https://github.com/microsoft/TypeScript-go/pull/4594) (Open)
+### [PR microsoft/TypeScript-go#4594](https://github.com/microsoft/TypeScript-go/pull/4594) (Closed)
 
 **Fix "Token end is child end" crash when range formatting is inside a JSDoc comment**
 
@@ -151,7 +151,7 @@
 
  * created by **johnfav03**
 
-### [Issue microsoft/TypeScript-go#4595](https://github.com/microsoft/TypeScript-go/issues/4595) (Open, `Domain: Editor`, **johnfav03**)
+### [Issue microsoft/TypeScript-go#4595](https://github.com/microsoft/TypeScript-go/issues/4595) (Closed, `Domain: Editor`, **johnfav03**)
 
 **File watch events can cause a check/cancel/re\-check storm**
 
@@ -203,7 +203,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#4601](https://github.com/microsoft/TypeScript-go/issues/4601) (Open)
+### [Issue microsoft/TypeScript-go#4601](https://github.com/microsoft/TypeScript-go/issues/4601) (Open, `bug`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

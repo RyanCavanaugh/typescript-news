@@ -1,6 +1,6 @@
 # Report for 2026-07-11 (Saturday, July 11th, 2026)
 
-8 different users commented on 9 different issues.
+8 different users commented on 11 different issues.
 
 ## Recommended Actions
 
@@ -9,7 +9,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#4572](https://github.com/microsoft/TypeScript-go/issues/4572) (Open)
+### [Issue microsoft/TypeScript-go#4572](https://github.com/microsoft/TypeScript-go/issues/4572) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Overloaded assertion in inferred\-return function expression loses destructured discriminant narrowing**
 
@@ -36,7 +36,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript-go#4606](https://github.com/microsoft/TypeScript-go/pull/4606) (Open)
+### [PR microsoft/TypeScript-go#4606](https://github.com/microsoft/TypeScript-go/pull/4606) (Open, **ahejlsberg**)
 
 **Keep dependent destructuring narrowing during re\-entrant checks**
 
@@ -44,7 +44,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, `Needs More Info`)
 
 **TypeScript 7\.0 Can't compile \`webpack\`**
 
@@ -53,7 +53,7 @@
  * created by **avivkeller**
  * **avivkeller** added label `Crash`
 
-### [Issue microsoft/TypeScript-go#4608](https://github.com/microsoft/TypeScript-go/issues/4608) (Open)
+### [Issue microsoft/TypeScript-go#4608](https://github.com/microsoft/TypeScript-go/issues/4608) (Open, `Needs More Info`)
 
 **Identical resolved program produces 157 vs 662,155 diagnostics depending on whether the tsconfig is passed directly or through a pass\-through extends**
 
@@ -61,7 +61,7 @@
 
  * created by **michaeldanish**
 
-### [Issue microsoft/TypeScript-go#4609](https://github.com/microsoft/TypeScript-go/issues/4609) (Open)
+### [Issue microsoft/TypeScript-go#4609](https://github.com/microsoft/TypeScript-go/issues/4609) (Open, `bug`)
 
 **Extensionless root file panics the compiler: "ScriptKind must be specified when parsing source file"**
 

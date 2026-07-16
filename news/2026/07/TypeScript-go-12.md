@@ -1,6 +1,6 @@
 # Report for 2026-07-12 (Sunday, July 12th, 2026)
 
-11 different users commented on 14 different issues.
+11 different users commented on 16 different issues.
 
 ## Recommended Actions
 
@@ -63,7 +63,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4611#issuecomment-4951714474) **MasterTLF** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4611#issuecomment-4951931688) **MasterTLF** said "fix without second review and approval"
 
-### [Issue microsoft/TypeScript-go#4612](https://github.com/microsoft/TypeScript-go/issues/4612) (Open, `duplicate`)
+### [Issue microsoft/TypeScript-go#4612](https://github.com/microsoft/TypeScript-go/issues/4612) (Closed, `duplicate`)
 
 **Checker memory explosion from repeated cross\-product distribution \(repro: @types/three TSL\)**
 
@@ -73,7 +73,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4612#issuecomment-4959089348) **ahejlsberg** said "This appears to be a duplicate of #4528. The fix I suggest there also fixes this issue."
  * **ahejlsberg** added label `duplicate`
 
-### [Issue microsoft/TypeScript-go#4613](https://github.com/microsoft/TypeScript-go/issues/4613) (Open)
+### [Issue microsoft/TypeScript-go#4613](https://github.com/microsoft/TypeScript-go/issues/4613) (Open, `bug`, **ahejlsberg**)
 
 **Exhaustive switch on co\-narrowed tuple's \`\.length\` does not terminate fallthrough control flow \(works in TS 6\.0\)**
 
@@ -81,7 +81,7 @@
 
  * created by **sergey-shandar**
 
-### [Issue microsoft/TypeScript-go#4614](https://github.com/microsoft/TypeScript-go/issues/4614) (Open)
+### [Issue microsoft/TypeScript-go#4614](https://github.com/microsoft/TypeScript-go/issues/4614) (Open, `Needs Investigation`, **johnfav03**)
 
 **\`tsc \-b \-\-watch\` takes tens of seconds to start watching on a large project\-references solution \(\`computeDesiredWatches\` is O\(files × dirs\)\)**
 
@@ -98,7 +98,7 @@
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#4616](https://github.com/microsoft/TypeScript-go/issues/4616) (Open)
+### [Issue microsoft/TypeScript-go#4616](https://github.com/microsoft/TypeScript-go/issues/4616) (Open, `bug`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Behavior difference: declaration emit synthesizes extensionless \`import\(\)\` specifier under \`allowImportingTsExtensions\`, invalid in nodenext**
 
@@ -106,7 +106,7 @@
 
  * created by **dario-causaly**
 
-### [Issue microsoft/TypeScript-go#4617](https://github.com/microsoft/TypeScript-go/issues/4617) (Open)
+### [Issue microsoft/TypeScript-go#4617](https://github.com/microsoft/TypeScript-go/issues/4617) (Open, `Needs Investigation`, **weswigham**)
 
 **Behavior difference: TS4023 on declaration emit when a spread of a symbol\-branded object is unioned with the original \(pattern used by zod \`\.brand\(\)\`\)**
 

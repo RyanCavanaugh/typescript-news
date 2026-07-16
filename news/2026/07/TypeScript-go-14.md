@@ -1,6 +1,6 @@
 # Report for 2026-07-14 (Tuesday, July 14th, 2026)
 
-18 different users commented on 24 different issues.
+18 different users commented on 32 different issues.
 
 ## Recommended Actions
 
@@ -56,7 +56,35 @@
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-4937051430) **terite** clarified that the PR only affected the tsgo --watch code path and explained reasons for not modifying the --build code path due to its prototype status and personal lack of usage
  * [today](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-4975044627) **terite** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript-go#4629](https://github.com/microsoft/TypeScript-go/issues/4629) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4608](https://github.com/microsoft/TypeScript-go/issues/4608) (Open, `Needs More Info`)
+
+**Identical resolved program produces 157 vs 662,155 diagnostics depending on whether the tsconfig is passed directly or through a pass\-through extends**
+
+*Using a pass-through tsconfig that simply extends the main config results in drastically more TypeScript diagnostics than direct config usage.*
+
+ * created by **michaeldanish**
+ * **RyanCavanaugh** added label `Needs More Info`
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4608#issuecomment-4982366337) **RyanCavanaugh** suggested using the repro reduction skill and linked to the TypeScript Maintainer Skills repository
+
+### [Issue microsoft/TypeScript-go#4619](https://github.com/microsoft/TypeScript-go/issues/4619) (Open, `possible improvement`, **andrewbranch**)
+
+**Improve API performance when using virtual file system**
+
+*Include inline file content and precomputed directory listings in updateSnapshot to eliminate virtual file system IPC calls and improve performance.*
+
+ * created by **dragomirtitian**
+ * (later) **RyanCavanaugh** added label `possible improvement`, and assigned to **andrewbranch**
+
+### [Issue microsoft/TypeScript-go#4620](https://github.com/microsoft/TypeScript-go/issues/4620) (Open, `Needs Investigation`, **jakebailey**)
+
+**tsc is not resposive to \`ctrl\-c\`**
+
+*tsc fails to respond to ctrl-c due to incomplete propagation of signal handlers in typescript-go*
+
+ * created by **lukesandberg**
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **jakebailey**
+
+### [Issue microsoft/TypeScript-go#4629](https://github.com/microsoft/TypeScript-go/issues/4629) (Closed, `Crash`, **weswigham**)
 
 **panic: Unknown parent for parameter: KindArrowFunction**
 
@@ -66,8 +94,19 @@
  * **tido64** added label `Crash`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4629#issuecomment-4973928142) **RyanCavanaugh** provided a minimal repro example with JS and TS code
  * [later](https://github.com/microsoft/TypeScript-go/issues/4629#issuecomment-4978918590) **tido64** confirmed that the example was a minimal repro and noted that inlining the type prevented the panic
+ * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Open, `Working As Intended`)
+### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Open, `Needs More Info`)
+
+**"Type instantiation is excessively deep and possibly infinite" error with tsgo in v7**
+
+*Typechecking with tsgo and TypeScript v7.0.2 intermittently fails with excessive stack depth and infinite type instantiation errors, unlike v6.0.*
+
+ * created by **justinsmid**
+ * **RyanCavanaugh** added label `Needs More Info`
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4630#issuecomment-4982461122) **RyanCavanaugh** suggested attaching a debugger and inspecting the call stack, noted TypeScript lacks source file positioning at the error frame, and recommended using the TypeScript-Maintainer-Skills repro reduction tool to provide a reproduction
+
+### [Issue microsoft/TypeScript-go#4631](https://github.com/microsoft/TypeScript-go/issues/4631) (Closed, `Working As Intended`)
 
 **Error TS2590 after migration to Typescript 7\.**
 
@@ -86,7 +125,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Open)
+### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Open, `bug`)
 
 **Semantic tokens: defaultLibrary modifier never set on case\-insensitive filesystems \(macOS/Windows\)**
 
@@ -95,7 +134,7 @@
  * created by **philiplindberg**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4635#issuecomment-4971925016) **philiplindberg** clarified that the issue reproduced identically on the released typescript@7.0.2 GA with zero tokens in both preview and GA binaries
 
-### [PR microsoft/TypeScript-go#4636](https://github.com/microsoft/TypeScript-go/pull/4636) (Open)
+### [PR microsoft/TypeScript-go#4636](https://github.com/microsoft/TypeScript-go/pull/4636) (Closed)
 
 **Fix emit mistakenly marking enums used in their own emit as used for unused refs errors**
 
@@ -103,7 +142,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#4637](https://github.com/microsoft/TypeScript-go/pull/4637) (Open)
+### [PR microsoft/TypeScript-go#4637](https://github.com/microsoft/TypeScript-go/pull/4637) (Closed)
 
 **Skip project recheck for no\-op file watch events**
 
@@ -119,7 +158,7 @@
 
  * created by **kimyeongrae23**
 
-### [PR microsoft/TypeScript-go#4639](https://github.com/microsoft/TypeScript-go/pull/4639) (Open)
+### [PR microsoft/TypeScript-go#4639](https://github.com/microsoft/TypeScript-go/pull/4639) (Closed)
 
 **Make JSX missing module error span be issued at a stable location**
 
@@ -127,7 +166,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#4640](https://github.com/microsoft/TypeScript-go/pull/4640) (Open)
+### [PR microsoft/TypeScript-go#4640](https://github.com/microsoft/TypeScript-go/pull/4640) (Closed)
 
 **Always accumulate deferred diagnostics**
 
@@ -136,7 +175,7 @@
  * created by **weswigham**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4640#issuecomment-4974242890) **jakebailey** said "Yeah I thought this was very intentionally introduced into this codebase"
 
-### [PR microsoft/TypeScript-go#4641](https://github.com/microsoft/TypeScript-go/pull/4641) (Open)
+### [PR microsoft/TypeScript-go#4641](https://github.com/microsoft/TypeScript-go/pull/4641) (Closed)
 
 **Fix computed name error emit reusing the name expression cache**
 
@@ -144,7 +183,7 @@
 
  * created by **weswigham**
 
-### [PR microsoft/TypeScript-go#4642](https://github.com/microsoft/TypeScript-go/pull/4642) (Open)
+### [PR microsoft/TypeScript-go#4642](https://github.com/microsoft/TypeScript-go/pull/4642) (Closed)
 
 **Add \`runWithTemporaryFileUpdate\` to API**
 
@@ -161,7 +200,7 @@
  * created by **andrewbranch**
  * (later) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4644](https://github.com/microsoft/TypeScript-go/pull/4644) (Open)
+### [PR microsoft/TypeScript-go#4644](https://github.com/microsoft/TypeScript-go/pull/4644) (Closed)
 
 **fix: include static private identifier properties in matching**
 
@@ -170,7 +209,7 @@
  * created by **joaquinjulca26**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4644#issuecomment-4975473912) **joaquinjulca26** listed testing commands
 
-### [PR microsoft/TypeScript-go#4645](https://github.com/microsoft/TypeScript-go/pull/4645) (Open)
+### [PR microsoft/TypeScript-go#4645](https://github.com/microsoft/TypeScript-go/pull/4645) (Closed)
 
 **Fix compiler panic on arrow function visibility diagnostics \(Fixes \#4629\)**
 
@@ -188,7 +227,7 @@
  * created by **cuishuang**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4646#issuecomment-4979689386) **Andarist** said "this issue is already being fixed by my older PR: https://github.com/microsoft/typescript-go/pull/3663"
 
-### [Issue microsoft/TypeScript-go#4647](https://github.com/microsoft/TypeScript-go/issues/4647) (Open)
+### [Issue microsoft/TypeScript-go#4647](https://github.com/microsoft/TypeScript-go/issues/4647) (Open, `Type Ordering`)
 
 **Root file order causes tsgo to miss recursive conditional type assignability error**
 

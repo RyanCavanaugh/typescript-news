@@ -1,6 +1,6 @@
 # Report for 2026-07-09 (Thursday, July 9th, 2026)
 
-5 different users commented on 16 different issues.
+7 different users commented on 17 different issues.
 
 ## Activity Summary
 
@@ -64,7 +64,7 @@
 
  * created by **theblueplum**
 
-### [Issue microsoft/TypeScript#63641](https://github.com/microsoft/TypeScript/issues/63641) (Open)
+### [Issue microsoft/TypeScript#63641](https://github.com/microsoft/TypeScript/issues/63641) (Open, `Suggestion`, `Needs Proposal`)
 
 **Proposal: Export multiple, runtime\-specific declaration files**
 
@@ -79,4 +79,13 @@
 *TypeScript 6.0.3 and 7.0.2 incorrectly report a map-destructured ternary over a spread union as always nullish.*
 
  * created by **nejim123**
+
+### [Issue microsoft/TypeScript#63648](https://github.com/microsoft/TypeScript/issues/63648) (Open)
+
+**Some colors make error messages hard to read on white backgrounds\.**
+
+*Diagnosticwriter’s forced bright ANSI color codes make error messages illegible on white backgrounds and should use default colors instead.*
+
+ * created by **ayosec**
+ * [later](https://github.com/microsoft/TypeScript/issues/63648#issuecomment-4985206698) **jakebailey** questioned whether the issue was new in v7 and linked to existing code
 
