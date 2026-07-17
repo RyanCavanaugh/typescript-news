@@ -65,7 +65,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-4796094461) **graphemecluster** noted the small fix looked fine but mentioned preferring to port PR #62716 if its scope met expectations
  * [later](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-4969251422) **Ijtihed** said "so what's the consensus here? :) I can close if needed"
 
-### [Issue microsoft/TypeScript-go#4579](https://github.com/microsoft/TypeScript-go/issues/4579) (Open)
+### [Issue microsoft/TypeScript-go#4579](https://github.com/microsoft/TypeScript-go/issues/4579) (Closed)
 
 **tsgo typechecks slower than TS6**
 
@@ -127,7 +127,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4624#issuecomment-4965708338) **jakebailey** said "We shouldn't do any of these "
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4625](https://github.com/microsoft/TypeScript-go/pull/4625) (Open)
+### [PR microsoft/TypeScript-go#4625](https://github.com/microsoft/TypeScript-go/pull/4625) (Closed)
 
 **VS enhanced hover: symbol icon \+ colorized text**
 

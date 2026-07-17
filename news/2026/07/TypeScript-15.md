@@ -40,7 +40,7 @@
  * created by **yassernasc**
  * (today) **RyanCavanaugh** added labels `Suggestion`, `Needs Proposal`
 
-### [Issue microsoft/TypeScript#63644](https://github.com/microsoft/TypeScript/issues/63644) (Open)
+### [Issue microsoft/TypeScript#63644](https://github.com/microsoft/TypeScript/issues/63644) (Open, `Needs More Info`)
 
 **In a class, an unique symbol attribute is sometime lost during incremental build**
 

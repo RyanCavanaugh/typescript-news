@@ -61,7 +61,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63642#issuecomment-4937170024) **RyanCavanaugh** provided a smaller repro with a concise TypeScript snippet
  * (today) **RyanCavanaugh** added labels `Bug`, `Domain: check: Control Flow`
 
-### [Issue microsoft/TypeScript#63648](https://github.com/microsoft/TypeScript/issues/63648) (Open)
+### [Issue microsoft/TypeScript#63648](https://github.com/microsoft/TypeScript/issues/63648) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **Some colors make error messages hard to read on white backgrounds\.**
 

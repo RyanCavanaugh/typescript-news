@@ -18,7 +18,7 @@
  * created by **adri1wald**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4572#issuecomment-4947548278) **Andarist** said "bisects to https://github.com/microsoft/typescript-go/pull/2542 , potential fix at https://github.com/microsoft/typescript-go/pull/4606"
 
-### [Issue microsoft/TypeScript-go#4579](https://github.com/microsoft/TypeScript-go/issues/4579) (Open)
+### [Issue microsoft/TypeScript-go#4579](https://github.com/microsoft/TypeScript-go/issues/4579) (Closed)
 
 **tsgo typechecks slower than TS6**
 
@@ -44,7 +44,7 @@
 
  * created by **Andarist**
 
-### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, **RyanCavanaugh**, **Copilot**)
 
 **TypeScript 7\.0 Can't compile \`webpack\`**
 
@@ -69,7 +69,7 @@
 
  * created by **elibarzilay**
 
-### [Issue microsoft/TypeScript-go#4610](https://github.com/microsoft/TypeScript-go/issues/4610) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4610](https://github.com/microsoft/TypeScript-go/issues/4610) (Open, `Domain: Editor`, `Needs Investigation`, **johnfav03**)
 
 **Renaming a file can be very slow in some edge cases**
 

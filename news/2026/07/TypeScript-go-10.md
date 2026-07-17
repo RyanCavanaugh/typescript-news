@@ -71,7 +71,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4583#issuecomment-4934491424) **jakebailey** questioned whether the issue was new in v7 and linked to existing code
  * [today](https://github.com/microsoft/TypeScript-go/issues/4583#issuecomment-4938532006) **ayosec** noted that the issue also existed in the original compiler and asked if it should be moved to the microsoft/TypeScript repository
 
-### [PR microsoft/TypeScript-go#4586](https://github.com/microsoft/TypeScript-go/pull/4586) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4586](https://github.com/microsoft/TypeScript-go/pull/4586) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix TS2871 false positive for \`??\` operator in nullish coalescing check**
 
@@ -100,7 +100,7 @@
  * **mjbvz** added label `Domain: Editor`
  * [later](https://github.com/microsoft/TypeScript-go/issues/4589#issuecomment-4944241900) **ibesuperv** opened PR #4604 to optimize the Session.DidChangeWatchedFiles path by filtering out irrelevant extensions while preserving cache-invalidation invariants and asked if further tweaks were needed
 
-### [PR microsoft/TypeScript-go#4590](https://github.com/microsoft/TypeScript-go/pull/4590) (Open)
+### [PR microsoft/TypeScript-go#4590](https://github.com/microsoft/TypeScript-go/pull/4590) (Closed)
 
 **Fix "Token end is child end" crash on grammar error**
 

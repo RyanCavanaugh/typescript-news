@@ -19,7 +19,7 @@
  * (1 week ago) **RyanCavanaugh** added labels `Bug`, `Domain: LS: Completion Lists`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63603#issuecomment-4977767143) **coopjyoung** asked whether a PR to update hover to use merged documentation would be welcome
 
-### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Closed, `Duplicate`)
 
 **Reusable callbacks: When destructuring, missing properties should be excluded from the infered type\.**
 

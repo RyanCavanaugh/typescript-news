@@ -38,7 +38,7 @@
  * (3 days ago) **RyanCavanaugh** added labels `Bug`, `Domain: check: Control Flow`
  * **RyanCavanaugh** added to milestone `Backlog`
 
-### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63643](https://github.com/microsoft/TypeScript/issues/63643) (Closed, `Duplicate`)
 
 **Reusable callbacks: When destructuring, missing properties should be excluded from the infered type\.**
 
@@ -49,7 +49,7 @@
  * **RyanCavanaugh** added label `Duplicate`
  * [today](https://github.com/microsoft/TypeScript/issues/63643#issuecomment-4962860894) **denis-migdal** disagreed that the issue was a duplicate and explained their inference-level callback typing context
 
-### [Issue microsoft/TypeScript#63644](https://github.com/microsoft/TypeScript/issues/63644) (Open)
+### [Issue microsoft/TypeScript#63644](https://github.com/microsoft/TypeScript/issues/63644) (Open, `Needs More Info`)
 
 **In a class, an unique symbol attribute is sometime lost during incremental build**
 

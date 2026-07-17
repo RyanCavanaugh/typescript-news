@@ -40,7 +40,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4983158061) **andrewbranch** clarified that the issue aimed to achieve TS 7 parity with TS 6 by proposing LSP-only plugins, noted feedback that certain CLI capabilities require central tsc coordination, and argued against expanding to a broad CLI plugin scope to avoid delaying parity
  * [later](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-4991793665) **shining-mind** agreed and asked whether there were plans to create a dedicated feature request for CLI support for typechecking Vue, Svelte, and string template literals
 
-### [Issue microsoft/TypeScript-go#4017](https://github.com/microsoft/TypeScript-go/issues/4017) (Closed, `Domain: Editor`, `possible improvement`)
+### [Issue microsoft/TypeScript-go#4017](https://github.com/microsoft/TypeScript-go/issues/4017) (Open, `Domain: Editor`, `possible improvement`, **DanielRosenwasser**, **Copilot**)
 
 **Extension does not respect \`js/ts\.locale\`**
 
@@ -63,7 +63,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4418#issuecomment-4984582065) **andrewbranch** recalled that they omitted this originally to allow room for future design changes around issue 42709 without breaking third-party isolatedDeclarations emitters
  * [today](https://github.com/microsoft/TypeScript-go/pull/4418#issuecomment-4984961465) **weswigham** explained that changing the inference would only require updating the isolatedDeclarations inference rule and wouldn't hinder third-party emitters any more than adding a new syntax construct, and that it likely wouldn't preclude future changes
 
-### [PR microsoft/TypeScript-go#4443](https://github.com/microsoft/TypeScript-go/pull/4443) (Open, **andrewbranch**)
+### [PR microsoft/TypeScript-go#4443](https://github.com/microsoft/TypeScript-go/pull/4443) (Closed, **andrewbranch**)
 
 **Fixed build mode false negative from export\-star facade**
 
@@ -74,7 +74,7 @@
  * **johnfav03** added to milestone `Post-7.0`
  * **RyanCavanaugh** assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript-go#4565](https://github.com/microsoft/TypeScript-go/pull/4565) (Open, **weswigham**)
+### [PR microsoft/TypeScript-go#4565](https://github.com/microsoft/TypeScript-go/pull/4565) (Closed, **weswigham**)
 
 **Fix stack overflow in \`checkTypeExpandability\(\)\`**
 
@@ -172,7 +172,7 @@
  * created by **Andarist**
  * **RyanCavanaugh** assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, **RyanCavanaugh**, **Copilot**)
 
 **TypeScript 7\.0 Can't compile \`webpack\`**
 
@@ -449,7 +449,7 @@
 
 **Do not issue diagnostics when fetching parameter types for context\-sensitive parameters**
 
-*Stop issuing incorrect diagnostics for context-sensitive parameters when their types are fetched out of context.*
+*Skip diagnostics during out-of-context retrieval of context-sensitive parameter types to avoid false errors in early type assignment.*
 
  * created by **weswigham**
 
