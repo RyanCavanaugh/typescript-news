@@ -1,6 +1,6 @@
 # Report for 2026-07-16 (Thursday, July 16th, 2026)
 
-10 different users commented on 21 different issues.
+9 different users commented on 22 different issues.
 
 ## Recommended Actions
 
@@ -8,7 +8,6 @@
     * @denis-migdal asked if more information was needed about the regression in [microsoft/TypeScript#63644](https://github.com/microsoft/TypeScript/issues/63644#issuecomment-4995087715)
     * @Alex-Bond suggested rolling back the new file-watching system or adding a flag to use the old one in [microsoft/TypeScript#63646](https://github.com/microsoft/TypeScript/issues/63646#issuecomment-4995708261)
     * @Alex-Bond provided additional details about environment and observed behavior in [microsoft/TypeScript#63646](https://github.com/microsoft/TypeScript/issues/63646#issuecomment-4996371305)
-    * @microsoft-github-policy-service asked the user to agree to the CLA in [microsoft/TypeScript#63654](https://github.com/microsoft/TypeScript/pull/63654#issuecomment-5004597298)
 
 ## Activity Summary
 
@@ -105,7 +104,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **ahejlsberg**
  * [today](https://github.com/microsoft/TypeScript/issues/63653#issuecomment-4997425821) **RyanCavanaugh** said "This might not be a bug; // repro-inferred.ts really does have to do less work than // repro.ts - the latter has to do an assignability check, the former does not."
 
-### [PR microsoft/TypeScript#63654](https://github.com/microsoft/TypeScript/pull/63654) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#63654](https://github.com/microsoft/TypeScript/pull/63654) (Closed, `For Backlog Bug`)
 
 **lib\.es5\.d\.ts: accept array\-likes \(arguments, typed arrays, DOM collections\) as the second argument of Function\.prototype\.apply**
 
@@ -113,5 +112,4 @@
 
  * created by **KAMRONBEK**
  * **typescript-automation[bot]** added label `For Backlog Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/63654#issuecomment-5004597298) **microsoft-github-policy-service[bot]** requested that the user read and agree to the Contributor License Agreement by replying with the appropriate command
 

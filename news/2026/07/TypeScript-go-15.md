@@ -1,6 +1,6 @@
 # Report for 2026-07-15 (Wednesday, July 15th, 2026)
 
-15 different users commented on 47 different issues.
+15 different users commented on 48 different issues.
 
 ## Recommended Actions
 
@@ -222,7 +222,7 @@
  * created by **dyantako**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript-go#4616](https://github.com/microsoft/TypeScript-go/issues/4616) (Open, `bug`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4616](https://github.com/microsoft/TypeScript-go/issues/4616) (Closed, `bug`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Behavior difference: declaration emit synthesizes extensionless \`import\(\)\` specifier under \`allowImportingTsExtensions\`, invalid in nodenext**
 

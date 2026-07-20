@@ -28,7 +28,7 @@
  * created by **theblueplum**
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, `Domain: LS: Quick Info`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63642](https://github.com/microsoft/TypeScript/issues/63642) (Open, `Bug`, `Domain: check: Control Flow`)
+### [Issue microsoft/TypeScript#63642](https://github.com/microsoft/TypeScript/issues/63642) (Closed, `Bug`, `Domain: check: Control Flow`)
 
 **TS2871 'always nullish' false positive on binding destructured from \.map over spread\-of\-union \(regression 5\.9\.3 → 6\.0\.3; also in 7\.0\.2\)**
 

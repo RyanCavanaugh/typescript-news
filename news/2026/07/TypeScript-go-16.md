@@ -1,6 +1,6 @@
 # Report for 2026-07-16 (Thursday, July 16th, 2026)
 
-9 different users commented on 24 different issues.
+9 different users commented on 26 different issues.
 
 ## Recommended Actions
 
@@ -138,7 +138,7 @@
  * created by **johnfav03**
  * (today) **johnfav03** closed the issue
 
-### [PR microsoft/TypeScript-go#4657](https://github.com/microsoft/TypeScript-go/pull/4657) (Open)
+### [PR microsoft/TypeScript-go#4657](https://github.com/microsoft/TypeScript-go/pull/4657) (Closed)
 
 **Add even more bails on unchecked identifiers to markLinkedReferences**
 
@@ -154,7 +154,7 @@
 
  * created by **johnfav03**
 
-### [PR microsoft/TypeScript-go#4659](https://github.com/microsoft/TypeScript-go/pull/4659) (Open)
+### [PR microsoft/TypeScript-go#4659](https://github.com/microsoft/TypeScript-go/pull/4659) (Closed)
 
 **Move baselines mistakenly put into TS\-1 group without TS\-1 into accepted**
 
@@ -179,7 +179,7 @@
 
  * created by **johnfav03**
 
-### [PR microsoft/TypeScript-go#4662](https://github.com/microsoft/TypeScript-go/pull/4662) (Open)
+### [PR microsoft/TypeScript-go#4662](https://github.com/microsoft/TypeScript-go/pull/4662) (Closed)
 
 **Fix declaration emit synthesizing extensionless import\(\) specifier under allowImportingTsExtensions \+ nodenext**
 
@@ -214,7 +214,7 @@
  * created by **martijnwalraven**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4665#issuecomment-5001814259) **martijnwalraven** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript-go#4666](https://github.com/microsoft/TypeScript-go/pull/4666) (Open)
+### [PR microsoft/TypeScript-go#4666](https://github.com/microsoft/TypeScript-go/pull/4666) (Open, `Voight-Kampff Anomaly`)
 
 **POC: ambient module declarations keyed on import attributes**
 
