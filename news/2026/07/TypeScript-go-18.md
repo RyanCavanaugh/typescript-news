@@ -19,7 +19,7 @@
  * (10 weeks ago) **RyanCavanaugh** added label `bug`, and set milestone to `Post-7.0`
  * [today](https://github.com/microsoft/TypeScript-go/issues/3659#issuecomment-5013217308) **christopher-buss** reported losing JSDoc in mapped types and identified TypeScript versions where docs are dropped
 
-### [Issue microsoft/TypeScript-go#4671](https://github.com/microsoft/TypeScript-go/issues/4671) (Open)
+### [Issue microsoft/TypeScript-go#4671](https://github.com/microsoft/TypeScript-go/issues/4671) (Closed)
 
 **Parity: noEmit project reference dry build remains stale like microsoft/TypeScript\#63656**
 
@@ -27,7 +27,7 @@
 
  * created by **schickling-assistant**
 
-### [Issue microsoft/TypeScript-go#4672](https://github.com/microsoft/TypeScript-go/issues/4672) (Open)
+### [Issue microsoft/TypeScript-go#4672](https://github.com/microsoft/TypeScript-go/issues/4672) (Open, `bug`, **johnfav03**)
 
 **is Watch out of the prototype phase?**
 
@@ -35,7 +35,7 @@
 
  * created by **jkpjkpjkp**
 
-### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Open)
+### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Open, `bug`, **ahejlsberg**)
 
 **False\-positive TS7022 on destructured array element used as a 2\-D index**
 

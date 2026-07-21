@@ -96,7 +96,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4629#issuecomment-4978918590) **tido64** confirmed that the example was a minimal repro and noted that inlining the type prevented the panic
  * **RyanCavanaugh** assigned to **weswigham**
 
-### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Closed, `Needs More Info`)
 
 **"Type instantiation is excessively deep and possibly infinite" error with tsgo in v7**
 
@@ -125,7 +125,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Closed, `bug`)
 
 **Semantic tokens: defaultLibrary modifier never set on case\-insensitive filesystems \(macOS/Windows\)**
 
@@ -150,7 +150,7 @@
 
  * created by **johnfav03**
 
-### [PR microsoft/TypeScript-go#4638](https://github.com/microsoft/TypeScript-go/pull/4638) (Open)
+### [PR microsoft/TypeScript-go#4638](https://github.com/microsoft/TypeScript-go/pull/4638) (Closed)
 
 **fix\(declarations\): prevent panic for KindArrowFunction parameter visibility**
 
@@ -218,7 +218,7 @@
  * created by **islamfahmy**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4645#issuecomment-4978580316) **islamfahmy** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript-go#4646](https://github.com/microsoft/TypeScript-go/pull/4646) (Open)
+### [PR microsoft/TypeScript-go#4646](https://github.com/microsoft/TypeScript-go/pull/4646) (Open, `Voight-Kampff Anomaly`)
 
 **Fix hover documentation for intersected properties**
 

@@ -1,6 +1,6 @@
 # Report for 2026-07-19 (Sunday, July 19th, 2026)
 
-7 different users commented on 8 different issues.
+7 different users commented on 22 different issues.
 
 ## Recommended Actions
 
@@ -75,14 +75,14 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63661](https://github.com/microsoft/TypeScript/issues/63661) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63661](https://github.com/microsoft/TypeScript/issues/63661) (Open, `Bug`, `Domain: Parser`)
 
 **\`as\`/\`satisfies\` between exponentiation operators cannot be safely erased**
 
 *Removing 'as' or 'satisfies' assertions between exponentiation operators in TypeScript changes operator grouping without errors.*
 
  * created by **magic-akari**
- * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+ * (later) **RyanCavanaugh** added labels `Bug`, `Domain: Parser`, and set milestone to `Backlog`
 
 ### [PR microsoft/TypeScript#63662](https://github.com/microsoft/TypeScript/pull/63662) (Closed, `For Uncommitted Bug`)
 

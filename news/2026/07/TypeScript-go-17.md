@@ -1,6 +1,6 @@
 # Report for 2026-07-17 (Friday, July 17th, 2026)
 
-6 different users commented on 23 different issues.
+6 different users commented on 25 different issues.
 
 ## Recommended Actions
 
@@ -78,7 +78,7 @@
  * (1 week ago) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **johnfav03**
  * **RyanCavanaugh** added to milestone `TypeScript 7.1`
 
-### [Issue microsoft/TypeScript-go#4560](https://github.com/microsoft/TypeScript-go/issues/4560) (Open, `Domain: Editor`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4560](https://github.com/microsoft/TypeScript-go/issues/4560) (Closed, `Domain: Editor`, **jakebailey**, **Copilot**)
 
 **Extension does not follow symlinks when resolving the tsdk path \(breaks pnpm virtual store\)**
 
@@ -98,7 +98,7 @@
  * **davidkarlsson** added label `Domain: Editor`
  * (today) **RyanCavanaugh** set milestone to `TypeScript 7.1`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4580](https://github.com/microsoft/TypeScript-go/issues/4580) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4580](https://github.com/microsoft/TypeScript-go/issues/4580) (Closed, `Domain: Editor`)
 
 **TS7 plugin is not working with Yarn 4 nodeLinker = pnp**
 
@@ -197,7 +197,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4669](https://github.com/microsoft/TypeScript-go/issues/4669) (Open)
+### [Issue microsoft/TypeScript-go#4669](https://github.com/microsoft/TypeScript-go/issues/4669) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

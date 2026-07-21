@@ -1,6 +1,6 @@
 # Report for 2026-07-15 (Wednesday, July 15th, 2026)
 
-15 different users commented on 48 different issues.
+15 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -272,7 +272,7 @@
  * **RyanCavanaugh** assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4630](https://github.com/microsoft/TypeScript-go/issues/4630) (Closed, `Needs More Info`)
 
 **"Type instantiation is excessively deep and possibly infinite" error with tsgo in v7**
 
@@ -312,7 +312,7 @@
  * created by **calvinrp**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Possible Improvement`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Open, `bug`)
+### [Issue microsoft/TypeScript-go#4635](https://github.com/microsoft/TypeScript-go/issues/4635) (Closed, `bug`)
 
 **Semantic tokens: defaultLibrary modifier never set on case\-insensitive filesystems \(macOS/Windows\)**
 
@@ -445,7 +445,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#4651](https://github.com/microsoft/TypeScript-go/pull/4651) (Open)
+### [PR microsoft/TypeScript-go#4651](https://github.com/microsoft/TypeScript-go/pull/4651) (Closed)
 
 **Do not issue diagnostics when fetching parameter types for context\-sensitive parameters**
 
@@ -471,7 +471,7 @@
 
  * created by **KlyneChrysler**
 
-### [PR microsoft/TypeScript-go#4654](https://github.com/microsoft/TypeScript-go/pull/4654) (Open)
+### [PR microsoft/TypeScript-go#4654](https://github.com/microsoft/TypeScript-go/pull/4654) (Closed)
 
 **Use canonical paths for the semantic tokens defaultLibrary check**
 

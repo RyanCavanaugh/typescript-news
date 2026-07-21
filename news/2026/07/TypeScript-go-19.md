@@ -1,6 +1,6 @@
 # Report for 2026-07-19 (Sunday, July 19th, 2026)
 
-6 different users commented on 10 different issues.
+10 different users commented on 18 different issues.
 
 ## Recommended Actions
 
@@ -9,7 +9,17 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript-go#4580](https://github.com/microsoft/TypeScript-go/issues/4580) (Open, `Domain: Editor`)
+### [PR microsoft/TypeScript-go#4556](https://github.com/microsoft/TypeScript-go/pull/4556) (Closed, **andrewbranch**, **Copilot**)
+
+**Add getConstraint\(\) and getDefault\(\) getters to TypeParameter**
+
+*Add asynchronous getConstraint() and getDefault() methods to the TypeParameter API for direct retrieval of type parameter constraints and defaults*
+
+ * created by **Copilot**
+ * (1 week ago) **Copilot** assigned to **Copilot**, **andrewbranch**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4556#issuecomment-5024026965) **Copilot** reworked both endpoints to follow the getTrueType/getFalseType pattern, removed fetchCheckerType helper, updated server-side functions, and adjusted fetchType return behavior
+
+### [Issue microsoft/TypeScript-go#4580](https://github.com/microsoft/TypeScript-go/issues/4580) (Closed, `Domain: Editor`)
 
 **TS7 plugin is not working with Yarn 4 nodeLinker = pnp**
 
@@ -29,6 +39,16 @@
  * (6 days ago) **dependabot[bot]** added labels `github_actions`, `dependencies`, `github_actions`
  * [later](https://github.com/microsoft/TypeScript-go/pull/4615#issuecomment-5021294781) **dependabot[bot]** said "Looks like these dependencies are updatable in another way, so this is no longer needed."
  * (later) **dependabot[bot]** closed the issue
+
+### [PR microsoft/TypeScript-go#4646](https://github.com/microsoft/TypeScript-go/pull/4646) (Open, `Voight-Kampff Anomaly`)
+
+**Fix hover documentation for intersected properties**
+
+*Enhance TypeScript hover tooltips for intersection properties by aggregating JSDoc from all declarations.*
+
+ * created by **cuishuang**
+ * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4646#issuecomment-4979689386) **Andarist** said "this issue is already being fixed by my older PR: https://github.com/microsoft/typescript-go/pull/3663"
+ * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
 ### [Issue microsoft/TypeScript-go#4675](https://github.com/microsoft/TypeScript-go/issues/4675) (Open, `Domain: Editor`)
 
@@ -73,7 +93,7 @@
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Open)
+### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS7030 "not all code paths return a value" false positive when a never\-returning exhaustiveness helper is called \(not returned\) in a switch default**
 
@@ -88,4 +108,37 @@
 *skipLibCheck does not prevent tsgo from reporting TS18042 and TS2693 errors when a .d.ts file’s export= incorrectly refers to a type instead of a value.*
 
  * created by **valentinmelusson**
+
+### [PR microsoft/TypeScript-go#4682](https://github.com/microsoft/TypeScript-go/pull/4682) (Open)
+
+**\[api\] Always update inferred project if one is open**
+
+*Automatically refresh an open inferred project when its contents change without requiring new file openings.*
+
+ * created by **piotrtomiak**
+
+### [Issue microsoft/TypeScript-go#4683](https://github.com/microsoft/TypeScript-go/issues/4683) (Open)
+
+**Generic type parameter inferred differently across two call\-site positions with opposite variance \(narrow type vs union\)**
+
+*TypeScript infers D from the columns as MetricWithCardinality rather than the union type when passing data to Table.*
+
+ * created by **valentinmelusson**
+
+### [Issue microsoft/TypeScript-go#4684](https://github.com/microsoft/TypeScript-go/issues/4684) (Open, `Domain: Editor`)
+
+**VS Code extension does not provide completions for directive comments**
+
+*VS Code extension does not support completions for TypeScript directive comments such as @ts-expect-error.*
+
+ * created by **mrazauskas**
+ * **mrazauskas** added label `Domain: Editor`
+
+### [PR microsoft/TypeScript-go#4685](https://github.com/microsoft/TypeScript-go/pull/4685) (Open)
+
+**fix\(4677\): preserve JSDoc for mapped type properties in hover**
+
+*Ensure JSDoc comments for mapped type properties are retained and displayed in hover tooltips.*
+
+ * created by **a-tarasyuk**
 
