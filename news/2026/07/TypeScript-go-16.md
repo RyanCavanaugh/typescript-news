@@ -77,7 +77,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript-go/pull/4590#issuecomment-4939918614) **Andarist** said "note that my old PR already fixes this too: https://github.com/microsoft/typescript-go/pull/3102 . I just pushed out the test from this PR there"
  * (today) **johnfav03** closed the issue
 
-### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Closed, `Crash`, **RyanCavanaugh**, **Copilot**)
 
 **TypeScript 7\.0 Can't compile \`webpack\`**
 
@@ -188,7 +188,7 @@
  * created by **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4662#issuecomment-4997405723) **RyanCavanaugh** said "This is a redo of https://github.com/microsoft/typescript-go/pull/4649 but now GitHub API is down 🙁"
 
-### [PR microsoft/TypeScript-go#4663](https://github.com/microsoft/TypeScript-go/pull/4663) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4663](https://github.com/microsoft/TypeScript-go/pull/4663) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix crash: JSTypeAliasDeclaration passed to GetTypeOfDeclaration during CJS declaration emit**
 

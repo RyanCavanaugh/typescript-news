@@ -221,7 +221,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4672#issuecomment-5027748004) **RyanCavanaugh** said "Watch is fully supported; we forgot to update the readme"
  * **RyanCavanaugh** added to milestone `TypeScript 7.1`
 
-### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Closed, `bug`, **ahejlsberg**)
 
 **False\-positive TS7022 on destructured array element used as a 2\-D index**
 
@@ -240,7 +240,7 @@
  * **nazmul-nhb** added label `Domain: Editor`
  * **RyanCavanaugh** added to milestone `Possible Improvement`
 
-### [Issue microsoft/TypeScript-go#4683](https://github.com/microsoft/TypeScript-go/issues/4683) (Open)
+### [Issue microsoft/TypeScript-go#4683](https://github.com/microsoft/TypeScript-go/issues/4683) (Closed, `duplicate`, **ahejlsberg**)
 
 **Generic type parameter inferred differently across two call\-site positions with opposite variance \(narrow type vs union\)**
 
@@ -249,7 +249,7 @@
  * created by **valentinmelusson**
  * [later](https://github.com/microsoft/TypeScript-go/issues/4683#issuecomment-5034155386) **Andarist** said "bisects to #4389"
 
-### [Issue microsoft/TypeScript-go#4684](https://github.com/microsoft/TypeScript-go/issues/4684) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4684](https://github.com/microsoft/TypeScript-go/issues/4684) (Closed, `Domain: Editor`)
 
 **VS Code extension does not provide completions for directive comments**
 
@@ -260,7 +260,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4684#issuecomment-5035668136) **jakebailey** said "Do I dare claim that not offering these is a feature? 😄 "
  * [later](https://github.com/microsoft/TypeScript-go/issues/4684#issuecomment-5036084028) **mrazauskas** questioned whether the difference was intentional and suggested closing the issue if so
 
-### [Issue microsoft/TypeScript-go#4686](https://github.com/microsoft/TypeScript-go/issues/4686) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4686](https://github.com/microsoft/TypeScript-go/issues/4686) (Closed, `Working As Intended`)
 
 **TypeScript 7\.0\.2 does not infer function generic parameter, TypeScript 6 does**
 

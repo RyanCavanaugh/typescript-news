@@ -35,7 +35,7 @@
 
  * created by **jkpjkpjkp**
 
-### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Open, `bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4673](https://github.com/microsoft/TypeScript-go/issues/4673) (Closed, `bug`, **ahejlsberg**)
 
 **False\-positive TS7022 on destructured array element used as a 2\-D index**
 

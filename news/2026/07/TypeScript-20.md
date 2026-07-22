@@ -53,7 +53,6 @@
 
  * created by **yxdtg**
  * [yesterday](https://github.com/microsoft/TypeScript/issues/63657#issuecomment-5016242989) **MartinJohns** said "Essentially a duplicate of #60790."
- * [yesterday](https://github.com/microsoft/TypeScript/issues/63657#issuecomment-5016282338) **yxdtg** explained that the proposal differed from #60790 by being pure syntactic sugar without new type semantics
  * **RyanCavanaugh** added label `Duplicate`
  * [today](https://github.com/microsoft/TypeScript/issues/63657#issuecomment-5025733622) **RyanCavanaugh** pointed out that the issue was a duplicate of #60790 and critiqued the asker's understanding
  * (today) **RyanCavanaugh** closed the issue

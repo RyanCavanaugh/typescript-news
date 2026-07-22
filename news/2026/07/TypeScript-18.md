@@ -51,7 +51,6 @@
 
  * created by **yxdtg**
  * [later](https://github.com/microsoft/TypeScript/issues/63657#issuecomment-5016242989) **MartinJohns** said "Essentially a duplicate of #60790."
- * [later](https://github.com/microsoft/TypeScript/issues/63657#issuecomment-5016282338) **yxdtg** explained that the proposal differed from #60790 by being pure syntactic sugar without new type semantics
 
 ### [Issue microsoft/TypeScript#63658](https://github.com/microsoft/TypeScript/issues/63658) (Closed)
 

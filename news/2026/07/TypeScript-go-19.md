@@ -76,7 +76,7 @@
  * created by **nazmul-nhb**
  * **nazmul-nhb** added label `Domain: Editor`
 
-### [Issue microsoft/TypeScript-go#4678](https://github.com/microsoft/TypeScript-go/issues/4678) (Open)
+### [Issue microsoft/TypeScript-go#4678](https://github.com/microsoft/TypeScript-go/issues/4678) (Open, `Working As Intended`, **RyanCavanaugh**, **Copilot**)
 
 **skipLibCheck doesn't suppress TS2320 "cannot simultaneously extend" for module augmentation of a \`\.d\.ts\` interface \(repro has no any\)**
 
@@ -93,7 +93,7 @@
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Open, `Needs More Info`)
 
 **TS7030 "not all code paths return a value" false positive when a never\-returning exhaustiveness helper is called \(not returned\) in a switch default**
 
@@ -101,7 +101,7 @@
 
  * created by **valentinmelusson**
 
-### [Issue microsoft/TypeScript-go#4681](https://github.com/microsoft/TypeScript-go/issues/4681) (Open)
+### [Issue microsoft/TypeScript-go#4681](https://github.com/microsoft/TypeScript-go/issues/4681) (Open, `duplicate`)
 
 **skipLibCheck doesn't suppress TS18042/TS2693 when a \.d\.ts's own export = points to a type instead of a value**
 
@@ -117,7 +117,7 @@
 
  * created by **piotrtomiak**
 
-### [Issue microsoft/TypeScript-go#4683](https://github.com/microsoft/TypeScript-go/issues/4683) (Open)
+### [Issue microsoft/TypeScript-go#4683](https://github.com/microsoft/TypeScript-go/issues/4683) (Closed, `duplicate`, **ahejlsberg**)
 
 **Generic type parameter inferred differently across two call\-site positions with opposite variance \(narrow type vs union\)**
 
@@ -125,7 +125,7 @@
 
  * created by **valentinmelusson**
 
-### [Issue microsoft/TypeScript-go#4684](https://github.com/microsoft/TypeScript-go/issues/4684) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4684](https://github.com/microsoft/TypeScript-go/issues/4684) (Closed, `Domain: Editor`)
 
 **VS Code extension does not provide completions for directive comments**
 

@@ -172,7 +172,7 @@
  * created by **Andarist**
  * **RyanCavanaugh** assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Open, `Crash`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4607](https://github.com/microsoft/TypeScript-go/issues/4607) (Closed, `Crash`, **RyanCavanaugh**, **Copilot**)
 
 **TypeScript 7\.0 Can't compile \`webpack\`**
 
@@ -231,7 +231,7 @@
  * created by **dario-causaly**
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.1`, and assigned to **andrewbranch**, **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4617](https://github.com/microsoft/TypeScript-go/issues/4617) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4617](https://github.com/microsoft/TypeScript-go/issues/4617) (Closed, `Type Ordering`, `Working As Intended`, **weswigham**)
 
 **Behavior difference: TS4023 on declaration emit when a spread of a symbol\-branded object is unioned with the original \(pattern used by zod \`\.brand\(\)\`\)**
 
