@@ -1,6 +1,6 @@
 # Report for 2026-07-20 (Monday, July 20th, 2026)
 
-13 different users commented on 36 different issues.
+13 different users commented on 38 different issues.
 
 ## Recommended Actions
 
@@ -76,7 +76,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4580#issuecomment-5035887969) **jakebailey** said "This is just #460"
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587) (Open, `Needs More Info`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587) (Closed, `Needs More Info`, **weswigham**)
 
 **TSX files do not report TypeScript diagnostics, while TS files work correctly \(autocomplete still works\)**
 
@@ -179,7 +179,7 @@
  * created by **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript-go#4660](https://github.com/microsoft/TypeScript-go/pull/4660) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#4660](https://github.com/microsoft/TypeScript-go/pull/4660) (Closed, **DanielRosenwasser**, **Copilot**)
 
 **Respect configured TypeScript diagnostic locale**
 
@@ -187,9 +187,9 @@
 
  * created by **Copilot**
  * (4 days ago) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
- * [later](https://github.com/microsoft/TypeScript-go/pull/4660#issuecomment-5035657322) **jakebailey** said "Maybe it's cleaner to just have a Client hook that sets the current locale, and we update that on user pref change and plumb it that wayh"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4660#issuecomment-5035657322) **jakebailey** said "Maybe it's cleaner to just have a Client hook that sets the current locale, and we update that on user pref change and plumb it that way?"
 
-### [PR microsoft/TypeScript-go#4668](https://github.com/microsoft/TypeScript-go/pull/4668) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4668](https://github.com/microsoft/TypeScript-go/pull/4668) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Respect editor tab/space settings when parsing formatting prefs used by organize imports**
 

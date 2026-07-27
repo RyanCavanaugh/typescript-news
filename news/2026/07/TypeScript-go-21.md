@@ -1,11 +1,11 @@
 # Report for 2026-07-21 (Tuesday, July 21st, 2026)
 
-20 different users commented on 41 different issues.
+21 different users commented on 46 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @elramus provided repro steps as requested in [microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587#issuecomment-5047689267)
+    * @elramus provided useful configuration detail in [microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587#issuecomment-5047689267)
     * @jinxiangqiang asked for an expedited release in [microsoft/TypeScript-go#4677](https://github.com/microsoft/TypeScript-go/issues/4677#issuecomment-5042964606)
     * @daniele-orlando reported a type inference regression in TypeScript 7 in [microsoft/TypeScript-go#4686](https://github.com/microsoft/TypeScript-go/issues/4686#issuecomment-5037305000)
     * @daniele-orlando asked to mark the issue as a bug due to a regression in TypeScript 7 in [microsoft/TypeScript-go#4686](https://github.com/microsoft/TypeScript-go/issues/4686#issuecomment-5037399383)
@@ -65,7 +65,7 @@
  * (1 week ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587) (Open, `Needs More Info`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4587](https://github.com/microsoft/TypeScript-go/issues/4587) (Closed, `Needs More Info`, **weswigham**)
 
 **TSX files do not report TypeScript diagnostics, while TS files work correctly \(autocomplete still works\)**
 
@@ -74,7 +74,7 @@
  * (yesterday) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **weswigham**
  * (today) **weswigham** added label `Needs More Info`, and removed label `Needs Investigation`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4587#issuecomment-5037332201) **weswigham** explained that the behavior was working as intended and not new, and noted that the issue report lacked standalone reproduction details
- * [later](https://github.com/microsoft/TypeScript-go/issues/4587#issuecomment-5047689267) **elramus** provided reproduction steps showing that the TypeScript 7 language server did not report missing required props
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4587#issuecomment-5047689267) **elramus** clarified that the issue was caused by a user setting disabling validation and apologized for the false alarm
 
 ### [PR microsoft/TypeScript-go#4591](https://github.com/microsoft/TypeScript-go/pull/4591) (Closed)
 
@@ -202,7 +202,7 @@
  * **RyanCavanaugh** added to milestone `Possible Improvement`
  * [later](https://github.com/microsoft/TypeScript-go/issues/4677#issuecomment-5042964606) **jinxiangqiang** said "Release it as soon as possible. Thank you."
 
-### [Issue microsoft/TypeScript-go#4678](https://github.com/microsoft/TypeScript-go/issues/4678) (Open, `Working As Intended`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4678](https://github.com/microsoft/TypeScript-go/issues/4678) (Closed, `Working As Intended`, **RyanCavanaugh**, **Copilot**)
 
 **skipLibCheck doesn't suppress TS2320 "cannot simultaneously extend" for module augmentation of a \`\.d\.ts\` interface \(repro has no any\)**
 
@@ -212,7 +212,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4678#issuecomment-5039612384) **RyanCavanaugh** referenced issue #3814 and noted TS7 now consistently reported errors to avoid nondeterminism in multi-threaded checker mode and said they would add a general category to CHANGES.md
  * (today) **RyanCavanaugh** added label `Working As Intended`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4680](https://github.com/microsoft/TypeScript-go/issues/4680) (Closed, `Needs More Info`)
 
 **TS7030 "not all code paths return a value" false positive when a never\-returning exhaustiveness helper is called \(not returned\) in a switch default**
 
@@ -222,8 +222,10 @@
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.1`, and assigned to **Copilot**, **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4680#issuecomment-5037782672) **RyanCavanaugh** said "I can't repro this at typescript 7.0.2. Can you confirm what version you're running here?"
  * (today) **RyanCavanaugh** added label `Needs More Info`, removed label `bug`, set milestone to `Need More Info`, removed from milestone `TypeScript 7.1`, and unassigned **RyanCavanaugh**, **Copilot**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4680#issuecomment-5048445036) **valentinmelusson** closed the issue after discovering the behavior wasn’t new but preexisting in TS6 and apologized for the noise
+ * (later) **valentinmelusson** closed the issue
 
-### [Issue microsoft/TypeScript-go#4681](https://github.com/microsoft/TypeScript-go/issues/4681) (Open, `duplicate`)
+### [Issue microsoft/TypeScript-go#4681](https://github.com/microsoft/TypeScript-go/issues/4681) (Closed, `duplicate`)
 
 **skipLibCheck doesn't suppress TS18042/TS2693 when a \.d\.ts's own export = points to a type instead of a value**
 
@@ -310,7 +312,7 @@
  * (today) **RyanCavanaugh** added label `bug`, and set milestone to `TypeScript 7.1`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4693](https://github.com/microsoft/TypeScript-go/pull/4693) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4693](https://github.com/microsoft/TypeScript-go/pull/4693) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Add regression test for TS7030 false positive with never\-returning function in switch default**
 
@@ -358,7 +360,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4697#issuecomment-5037651107) **jakebailey** observed that esModuleInterop being disabled was unsupported and inquired if it defaulted to true
  * **RyanCavanaugh** added label `Working As Intended`
 
-### [PR microsoft/TypeScript-go#4698](https://github.com/microsoft/TypeScript-go/pull/4698) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4698](https://github.com/microsoft/TypeScript-go/pull/4698) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Document and lock in TS7 skipLibCheck behavior for merged\-interface heritage conflicts**
 
@@ -367,7 +369,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript-go#4699](https://github.com/microsoft/TypeScript-go/pull/4699) (Open)
+### [PR microsoft/TypeScript-go#4699](https://github.com/microsoft/TypeScript-go/pull/4699) (Closed)
 
 **API emit**
 
@@ -396,14 +398,14 @@
 
 **Store value symbol links inline on checker\-created symbols**
 
-*Inline per-symbol side data for checker-created symbols to avoid costly map accesses and improve type-checker performance by up to 8%.*
+*Value symbol links for checker-created symbols are stored inline to eliminate paged store overhead and improve check performance.*
 
  * created by **mds-ant**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4703#issuecomment-5045300017) **jakebailey** said "@typescript-bot perf test this"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4703#issuecomment-5045301019) **typescript-automation[bot]** reported that perf test jobs had started and provided links to build and result statuses
  * [later](https://github.com/microsoft/TypeScript-go/pull/4703#issuecomment-5045689255) **typescript-automation[bot]** provided perf run results to @jakebailey
 
-### [Issue microsoft/TypeScript-go#4704](https://github.com/microsoft/TypeScript-go/issues/4704) (Open)
+### [Issue microsoft/TypeScript-go#4704](https://github.com/microsoft/TypeScript-go/issues/4704) (Closed)
 
 **\`new super\(\)\` in static method does not cause error**
 
@@ -411,7 +413,7 @@
 
  * created by **Withered-Flower-0422**
 
-### [Issue microsoft/TypeScript-go#4705](https://github.com/microsoft/TypeScript-go/issues/4705) (Open)
+### [Issue microsoft/TypeScript-go#4705](https://github.com/microsoft/TypeScript-go/issues/4705) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\`hasTrailingComma\` property is not implemented in \`RemoteNodeList\` class in the API**
 

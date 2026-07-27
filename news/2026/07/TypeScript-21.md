@@ -1,6 +1,6 @@
 # Report for 2026-07-21 (Tuesday, July 21st, 2026)
 
-6 different users commented on 9 different issues.
+7 different users commented on 9 different issues.
 
 ## Activity Summary
 
@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63663#issuecomment-5036091358) **MartinJohns** said "Duplicate of #46136, which falls under #9998 / #11498."
  * (today) **hkleungai** closed the issue
 
-### [Issue microsoft/TypeScript#63664](https://github.com/microsoft/TypeScript/issues/63664) (Open)
+### [Issue microsoft/TypeScript#63664](https://github.com/microsoft/TypeScript/issues/63664) (Open, `Needs Investigation`, **johnfav03**)
 
 **Incremental builder re\-emits entire transitive import closure on a whitespace\-only edit \(regression in 5\.5: exportedModulesMap removal \+ text version hashes stored as shape signatures\)**
 
@@ -34,7 +34,7 @@
 
  * created by **kaiguogit**
 
-### [PR microsoft/TypeScript#63665](https://github.com/microsoft/TypeScript/pull/63665) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63665](https://github.com/microsoft/TypeScript/pull/63665) (Closed, `For Uncommitted Bug`)
 
 **Do not overwrite computed \.d\.ts signatures with file versions; add disableUseFileVersionAsSignature to BuilderProgramHost**
 
@@ -44,8 +44,10 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/63665#issuecomment-5039679411) **kaiguogit** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript/pull/63665#issuecomment-5042719813) **MartinJohns** said "This looks like AI. Besides that, you made the changes in the wrong repository."
+ * [later](https://github.com/microsoft/TypeScript/pull/63665#issuecomment-5048434880) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
+ * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open)
+### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open, `Bug`)
 
 **\[5\.9 regression\] as const readonly tuple inferred as mutable through a nested generic call under a conditional\-type circular constraint**
 
@@ -53,7 +55,7 @@
 
  * created by **xkatianx**
 
-### [Issue microsoft/TypeScript#63667](https://github.com/microsoft/TypeScript/issues/63667) (Open)
+### [Issue microsoft/TypeScript#63667](https://github.com/microsoft/TypeScript/issues/63667) (Closed, `Not a Defect`)
 
 **Ambient redeclaration of a global type alias no longer overrides the built\-in lib declaration in TypeScript 7\.0 \(regression from 6\.0\)**
 
@@ -61,7 +63,7 @@
 
  * created by **chrisvltn**
 
-### [Issue microsoft/TypeScript#63668](https://github.com/microsoft/TypeScript/issues/63668) (Open)
+### [Issue microsoft/TypeScript#63668](https://github.com/microsoft/TypeScript/issues/63668) (Closed, `External`)
 
 **Package missing error from Typescript 7 via npm**
 

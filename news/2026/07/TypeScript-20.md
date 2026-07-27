@@ -25,7 +25,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/63599#issuecomment-4838708808) **alexandercarlis2-dotcom** advised to use Markdown for comment formatting
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63655](https://github.com/microsoft/TypeScript/issues/63655) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63655](https://github.com/microsoft/TypeScript/issues/63655) (Closed, `Duplicate`)
 
 **No type mismatch for records with enum keys inside object literal with dynamic key**
 
@@ -67,7 +67,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63658#issuecomment-5025706946) **RyanCavanaugh** said "Playground isn't really intended for multi-file setups"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63659](https://github.com/microsoft/TypeScript/issues/63659) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63659](https://github.com/microsoft/TypeScript/issues/63659) (Closed, `Working as Intended`)
 
 **JSON imported with \`import type\` treated as value**
 
