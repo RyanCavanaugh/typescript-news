@@ -1,6 +1,6 @@
 # Report for 2026-07-25 (Saturday, July 25th, 2026)
 
-10 different users commented on 9 different issues.
+10 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -54,7 +54,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4742#issuecomment-5080621843) **HuzaifaAbdulRehman** said "Closing as a duplicate of #4743; the two reports were filed concurrently. Continuing discussion in #4743."
  * (today) **HuzaifaAbdulRehman** closed the issue
 
-### [Issue microsoft/TypeScript-go#4743](https://github.com/microsoft/TypeScript-go/issues/4743) (Open)
+### [Issue microsoft/TypeScript-go#4743](https://github.com/microsoft/TypeScript-go/issues/4743) (Closed, **DanielRosenwasser**)
 
 **Panic: Stack overflow during contextual typing of yield in a computed property name**
 
@@ -62,7 +62,7 @@
 
  * created by **HuzaifaAbdulRehman**
 
-### [PR microsoft/TypeScript-go#4744](https://github.com/microsoft/TypeScript-go/pull/4744) (Open)
+### [PR microsoft/TypeScript-go#4744](https://github.com/microsoft/TypeScript-go/pull/4744) (Closed)
 
 **Reorganize AST to prevent duplicate fields**
 
@@ -85,7 +85,7 @@
  * (today) **helenkwok** closed the issue
  * (today) **helenkwok** closed the issue
 
-### [PR microsoft/TypeScript-go#4746](https://github.com/microsoft/TypeScript-go/pull/4746) (Open)
+### [PR microsoft/TypeScript-go#4746](https://github.com/microsoft/TypeScript-go/pull/4746) (Closed)
 
 **fix: emit missing TS7059 errors**
 

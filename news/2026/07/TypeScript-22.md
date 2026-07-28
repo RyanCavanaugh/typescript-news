@@ -177,7 +177,7 @@
  * created by **kaiguogit**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open, `Bug`, `Domain: check: Type Inference`)
 
 **\[5\.9 regression\] as const readonly tuple inferred as mutable through a nested generic call under a conditional\-type circular constraint**
 
@@ -233,7 +233,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63670#issuecomment-5050210572) **thiagobarbosa** said "@microsoft-github-policy-service agree"
  * [later](https://github.com/microsoft/TypeScript/pull/63670#issuecomment-5057699534) **MartinJohns** pointed out a missed important note in the contributing guidelines
 
-### [Issue microsoft/TypeScript#63671](https://github.com/microsoft/TypeScript/issues/63671) (Open)
+### [Issue microsoft/TypeScript#63671](https://github.com/microsoft/TypeScript/issues/63671) (Open, `Needs Investigation`, `Fix Available`, **andrewbranch**)
 
 **Module value in TSConfig does not enforce ModuleResolution value**
 
@@ -241,7 +241,7 @@
 
  * created by **yohny**
 
-### [Issue microsoft/TypeScript#63672](https://github.com/microsoft/TypeScript/issues/63672) (Open)
+### [Issue microsoft/TypeScript#63672](https://github.com/microsoft/TypeScript/issues/63672) (Open, `Working as Intended`)
 
 **showConfig CLI option no longer shows all the compilation options**
 

@@ -73,7 +73,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4610](https://github.com/microsoft/TypeScript-go/issues/4610) (Open, `Domain: Editor`, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript-go#4610](https://github.com/microsoft/TypeScript-go/issues/4610) (Closed, `Domain: Editor`, `Needs Investigation`, **johnfav03**)
 
 **Renaming a file can be very slow in some edge cases**
 
@@ -207,7 +207,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4729#issuecomment-5073653412) **robertkirkman** explained that building the Go binary so its file output matches the given ELF 64-bit LSB shared object for ARM aarch64 built by NDK r29 will work properly
  * [today](https://github.com/microsoft/TypeScript-go/pull/4729#issuecomment-5073663868) **jakebailey** said "I don't think it's required; I am putting up another PR that's the simplified version of this which perhaps you all could check. But, it'll only work for arm64."
 
-### [PR microsoft/TypeScript-go#4731](https://github.com/microsoft/TypeScript-go/pull/4731) (Open)
+### [PR microsoft/TypeScript-go#4731](https://github.com/microsoft/TypeScript-go/pull/4731) (Closed)
 
 **Lazily collect source file identifiers**
 

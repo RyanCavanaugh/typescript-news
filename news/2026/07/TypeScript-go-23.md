@@ -1,6 +1,6 @@
 # Report for 2026-07-23 (Thursday, July 23rd, 2026)
 
-17 different users commented on 28 different issues.
+17 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -58,7 +58,7 @@
  * created by **dragomirtitian**
  * (later) **dragomirtitian** closed the issue
 
-### [Issue microsoft/TypeScript-go#4581](https://github.com/microsoft/TypeScript-go/issues/4581) (Open)
+### [Issue microsoft/TypeScript-go#4581](https://github.com/microsoft/TypeScript-go/issues/4581) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS2719/TS2322 false positive on a generic type forwarded through an interface \`extends\` boundary \(tsc clean, tsgo fails\)**
 

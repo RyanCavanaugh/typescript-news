@@ -52,7 +52,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/63670#issuecomment-5057699534) **MartinJohns** pointed out a missed important note in the contributing guidelines
  * (today) **thiagobarbosa** closed the issue
 
-### [Issue microsoft/TypeScript#63679](https://github.com/microsoft/TypeScript/issues/63679) (Open)
+### [Issue microsoft/TypeScript#63679](https://github.com/microsoft/TypeScript/issues/63679) (Open, `Bug`, `Help Wanted`)
 
 **Should not allow \`import\.defer?\.\('x'\)\`**
 

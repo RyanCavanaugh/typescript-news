@@ -57,7 +57,7 @@
  * created by **DanielRosenwasser**
  * **DanielRosenwasser** added label `Design Notes`
 
-### [Issue microsoft/TypeScript#63677](https://github.com/microsoft/TypeScript/issues/63677) (Open)
+### [Issue microsoft/TypeScript#63677](https://github.com/microsoft/TypeScript/issues/63677) (Open, `Bug`)
 
 **type parameter variance in generic call signature is incorrectly bivariant**
 
@@ -65,7 +65,7 @@
 
  * created by **ahmedajiz629**
 
-### [Issue microsoft/TypeScript#63678](https://github.com/microsoft/TypeScript/issues/63678) (Open)
+### [Issue microsoft/TypeScript#63678](https://github.com/microsoft/TypeScript/issues/63678) (Open, `Needs Investigation`, **johnfav03**)
 
 **tsc \-\-watch doesn't work on NTFS partitions on Linux**
 

@@ -1,6 +1,6 @@
 # Report for 2026-07-21 (Tuesday, July 21st, 2026)
 
-7 different users commented on 9 different issues.
+7 different users commented on 10 different issues.
 
 ## Activity Summary
 
@@ -47,7 +47,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63665#issuecomment-5048434880) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63666](https://github.com/microsoft/TypeScript/issues/63666) (Open, `Bug`, `Domain: check: Type Inference`)
 
 **\[5\.9 regression\] as const readonly tuple inferred as mutable through a nested generic call under a conditional\-type circular constraint**
 

@@ -350,7 +350,7 @@
  * created by **MatthewHarrigan**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4696#issuecomment-5037634833) **microsoft-github-policy-service[bot]** asked the user to agree to the CLA by replying with the appropriate command
 
-### [Issue microsoft/TypeScript-go#4697](https://github.com/microsoft/TypeScript-go/issues/4697) (Open, `Working As Intended`)
+### [Issue microsoft/TypeScript-go#4697](https://github.com/microsoft/TypeScript-go/issues/4697) (Closed, `Working As Intended`)
 
 **Behavior difference: import \* as x of an export = callable loses call signatures without esModuleInterop \(TS2349\)**
 

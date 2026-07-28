@@ -1,6 +1,6 @@
 # Report for 2026-07-26 (Sunday, July 26th, 2026)
 
-6 different users commented on 14 different issues.
+8 different users commented on 21 different issues.
 
 ## Recommended Actions
 
@@ -61,7 +61,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4751#issuecomment-5085845909) **jakebailey** said "This repo is temporary and we are accepting issues in both. This repo will be archived in the near future."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4752](https://github.com/microsoft/TypeScript-go/issues/4752) (Open, `Crash`)
+### [Issue microsoft/TypeScript-go#4752](https://github.com/microsoft/TypeScript-go/issues/4752) (Open, `Crash`, **jakebailey**, **Copilot**)
 
 **\`tsconfig\.json\`: \`{"" }\` causes a panic, and more TS errors than v6**
 
@@ -69,30 +69,34 @@
 
  * created by **abrahamguo**
  * **abrahamguo** added label `Crash`
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4753](https://github.com/microsoft/TypeScript-go/issues/4753) (Open)
+### [Issue microsoft/TypeScript-go#4753](https://github.com/microsoft/TypeScript-go/issues/4753) (Closed, **jakebailey**, **Copilot**)
 
 **Putting a compiler option at the top level instead of in \`compilerOptions\` no longer reports**
 
 *Top-level compiler options in tsconfig.json no longer produce errors with tsgo, unlike TypeScript 6.0.*
 
  * created by **abrahamguo**
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4754](https://github.com/microsoft/TypeScript-go/issues/4754) (Open)
+### [Issue microsoft/TypeScript-go#4754](https://github.com/microsoft/TypeScript-go/issues/4754) (Closed, **jakebailey**, **Copilot**)
 
 **TS5092 no longer has a file/line/column**
 
 *TS5092 error reported by tsgo lacks file, line, and column location information compared to TypeScript 6.0*
 
  * created by **abrahamguo**
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4755](https://github.com/microsoft/TypeScript-go/issues/4755) (Open)
+### [Issue microsoft/TypeScript-go#4755](https://github.com/microsoft/TypeScript-go/issues/4755) (Closed, **jakebailey**, **Copilot**)
 
 **TS no longer reports "Did you mean" for misspelled \`tsconfig\.json\` options**
 
 *tsgo no longer suggests corrections for misspelled tsconfig compiler options like TypeScript 6.0 did*
 
  * created by **abrahamguo**
+ * (later) **jakebailey** assigned to **Copilot**, **jakebailey**
 
 ### [PR microsoft/TypeScript-go#4756](https://github.com/microsoft/TypeScript-go/pull/4756) (Open, `dependencies`, `github_actions`)
 
@@ -102,4 +106,48 @@
 
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
+
+### [Issue microsoft/TypeScript-go#4758](https://github.com/microsoft/TypeScript-go/issues/4758) (Open)
+
+**disableSourceOfProjectReferenceRedirect causes lodash per\-method submodule import to resolve to the wrong function**
+
+*Enabling disableSourceOfProjectReferenceRedirect in a referenced TypeScript project causes lodash/get imports to resolve as lodash/set under tsgo.*
+
+ * created by **valentinmelusson**
+
+### [PR microsoft/TypeScript-go#4759](https://github.com/microsoft/TypeScript-go/pull/4759) (Closed, **jakebailey**, **Copilot**)
+
+**Restore spelling suggestions for unknown tsconfig options**
+
+*Reapply spelling suggestions for unknown tsconfig.json options by using the suggestion algorithm in JSON parsing and emitting TS5025.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
+
+### [PR microsoft/TypeScript-go#4760](https://github.com/microsoft/TypeScript-go/pull/4760) (Closed, **jakebailey**, **Copilot**)
+
+**Restore source location for TS5092**
+
+*Associate TS5092 diagnostics with the root expression in tsconfig.json to restore file position and add test coverage for array-valued configs.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
+
+### [PR microsoft/TypeScript-go#4761](https://github.com/microsoft/TypeScript-go/pull/4761) (Closed, **jakebailey**, **Copilot**)
+
+**Report compiler options misplaced at the tsconfig root**
+
+*Implement diagnostic TS6258 and nonzero exit status for misplaced tsconfig compiler options outside compilerOptions*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
+
+### [PR microsoft/TypeScript-go#4762](https://github.com/microsoft/TypeScript-go/pull/4762) (Open, **jakebailey**, **Copilot**)
+
+**Prevent panic and duplicate diagnostics for malformed tsconfig properties**
+
+*Normalized recovered JSON node spans and suppressed redundant diagnostics to prevent panics and duplicate errors from malformed tsconfig properties.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **jakebailey**
 
