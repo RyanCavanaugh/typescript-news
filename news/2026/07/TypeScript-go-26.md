@@ -1,6 +1,6 @@
 # Report for 2026-07-26 (Sunday, July 26th, 2026)
 
-8 different users commented on 21 different issues.
+8 different users commented on 22 different issues.
 
 ## Recommended Actions
 
@@ -107,7 +107,7 @@
  * created by **dependabot[bot]**
  * (later) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
 
-### [Issue microsoft/TypeScript-go#4758](https://github.com/microsoft/TypeScript-go/issues/4758) (Open)
+### [Issue microsoft/TypeScript-go#4758](https://github.com/microsoft/TypeScript-go/issues/4758) (Closed)
 
 **disableSourceOfProjectReferenceRedirect causes lodash per\-method submodule import to resolve to the wrong function**
 

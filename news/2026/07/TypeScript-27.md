@@ -46,7 +46,7 @@
  * (3 weeks ago) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63672](https://github.com/microsoft/TypeScript/issues/63672) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63672](https://github.com/microsoft/TypeScript/issues/63672) (Closed, `Working as Intended`)
 
 **showConfig CLI option no longer shows all the compilation options**
 
@@ -75,7 +75,7 @@
  * created by **dayongkr**
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63683](https://github.com/microsoft/TypeScript/issues/63683) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#63683](https://github.com/microsoft/TypeScript/issues/63683) (Closed, `Working as Intended`)
 
 **Retain key type in \`Object\.entries\(\)\`**
 
@@ -86,7 +86,7 @@
  * **RyanCavanaugh** added label `Working as Intended`
  * [today](https://github.com/microsoft/TypeScript/issues/63683#issuecomment-5096497419) **RyanCavanaugh** said "entries is just keys + their values, so the same logic applies"
 
-### [Issue microsoft/TypeScript#63684](https://github.com/microsoft/TypeScript/issues/63684) (Open)
+### [Issue microsoft/TypeScript#63684](https://github.com/microsoft/TypeScript/issues/63684) (Closed)
 
 **كود**
 
@@ -94,17 +94,17 @@
 
  * created by **503badrr**
 
-### [Issue microsoft/TypeScript#63685](https://github.com/microsoft/TypeScript/issues/63685) (Open)
+### [Issue microsoft/TypeScript#63685](https://github.com/microsoft/TypeScript/issues/63685) (Closed)
 
 **JSDoc \`@type\` does not type a Promise in TypeScript Playground**
 
 *JSDoc @type {Promise<number>} annotations in TypeScript Playground don’t infer the Promise’s resolved type, making .then callback argument unknown.*
 
  * created by **arka-prat-juno**
- * [later](https://github.com/microsoft/TypeScript/issues/63685#issuecomment-5103325944) **MartinJohns** reported that they couldn't reproduce the issue after switching to JavaScript mode and removing the TypeScript code, noting that JSDoc doesn't work in TypeScript
+ * [later](https://github.com/microsoft/TypeScript/issues/63685#issuecomment-5103325944) **MartinJohns** reported inability to reproduce the issue after switching to JavaScript mode and removing TypeScript code, and noted that JSDoc typing does not work in TypeScript
  * [later](https://github.com/microsoft/TypeScript/issues/63685#issuecomment-5104862358) **jcalz** explained that the Playground file type must be set to JS instead of TS and provided a link
 
-### [Issue microsoft/TypeScript#63686](https://github.com/microsoft/TypeScript/issues/63686) (Open)
+### [Issue microsoft/TypeScript#63686](https://github.com/microsoft/TypeScript/issues/63686) (Closed, `Question`)
 
 **\`\!\` does not narrow discriminated unions when \`strict\` is \`false\`**
 

@@ -1,6 +1,6 @@
 # Report for 2026-07-27 (Monday, July 27th, 2026)
 
-18 different users commented on 41 different issues.
+19 different users commented on 44 different issues.
 
 ## Recommended Actions
 
@@ -48,7 +48,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-4969251422) **Ijtihed** said "so what's the consensus here? :) I can close if needed"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4218#issuecomment-5104213104) **Ijtihed** asked if there was anything left for them to do
 
-### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Open, `No linked issue`)
+### [PR microsoft/TypeScript-go#4239](https://github.com/microsoft/TypeScript-go/pull/4239) (Closed, `No linked issue`)
 
 **Replace ForEachReturnStatement closure with direct kind\-switched walk**
 
@@ -80,7 +80,19 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4581#issuecomment-5096743244) **RyanCavanaugh** provided a minimal reproduction case demonstrating a TS2719 error about two unrelated types with the same name for defaultColumn.Cell
  * (today) **RyanCavanaugh** added label `bug`, set milestone to `TypeScript 7.1`, assigned to **Copilot**, **RyanCavanaugh**, **Copilot**, **RyanCavanaugh**, and unassigned **RyanCavanaugh**, **Copilot**
 
-### [PR microsoft/TypeScript-go#4604](https://github.com/microsoft/TypeScript-go/pull/4604) (Open)
+### [PR microsoft/TypeScript-go#4582](https://github.com/microsoft/TypeScript-go/pull/4582) (Closed)
+
+**Call IsDirCoveredByWatch less often to improve performance**
+
+*Improve tsc --watch performance by reducing redundant IsDirCoveredByWatch calls and optimizing directory caching*
+
+ * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-4936667616) **AkisArou** tested the PR with tsgo --build --watch in a large monorepo and observed that watches were not installed after five minutes; prepared a proof-of-concept branch adding an indexed DirectorySet and updating orchestrator.go to use the index, which made watch initialization immediate
+ * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-4937051430) **terite** clarified that the PR only affected the tsgo --watch code path and explained reasons for not modifying the --build code path due to its prototype status and personal lack of usage
+ * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-4975044627) **terite** said "@microsoft-github-policy-service agree"
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4582#issuecomment-5106507276) **terite** said "Closing this in favor of #4658"
+ * (later) **terite** closed the issue
+
+### [PR microsoft/TypeScript-go#4604](https://github.com/microsoft/TypeScript-go/pull/4604) (Closed)
 
 **fix: prevent unnecessary diagnostic refreshes on irrelevant watch events \(\#4589\)**
 
@@ -210,7 +222,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4758](https://github.com/microsoft/TypeScript-go/issues/4758) (Open)
+### [Issue microsoft/TypeScript-go#4758](https://github.com/microsoft/TypeScript-go/issues/4758) (Closed)
 
 **disableSourceOfProjectReferenceRedirect causes lodash per\-method submodule import to resolve to the wrong function**
 
@@ -261,7 +273,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4763#issuecomment-5094134743) **camc314** said "Ah gotcha, thanks for the context 🙂 "
  * (today) **camc314** closed the issue
 
-### [PR microsoft/TypeScript-go#4764](https://github.com/microsoft/TypeScript-go/pull/4764) (Open)
+### [PR microsoft/TypeScript-go#4764](https://github.com/microsoft/TypeScript-go/pull/4764) (Closed)
 
 **Remove unused classifiable name tracking**
 
@@ -345,7 +357,7 @@
  * created by **ecraig12345**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4772](https://github.com/microsoft/TypeScript-go/pull/4772) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4772](https://github.com/microsoft/TypeScript-go/pull/4772) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Select "types returned by" vs "types of" from the merged dotted name in relation errors**
 
@@ -354,7 +366,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4773](https://github.com/microsoft/TypeScript-go/issues/4773) (Open)
+### [Issue microsoft/TypeScript-go#4773](https://github.com/microsoft/TypeScript-go/issues/4773) (Closed)
 
 **Consumer\-side TS2595 for a dependency \`\.d\.ts\` that mixes \`export =\` with named exports and suppresses its own TS2309**
 

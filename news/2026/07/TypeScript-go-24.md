@@ -1,6 +1,6 @@
 # Report for 2026-07-24 (Friday, July 24th, 2026)
 
-20 different users commented on 28 different issues.
+20 different users commented on 31 different issues.
 
 ## Recommended Actions
 
@@ -281,7 +281,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4737#issuecomment-5075057861) **jakebailey** said "These changes are not helpful, please stop"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4738](https://github.com/microsoft/TypeScript-go/issues/4738) (Open)
+### [Issue microsoft/TypeScript-go#4738](https://github.com/microsoft/TypeScript-go/issues/4738) (Open, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

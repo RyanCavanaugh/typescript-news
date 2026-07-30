@@ -1,6 +1,6 @@
 # Report for 2026-07-23 (Thursday, July 23rd, 2026)
 
-17 different users commented on 29 different issues.
+17 different users commented on 30 different issues.
 
 ## Recommended Actions
 
@@ -28,7 +28,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5063909048) **jakebailey** said "@copilot merge main and bring the baselines up to date"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5064115508) **Copilot** merged main and updated the stale baseline for tsc/projectReferences/when-project-references-have-invalid-fields
 
-### [Issue microsoft/TypeScript-go#4525](https://github.com/microsoft/TypeScript-go/issues/4525) (Open, `possible improvement`, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4525](https://github.com/microsoft/TypeScript-go/issues/4525) (Closed, `possible improvement`, `Needs Investigation`, **weswigham**)
 
 **Follow\-up on issues/4254: \`typeof\` emit does not happen in \`export const { \.\.\. } = default\`**
 
@@ -146,7 +146,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4715#issuecomment-5062840275) **jakebailey** said "There's basically no way we're going to ship the entire repo in the package."
  * [later](https://github.com/microsoft/TypeScript-go/issues/4715#issuecomment-5068954049) **thunder-coding** suggested packaging the repo separately or adding package.json scripts to download and build from the git tarball via gitHead
 
-### [Issue microsoft/TypeScript-go#4719](https://github.com/microsoft/TypeScript-go/issues/4719) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4719](https://github.com/microsoft/TypeScript-go/issues/4719) (Closed, **jakebailey**, **Copilot**)
 
 **tsgo reports type errors in external\-library \(node\_modules\) source files that tsc suppresses**
 
@@ -156,7 +156,7 @@
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4719#issuecomment-5063509787) **jakebailey** pointed out that non-declaration files from node_modules seemed incorrect and suggested the error was a new ordering issue unrelated to node_modules
 
-### [Issue microsoft/TypeScript-go#4720](https://github.com/microsoft/TypeScript-go/issues/4720) (Open)
+### [Issue microsoft/TypeScript-go#4720](https://github.com/microsoft/TypeScript-go/issues/4720) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Auto import suggestions break with circular workspace dependencies**
 
@@ -173,7 +173,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4722](https://github.com/microsoft/TypeScript-go/issues/4722) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4722](https://github.com/microsoft/TypeScript-go/issues/4722) (Open, `bug`, **jakebailey**, **Copilot**)
 
 **Nested nullish coalescing \+ comment \+ ES2018 causes function body to be ignored**
 

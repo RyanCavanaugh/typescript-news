@@ -56,7 +56,7 @@
 
 **Should not allow \`import\.defer?\.\('x'\)\`**
 
-*TypeScript erroneously permits optional chaining calls on import.defer (e.g., import.defer?.('x')) instead of rejecting them as invalid syntax.*
+*Prevent optional chaining calls on import.defer so import.defer?.('x') is correctly rejected.*
 
  * created by **fisker**
 

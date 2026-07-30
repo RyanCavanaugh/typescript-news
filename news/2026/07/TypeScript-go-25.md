@@ -94,7 +94,7 @@
  * created by **camc314**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4746#issuecomment-5083806727) **camc314** said "@codex review"
 
-### [Issue microsoft/TypeScript-go#4748](https://github.com/microsoft/TypeScript-go/issues/4748) (Open)
+### [Issue microsoft/TypeScript-go#4748](https://github.com/microsoft/TypeScript-go/issues/4748) (Open, `Needs More Info`)
 
 **Panic: nil pointer in NodeList\.HasTrailingComma during incremental rebuild \(build\-mode declaration printer\) — 7\.0\.2 and current nightly**
 
