@@ -206,7 +206,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4780#issuecomment-5121173433) **RyanCavanaugh** said "We would need a concrete LSP command sequence that shows where something is failing (or not responding). Please log a new issue if that information becomes available. Thanks!"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4781](https://github.com/microsoft/TypeScript-go/pull/4781) (Open)
+### [PR microsoft/TypeScript-go#4781](https://github.com/microsoft/TypeScript-go/pull/4781) (Closed)
 
 **Optimize \`narrowTypeByEquality\` and \`narrowTypeBySwitchOnDiscriminant\`**
 

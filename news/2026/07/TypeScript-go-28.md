@@ -1,6 +1,6 @@
 # Report for 2026-07-28 (Tuesday, July 28th, 2026)
 
-20 different users commented on 53 different issues.
+20 different users commented on 54 different issues.
 
 ## Recommended Actions
 
@@ -180,7 +180,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5086629187) **jasonlyu123** inquired whether the LSP-connected IPC API parameters should use generated or source positions and if purely generated positions could be requested
  * [today](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5109758000) **remcohaszing** praised the PR's start and offered feedback on content-mapped file emission, suggesting handling for MDX and declaration maps, questioning how emit should work with mapped files, and noting SpanMapping length differences and potential Volar compatibility issues
 
-### [Issue microsoft/TypeScript-go#4713](https://github.com/microsoft/TypeScript-go/issues/4713) (Open, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript-go#4713](https://github.com/microsoft/TypeScript-go/issues/4713) (Closed, `Needs Investigation`, **johnfav03**)
 
 **tsconfig/jsconfig diagnostic doesn't refresh after file saved**
 
@@ -389,7 +389,7 @@
  * (today) **RyanCavanaugh** added label `Needs More Info`, and set milestone to `Need More Info`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4780#issuecomment-5111450281) **KiYugadgeter** said "It looks like the server do not response to hover request"
 
-### [PR microsoft/TypeScript-go#4781](https://github.com/microsoft/TypeScript-go/pull/4781) (Open)
+### [PR microsoft/TypeScript-go#4781](https://github.com/microsoft/TypeScript-go/pull/4781) (Closed)
 
 **Optimize \`narrowTypeByEquality\` and \`narrowTypeBySwitchOnDiscriminant\`**
 

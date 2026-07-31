@@ -294,7 +294,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4738#issuecomment-5075535744) **typescript-automation[bot]** reported that the server connection closed prematurely for nuxt/nuxt and provided logs and repro steps
  * [today](https://github.com/microsoft/TypeScript-go/issues/4738#issuecomment-5075535782) **typescript-automation[bot]** reported a server connection closed prematurely error and provided affected repository details, logs, and repro steps
 
-### [PR microsoft/TypeScript-go#4739](https://github.com/microsoft/TypeScript-go/pull/4739) (Open)
+### [PR microsoft/TypeScript-go#4739](https://github.com/microsoft/TypeScript-go/pull/4739) (Closed)
 
 **Refresh config file diagnostics when a config file is saved**
 

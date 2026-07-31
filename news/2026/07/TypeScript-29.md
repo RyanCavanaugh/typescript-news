@@ -95,7 +95,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63689#issuecomment-5120589284) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63691](https://github.com/microsoft/TypeScript/issues/63691) (Open)
+### [Issue microsoft/TypeScript#63691](https://github.com/microsoft/TypeScript/issues/63691) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **JSDoc tag for getting around "Object literals are open\-ended"**
 
@@ -112,7 +112,7 @@
  * created by **Putaek84**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63693](https://github.com/microsoft/TypeScript/issues/63693) (Open)
+### [Issue microsoft/TypeScript#63693](https://github.com/microsoft/TypeScript/issues/63693) (Open, `Needs Investigation`, **joj**)
 
 **Typescript 6\.0\.3升级到7\.0后报错**
 
@@ -120,7 +120,7 @@
 
  * created by **zlm166**
 
-### [Issue microsoft/TypeScript#63694](https://github.com/microsoft/TypeScript/issues/63694) (Open)
+### [Issue microsoft/TypeScript#63694](https://github.com/microsoft/TypeScript/issues/63694) (Open, `Needs Investigation`, `Fix Available`, **ahejlsberg**)
 
 **Assignability between distributive conditional types and their branch type is reversed in contravariant positions**
 
@@ -128,7 +128,7 @@
 
  * created by **ahmedajiz629**
 
-### [Issue microsoft/TypeScript#63695](https://github.com/microsoft/TypeScript/issues/63695) (Open)
+### [Issue microsoft/TypeScript#63695](https://github.com/microsoft/TypeScript/issues/63695) (Open, `Suggestion`, `Awaiting More Feedback`)
 
 **Add support for \`@file\` jsdoc tag to describe a module**
 
@@ -136,7 +136,7 @@
 
  * created by **remcohaszing**
 
-### [Issue microsoft/TypeScript#63696](https://github.com/microsoft/TypeScript/issues/63696) (Open)
+### [Issue microsoft/TypeScript#63696](https://github.com/microsoft/TypeScript/issues/63696) (Open, `Bug`, `Help Wanted`)
 
 **False positive on destructured \`require\` is \`verbatimModuleSyntax\` and \`module\` is \`preserve\`**
 
