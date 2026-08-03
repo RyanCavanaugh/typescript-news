@@ -1,6 +1,6 @@
 # Report for 2026-07-30 (Thursday, July 30th, 2026)
 
-9 different users commented on 20 different issues.
+9 different users commented on 21 different issues.
 
 ## Recommended Actions
 
@@ -146,7 +146,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4797#issuecomment-5136157447) **Gerrit0** acknowledged that there were two cases he hadn't considered before and agreed it was a good idea
  * [today](https://github.com/microsoft/TypeScript-go/pull/4797#issuecomment-5136541195) **typescript-automation[bot]** provided the requested performance run results
 
-### [PR microsoft/TypeScript-go#4798](https://github.com/microsoft/TypeScript-go/pull/4798) (Open)
+### [PR microsoft/TypeScript-go#4798](https://github.com/microsoft/TypeScript-go/pull/4798) (Closed)
 
 **Avoid temporary composite mapper allocations**
 
@@ -177,7 +177,7 @@
  * created by **AMR5210**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4800#issuecomment-5136885164) **AMR5210** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript-go#4801](https://github.com/microsoft/TypeScript-go/issues/4801) (Open)
+### [Issue microsoft/TypeScript-go#4801](https://github.com/microsoft/TypeScript-go/issues/4801) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -216,12 +216,12 @@
 
 **Fix panic when serializing empty tuple array literal types**
 
-*Serializing an empty tuple array literal causes a panic in the tsgo server because cloned tuple references wrongly carry ObjectFlagsTuple.*
+*tsgo panics when serializing an empty tuple array literal because cloned type references incorrectly retain tuple flags.*
 
  * created by **artem1458**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4803#issuecomment-5144209590) **artem1458** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript-go#4804](https://github.com/microsoft/TypeScript-go/issues/4804) (Open)
+### [Issue microsoft/TypeScript-go#4804](https://github.com/microsoft/TypeScript-go/issues/4804) (Open, **andrewbranch**)
 
 **\`checker\.getTypeAtLocation\` panics for an array literal contextually typed by an empty tuple**
 

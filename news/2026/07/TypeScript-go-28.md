@@ -352,7 +352,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#4777](https://github.com/microsoft/TypeScript-go/pull/4777) (Open, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript-go#4777](https://github.com/microsoft/TypeScript-go/pull/4777) (Closed, `dependencies`, `javascript`)
 
 **Bump brace\-expansion from 5\.0\.6 to 5\.0\.8**
 
@@ -488,7 +488,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4789#issuecomment-5119968242) **jakebailey** said "We do not need duplicate issues filed here; the tracking issue linked above is just fine"
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4790](https://github.com/microsoft/TypeScript-go/pull/4790) (Open)
+### [PR microsoft/TypeScript-go#4790](https://github.com/microsoft/TypeScript-go/pull/4790) (Closed)
 
 **Skip stale overlay paths in markProjectsAffectedByConfigChanges**
 

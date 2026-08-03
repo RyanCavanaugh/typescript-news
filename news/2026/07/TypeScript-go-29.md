@@ -1,6 +1,6 @@
 # Report for 2026-07-29 (Wednesday, July 29th, 2026)
 
-12 different users commented on 33 different issues.
+12 different users commented on 34 different issues.
 
 ## Recommended Actions
 
@@ -300,7 +300,7 @@
  * created by **BhariGowda**
  * (later) **BhariGowda** closed the issue
 
-### [Issue microsoft/TypeScript-go#4795](https://github.com/microsoft/TypeScript-go/issues/4795) (Open)
+### [Issue microsoft/TypeScript-go#4795](https://github.com/microsoft/TypeScript-go/issues/4795) (Open, `Needs More Info`)
 
 **\`tsc \-\-watch\` doesn't recompile on file change**
 

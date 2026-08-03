@@ -20,7 +20,7 @@
  * [1.7 years ago](https://github.com/microsoft/TypeScript/issues/49229#issuecomment-2461809830) **sybereal** explained that Zod parsing can change input types and described using a decorator to abstract schema validation and avoid manual parsing
  * [1.5 years ago](https://github.com/microsoft/TypeScript/issues/49229#issuecomment-2600601913) **Jamesernator** suggested allowing decorators to change class type and reported a type error
  * [1.2 years ago](https://github.com/microsoft/TypeScript/issues/49229#issuecomment-2816161609) **Arlen22** provided another example illustrating usefulness and noted surprise that support was missing
- * [today](https://github.com/microsoft/TypeScript/issues/49229#issuecomment-5138510770) **ayden94** shared a concrete TypeScript-Go prototype exploring a decorator semantic model with a link to the branch and commit details, and explained the motivating mismatch and prototype semantics
+ * [today](https://github.com/microsoft/TypeScript/issues/49229#issuecomment-5138510770) **ayden94** provided implementation evidence and proposed a semantic model for type-changing standard method decorators in a TypeScript-Go/Corsa prototype
 
 ### [Issue microsoft/TypeScript#54256](https://github.com/microsoft/TypeScript/issues/54256) (Closed, `Suggestion`, `Domain: Performance`, `Experimentation Needed`, `Rescheduled`, **rbuckton**, **jakebailey**)
 
@@ -125,7 +125,7 @@
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63696#issuecomment-5134707373) **Samyra312007** said "Thanks for sharing."
 
-### [Issue microsoft/TypeScript#63697](https://github.com/microsoft/TypeScript/issues/63697) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#63697](https://github.com/microsoft/TypeScript/issues/63697) (Closed, `Design Limitation`)
 
 **Return type inference limitation**
 

@@ -69,7 +69,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4481#issuecomment-5097985779) **DanielRosenwasser** shared two Copilot-generated tests but noted inability to drive them
 
-### [Issue microsoft/TypeScript-go#4581](https://github.com/microsoft/TypeScript-go/issues/4581) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4581](https://github.com/microsoft/TypeScript-go/issues/4581) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS2719/TS2322 false positive on a generic type forwarded through an interface \`extends\` boundary \(tsc clean, tsgo fails\)**
 
