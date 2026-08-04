@@ -1,6 +1,6 @@
 # Report for 2026-07-31 (Friday, July 31st, 2026)
 
-14 different users commented on 26 different issues.
+14 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -254,7 +254,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4813](https://github.com/microsoft/TypeScript-go/pull/4813) (Open)
+### [PR microsoft/TypeScript-go#4813](https://github.com/microsoft/TypeScript-go/pull/4813) (Closed)
 
 **Avoid false symlink mappings for physical dependencies**
 
@@ -297,7 +297,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4814#issuecomment-5148473477) **typescript-automation[bot]** reported a panic handling textDocument/diagnostic request and provided a stack trace
  * [today](https://github.com/microsoft/TypeScript-go/issues/4814#issuecomment-5148473518) **typescript-automation[bot]** reported a panic due to an unhandled KindBinaryExpression node kind in a JSX initializer
 
-### [Issue microsoft/TypeScript-go#4815](https://github.com/microsoft/TypeScript-go/issues/4815) (Open)
+### [Issue microsoft/TypeScript-go#4815](https://github.com/microsoft/TypeScript-go/issues/4815) (Open, `Domain: API and Extensibility`, **andrewbranch**)
 
 **\[API\] Expose globals declared by a source file**
 

@@ -1,6 +1,6 @@
 # Report for 2026-08-02 (Sunday, August 2nd, 2026)
 
-4 different users commented on 6 different issues.
+4 different users commented on 7 different issues.
 
 ## Recommended Actions
 
@@ -40,6 +40,15 @@
 
  * created by **blixt**
  * (later) **blixt** closed the issue
+
+### [Issue microsoft/TypeScript-go#4815](https://github.com/microsoft/TypeScript-go/issues/4815) (Open, `Domain: API and Extensibility`, **andrewbranch**)
+
+**\[API\] Expose globals declared by a source file**
+
+*Expose SourceFile.Locals in the TypeScript JS API to more reliably retrieve global symbols declared in a source file.*
+
+ * created by **Gerrit0**
+ * (later) **RyanCavanaugh** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
 
 ### [Issue microsoft/TypeScript-go#4818](https://github.com/microsoft/TypeScript-go/issues/4818) (Open)
 

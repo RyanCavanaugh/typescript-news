@@ -37,7 +37,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63697#issuecomment-5154464359) **typescript-automation[bot]** said "This issue has been marked as "Design Limitation" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-automation[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63705](https://github.com/microsoft/TypeScript/issues/63705) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript#63705](https://github.com/microsoft/TypeScript/issues/63705) (Closed, `Needs Investigation`, **weswigham**)
 
 **TypeScript 7 declaration emit reuses an unrelated JSDoc import and generates an invalid type reference**
 
@@ -47,7 +47,7 @@
  * (yesterday) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/issues/63705#issuecomment-5153126629) **platypii** provided context as maintainer of hyparquet and hyparquet-writer and described a type error that surfaced after regenerating types with TypeScript 7 due to a dependency on SchemaElement
 
-### [Issue microsoft/TypeScript#63708](https://github.com/microsoft/TypeScript/issues/63708) (Open)
+### [Issue microsoft/TypeScript#63708](https://github.com/microsoft/TypeScript/issues/63708) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **It is possible to violate generic constraints when distributing union types**
 
@@ -63,7 +63,7 @@
 
  * created by **aweebit**
 
-### [Issue microsoft/TypeScript#63710](https://github.com/microsoft/TypeScript/issues/63710) (Open)
+### [Issue microsoft/TypeScript#63710](https://github.com/microsoft/TypeScript/issues/63710) (Open, `Domain: lib.d.ts`, `Possible Improvement`)
 
 **\`ReadonlyMap\` lacks documentation for \`forEach\`, \`get\`, \`has\` and \`size\`**
 
@@ -71,7 +71,7 @@
 
  * created by **KimMaru10**
 
-### [PR microsoft/TypeScript#63711](https://github.com/microsoft/TypeScript/pull/63711) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#63711](https://github.com/microsoft/TypeScript/pull/63711) (Open, `For Backlog Bug`)
 
 **docs: add JSDoc comments to ReadonlyMap interface**
 
@@ -80,7 +80,7 @@
  * created by **KimMaru10**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63712](https://github.com/microsoft/TypeScript/issues/63712) (Open)
+### [Issue microsoft/TypeScript#63712](https://github.com/microsoft/TypeScript/issues/63712) (Open, `Bug`)
 
 **Exported namespace class suppresses TS1308 for await in computed member names**
 

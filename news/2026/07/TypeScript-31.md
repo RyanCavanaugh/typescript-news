@@ -114,7 +114,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `Suggestion`, `Committed`, `Domain: lib.d.ts`, `ES Next`
 
-### [Issue microsoft/TypeScript#63705](https://github.com/microsoft/TypeScript/issues/63705) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript#63705](https://github.com/microsoft/TypeScript/issues/63705) (Closed, `Needs Investigation`, **weswigham**)
 
 **TypeScript 7 declaration emit reuses an unrelated JSDoc import and generates an invalid type reference**
 
@@ -136,7 +136,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63706#issuecomment-5149997554) **jakebailey** said "we do not need this"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#63707](https://github.com/microsoft/TypeScript/issues/63707) (Open)
+### [Issue microsoft/TypeScript#63707](https://github.com/microsoft/TypeScript/issues/63707) (Closed, `AI Spam`)
 
 **TypeScript Best Practices for Maintainable Production Code**
 
