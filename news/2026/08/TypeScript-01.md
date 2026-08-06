@@ -15,7 +15,7 @@
  * **RyanCavanaugh** added label `Domain: Conditional Types`
  * [today](https://github.com/microsoft/TypeScript/issues/55733#issuecomment-5154221977) **aweebit** noted that the issue matched issue #62665 and suggested using type inference in Unbox's definition
 
-### [Issue microsoft/TypeScript#63677](https://github.com/microsoft/TypeScript/issues/63677) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63677](https://github.com/microsoft/TypeScript/issues/63677) (Open, `Bug`, `Domain: check: Variance Relationships`)
 
 **type parameter variance in generic call signature is incorrectly bivariant**
 
@@ -55,7 +55,7 @@
 
  * created by **aweebit**
 
-### [Issue microsoft/TypeScript#63709](https://github.com/microsoft/TypeScript/issues/63709) (Open)
+### [Issue microsoft/TypeScript#63709](https://github.com/microsoft/TypeScript/issues/63709) (Open, `Fix Available`, `Cursed?`, `Possible Improvement`)
 
 **Property lookups on arguments to type parameters constrained by string index signatures can violate other constraints because undefined is included for optional properties**
 

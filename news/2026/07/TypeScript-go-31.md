@@ -1,6 +1,6 @@
 # Report for 2026-07-31 (Friday, July 31st, 2026)
 
-14 different users commented on 27 different issues.
+14 different users commented on 28 different issues.
 
 ## Recommended Actions
 
@@ -267,7 +267,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4813#issuecomment-5149982230) **typescript-automation[bot]** reported the requested performance run results including tsc comparison metrics
  * [today](https://github.com/microsoft/TypeScript-go/pull/4813#issuecomment-5150134780) **typescript-automation[bot]** reported that running tsc on the top 400 repos showed no differences between main and the PR merge
 
-### [Issue microsoft/TypeScript-go#4814](https://github.com/microsoft/TypeScript-go/issues/4814) (Open)
+### [Issue microsoft/TypeScript-go#4814](https://github.com/microsoft/TypeScript-go/issues/4814) (Open, `bug`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

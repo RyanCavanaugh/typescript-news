@@ -9,7 +9,7 @@
     * @jasonlyu123 asked for feedback on completion position mapping and overlapping span constraints in [microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5175223764)
     * @rkistner asked if @haines saw the same high CPU usage and delay after building in [microsoft/TypeScript-go#4795](https://github.com/microsoft/TypeScript-go/issues/4795#issuecomment-5177559893)
     * @rkistner reported that using 7.1.0-dev.20260804.1 resolved the issue in [microsoft/TypeScript-go#4795](https://github.com/microsoft/TypeScript-go/issues/4795#issuecomment-5177625279)
-    * @mj026 offered to provide a PR suggesting using --clientProcessId behaviour rather than removing the LSP parent watchdog in [microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5181165788)
+    * @mj026 offered to provide a PR for suggested implementation in [microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5181165788)
     * @typescript-automation[bot] provided perf run results as requested in [microsoft/TypeScript-go#4825](https://github.com/microsoft/TypeScript-go/pull/4825#issuecomment-5175461378)
 
 ## Activity Summary
@@ -24,7 +24,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-5109564324) **DanielRosenwasser** asked if resources or examples were available for multiple TS/JS blocks in an Astro file and what an importer received when handling them
  * [today](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-5166713919) **Mad-Kat** described migrating TS Server plugins and distribution challenges, contrasted current tsconfig-based integration with LSP-plus-editor extensions, and asked if a sidecar model would be on the table
  * [today](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-5170503808) **Princesseuh** apologized for the late answer and explained how multiple TS/JS script blocks in an Astro file share scope or isolate modules and compile to a single default export
- * [today](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-5170697901) **NullVoxPopuli** showed Ember glimmer-ts code examples illustrating module scripts, stateful and stateless components, and template type checking with glint
+ * [today](https://github.com/microsoft/TypeScript-go/issues/2824#issuecomment-5170697901) **NullVoxPopuli** explained Ember component format in glimmer-ts preserving block scope semantics and provided code examples
 
 ### [PR microsoft/TypeScript-go#4309](https://github.com/microsoft/TypeScript-go/pull/4309) (Closed)
 
@@ -53,7 +53,7 @@
 
 **Content mappers**
 
-*Add support for external content mapper packages in TypeScript configuration to transform unsupported file types into valid TypeScript syntax.*
+*Enable TypeScript content mappers to integrate unsupported file types by transforming and mapping them through tsconfig configuration.*
 
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5078512064) **mikearnaldi** explained that patch 0002 was incomplete, described mapping ambiguity at span boundaries requiring left/right affinity, and noted that his patch enabled completions at file end but might not be correct
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5086629187) **jasonlyu123** inquired whether the LSP-connected IPC API parameters should use generated or source positions and if purely generated positions could be requested
@@ -91,7 +91,7 @@
 
  * (3 days ago) **jakebailey** assigned to **Copilot**, **jakebailey**
  * **RyanCavanaugh** added to milestone `Post-7.0`
- * [later](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5181165788) **mj026** pointed out that vscode language servers implement a parent process watchdog and suggested using the --clientProcessId parameter instead of removing the LSP watchdog, offering to provide a PR
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5181165788) **mj026** noted that vscode language servers have similar behavior with a parent process watchdog and suggested using the --clientProcessId option instead of removing it; offered to provide a PR
 
 ### [PR microsoft/TypeScript-go#4813](https://github.com/microsoft/TypeScript-go/pull/4813) (Closed)
 
@@ -105,7 +105,7 @@
  * (today) **weswigham** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4813#issuecomment-5173745809) **platypii** said "thanks for fixing this so quickly! this fixes the issue I was hitting with my published libraries 🙌 "
 
-### [Issue microsoft/TypeScript-go#4819](https://github.com/microsoft/TypeScript-go/issues/4819) (Open)
+### [Issue microsoft/TypeScript-go#4819](https://github.com/microsoft/TypeScript-go/issues/4819) (Closed)
 
 **tsgo never terminates on a single three\.js TSL method call \(works in 5\.9\.3 and 6\.0\.3\)**
 
@@ -115,11 +115,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4819#issuecomment-5170414607) **RyanCavanaugh** guessed the issue stemmed from using a conditional type instead of a lookup type and linked to the relevant code segment
  * [today](https://github.com/microsoft/TypeScript-go/issues/4819#issuecomment-5175031885) **ahejlsberg** said "Looks related to (if not a duplicate of) #4528."
 
-### [PR microsoft/TypeScript-go#4820](https://github.com/microsoft/TypeScript-go/pull/4820) (Open)
+### [PR microsoft/TypeScript-go#4820](https://github.com/microsoft/TypeScript-go/pull/4820) (Closed)
 
 **Order variance computation by associated type symbol**
 
-*Variance computations for associated types are ordered by their symbols and, if a circular dependency is detected, restarted from the smallest symbol on the stack.*
+*Variance computation is now ordered by associated type symbol to ensure stable results for circular generic types.*
 
  * created by **ahejlsberg**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4820#issuecomment-5169094497) **ahejlsberg** said "@typescript-bot test it"
@@ -131,7 +131,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4820#issuecomment-5175676225) **typescript-automation[bot]** provided the perf run results requested by @ahejlsberg
  * [later](https://github.com/microsoft/TypeScript-go/pull/4820#issuecomment-5176061745) **typescript-automation[bot]** reported that running tsc on the top 400 repos comparing main and the pull request merge showed everything looked good
 
-### [PR microsoft/TypeScript-go#4821](https://github.com/microsoft/TypeScript-go/pull/4821) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4821](https://github.com/microsoft/TypeScript-go/pull/4821) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix TS1308 suppressed for \`await\` in computed property names of exported namespace classes**
 
@@ -140,7 +140,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4822](https://github.com/microsoft/TypeScript-go/issues/4822) (Open)
+### [Issue microsoft/TypeScript-go#4822](https://github.com/microsoft/TypeScript-go/issues/4822) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Add batched assignability checks into the \`Checker API\`**
 
@@ -158,7 +158,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4823#issuecomment-5171393580) **Copilot** explained that export class was removed from invalid test locations and updated tests to use plain class in nested contexts while retaining export class only where syntactically legal
 
-### [Issue microsoft/TypeScript-go#4824](https://github.com/microsoft/TypeScript-go/issues/4824) (Open)
+### [Issue microsoft/TypeScript-go#4824](https://github.com/microsoft/TypeScript-go/issues/4824) (Open, `bug`, **jakebailey**)
 
 **ram use regression from new @deprecated diagnostics**
 
@@ -180,7 +180,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4825#issuecomment-5175250058) **typescript-automation[bot]** indicated that performance tests started and provided links to status and results
  * [today](https://github.com/microsoft/TypeScript-go/pull/4825#issuecomment-5175461378) **typescript-automation[bot]** posted requested perf run results
 
-### [Issue microsoft/TypeScript-go#4826](https://github.com/microsoft/TypeScript-go/issues/4826) (Open)
+### [Issue microsoft/TypeScript-go#4826](https://github.com/microsoft/TypeScript-go/issues/4826) (Open, `bug`, **RyanCavanaugh**, **iisaduan**, **Copilot**)
 
 **\[lsp\] Go to Definition returns sources\[0\] of the declaration map instead of the mapped source file**
 
@@ -188,7 +188,7 @@
 
  * created by **flosrn**
 
-### [Issue microsoft/TypeScript-go#4827](https://github.com/microsoft/TypeScript-go/issues/4827) (Open)
+### [Issue microsoft/TypeScript-go#4827](https://github.com/microsoft/TypeScript-go/issues/4827) (Closed, `Type Ordering`)
 
 **Generic type argument inferred from the wrong inference slot \(cyclic union\-of\-intersections\); larger programs show scheduling\-dependent diagnostics**
 

@@ -1,6 +1,6 @@
 # Report for 2026-08-03 (Monday, August 3rd, 2026)
 
-6 different users commented on 18 different issues.
+6 different users commented on 19 different issues.
 
 ## Recommended Actions
 
@@ -64,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63714#issuecomment-5173766276) **MartinJohns** explained that the behavior matched the specification from issue #32695, detailing the conditions for assertion or never-returning calls
  * [later](https://github.com/microsoft/TypeScript/issues/63714#issuecomment-5179477257) **jcalz** explained how to ensure control flow analysis by explicitly typing the impl variable and provided a code example
 
-### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Open)
+### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Open, `Duplicate`)
 
 **Implicitly typed type guard does not guard**
 

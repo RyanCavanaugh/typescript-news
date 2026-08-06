@@ -50,7 +50,7 @@
  * created by **Gerrit0**
  * (later) **RyanCavanaugh** added label `Domain: API and Extensibility`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#4818](https://github.com/microsoft/TypeScript-go/issues/4818) (Open)
+### [Issue microsoft/TypeScript-go#4818](https://github.com/microsoft/TypeScript-go/issues/4818) (Open, `Needs Investigation`, **gabritto**)
 
 **internal/ls: getContextNodeForNodeEntry returns nil for module\-specifier literals \(stock returns the enclosing import statement\)**
 
@@ -58,7 +58,7 @@
 
  * created by **johnsoncodehk**
 
-### [Issue microsoft/TypeScript-go#4819](https://github.com/microsoft/TypeScript-go/issues/4819) (Open)
+### [Issue microsoft/TypeScript-go#4819](https://github.com/microsoft/TypeScript-go/issues/4819) (Closed)
 
 **tsgo never terminates on a single three\.js TSL method call \(works in 5\.9\.3 and 6\.0\.3\)**
 
