@@ -53,7 +53,7 @@
 
 **Content mappers**
 
-*Enable TypeScript content mappers to integrate unsupported file types by transforming and mapping them through tsconfig configuration.*
+*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
 
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5078512064) **mikearnaldi** explained that patch 0002 was incomplete, described mapping ambiguity at span boundaries requiring left/right affinity, and noted that his patch enabled completions at file end but might not be correct
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5086629187) **jasonlyu123** inquired whether the LSP-connected IPC API parameters should use generated or source positions and if purely generated positions could be requested

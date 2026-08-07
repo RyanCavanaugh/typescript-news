@@ -36,7 +36,7 @@
 
 **Content mappers**
 
-*Enable TypeScript content mappers to integrate unsupported file types by transforming and mapping them through tsconfig configuration.*
+*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
 
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5109758000) **remcohaszing** praised the PR's start and offered feedback on content-mapped file emission, suggesting handling for MDX and declaration maps, questioning how emit should work with mapped files, and noting SpanMapping length differences and potential Volar compatibility issues
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5175223764) **jasonlyu123** described issues with completion position mapping and span mapping constraints in Svelte transformations and asked for feedback on treating completion positions as range ends and on overlapping segment rules

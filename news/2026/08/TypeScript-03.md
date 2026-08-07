@@ -54,7 +54,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/63713#issuecomment-5178141961) **Abhirup0** acknowledged the explanation and said they would close the PR and port the fix to typescript-go
  * (later) **Abhirup0** closed the issue
 
-### [Issue microsoft/TypeScript#63714](https://github.com/microsoft/TypeScript/issues/63714) (Open, `Design Limitation`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#63714](https://github.com/microsoft/TypeScript/issues/63714) (Closed, `Design Limitation`, **RyanCavanaugh**, **Copilot**)
 
 **Typescript still checks return type in a lamba that calls a function returning 'never'**
 
@@ -64,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63714#issuecomment-5173766276) **MartinJohns** explained that the behavior matched the specification from issue #32695, detailing the conditions for assertion or never-returning calls
  * [later](https://github.com/microsoft/TypeScript/issues/63714#issuecomment-5179477257) **jcalz** explained how to ensure control flow analysis by explicitly typing the impl variable and provided a code example
 
-### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Closed, `Duplicate`)
 
 **Implicitly typed type guard does not guard**
 

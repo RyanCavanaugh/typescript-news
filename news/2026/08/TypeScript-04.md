@@ -47,7 +47,7 @@
  * (today) **RyanCavanaugh** added labels `Cursed?`, `Possible Improvement`, and set milestone to `Dormant`
  * **typescript-automation[bot]** added label `Fix Available`
 
-### [Issue microsoft/TypeScript#63714](https://github.com/microsoft/TypeScript/issues/63714) (Open, `Design Limitation`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#63714](https://github.com/microsoft/TypeScript/issues/63714) (Closed, `Design Limitation`, **RyanCavanaugh**, **Copilot**)
 
 **Typescript still checks return type in a lamba that calls a function returning 'never'**
 
@@ -59,7 +59,7 @@
  * (today) **RyanCavanaugh** added label `Design Limitation`, and assigned to **Copilot**, **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript/issues/63714#issuecomment-5181997167) **RyanCavanaugh** said "Added https://github.com/microsoft/TypeScript/wiki/FAQ#calls-to-cfa-affecting-require-explicitly-typed-names-to-affect-control-flow"
 
-### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63715](https://github.com/microsoft/TypeScript/issues/63715) (Closed, `Duplicate`)
 
 **Implicitly typed type guard does not guard**
 

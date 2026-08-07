@@ -114,7 +114,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63724#issuecomment-5204420107) **MartinJohns** said "The actual issue is that the compiler can't narrow down Uppercase to Uppercase when comparing to such a string. I don't know if there's an open issue for this specifically."
  * [later](https://github.com/microsoft/TypeScript/issues/63724#issuecomment-5205037210) **jcalz** described that Uppercase<string> could not be narrowed via equality check and demonstrated a user-defined type guard as a workaround
 
-### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open)
+### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open, `Bug`, `Fix Available`)
 
 **Type argument with a subset of the parameter constraint's optional keys incorrectly reported as unassignable to constraint**
 
