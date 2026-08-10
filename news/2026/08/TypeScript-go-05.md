@@ -22,9 +22,9 @@
 
 ### [PR microsoft/TypeScript-go#4313](https://github.com/microsoft/TypeScript-go/pull/4313) (Open)
 
-**Assign checkers with cost/import\-aware algorithm**
+**Assign files to checkers using balanced import affinity**
 
-*Develop a cost- and import-aware algorithm to assign diagnostic checkers more efficiently.*
+*A FENNEL-based balanced import affinity algorithm replaces round-robin checker assignment to boost checking performance and reduce memory usage by 10%.*
 
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5149687767) **typescript-automation[bot]** reported that perf test started and provided build and results links
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5149784101) **typescript-automation[bot]** reported the performance run results in a comparison report
@@ -117,7 +117,7 @@
 
  * created by **Gerrit0**
 
-### [Issue microsoft/TypeScript-go#4838](https://github.com/microsoft/TypeScript-go/issues/4838) (Open)
+### [Issue microsoft/TypeScript-go#4838](https://github.com/microsoft/TypeScript-go/issues/4838) (Closed, `Needs Investigation`, **johnfav03**)
 
 **\`tsc \-\-watch\` can't handle errors across files**
 

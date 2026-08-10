@@ -1,6 +1,6 @@
 # Report for 2026-08-06 (Thursday, August 6th, 2026)
 
-10 different users commented on 12 different issues.
+9 different users commented on 13 different issues.
 
 ## Recommended Actions
 
@@ -94,14 +94,13 @@
  * created by **astegmaier**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4841#issuecomment-5209140467) **astegmaier** noted that the PR contained the discussed bug fix and disclosed that the reproduction was hand-crafted while the PR itself was agent-generated
 
-### [PR microsoft/TypeScript-go#4842](https://github.com/microsoft/TypeScript-go/pull/4842) (Open)
+### [PR microsoft/TypeScript-go#4842](https://github.com/microsoft/TypeScript-go/pull/4842) (Closed)
 
 **Fix crash when a call signature's type parameter cannot be reused**
 
 *Call signature type parameter reuse failure currently produces nil AST nodes unchecked, causing a printer crash.*
 
  * created by **nikeedw**
- * [today](https://github.com/microsoft/TypeScript-go/pull/4842#issuecomment-5209358113) **microsoft-github-policy-service[bot]** asked the contributor to agree to the CLA by replying with the required command
  * [later](https://github.com/microsoft/TypeScript-go/pull/4842#issuecomment-5215747276) **nikeedw** thanked CI for green results, declined to sign the CLA, suggested treating the PR as a proposal rather than merging, and noted the change may only address a symptom
 
 ### [PR microsoft/TypeScript-go#4843](https://github.com/microsoft/TypeScript-go/pull/4843) (Open)

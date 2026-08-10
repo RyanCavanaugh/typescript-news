@@ -11,7 +11,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#61577](https://github.com/microsoft/TypeScript/issues/61577) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#61577](https://github.com/microsoft/TypeScript/issues/61577) (Closed, `Not a Defect`)
 
 **Confusing error message when there is an accidental circular reference in monorepo**
 
@@ -113,7 +113,7 @@
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Dormant`
  * **typescript-automation[bot]** added label `Fix Available`
 
-### [Issue microsoft/TypeScript#63727](https://github.com/microsoft/TypeScript/issues/63727) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63727](https://github.com/microsoft/TypeScript/issues/63727) (Closed, `Duplicate`)
 
 **\`const K = classFactory\(\.\.\.\)\` should be equivalent to \`class K extends classFactory\(\.\.\.\) {}\`**
 
@@ -155,7 +155,7 @@
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/63730#issuecomment-5209708140) **grundb** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#63731](https://github.com/microsoft/TypeScript/issues/63731) (Open)
+### [Issue microsoft/TypeScript#63731](https://github.com/microsoft/TypeScript/issues/63731) (Open, `Needs Investigation`, `Fix Available`, **johnfav03**)
 
 **\-\-incremental: after a pnpm dependency version change, the cached run is slower than a cold run and most of the time is unattributed**
 

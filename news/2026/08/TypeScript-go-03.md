@@ -1,6 +1,6 @@
 # Report for 2026-08-03 (Monday, August 3rd, 2026)
 
-19 different users commented on 18 different issues.
+19 different users commented on 19 different issues.
 
 ## Recommended Actions
 
@@ -40,9 +40,9 @@
 
 ### [PR microsoft/TypeScript-go#4313](https://github.com/microsoft/TypeScript-go/pull/4313) (Open)
 
-**Assign checkers with cost/import\-aware algorithm**
+**Assign files to checkers using balanced import affinity**
 
-*Develop a cost- and import-aware algorithm to assign diagnostic checkers more efficiently.*
+*A FENNEL-based balanced import affinity algorithm replaces round-robin checker assignment to boost checking performance and reduce memory usage by 10%.*
 
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5149687534) **jakebailey** said "@typescript-bot perf test this faster"
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5149687767) **typescript-automation[bot]** reported that perf test started and provided build and results links
