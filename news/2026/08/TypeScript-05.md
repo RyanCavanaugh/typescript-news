@@ -127,7 +127,7 @@
 
 **Poorly formed output with JSDoc typedef**
 
-*JSDoc typedef output includes embedded asterisks, producing malformed TypeScript declaration files.*
+*JSDoc typedef produces malformed TypeScript definitions embedding stray asterisks in the union type.*
 
  * created by **brettz9**
 

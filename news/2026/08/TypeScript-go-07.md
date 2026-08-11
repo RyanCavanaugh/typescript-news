@@ -48,7 +48,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4674#issuecomment-5016285782) **veksa** said "@microsoft-github-policy-service agree"
  * **RyanCavanaugh** added label `Voight-Kampff Anomaly`
 
-### [Issue microsoft/TypeScript-go#4748](https://github.com/microsoft/TypeScript-go/issues/4748) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript-go#4748](https://github.com/microsoft/TypeScript-go/issues/4748) (Open, `Needs Investigation`, **weswigham**)
 
 **Panic: nil pointer in NodeList\.HasTrailingComma during incremental rebuild \(build\-mode declaration printer\) — 7\.0\.2 and current nightly**
 
@@ -101,7 +101,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5181165788) **mj026** noted that vscode language servers have similar behavior with a parent process watchdog and suggested using the --clientProcessId option instead of removing it; offered to provide a PR
  * [today](https://github.com/microsoft/TypeScript-go/issues/4809#issuecomment-5222278230) **jakebailey** said "How does that help your case? If you're launching in docker, how would you know the PID ahead of time if it's inside a container or something?"
 
-### [PR microsoft/TypeScript-go#4823](https://github.com/microsoft/TypeScript-go/pull/4823) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4823](https://github.com/microsoft/TypeScript-go/pull/4823) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Preserve await context for exported classes in nested containers**
 
@@ -197,7 +197,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4846#issuecomment-5222019357) **nikeedw** noted that the crash site was previously fixed by PR #3485 with a similar pattern and that this PR applies the same fix to another node-builder path, but warned that other producers could still yield nil and suggested a more general solution might be needed
  * [today](https://github.com/microsoft/TypeScript-go/pull/4846#issuecomment-5222176600) **nikeedw** provided a detailed static and dynamic survey showing that on main, NodeList constructions produce no nil elements in the test suite and only one nil in the two-file repro scenario
 
-### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open)
+### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
 
@@ -214,7 +214,7 @@
  * created by **johnfav03**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4848#issuecomment-5222109644) **jakebailey** asked to split the PR into two commits, first adding the test and baseline and then the fix with the baseline update
 
-### [PR microsoft/TypeScript-go#4849](https://github.com/microsoft/TypeScript-go/pull/4849) (Open)
+### [PR microsoft/TypeScript-go#4849](https://github.com/microsoft/TypeScript-go/pull/4849) (Closed)
 
 **Port transpileModule, transpileDeclaration**
 

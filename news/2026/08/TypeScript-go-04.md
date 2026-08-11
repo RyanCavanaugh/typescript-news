@@ -121,7 +121,7 @@
  * created by **artem1458**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Possible Improvement`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript-go#4823](https://github.com/microsoft/TypeScript-go/pull/4823) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4823](https://github.com/microsoft/TypeScript-go/pull/4823) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Preserve await context for exported classes in nested containers**
 

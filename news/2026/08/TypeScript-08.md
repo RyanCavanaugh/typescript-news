@@ -32,7 +32,7 @@
  * (today) **rexblade58** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/63734#issuecomment-5227077634) **MartinJohns** said "...what feedback?"
 
-### [Issue microsoft/TypeScript#63735](https://github.com/microsoft/TypeScript/issues/63735) (Open)
+### [Issue microsoft/TypeScript#63735](https://github.com/microsoft/TypeScript/issues/63735) (Closed, `Working as Intended`)
 
 **Syntax error in an importing root file suppresses diagnostics in unrelated root files**
 
