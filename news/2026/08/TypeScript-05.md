@@ -35,7 +35,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/50466#issuecomment-5172407186) **miami-man** said "Has this been resolved yet? I've been using a command line tool to automate this process for a few years now, so have lost track of status. "
  * [today](https://github.com/microsoft/TypeScript/issues/50466#issuecomment-5195005662) **andrewbranch** said "I don’t know why this wasn’t closed as “Working as Intended.”"
 
-### [Issue microsoft/TypeScript#63709](https://github.com/microsoft/TypeScript/issues/63709) (Open, `Fix Available`, `Cursed?`, `Possible Improvement`)
+### [Issue microsoft/TypeScript#63709](https://github.com/microsoft/TypeScript/issues/63709) (Open, `Domain: Indexed Access Types`, `Fix Available`, `Cursed?`, `Possible Improvement`)
 
 **Property lookups on arguments to type parameters constrained by string index signatures can violate other constraints because undefined is included for optional properties**
 
@@ -46,7 +46,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63709#issuecomment-5199270589) **aweebit** explained reasons why index signatures should assume optionality and proposed introducing a new tsconfig option strictLookupTypes to enforce strict checking of lookup types
  * [later](https://github.com/microsoft/TypeScript/issues/63709#issuecomment-5204328086) **aweebit** demonstrated that the same issue with undefined in lookup types due to optional keys occurs in another TypeScript example and linked to the related issue
 
-### [Issue microsoft/TypeScript#63718](https://github.com/microsoft/TypeScript/issues/63718) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#63718](https://github.com/microsoft/TypeScript/issues/63718) (Open, `Bug`, `Help Wanted`, `Domain: Parser`)
 
 **TS1518 depends on operand order in negated v\-mode class unions**
 
@@ -101,7 +101,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63723#issuecomment-5200212249) **goutamadwant** agreed with microsoft-github-policy-service
  * [later](https://github.com/microsoft/TypeScript/pull/63723#issuecomment-5201508996) **MartinJohns** directed the user to read the contributing guidelines and explained that only critical 6.0 fixes in the typescript-go repo would be merged
 
-### [Issue microsoft/TypeScript#63724](https://github.com/microsoft/TypeScript/issues/63724) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#63724](https://github.com/microsoft/TypeScript/issues/63724) (Open, `Bug`, `Help Wanted`, `Domain: check: Control Flow`)
 
 **Type narrowing not working correctly with Uppercase\<string\> & Lowercase\<string\>**
 
@@ -114,7 +114,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63724#issuecomment-5204420107) **MartinJohns** said "The actual issue is that the compiler can't narrow down Uppercase to Uppercase when comparing to such a string. I don't know if there's an open issue for this specifically."
  * [later](https://github.com/microsoft/TypeScript/issues/63724#issuecomment-5205037210) **jcalz** described that Uppercase<string> could not be narrowed via equality check and demonstrated a user-defined type guard as a workaround
 
-### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open, `Bug`, `Domain: Mapped Types`, `Fix Available`)
 
 **Type argument with a subset of the parameter constraint's optional keys incorrectly reported as unassignable to constraint**
 
@@ -123,7 +123,7 @@
  * created by **aweebit**
  * [later](https://github.com/microsoft/TypeScript/issues/63725#issuecomment-5205092689) **aweebit** described a serious bug affecting a library and provided a minimal reproducible example
 
-### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open)
+### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Fix Available`, **sandersn**)
 
 **Poorly formed output with JSDoc typedef**
 

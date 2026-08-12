@@ -1,6 +1,6 @@
 # Report for 2026-08-08 (Saturday, August 8th, 2026)
 
-5 different users commented on 9 different issues.
+5 different users commented on 10 different issues.
 
 ## Activity Summary
 
@@ -40,7 +40,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4853#issuecomment-5228383848) **jakebailey** said "Not sure why you need this but we definitely do not"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4854](https://github.com/microsoft/TypeScript-go/issues/4854) (Open)
+### [Issue microsoft/TypeScript-go#4854](https://github.com/microsoft/TypeScript-go/issues/4854) (Closed, `enhancement`, **jakebailey**)
 
 **macOS: allow DYLD\_INSERT\_LIBRARIES in tsgo**
 

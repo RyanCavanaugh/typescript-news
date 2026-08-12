@@ -47,7 +47,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open)
+### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open, `Not a Defect`)
 
 **Superclass type argument inferred as unknown when it's only used as a method parameter type constraint**
 

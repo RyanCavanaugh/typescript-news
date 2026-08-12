@@ -1,6 +1,6 @@
 # Report for 2026-08-10 (Monday, August 10th, 2026)
 
-13 different users commented on 39 different issues.
+14 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -35,6 +35,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5194975562) **typescript-automation[bot]** started CI jobs and posted status update
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5195258586) **typescript-automation[bot]** posted the requested perf run results with a detailed comparison report
  * [today](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5244383319) **jakebailey** said "I tested the method from #4856 and it was worse; the FENNEL approach here does a better job across workloads, mui, etc."
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4313#issuecomment-5254846282) **RyanCavanaugh** suggested giving a parameter sweep for the remaining constant factor and said the code looked good
 
 ### [Issue microsoft/TypeScript-go#4499](https://github.com/microsoft/TypeScript-go/issues/4499) (Closed, `Domain: API and Extensibility`, **andrewbranch**)
 
@@ -104,12 +105,22 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Allow TypeScript to integrate external content mappers via tsconfig to transform and map unsupported file types into valid syntax.*
 
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5211145449) **andrewbranch** said "Another significant change: a content mapper may now emit additional supplemental files as part of any Transform response. PR description updated again."
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5213869402) **johnnyreilly** asked whether the custom transformers functionality would cover what transformers did in the TS API
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5218558612) **andrewbranch** said "No, but custom transformers are still planned, mentioned in #4830. I’ll add ts-loader to the list of projects that needs it!"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5247642853) **andrewbranch** described how third-party VS Code extensions can now contribute bundled content mappers directly, restricted to inferred projects without jsconfig/tsconfig files
+
+### [Issue microsoft/TypeScript-go#4720](https://github.com/microsoft/TypeScript-go/issues/4720) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
+
+**Auto import suggestions break with circular workspace dependencies**
+
+*Auto-import suggestions in tsgo fail for relative imports within workspaces involved in a circular dependency chain.*
+
+ * (1 week ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **andrewbranch**
+ * **andrewbranch** assigned to **Copilot**
+ * (later) **andrewbranch** closed the issue
 
 ### [Issue microsoft/TypeScript-go#4722](https://github.com/microsoft/TypeScript-go/issues/4722) (Open, `bug`, **jakebailey**, **Copilot**)
 
@@ -231,6 +242,25 @@
  * (3 days ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **johnfav03**
  * (today) **johnfav03** closed the issue
 
+### [PR microsoft/TypeScript-go#4839](https://github.com/microsoft/TypeScript-go/pull/4839) (Open, **sandersn**)
+
+**fix\(63726\): fix declaration emit for multiline jsdoc literal types**
+
+*Ensure TypeScript declaration files accurately emit multiline JSDoc literal types.*
+
+ * created by **a-tarasyuk**
+ * **RyanCavanaugh** assigned to **sandersn**
+
+### [Issue microsoft/TypeScript-go#4844](https://github.com/microsoft/TypeScript-go/issues/4844) (Closed)
+
+**CONTRIBUTING\.md out of date**
+
+*CONTRIBUTING.md still limits acceptable changes to TypeScript 6.0/7.0 differences even though TypeScript 7.0 has been officially released.*
+
+ * created by **eagarwal-notion**
+ * [later](https://github.com/microsoft/TypeScript-go/issues/4844#issuecomment-5255286306) **RyanCavanaugh** said "This repo will be closing shortly, so we'll be fixing this up as part of the move"
+ * (later) **RyanCavanaugh** closed the issue
+
 ### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
@@ -260,7 +290,18 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript-go#4854](https://github.com/microsoft/TypeScript-go/issues/4854) (Open)
+### [Issue microsoft/TypeScript-go#4851](https://github.com/microsoft/TypeScript-go/issues/4851) (Open, `Needs Investigation`, **johnfav03**)
+
+**\[ServerErrors\]\[TypeScript\] main vs **
+
+*The Azure pipeline run on TypeScript's main branch analyzed 300 popular GitHub repositories, detected 27 changes, and encountered multiple timeouts, clone failures, and unknown errors.*
+
+ * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/4851#issuecomment-5223443362) **typescript-automation[bot]** reported a panic during textDocument/diagnostic request and logged a stack trace
+ * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/4851#issuecomment-5223443422) **typescript-automation[bot]** reported a panic error in JSX transformer with a stack trace
+ * [3 days ago](https://github.com/microsoft/TypeScript-go/issues/4851#issuecomment-5223443481) **typescript-automation[bot]** reported a panic in handling textDocument/diagnostic with a stack trace and affected repo details
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **johnfav03**
+
+### [Issue microsoft/TypeScript-go#4854](https://github.com/microsoft/TypeScript-go/issues/4854) (Closed, `enhancement`, **jakebailey**)
 
 **macOS: allow DYLD\_INSERT\_LIBRARIES in tsgo**
 
@@ -309,7 +350,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4868](https://github.com/microsoft/TypeScript-go/pull/4868) (Open)
+### [PR microsoft/TypeScript-go#4868](https://github.com/microsoft/TypeScript-go/pull/4868) (Closed)
 
 **Add macOS entitlements before signing**
 
@@ -317,7 +358,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript-go#4869](https://github.com/microsoft/TypeScript-go/issues/4869) (Open, `Domain: Editor`)
+### [Issue microsoft/TypeScript-go#4869](https://github.com/microsoft/TypeScript-go/issues/4869) (Open, `Domain: Editor`, **dbaeumer**)
 
 **Allow settings\.json to configure tssdk without a prompt**
 
@@ -349,7 +390,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4871#issuecomment-5247547819) **navya9singh** explained that the VS client suggested using null for deprecated rootUri, noted VS drops null-valued properties, and said they would follow up with the VSLanguageServerClient team and close the PR
  * (today) **navya9singh** closed the issue
 
-### [PR microsoft/TypeScript-go#4872](https://github.com/microsoft/TypeScript-go/pull/4872) (Open, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript-go#4872](https://github.com/microsoft/TypeScript-go/pull/4872) (Closed, **andrewbranch**, **Copilot**)
 
 **Preserve local auto\-imports in circular workspace symlink topologies**
 
@@ -359,6 +400,7 @@
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4872#issuecomment-5254331900) **andrewbranch** said "@copilot you need to run node internal/fourslash/_scripts/updateFailing.mts"
  * [later](https://github.com/microsoft/TypeScript-go/pull/4872#issuecomment-5254521950) **Copilot** ran the internal script to update failing tests, removed two tests from failingTests.txt, and re-ran formatting, build, tests, and lint with all green results
+ * (later) **andrewbranch** closed the issue
 
 ### [PR microsoft/TypeScript-go#4873](https://github.com/microsoft/TypeScript-go/pull/4873) (Open)
 
@@ -368,7 +410,7 @@
 
  * created by **a-tarasyuk**
 
-### [Issue microsoft/TypeScript-go#4874](https://github.com/microsoft/TypeScript-go/issues/4874) (Open)
+### [Issue microsoft/TypeScript-go#4874](https://github.com/microsoft/TypeScript-go/issues/4874) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Add API to get target symbol of instantiated symbol**
 
@@ -376,11 +418,36 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open)
+### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open, `Needs Investigation`, **weswigham**)
 
 **\`@augments\` JSDoc tag causes compilation error in generated declaration file**
 
 *A JSDoc @augments tag mismatched with the extends clause in generated declaration files triggers ts(8023) errors under tsgo.*
 
  * created by **dragomirtitian**
+
+### [Issue microsoft/TypeScript-go#4876](https://github.com/microsoft/TypeScript-go/issues/4876) (Open)
+
+**Impending Repo Move**
+
+*TypeScript development will consolidate in the microsoft/TypeScript repo, briefly locking activity and migrating all issues and PRs.*
+
+ * created by **RyanCavanaugh**
+
+### [PR microsoft/TypeScript-go#4877](https://github.com/microsoft/TypeScript-go/pull/4877) (Open)
+
+**Gate ES2025 regex syntax behind target**
+
+*Gate ES2025 regex pattern modifiers and duplicate named capturing groups behind the target in the TypeScript scanner.*
+
+ * created by **dayongkr**
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4877#issuecomment-5255324707) **dayongkr** said "@microsoft-github-policy-service agree"
+
+### [Issue microsoft/TypeScript-go#4878](https://github.com/microsoft/TypeScript-go/issues/4878) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+
+**TS1515 is not reported when the earlier duplicate named group is inside a nested group**
+
+*TypeScript’s regex parser fails to report TS1515 duplicate named group errors when the initial occurrence is nested inside another group.*
+
+ * created by **dayongkr**
 

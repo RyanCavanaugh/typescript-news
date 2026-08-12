@@ -170,7 +170,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4842#issuecomment-5221610012) **nikeedw** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4842#issuecomment-5221622351) **nikeedw** stated that they had signed the CLA, apologized for their mistake, noted that the PR was superseded by another one and could not be reopened, and linked to related context
 
-### [Issue microsoft/TypeScript-go#4844](https://github.com/microsoft/TypeScript-go/issues/4844) (Open)
+### [Issue microsoft/TypeScript-go#4844](https://github.com/microsoft/TypeScript-go/issues/4844) (Closed)
 
 **CONTRIBUTING\.md out of date**
 
@@ -222,7 +222,7 @@
 
  * created by **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#4850](https://github.com/microsoft/TypeScript-go/issues/4850) (Open)
+### [Issue microsoft/TypeScript-go#4850](https://github.com/microsoft/TypeScript-go/issues/4850) (Open, `Needs Investigation`, **weswigham**)
 
 **Difference in behavior of enum used as field key in emit vs non\-emit type check**
 
@@ -230,7 +230,7 @@
 
  * created by **chriskrycho**
 
-### [Issue microsoft/TypeScript-go#4851](https://github.com/microsoft/TypeScript-go/issues/4851) (Open)
+### [Issue microsoft/TypeScript-go#4851](https://github.com/microsoft/TypeScript-go/issues/4851) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 

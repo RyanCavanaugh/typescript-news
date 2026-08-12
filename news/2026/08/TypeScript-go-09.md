@@ -1,6 +1,6 @@
 # Report for 2026-08-09 (Sunday, August 9th, 2026)
 
-11 different users commented on 13 different issues.
+11 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -75,7 +75,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4858#issuecomment-5236676110) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the CLA by replying with the appropriate command
  * [today](https://github.com/microsoft/TypeScript-go/pull/4858#issuecomment-5236676151) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the CLA by replying with the appropriate command
 
-### [Issue microsoft/TypeScript-go#4859](https://github.com/microsoft/TypeScript-go/issues/4859) (Open)
+### [Issue microsoft/TypeScript-go#4859](https://github.com/microsoft/TypeScript-go/issues/4859) (Open, `Needs Investigation`, **andrewbranch**)
 
 **feat\(contentmapper\): support whole\-symbol rename edit projection**
 
@@ -83,7 +83,7 @@
 
  * created by **ubugeeei**
 
-### [Issue microsoft/TypeScript-go#4860](https://github.com/microsoft/TypeScript-go/issues/4860) (Open)
+### [Issue microsoft/TypeScript-go#4860](https://github.com/microsoft/TypeScript-go/issues/4860) (Open, `Needs Investigation`, **andrewbranch**)
 
 **feat\(contentmapper\): emit declaration maps for mapped inputs**
 
@@ -91,7 +91,7 @@
 
  * created by **ubugeeei**
 
-### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open)
+### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Assignment to an \`any\`\-parameterised generic rejected by tsgo, accepted by tsc 6\.0\.3**
 
@@ -112,7 +112,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4862#issuecomment-5239091343) **richardquaite** said "Ah yeah, that reproduces in 6.0.3, thanks for the reply - will close this one."
  * (later) **richardquaite** closed the issue
 
-### [Issue microsoft/TypeScript-go#4863](https://github.com/microsoft/TypeScript-go/issues/4863) (Open)
+### [Issue microsoft/TypeScript-go#4863](https://github.com/microsoft/TypeScript-go/issues/4863) (Open, `Needs Investigation`, **sandersn**)
 
 **TS7 fails to emit types for \`@type\`\-annotated functions when they reference externally\-defined symbols**
 

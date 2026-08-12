@@ -1,6 +1,6 @@
 # Report for 2026-08-06 (Thursday, August 6th, 2026)
 
-9 different users commented on 13 different issues.
+9 different users commented on 14 different issues.
 
 ## Recommended Actions
 
@@ -39,7 +39,7 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Allow TypeScript to integrate external content mappers via tsconfig to transform and map unsupported file types into valid syntax.*
 
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5175223764) **jasonlyu123** described issues with completion position mapping and span mapping constraints in Svelte transformations and asked for feedback on treating completion positions as range ends and on overlapping segment rules
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5180574756) **andrewbranch** acknowledged the same mapping issue, noted a stashed fix, thanked for the example, asked if spans should be broken into tokens or kept contiguous, and recommended using minimal spans
@@ -69,7 +69,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4835#issuecomment-5208150075) **RyanCavanaugh** said "Zero files changed?"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4839](https://github.com/microsoft/TypeScript-go/pull/4839) (Open)
+### [PR microsoft/TypeScript-go#4839](https://github.com/microsoft/TypeScript-go/pull/4839) (Open, **sandersn**)
 
 **fix\(63726\): fix declaration emit for multiline jsdoc literal types**
 

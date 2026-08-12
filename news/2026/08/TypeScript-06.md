@@ -88,7 +88,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63723#issuecomment-5207571708) **RyanCavanaugh** informed that the TypeScript repo was closed for development and directed the PR to the typescript-go repo referencing CONTRIBUTING.md and issue #62963
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63724](https://github.com/microsoft/TypeScript/issues/63724) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#63724](https://github.com/microsoft/TypeScript/issues/63724) (Open, `Bug`, `Help Wanted`, `Domain: check: Control Flow`)
 
 **Type narrowing not working correctly with Uppercase\<string\> & Lowercase\<string\>**
 
@@ -100,7 +100,7 @@
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/63724#issuecomment-5207632926) **RyanCavanaugh** observed that the comparability relation didn't properly account for Uppercase<string>
 
-### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63725](https://github.com/microsoft/TypeScript/issues/63725) (Open, `Bug`, `Domain: Mapped Types`, `Fix Available`)
 
 **Type argument with a subset of the parameter constraint's optional keys incorrectly reported as unassignable to constraint**
 
@@ -126,7 +126,7 @@
  * **RyanCavanaugh** added label `Duplicate`
  * [today](https://github.com/microsoft/TypeScript/issues/63727#issuecomment-5207548064) **MartinJohns** explained that they had been around for a while and had seen things
 
-### [Issue microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728) (Open)
+### [Issue microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728) (Open, `Bug`, `Help Wanted`)
 
 **\`importHelpers\` incorrectly requires \`tslib\` for native \`\#private\` class members at every dated \`target\` \(ES2022–ES2025\), even though no helper is ever emitted**
 

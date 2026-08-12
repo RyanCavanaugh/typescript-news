@@ -109,7 +109,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript-go#4837](https://github.com/microsoft/TypeScript-go/issues/4837) (Open)
+### [Issue microsoft/TypeScript-go#4837](https://github.com/microsoft/TypeScript-go/issues/4837) (Open, `Needs Investigation`, **andrewbranch**)
 
 **\[API\] Narrow types of \`Node\` attributes when possible**
 
