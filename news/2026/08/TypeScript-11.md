@@ -1,6 +1,6 @@
 # Report for 2026-08-11 (Tuesday, August 11th, 2026)
 
-5 different users commented on 6 different issues.
+5 different users commented on 9 different issues.
 
 ## Activity Summary
 
@@ -26,6 +26,26 @@
  * [2 years ago](https://github.com/microsoft/TypeScript/issues/59574#issuecomment-2278244386) **RyanCavanaugh** said "Useful information would be how someone might accidently make this kind of error (apart from the very first time, which would statically fail)"
  * [2 years ago](https://github.com/microsoft/TypeScript/issues/59574#issuecomment-2278598871) **Josh-Cena** reminded that Symbol.iterator was eligible as WeakMap keys and explained that 'non-registered symbol' denotes symbols that can be weakly held
  * [today](https://github.com/microsoft/TypeScript/issues/59574#issuecomment-5259296478) **Daniel15** agreed with the proposal, suggested renaming the types to RegisteredSymbol and NonRegisteredSymbol as subtypes of symbol, and noted that symbols currently cannot be used as WeakMap keys and should be fixed
+
+### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
+
+**Poorly formed output with JSDoc typedef**
+
+*JSDoc typedef produces malformed TypeScript definitions embedding stray asterisks in the union type.*
+
+ * **RyanCavanaugh** added to milestone `TypeScript 7.1`
+ * **typescript-automation[bot]** added label `Fix Available`
+ * **RyanCavanaugh** assigned to **sandersn**
+ * **RyanCavanaugh** added label `Domain: JSDoc`
+
+### [Issue microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728) (Open, `Bug`, `Help Wanted`, `Domain: tslib and Helper Functions`)
+
+**\`importHelpers\` incorrectly requires \`tslib\` for native \`\#private\` class members at every dated \`target\` \(ES2022–ES2025\), even though no helper is ever emitted**
+
+*TypeScript’s importHelpers option wrongly requires tslib for native private class fields when targeting ES2022–ES2025 despite no helper emission*
+
+ * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
+ * **RyanCavanaugh** added label `Domain: tslib and Helper Functions`
 
 ### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open, `Not a Defect`)
 

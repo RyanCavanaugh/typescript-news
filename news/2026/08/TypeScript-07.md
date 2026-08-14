@@ -55,7 +55,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63732#issuecomment-5220645334) **jakebailey** informed that the TypeScript repo is closed for development and directed PRs to the typescript-go repo
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#63733](https://github.com/microsoft/TypeScript/issues/63733) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63733](https://github.com/microsoft/TypeScript/issues/63733) (Closed, `Not a Defect`)
 
 **\[REGRESSION 6\.0\.2\-\>7\.0\.2\] Type \`T\<A\>\` not assignable to \`T\<A\|B\>\`**
 

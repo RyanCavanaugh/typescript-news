@@ -125,7 +125,7 @@
  * **typescript-automation[bot]** added label `Fix Available`
  * **RyanCavanaugh** added label `Domain: Mapped Types`
 
-### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Fix Available`, **sandersn**)
+### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
 
 **Poorly formed output with JSDoc typedef**
 
@@ -136,7 +136,7 @@
  * **typescript-automation[bot]** added label `Fix Available`
  * **RyanCavanaugh** assigned to **sandersn**
 
-### [Issue microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728) (Open, `Bug`, `Help Wanted`, `Domain: tslib and Helper Functions`)
 
 **\`importHelpers\` incorrectly requires \`tslib\` for native \`\#private\` class members at every dated \`target\` \(ES2022–ES2025\), even though no helper is ever emitted**
 
@@ -198,7 +198,7 @@
  * created by **DannKenn**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#63745](https://github.com/microsoft/TypeScript/pull/63745) (Open, `For Uncommitted Bug`, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript#63745](https://github.com/microsoft/TypeScript/pull/63745) (Closed, `For Uncommitted Bug`, `dependencies`, `javascript`)
 
 **Bump js\-yaml from 4\.1\.1 to 4\.3\.1**
 
@@ -208,7 +208,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`, `dependencies`, `javascript`
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#63746](https://github.com/microsoft/TypeScript/issues/63746) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#63746](https://github.com/microsoft/TypeScript/issues/63746) (Closed, `Duplicate`)
 
 **\[7\.0\] Downlevel emit places a comment after a synthesized return, causing arrow functions to return undefined**
 

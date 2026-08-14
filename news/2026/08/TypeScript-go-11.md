@@ -1,6 +1,6 @@
 # Report for 2026-08-11 (Tuesday, August 11th, 2026)
 
-16 different users commented on 27 different issues.
+17 different users commented on 28 different issues.
 
 ## Recommended Actions
 
@@ -25,6 +25,17 @@
  * (yesterday) **jakebailey** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/issues/4262#issuecomment-5257361352) **thempatel** said "thank you so much @jakebailey "
 
+### [PR microsoft/TypeScript-go#4407](https://github.com/microsoft/TypeScript-go/pull/4407) (Closed, **jakebailey**, **Copilot**)
+
+**Restore tsgo noEmit exit status semantics**
+
+*Restore tsgo’s noEmit exit status semantics by porting tsc’s handleNoEmitOptions logic to ensure exit code 2 for type errors*
+
+ * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5072701666) **andrewbranch** said "oh no more conflicts"
+ * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5072717269) **jakebailey** said "@copilot+gpt-5.6-sol Merge main and fix conflicts, again!"
+ * [2 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5073004746) **Copilot** merged main and resolved the emit API conflicts, preserved `ForceEmit` through incremental emit option wrapping, and validated all baselines, build, test, lint, and format checks
+ * [later](https://github.com/microsoft/TypeScript-go/pull/4407#issuecomment-5269230040) **weswigham** said "@copilot Merge main and fix conflicts, again, again!"
+
 ### [PR microsoft/TypeScript-go#4421](https://github.com/microsoft/TypeScript-go/pull/4421) (Closed)
 
 **Add \`arguments\` inference removal to CHANGES\.md**
@@ -40,7 +51,7 @@
 
 **Content mappers**
 
-*Allow TypeScript to integrate external content mappers via tsconfig to transform and map unsupported file types into valid syntax.*
+*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
 
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5213869402) **johnnyreilly** asked whether the custom transformers functionality would cover what transformers did in the TS API
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5218558612) **andrewbranch** said "No, but custom transformers are still planned, mentioned in #4830. I’ll add ts-loader to the list of projects that needs it!"
@@ -127,7 +138,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Possible Improvement`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript-go/issues/4860#issuecomment-5259134928) **andrewbranch** said "This is something I want, and think shouldn’t be too difficult, but I don’t consider it a blocker for merging #4712."
 
-### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open, `Working As Intended`, **ahejlsberg**)
 
 **Assignment to an \`any\`\-parameterised generic rejected by tsgo, accepted by tsc 6\.0\.3**
 
@@ -179,7 +190,7 @@
  * created by **mrazauskas**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open, `Needs Investigation`, **weswigham**, **Copilot**)
 
 **\`@augments\` JSDoc tag causes compilation error in generated declaration file**
 
@@ -234,7 +245,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4881#issuecomment-5259797450) **RyanCavanaugh** said "Paging @graphemecluster, this is above my regex paygrade"
 
-### [PR microsoft/TypeScript-go#4882](https://github.com/microsoft/TypeScript-go/pull/4882) (Open, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript-go#4882](https://github.com/microsoft/TypeScript-go/pull/4882) (Closed, `dependencies`, `javascript`)
 
 **Bump js\-yaml from 4\.2\.0 to 4\.3\.1**
 
@@ -243,7 +254,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`, `dependencies`, `javascript`
 
-### [PR microsoft/TypeScript-go#4883](https://github.com/microsoft/TypeScript-go/pull/4883) (Open, `dependencies`, `go`)
+### [PR microsoft/TypeScript-go#4883](https://github.com/microsoft/TypeScript-go/pull/4883) (Closed, `dependencies`, `go`)
 
 **Bump go\.mongodb\.org/mongo\-driver from 1\.17\.6 to 1\.17\.7**
 
@@ -252,7 +263,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `go`, `dependencies`, `go`
 
-### [PR microsoft/TypeScript-go#4884](https://github.com/microsoft/TypeScript-go/pull/4884) (Open, `dependencies`, `go`)
+### [PR microsoft/TypeScript-go#4884](https://github.com/microsoft/TypeScript-go/pull/4884) (Closed, `dependencies`, `go`)
 
 **Bump github\.com/aws/aws\-sdk\-go\-v2/service/s3 from 1\.96\.2 to 1\.97\.3**
 
@@ -261,7 +272,7 @@
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `go`, `dependencies`, `go`
 
-### [PR microsoft/TypeScript-go#4885](https://github.com/microsoft/TypeScript-go/pull/4885) (Open, `dependencies`, `go`)
+### [PR microsoft/TypeScript-go#4885](https://github.com/microsoft/TypeScript-go/pull/4885) (Closed, `dependencies`, `go`)
 
 **Bump github\.com/aws/aws\-sdk\-go\-v2/aws/protocol/eventstream from 1\.7\.5 to 1\.7\.8**
 

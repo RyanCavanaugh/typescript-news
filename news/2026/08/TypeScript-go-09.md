@@ -33,7 +33,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript-go/pull/4734#issuecomment-5151664489) **robertkirkman** provided context that the error is specific to Google Play Termux and noted the binary has the correct interpreter and passes the static linking check
  * [today](https://github.com/microsoft/TypeScript-go/pull/4734#issuecomment-5235339709) **robertkirkman** described patch-based implementation by the Google Play Termux developer for supporting os.Executable on Android API level 29+, provided patch links, and suggested limiting support to API level 24–28 in CI
 
-### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **LSP exits when parent process PID is not found**
 
@@ -91,7 +91,7 @@
 
  * created by **ubugeeei**
 
-### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript-go#4861](https://github.com/microsoft/TypeScript-go/issues/4861) (Open, `Working As Intended`, **ahejlsberg**)
 
 **Assignment to an \`any\`\-parameterised generic rejected by tsgo, accepted by tsc 6\.0\.3**
 

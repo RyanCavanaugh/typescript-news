@@ -1,6 +1,6 @@
 # Report for 2026-08-07 (Friday, August 7th, 2026)
 
-11 different users commented on 25 different issues.
+11 different users commented on 26 different issues.
 
 ## Recommended Actions
 
@@ -90,7 +90,7 @@
  * (1 week ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **johnfav03**
  * (today) **johnfav03** closed the issue
 
-### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **LSP exits when parent process PID is not found**
 
@@ -115,7 +115,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4823#issuecomment-5223410523) **RyanCavanaugh** said "@copilot CI is failing, and use a proper bit test as suggested"
  * [today](https://github.com/microsoft/TypeScript-go/pull/4823#issuecomment-5223523155) **Copilot** updated bitwise context checks per suggestion in commit e7130af9 and clarified the CI failure was due to a transient Go download error
 
-### [PR microsoft/TypeScript-go#4825](https://github.com/microsoft/TypeScript-go/pull/4825) (Open)
+### [PR microsoft/TypeScript-go#4825](https://github.com/microsoft/TypeScript-go/pull/4825) (Closed)
 
 **Fix deprecated contextual property memory regression**
 
@@ -197,7 +197,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4846#issuecomment-5222019357) **nikeedw** noted that the crash site was previously fixed by PR #3485 with a similar pattern and that this PR applies the same fix to another node-builder path, but warned that other producers could still yield nil and suggested a more general solution might be needed
  * [today](https://github.com/microsoft/TypeScript-go/pull/4846#issuecomment-5222176600) **nikeedw** provided a detailed static and dynamic survey showing that on main, NodeList constructions produce no nil elements in the test suite and only one nil in the two-file repro scenario
 
-### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`, **weswigham**)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
 

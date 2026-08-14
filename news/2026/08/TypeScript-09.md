@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63680#issuecomment-5234802035) **dependabot[bot]** said "Looks like these dependencies are updatable in another way, so this is no longer needed."
  * (today) **dependabot[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63733](https://github.com/microsoft/TypeScript/issues/63733) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63733](https://github.com/microsoft/TypeScript/issues/63733) (Closed, `Not a Defect`)
 
 **\[REGRESSION 6\.0\.2\-\>7\.0\.2\] Type \`T\<A\>\` not assignable to \`T\<A\|B\>\`**
 
@@ -99,7 +99,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/63741#issuecomment-5237177917) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the CLA by replying with the appropriate command
 
-### [Issue microsoft/TypeScript#63742](https://github.com/microsoft/TypeScript/issues/63742) (Open)
+### [Issue microsoft/TypeScript#63742](https://github.com/microsoft/TypeScript/issues/63742) (Open, `Needs More Info`)
 
 **Rest\-parameter mapped\-type wrapping breaks tuple\-literal inference once real\-world complexity is added**
 

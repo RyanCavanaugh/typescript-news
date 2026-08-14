@@ -25,7 +25,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/issues/4262#issuecomment-5243522704) **jakebailey** said "The discussion was on #4578 but I think that is a dead end; I'll just send another change that kills the fast path I added but that turned out to not work"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4313](https://github.com/microsoft/TypeScript-go/pull/4313) (Open)
+### [PR microsoft/TypeScript-go#4313](https://github.com/microsoft/TypeScript-go/pull/4313) (Closed)
 
 **Assign files to checkers using balanced import affinity**
 
@@ -105,7 +105,7 @@
 
 **Content mappers**
 
-*Allow TypeScript to integrate external content mappers via tsconfig to transform and map unsupported file types into valid syntax.*
+*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
 
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5211145449) **andrewbranch** said "Another significant change: a content mapper may now emit additional supplemental files as part of any Transform response. PR description updated again."
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5213869402) **johnnyreilly** asked whether the custom transformers functionality would cover what transformers did in the TS API
@@ -190,7 +190,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4797#issuecomment-5243203723) **jakebailey** explained that diffs appeared after dropping the compatibility code from Copilot and suggested updating the visitor to skip type-only nodes, noting similar cases existed before
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Open, `Crash`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4809](https://github.com/microsoft/TypeScript-go/issues/4809) (Closed, `Crash`, **jakebailey**, **Copilot**)
 
 **LSP exits when parent process PID is not found**
 
@@ -261,7 +261,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4844#issuecomment-5255286306) **RyanCavanaugh** said "This repo will be closing shortly, so we'll be fixing this up as part of the move"
  * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`, **weswigham**)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
 
@@ -333,7 +333,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4865#issuecomment-5243653489) **jakebailey** asked to split the changes into two commits and expressed uncertainty about the heuristic approach
  * [today](https://github.com/microsoft/TypeScript-go/pull/4865#issuecomment-5244367310) **johnfav03** split the changes into two commits and explained that the pre-fix baseline forced .d.ts computation and signature updates while the post-fix cold-build baseline showed no signature reconciliation
 
-### [PR microsoft/TypeScript-go#4866](https://github.com/microsoft/TypeScript-go/pull/4866) (Open)
+### [PR microsoft/TypeScript-go#4866](https://github.com/microsoft/TypeScript-go/pull/4866) (Closed)
 
 **Add \`\-\-clientProcessId\` like reference LSP server**
 
@@ -418,7 +418,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open, `Needs Investigation`, **weswigham**)
+### [Issue microsoft/TypeScript-go#4875](https://github.com/microsoft/TypeScript-go/issues/4875) (Open, `Needs Investigation`, **weswigham**, **Copilot**)
 
 **\`@augments\` JSDoc tag causes compilation error in generated declaration file**
 
