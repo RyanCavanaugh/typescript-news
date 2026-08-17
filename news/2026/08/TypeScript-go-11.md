@@ -1,6 +1,6 @@
 # Report for 2026-08-11 (Tuesday, August 11th, 2026)
 
-17 different users commented on 28 different issues.
+17 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -51,14 +51,14 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
 
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5213869402) **johnnyreilly** asked whether the custom transformers functionality would cover what transformers did in the TS API
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5218558612) **andrewbranch** said "No, but custom transformers are still planned, mentioned in #4830. I’ll add ts-loader to the list of projects that needs it!"
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5247642853) **andrewbranch** described how third-party VS Code extensions can now contribute bundled content mappers directly, restricted to inferred projects without jsconfig/tsconfig files
  * [today](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5257814665) **remcohaszing** played around with a CLI-based MDX content mapper built from scratch, found it similar to Volar but encountered a generic jsonrpc initialization error. suggested differentiating error messages for various failure causes, proposed mapping MDX VFileMessage fields (source, ruleId, url) to LSP diagnostic properties including code and codeDescription.href, and noted that type errors in unmapped generated content are surfaced to users.
 
-### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Open)
+### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Closed)
 
 **Add Android ARM64 release target**
 
@@ -149,7 +149,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript-go/issues/4861#issuecomment-5239403330) **richardquaite** said "Sorry about that, Please see updated issue"
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript-go#4863](https://github.com/microsoft/TypeScript-go/issues/4863) (Open, `Needs Investigation`, **sandersn**)
+### [Issue microsoft/TypeScript-go#4863](https://github.com/microsoft/TypeScript-go/issues/4863) (Closed, `Needs Investigation`, **sandersn**)
 
 **TS7 fails to emit types for \`@type\`\-annotated functions when they reference externally\-defined symbols**
 
@@ -208,7 +208,7 @@
  * created by **RyanCavanaugh**
  * **RyanCavanaugh** added to milestone `TypeScript 7.1`
 
-### [Issue microsoft/TypeScript-go#4878](https://github.com/microsoft/TypeScript-go/issues/4878) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4878](https://github.com/microsoft/TypeScript-go/issues/4878) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS1515 is not reported when the earlier duplicate named group is inside a nested group**
 
@@ -235,7 +235,7 @@
  * created by **smm-h**
  * (today) **RyanCavanaugh** added label `possible improvement`, and set milestone to `Possible Improvement`
 
-### [PR microsoft/TypeScript-go#4881](https://github.com/microsoft/TypeScript-go/pull/4881) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript-go#4881](https://github.com/microsoft/TypeScript-go/pull/4881) (Closed, **RyanCavanaugh**, **Copilot**)
 
 **Fix TS1515 not reported when duplicate named group is nested inside a group**
 

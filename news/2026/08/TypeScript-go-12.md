@@ -55,7 +55,7 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
 
  * [5 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5218558612) **andrewbranch** said "No, but custom transformers are still planned, mentioned in #4830. I’ll add ts-loader to the list of projects that needs it!"
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5247642853) **andrewbranch** described how third-party VS Code extensions can now contribute bundled content mappers directly, restricted to inferred projects without jsconfig/tsconfig files
@@ -64,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5275507907) **andrewbranch** benchmarked a Copilot-generated content mapper against vue-tsc on 222 fixtures, found it 2.4× faster with 24% less memory, noted scaffolding parse and type errors, and shared a branch for reference
  * [later](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5279235915) **remcohaszing** suggested adding logging support via a `tsc --verbose` flag and LSP `log` notifications for both editor and CLI
 
-### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Open)
+### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Closed)
 
 **Add Android ARM64 release target**
 

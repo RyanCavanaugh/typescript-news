@@ -125,7 +125,7 @@
  * **typescript-automation[bot]** added label `Fix Available`
  * **RyanCavanaugh** added label `Domain: Mapped Types`
 
-### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
+### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Closed, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
 
 **Poorly formed output with JSDoc typedef**
 
@@ -168,7 +168,7 @@
  * **RyanCavanaugh** added label `Working as Intended`
  * (later) **mohsen1** closed the issue
 
-### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Closed, `Not a Defect`)
 
 **Superclass type argument inferred as unknown when it's only used as a method parameter type constraint**
 

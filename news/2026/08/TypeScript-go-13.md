@@ -80,7 +80,7 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
 
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5274755525) **andrewbranch** said "I’ve somewhat reluctantly added a way to support ` and explained why it can’t just translate into // @ts-expect-error`."
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5275507907) **andrewbranch** benchmarked a Copilot-generated content mapper against vue-tsc on 222 fixtures, found it 2.4× faster with 24% less memory, noted scaffolding parse and type errors, and shared a branch for reference
@@ -98,7 +98,7 @@
  * **RyanCavanaugh** assigned to **andrewbranch**
  * (today) **a-tarasyuk** closed the issue
 
-### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Open)
+### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Closed)
 
 **Add Android ARM64 release target**
 
@@ -170,7 +170,7 @@
  * created by **gabritto**
  * (today) **gabritto** closed the issue
 
-### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`, **weswigham**)
+### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Closed, `Voight-Kampff Anomaly`, **weswigham**)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
 
@@ -310,7 +310,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4893#issuecomment-5283189199) **andrewbranch** said "@navya9singh @piotrtomiak, methods you rely on are moving. I left deprecated aliases in for use in nightlies for now, but will be removed before the 7.1 release."
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4894](https://github.com/microsoft/TypeScript-go/pull/4894) (Open)
+### [PR microsoft/TypeScript-go#4894](https://github.com/microsoft/TypeScript-go/pull/4894) (Closed)
 
 **Fix hover for merged generic namespace exports**
 
@@ -318,7 +318,7 @@
 
  * created by **johnfav03**
 
-### [Issue microsoft/TypeScript-go#4895](https://github.com/microsoft/TypeScript-go/issues/4895) (Closed)
+### [Issue microsoft/TypeScript-go#4895](https://github.com/microsoft/TypeScript-go/issues/4895) (Open)
 
 **tsc colours diagnostics when stdout is not a TTY, splitting "error TS2304" and breaking output parsing \(regressed in 6\.0\)**
 
@@ -353,7 +353,7 @@
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4898](https://github.com/microsoft/TypeScript-go/pull/4898) (Open)
+### [PR microsoft/TypeScript-go#4898](https://github.com/microsoft/TypeScript-go/pull/4898) (Closed)
 
 **Parse dotted private names in type queries, forbid in declaration emit**
 
@@ -398,7 +398,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript-go#4903](https://github.com/microsoft/TypeScript-go/pull/4903) (Open)
+### [PR microsoft/TypeScript-go#4903](https://github.com/microsoft/TypeScript-go/pull/4903) (Open, `Unmigrated PR`)
 
 **Remove AST node self pointers**
 

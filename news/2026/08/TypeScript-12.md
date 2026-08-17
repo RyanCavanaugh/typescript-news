@@ -43,7 +43,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63733#issuecomment-5274866280) **typescript-automation[bot]** said "This issue has been marked as "Not a Defect" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-automation[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Closed, `Not a Defect`)
 
 **Superclass type argument inferred as unknown when it's only used as a method parameter type constraint**
 
@@ -65,7 +65,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript/issues/63742#issuecomment-5274662621) **brettz9** clarified that the $setStyles function should be available on sel and that this in $setStyles should be an HTMLSelectElement with a $setStyles method
 
-### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open)
+### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open, `Bug`)
 
 **\[7\.0\] Can't access field if it is protected in one constituent of an intersection \(type order dependent\)**
 

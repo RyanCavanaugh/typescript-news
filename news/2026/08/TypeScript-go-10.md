@@ -105,7 +105,7 @@
 
 **Content mappers**
 
-*Support external content mappers in tsconfig to transform and map unsupported file types into valid TypeScript*
+*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
 
  * [4 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5211145449) **andrewbranch** said "Another significant change: a content mapper may now emit additional supplemental files as part of any Transform response. PR description updated again."
  * [3 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5213869402) **johnnyreilly** asked whether the custom transformers functionality would cover what transformers did in the TS API
@@ -136,13 +136,13 @@
 
 **Preserve comments when downleveling arrow expression bodies**
 
-*Maintain leading comments in arrow function expression bodies when downleveling optional chaining by attaching them before the synthesized return statement.*
+*Adjust arrow function downleveling to preserve comment placement by applying original source ranges to synthesized return statements.*
 
  * created by **Copilot**
  * (2 weeks ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * [today](https://github.com/microsoft/TypeScript-go/pull/4723#issuecomment-5243175220) **jakebailey** provided a test case from another issue comment for optional chaining
 
-### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Open)
+### [PR microsoft/TypeScript-go#4734](https://github.com/microsoft/TypeScript-go/pull/4734) (Closed)
 
 **Add Android ARM64 release target**
 
@@ -242,7 +242,7 @@
  * (3 days ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Post-7.0`, and assigned to **johnfav03**
  * (today) **johnfav03** closed the issue
 
-### [PR microsoft/TypeScript-go#4839](https://github.com/microsoft/TypeScript-go/pull/4839) (Open, **sandersn**)
+### [PR microsoft/TypeScript-go#4839](https://github.com/microsoft/TypeScript-go/pull/4839) (Closed, **sandersn**)
 
 **fix\(63726\): fix declaration emit for multiline jsdoc literal types**
 
@@ -261,7 +261,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/issues/4844#issuecomment-5255286306) **RyanCavanaugh** said "This repo will be closing shortly, so we'll be fixing this up as part of the move"
  * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Open, `Voight-Kampff Anomaly`, **weswigham**)
+### [PR microsoft/TypeScript-go#4847](https://github.com/microsoft/TypeScript-go/pull/4847) (Closed, `Voight-Kampff Anomaly`, **weswigham**)
 
 **fix: allow destructured require under module preserve \+ verbatimModuleSyntax**
 
@@ -368,7 +368,7 @@
  * **eagarwal-notion** added label `Domain: Editor`
  * [today](https://github.com/microsoft/TypeScript-go/issues/4869#issuecomment-5247283849) **RyanCavanaugh** said "This has security implications (tsdk is effectively an arbitrary command), so it's necessary for the user to opt in."
 
-### [PR microsoft/TypeScript-go#4870](https://github.com/microsoft/TypeScript-go/pull/4870) (Open)
+### [PR microsoft/TypeScript-go#4870](https://github.com/microsoft/TypeScript-go/pull/4870) (Closed, `Unmigrated PR`)
 
 **\[api\] Clear up the difference between tuple types and tuple type references**
 
@@ -402,7 +402,7 @@
  * [later](https://github.com/microsoft/TypeScript-go/pull/4872#issuecomment-5254521950) **Copilot** ran the internal script to update failing tests, removed two tests from failingTests.txt, and re-ran formatting, build, tests, and lint with all green results
  * (later) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript-go#4873](https://github.com/microsoft/TypeScript-go/pull/4873) (Open)
+### [PR microsoft/TypeScript-go#4873](https://github.com/microsoft/TypeScript-go/pull/4873) (Closed)
 
 **fix\(4863\): fix declaration emit for jsdoc functions**
 
@@ -438,12 +438,12 @@
 
 **Gate ES2025 regex syntax behind target**
 
-*Gate ES2025 regex pattern modifiers and duplicate named capturing groups behind the target in the TypeScript scanner.*
+*Compiler enforces ES2025 regex syntax gating for the 'v' flag and duplicate named capture groups based on target.*
 
  * created by **dayongkr**
  * [later](https://github.com/microsoft/TypeScript-go/pull/4877#issuecomment-5255324707) **dayongkr** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript-go#4878](https://github.com/microsoft/TypeScript-go/issues/4878) (Open, `bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript-go#4878](https://github.com/microsoft/TypeScript-go/issues/4878) (Closed, `bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS1515 is not reported when the earlier duplicate named group is inside a nested group**
 

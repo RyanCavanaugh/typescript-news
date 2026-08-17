@@ -1,6 +1,6 @@
 # Report for 2026-08-13 (Thursday, August 13th, 2026)
 
-8 different users commented on 7 different issues.
+8 different users commented on 10 different issues.
 
 ## Recommended Actions
 
@@ -55,7 +55,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63746#issuecomment-5288391046) **typescript-automation[bot]** said "This issue has been marked as "Duplicate" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-automation[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open)
+### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open, `Bug`)
 
 **\[7\.0\] Can't access field if it is protected in one constituent of an intersection \(type order dependent\)**
 
@@ -64,7 +64,7 @@
  * created by **dragomirtitian**
  * [later](https://github.com/microsoft/TypeScript/issues/63749#issuecomment-5292998642) **nmain** said "This repros in 6.0 if stableTypeOrdering is used."
 
-### [Issue microsoft/TypeScript#63750](https://github.com/microsoft/TypeScript/issues/63750) (Open)
+### [Issue microsoft/TypeScript#63750](https://github.com/microsoft/TypeScript/issues/63750) (Open, `Bug`, `Fix Available`)
 
 **tsgo: parser nil\-pointer panic when a JSDoc @overload tags an anonymous default\-export function**
 
@@ -76,7 +76,7 @@
 
 **fix: remove false tslib requirement for native \#private fields at ES2022\+**
 
-*Remove unnecessary tslib helper requirement for native private class fields in ES2022+ by updating checker.ts gating conditions.*
+*Removes unnecessary tslib dependency for native #private fields in ES2022+ in favor of the Go-based fix.*
 
  * created by **ErfanBagheri404**
  * **typescript-automation[bot]** added label `For Backlog Bug`

@@ -1,20 +1,8 @@
 # Report for 2026-08-11 (Tuesday, August 11th, 2026)
 
-5 different users commented on 9 different issues.
+4 different users commented on 9 different issues.
 
 ## Activity Summary
-
-### [Issue microsoft/TypeScript#202](https://github.com/microsoft/TypeScript/issues/202) (Open, `Suggestion`, `In Discussion`)
-
-**Support some non\-structural \(nominal\) type matching**
-
-*Introduce nominal typing in TypeScript to distinguish structurally identical types and prevent unintended type mixing.*
-
- * [1.2 years ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-2868870489) **emilioplatzer** shared a workaround with example repository and Playground link and explained a typing-by-example approach using string literal types
- * [11 weeks ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-4549960682) **bluepnume** described how they currently simulate opaque types with intersection types and custom tooling, illustrated how native opaque types and operator overloading would improve their workflow, linked to issue #42218, and expressed strong support
- * [11 weeks ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-4549960682) **bluepnume** described how they currently simulate opaque types with intersection types and custom tooling, illustrated how native opaque types and operator overloading would improve their workflow, linked to issue #42218, and expressed strong support
- * [later](https://github.com/microsoft/TypeScript/issues/202#issuecomment-5264716824) **yun520-1** argued that nominal typing should not be added to TS core and that branded types with tooling improvements address nominal use cases without compromising structural typing
- * [later](https://github.com/microsoft/TypeScript/issues/202#issuecomment-5264716824) **yun520-1** argued that nominal typing should not be added to TS core and that branded types with tooling improvements address nominal use cases without compromising structural typing
 
 ### [Issue microsoft/TypeScript#59574](https://github.com/microsoft/TypeScript/issues/59574) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -27,7 +15,7 @@
  * [2 years ago](https://github.com/microsoft/TypeScript/issues/59574#issuecomment-2278598871) **Josh-Cena** reminded that Symbol.iterator was eligible as WeakMap keys and explained that 'non-registered symbol' denotes symbols that can be weakly held
  * [today](https://github.com/microsoft/TypeScript/issues/59574#issuecomment-5259296478) **Daniel15** agreed with the proposal, suggested renaming the types to RegisteredSymbol and NonRegisteredSymbol as subtypes of symbol, and noted that symbols currently cannot be used as WeakMap keys and should be fixed
 
-### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Open, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
+### [Issue microsoft/TypeScript#63726](https://github.com/microsoft/TypeScript/issues/63726) (Closed, `Bug`, `Domain: JSDoc`, `Fix Available`, **sandersn**)
 
 **Poorly formed output with JSDoc typedef**
 
@@ -47,7 +35,7 @@
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
  * **RyanCavanaugh** added label `Domain: tslib and Helper Functions`
 
-### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#63737](https://github.com/microsoft/TypeScript/issues/63737) (Closed, `Not a Defect`)
 
 **Superclass type argument inferred as unknown when it's only used as a method parameter type constraint**
 
