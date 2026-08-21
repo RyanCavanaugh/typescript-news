@@ -1,6 +1,6 @@
 # Report for 2026-08-16 (Sunday, August 16th, 2026)
 
-3 different users commented on 2 different issues.
+3 different users commented on 3 different issues.
 
 ## Recommended Actions
 
@@ -9,11 +9,11 @@
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Open)
+### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Closed)
 
 **Content mappers**
 
-*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
+*Implement content mappers that enable TypeScript to include unsupported file types by transforming them via tsconfig settings.*
 
  * [2 days ago](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5298147329) **andrewbranch** referenced a commit showing extensions can contribute a JSON schema for content mapper options merged into the tsconfig schema
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5302949742) **uhyo** reported that tsc hung when the content mapper used a Volta-managed node shim leaving the real node process alive and stderr open

@@ -1,6 +1,6 @@
 # Report for 2026-08-14 (Friday, August 14th, 2026)
 
-17 different users commented on 132 different issues.
+17 different users commented on 135 different issues.
 
 ## Recommended Actions
 
@@ -23,13 +23,13 @@
  * (18 weeks ago) **RyanCavanaugh** set milestone to `Post-7.0`, assigned to **Copilot**, and unassigned **Copilot**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966) (Open, `No linked issue`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#1966](https://github.com/microsoft/TypeScript-go/pull/1966) (Closed, `No linked issue`, `Unmigrated PR`)
 
 **Add Yarn PnP support**
 
-*Add native Yarn Plug'n'Play support to TypeScript Go with VFS integration and manifest handling following PnP specification.*
+*Integrate official Yarn Plug’n’Play support into the TypeScript Go compiler to optimize large-scale monorepo builds.*
 
- * [8 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4709751672) **SerenModz21** suggested adding "Closes #460" to the PR description to properly link the issue and provided a documentation link
+ * [8 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4709751672) **SerenModz21** suggested adding a 'Closes microsoft/TypeScript#63769' line in the PR description to properly link the issue and provided a docs link
  * [5 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4905614254) **proyectoramirez** said "What is a good way to try this PR in a yarn project?"
  * [5 weeks ago](https://github.com/microsoft/TypeScript-go/pull/1966#issuecomment-4926997057) **GGomez99** suggested cloning the repository and following the How to build and run section of the contributing doc
  * **RyanCavanaugh** added label `Unmigrated PR`
@@ -144,7 +144,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3277#issuecomment-5298230947) **RyanCavanaugh** said "Closing as it's conflicted and still in draft, we can re-vibe post-move"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#3297](https://github.com/microsoft/TypeScript-go/pull/3297) (Open, `No linked issue`, **weswigham**)
+### [PR microsoft/TypeScript-go#3297](https://github.com/microsoft/TypeScript-go/pull/3297) (Closed, `No linked issue`, `Unmigrated PR`, **weswigham**)
 
 **Allow global Symbol computed names during pseudochecker object literal serialization**
 
@@ -163,7 +163,7 @@
  * **RyanCavanaugh** added to milestone `Possible Improvement`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3331](https://github.com/microsoft/TypeScript-go/pull/3331) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3331](https://github.com/microsoft/TypeScript-go/pull/3331) (Closed, `Unmigrated PR`)
 
 **Use trie for removeStringLiteralsMatchedByTemplateLiterals**
 
@@ -175,7 +175,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3331#issuecomment-5297608752) **typescript-automation[bot]** started build jobs and posted status and results links
  * [today](https://github.com/microsoft/TypeScript-go/pull/3331#issuecomment-5297880991) **typescript-automation[bot]** posted perf run results for the requested tsc performance comparison
 
-### [PR microsoft/TypeScript-go#3362](https://github.com/microsoft/TypeScript-go/pull/3362) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3362](https://github.com/microsoft/TypeScript-go/pull/3362) (Closed, `Unmigrated PR`)
 
 **Replace most ID usage with pointers**
 
@@ -186,7 +186,7 @@
  * [6 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3362#issuecomment-4870283060) **typescript-automation[bot]** reported the performance comparison results for the requested perf run
  * **jakebailey** added label `Unmigrated PR`
 
-### [PR microsoft/TypeScript-go#3369](https://github.com/microsoft/TypeScript-go/pull/3369) (Open, `No linked issue`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3369](https://github.com/microsoft/TypeScript-go/pull/3369) (Closed, `No linked issue`, `Unmigrated PR`)
 
 **Limit loader/emitter to GOMAXPROCS**
 
@@ -197,7 +197,7 @@
  * [6 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3369#issuecomment-4847820197) **typescript-automation[bot]** provided the perf run results as requested
  * **jakebailey** added label `Unmigrated PR`
 
-### [PR microsoft/TypeScript-go#3385](https://github.com/microsoft/TypeScript-go/pull/3385) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3385](https://github.com/microsoft/TypeScript-go/pull/3385) (Closed, `Unmigrated PR`)
 
 **Restore CommaListExpression support**
 
@@ -218,7 +218,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3432#issuecomment-5296504662) **jakebailey** said "I think this PR is not going to go forward, but we can use it as a reference for a future fix"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#3515](https://github.com/microsoft/TypeScript-go/pull/3515) (Open, `No linked issue`, **navya9singh**)
+### [PR microsoft/TypeScript-go#3515](https://github.com/microsoft/TypeScript-go/pull/3515) (Closed, `No linked issue`, **navya9singh**)
 
 **Expose formatNodeForInsertion in internal API**
 
@@ -227,7 +227,7 @@
  * (9 weeks ago) **RyanCavanaugh** added label `No linked issue`, set milestone to `Possible Improvement`, and removed from milestone `TypeScript 7.0 RC`
  * [today](https://github.com/microsoft/TypeScript-go/pull/3515#issuecomment-5298704595) **RyanCavanaugh** said "Do we still need this?"
 
-### [PR microsoft/TypeScript-go#3619](https://github.com/microsoft/TypeScript-go/pull/3619) (Open, `No linked issue`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3619](https://github.com/microsoft/TypeScript-go/pull/3619) (Closed, `No linked issue`, `Unmigrated PR`)
 
 **perf: Make \`NodeArray\` no longer inherit from \`Array\`**
 
@@ -237,11 +237,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3619#issuecomment-5296902234) **jakebailey** said "Is this still needed? Did we end up doing this another way?"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3619#issuecomment-5297822444) **andrewbranch** described making improvements to preserve array element access while noting the proposal still performs better but sacrifices direct indexing
 
-### [PR microsoft/TypeScript-go#3726](https://github.com/microsoft/TypeScript-go/pull/3726) (Open, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript-go#3726](https://github.com/microsoft/TypeScript-go/pull/3726) (Closed, `Unmigrated PR`, **DanielRosenwasser**, **Copilot**)
 
 **Preserve original stack traces in cross\-project panic handling**
 
-*Wrap panics in PanicWithStack to capture and propagate original stack traces for cross-project panic handling.*
+*Add PanicWithStack to wrap and re-panic panics with their original stack traces in cross-project goroutine recovery for accurate logging.*
 
  * **RyanCavanaugh** added to milestone `Possible Improvement`
  * [9 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3726#issuecomment-4652511528) **RyanCavanaugh** said "@copilot address the merge conflicts"
@@ -249,15 +249,15 @@
  * (today) **jakebailey** closed the issue
  * (today) **jakebailey** reopened the issue
 
-### [PR microsoft/TypeScript-go#3728](https://github.com/microsoft/TypeScript-go/pull/3728) (Open, `No linked issue`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3728](https://github.com/microsoft/TypeScript-go/pull/3728) (Closed, `No linked issue`, `Unmigrated PR`)
 
 **Fix keyof deferred for non\-generic substitution types \(\#2186\)**
 
-*Resolve keyof immediately for non-generic substitution types to correct indexed access assignability and quick info*
+*Resolve keyof immediately for non-generic substitution types instead of deferring, fixing indexed access assignability and quick info.*
 
- * [14 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-4402998409) **jakebailey** said "If this fixes #2186, can you write "Fixes #2186" in the description?"
+ * [14 weeks ago](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-4402998409) **jakebailey** said "If this fixes microsoft/TypeScript#63786, can you write "Fixes microsoft/TypeScript#63786" in the description?"
  * (14 weeks ago) **RyanCavanaugh** added label `No linked issue`, and set milestone to `Post-7.0`
- * [today](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-5298451660) **jakebailey** said "Checked, and this does fix #2186"
+ * [today](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-5298451660) **jakebailey** said "Checked, and this does fix microsoft/TypeScript#63786"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-5298456281) **jakebailey** said "@typescript-bot test it"
  * [today](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-5298456989) **typescript-automation[bot]** reported build start and completion statuses for test top400 and perf test this faster
  * [today](https://github.com/microsoft/TypeScript-go/pull/3728#issuecomment-5298657492) **typescript-automation[bot]** reported performance run results for the requested baseline..pr comparison, including errors, symbols, types, memory usage, and memory allocations
@@ -285,7 +285,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/3871#issuecomment-5297852122) **Copilot** addressed the review comments by removing the redundant local test and relying on the existing jsFileMethodOverloads3 coverage with updated baselines
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#3935](https://github.com/microsoft/TypeScript-go/pull/3935) (Open, `No linked issue`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#3935](https://github.com/microsoft/TypeScript-go/pull/3935) (Closed, `No linked issue`, `Unmigrated PR`)
 
 **Narrow keyword completions for concise arrow expression bodies**
 
@@ -348,11 +348,11 @@
  * (9 weeks ago) **RyanCavanaugh** added label `No linked issue`, and set milestone to `Possible Improvement`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4102](https://github.com/microsoft/TypeScript-go/pull/4102) (Open)
+### [PR microsoft/TypeScript-go#4102](https://github.com/microsoft/TypeScript-go/pull/4102) (Closed, `Unmigrated PR`)
 
 **Cache alias candidates for symbol accessibility**
 
-*Cache alias candidates to optimize symbol accessibility resolution.*
+*Cache alias candidate symbols to speed up symbol accessibility checks*
 
  * created by **Zzzen**
  * **RyanCavanaugh** added to milestone `Possible Improvement`
@@ -392,11 +392,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4160#issuecomment-5296515809) **jakebailey** said "@copilot+gpt-5.6-sol Merge main and update tests"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4211](https://github.com/microsoft/TypeScript-go/pull/4211) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4211](https://github.com/microsoft/TypeScript-go/pull/4211) (Closed, `Unmigrated PR`)
 
 **Optimize bin by replacing node\_modules/\.bin/tsgo with a symlink**
 
-*Replace the node_modules/.bin/tsgo shim with a direct symlink to the actual binary to improve startup performance.*
+*Use symlinks instead of shims for node_modules/.bin/tsgo to improve startup performance.*
 
  * [10 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4636140027) **jakebailey** said "Seems to work!"
  * [9 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4211#issuecomment-4638058619) **JoostK** proposed spawning native tsgo before attempting optimization to avoid unnecessary optimizeBin overhead, noted this isn’t feasible with process.execve not forking, and questioned whether the overhead is significant
@@ -514,7 +514,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4449](https://github.com/microsoft/TypeScript-go/pull/4449) (Open)
+### [PR microsoft/TypeScript-go#4449](https://github.com/microsoft/TypeScript-go/pull/4449) (Closed)
 
 **restore JSDoc member name check for private identifier references**
 
@@ -548,11 +548,11 @@
  * (today) **jakebailey** reopened the issue
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4592](https://github.com/microsoft/TypeScript-go/pull/4592) (Open)
+### [PR microsoft/TypeScript-go#4592](https://github.com/microsoft/TypeScript-go/pull/4592) (Closed)
 
 **Improve responsiveness of \`tsc build\` to interruption**
 
-*Enhance tsc build responsiveness to SIGINT and SIGTERM by threading cancellation contexts through compilation, exiting with proper codes, and adding tests.*
+*Improve tsc build responsiveness to SIGINT/SIGTERM by threading cancellation contexts for immediate exit and proper exit codes.*
 
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4592#issuecomment-5063525613) **jakebailey** said "The further this goes, the more I wonder if we should simply stop handling signals except in the LS or something. Obviously we never set up any signal handlers in tsc, right?"
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4592#issuecomment-5064330139) **lukesandberg** noted that skipping signal handlers causes crashes with partial outputs and suggested propagating context.Context for LSP timeouts for consistency
@@ -646,16 +646,16 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4649#issuecomment-5298429121) **jakebailey** said "#4662"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4653](https://github.com/microsoft/TypeScript-go/pull/4653) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4653](https://github.com/microsoft/TypeScript-go/pull/4653) (Closed, `Unmigrated PR`)
 
 **Error with a suggestion of '\.' for empty project reference paths**
 
-*Report empty project reference paths with a new TS18052 diagnostic suggesting '.' instead of the generic TS18051 error message.*
+*A new TS18052 diagnostic reports empty project reference paths and suggests using '.' instead of the generic TS18051 error.*
 
  * created by **KlyneChrysler**
  * **RyanCavanaugh** added label `Unmigrated PR`
 
-### [PR microsoft/TypeScript-go#4666](https://github.com/microsoft/TypeScript-go/pull/4666) (Open, `Voight-Kampff Anomaly`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4666](https://github.com/microsoft/TypeScript-go/pull/4666) (Closed, `Voight-Kampff Anomaly`, `Unmigrated PR`)
 
 **POC: ambient module declarations keyed on import attributes**
 
@@ -676,11 +676,11 @@
  * (today) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4670#issuecomment-5298301368) **dependabot[bot]** explained how to ignore dependency update notifications or reopen the PR to resolve conflicts
 
-### [PR microsoft/TypeScript-go#4674](https://github.com/microsoft/TypeScript-go/pull/4674) (Open, `Voight-Kampff Anomaly`, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4674](https://github.com/microsoft/TypeScript-go/pull/4674) (Closed, `Voight-Kampff Anomaly`, `Unmigrated PR`)
 
 **Preserve JSDoc @property comments when reconstructing typedef types**
 
-*Preserve JSDoc @property comments on typedefs when reconstructing inline types in generated .d.ts files.*
+*Ensure JSDoc @property comments on typedefs are preserved when tsgo inlines types into declaration files*
 
  * created by **veksa**
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4674#issuecomment-5016285782) **veksa** said "@microsoft-github-policy-service agree"
@@ -739,7 +739,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4696#issuecomment-5295907754) **RyanCavanaugh** said "Closing Draft PRs in preparation for our move back to the TypeScript repo. See you there!"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript-go#4703](https://github.com/microsoft/TypeScript-go/pull/4703) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4703](https://github.com/microsoft/TypeScript-go/pull/4703) (Closed, `Unmigrated PR`)
 
 **Store value symbol links inline on checker\-created symbols**
 
@@ -752,11 +752,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4703#issuecomment-5299087312) **typescript-automation[bot]** announced that performance tests had started and provided links to build status and results
  * [today](https://github.com/microsoft/TypeScript-go/pull/4703#issuecomment-5299251811) **typescript-automation[bot]** provided perf run results in a detailed comparison report
 
-### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Open)
+### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Closed)
 
 **Content mappers**
 
-*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
+*Implement content mappers that enable TypeScript to include unsupported file types by transforming them via tsconfig settings.*
 
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5279235915) **remcohaszing** suggested adding logging support via a `tsc --verbose` flag and LSP `log` notifications for both editor and CLI
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5287957894) **andrewbranch** said "Bikeshed request: I don’t love the name "tsContentMapper" for the mapper package.json key. Any better ideas?"
@@ -780,7 +780,7 @@
  * **RyanCavanaugh** added to milestone `Possible Improvement`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4716](https://github.com/microsoft/TypeScript-go/pull/4716) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4716](https://github.com/microsoft/TypeScript-go/pull/4716) (Closed, `Unmigrated PR`)
 
 **Restore Strada\-style escaped symbol names**
 
@@ -802,7 +802,7 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4721#issuecomment-5296527707) **jakebailey** said "Hopefully we don't need this"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript-go#4726](https://github.com/microsoft/TypeScript-go/pull/4726) (Open)
+### [PR microsoft/TypeScript-go#4726](https://github.com/microsoft/TypeScript-go/pull/4726) (Closed, `Unmigrated PR`)
 
 **Skip declaration emit without a prior signature**
 
@@ -834,11 +834,11 @@
  * (today) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript-go/pull/4730#issuecomment-5298283286) **dependabot[bot]** explained how to ignore dependency update notifications or reopen the PR to resolve conflicts
 
-### [PR microsoft/TypeScript-go#4733](https://github.com/microsoft/TypeScript-go/pull/4733) (Open, `Unmigrated PR`)
+### [PR microsoft/TypeScript-go#4733](https://github.com/microsoft/TypeScript-go/pull/4733) (Closed, `Unmigrated PR`)
 
 **Add wasip1 npm build target**
 
-*Add a wasip1 npm build target that assumes external mounting of lib.d.ts files rather than bundling them in the binary.*
+*Adds a wasip1-based NPM build target for tsc.wasm that omits lib.d.ts bundling and relies on external file mounting*
 
  * created by **jakebailey**
  * [3 weeks ago](https://github.com/microsoft/TypeScript-go/pull/4733#issuecomment-5073968665) **jakebailey** said "wasip1 lacks os.Executable, so this breaks, currently."

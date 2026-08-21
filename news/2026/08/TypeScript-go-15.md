@@ -21,11 +21,11 @@
  * [today](https://github.com/microsoft/TypeScript-go/pull/4646#issuecomment-5304844836) **cuishuang** said "Close as already being fixed by my older PR: https://github.com/microsoft/typescript-go/pull/3663"
  * (today) **cuishuang** closed the issue
 
-### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Open)
+### [PR microsoft/TypeScript-go#4712](https://github.com/microsoft/TypeScript-go/pull/4712) (Closed)
 
 **Content mappers**
 
-*Enable TypeScript to integrate unsupported file types through configurable external content mappers specified in tsconfig.json*
+*Implement content mappers that enable TypeScript to include unsupported file types by transforming them via tsconfig settings.*
 
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5297254750) **andrewbranch** corrected performance results and reported a 2x speed improvement over typescript-native-bridge
  * [yesterday](https://github.com/microsoft/TypeScript-go/pull/4712#issuecomment-5298147329) **andrewbranch** referenced a commit showing extensions can contribute a JSON schema for content mapper options merged into the tsconfig schema

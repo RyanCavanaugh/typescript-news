@@ -1,6 +1,6 @@
 # Report for 2026-08-14 (Friday, August 14th, 2026)
 
-8 different users commented on 13 different issues.
+9 different users commented on 20 different issues.
 
 ## Recommended Actions
 
@@ -8,6 +8,22 @@
     * @irfanstract asked why const enum is allowed in [microsoft/TypeScript#31670](https://github.com/microsoft/TypeScript/issues/31670#issuecomment-5299225184)
     * @tejash5489-lang suggested relabeling or splitting the issue to avoid duplication in [microsoft/TypeScript#37782](https://github.com/microsoft/TypeScript/issues/37782#issuecomment-5301387045)
     * @patrickswedish asked whether to reopen/retarget #63729 or create a fresh rebased PR in [microsoft/TypeScript#63728](https://github.com/microsoft/TypeScript/issues/63728#issuecomment-5301776601)
+    * @typescript-automation[bot] reported an unhandled node kind panic in the JSX transformer in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510739)
+    * @typescript-automation[bot] reported a panic in textDocument/diagnostic request in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510764)
+    * @typescript-automation[bot] reported a panic during textDocument/diagnostic in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510803)
+    * @typescript-automation[bot] reported a runtime panic stack trace in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510821)
+    * @typescript-automation reported a panic during textDocument/diagnostic handling in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510845)
+    * @typescript-automation reported a panic during textDocument/diagnostic handling that requires investigation in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510864)
+    * @typescript-automation[bot] reported a panic in textDocument/diagnostic that requires investigation in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510889)
+    * @typescript-automation[bot] reported a runtime panic error in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510916)
+    * @typescript-automation[bot] reported server connection closed prematurely in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510946)
+    * @typescript-automation[bot] provided repro steps and error logs in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510968)
+    * @typescript-automation[bot] provided repro steps as requested in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510992)
+    * @typescript-automation[bot] reported an error and provided reproduction steps in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511035)
+    * @typescript-automation[bot] reported panic in textDocument/diagnostic handling in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511086)
+    * @typescript-automation[bot] reported a panic during diagnostics for makeplane/plane that should be investigated in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511112)
+    * @typescript-automation[bot] reported a panic that needs investigation in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511148)
+    * @typescript-automation[bot] reported a panic during textDocument/diagnostic request in [microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511171)
 
 ## Activity Summary
 
@@ -106,7 +122,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63738#issuecomment-5296055304) **RyanCavanaugh** said "This seems like make-work PR activity; no one is confused about whether argArray is the arguments array."
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63749](https://github.com/microsoft/TypeScript/issues/63749) (Open, `Bug`, **ahejlsberg**)
 
 **\[7\.0\] Can't access field if it is protected in one constituent of an intersection \(type order dependent\)**
 
@@ -117,7 +133,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63749#issuecomment-5295663639) **RyanCavanaugh** clarified that intersections are order-dependent and proposed allowing access if any constituent is public
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#63750](https://github.com/microsoft/TypeScript/issues/63750) (Open, `Bug`, `Fix Available`)
+### [Issue microsoft/TypeScript#63750](https://github.com/microsoft/TypeScript/issues/63750) (Open, `Bug`)
 
 **tsgo: parser nil\-pointer panic when a JSDoc @overload tags an anonymous default\-export function**
 
@@ -147,4 +163,44 @@
  * created by **wagenet**
  * [today](https://github.com/microsoft/TypeScript/issues/63752#issuecomment-5299504677) **wagenet** explained a workaround shipping in the Ember parser that lies to ts.sys.getFileSize by reporting .gts files as zero bytes and stated a preference for extraFileExtensions
  * [today](https://github.com/microsoft/TypeScript/issues/63752#issuecomment-5300461978) **MartinJohns** noted that the suggested fix applied to nonexistent files and cautioned against trusting the AI given that TypeScript 5.7 is almost two years old
+
+### [Issue microsoft/TypeScript#63888](https://github.com/microsoft/TypeScript/issues/63888) (Open, `Needs Investigation`, **jakebailey**)
+
+**tsc colours diagnostics when stdout is not a TTY, splitting "error TS2304" and breaking output parsing \(regressed in 6\.0\)**
+
+*TypeScript CLI regressed in v6 by emitting ANSI escapes on non-TTY stdout, splitting "error TS2304" and preventing error detection.*
+
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63888#issuecomment-5351510632) **leo-heath** explained that FORCE_COLOR=0 was automatically set, confirmed TTY detection worked correctly across versions, and closed the issue after apologizing for the detour
+ * (yesterday) **leo-heath** closed the issue
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63888#issuecomment-5351510651) **jakebailey** mentioned that FORCE_COLOR handling was inconsistent and suggested copying chalk or Node’s behavior
+ * [today](https://github.com/microsoft/TypeScript/issues/63888#issuecomment-5351510677) **jakebailey** said "I'm going to leave this open because I'd like to make this work better for 7.1"
+ * (today) **jakebailey** reopened the issue
+
+### [Issue microsoft/TypeScript#63889](https://github.com/microsoft/TypeScript/issues/63889) (Open, `Needs Investigation`, **johnfav03**)
+
+**\[ServerErrors\]\[TypeScript\] main vs **
+
+*The TypeScript main branch pipeline analyzed 300 popular GitHub repositories, reporting 29 detected changes, 147 no-changes, and several clone, timeout, and unknown failures.*
+
+ * created by **typescript-automation[bot]**
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510739) **typescript-automation[bot]** reported a panic caused by an unhandled node kind KindBinaryExpression in a JSX initializer and included a stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510764) **typescript-automation[bot]** reported a panic in handling textDocument/diagnostic requests with a stack trace affecting honojs/hono
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510776) **typescript-automation[bot]** reported a panic in textDocument/diagnostic, provided a stack trace, listed the affected repo deepseek-ai/deepseek-harness, and noted the old server had completed successfully
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510803) **typescript-automation[bot]** reported a panic handling request for textDocument/diagnostic and logged the stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510821) **typescript-automation[bot]** reported a runtime panic due to index out of range and provided a stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510845) **typescript-automation[bot]** reported a panic handling a textDocument/diagnostic request with flaky diagnostics and stack trace affecting mermaid-js/mermaid
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510864) **typescript-automation[bot]** reported a panic handling request textDocument/diagnostic with a stack trace and affected repo details
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510889) **typescript-automation[bot]** reported a panic handling a textDocument/diagnostic request with a stack trace and affected repo details
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510916) **typescript-automation[bot]** reported a runtime panic with invalid memory address or nil pointer dereference and provided a stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510930) **typescript-automation[bot]** reported a server connection closed prematurely error for the mattermost-community/focalboard repository and provided logs, artifact links, and repro steps
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510946) **typescript-automation[bot]** reported server connection closed prematurely for backstage/backstage with error details
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510968) **typescript-automation[bot]** reported a premature server connection closure and provided affected repos, error logs, last requests, and repro steps
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351510992) **typescript-automation[bot]** reported a premature server connection closure with details, artifacts, and repro steps for the stablyai/orca repo
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511016) **typescript-automation[bot]** reported the server connection closed prematurely and provided error details, affected repositories, request logs, and repro steps
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511035) **typescript-automation[bot]** reported that the server connection closed prematurely and provided affected repo details, error logs, and reproduction steps
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511062) **typescript-automation[bot]** reported a panic while handling textDocument/diagnostic request with stack trace output
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511086) **typescript-automation[bot]** reported a panic while handling textDocument/diagnostic request with a stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511112) **typescript-automation[bot]** reported a panic in the textDocument/diagnostic handler with stack trace for makeplane/plane
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511148) **typescript-automation[bot]** reported a panic due to invalid memory address or nil pointer dereference with stack trace
+ * [today](https://github.com/microsoft/TypeScript/issues/63889#issuecomment-5351511171) **typescript-automation[bot]** reported a panic during a textDocument/diagnostic request, including a stack trace and details for pubkey/rxdb
 

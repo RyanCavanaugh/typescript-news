@@ -1,10 +1,10 @@
 # Report for 2026-08-16 (Sunday, August 16th, 2026)
 
-4 different users commented on 3 different issues.
+4 different users commented on 5 different issues.
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#63742](https://github.com/microsoft/TypeScript/issues/63742) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#63742](https://github.com/microsoft/TypeScript/issues/63742) (Closed, `Needs More Info`)
 
 **Rest\-parameter mapped\-type wrapping breaks tuple\-literal inference once real\-world complexity is added**
 
@@ -24,7 +24,7 @@
  * created by **karl-police**
  * [today](https://github.com/microsoft/TypeScript/issues/63753#issuecomment-5309998234) **MartinJohns** said "The documentation is outdated. See this: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html#types-now-defaults-to-"
 
-### [Issue microsoft/TypeScript#63754](https://github.com/microsoft/TypeScript/issues/63754) (Open)
+### [Issue microsoft/TypeScript#63754](https://github.com/microsoft/TypeScript/issues/63754) (Open, `Bug`)
 
 **Diagnostic code 8030 being incorrectly generated using JSDoc \`@type\` on a function\.**
 
