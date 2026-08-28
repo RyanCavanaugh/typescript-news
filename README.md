@@ -2,19 +2,17 @@
 
 ## TypeScript
 
-- [Thursday, August 20 2026](news/2026/08/TypeScript-20.md)
-- [Wednesday, August 19 2026](news/2026/08/TypeScript-19.md)
-- [Tuesday, August 18 2026](news/2026/08/TypeScript-18.md)
-- [Monday, August 17 2026](news/2026/08/TypeScript-17.md)
-- [Sunday, August 16 2026](news/2026/08/TypeScript-16.md)
-- [Saturday, August 15 2026](news/2026/08/TypeScript-15.md)
+- [Thursday, August 27 2026](news/2026/08/TypeScript-27.md)
+- [Wednesday, August 26 2026](news/2026/08/TypeScript-26.md)
+- [Tuesday, August 25 2026](news/2026/08/TypeScript-25.md)
+- [Monday, August 24 2026](news/2026/08/TypeScript-24.md)
+- [Sunday, August 23 2026](news/2026/08/TypeScript-23.md)
+- [Saturday, August 22 2026](news/2026/08/TypeScript-22.md)
 
 ## TypeScript-go
 
-- [Thursday, August 20 2026](news/2026/08/TypeScript-go-20.md)
-- [Wednesday, August 19 2026](news/2026/08/TypeScript-go-19.md)
-- [Tuesday, August 18 2026](news/2026/08/TypeScript-go-18.md)
-- [Monday, August 17 2026](news/2026/08/TypeScript-go-17.md)
-- [Sunday, August 16 2026](news/2026/08/TypeScript-go-16.md)
-- [Saturday, August 15 2026](news/2026/08/TypeScript-go-15.md)
+- [Tuesday, August 25 2026](news/2026/08/TypeScript-go-25.md)
+- [Monday, August 24 2026](news/2026/08/TypeScript-go-24.md)
+- [Sunday, August 23 2026](news/2026/08/TypeScript-go-23.md)
+- [Saturday, August 22 2026](news/2026/08/TypeScript-go-22.md)
 
