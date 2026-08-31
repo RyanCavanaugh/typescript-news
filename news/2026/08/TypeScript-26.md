@@ -1,6 +1,6 @@
 # Report for 2026-08-26 (Wednesday, August 26th, 2026)
 
-24 different users commented on 63 different issues.
+24 different users commented on 65 different issues.
 
 ## Recommended Actions
 
@@ -142,11 +142,11 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63704](https://github.com/microsoft/TypeScript/issues/63704) (Open, `Suggestion`, `Committed`, `Domain: lib.d.ts`, `ES Next`)
+### [Issue microsoft/TypeScript#63704](https://github.com/microsoft/TypeScript/issues/63704) (Open, `Suggestion`, `Committed`, `Domain: lib.d.ts`, `ES Next`, **DanielRosenwasser**)
 
 **Add \`es2026\` as valid \`target\` and \`lib\`**
 
-*Add ES2026 as a valid TypeScript target and library, incorporating new ECMAScript 2026 features and moving specified APIs to the es2026 lib.*
+*Add es2026 support with Math.sumPrecise, Iterator.concat, JSON.rawJSON and stringify overloads, Error.isError, default-valued Map/WeakMap methods, Uint8Array hex/base64 methods, and Array.fromAsync.*
 
  * (3 weeks ago) **DanielRosenwasser** added labels `Committed`, `Domain: lib.d.ts`, `ES Next`
  * [today](https://github.com/microsoft/TypeScript/issues/63704#issuecomment-5432318279) **DanielRosenwasser** said "If we merge https://github.com/microsoft/TypeScript/pull/63429 in first, we'll need to move that into es2026 as well."
@@ -218,7 +218,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/issues/63823#issuecomment-5365807837) **rchl** suggested using tsgo suffix for code actions, then reconsidered and proposed ts or typescript might be more appropriate
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#63827](https://github.com/microsoft/TypeScript/issues/63827) (Open, `Needs More Info`, **andrewbranch**)
+### [Issue microsoft/TypeScript#63827](https://github.com/microsoft/TypeScript/issues/63827) (Closed, `Needs More Info`, **andrewbranch**)
 
 **LSP custom/initializeAPISession never responds in stdio mode \(7\.0\.0\-dev\.20260518\.1 / 20260522\.1\)**
 
@@ -351,7 +351,7 @@
  * created by **Abdullah-Builds**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#63996](https://github.com/microsoft/TypeScript/pull/63996) (Open)
+### [PR microsoft/TypeScript#63996](https://github.com/microsoft/TypeScript/pull/63996) (Closed, `For Backlog Bug`)
 
 **Fix scanning issues related to Unicode escapes in RegExp group names and refactor identifier scanning**
 
@@ -417,7 +417,7 @@
  * (yesterday) **jakebailey** assigned to **Copilot**, **jakebailey**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#64029](https://github.com/microsoft/TypeScript/issues/64029) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#64029](https://github.com/microsoft/TypeScript/issues/64029) (Closed, `Bug`, **andrewbranch**, **RyanCavanaugh**, **Copilot**)
 
 **Auto\-import ignores barrel \(index\.ts\) when the imported folder name is a prefix of the importing file name**
 
@@ -442,7 +442,7 @@
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/pull/64032#issuecomment-5431489667) **andrewbranch** said "@copilot what are you doing. no time to waste. hop to it please"
 
-### [Issue microsoft/TypeScript#64033](https://github.com/microsoft/TypeScript/issues/64033) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#64033](https://github.com/microsoft/TypeScript/issues/64033) (Closed, `Not a Defect`)
 
 **Type erasure changes directive\-prologue semantics after type\-only declarations**
 
@@ -470,7 +470,7 @@
  * (today) **andrewbranch** added label `Needs More Info`, and removed label `Bug`
  * [today](https://github.com/microsoft/TypeScript/issues/64034#issuecomment-5429857364) **alexicum** thanked the maintainer for clarification and provided repro steps along with expected behavior for consistent import suggestions
 
-### [PR microsoft/TypeScript#64035](https://github.com/microsoft/TypeScript/pull/64035) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#64035](https://github.com/microsoft/TypeScript/pull/64035) (Open, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Prefer index barrels for relative auto\-imports**
 
@@ -525,11 +525,11 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64039#issuecomment-5431602052) **typescript-automation[bot]** reported that running tsc on the top 400 repos comparing main and the pull request merge succeeded
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript#64040](https://github.com/microsoft/TypeScript/pull/64040) (Open)
+### [PR microsoft/TypeScript#64040](https://github.com/microsoft/TypeScript/pull/64040) (Open, `For Uncommitted Bug`)
 
 **Replace Node interface with discriminated unions **
 
-*Replace the Node interface with discriminated unions to improve type safety and exhaustiveness checking.*
+*Replace the Node interface with discriminated union types for improved type safety.*
 
  * created by **ArnaudBarre**
 
@@ -547,7 +547,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64041#issuecomment-5432224635) **typescript-automation[bot]** reported that CI jobs started and provided status and results links
  * [today](https://github.com/microsoft/TypeScript/pull/64041#issuecomment-5432871314) **typescript-automation[bot]** reported test results for top 1000 repos showing everything looked good
 
-### [PR microsoft/TypeScript#64042](https://github.com/microsoft/TypeScript/pull/64042) (Closed)
+### [PR microsoft/TypeScript#64042](https://github.com/microsoft/TypeScript/pull/64042) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Content mapper auto import formatting panic**
 
@@ -555,7 +555,7 @@
 
  * created by **andrewbranch**
 
-### [PR microsoft/TypeScript#64043](https://github.com/microsoft/TypeScript/pull/64043) (Open)
+### [PR microsoft/TypeScript#64043](https://github.com/microsoft/TypeScript/pull/64043) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Align object binding defaults with arrays**
 
@@ -563,7 +563,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript#64044](https://github.com/microsoft/TypeScript/pull/64044) (Open)
+### [PR microsoft/TypeScript#64044](https://github.com/microsoft/TypeScript/pull/64044) (Open, `Author: Team`, `For Milestone Bug`, **jakebailey**)
 
 **Speed up narrowing of literal unions**
 
@@ -579,7 +579,7 @@
 
  * created by **jakebailey**
 
-### [PR microsoft/TypeScript#64046](https://github.com/microsoft/TypeScript/pull/64046) (Open)
+### [PR microsoft/TypeScript#64046](https://github.com/microsoft/TypeScript/pull/64046) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Flip files from CRLF to LF**
 
@@ -604,7 +604,7 @@
 
  * created by **jakebailey**
 
-### [Issue microsoft/TypeScript#64049](https://github.com/microsoft/TypeScript/issues/64049) (Open, `Won't Fix`)
+### [Issue microsoft/TypeScript#64049](https://github.com/microsoft/TypeScript/issues/64049) (Closed, `Won't Fix`)
 
 **Erasing a \`const enum\` can emit an illegal \`"use strict"\` directive**
 
@@ -632,7 +632,7 @@
  * created by **spam71923-bot**
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64052](https://github.com/microsoft/TypeScript/pull/64052) (Open)
+### [PR microsoft/TypeScript#64052](https://github.com/microsoft/TypeScript/pull/64052) (Open, `For Milestone Bug`)
 
 **Fix false positive TS8030 for JSDoc @type on optional interface methods**
 

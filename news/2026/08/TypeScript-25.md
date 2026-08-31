@@ -1,6 +1,6 @@
 # Report for 2026-08-25 (Tuesday, August 25th, 2026)
 
-28 different users commented on 124 different issues.
+28 different users commented on 127 different issues.
 
 ## Recommended Actions
 
@@ -229,7 +229,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/32366#issuecomment-5415731469) **RyanCavanaugh** stated that the issue was fixed in current TypeScript and provided diagnostics showing the error in 3.4.5 and its absence in 7.1.0-dev
  * **RyanCavanaugh** added label `Needs Human Review`
 
-### [Issue microsoft/TypeScript#32367](https://github.com/microsoft/TypeScript/issues/32367) (Open, `Bug`, `Domain: JavaScript`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#32367](https://github.com/microsoft/TypeScript/issues/32367) (Open, `Bug`, `Domain: JavaScript`, **sandersn**)
 
 **JS typedef merged with default export class behaves strangely**
 
@@ -297,7 +297,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/35102#issuecomment-5417140499) **RyanCavanaugh** said "Doesn't seem like this is worth making a type difference for."
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#40023](https://github.com/microsoft/TypeScript/issues/40023) (Open, `Infrastructure`, **jakebailey**, **RyanCavanaugh**)
+### [Issue microsoft/TypeScript#40023](https://github.com/microsoft/TypeScript/issues/40023) (Closed, `Infrastructure`, **jakebailey**, **RyanCavanaugh**)
 
 **Clean up old branches in the repo?**
 
@@ -835,7 +835,7 @@
  * created by **loulanyue**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#63995](https://github.com/microsoft/TypeScript/issues/63995) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63995](https://github.com/microsoft/TypeScript/issues/63995) (Closed, `Bug`)
 
 **Leading Unicode escapes and surrogate pair escapes are not parsed in RegExp group names**
 
@@ -866,7 +866,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63998#issuecomment-5418453342) **DanielRosenwasser** asked for clarification on how multiple paths would come into play when only grabbing paths once per tsconfig
  * (later) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#63999](https://github.com/microsoft/TypeScript/pull/63999) (Open)
+### [PR microsoft/TypeScript#63999](https://github.com/microsoft/TypeScript/pull/63999) (Open, `For Backlog Bug`)
 
 **Don't ignore all generic self tail calls when collecting the return type of a function**
 
@@ -891,34 +891,4 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64006#issuecomment-5413144238) **Andarist** identified that the issue bisected to a TypeScript PR and explained that EPC shouldn't happen in inference contexts because inferred types are intentionally subtypes
  * [today](https://github.com/microsoft/TypeScript/issues/64006#issuecomment-5416596919) **RyanCavanaugh** expressed agreement and noted that Subset<T, Args> tries to emulate exact types in TS which lacks exact types, making a better definition of f difficult without a useful generic type parameter
  * **RyanCavanaugh** added label `Working as Intended`
-
-### [Issue microsoft/TypeScript#64007](https://github.com/microsoft/TypeScript/issues/64007) (Closed)
-
-**Microsoft/typescript\#36554\-albert**
-
-*Diagnosing missing or unexpected ES2020 TypeScript built-in definitions by inspecting compiler options and library settings.*
-
- * created by **albertoblue87-netizen**
- * (today) **RyanCavanaugh** closed the issue
-
-### [Issue microsoft/TypeScript#64008](https://github.com/microsoft/TypeScript/issues/64008) (Closed, `Duplicate`)
-
-**Typescript \#9998**
-
-*TypeScript intentionally does not respect type narrowings in callbacks and does not reset them after function calls, even if mutation is possible.*
-
- * created by **albertoblue87-netizen**
- * **albertoblue87-netizen** added label `Duplicate`
- * (today) **RyanCavanaugh** closed the issue
-
-### [PR microsoft/TypeScript#64009](https://github.com/microsoft/TypeScript/pull/64009) (Closed)
-
-**Don't depend on vfstest for transpile**
-
-*Replace the transpile package’s dependence on vfstest’s test VFS with a local filesystem to reduce binary size by about 100KB.*
-
- * created by **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64009#issuecomment-5415531238) **andrewbranch** mentioned having a local fix that was broader than necessary and offered to address module resolution in a follow-up after Copilot comments were fixed
- * [today](https://github.com/microsoft/TypeScript/pull/64009#issuecomment-5415969655) **jakebailey** said "Fixed them, with tests"
- * (today) **jakebailey** closed the issue
 

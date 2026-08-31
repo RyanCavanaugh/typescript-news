@@ -1,6 +1,6 @@
 # Report for 2026-08-27 (Thursday, August 27th, 2026)
 
-31 different users commented on 66 different issues.
+30 different users commented on 69 different issues.
 
 ## Recommended Actions
 
@@ -58,7 +58,7 @@
  * [44 weeks ago](https://github.com/microsoft/TypeScript/issues/27808#issuecomment-3429568523) **RyanCavanaugh** said "I'm not really sure what you're trying to accomplish with it, so I can't speak to how to better achieve that goal"
  * [today](https://github.com/microsoft/TypeScript/issues/27808#issuecomment-5446557862) **irfanstract** suggested making the simple identifier `oneof` a special marker type with one-of semantics and provided illustrative TypeScript code examples
 
-### [Issue microsoft/TypeScript#29188](https://github.com/microsoft/TypeScript/issues/29188) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#29188](https://github.com/microsoft/TypeScript/issues/29188) (Closed, `Design Limitation`)
 
 **Conditional type does not narrow union type**
 
@@ -94,7 +94,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/31307#issuecomment-5445714326) **RyanCavanaugh** said "This works now"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#32367](https://github.com/microsoft/TypeScript/issues/32367) (Open, `Bug`, `Domain: JavaScript`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#32367](https://github.com/microsoft/TypeScript/issues/32367) (Open, `Bug`, `Domain: JavaScript`, **sandersn**)
 
 **JS typedef merged with default export class behaves strangely**
 
@@ -225,7 +225,7 @@
  * (1.9 years ago) **RyanCavanaugh** added labels `Union Order Dependence`, `Domain: Type Inference`
  * (later) **dartess** closed the issue
 
-### [Issue microsoft/TypeScript#60927](https://github.com/microsoft/TypeScript/issues/60927) (Open, `Not a Defect`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#60927](https://github.com/microsoft/TypeScript/issues/60927) (Closed, `Not a Defect`, **ahejlsberg**)
 
 **\`RangeError: Maximum call stack size exceeded\` Regression in \#52392**
 
@@ -283,7 +283,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/63775#issuecomment-5449475199) **dartess** said "The issue was opened as a potential update issue, and since this is expected behavior, I think it should be closed."
  * (later) **dartess** closed the issue
 
-### [Issue microsoft/TypeScript#63781](https://github.com/microsoft/TypeScript/issues/63781) (Open, `Working as Intended`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63781](https://github.com/microsoft/TypeScript/issues/63781) (Closed, `Working as Intended`, **ahejlsberg**)
 
 **Error on function type that comes from a function declaration that is declared after usage site**
 
@@ -305,11 +305,11 @@
  * **andrewbranch** assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#63950](https://github.com/microsoft/TypeScript/pull/63950) (Open, `Author: Team`, `For Uncommitted Bug`, **gabritto**)
+### [PR microsoft/TypeScript#63950](https://github.com/microsoft/TypeScript/pull/63950) (Closed, `Author: Team`, `For Uncommitted Bug`, **gabritto**)
 
 **Add \`createProgram\` to API**
 
-*Introduce createProgram API to build or evolve a TypeScript program from root files, compiler options, and optional old program snapshots.*
+*Add a createProgram API to create and evolve TypeScript programs by applying file changes to snapshots and optional old programs.*
 
  * (6 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **gabritto**
  * [today](https://github.com/microsoft/TypeScript/pull/63950#issuecomment-5446808532) **gabritto** said "Leaving the diagnostics file thing for a separate PR."
@@ -392,7 +392,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64041#issuecomment-5432871314) **typescript-automation[bot]** reported test results for top 1000 repos showing everything looked good
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64042](https://github.com/microsoft/TypeScript/pull/64042) (Closed)
+### [PR microsoft/TypeScript#64042](https://github.com/microsoft/TypeScript/pull/64042) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Content mapper auto import formatting panic**
 
@@ -401,7 +401,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64044](https://github.com/microsoft/TypeScript/pull/64044) (Open)
+### [PR microsoft/TypeScript#64044](https://github.com/microsoft/TypeScript/pull/64044) (Open, `Author: Team`, `For Milestone Bug`, **jakebailey**)
 
 **Speed up narrowing of literal unions**
 
@@ -420,7 +420,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64046](https://github.com/microsoft/TypeScript/pull/64046) (Open)
+### [PR microsoft/TypeScript#64046](https://github.com/microsoft/TypeScript/pull/64046) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Flip files from CRLF to LF**
 
@@ -450,7 +450,7 @@
  * created by **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64049](https://github.com/microsoft/TypeScript/issues/64049) (Open, `Won't Fix`)
+### [Issue microsoft/TypeScript#64049](https://github.com/microsoft/TypeScript/issues/64049) (Closed, `Won't Fix`)
 
 **Erasing a \`const enum\` can emit an illegal \`"use strict"\` directive**
 
@@ -472,7 +472,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/64050#issuecomment-5434695975) **scs0209** said "I'd like to work on this. Can I try it?"
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64053](https://github.com/microsoft/TypeScript/issues/64053) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64053](https://github.com/microsoft/TypeScript/issues/64053) (Open, `Needs Investigation`, **andrewbranch**)
 
 **content\-mapper generates inconsistent declaration extensions, making management of package\.json\#exports hard / verbose**
 
@@ -488,7 +488,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64053#issuecomment-5445124761) **NullVoxPopuli** mentioned that MDX faced the same problem and suggested that other ecosystems standardize publishing JS to npm to reduce transpilation work
  * [later](https://github.com/microsoft/TypeScript/issues/64053#issuecomment-5449867169) **remcohaszing** described Ember's and MDX's content-mapped file compilation parallels and proposed TypeScript content mapper configuration to rewrite import extensions
 
-### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Open)
+### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Bump and clean up deps, raise min local node version**
 
@@ -516,7 +516,7 @@
  * (today) **DanielRosenwasser** added labels `Bug`, `Domain: Editor/VS Code Extension`, set milestone to `TypeScript 7.1.1 RC`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/issues/64056#issuecomment-5444809205) **weswigham** referred to server logs entries from another issue as more immediately actionable and relevant
 
-### [PR microsoft/TypeScript#64057](https://github.com/microsoft/TypeScript/pull/64057) (Open, **ahejlsberg**, **Copilot**)
+### [PR microsoft/TypeScript#64057](https://github.com/microsoft/TypeScript/pull/64057) (Open, `For Uncommitted Bug`, **ahejlsberg**, **Copilot**)
 
 **Port \`\-\-enforceReadonly\` to the Go compiler**
 
@@ -525,7 +525,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **ahejlsberg**
 
-### [Issue microsoft/TypeScript#64058](https://github.com/microsoft/TypeScript/issues/64058) (Open)
+### [Issue microsoft/TypeScript#64058](https://github.com/microsoft/TypeScript/issues/64058) (Open, `Bug`)
 
 **TS7: \`@extends\` is ignored when the heritage is a call expression \(Base\.extend\(\)\)**
 
@@ -544,7 +544,7 @@
  * (today) **SvabhuG** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/64059#issuecomment-5446830179) **ahejlsberg** said "@SvabhuG Is there a reason you closed this again?"
 
-### [PR microsoft/TypeScript#64060](https://github.com/microsoft/TypeScript/pull/64060) (Open)
+### [PR microsoft/TypeScript#64060](https://github.com/microsoft/TypeScript/pull/64060) (Closed)
 
 **Enhance jsonvalue\_test\.go with edge case tests**
 
@@ -552,7 +552,7 @@
 
  * created by **denizguney**
 
-### [PR microsoft/TypeScript#64061](https://github.com/microsoft/TypeScript/pull/64061) (Open)
+### [PR microsoft/TypeScript#64061](https://github.com/microsoft/TypeScript/pull/64061) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add pagination of batch requests**
 
@@ -560,7 +560,7 @@
 
  * created by **weswigham**
 
-### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Open)
+### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Open, `External`)
 
 **LSP causes client to watch thousands of files**
 
@@ -568,27 +568,26 @@
 
  * created by **CamJN**
 
-### [PR microsoft/TypeScript#64063](https://github.com/microsoft/TypeScript/pull/64063) (Open)
+### [PR microsoft/TypeScript#64063](https://github.com/microsoft/TypeScript/pull/64063) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Ditch nodeData interface in favor of generated accessors**
 
-*Replace the existing nodeData interface with automatically generated accessors for cleaner and more maintainable code.*
+*Replacing the dynamic nodeData interface with generated accessors reduces binary size, symbol count, and compile time.*
 
  * created by **jakebailey**
  * [today](https://github.com/microsoft/TypeScript/pull/64063#issuecomment-5448174610) **jakebailey** said "@typescript-bot perf test this"
  * [today](https://github.com/microsoft/TypeScript/pull/64063#issuecomment-5448175071) **typescript-automation[bot]** reported CI jobs started and provided build status and results links
  * [today](https://github.com/microsoft/TypeScript/pull/64063#issuecomment-5448369410) **typescript-automation[bot]** provided the performance comparison report for the requested perf run
 
-### [PR microsoft/TypeScript#64064](https://github.com/microsoft/TypeScript/pull/64064) (Open)
+### [PR microsoft/TypeScript#64064](https://github.com/microsoft/TypeScript/pull/64064) (Open, `For Backlog Bug`)
 
 **Fix importHelpers incorrectly requiring tslib for native \#private class members \(\#63728\)**
 
 *Remove unnecessary decorator-based gating so native private class members no longer require tslib for ES2022+ targets*
 
  * created by **YoussefMansour9**
- * [today](https://github.com/microsoft/TypeScript/pull/64064#issuecomment-5448643349) **microsoft-github-policy-service[bot]** requested that the user agree to the Contributor License Agreement by replying with the specified command format
 
-### [Issue microsoft/TypeScript#64065](https://github.com/microsoft/TypeScript/issues/64065) (Open)
+### [Issue microsoft/TypeScript#64065](https://github.com/microsoft/TypeScript/issues/64065) (Closed, `API Request`, **andrewbranch**)
 
 **Add \`TupleTypeReference\` interface to the API**
 
@@ -596,7 +595,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript#64066](https://github.com/microsoft/TypeScript/pull/64066) (Open)
+### [PR microsoft/TypeScript#64066](https://github.com/microsoft/TypeScript/pull/64066) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Add \`TupleTypeReference\` interface**
 
@@ -604,7 +603,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript#64067](https://github.com/microsoft/TypeScript/issues/64067) (Open)
+### [Issue microsoft/TypeScript#64067](https://github.com/microsoft/TypeScript/issues/64067) (Closed, `API Request`, **andrewbranch**, **Copilot**)
 
 **\[API\] CompilerOptions references enums that aren't exported, and omits options tsc accepts**
 
@@ -612,7 +611,7 @@
 
  * created by **knutwannheden**
 
-### [Issue microsoft/TypeScript#64068](https://github.com/microsoft/TypeScript/issues/64068) (Open)
+### [Issue microsoft/TypeScript#64068](https://github.com/microsoft/TypeScript/issues/64068) (Closed, `API Request`, **andrewbranch**, **Copilot**)
 
 **\[API\] An invalid DocumentIdentifier fails with a TypeError from path\.js rather than a message naming the argument**
 
@@ -620,7 +619,7 @@
 
  * created by **knutwannheden**
 
-### [Issue microsoft/TypeScript#64069](https://github.com/microsoft/TypeScript/issues/64069) (Open)
+### [Issue microsoft/TypeScript#64069](https://github.com/microsoft/TypeScript/issues/64069) (Open, `API Request`, **andrewbranch**)
 
 **\[API\] No module resolution API: no counterpart to ts\.resolveModuleName**
 
@@ -628,7 +627,7 @@
 
  * created by **knutwannheden**
 
-### [Issue microsoft/TypeScript#64070](https://github.com/microsoft/TypeScript/issues/64070) (Open)
+### [Issue microsoft/TypeScript#64070](https://github.com/microsoft/TypeScript/issues/64070) (Open, `API Request`, **andrewbranch**)
 
 **\[API\] No jsDocParsingMode, and reparsed JSDoc types appear as syntax on the declarations they document**
 
@@ -648,17 +647,17 @@
  * (later) **knutwannheden** closed the issue
  * [later](https://github.com/microsoft/TypeScript/issues/64071#issuecomment-5454738897) **RyanCavanaugh** said "See also https://github.com/npm/cli/issues/9868 , https://github.com/yarnpkg/berry/issues/7215"
 
-### [PR microsoft/TypeScript#64072](https://github.com/microsoft/TypeScript/pull/64072) (Open)
+### [PR microsoft/TypeScript#64072](https://github.com/microsoft/TypeScript/pull/64072) (Open, `For Backlog Bug`)
 
 **fix\(64058\): fix reparse jsdoc @extends type arguments for call expressions**
 
-*Correct the JSDoc @extends directive to properly parse type arguments for call expressions.*
+*Corrects the re-parsing of JSDoc @extends type arguments in call expressions.*
 
  * created by **a-tarasyuk**
  * (later) **a-tarasyuk** closed the issue
  * (later) **a-tarasyuk** reopened the issue
 
-### [Issue microsoft/TypeScript#64073](https://github.com/microsoft/TypeScript/issues/64073) (Open)
+### [Issue microsoft/TypeScript#64073](https://github.com/microsoft/TypeScript/issues/64073) (Closed, `Duplicate`)
 
 **The extends infer for function generics fails\.**
 
@@ -667,16 +666,15 @@
  * created by **vipcxj**
  * [later](https://github.com/microsoft/TypeScript/issues/64073#issuecomment-5451809803) **MartinJohns** explained that resolving conditional types with unbound generics is deferred and noted duplication of issue #23132
 
-### [PR microsoft/TypeScript#64074](https://github.com/microsoft/TypeScript/pull/64074) (Open)
+### [PR microsoft/TypeScript#64074](https://github.com/microsoft/TypeScript/pull/64074) (Open, `For Backlog Bug`)
 
 **Disallow optional calls on import\.defer**
 
 *Introduce parse errors for optional calls on import.defer, including import.defer?.(...) and generic import.defer?.<T>(...), while preserving valid import.defer(...) calls.*
 
  * created by **HyeonsangKim**
- * [later](https://github.com/microsoft/TypeScript/pull/64074#issuecomment-5451542982) **microsoft-github-policy-service[bot]** requested that the contributor read and agree to the CLA by replying with the specified command
 
-### [Issue microsoft/TypeScript#64075](https://github.com/microsoft/TypeScript/issues/64075) (Open)
+### [Issue microsoft/TypeScript#64075](https://github.com/microsoft/TypeScript/issues/64075) (Closed, `Working as Intended`)
 
 **Content mappers: let TypeScript send \`transform\` requests in parallel, not to one queue**
 

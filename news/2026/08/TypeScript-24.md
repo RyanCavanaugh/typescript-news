@@ -1,6 +1,6 @@
 # Report for 2026-08-24 (Monday, August 24th, 2026)
 
-26 different users commented on 64 different issues.
+26 different users commented on 66 different issues.
 
 ## Recommended Actions
 
@@ -118,7 +118,7 @@
  * created by **DanielRosenwasser**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Backlog`, and assigned to **DanielRosenwasser**
 
-### [Issue microsoft/TypeScript#63858](https://github.com/microsoft/TypeScript/issues/63858) (Open, `Needs Investigation`, **jakebailey**)
+### [Issue microsoft/TypeScript#63858](https://github.com/microsoft/TypeScript/issues/63858) (Open, `Infrastructure`, `Needs Investigation`, **jakebailey**)
 
 **Publish an official wasip1 \(WASI\) build artifact of tsgo**
 
@@ -418,7 +418,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63985#issuecomment-5399993996) **jakebailey** said "Ah, CI is mad because we are using -w with a name not a path"
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript#63986](https://github.com/microsoft/TypeScript/pull/63986) (Open)
+### [PR microsoft/TypeScript#63986](https://github.com/microsoft/TypeScript/pull/63986) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Don't reuse emit resolvers cross\-file**
 
@@ -430,7 +430,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63986#issuecomment-5400888385) **jakebailey** said "Another hit on main: https://github.com/microsoft/TypeScript/actions/runs/32760252400/job/97537150724"
  * [today](https://github.com/microsoft/TypeScript/pull/63986#issuecomment-5400897261) **jakebailey** acknowledged that it allocated two closures per call, clarified it was only once per file and not a hotspot, and suggested refactoring
 
-### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Open)
+### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Redo localization for onboarding**
 
@@ -447,7 +447,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#63989](https://github.com/microsoft/TypeScript/pull/63989) (Open, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#63989](https://github.com/microsoft/TypeScript/pull/63989) (Open, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Fix panic in declaration emit for \`export default\` arrow/function expression with unnameable inferred return type**
 
@@ -499,7 +499,7 @@
 
  * created by **loulanyue**
 
-### [Issue microsoft/TypeScript#63995](https://github.com/microsoft/TypeScript/issues/63995) (Open, `Bug`)
+### [Issue microsoft/TypeScript#63995](https://github.com/microsoft/TypeScript/issues/63995) (Closed, `Bug`)
 
 **Leading Unicode escapes and surrogate pair escapes are not parsed in RegExp group names**
 
@@ -507,7 +507,7 @@
 
  * created by **graphemecluster**
 
-### [PR microsoft/TypeScript#63996](https://github.com/microsoft/TypeScript/pull/63996) (Open)
+### [PR microsoft/TypeScript#63996](https://github.com/microsoft/TypeScript/pull/63996) (Closed, `For Backlog Bug`)
 
 **Fix scanning issues related to Unicode escapes in RegExp group names and refactor identifier scanning**
 
@@ -533,7 +533,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#63999](https://github.com/microsoft/TypeScript/pull/63999) (Open)
+### [PR microsoft/TypeScript#63999](https://github.com/microsoft/TypeScript/pull/63999) (Open, `For Backlog Bug`)
 
 **Don't ignore all generic self tail calls when collecting the return type of a function**
 
@@ -541,7 +541,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript#64000](https://github.com/microsoft/TypeScript/pull/64000) (Open)
+### [PR microsoft/TypeScript#64000](https://github.com/microsoft/TypeScript/pull/64000) (Open, `For Uncommitted Bug`)
 
 **Expose Checker\.getAwaitedType on the unstable API**
 
@@ -550,7 +550,7 @@
  * created by **baptistejamin**
  * [later](https://github.com/microsoft/TypeScript/pull/64000#issuecomment-5410558963) **baptistejamin** agreed with microsoft-github-policy-service
 
-### [PR microsoft/TypeScript#64001](https://github.com/microsoft/TypeScript/pull/64001) (Open)
+### [PR microsoft/TypeScript#64001](https://github.com/microsoft/TypeScript/pull/64001) (Open, `For Uncommitted Bug`)
 
 **Expose Checker\.getTypeOfPropertyOfType on the unstable API**
 
@@ -558,7 +558,7 @@
 
  * created by **baptistejamin**
 
-### [PR microsoft/TypeScript#64002](https://github.com/microsoft/TypeScript/pull/64002) (Open)
+### [PR microsoft/TypeScript#64002](https://github.com/microsoft/TypeScript/pull/64002) (Open, `For Uncommitted Bug`)
 
 **Expose Checker\.getIndexInfoOfType on the unstable API**
 
