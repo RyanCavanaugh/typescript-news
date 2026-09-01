@@ -59,10 +59,9 @@
 
 *Introduce nominal typing in TypeScript to distinguish structurally identical types and prevent unintended type mixing.*
 
+ * [2.3 years ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-2053756892) **nathan-chappell** said "@craigphicks Great, thanks, cheers."
  * [1.2 years ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-2868870489) **emilioplatzer** shared a workaround with example repository and Playground link and explained a typing-by-example approach using string literal types
  * [13 weeks ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-4549960682) **bluepnume** described how they currently simulate opaque types with intersection types and custom tooling, illustrated how native opaque types and operator overloading would improve their workflow, linked to issue #42218, and expressed strong support
- * [13 weeks ago](https://github.com/microsoft/TypeScript/issues/202#issuecomment-4549960682) **bluepnume** described how they currently simulate opaque types with intersection types and custom tooling, illustrated how native opaque types and operator overloading would improve their workflow, linked to issue #42218, and expressed strong support
- * [today](https://github.com/microsoft/TypeScript/issues/202#issuecomment-5432665580) **irfanstract** proposed allowing interfaces to extend union types to create preserved nominal types and suggested introducing an `Opaque` marker type for distinct opaque types
  * [today](https://github.com/microsoft/TypeScript/issues/202#issuecomment-5432665580) **irfanstract** proposed allowing interfaces to extend union types to create preserved nominal types and suggested introducing an `Opaque` marker type for distinct opaque types
 
 ### [Issue microsoft/TypeScript#27014](https://github.com/microsoft/TypeScript/issues/27014) (Closed, `Bug`, `Domain: Conditional Types`, `Needs Human Review`)

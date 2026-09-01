@@ -6,15 +6,6 @@
 
  * Moderation
     * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
     * @CamJN posted rude content in [microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062#issuecomment-5487841749)
  * Response Recommended
     * @LeonxLJX volunteered to investigate and submit a PR in [microsoft/TypeScript#10285](https://github.com/microsoft/TypeScript/issues/10285#issuecomment-5492446141)
@@ -75,38 +66,11 @@
 
 *Introduce an Exact<T> type (e.g. |T|) to enforce exact object types and disallow extra properties.*
 
+ * [31 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-3797000035) **dead-claudia** explained that the alternative Exact util didn't work because TypeScript lacks negated types and showed how the resulting types resolve
+ * [30 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-3807161298) **trusktr** emphasized that the feature was needed to prevent program errors and to provide proper types for iterating over Object.keys and Object.entries
  * [6 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5013665085) **dead-claudia** explained that requiring a runtime component would be a non-starter for the TS team and that exact types are meant for constrained use cases like socket messages and configurations rather than database objects
- * [6 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5013665085) **dead-claudia** explained that requiring a runtime component would be a non-starter for the TS team and that exact types are meant for constrained use cases like socket messages and configurations rather than database objects
- * [6 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5013665085) **dead-claudia** explained that requiring a runtime component would be a non-starter for the TS team and that exact types are meant for constrained use cases like socket messages and configurations rather than database objects
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
  * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
  * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
  * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
 
 ### [Issue microsoft/TypeScript#15506](https://github.com/microsoft/TypeScript/issues/15506) (Open, `Suggestion`, `Help Wanted`, `Good First Issue`)
@@ -836,13 +800,14 @@
 
  * created by **funkyfuture**
 
-### [Issue microsoft/TypeScript#64119](https://github.com/microsoft/TypeScript/issues/64119) (Open)
+### [Issue microsoft/TypeScript#64119](https://github.com/microsoft/TypeScript/issues/64119) (Open, `Needs Investigation`, `Domain: Content Mappers`, **andrewbranch**)
 
 **Auto\-imports don’t work in content\-mappers if**
 
 *Automatic TypeScript imports do not work in content mappers when the target import statement is not already present.*
 
  * created by **remcohaszing**
+ * (later) **andrewbranch** added labels `Needs Investigation`, `Domain: Content Mappers`, set milestone to `TypeScript 7.1.1 RC`, and assigned to **andrewbranch**
 
 ### [PR microsoft/TypeScript#64120](https://github.com/microsoft/TypeScript/pull/64120) (Open, `For Uncommitted Bug`, **andrewbranch**)
 
