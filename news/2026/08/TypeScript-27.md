@@ -1,6 +1,6 @@
 # Report for 2026-08-27 (Thursday, August 27th, 2026)
 
-30 different users commented on 69 different issues.
+30 different users commented on 71 different issues.
 
 ## Recommended Actions
 
@@ -560,7 +560,7 @@
 
  * created by **weswigham**
 
-### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Open, `External`)
+### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Closed, `External`)
 
 **LSP causes client to watch thousands of files**
 

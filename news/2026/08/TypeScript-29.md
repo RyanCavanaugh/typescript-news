@@ -1,6 +1,6 @@
 # Report for 2026-08-29 (Saturday, August 29th, 2026)
 
-12 different users commented on 19 different issues.
+11 different users commented on 19 different issues.
 
 ## Recommended Actions
 
@@ -10,7 +10,6 @@
     * @kritharth2005 asked if the issue was still available to be taken up in [microsoft/TypeScript#63958](https://github.com/microsoft/TypeScript/issues/63958#issuecomment-5464152428)
     * @kritharth2005 provided detailed root cause analysis and repro environment update in [microsoft/TypeScript#63958](https://github.com/microsoft/TypeScript/issues/63958#issuecomment-5466830071)
     * @CamJN reported that the watcher count exceeds macOS process limits in [microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062#issuecomment-5464328507)
-    * @scs0209 asked if they could work on this in [microsoft/TypeScript#64094](https://github.com/microsoft/TypeScript/issues/64094#issuecomment-5465939123)
 
 ## Activity Summary
 
@@ -114,7 +113,7 @@
  * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `TypeScript 7.1`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/issues/64050#issuecomment-5466688573) **jasonlyu123** explained that request spans mapped to multiple virtual spans, causing intersection checks to apply to generated inlay hint code unexpectedly and noting a client-side middleware workaround and potential impact on the duplicate entry solution
 
-### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Open, `External`)
+### [Issue microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062) (Closed, `External`)
 
 **LSP causes client to watch thousands of files**
 
@@ -141,7 +140,6 @@
 *typescript-language-server is incompatible with @typescript/typescript6 due to a missing tsserver.js wrapper in its lib directory.*
 
  * created by **guillaumebrunerie**
- * [today](https://github.com/microsoft/TypeScript/issues/64094#issuecomment-5465939123) **scs0209** said "I'd like to work on this — can I try?"
 
 ### [PR microsoft/TypeScript#64095](https://github.com/microsoft/TypeScript/pull/64095) (Open, `For Milestone Bug`)
 

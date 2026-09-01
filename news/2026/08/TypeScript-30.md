@@ -1,19 +1,18 @@
 # Report for 2026-08-30 (Sunday, August 30th, 2026)
 
-16 different users commented on 66 different issues.
+16 different users commented on 68 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @tomaswrobel asked whether the issue would fit the merge criteria for post-6.0 patches in [microsoft/TypeScript#46135](https://github.com/microsoft/TypeScript/issues/46135#issuecomment-5479995982)
-    * @IsaacOscar provided detailed use cases for named abstract mixins and class modification in [microsoft/TypeScript#59031](https://github.com/microsoft/TypeScript/issues/59031#issuecomment-5475539450)
     * @typescript-automation[bot] reported that the linked issue hasn't been accepted in [microsoft/TypeScript#63919](https://github.com/microsoft/TypeScript/pull/63919#issuecomment-5471741188)
     * @Shivang9983 asked to be assigned the issue in [microsoft/TypeScript#64097](https://github.com/microsoft/TypeScript/issues/64097#issuecomment-5470912738)
     * @Shivang9983 asked to be assigned the issue in [microsoft/TypeScript#64098](https://github.com/microsoft/TypeScript/issues/64098#issuecomment-5470908358)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#46135](https://github.com/microsoft/TypeScript/issues/46135) (Open, `Suggestion`, `Awaiting More Feedback`, **gabritto**)
+### [Issue microsoft/TypeScript#46135](https://github.com/microsoft/TypeScript/issues/46135) (Closed, `Suggestion`, `Awaiting More Feedback`, **gabritto**)
 
 **Ambient Module Declarations for Import Attributes \(formerly known as Import Assertions\)**
 
@@ -32,7 +31,7 @@
 
  * [2.1 years ago](https://github.com/microsoft/TypeScript/issues/59031#issuecomment-2190763728) **stwlam** said "Some additional issue corralling: it looks like the reporter of #32122 was basically running into the same problem, though the errors they pasted aren't the same."
  * (2.1 years ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
- * [later](https://github.com/microsoft/TypeScript/issues/59031#issuecomment-5475539450) **IsaacOscar** described three use cases for returning an abstract mixin with a user-supplied name, for passing abstract classes to modifier functions, and for preserving correct class names in Intellisense and runtime debugging, illustrated with code examples
+ * [later](https://github.com/microsoft/TypeScript/issues/59031#issuecomment-5475539450) **IsaacOscar** described use cases for returning abstract mixins with custom names and for passing abstract classes to functions that modify them, provided TypeScript and JavaScript code examples, and shared a solution using Object.defineProperty to set class names
 
 ### [Issue microsoft/TypeScript#63129](https://github.com/microsoft/TypeScript/issues/63129) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -622,7 +621,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64103#issuecomment-5480608508) **RyanCavanaugh** identified a policy violation regarding bulk agent-driven contributions
  * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64104](https://github.com/microsoft/TypeScript/pull/64104) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#64104](https://github.com/microsoft/TypeScript/pull/64104) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group with 4 updates**
 
@@ -632,7 +631,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64105](https://github.com/microsoft/TypeScript/issues/64105) (Open, `API Request`, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript#64105](https://github.com/microsoft/TypeScript/issues/64105) (Closed, `API Request`, **andrewbranch**, **Copilot**)
 
 **\[API\] labeledElementDeclarations is missing in TypeScript 7**
 
