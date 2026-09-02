@@ -1,6 +1,6 @@
 # Report for 2026-08-30 (Sunday, August 30th, 2026)
 
-16 different users commented on 68 different issues.
+16 different users commented on 69 different issues.
 
 ## Recommended Actions
 
@@ -165,7 +165,7 @@
  * (5 days ago) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64026](https://github.com/microsoft/TypeScript/pull/64026) (Open, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript#64026](https://github.com/microsoft/TypeScript/pull/64026) (Closed, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
 
 **Clear stale incremental diagnostics after JSON module changes**
 
@@ -306,7 +306,7 @@
  * (later) **andrewbranch** added label `Needs Investigation`, removed label `Working as Intended`, and assigned to **andrewbranch**
  * (later) **andrewbranch** reopened the issue
 
-### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Bump and clean up deps, raise min local node version**
 
@@ -469,7 +469,7 @@
  * (2 days ago) **andrewbranch** closed the issue
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64084](https://github.com/microsoft/TypeScript/pull/64084) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64084](https://github.com/microsoft/TypeScript/pull/64084) (Closed, `For Backlog Bug`)
 
 **Add diagnostic for private identifiers in destructuring patterns**
 
@@ -572,7 +572,7 @@
  * created by **jomonkj**
  * [today](https://github.com/microsoft/TypeScript/issues/64098#issuecomment-5470908358) **Shivang9983** offered to work on the issue, described root cause and proposed fix, and requested assignment
 
-### [PR microsoft/TypeScript#64099](https://github.com/microsoft/TypeScript/pull/64099) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64099](https://github.com/microsoft/TypeScript/pull/64099) (Closed, `For Backlog Bug`)
 
 **fix\(62179\): report non\-string\-literal values in import type attributes**
 

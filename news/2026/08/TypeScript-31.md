@@ -5,7 +5,6 @@
 ## Recommended Actions
 
  * Moderation
-    * @ClementValot posted rude content in [microsoft/TypeScript#12936](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358)
     * @CamJN posted rude content in [microsoft/TypeScript#64062](https://github.com/microsoft/TypeScript/issues/64062#issuecomment-5487841749)
  * Response Recommended
     * @LeonxLJX volunteered to investigate and submit a PR in [microsoft/TypeScript#10285](https://github.com/microsoft/TypeScript/issues/10285#issuecomment-5492446141)
@@ -70,7 +69,7 @@
  * [30 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-3807161298) **trusktr** emphasized that the feature was needed to prevent program errors and to provide proper types for iterating over Object.keys and Object.entries
  * [6 weeks ago](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5013665085) **dead-claudia** explained that requiring a runtime component would be a non-starter for the TS team and that exact types are meant for constrained use cases like socket messages and configurations rather than database objects
  * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
- * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** said "Copy-pasting in whatever your favorite chatbot had to say about that and postfacing it with "I haven't tested it" is peak open-source contribution, no notes 👌 "
+ * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** criticized the practice of pasting untested AI-generated code, noted that the combination of wording, formatting, and opaque code caused concern, and suggested splitting the type into named types to improve performance and readability
  * [later](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
 
 ### [Issue microsoft/TypeScript#15506](https://github.com/microsoft/TypeScript/issues/15506) (Open, `Suggestion`, `Help Wanted`, `Good First Issue`)
@@ -729,7 +728,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64111](https://github.com/microsoft/TypeScript/issues/64111) (Open, `Bug`, `Domain: LS: Type Display`, `Crash`, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript#64111](https://github.com/microsoft/TypeScript/issues/64111) (Closed, `Bug`, `Domain: LS: Type Display`, `Crash`, **DanielRosenwasser**, **Copilot**)
 
 **Nil dereference when printing back function that has mapped type with no mapped property type**
 
@@ -738,7 +737,7 @@
  * created by **DanielRosenwasser**
  * (today) **DanielRosenwasser** added labels `Bug`, `Domain: LS: Type Display`, `Crash`, and assigned to **Copilot**, **DanielRosenwasser**
 
-### [PR microsoft/TypeScript#64112](https://github.com/microsoft/TypeScript/pull/64112) (Open, `For Uncommitted Bug`, **DanielRosenwasser**, **Copilot**)
+### [PR microsoft/TypeScript#64112](https://github.com/microsoft/TypeScript/pull/64112) (Closed, `For Uncommitted Bug`, **DanielRosenwasser**, **Copilot**)
 
 **Fix mapped type hover nil dereference**
 
@@ -763,18 +762,18 @@
 
 *Add focused regression tests verifying that typed array constructors reject byteOffset and length parameters when invoked with another typed array.*
 
- * created by **rapsoidmorningstar**
+ * created by **barislabs**
 
 ### [PR microsoft/TypeScript#64115](https://github.com/microsoft/TypeScript/pull/64115) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add optional VFS parameters to updateSnapshot**
 
-*Enable optional in-memory and cache-based virtual file system parameters in updateSnapshot via helper functions for overlays, symlinks, and removed paths.*
+*Add optional virtual filesystem parameters and helper functions for creating memory and cache VFSes to the updateSnapshot API.*
 
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
 
-### [Issue microsoft/TypeScript#64116](https://github.com/microsoft/TypeScript/issues/64116) (Open)
+### [Issue microsoft/TypeScript#64116](https://github.com/microsoft/TypeScript/issues/64116) (Closed)
 
 **class doesn't inherit generic type paramater when inheriting from a variable/expression**
 
@@ -783,7 +782,7 @@
  * created by **jasonlyu123**
  * [today](https://github.com/microsoft/TypeScript/issues/64116#issuecomment-5489740913) **scs0209** offered to reproduce the bug locally and bisect nightly builds to add a regression test
 
-### [PR microsoft/TypeScript#64117](https://github.com/microsoft/TypeScript/pull/64117) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64117](https://github.com/microsoft/TypeScript/pull/64117) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Make the API disposable**
 
@@ -802,9 +801,9 @@
 
 ### [Issue microsoft/TypeScript#64119](https://github.com/microsoft/TypeScript/issues/64119) (Open, `Needs Investigation`, `Domain: Content Mappers`, **andrewbranch**)
 
-**Auto\-imports don’t work in content\-mappers if**
+**Auto\-imports don’t work in content\-mappers without existing import**
 
-*Automatic TypeScript imports do not work in content mappers when the target import statement is not already present.*
+*MDX content mappers fail to automatically insert import statements when no existing import statement is present.*
 
  * created by **remcohaszing**
  * (later) **andrewbranch** added labels `Needs Investigation`, `Domain: Content Mappers`, set milestone to `TypeScript 7.1.1 RC`, and assigned to **andrewbranch**

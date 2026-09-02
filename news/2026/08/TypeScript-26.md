@@ -406,7 +406,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64023#issuecomment-5428495821) **weswigham** described that api.batch is equivalent to runBatch, noted tests are missing and promised to add them along with a Promise.all helper
  * [today](https://github.com/microsoft/TypeScript/pull/64023#issuecomment-5429110699) **weswigham** extracted the 'all' equivalent helper from the generator-running logic and exported it in the sync API, tested user-composed generator functions, added batch-flattening to the 'all' batch request builder, and removed the API-level 'batchRequests' helper from API and moved it to Client
 
-### [Issue microsoft/TypeScript#64025](https://github.com/microsoft/TypeScript/issues/64025) (Open, `Bug`, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64025](https://github.com/microsoft/TypeScript/issues/64025) (Closed, `Bug`, **jakebailey**, **Copilot**)
 
 **\`\-\-incremental\`: diagnostics caused by a JSON module are never cleared after the JSON file is fixed \(7\.0\.2\)**
 

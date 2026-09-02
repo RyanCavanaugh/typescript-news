@@ -1,6 +1,6 @@
 # Report for 2026-08-27 (Thursday, August 27th, 2026)
 
-30 different users commented on 71 different issues.
+30 different users commented on 72 different issues.
 
 ## Recommended Actions
 
@@ -488,7 +488,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64053#issuecomment-5445124761) **NullVoxPopuli** mentioned that MDX faced the same problem and suggested that other ecosystems standardize publishing JS to npm to reduce transpilation work
  * [later](https://github.com/microsoft/TypeScript/issues/64053#issuecomment-5449867169) **remcohaszing** described Ember's and MDX's content-mapped file compilation parallels and proposed TypeScript content mapper configuration to rewrite import extensions
 
-### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64054](https://github.com/microsoft/TypeScript/pull/64054) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Bump and clean up deps, raise min local node version**
 
