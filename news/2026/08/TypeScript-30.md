@@ -1,6 +1,6 @@
 # Report for 2026-08-30 (Sunday, August 30th, 2026)
 
-16 different users commented on 69 different issues.
+16 different users commented on 70 different issues.
 
 ## Recommended Actions
 
@@ -175,13 +175,13 @@
  * (5 days ago) **Copilot** assigned to **Copilot**, **jakebailey**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64027](https://github.com/microsoft/TypeScript/pull/64027) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64027](https://github.com/microsoft/TypeScript/pull/64027) (Closed, `For Uncommitted Bug`)
 
 **Escape unique\-symbol names in TS4094 diagnostics**
 
 *Properly escape internal unique-symbol names in TS4094 diagnostics to use Strada’s __@brand@1 format instead of raw sentinel characters.*
 
- * created by **bun-unsafe**
+ * created by **javascript-unsafe**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64027#issuecomment-5471743973) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 

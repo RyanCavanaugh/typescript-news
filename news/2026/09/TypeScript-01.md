@@ -1,6 +1,6 @@
 # Report for 2026-09-01 (Tuesday, September 1st, 2026)
 
-24 different users commented on 56 different issues.
+24 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -18,7 +18,7 @@
 
  * [today](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491147943) **codpro2005** provided a TypeScript Exact<T, TTarget> type guard and an 'exact' helper function to enforce exact object types, with accompanying playground examples
  * [today](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491383358) **ClementValot** criticized the practice of pasting untested AI-generated code, noted that the combination of wording, formatting, and opaque code caused concern, and suggested splitting the type into named types to improve performance and readability
- * [today](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** clarified that everything was self-written and that larger nested objects hadn't been tested, and noted that playground links contain expanded test cases
+ * [today](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5491430359) **codpro2005** responded that they authored all code, kept the post compact to avoid pollution, noted playground links contain tests, and acknowledged feedback on readability, performance, and the proof-of-concept nature
  * [today](https://github.com/microsoft/TypeScript/issues/12936#issuecomment-5499071549) **BinToss** suggested setting a recursion limit of ~16 for class inheritance to avoid TypeScript's infinite-recursion errors and mitigate performance issues in TS<6, and provided a link to an article
 
 ### [Issue microsoft/TypeScript#29112](https://github.com/microsoft/TypeScript/issues/29112) (Closed, `Bug`, `Fixed`, `Domain: Mapped Types`, `Needs Human Review`)
@@ -164,7 +164,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/31667#issuecomment-5510264647) **RyanCavanaugh** couldn't reproduce the reported errors from the provided files and requested the tsconfig.json, any declarations or imports, the exact tsc command, and diagnostics on the guarded calls
  * (later) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#32111](https://github.com/microsoft/TypeScript/issues/32111) (Open, `Bug`, `Needs More Info`, `Crash`, `Domain: Performance`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#32111](https://github.com/microsoft/TypeScript/issues/32111) (Closed, `Bug`, `Needs More Info`, `Crash`, `Domain: Performance`, `Needs Human Review`)
 
 **Language service OOM on lodash DT tests when batch compilation succeeds**
 
@@ -393,7 +393,7 @@
 
 **Add optional VFS parameters to updateSnapshot**
 
-*Add optional virtual filesystem parameters and helper functions for creating memory and cache VFSes to the updateSnapshot API.*
+*Add optional VFS parameters to updateSnapshot with helpers for in-memory or layered file systems supporting fallback, symlinks, and removed paths.*
 
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64115#issuecomment-5496806376) **andrewbranch** expressed excitement about the feature, questioned whether the complementary file system use case exists, and worried that multiple access methods could be confusing
@@ -418,7 +418,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64122](https://github.com/microsoft/TypeScript/pull/64122) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64122](https://github.com/microsoft/TypeScript/pull/64122) (Closed, `For Uncommitted Bug`)
 
 **chore: remove \`outFile\`,\`module:amd\` config from test cases**
 
@@ -538,7 +538,7 @@
  * created by **auvred**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64134](https://github.com/microsoft/TypeScript/issues/64134) (Open)
+### [Issue microsoft/TypeScript#64134](https://github.com/microsoft/TypeScript/issues/64134) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **\`sourceMap\` emit is disproportionately slow for files containing one very large object literal**
 
@@ -546,7 +546,7 @@
 
  * created by **ken7253**
 
-### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Open)
+### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Open, **jakebailey**, **Copilot**)
 
 **unstable/ast: scanJsDocToken infinite\-loops when a scan range ends on a trailing '\-' \(fix from \#63581 not carried into the AST scanner\)**
 
