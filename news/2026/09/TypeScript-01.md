@@ -154,7 +154,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#31667](https://github.com/microsoft/TypeScript/issues/31667) (Open, `Bug`, `Needs More Info`, `Domain: JavaScript`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#31667](https://github.com/microsoft/TypeScript/issues/31667) (Closed, `Bug`, `Needs More Info`, `Domain: JavaScript`)
 
 **Type narrowing in checked JS in module scope doesn't work**
 
@@ -209,7 +209,7 @@
 
 **TypeScript 7\.1 Iteration Plan**
 
-*TypeScript 7.1 release plan outlining key milestones and proposed language, editor, and performance enhancements.*
+*Roadmap for TypeScript 7.1 detailing milestones and features across compiler, editor productivity, and performance enhancements.*
 
  * **DanielRosenwasser** added label `Planning`
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-5146188990) **dasa** said "2027, is that a typo?"
@@ -227,7 +227,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/63764#issuecomment-5500297493) **dependabot[bot]** said "Looks like adm-zip is up-to-date now, so this is no longer needed."
  * (today) **dependabot[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#63873](https://github.com/microsoft/TypeScript/issues/63873) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#63873](https://github.com/microsoft/TypeScript/issues/63873) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **Add batched assignability checks into the \`Checker API\`**
 
@@ -288,7 +288,7 @@
  * (2 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64061](https://github.com/microsoft/TypeScript/pull/64061) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64061](https://github.com/microsoft/TypeScript/pull/64061) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add pagination of batch requests**
 
@@ -521,7 +521,7 @@
  * created by **Andarist**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#64132](https://github.com/microsoft/TypeScript/issues/64132) (Open)
+### [Issue microsoft/TypeScript#64132](https://github.com/microsoft/TypeScript/issues/64132) (Closed)
 
 **getCompletionsAtPosition in API throws "completion list needs auto imports"**
 
@@ -529,7 +529,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#64133](https://github.com/microsoft/TypeScript/pull/64133) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64133](https://github.com/microsoft/TypeScript/pull/64133) (Closed, `For Uncommitted Bug`)
 
 **Add auto\-import retry to getCompletionsAtPosition in API**
 
@@ -546,7 +546,7 @@
 
  * created by **ken7253**
 
-### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Closed, **jakebailey**, **Copilot**)
 
 **unstable/ast: scanJsDocToken infinite\-loops when a scan range ends on a trailing '\-' \(fix from \#63581 not carried into the AST scanner\)**
 
@@ -554,7 +554,7 @@
 
  * created by **nightcabin1**
 
-### [Issue microsoft/TypeScript#64136](https://github.com/microsoft/TypeScript/issues/64136) (Open)
+### [Issue microsoft/TypeScript#64136](https://github.com/microsoft/TypeScript/issues/64136) (Closed, `Not a Defect`)
 
 **Regression to \#35004**
 

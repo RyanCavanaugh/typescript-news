@@ -1,6 +1,6 @@
 # Report for 2026-09-03 (Thursday, September 3rd, 2026)
 
-20 different users commented on 58 different issues.
+19 different users commented on 64 different issues.
 
 ## Recommended Actions
 
@@ -8,7 +8,6 @@
     * @LeonxLJX asked whether tsconfig.paths should support dot-prefixed directories or is a documented limitation in [microsoft/TypeScript#36922](https://github.com/microsoft/TypeScript/issues/36922#issuecomment-5536210016)
     * @LeonxLJX suggested confirming if the issue reproduces on TS 5.6+ and offered to draft a repro in [microsoft/TypeScript#37100](https://github.com/microsoft/TypeScript/issues/37100#issuecomment-5536209673)
     * @overlookmotel provided additional repro cases and root cause analysis in [microsoft/TypeScript#47410](https://github.com/microsoft/TypeScript/issues/47410#issuecomment-5539932480)
-    * @hirehamir provided an implementation and addressed key design objections in [microsoft/TypeScript#54022](https://github.com/microsoft/TypeScript/issues/54022#issuecomment-5530215430)
     * @LeonxLJX asked whether the ModuleReference type needs to be callable or propagate across dynamic imports in [microsoft/TypeScript#54022](https://github.com/microsoft/TypeScript/issues/54022#issuecomment-5536210336)
     * @lukpsaxo suggested adding special handling for workspace:* dependencies in tsbuildinfo in [microsoft/TypeScript#58433](https://github.com/microsoft/TypeScript/issues/58433#issuecomment-5537176011)
 
@@ -293,7 +292,6 @@
 
  * [3.3 years ago](https://github.com/microsoft/TypeScript/issues/54022#issuecomment-1522826112) **fatcerberus** critiqued the phrasing
  * (3.2 years ago) **RyanCavanaugh** added labels `Suggestion`, `Awaiting More Feedback`
- * [today](https://github.com/microsoft/TypeScript/issues/54022#issuecomment-5530215430) **hirehamir** built an implementation of ModuleReference<T> to test objections and explained how it addressed the five roadblocks raised in the earlier issue
  * [today](https://github.com/microsoft/TypeScript/issues/54022#issuecomment-5536210336) **LeonxLJX** offered to implement an intrinsic ModuleReference type, explained the design gap around treating module specifiers as opaque strings, outlined alternative approaches, and asked whether the type should be callable or support dynamic-import propagation
 
 ### [Issue microsoft/TypeScript#58433](https://github.com/microsoft/TypeScript/issues/58433) (Open, `Suggestion`, `Awaiting More Feedback`)
@@ -433,7 +431,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64154](https://github.com/microsoft/TypeScript/issues/64154) (Open, **andrewbranch**)
+### [Issue microsoft/TypeScript#64154](https://github.com/microsoft/TypeScript/issues/64154) (Open, `Domain: API`, **andrewbranch**)
 
 **\[API\] Redesign client\-side snapshot state model**
 
@@ -487,7 +485,7 @@
 
 **Strongly type file paths**
 
-*Use branded path types instead of strings to enforce absolute, normalized, and file/directory-specific paths, eliminating redundant normalization.*
+*Add branded types for absolute, normalized file and directory paths to enforce path invariants and reduce normalization overhead.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **jakebailey**
@@ -521,7 +519,7 @@
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64163](https://github.com/microsoft/TypeScript/pull/64163) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64163](https://github.com/microsoft/TypeScript/pull/64163) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Decouple snapshot ownership from project\.Session so api\.Session only uses one in LSP mode**
 
@@ -530,7 +528,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64164](https://github.com/microsoft/TypeScript/pull/64164) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64164](https://github.com/microsoft/TypeScript/pull/64164) (Closed, `For Uncommitted Bug`)
 
 **Handle tuple rest parameters in legacy decorator arity checks**
 
@@ -540,7 +538,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64164#issuecomment-5536950309) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#64165](https://github.com/microsoft/TypeScript/pull/64165) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64165](https://github.com/microsoft/TypeScript/pull/64165) (Closed, `For Backlog Bug`)
 
 **Fix crash on private constructors in intersection base types**
 
@@ -549,7 +547,7 @@
  * created by **Andarist**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#64166](https://github.com/microsoft/TypeScript/issues/64166) (Open)
+### [Issue microsoft/TypeScript#64166](https://github.com/microsoft/TypeScript/issues/64166) (Open, `Bug`, **andrewbranch**)
 
 **\`getCompletionsAtPosition\` in API deadlocks when used with \`includeSymbol: true\`**
 
@@ -557,7 +555,7 @@
 
  * created by **auvred**
 
-### [Issue microsoft/TypeScript#64167](https://github.com/microsoft/TypeScript/issues/64167) (Open)
+### [Issue microsoft/TypeScript#64167](https://github.com/microsoft/TypeScript/issues/64167) (Closed, `Question`)
 
 **LSP completion echoes the unresolved identifier currently being typed as a Text item**
 
@@ -565,7 +563,7 @@
 
  * created by **kuator**
 
-### [Issue microsoft/TypeScript#64168](https://github.com/microsoft/TypeScript/issues/64168) (Open)
+### [Issue microsoft/TypeScript#64168](https://github.com/microsoft/TypeScript/issues/64168) (Open, `Bug`)
 
 **\`getChildren\(\)\` drops the \`\<\` token of a type argument list when immediately followed by another \`\<\`**
 
@@ -573,7 +571,7 @@
 
  * created by **overlookmotel**
 
-### [PR microsoft/TypeScript#64169](https://github.com/microsoft/TypeScript/pull/64169) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64169](https://github.com/microsoft/TypeScript/pull/64169) (Open, `For Backlog Bug`)
 
 **Preserve \`\<\` in \`getChildren\(\)\` when type arguments begin with \`\<\`**
 
@@ -582,7 +580,7 @@
  * created by **Andarist**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64170](https://github.com/microsoft/TypeScript/pull/64170) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64170](https://github.com/microsoft/TypeScript/pull/64170) (Closed, `For Backlog Bug`)
 
 **fix\(checker\): don't emit typeof for private\-named static methods**
 
@@ -592,11 +590,11 @@
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64170#issuecomment-5542763837) **ekalinin** requested that the contributor agree to the Contributor License Agreement by replying with the appropriate bot command
 
-### [Issue microsoft/TypeScript#64171](https://github.com/microsoft/TypeScript/issues/64171) (Open)
+### [Issue microsoft/TypeScript#64171](https://github.com/microsoft/TypeScript/issues/64171) (Open, `Bug`)
 
 **\[Auto\-import\] Quick Fix suggests invalid module specifiers that fail to resolve at runtime**
 
-*Auto-import Quick Fix suggests module specifiers matching non-active import conditions, resulting in unresolved runtime imports.*
+*Quick Fix auto-import suggests module specifiers that don't resolve at runtime under nodenext import conditions.*
 
  * created by **alexicum**
 

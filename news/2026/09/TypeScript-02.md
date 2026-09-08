@@ -1,6 +1,6 @@
 # Report for 2026-09-02 (Wednesday, September 2nd, 2026)
 
-20 different users commented on 59 different issues.
+20 different users commented on 60 different issues.
 
 ## Recommended Actions
 
@@ -17,7 +17,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#31667](https://github.com/microsoft/TypeScript/issues/31667) (Open, `Bug`, `Needs More Info`, `Domain: JavaScript`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#31667](https://github.com/microsoft/TypeScript/issues/31667) (Closed, `Bug`, `Needs More Info`, `Domain: JavaScript`)
 
 **Type narrowing in checked JS in module scope doesn't work**
 
@@ -97,7 +97,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#33101](https://github.com/microsoft/TypeScript/issues/33101) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33101](https://github.com/microsoft/TypeScript/issues/33101) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`)
 
 **Union types and overloads acts a bit weirdly**
 
@@ -123,7 +123,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#33462](https://github.com/microsoft/TypeScript/issues/33462) (Closed, `Bug`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33462](https://github.com/microsoft/TypeScript/issues/33462) (Closed, `Bug`, `Domain: lib.d.ts`)
 
 **document\.createTreewalker and document\.createNodeIterator have missing signature types that which are supported both in IE, Firefox and Chrome**
 
@@ -135,7 +135,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#33654](https://github.com/microsoft/TypeScript/issues/33654) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Intersection`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33654](https://github.com/microsoft/TypeScript/issues/33654) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Intersection`)
 
 **Intersection type with discriminated union type that includes all possible enum values cannot accept enum type**
 
@@ -146,7 +146,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#33713](https://github.com/microsoft/TypeScript/issues/33713) (Open, `Bug`, `Needs More Info`, `Needs Investigation`, `Domain: check: Type Circularity`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33713](https://github.com/microsoft/TypeScript/issues/33713) (Closed, `Bug`, `Needs More Info`, `Needs Investigation`, `Domain: check: Type Circularity`)
 
 **Language service fails to provide type info**
 
@@ -354,7 +354,7 @@
 
 **TypeScript 7\.1 Iteration Plan**
 
-*TypeScript 7.1 release plan outlining key milestones and proposed language, editor, and performance enhancements.*
+*Roadmap for TypeScript 7.1 detailing milestones and features across compiler, editor productivity, and performance enhancements.*
 
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-5146188990) **dasa** said "2027, is that a typo?"
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-5146248499) **DanielRosenwasser** said "Sure is! 🫠🤦‍♂️"
@@ -483,7 +483,7 @@
  * created by **ken7253**
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64135](https://github.com/microsoft/TypeScript/issues/64135) (Closed, **jakebailey**, **Copilot**)
 
 **unstable/ast: scanJsDocToken infinite\-loops when a scan range ends on a trailing '\-' \(fix from \#63581 not carried into the AST scanner\)**
 
@@ -492,7 +492,7 @@
  * created by **nightcabin1**
  * (today) **jakebailey** assigned to **Copilot**, **jakebailey**
 
-### [Issue microsoft/TypeScript#64136](https://github.com/microsoft/TypeScript/issues/64136) (Open)
+### [Issue microsoft/TypeScript#64136](https://github.com/microsoft/TypeScript/issues/64136) (Closed, `Not a Defect`)
 
 **Regression to \#35004**
 
@@ -528,7 +528,7 @@
 
 **Add independent VS Code extension releases**
 
-*Introduce an independent workflow to version, tag, build, and publish VS Code extension releases via GitHub*
+*Automate version bumping, tagging, building, signing, and manual publishing of the VS Code extension via GitHub Actions and Azure pipelines.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -543,7 +543,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `javascript`, `dependencies`, `javascript`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64141](https://github.com/microsoft/TypeScript/pull/64141) (Open, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript#64141](https://github.com/microsoft/TypeScript/pull/64141) (Closed, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
 
 **Prevent infinite loop in unstable AST JSDoc scanner**
 
@@ -553,7 +553,7 @@
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64142](https://github.com/microsoft/TypeScript/pull/64142) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64142](https://github.com/microsoft/TypeScript/pull/64142) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Avoid async IPC panic on peer close**
 
@@ -562,7 +562,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Open)
+### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Open, `Bug`, **gabritto**)
 
 **readonly is accepted in ambient module import attributes types**
 
@@ -570,7 +570,7 @@
 
  * created by **camc314**
 
-### [Issue microsoft/TypeScript#64144](https://github.com/microsoft/TypeScript/issues/64144) (Open)
+### [Issue microsoft/TypeScript#64144](https://github.com/microsoft/TypeScript/issues/64144) (Open, `Suggestion`)
 
 **Auto\-delete closing tag when opening tag becomes self\-closed**
 
