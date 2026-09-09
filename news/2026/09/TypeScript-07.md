@@ -1,6 +1,6 @@
 # Report for 2026-09-07 (Monday, September 7th, 2026)
 
-13 different users commented on 49 different issues.
+13 different users commented on 50 different issues.
 
 ## Recommended Actions
 
@@ -185,7 +185,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/46633#issuecomment-5580866824) **RyanCavanaugh** requested a runnable reproduction including project files, tsconfig.json, TypeScript command, unrelated edit, and consecutive emitted .d.ts outputs
  * (later) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#46724](https://github.com/microsoft/TypeScript/issues/46724) (Closed, `Bug`, `Needs More Info`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#46724](https://github.com/microsoft/TypeScript/issues/46724) (Closed, `Bug`, `Needs More Info`, `Domain: Declaration Emit`)
 
 **Optional parameter makes the compiler resolve types prematurely for declaration**
 
@@ -411,7 +411,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64182#issuecomment-5567326791) **remcohaszing** explained that TypeScript allowed CJS syntax in .cts files with module=esnext but the content-mapper treated them as .ts and provided a reproduction link
  * (later) **andrewbranch** added label `Domain: Content Mappers`, set milestone to `TypeScript 7.1.0 Beta`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Open)
+### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Open, `API Request`, **andrewbranch**)
 
 **Add \`GenericType\` type to the API**
 
@@ -419,7 +419,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Open, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Add \`GenericType\` type**
 
@@ -437,11 +437,11 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**, **andrewbranch**
 
-### [Issue microsoft/TypeScript#64192](https://github.com/microsoft/TypeScript/issues/64192) (Open)
+### [Issue microsoft/TypeScript#64192](https://github.com/microsoft/TypeScript/issues/64192) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **Recursive inference through self\-referential object literals**
 
-*TypeScript cannot infer recursive types in self-referential object literal schemas, causing them to default to any without workaround.*
+*Self-referential getters for recursive schemas trigger TypeScript's self-reference errors collapsing to implicit any, requiring Zod-style workarounds.*
 
  * created by **colinhacks**
 
@@ -471,7 +471,7 @@
 
  * created by **shuto-masuda**
 
-### [Issue microsoft/TypeScript#64196](https://github.com/microsoft/TypeScript/issues/64196) (Open)
+### [Issue microsoft/TypeScript#64196](https://github.com/microsoft/TypeScript/issues/64196) (Closed)
 
 **Native \`tsc\` ignores SIGINT and SIGTERM while compiling — Ctrl\-C does not interrupt a build, and the process exits 0**
 
@@ -479,7 +479,7 @@
 
  * created by **rafaelnajman**
 
-### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Open)
+### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Open, `Duplicate`)
 
 **Excess property checks silently skipped for nested object literals at reverse\-mapped\-type inference sites \(regression in 6\.0\)**
 

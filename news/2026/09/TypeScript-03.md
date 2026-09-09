@@ -23,7 +23,7 @@
  * (yesterday) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#33935](https://github.com/microsoft/TypeScript/issues/33935) (Closed, `Bug`, `Needs More Info`, `Crash`, `Domain: Parser`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33935](https://github.com/microsoft/TypeScript/issues/33935) (Closed, `Bug`, `Needs More Info`, `Crash`, `Domain: Parser`)
 
 **Debug Failure\. Did not expect PropertyDeclaration to have an Identifier in its trivia**
 
@@ -463,7 +463,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64157](https://github.com/microsoft/TypeScript/pull/64157) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64157](https://github.com/microsoft/TypeScript/pull/64157) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add defer functionality to generator executor**
 
@@ -500,7 +500,7 @@
  * (today) **Copilot** assigned to **Copilot**, **jakebailey**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64161](https://github.com/microsoft/TypeScript/pull/64161) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64161](https://github.com/microsoft/TypeScript/pull/64161) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add a \`npx hereby validate\` command to group all repo validations**
 

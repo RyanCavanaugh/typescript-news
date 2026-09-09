@@ -157,7 +157,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/33713#issuecomment-5518279971) **RyanCavanaugh** explained that both the recovered and current TypeScript versions return HTMLHeadingElement for quick-info and asked for the exact editor action or file change causing the transition or an archived tsserver trace
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#33935](https://github.com/microsoft/TypeScript/issues/33935) (Closed, `Bug`, `Needs More Info`, `Crash`, `Domain: Parser`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#33935](https://github.com/microsoft/TypeScript/issues/33935) (Closed, `Bug`, `Needs More Info`, `Crash`, `Domain: Parser`)
 
 **Debug Failure\. Did not expect PropertyDeclaration to have an Identifier in its trivia**
 
@@ -398,7 +398,7 @@
  * **typescript-automation[bot]** assigned to **andrewbranch**
  * [later](https://github.com/microsoft/TypeScript/pull/63893#issuecomment-5522334962) **oMatheusmol** implemented requested changes, replaced childrenCache with a plain Map, used a shared scanner in getChildren, removed the consumed set, skipped reparsed subtrees, and added 16 .js/.jsx test cases
 
-### [Issue microsoft/TypeScript#63924](https://github.com/microsoft/TypeScript/issues/63924) (Open, `Suggestion`, `Infrastructure`, `Domain: Editor/VS Code Extension`, **jakebailey**)
+### [Issue microsoft/TypeScript#63924](https://github.com/microsoft/TypeScript/issues/63924) (Closed, `Suggestion`, `Infrastructure`, `Domain: Editor/VS Code Extension`, **jakebailey**)
 
 **Decouple extension publishing from TS compiler**
 
@@ -524,7 +524,7 @@
  * (today) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64138#issuecomment-5517346468) **jakebailey** said "Interesting, I think we have this same optimization somewhere else? I had thought for this specifically, actually."
 
-### [PR microsoft/TypeScript#64139](https://github.com/microsoft/TypeScript/pull/64139) (Open, `Author: Team`, `For Milestone Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64139](https://github.com/microsoft/TypeScript/pull/64139) (Closed, `Author: Team`, `For Milestone Bug`, **jakebailey**)
 
 **Add independent VS Code extension releases**
 
@@ -562,7 +562,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Open, `Bug`, **gabritto**)
+### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Closed, `Bug`, **gabritto**)
 
 **readonly is accepted in ambient module import attributes types**
 

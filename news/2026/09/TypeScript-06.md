@@ -1,6 +1,6 @@
 # Report for 2026-09-06 (Sunday, September 6th, 2026)
 
-11 different users commented on 33 different issues.
+11 different users commented on 34 different issues.
 
 ## Recommended Actions
 
@@ -11,7 +11,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#42905](https://github.com/microsoft/TypeScript/issues/42905) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, `Has Repro`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#42905](https://github.com/microsoft/TypeScript/issues/42905) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, `Has Repro`)
 
 **Broken emit when \`Infinity\` or \`‑Infinity\` ends up in a type position**
 
@@ -35,7 +35,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#43120](https://github.com/microsoft/TypeScript/issues/43120) (Closed, `Bug`, `Help Wanted`, `Domain: tsc -b`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#43120](https://github.com/microsoft/TypeScript/issues/43120) (Closed, `Bug`, `Help Wanted`, `Domain: tsc -b`)
 
 **TypeScript 4\.2 caches cwd between builds when using the programatic api **
 
@@ -309,7 +309,7 @@
  * created by **erantianantha**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64184](https://github.com/microsoft/TypeScript/pull/64184) (Open, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64184](https://github.com/microsoft/TypeScript/pull/64184) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **Fix RefCountCache\.Ref panic race between concurrent snapshot builds**
 
@@ -319,7 +319,7 @@
  * (today) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/pull/64184#issuecomment-5563109701) **NAVEENKUMARKR777** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64185](https://github.com/microsoft/TypeScript/issues/64185) (Open)
+### [Issue microsoft/TypeScript#64185](https://github.com/microsoft/TypeScript/issues/64185) (Closed, `Won't Fix`, `Cursed?`)
 
 **Parenthesized computed method names change import\-alias resolution and emitted JavaScript after namespace merging**
 
@@ -327,7 +327,7 @@
 
  * created by **magic-akari**
 
-### [Issue microsoft/TypeScript#64186](https://github.com/microsoft/TypeScript/issues/64186) (Open)
+### [Issue microsoft/TypeScript#64186](https://github.com/microsoft/TypeScript/issues/64186) (Open, `Possible Improvement`)
 
 **Narrowing of generic this is inconsistent with variable narrowing**
 
@@ -335,7 +335,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript#64187](https://github.com/microsoft/TypeScript/pull/64187) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64187](https://github.com/microsoft/TypeScript/pull/64187) (Open, `For Backlog Bug`)
 
 **Fix narrowing of generic this parameters**
 

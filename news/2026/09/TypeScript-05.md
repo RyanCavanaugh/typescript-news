@@ -1,6 +1,6 @@
 # Report for 2026-09-05 (Saturday, September 5th, 2026)
 
-8 different users commented on 28 different issues.
+8 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -9,7 +9,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#41065](https://github.com/microsoft/TypeScript/issues/41065) (Closed, `Bug`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#41065](https://github.com/microsoft/TypeScript/issues/41065) (Closed, `Bug`, `Domain: check: Type Inference`)
 
 **Default generic type is improperly constrained in conditional types\.**
 
@@ -193,7 +193,7 @@
  * (later) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#42383](https://github.com/microsoft/TypeScript/issues/42383) (Closed, `Bug`, `Fixed`, `Domain: check: Type Circularity`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#42383](https://github.com/microsoft/TypeScript/issues/42383) (Closed, `Bug`, `Fixed`, `Domain: check: Type Circularity`)
 
 **Error inheriting class B from class A that contains a method that takes a parameter of type B and returns this when decorated with multiple mixins**
 
@@ -312,7 +312,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/64154#issuecomment-5533077334) **DanielRosenwasser** considered whether to expose a program update method without snapshot.update and suggested requiring snapshot.update or returning a [Program, Snapshot] pair
  * **DanielRosenwasser** added label `Domain: API`
 
-### [PR microsoft/TypeScript#64181](https://github.com/microsoft/TypeScript/pull/64181) (Open, `For Milestone Bug`, **gabritto**)
+### [PR microsoft/TypeScript#64181](https://github.com/microsoft/TypeScript/pull/64181) (Closed, `For Milestone Bug`, **gabritto**)
 
 **Disallow 'readonly' modifier in ambient module import attributes types**
 

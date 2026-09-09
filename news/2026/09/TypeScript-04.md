@@ -8,7 +8,7 @@
     * @KostAlex07 posted a promotional link to an npm package in [microsoft/TypeScript#37792](https://github.com/microsoft/TypeScript/issues/37792#issuecomment-5546771081)
  * Response Recommended
     * @Squidgical asked for an update on the reverted change and its status in the latest release in [microsoft/TypeScript#33014](https://github.com/microsoft/TypeScript/issues/33014#issuecomment-5550932442)
-    * @jeffwklein reported a blocker issue when upgrading to MobX 7 in [microsoft/TypeScript#54240](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-5547308758)
+    * @jeffwklein reported issues upgrading to mobx 7 due to tsconfig decorator changes in [microsoft/TypeScript#54240](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-5547308758)
     * @typescript-automation posted test failures requiring maintainer review in [microsoft/TypeScript#64162](https://github.com/microsoft/TypeScript/pull/64162#issuecomment-5548332461)
     * @typescript-automation[bot] provided performance run results as requested in [microsoft/TypeScript#64162](https://github.com/microsoft/TypeScript/pull/64162#issuecomment-5548340379)
 
@@ -362,7 +362,7 @@
  * [3 years ago](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-1708838557) **justinfagnani** explained that although a code mod could handle dropping optionality and adding | undefined, not everyone will use it and it increases boilerplate for new code; argued that treating `?` as shorthand for `| undefined` is intuitive and consistent for auto-accessors
  * [1.8 years ago](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-2442227079) **justinfagnani** complained about the extra boilerplate required for optional accessors when using decorators and requested optional accessor support to reduce verbosity
  * [32 weeks ago](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-3780932892) **justinfagnani** said "We're still hearing complaints from Lit developers migrating to standard decorators that auto-accessors are painfully verbose."
- * [today](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-5547308758) **jeffwklein** described a headache caused by upgrading to MobX 7 that required removing experimentalDecorators and adding accessor to every lit decorator, forcing a stay on MobX 6
+ * [today](https://github.com/microsoft/TypeScript/issues/54240#issuecomment-5547308758) **jeffwklein** described encountering a cascading effect from removing experimentalDecorators when upgrading to mobx 7, requiring adding accessor to every lit decorator and forcing staying on mobx 6
 
 ### [Issue microsoft/TypeScript#61545](https://github.com/microsoft/TypeScript/issues/61545) (Closed, `Bug`, `Help Wanted`, `Domain: Declaration Emit`)
 
@@ -503,7 +503,7 @@
  * (today) **jakebailey** closed the issue
  * [today](https://github.com/microsoft/TypeScript/pull/64142#issuecomment-5549851826) **fdtwd8vv45-sketch** instructed Copilot to apply suggested changes from the linked review thread exactly without additional modifications
 
-### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Open, `Bug`, **gabritto**)
+### [Issue microsoft/TypeScript#64143](https://github.com/microsoft/TypeScript/issues/64143) (Closed, `Bug`, **gabritto**)
 
 **readonly is accepted in ambient module import attributes types**
 
@@ -641,7 +641,7 @@
 
 **Infer recursive types through object literal getters**
 
-*Enable recursive type inference through object literal getters, fixing TS7022 and TS7023 errors and missing inherited members*
+*Fix recursive type inference in object getters by adding a recursion-depth sentinel to avoid circular resolution errors*
 
  * created by **colinhacks**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
@@ -717,7 +717,7 @@
 
 **fix\(declarations\): keep JSDoc @typedef/@callback comments with their type**
 
-*Modify the emission process to retain JSDoc @typedef and @callback comments with their type declarations.*
+*Keep JSDoc @typedef/@callback comments associated with their type declarations even when preceded by other top-level declarations.*
 
  * created by **ekalinin**
  * **typescript-automation[bot]** added label `For Backlog Bug`
