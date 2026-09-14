@@ -1,6 +1,6 @@
 # Report for 2026-09-08 (Tuesday, September 8th, 2026)
 
-17 different users commented on 71 different issues.
+17 different users commented on 74 different issues.
 
 ## Recommended Actions
 
@@ -294,7 +294,7 @@
  * (later) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#49638](https://github.com/microsoft/TypeScript/issues/49638) (Open, `Bug`, `Help Wanted`, `Domain: Mapped Types`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#49638](https://github.com/microsoft/TypeScript/issues/49638) (Closed, `Not a Defect`)
 
 **Combination of intersection type, mapped type and generic type seem to break type checks for nested properties**
 
@@ -328,7 +328,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (later) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50168](https://github.com/microsoft/TypeScript/issues/50168) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#50168](https://github.com/microsoft/TypeScript/issues/50168) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **Symbol\.species should in constructor, not instance**
 
@@ -383,7 +383,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64063#issuecomment-5500189461) **jakebailey** said "Hm, there's something to this, I think, I need to investigate."
  * [today](https://github.com/microsoft/TypeScript/pull/64063#issuecomment-5592560452) **jakebailey** reintroduced indirection to recover lost performance and noted it made the binary smaller
 
-### [PR microsoft/TypeScript#64115](https://github.com/microsoft/TypeScript/pull/64115) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64115](https://github.com/microsoft/TypeScript/pull/64115) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add optional VFS parameters to updateSnapshot**
 
@@ -431,7 +431,7 @@
  * (5 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64172](https://github.com/microsoft/TypeScript/pull/64172) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64172](https://github.com/microsoft/TypeScript/pull/64172) (Closed, `For Backlog Bug`)
 
 **Infer recursive types through object literal getters**
 
@@ -455,7 +455,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64177#issuecomment-5549470668) **marwan562** addressed Copilot comments, updated array and nested conditional handling, added deeper-nesting tests, and confirmed all module specifiers tests passed
  * [today](https://github.com/microsoft/TypeScript/pull/64177#issuecomment-5591820174) **marwan562** described updates to string validity and types-only arrays handling, added suppression for empty and invalid arrays, added a regression test, and noted tests passed before requesting @copilot review
 
-### [PR microsoft/TypeScript#64178](https://github.com/microsoft/TypeScript/pull/64178) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64178](https://github.com/microsoft/TypeScript/pull/64178) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **Prevent deadlock in \`getCompletionsAtPosition\(\.\.\., { includeSymbol: true }\)\` API**
 
@@ -535,7 +535,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64188#issuecomment-5589784504) **typescript-automation[bot]** reported user test results, noted infrastructure failures unrelated to the change, and confirmed everything else looked good
  * [today](https://github.com/microsoft/TypeScript/pull/64188#issuecomment-5590335811) **typescript-automation[bot]** reported that running the top 400 repos with tsc comparing main and refs/pull/64188/merge looked good
 
-### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Open, `API Request`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Closed, `API Request`, **andrewbranch**)
 
 **Add \`GenericType\` type to the API**
 
@@ -543,8 +543,9 @@
 
  * created by **mrazauskas**
  * (today) **RyanCavanaugh** added label `API Request`, and assigned to **andrewbranch**
+ * (later) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Open, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Add \`GenericType\` type**
 
@@ -553,6 +554,7 @@
  * created by **mrazauskas**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * **typescript-automation[bot]** assigned to **andrewbranch**
+ * (later) **andrewbranch** closed the issue
 
 ### [PR microsoft/TypeScript#64191](https://github.com/microsoft/TypeScript/pull/64191) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**, **jakebailey**)
 
@@ -587,7 +589,7 @@
  * (today) **rafaelnajman** closed the issue
  * (today) **rafaelnajman** closed the issue
 
-### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Closed, `Duplicate`)
 
 **Excess property checks silently skipped for nested object literals at reverse\-mapped\-type inference sites \(regression in 6\.0\)**
 
@@ -630,7 +632,7 @@
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Milestone Bug`, `For Uncommitted Bug`, and removed labels `For Uncommitted Bug`, `For Milestone Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64200#issuecomment-5591110687) **Copilot** described adding validation of enum/boolean compiler-option directive values in tests, gated behind a new flag, and accounting for trailing semicolons
 
-### [PR microsoft/TypeScript#64201](https://github.com/microsoft/TypeScript/pull/64201) (Open, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**)
+### [PR microsoft/TypeScript#64201](https://github.com/microsoft/TypeScript/pull/64201) (Closed, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**)
 
 **Restack skill**
 
@@ -638,6 +640,7 @@
 
  * created by **RyanCavanaugh**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
+ * (later) **RyanCavanaugh** closed the issue
 
 ### [PR microsoft/TypeScript#64202](https://github.com/microsoft/TypeScript/pull/64202) (Closed, `For Uncommitted Bug`)
 
@@ -651,7 +654,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64202#issuecomment-5592660373) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/blob/main/.github/pull_request_template.md?plain=1#L15"
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#64203](https://github.com/microsoft/TypeScript/issues/64203) (Open, `Unactionable`)
+### [Issue microsoft/TypeScript#64203](https://github.com/microsoft/TypeScript/issues/64203) (Closed, `Unactionable`)
 
 **\`\-\-stableTypeOrdering\` defects: compiler hang \(NaN in \`compareNodes\`\), missing \`BigIntLiteral\`, primitive alias bypass, and mapper omissions**
 
@@ -742,7 +745,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#64212](https://github.com/microsoft/TypeScript/pull/64212) (Open, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#64212](https://github.com/microsoft/TypeScript/pull/64212) (Closed, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Type \`window\.opener\` as nullable \`WindowProxy\`**
 
@@ -752,7 +755,7 @@
  * (later) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * (later) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
 
-### [Issue microsoft/TypeScript#64213](https://github.com/microsoft/TypeScript/issues/64213) (Open)
+### [Issue microsoft/TypeScript#64213](https://github.com/microsoft/TypeScript/issues/64213) (Open, `Suggestion`)
 
 **The \`strict\` option is confusing since TypeScript 6**
 
@@ -760,4 +763,14 @@
 
  * created by **remcohaszing**
  * [later](https://github.com/microsoft/TypeScript/issues/64213#issuecomment-5603937116) **RyanCavanaugh** questioned who benefits from the proposal and asked for evidence of confusion around strict
+
+### [Issue microsoft/TypeScript#64225](https://github.com/microsoft/TypeScript/issues/64225) (Closed, `Needs More Info`)
+
+**1\.136\.1: with TS Nightly, the tsconfig\.json does not use \`\-\-runExternalCode\`**
+
+*VS Code 1.136.1 fails to apply the --runExternalCode flag in tsconfig.json with TypeScript nightly, causing content-mapper errors.*
+
+ * created by **NullVoxPopuli**
+ * **vs-code-engineering[bot]** assigned to **jruales**
+ * (today) **jruales** assigned to **dbaeumer**, and unassigned **jruales**
 

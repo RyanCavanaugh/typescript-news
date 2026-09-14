@@ -1,6 +1,6 @@
 # Report for 2026-09-07 (Monday, September 7th, 2026)
 
-13 different users commented on 50 different issues.
+13 different users commented on 55 different issues.
 
 ## Recommended Actions
 
@@ -411,7 +411,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64182#issuecomment-5567326791) **remcohaszing** explained that TypeScript allowed CJS syntax in .cts files with module=esnext but the content-mapper treated them as .ts and provided a reproduction link
  * (later) **andrewbranch** added label `Domain: Content Mappers`, set milestone to `TypeScript 7.1.0 Beta`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Open, `API Request`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64189](https://github.com/microsoft/TypeScript/issues/64189) (Closed, `API Request`, **andrewbranch**)
 
 **Add \`GenericType\` type to the API**
 
@@ -419,7 +419,7 @@
 
  * created by **mrazauskas**
 
-### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Open, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64190](https://github.com/microsoft/TypeScript/pull/64190) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Add \`GenericType\` type**
 
@@ -479,7 +479,7 @@
 
  * created by **rafaelnajman**
 
-### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#64197](https://github.com/microsoft/TypeScript/issues/64197) (Closed, `Duplicate`)
 
 **Excess property checks silently skipped for nested object literals at reverse\-mapped\-type inference sites \(regression in 6\.0\)**
 
