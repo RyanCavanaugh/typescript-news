@@ -64,7 +64,7 @@
 
 **Port content mapper inspector extension into bundled extension**
 
-*Port the content mapper inspector extension into the main bundled extension for streamlined integration.*
+*Port the Content Mapper Inspector extension into the bundled extension, requiring js/ts.showDebugInfo to expose its commands*
 
  * (6 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
@@ -213,9 +213,9 @@
 
 ### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Open, `For Milestone Bug`, **andrewbranch**)
 
-**Properly serialize \`\+Infinity\` and \`\-Infinity\` number literal type values in API**
+**Properly serialize \`\+Infinity\`, \`\-Infinity\`, and \`NaN\` number literal type values in API**
 
-*Implement proper serialization of +Infinity and -Infinity numeric literals in the API.*
+*Implement correct serialization of +Infinity, -Infinity, and NaN number literals in the API.*
 
  * created by **auvred**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`

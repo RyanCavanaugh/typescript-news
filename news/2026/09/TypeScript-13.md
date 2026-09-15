@@ -1,6 +1,6 @@
 # Report for 2026-09-13 (Sunday, September 13th, 2026)
 
-7 different users commented on 24 different issues.
+7 different users commented on 25 different issues.
 
 ## Recommended Actions
 
@@ -127,9 +127,9 @@
 
 ### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Open, `For Milestone Bug`, **andrewbranch**)
 
-**Properly serialize \`\+Infinity\` and \`\-Infinity\` number literal type values in API**
+**Properly serialize \`\+Infinity\`, \`\-Infinity\`, and \`NaN\` number literal type values in API**
 
-*Implement proper serialization of +Infinity and -Infinity numeric literals in the API.*
+*Implement correct serialization of +Infinity, -Infinity, and NaN number literals in the API.*
 
  * created by **auvred**
  * (2 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
@@ -187,9 +187,9 @@
 
 ### [PR microsoft/TypeScript#64257](https://github.com/microsoft/TypeScript/pull/64257) (Open, `For Backlog Bug`)
 
-**Fix non\-null discriminant narrowing consistency and evaluation order**
+**Fix non\-null discriminant narrowing consistency**
 
-*Fix inconsistent discriminant narrowing with non-null assertions and ensure correct evaluation order in type checking*
+*Fix discriminant narrowing to consistently respect non-null assertions across unions of different sizes.*
 
  * created by **z0rimo**
  * **typescript-automation[bot]** added label `For Backlog Bug`
@@ -215,7 +215,7 @@
 
  * created by **tanvir-ux**
 
-### [Issue microsoft/TypeScript#64260](https://github.com/microsoft/TypeScript/issues/64260) (Open)
+### [Issue microsoft/TypeScript#64260](https://github.com/microsoft/TypeScript/issues/64260) (Closed, `Needs More Info`)
 
 **Non\-null discriminant narrowing can use a stale fact after a later assignment**
 

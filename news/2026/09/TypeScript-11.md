@@ -190,7 +190,7 @@
  * created by **colinhacks**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#64249](https://github.com/microsoft/TypeScript/issues/64249) (Open)
+### [Issue microsoft/TypeScript#64249](https://github.com/microsoft/TypeScript/issues/64249) (Open, `Needs Investigation`, **weswigham**)
 
 **Spurious TS4094 "exported anonymous class type may not be private" error after upgrading from TS6 to TS7**
 
@@ -208,7 +208,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64250#issuecomment-5644421936) **microsoft-github-policy-service[bot]** provided instructions to sign the Contributor License Agreement by replying with an 'agree' command
 
-### [Issue microsoft/TypeScript#64251](https://github.com/microsoft/TypeScript/issues/64251) (Open)
+### [Issue microsoft/TypeScript#64251](https://github.com/microsoft/TypeScript/issues/64251) (Open, `Possible Improvement`)
 
 **Object with all context\-sensitive properties requires at least one non\-context\-sensitive property for inference to work**
 
@@ -216,7 +216,7 @@
 
  * created by **devanshj**
 
-### [PR microsoft/TypeScript#64252](https://github.com/microsoft/TypeScript/pull/64252) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64252](https://github.com/microsoft/TypeScript/pull/64252) (Open, `For Backlog Bug`)
 
 **Fix reverse mapped type inference when all properties are context\-sensitive**
 
