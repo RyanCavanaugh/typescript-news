@@ -112,7 +112,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/64237#issuecomment-5642708165) **typescript-automation[bot]** reported build comparison results for the top 1000 repos between main and pull/64237/merge and highlighted failures in triggerdotdev/trigger.dev
  * [today](https://github.com/microsoft/TypeScript/pull/64237#issuecomment-5668480185) **ahejlsberg** said "Tests are clean. Two top 1000 projects have new errors, but those errors are expected."
 
-### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Closed, `Bug`, **andrewbranch**)
 
 **API panics when serializing number literal types with \`\+Infinity\` and \`\-Infinity\`**
 
@@ -320,7 +320,7 @@
  * created by **andrewbranch**
  * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64277](https://github.com/microsoft/TypeScript/pull/64277) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64277](https://github.com/microsoft/TypeScript/pull/64277) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Remove FS\(\)\.WalkDir**
 

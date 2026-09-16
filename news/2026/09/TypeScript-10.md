@@ -42,7 +42,7 @@
 
 **Build Orchestrator API **
 
-*Implement a new BuildOrchestrator API with build, buildReferences, clean, and cleanReferences methods replacing SolutionBuilder*
+*Implement a BuildOrchestrator API to programmatically build, clean, and manage project references in TypeScript 7.1 without watch mode.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5621539680) **dragomirtitian** asked whether the new BuildOrchestrator supports diagnostics retrieval, file-specific checks, batched emits, and SourceFile access and inquired about plans to add these features
@@ -203,7 +203,7 @@
  * created by **Andarist**
  * (later) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Closed, `Bug`, **andrewbranch**)
 
 **API panics when serializing number literal types with \`\+Infinity\` and \`\-Infinity\`**
 
@@ -211,7 +211,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **Properly serialize \`\+Infinity\`, \`\-Infinity\`, and \`NaN\` number literal type values in API**
 

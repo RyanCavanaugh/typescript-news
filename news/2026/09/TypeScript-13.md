@@ -115,7 +115,7 @@
  * (2 days ago) **DanielRosenwasser** added label `Bug`, and set milestone to `TypeScript 7.1.0 Beta`
  * [later](https://github.com/microsoft/TypeScript/issues/64231#issuecomment-5662369126) **anbv29** asked if they could work on the issue
 
-### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64240](https://github.com/microsoft/TypeScript/issues/64240) (Closed, `Bug`, **andrewbranch**)
 
 **API panics when serializing number literal types with \`\+Infinity\` and \`\-Infinity\`**
 
@@ -125,7 +125,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64240#issuecomment-5666202157) **RyanCavanaugh** said "Seems like we'd have the same issue if a type resolved to NaN, but AFAIK that isn't possible - anyone want to try?"
  * (later) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64241](https://github.com/microsoft/TypeScript/pull/64241) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **Properly serialize \`\+Infinity\`, \`\-Infinity\`, and \`NaN\` number literal type values in API**
 

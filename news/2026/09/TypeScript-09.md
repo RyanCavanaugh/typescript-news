@@ -1,6 +1,6 @@
 # Report for 2026-09-09 (Wednesday, September 9th, 2026)
 
-23 different users commented on 37 different issues.
+23 different users commented on 39 different issues.
 
 ## Recommended Actions
 
@@ -82,7 +82,7 @@
 
 **Build Orchestrator API **
 
-*Implement a new BuildOrchestrator API with build, buildReferences, clean, and cleanReferences methods replacing SolutionBuilder*
+*Implement a BuildOrchestrator API to programmatically build, clean, and manage project references in TypeScript 7.1 without watch mode.*
 
  * (6 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5621539680) **dragomirtitian** asked whether the new BuildOrchestrator supports diagnostics retrieval, file-specific checks, batched emits, and SourceFile access and inquired about plans to add these features
@@ -150,7 +150,7 @@
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64214#issuecomment-5605470327) **vaibhavsrv** rebased the branch onto clean upstream/main to remove deferred import commits and included only the getChildren() fix for issue #64168 with its AST invariant regression test
 
-### [PR microsoft/TypeScript#64215](https://github.com/microsoft/TypeScript/pull/64215) (Open, `Author: Team`, `For Uncommitted Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64215](https://github.com/microsoft/TypeScript/pull/64215) (Closed, `Author: Team`, `For Uncommitted Bug`, **johnfav03**)
 
 **Fix race in write loop marshal recovery test**
 
