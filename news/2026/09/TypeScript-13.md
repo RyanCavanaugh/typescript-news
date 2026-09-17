@@ -93,7 +93,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [later](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5666596178) **RyanCavanaugh** said "Same, please fill in the definitions of child and its #iterate"
 
-### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Closed, `Design Limitation`)
 
 **nullish types not narrowed in if block**
 
@@ -135,7 +135,7 @@
  * (2 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * (later) **typescript-automation[bot]** added label `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **Sporadic \`context canceled\` in \`stderr\` when running TypeScript API in subprocess tests**
 
@@ -156,7 +156,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64244#issuecomment-5666002285) **RyanCavanaugh** explained that TypeScript’s type system prevents type coercion, disallowing operations like "8" * 3
  * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64246](https://github.com/microsoft/TypeScript/pull/64246) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64246](https://github.com/microsoft/TypeScript/pull/64246) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **fix\(syncChannel\): give child process time to exit before kill in close\(\)**
 
@@ -189,7 +189,7 @@
 
 **Fix non\-null discriminant narrowing consistency**
 
-*Fix discriminant narrowing to consistently respect non-null assertions across unions of different sizes.*
+*Ensure discriminant narrowing consistently preserves nullable constituents for both small and large unions under strictNullChecks.*
 
  * created by **z0rimo**
  * **typescript-automation[bot]** added label `For Backlog Bug`

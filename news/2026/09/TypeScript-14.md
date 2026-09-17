@@ -1,6 +1,6 @@
 # Report for 2026-09-14 (Monday, September 14th, 2026)
 
-22 different users commented on 36 different issues.
+22 different users commented on 37 different issues.
 
 ## Recommended Actions
 
@@ -69,7 +69,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64225#issuecomment-5668380437) **NullVoxPopuli** said "yea seems fixed now -- thanks!"
  * (today) **NullVoxPopuli** closed the issue
 
-### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Closed, `Design Limitation`)
 
 **nullish types not narrowed in if block**
 
@@ -101,7 +101,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64234#issuecomment-5668128815) **RyanCavanaugh** said "Closing in favor of #64233"
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
 
 **Distinguish between non\-distributed and distributed type parameters**
 
@@ -121,7 +121,7 @@
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/issues/64240#issuecomment-5675951235) **auvred** tested resolution of NaN in enum constants and added support for NaNs
 
-### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **Sporadic \`context canceled\` in \`stderr\` when running TypeScript API in subprocess tests**
 
@@ -255,7 +255,7 @@
  * created by **lukiod**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64269](https://github.com/microsoft/TypeScript/pull/64269) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64269](https://github.com/microsoft/TypeScript/pull/64269) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Refactor requestfilesystem into a stackable layer so it can be used as the top layer above editor overlays**
 
@@ -311,7 +311,7 @@
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64276](https://github.com/microsoft/TypeScript/pull/64276) (Open, `Author: Team`, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64276](https://github.com/microsoft/TypeScript/pull/64276) (Closed, `Author: Team`, `For Milestone Bug`, **andrewbranch**)
 
 **Ignore sync api\.close\(\)’s SIGTERM for purposes of error printing and exit status**
 

@@ -103,7 +103,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64234#issuecomment-5623464092) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, and removed label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
 
 **Distinguish between non\-distributed and distributed type parameters**
 
@@ -162,7 +162,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64245#issuecomment-5637669569) **mrazauskas** thanked and suggested reinstating readonly arrays for all response objects due to inconsistent readonly usage in Diagnostic properties
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64246](https://github.com/microsoft/TypeScript/pull/64246) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64246](https://github.com/microsoft/TypeScript/pull/64246) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **fix\(syncChannel\): give child process time to exit before kill in close\(\)**
 

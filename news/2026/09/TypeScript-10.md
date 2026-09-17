@@ -18,7 +18,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#63708](https://github.com/microsoft/TypeScript/issues/63708) (Open, `Possible Improvement`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#63708](https://github.com/microsoft/TypeScript/issues/63708) (Closed, `Possible Improvement`, **ahejlsberg**)
 
 **It is possible to violate generic constraints when distributing union types**
 
@@ -91,7 +91,7 @@
  * created by **Ecco**
  * [today](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5622172507) **nmain** said "Could you make sure your example is complete?  When I copy your code to a playground I get a few TS2339 but no TS1111."
 
-### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#64229](https://github.com/microsoft/TypeScript/issues/64229) (Closed, `Design Limitation`)
 
 **nullish types not narrowed in if block**
 
@@ -161,7 +161,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64236#issuecomment-5625544471) **DanielRosenwasser** said "Sorry, there's already a PR out at #64162."
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64237](https://github.com/microsoft/TypeScript/pull/64237) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
 
 **Distinguish between non\-distributed and distributed type parameters**
 
@@ -220,7 +220,7 @@
  * created by **auvred**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64242](https://github.com/microsoft/TypeScript/issues/64242) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **Sporadic \`context canceled\` in \`stderr\` when running TypeScript API in subprocess tests**
 

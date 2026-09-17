@@ -1,6 +1,6 @@
 # Report for 2026-09-15 (Tuesday, September 15th, 2026)
 
-20 different users commented on 46 different issues.
+20 different users commented on 47 different issues.
 
 ## Recommended Actions
 
@@ -16,7 +16,6 @@
     * @typescript-automation[bot] provided test results highlighting infrastructure failures in [microsoft/TypeScript#64280](https://github.com/microsoft/TypeScript/pull/64280#issuecomment-5685304499)
     * @typescript-automation[bot] provided requested performance results in [microsoft/TypeScript#64280](https://github.com/microsoft/TypeScript/pull/64280#issuecomment-5685339740)
     * @typescript-automation[bot] provided test results in [microsoft/TypeScript#64280](https://github.com/microsoft/TypeScript/pull/64280#issuecomment-5685988647)
-    * @noamaanMulla-03 asked whether to raise a PR with the proposed changes in [microsoft/TypeScript#64282](https://github.com/microsoft/TypeScript/issues/64282#issuecomment-5688408457)
 
 ## Activity Summary
 
@@ -248,7 +247,7 @@
  * (today) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/64278#issuecomment-5685058818) **RyanCavanaugh** said "Sure, go for it"
 
-### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Open)
+### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Open, **jakebailey**, **Copilot**)
 
 **JSDoc \`@type\` on a function: the type in a type predicate is never checked \(unused \`@import\` reported, missing names not reported\)**
 
@@ -287,7 +286,7 @@
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64281#issuecomment-5685136889) **luchenxu73** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64282](https://github.com/microsoft/TypeScript/issues/64282) (Open)
+### [Issue microsoft/TypeScript#64282](https://github.com/microsoft/TypeScript/issues/64282) (Closed)
 
 **Dev Container postCreateCommand can hang when npx hereby runs concurrently with npm ci**
 
@@ -298,7 +297,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64282#issuecomment-5686292072) **jakebailey** said "You can just do go tool pprof. The only reason to install it separately is to get bugfixes from upstream early."
  * [today](https://github.com/microsoft/TypeScript/issues/64282#issuecomment-5688408457) **noamaanMulla-03** updated the branch to split the independent Go dependency setup, removed the separate pprof install in favor of go tool pprof, and offered to raise a PR if acceptable
 
-### [PR microsoft/TypeScript#64283](https://github.com/microsoft/TypeScript/pull/64283) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64283](https://github.com/microsoft/TypeScript/pull/64283) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Update dependencies**
 
@@ -317,7 +316,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64285](https://github.com/microsoft/TypeScript/pull/64285) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64285](https://github.com/microsoft/TypeScript/pull/64285) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Move requestFileSystem into project**
 
@@ -373,7 +372,7 @@
  * created by **DanielRosenwasser**
  * **DanielRosenwasser** added label `Design Notes`
 
-### [PR microsoft/TypeScript#64291](https://github.com/microsoft/TypeScript/pull/64291) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64291](https://github.com/microsoft/TypeScript/pull/64291) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Move overlay management and filtering up the FS stack to allow requestFileSystems to override LSP overlays**
 
@@ -383,8 +382,9 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/pull/64291#issuecomment-5689607056) **andrewbranch** said "Review race: you may have fixed some of those while I was writing it up"
  * [today](https://github.com/microsoft/TypeScript/pull/64291#issuecomment-5689646150) **weswigham** expressed an opinion that host symlinks should resolve to editor overlays and noted intent to test it
+ * (later) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64292](https://github.com/microsoft/TypeScript/pull/64292) (Open, `For Uncommitted Bug`, **andrewbranch**, **Copilot**)
+### [PR microsoft/TypeScript#64292](https://github.com/microsoft/TypeScript/pull/64292) (Closed, `For Uncommitted Bug`, **andrewbranch**, **Copilot**)
 
 **Implement Program resolution mode APIs**
 
@@ -393,6 +393,7 @@
  * created by **Copilot**
  * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64292#issuecomment-5700036435) **Copilot** notified that custom setup steps failed during the Copilot code review run and suggested fixing the configuration and re-requesting a review
 
 ### [PR microsoft/TypeScript#64293](https://github.com/microsoft/TypeScript/pull/64293) (Closed, `For Uncommitted Bug`)
 
@@ -429,7 +430,7 @@
  * created by **milkcask**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#64296](https://github.com/microsoft/TypeScript/issues/64296) (Open)
+### [Issue microsoft/TypeScript#64296](https://github.com/microsoft/TypeScript/issues/64296) (Closed, `Bug`)
 
 **SEGV nil pointer dereference in tsc/internal/checker/checker\.go**
 
@@ -437,7 +438,7 @@
 
  * created by **YuanchengJiang**
 
-### [PR microsoft/TypeScript#64297](https://github.com/microsoft/TypeScript/pull/64297) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64297](https://github.com/microsoft/TypeScript/pull/64297) (Closed, `For Backlog Bug`)
 
 **fix\(64296\): prevent crash when checking merged import aliases**
 
@@ -446,7 +447,7 @@
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64298](https://github.com/microsoft/TypeScript/pull/64298) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64298](https://github.com/microsoft/TypeScript/pull/64298) (Closed, `For Uncommitted Bug`)
 
 **Fix dev container post\-create command ordering**
 
