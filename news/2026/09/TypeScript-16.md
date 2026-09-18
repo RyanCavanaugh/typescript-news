@@ -1,6 +1,6 @@
 # Report for 2026-09-16 (Wednesday, September 16th, 2026)
 
-19 different users commented on 47 different issues.
+19 different users commented on 50 different issues.
 
 ## Recommended Actions
 
@@ -325,7 +325,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64301#issuecomment-5704686592) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #32063. If you can get it accepted, this PR will have a better chance of being reviewed."
 
-### [PR microsoft/TypeScript#64302](https://github.com/microsoft/TypeScript/pull/64302) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64302](https://github.com/microsoft/TypeScript/pull/64302) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add childrenIter method to API nodes**
 
@@ -354,7 +354,7 @@
  * **typescript-automation[bot]** added label `For Milestone Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64304#issuecomment-5709516643) **raveviner** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64305](https://github.com/microsoft/TypeScript/pull/64305) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64305](https://github.com/microsoft/TypeScript/pull/64305) (Closed, `For Uncommitted Bug`)
 
 **perf: avoid duplicate symbol link lookup in \`GetNameTypeOfSymbol\`**
 
@@ -364,7 +364,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64305#issuecomment-5709911469) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#64306](https://github.com/microsoft/TypeScript/pull/64306) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64306](https://github.com/microsoft/TypeScript/pull/64306) (Closed, `For Uncommitted Bug`)
 
 **perf: preallocate instantiated symbol table**
 
@@ -384,7 +384,7 @@
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64307#issuecomment-5712772919) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64308](https://github.com/microsoft/TypeScript/issues/64308) (Open)
+### [Issue microsoft/TypeScript#64308](https://github.com/microsoft/TypeScript/issues/64308) (Open, `Working as Intended`)
 
 **typescript version 7 complains about unused generic type even though version 6 does not**
 
@@ -392,12 +392,26 @@
 
  * created by **sudo-barun**
  * [later](https://github.com/microsoft/TypeScript/issues/64308#issuecomment-5715673074) **MartinJohns** said "But.. it is unused. So it's actually a bugfix."
+ * [later](https://github.com/microsoft/TypeScript/issues/64308#issuecomment-5716862153) **jakebailey** said "Yes, this is a bug that was noticed in the port."
+ * **RyanCavanaugh** added label `Working as Intended`
 
-### [Issue microsoft/TypeScript#64309](https://github.com/microsoft/TypeScript/issues/64309) (Open)
+### [Issue microsoft/TypeScript#64309](https://github.com/microsoft/TypeScript/issues/64309) (Closed)
 
 **Please add android arm64 build target**
 
 *Add support for cross-compiling binaries targeting Android on ARM64 architecture.*
 
  * created by **mgholam**
+ * [later](https://github.com/microsoft/TypeScript/issues/64309#issuecomment-5716848210) **jakebailey** said "This is already done and will be present in the next version. https://github.com/microsoft/typescript-go/pull/4734"
+ * (later) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#64310](https://github.com/microsoft/TypeScript/pull/64310) (Open, `For Uncommitted Bug`)
+
+**Normalize distributed type parameters during conditional type inference**
+
+*Normalize distributed type parameters during conditional type inference to address a regression introduced in PR 64237*
+
+ * created by **Andarist**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64310#issuecomment-5717056601) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 

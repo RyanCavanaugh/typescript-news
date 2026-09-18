@@ -175,7 +175,7 @@
  * created by **RonaldBunk**
  * **RyanCavanaugh** added label `Suggestion`
 
-### [PR microsoft/TypeScript#64256](https://github.com/microsoft/TypeScript/pull/64256) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#64256](https://github.com/microsoft/TypeScript/pull/64256) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group with 5 updates**
 
@@ -196,7 +196,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64257#issuecomment-5657958944) **z0rimo** agreed with microsoft-github-policy-service
  * [later](https://github.com/microsoft/TypeScript/pull/64257#issuecomment-5662956364) **z0rimo** addressed both #62511 and #64260 by reworking mutation analysis around invocation sites and adding tests for union-size inconsistency and stale-fact cases
 
-### [PR microsoft/TypeScript#64258](https://github.com/microsoft/TypeScript/pull/64258) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64258](https://github.com/microsoft/TypeScript/pull/64258) (Closed, `For Uncommitted Bug`)
 
 **Fix spelling of occurred in cross\-project panic handling**
 
@@ -207,7 +207,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64258#issuecomment-5660152614) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [today](https://github.com/microsoft/TypeScript/pull/64258#issuecomment-5660166165) **tanvir-ux** said "Linked issue: #64259."
 
-### [Issue microsoft/TypeScript#64259](https://github.com/microsoft/TypeScript/issues/64259) (Open)
+### [Issue microsoft/TypeScript#64259](https://github.com/microsoft/TypeScript/issues/64259) (Closed)
 
 **Misspelling: panicsOccured / panicOccured in crossproject\.go**
 

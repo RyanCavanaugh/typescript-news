@@ -1,6 +1,6 @@
 # Report for 2026-09-15 (Tuesday, September 15th, 2026)
 
-20 different users commented on 47 different issues.
+20 different users commented on 50 different issues.
 
 ## Recommended Actions
 
@@ -325,7 +325,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64286](https://github.com/microsoft/TypeScript/pull/64286) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64286](https://github.com/microsoft/TypeScript/pull/64286) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Update main for TS7 tagged releases**
 
@@ -334,7 +334,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#64287](https://github.com/microsoft/TypeScript/pull/64287) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64287](https://github.com/microsoft/TypeScript/pull/64287) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Update release\-7\.0 for TS7 tagged releases**
 
