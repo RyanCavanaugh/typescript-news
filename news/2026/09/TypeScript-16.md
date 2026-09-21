@@ -1,6 +1,6 @@
 # Report for 2026-09-16 (Wednesday, September 16th, 2026)
 
-19 different users commented on 50 different issues.
+19 different users commented on 51 different issues.
 
 ## Recommended Actions
 
@@ -60,7 +60,7 @@
  * (3 weeks ago) **jakebailey** added labels `Author: Team`, `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-20 (Sunday, September 20th, 2026)
 
-17 different users commented on 31 different issues.
+18 different users commented on 35 different issues.
 
 ## Recommended Actions
 
@@ -10,6 +10,7 @@
     * @RobertSandiford provided a link to a fix commit in [microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358#issuecomment-5752930050)
     * @GeorgeGkas asked about the recommended strategy for build-time transforms with IDE type checking without compiler patching in [microsoft/TypeScript#63771](https://github.com/microsoft/TypeScript/issues/63771#issuecomment-5762826006)
     * @Abdellox asked for steps to reproduce, expected vs actual behavior, and environment details in [microsoft/TypeScript#64368](https://github.com/microsoft/TypeScript/issues/64368#issuecomment-5759018848)
+    * @typescript-automation[bot] reported an access denied error for the 'run dt' pipeline in [microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763107668)
 
 ## Activity Summary
 
@@ -75,6 +76,16 @@
 
  * (2 days ago) **typescript-automation[bot]** added label `For Milestone Bug`, removed label `For Backlog Bug`, and assigned to **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript/pull/64268#issuecomment-5755669697) **lukiod** adopted a fixture for the variable form, pointed out that Omit only applied to object literals and replaced it with timeZone?: never for stricter checking, updated temporal.ts to exercise the variable form, and reaccepted the four temporal baselines
+
+### [Issue microsoft/TypeScript#64322](https://github.com/microsoft/TypeScript/issues/64322) (Closed, **jakebailey**, **Copilot**)
+
+**\[Bug\] PrivateIdentifier nodes are omitted from 2020 semantic classifications**
+
+*ECMAScript private fields and methods are omitted from TypeScript 2020 semantic classifications, preventing proper property and method highlighting.*
+
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/64322#issuecomment-5738467283) **VALLIS-NERIA** confirmed that the issue still existed in the latest main branch and noted that the semantic provider only works for identifiers but not private identifiers, linking to relevant code
+ * (yesterday) **jakebailey** assigned to **Copilot**, **jakebailey**
+ * (later) **jakebailey** closed the issue
 
 ### [PR microsoft/TypeScript#64329](https://github.com/microsoft/TypeScript/pull/64329) (Closed, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
@@ -244,7 +255,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64364#issuecomment-5753207502) **MartinJohns** said "This is out of scope for TypeScript. The issue template for feature requests (that you didn't use) has a viability checklist, which this suggestion does not align with."
  * (today) **mishelashala** closed the issue
 
-### [PR microsoft/TypeScript#64365](https://github.com/microsoft/TypeScript/pull/64365) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64365](https://github.com/microsoft/TypeScript/pull/64365) (Closed, `For Uncommitted Bug`)
 
 **fix\(vscode\-typescript\): activate for content\-mapped\-only workspaces**
 
@@ -266,11 +277,11 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64366#issuecomment-5753293920) **Generalsimus** quoted the policy service directive for Microsoft
  * [later](https://github.com/microsoft/TypeScript/pull/64366#issuecomment-5759505773) **Generalsimus** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64367](https://github.com/microsoft/TypeScript/pull/64367) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#64367](https://github.com/microsoft/TypeScript/pull/64367) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
-**Bump the github\-actions group with 4 updates**
+**Bump the github\-actions group across 1 directory with 4 updates**
 
-*Update four GitHub Actions (codecov-action and three CodeQL actions) to their latest versions.*
+*Bump codecov/codecov-action to v7.1.1 and github/codeql-action init, analyze, and upload-sarif to v4.38.1 in the repository root*
 
  * created by **dependabot[bot]**
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
@@ -311,5 +322,18 @@
  * created by **kajaaz**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64371#issuecomment-5762820056) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * [later](https://github.com/microsoft/TypeScript/pull/64371#issuecomment-5762824566) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the Contributor License Agreement by replying with the appropriate bot command
+ * [later](https://github.com/microsoft/TypeScript/pull/64371#issuecomment-5763313376) **kajaaz** said "@microsoft-github-policy-service agree company="Ledger""
+
+### [PR microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
+
+**Restore idempotency to \`resolveObjectTypeMembers\`**
+
+*Restore resolveObjectTypeMembers idempotency by preventing base type arguments from accessing partially resolved class or interface members*
+
+ * created by **ahejlsberg**
+ * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, `For Milestone Bug`, and assigned to **ahejlsberg**
+ * [later](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763106068) **ahejlsberg** said "@typescript-bot test it"
+ * [later](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763107668) **typescript-automation[bot]** reported CI build statuses for multiple commands and noted an access denied error for the 'run dt' pipeline
+ * [later](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763296299) **jakebailey** said "I fixed the DT error (forgot to grant a perm), but note that DT doesn't check 7.0 or 7.1 quite yet."
+ * [later](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763474607) **typescript-automation[bot]** provided the requested performance run results with a comparison report
 

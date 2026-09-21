@@ -1,6 +1,6 @@
 # Report for 2026-09-18 (Friday, September 18th, 2026)
 
-19 different users commented on 165 different issues.
+19 different users commented on 166 different issues.
 
 ## Recommended Actions
 
@@ -1155,16 +1155,4 @@
  * [today](https://github.com/microsoft/TypeScript/issues/61862#issuecomment-5738863999) **RyanCavanaugh** explained that decorate is called before static x initialization and showed use of addInitializer to log x after initialization, noting consistency across TS 5.6.3 and the native compiler with specified flags
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
-
-### [Issue microsoft/TypeScript#62048](https://github.com/microsoft/TypeScript/issues/62048) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
-
-**Intl\.Collator\#compare method type does not match spec**
-
-*The TypeScript Intl.Collator.compare is incorrectly typed as a method instead of a spec-compliant getter returning a bound function.*
-
- * [1.1 years ago](https://github.com/microsoft/TypeScript/issues/62048#issuecomment-3077145563) **RyanCavanaugh** said "@bdpartridge no, otherwise by that logic Math.max("hello", "world") would be valid because its inputs are also coerced to string"
- * [1.1 years ago](https://github.com/microsoft/TypeScript/issues/62048#issuecomment-3079294005) **bdpartridge** said "@RyanCavanaugh Good point. Since the string coercion might be surprising, it's probably best to just stick with what's intended."
- * **RyanCavanaugh** added label `Domain: lib.d.ts`
- * [today](https://github.com/microsoft/TypeScript/issues/62048#issuecomment-5738894976) **RyanCavanaugh** explained that Intl.Collator#compare is a bound function in Edge and works with an undefined receiver, and suggested modeling it as a readonly function-valued property with this:void
- * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 

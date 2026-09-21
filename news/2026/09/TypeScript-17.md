@@ -21,7 +21,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/44334#issuecomment-5729091935) **NoelAbrahams** said "@RyanCavanaugh I no longer have access to that codebase, so, sorry, can't follow this up."
  * (later) **NoelAbrahams** closed the issue
 
-### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types**
 
@@ -348,7 +348,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64321#issuecomment-5725605595) **jakebailey** asked how many hints are too large and whether Go map default sizing matters
 
-### [Issue microsoft/TypeScript#64322](https://github.com/microsoft/TypeScript/issues/64322) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64322](https://github.com/microsoft/TypeScript/issues/64322) (Closed, **jakebailey**, **Copilot**)
 
 **\[Bug\] PrivateIdentifier nodes are omitted from 2020 semantic classifications**
 

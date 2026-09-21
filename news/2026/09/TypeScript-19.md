@@ -109,7 +109,7 @@
  * created by **aanyapatels**
  * [today](https://github.com/microsoft/TypeScript/issues/64354#issuecomment-5744806500) **MartinJohns** said "I will never understand how people think this is acceptable behavior."
 
-### [Issue microsoft/TypeScript#64355](https://github.com/microsoft/TypeScript/issues/64355) (Open)
+### [Issue microsoft/TypeScript#64355](https://github.com/microsoft/TypeScript/issues/64355) (Open, `Working as Intended`)
 
 **TypeScript 7 VS Code extension never activates for workspaces where only content\-mapped files are opened**
 

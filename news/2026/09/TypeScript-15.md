@@ -53,7 +53,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/59715#issuecomment-5690897872) **milkcask** confirmed reproduction on 7.1.0-dev and noted that currentParent narrowed to Parent | GrandParent and that behavior remained unchanged from the 5.x checker
  * [today](https://github.com/microsoft/TypeScript/issues/59715#issuecomment-5691815584) **milkcask** described adding a reentered flag to the flow loop stack and using a fixed-point iteration of the antecedent pass to ensure correct type approximation
 
-### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#63926](https://github.com/microsoft/TypeScript/pull/63926) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types**
 
