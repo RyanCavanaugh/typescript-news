@@ -48,7 +48,7 @@
 
 **Redo localization for onboarding**
 
-*Reorganize localization files by dropping .json.gz and reintroducing loc directory; add VS Code localization; use build tag to exclude localization.*
+*Reorganize localization files, implement pipeline to update translations via PRs, and add VS Code extension string localization support.*
 
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * [today](https://github.com/microsoft/TypeScript/pull/63987#issuecomment-5722003474) **jakebailey** said "One gotcha; we currently prune unused localizations. Not sure if we can do that anymore here, at least in those artifacts."
@@ -269,7 +269,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64314](https://github.com/microsoft/TypeScript/issues/64314) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#64314](https://github.com/microsoft/TypeScript/issues/64314) (Closed, `Duplicate`)
 
 **False\-positive \`unintentional comparison\` error with closures**
 
@@ -348,7 +348,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64321#issuecomment-5725605595) **jakebailey** asked how many hints are too large and whether Go map default sizing matters
 
-### [Issue microsoft/TypeScript#64322](https://github.com/microsoft/TypeScript/issues/64322) (Open)
+### [Issue microsoft/TypeScript#64322](https://github.com/microsoft/TypeScript/issues/64322) (Open, **jakebailey**, **Copilot**)
 
 **\[Bug\] PrivateIdentifier nodes are omitted from 2020 semantic classifications**
 

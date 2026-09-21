@@ -196,7 +196,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/pull/64266#issuecomment-5687798292) **weswigham** explained that they updated the server to support efficient batch requests with shared parameters for all protocol methods, avoiding maintaining separate singular and bulk wire protocol implementations
 
-### [PR microsoft/TypeScript#64268](https://github.com/microsoft/TypeScript/pull/64268) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64268](https://github.com/microsoft/TypeScript/pull/64268) (Open, `For Milestone Bug`, **RyanCavanaugh**)
 
 **lib: ZonedDateTime\.toLocaleString must not accept a timeZone option**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-14 (Monday, September 14th, 2026)
 
-22 different users commented on 37 different issues.
+22 different users commented on 38 different issues.
 
 ## Recommended Actions
 
@@ -246,7 +246,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64267#issuecomment-5672543326) **DanielRosenwasser** said "If only I could read."
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript#64268](https://github.com/microsoft/TypeScript/pull/64268) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64268](https://github.com/microsoft/TypeScript/pull/64268) (Open, `For Milestone Bug`, **RyanCavanaugh**)
 
 **lib: ZonedDateTime\.toLocaleString must not accept a timeZone option**
 

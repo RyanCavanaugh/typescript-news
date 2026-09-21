@@ -300,7 +300,7 @@
 
 **\[api\] Provide module resolution overrides**
 
-*Introduce API support for module resolution overrides and add tests for snapshot and program updates.*
+*Provide createModuleResolver API to perform standalone module resolutions with customizable static overrides and fallback logic*
 
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
@@ -384,7 +384,7 @@
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64307#issuecomment-5712772919) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64308](https://github.com/microsoft/TypeScript/issues/64308) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64308](https://github.com/microsoft/TypeScript/issues/64308) (Closed, `Working as Intended`)
 
 **typescript version 7 complains about unused generic type even though version 6 does not**
 
