@@ -125,7 +125,7 @@
 
 **Fix case sensitivity fswatch and users**
 
-*Implement macOS system case matching and a watchalias package to preserve filename casing in fswatch events and update compiler bookkeeping.*
+*Implement system-based case matching and a watchalias package on macOS to correctly handle case sensitivity in file watchers.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64210#issuecomment-5691848244) **jakebailey** said "This is nasty, I'm going to try and simplify it, but I think it can only be simpler by doing less precise tracking..."
@@ -215,7 +215,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Closed, **jakebailey**, **Copilot**)
 
 **JSDoc \`@type\` on a function: the type in a type predicate is never checked \(unused \`@import\` reported, missing names not reported\)**
 
@@ -334,7 +334,7 @@
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript#64303](https://github.com/microsoft/TypeScript/pull/64303) (Open, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
+### [PR microsoft/TypeScript#64303](https://github.com/microsoft/TypeScript/pull/64303) (Closed, `For Uncommitted Bug`, **jakebailey**, **Copilot**)
 
 **Check JSDoc function type predicates**
 

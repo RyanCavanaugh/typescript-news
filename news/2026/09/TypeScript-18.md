@@ -1,6 +1,6 @@
 # Report for 2026-09-18 (Friday, September 18th, 2026)
 
-19 different users commented on 166 different issues.
+19 different users commented on 167 different issues.
 
 ## Recommended Actions
 
@@ -654,7 +654,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/57520#issuecomment-5738246689) **RyanCavanaugh** described that File() accepts an iterable of BlobPart but TypeScript's DOM declaration incorrectly requires a BlobPart[] and suggested FileConstructor accept Iterable<BlobPart>.
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#57564](https://github.com/microsoft/TypeScript/issues/57564) (Open, `Bug`, `Needs More Info`, `Has Repro`, `Domain: Something Else`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#57564](https://github.com/microsoft/TypeScript/issues/57564) (Closed, `Bug`, `Won't Fix`, `Needs More Info`, `Has Repro`, `Domain: Something Else`)
 
 **Error not issued when global type is an alias of an object type literal**
 

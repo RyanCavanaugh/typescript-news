@@ -305,7 +305,7 @@
  * created by **csigs**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64370](https://github.com/microsoft/TypeScript/issues/64370) (Open)
+### [Issue microsoft/TypeScript#64370](https://github.com/microsoft/TypeScript/issues/64370) (Open, `Won't Fix`)
 
 **Native compiler \(tsgo\) aborts with "fatal error: stack overflow" on deeply nested expressions**
 
@@ -313,7 +313,7 @@
 
  * created by **kajaaz**
 
-### [PR microsoft/TypeScript#64371](https://github.com/microsoft/TypeScript/pull/64371) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64371](https://github.com/microsoft/TypeScript/pull/64371) (Closed, `For Uncommitted Bug`)
 
 **parser: bound recursion depth to avoid stack overflow on deeply nested input**
 

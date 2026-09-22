@@ -1,6 +1,6 @@
 # Report for 2026-09-15 (Tuesday, September 15th, 2026)
 
-20 different users commented on 50 different issues.
+20 different users commented on 51 different issues.
 
 ## Recommended Actions
 
@@ -90,7 +90,7 @@
 
 **Fix case sensitivity fswatch and users**
 
-*Implement macOS system case matching and a watchalias package to preserve filename casing in fswatch events and update compiler bookkeeping.*
+*Implement system-based case matching and a watchalias package on macOS to correctly handle case sensitivity in file watchers.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64210#issuecomment-5691848244) **jakebailey** said "This is nasty, I'm going to try and simplify it, but I think it can only be simpler by doing less precise tracking..."
@@ -106,9 +106,9 @@
 
 ### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Open, `For Milestone Bug`, **johnfav03**)
 
-**Schedule tsc \-b projects by dependency depth so builders do not idle on upstream projects**
+**Schedule tsc \-b projects by dependency depth to reduce builder idle time on upstream projects**
 
-*Sort tsc -b build tasks by dependency depth instead of depth-first references to reduce idle time and speed up parallel builds.*
+*Sort topologically built TypeScript projects by dependency depth rather than references-first to reduce builder idle time and speed up large monorepo builds.*
 
  * (yesterday) **typescript-automation[bot]** added label `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **johnfav03**
  * [today](https://github.com/microsoft/TypeScript/pull/64220#issuecomment-5685828576) **jakebailey** said "@typescript-bot perf test this faster"
@@ -247,7 +247,7 @@
  * (today) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/64278#issuecomment-5685058818) **RyanCavanaugh** said "Sure, go for it"
 
-### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Closed, **jakebailey**, **Copilot**)
 
 **JSDoc \`@type\` on a function: the type in a type predicate is never checked \(unused \`@import\` reported, missing names not reported\)**
 

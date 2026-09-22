@@ -1,6 +1,6 @@
 # Report for 2026-09-19 (Saturday, September 19th, 2026)
 
-16 different users commented on 19 different issues.
+16 different users commented on 22 different issues.
 
 ## Recommended Actions
 
@@ -16,9 +16,9 @@
 
 ### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Open, `For Milestone Bug`, **johnfav03**)
 
-**Schedule tsc \-b projects by dependency depth so builders do not idle on upstream projects**
+**Schedule tsc \-b projects by dependency depth to reduce builder idle time on upstream projects**
 
-*Sort tsc -b build tasks by dependency depth instead of depth-first references to reduce idle time and speed up parallel builds.*
+*Sort topologically built TypeScript projects by dependency depth rather than references-first to reduce builder idle time and speed up large monorepo builds.*
 
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64220#issuecomment-5685828576) **jakebailey** said "@typescript-bot perf test this faster"
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64220#issuecomment-5685830448) **typescript-automation[bot]** reported build jobs starting and provided links to status and results
@@ -81,7 +81,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64346#issuecomment-5745662690) **Sector6759** suggested defining the interface with timeZone?: never to prevent accidentally passing the timeZone option in non-literal options objects
 
-### [PR microsoft/TypeScript#64352](https://github.com/microsoft/TypeScript/pull/64352) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64352](https://github.com/microsoft/TypeScript/pull/64352) (Closed, `For Backlog Bug`)
 
 **Remove misplaced parameter description from RegExp\#source JSDoc**
 
@@ -109,7 +109,7 @@
  * created by **aanyapatels**
  * [today](https://github.com/microsoft/TypeScript/issues/64354#issuecomment-5744806500) **MartinJohns** said "I will never understand how people think this is acceptable behavior."
 
-### [Issue microsoft/TypeScript#64355](https://github.com/microsoft/TypeScript/issues/64355) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64355](https://github.com/microsoft/TypeScript/issues/64355) (Closed, `Working as Intended`)
 
 **TypeScript 7 VS Code extension never activates for workspaces where only content\-mapped files are opened**
 
@@ -126,7 +126,7 @@
 
  * created by **leonidaz**
 
-### [PR microsoft/TypeScript#64357](https://github.com/microsoft/TypeScript/pull/64357) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64357](https://github.com/microsoft/TypeScript/pull/64357) (Closed, `For Uncommitted Bug`)
 
 **Fix import statement completion filtering in tsgo**
 
@@ -158,7 +158,7 @@
 
 **Fix union overload signature ordering instability**
 
-*Modify TypeScript's union overload resolution to consistently prefer strictly more specific signatures over less specific ones.*
+*Generate exact-arity variants for union signatures with optional parameters to ensure stable overload resolution without ad-hoc sorting.*
 
  * created by **adilalperenciftci**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`

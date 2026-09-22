@@ -180,7 +180,7 @@
  * created by **tanvir-ux**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Open, **jakebailey**, **Copilot**)
+### [Issue microsoft/TypeScript#64279](https://github.com/microsoft/TypeScript/issues/64279) (Closed, **jakebailey**, **Copilot**)
 
 **JSDoc \`@type\` on a function: the type in a type predicate is never checked \(unused \`@import\` reported, missing names not reported\)**
 
