@@ -121,11 +121,11 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64174#issuecomment-5703651081) **NullVoxPopuli** expressed surprise at the globalThis.fs interface, asked about standards, and suggested passing fs access options or using a global mock fs
  * [today](https://github.com/microsoft/TypeScript/pull/64174#issuecomment-5704509646) **NullVoxPopuli** indicated that the feature worked somewhat and attached screenshots
 
-### [PR microsoft/TypeScript#64210](https://github.com/microsoft/TypeScript/pull/64210) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64210](https://github.com/microsoft/TypeScript/pull/64210) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix case sensitivity fswatch and users**
 
-*Implement system-based case matching and a watchalias package on macOS to correctly handle case sensitivity in file watchers.*
+*Normalize macOS fsevents paths and store both canonical and original paths to ensure accurate file watcher matching.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64210#issuecomment-5691848244) **jakebailey** said "This is nasty, I'm going to try and simplify it, but I think it can only be simpler by doing less precise tracking..."

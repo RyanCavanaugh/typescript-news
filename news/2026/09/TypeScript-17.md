@@ -48,7 +48,7 @@
 
 **Redo localization for onboarding**
 
-*Reorganize localization files, implement pipeline to update translations via PRs, and add VS Code extension string localization support.*
+*Reorganize localization files and pipeline to match loc team expectations and automate diagnostics exports and translation sync via PRs.*
 
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * [today](https://github.com/microsoft/TypeScript/pull/63987#issuecomment-5722003474) **jakebailey** said "One gotcha; we currently prune unused localizations. Not sure if we can do that anymore here, at least in those artifacts."

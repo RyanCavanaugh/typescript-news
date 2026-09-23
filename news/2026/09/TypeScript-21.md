@@ -1,6 +1,6 @@
 # Report for 2026-09-21 (Monday, September 21st, 2026)
 
-22 different users commented on 50 different issues.
+21 different users commented on 51 different issues.
 
 ## Recommended Actions
 
@@ -10,7 +10,6 @@
     * @typescript-automation[bot] reported regression build failures and requested review in [microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5766063918)
     * @typescript-automation asked to review the tsc comparison results and build failures in [microsoft/TypeScript#64375](https://github.com/microsoft/TypeScript/pull/64375#issuecomment-5766455684)
     * @typescript-automation[bot] asked to retry tests after PR changed in [microsoft/TypeScript#64376](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5765207254)
-    * @Abdellox asked for steps to reproduce, expected vs actual behavior, and environment details in [microsoft/TypeScript#64387](https://github.com/microsoft/TypeScript/issues/64387#issuecomment-5778059891)
 
 ## Activity Summary
 
@@ -117,7 +116,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64204#issuecomment-5771867307) **johnnyreilly** wondered if the issue only surfaced on Windows, noted that Claude had reproduced it, and linked the Windows failure
  * [today](https://github.com/microsoft/TypeScript/pull/64204#issuecomment-5771872346) **johnnyreilly** provided a minimal ts-loader/webpack-free repro with instructions that reproduces the issue only on Windows
 
-### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Open, `For Milestone Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Closed, `For Milestone Bug`, **johnfav03**)
 
 **Schedule tsc \-b projects by dependency depth to reduce builder idle time on upstream projects**
 
@@ -205,7 +204,7 @@
  * (3 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript#64351](https://github.com/microsoft/TypeScript/issues/64351) (Open)
+### [Issue microsoft/TypeScript#64351](https://github.com/microsoft/TypeScript/issues/64351) (Open, `Bug`, **jakebailey**)
 
 **tsc \-\-watch never recompiles on macOS since 7\.1\.0\-dev\.20260811\.1**
 
@@ -320,7 +319,7 @@
 
 **Restore idempotency to \`resolveObjectTypeMembers\`**
 
-*Restore resolveObjectTypeMembers idempotency by preventing base type arguments from accessing partially resolved class or interface members*
+*Reestablish idempotent resolveObjectTypeMembers by blocking eager base class type argument resolution and improving circular type instantiation errors.*
 
  * [today](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763107668) **typescript-automation[bot]** reported CI build statuses for multiple commands and noted an access denied error for the 'run dt' pipeline
  * [today](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763296299) **jakebailey** said "I fixed the DT error (forgot to grant a perm), but note that DT doesn't check 7.0 or 7.1 quite yet."
@@ -377,7 +376,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5765206099) **weswigham** said "@typescript-bot test top1000"
  * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5765207254) **typescript-automation[bot]** said "Hey @weswigham, this PR changed while I was preparing the test run. Please try again."
 
-### [Issue microsoft/TypeScript#64378](https://github.com/microsoft/TypeScript/issues/64378) (Open)
+### [Issue microsoft/TypeScript#64378](https://github.com/microsoft/TypeScript/issues/64378) (Open, `Possible Improvement`)
 
 **Performance: exponential check time as a chain of generic calls grows \(index signature in the inferred spec type\)**
 
@@ -403,7 +402,7 @@
  * created by **RyanCavanaugh**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#64381](https://github.com/microsoft/TypeScript/pull/64381) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64381](https://github.com/microsoft/TypeScript/pull/64381) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Move enum generator into tools scripts**
 
@@ -421,7 +420,7 @@
  * created by **typescript-automation[bot]**
  * (today) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **DanielRosenwasser**
 
-### [PR microsoft/TypeScript#64383](https://github.com/microsoft/TypeScript/pull/64383) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64383](https://github.com/microsoft/TypeScript/pull/64383) (Closed, `For Uncommitted Bug`)
 
 **LEGO: Pull request from lego/hb\_5378966c\-b857\-470a\-8675\-daebef4a6da1\_20260922092326260 to main**
 
@@ -430,7 +429,7 @@
  * created by **csigs**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64384](https://github.com/microsoft/TypeScript/issues/64384) (Open)
+### [Issue microsoft/TypeScript#64384](https://github.com/microsoft/TypeScript/issues/64384) (Open, `Bug`)
 
 **Panic in \`TupleNormalizer\.normalize\` \(nil \`currentNode\`\) when declaration emit resolves an oversized tuple type under \`\-\-noCheck\`**
 
@@ -438,7 +437,7 @@
 
  * created by **YuanchengJiang**
 
-### [PR microsoft/TypeScript#64385](https://github.com/microsoft/TypeScript/pull/64385) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64385](https://github.com/microsoft/TypeScript/pull/64385) (Open, `For Backlog Bug`)
 
 **Fix panic when declaration emit resolves an oversized tuple type**
 
@@ -449,7 +448,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64385#issuecomment-5778789346) **jakebailey** suggested that the user had not run npm install recently
  * [later](https://github.com/microsoft/TypeScript/pull/64385#issuecomment-5779242206) **mohit-nayak** acknowledged that node_modules was stale, ran npm ci, confirmed formatting and tests passed, and updated the checklist
 
-### [Issue microsoft/TypeScript#64386](https://github.com/microsoft/TypeScript/issues/64386) (Open)
+### [Issue microsoft/TypeScript#64386](https://github.com/microsoft/TypeScript/issues/64386) (Open, `Needs Investigation`, **johnfav03**)
 
 **\`\-\-incremental\` retains stale diagnostics when augmenting a re\-exported interface**
 
@@ -464,13 +463,12 @@
 *SyncRpcChannel’s reliance on Node’s private stdout._handle.fd breaks on non-Node runtimes like Bun, so the issue proposes using POSIX FIFOs for a public blocking file descriptor instead.*
 
  * created by **cairn-intern**
- * [later](https://github.com/microsoft/TypeScript/issues/64387#issuecomment-5778059891) **Abdellox** offered to help investigate and asked for steps to reproduce, expected vs actual behavior, and environment details
 
-### [PR microsoft/TypeScript#64388](https://github.com/microsoft/TypeScript/pull/64388) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64388](https://github.com/microsoft/TypeScript/pull/64388) (Open, `For Backlog Bug`)
 
 **\[perf\]\[experiment\] fix\(64378\): add a cache to avoid repeated type arg inference**
 
-*Adding a cache for type argument inference eliminates redundant computations and reduces check time from 91.6 seconds to 0.004 seconds.*
+*Introduce a cache for type argument inference to eliminate repeated inference and significantly improve performance.*
 
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`

@@ -1,6 +1,6 @@
 # Report for 2026-09-19 (Saturday, September 19th, 2026)
 
-16 different users commented on 22 different issues.
+16 different users commented on 24 different issues.
 
 ## Recommended Actions
 
@@ -14,7 +14,7 @@
 
 ## Activity Summary
 
-### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Open, `For Milestone Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220) (Closed, `For Milestone Bug`, **johnfav03**)
 
 **Schedule tsc \-b projects by dependency depth to reduce builder idle time on upstream projects**
 
@@ -145,7 +145,7 @@
  * created by **magic-akari**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64359](https://github.com/microsoft/TypeScript/pull/64359) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64359](https://github.com/microsoft/TypeScript/pull/64359) (Closed, `For Backlog Bug`)
 
 **Respect quote preference for object property completions**
 
@@ -164,7 +164,7 @@
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-5748296015) **adilalperenciftci** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64361](https://github.com/microsoft/TypeScript/pull/64361) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64361](https://github.com/microsoft/TypeScript/pull/64361) (Closed, `For Uncommitted Bug`)
 
 **LEGO: Pull request from lego/hb\_5378966c\-b857\-470a\-8675\-daebef4a6da1\_20260920092305213 to main**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-18 (Friday, September 18th, 2026)
 
-19 different users commented on 167 different issues.
+19 different users commented on 171 different issues.
 
 ## Recommended Actions
 
@@ -809,7 +809,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/59012#issuecomment-5738397779) **RyanCavanaugh** described that WritableStream remained bivariant under --strict allowing invalid assignments without errors
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#59047](https://github.com/microsoft/TypeScript/issues/59047) (Open, `Bug`, `Needs More Info`, `Domain: Crashes`, `Needs Human Review`, **iisaduan**)
+### [Issue microsoft/TypeScript#59047](https://github.com/microsoft/TypeScript/issues/59047) (Closed, `Bug`, `Needs More Info`, `Domain: Crashes`, **iisaduan**)
 
 **TS Server fatal error:  Maximum call stack size exceeded**
 
@@ -1143,16 +1143,4 @@
  * [29 weeks ago](https://github.com/microsoft/TypeScript/issues/61768#issuecomment-3945060746) **aryzing** mentioned that the same would apply to crypto.subtle.importKey and linked the MDN documentation
  * [today](https://github.com/microsoft/TypeScript/issues/61768#issuecomment-5738858486) **RyanCavanaugh** reported that crypto.getRandomValues still accepted Float64Array and lost typed-array members in TypeScript 6.0.3, despite browser rejections, and provided a reproduction snippet
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
-
-### [Issue microsoft/TypeScript#61862](https://github.com/microsoft/TypeScript/issues/61862) (Closed, `Bug`, `Help Wanted`, `Domain: Decorators`, `Needs Human Review`)
-
-**Class decorators run before class static side is fully defined when downleveling**
-
-*Decorators for classes in downleveled TypeScript execute before static fields are set, causing decorators to see undefined values.*
-
- * (1.2 years ago) **RyanCavanaugh** added label `Domain: Decorators`, and set milestone to `Backlog`
- * [40 weeks ago](https://github.com/microsoft/TypeScript/issues/61862#issuecomment-3632036122) **miyaokamarina** explained the correct behavior of decorator and class static initialization order and illustrated it with example code
- * [today](https://github.com/microsoft/TypeScript/issues/61862#issuecomment-5738863999) **RyanCavanaugh** explained that decorate is called before static x initialization and showed use of addInitializer to log x after initialization, noting consistency across TS 5.6.3 and the native compiler with specified flags
- * **RyanCavanaugh** added label `Needs Human Review`
- * (today) **RyanCavanaugh** closed the issue
 

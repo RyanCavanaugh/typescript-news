@@ -1,6 +1,6 @@
 # Report for 2026-09-20 (Sunday, September 20th, 2026)
 
-18 different users commented on 35 different issues.
+17 different users commented on 35 different issues.
 
 ## Recommended Actions
 
@@ -9,7 +9,6 @@
     * @RobertSandiford provided repro steps as requested in [microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358#issuecomment-5752327256)
     * @RobertSandiford provided a link to a fix commit in [microsoft/TypeScript#63358](https://github.com/microsoft/TypeScript/issues/63358#issuecomment-5752930050)
     * @GeorgeGkas asked about the recommended strategy for build-time transforms with IDE type checking without compiler patching in [microsoft/TypeScript#63771](https://github.com/microsoft/TypeScript/issues/63771#issuecomment-5762826006)
-    * @Abdellox asked for steps to reproduce, expected vs actual behavior, and environment details in [microsoft/TypeScript#64368](https://github.com/microsoft/TypeScript/issues/64368#issuecomment-5759018848)
     * @typescript-automation[bot] reported an access denied error for the 'run dt' pipeline in [microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5763107668)
 
 ## Activity Summary
@@ -36,7 +35,7 @@
  * (2 days ago) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
  * [today](https://github.com/microsoft/TypeScript/issues/51376#issuecomment-5755811601) **laverdet** questioned if maintainers were using the same playground link and confirmed the repro on TS v6 and v7; provided code showing a confusing TS2322 error for attribute: "" under strict mode
 
-### [Issue microsoft/TypeScript#59047](https://github.com/microsoft/TypeScript/issues/59047) (Open, `Bug`, `Needs More Info`, `Domain: Crashes`, `Needs Human Review`, **iisaduan**)
+### [Issue microsoft/TypeScript#59047](https://github.com/microsoft/TypeScript/issues/59047) (Closed, `Bug`, `Needs More Info`, `Domain: Crashes`, **iisaduan**)
 
 **TS Server fatal error:  Maximum call stack size exceeded**
 
@@ -287,16 +286,15 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64368](https://github.com/microsoft/TypeScript/issues/64368) (Open)
+### [Issue microsoft/TypeScript#64368](https://github.com/microsoft/TypeScript/issues/64368) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Content mapper: allowing document highlight result from other language\-servers**
 
 *Propose returning null instead of empty arrays for content-mapper document highlight results to enable fallback from other language servers.*
 
  * created by **jasonlyu123**
- * [later](https://github.com/microsoft/TypeScript/issues/64368#issuecomment-5759018848) **Abdellox** offered to help investigate and asked for steps to reproduce, expected vs actual behavior, and environment details
 
-### [PR microsoft/TypeScript#64369](https://github.com/microsoft/TypeScript/pull/64369) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64369](https://github.com/microsoft/TypeScript/pull/64369) (Closed, `For Uncommitted Bug`)
 
 **LEGO: Pull request from lego/hb\_5378966c\-b857\-470a\-8675\-daebef4a6da1\_20260921092356953 to main**
 
@@ -328,7 +326,7 @@
 
 **Restore idempotency to \`resolveObjectTypeMembers\`**
 
-*Restore resolveObjectTypeMembers idempotency by preventing base type arguments from accessing partially resolved class or interface members*
+*Reestablish idempotent resolveObjectTypeMembers by blocking eager base class type argument resolution and improving circular type instantiation errors.*
 
  * created by **ahejlsberg**
  * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, `For Milestone Bug`, and assigned to **ahejlsberg**
