@@ -1,6 +1,6 @@
 # Report for 2026-09-21 (Monday, September 21st, 2026)
 
-21 different users commented on 51 different issues.
+21 different users commented on 53 different issues.
 
 ## Recommended Actions
 
@@ -47,7 +47,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/57564#issuecomment-5767104327) **RyanCavanaugh** apologized for earlier noise, noted the error was rare, suggested documenting invariants for noLib if more users encountered it, and warned that global lib changes were unpredictable
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#59777](https://github.com/microsoft/TypeScript/issues/59777) (Open, `Bug`, `Help Wanted`, `Domain: Binder`)
+### [Issue microsoft/TypeScript#59777](https://github.com/microsoft/TypeScript/issues/59777) (Closed, `Bug`, `Help Wanted`, `Domain: Binder`)
 
 **Multi\-line top\-level \`await\` causes duplicate declaration error**
 
@@ -271,9 +271,9 @@
 
 ### [PR microsoft/TypeScript#64366](https://github.com/microsoft/TypeScript/pull/64366) (Open, `For Uncommitted Bug`)
 
-**Watch project directories that are close to the filesystem root**
+**Watch projects and program files close to the filesystem root**
 
-*tsc --watch doesn’t detect changes in projects near the filesystem root because it ignores directories with under five path components.*
+*tsc --watch and tsc -b --watch fail to rebuild projects in shallow root-level directories due to regression in directory watching.*
 
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64366#issuecomment-5753121877) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64366#issuecomment-5753293920) **Generalsimus** quoted the policy service directive for Microsoft
@@ -384,7 +384,7 @@
 
  * created by **alan-albuquerque**
 
-### [PR microsoft/TypeScript#64379](https://github.com/microsoft/TypeScript/pull/64379) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64379](https://github.com/microsoft/TypeScript/pull/64379) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Add the \`concurrency\` option to node tests**
 
@@ -456,7 +456,7 @@
 
  * created by **infomiho**
 
-### [Issue microsoft/TypeScript#64387](https://github.com/microsoft/TypeScript/issues/64387) (Open)
+### [Issue microsoft/TypeScript#64387](https://github.com/microsoft/TypeScript/issues/64387) (Open, `Suggestion`, `Domain: API`)
 
 **SyncRpcChannel reads private \`stdout\.\_handle\.fd\`, breaking the sync API on non\-Node runtimes \(Bun\)**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-22 (Tuesday, September 22nd, 2026)
 
-19 different users commented on 55 different issues.
+19 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -82,7 +82,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [later](https://github.com/microsoft/TypeScript/issues/63960#issuecomment-5795427296) **unrevised6419** explained that module augmentation created a new Register interface overriding the original and provided videos and a reproduction repo demonstrating the issue
 
-### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Redo localization for onboarding**
 
@@ -190,7 +190,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64350](https://github.com/microsoft/TypeScript/issues/64350) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64350](https://github.com/microsoft/TypeScript/issues/64350) (Closed, `Needs Investigation`, **andrewbranch**)
 
 **Content mappers: composite projects report TS6307 for supplemental virtual outputs**
 
@@ -339,7 +339,7 @@
  * created by **infomiho**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, set milestone to `Backlog`, and assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript#64387](https://github.com/microsoft/TypeScript/issues/64387) (Open)
+### [Issue microsoft/TypeScript#64387](https://github.com/microsoft/TypeScript/issues/64387) (Open, `Suggestion`, `Domain: API`)
 
 **SyncRpcChannel reads private \`stdout\.\_handle\.fd\`, breaking the sync API on non\-Node runtimes \(Bun\)**
 
@@ -361,7 +361,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64388#issuecomment-5780363579) **typescript-automation[bot]** provided the requested perf run results
  * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64389](https://github.com/microsoft/TypeScript/pull/64389) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64389](https://github.com/microsoft/TypeScript/pull/64389) (Closed, `For Backlog Bug`)
 
 **Treat \`never\` as non\-mutable\-array\-like when deciding readonly tuples**
 
@@ -455,7 +455,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64398](https://github.com/microsoft/TypeScript/issues/64398) (Open)
+### [Issue microsoft/TypeScript#64398](https://github.com/microsoft/TypeScript/issues/64398) (Closed, `Unactionable`)
 
 **Generic argument narrowed from \`T \| undefined\` collapses a dependent conditional return type to \`never\`/\`undefined\`**
 
@@ -523,12 +523,12 @@
 
 **Watch alias invalidation**
 
-*Adds support for invalidating watch query aliases to resolve the pending issue #64351.*
+*Updates file watchers to track symlink alias changes so watch mode detects file modifications across different paths.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405) (Open)
+### [Issue microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405) (Open, `Needs Investigation`, **johnfav03**)
 
 **Incremental check emits locationless TS2589 after a comment\-only edit in TypeScript 7**
 

@@ -1,13 +1,13 @@
 # Report for 2026-09-19 (Saturday, September 19th, 2026)
 
-16 different users commented on 24 different issues.
+16 different users commented on 25 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @Freakazo reported performance gains and memory usage increase when testing the branch in [microsoft/TypeScript#64220](https://github.com/microsoft/TypeScript/pull/64220#issuecomment-5749572773)
     * @Ecco provided repro steps and screenshots in [microsoft/TypeScript#64228](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5746689139)
-    * @Raxan7 provided detailed repro steps and offered to add a regression test or fix in [microsoft/TypeScript#64228](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5747747091)
+    * @Raxan7 provided repro steps as requested in [microsoft/TypeScript#64228](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5747747091)
     * @devanshj provided a patch fixing xstate type inference issues in [microsoft/TypeScript#64252](https://github.com/microsoft/TypeScript/pull/64252#issuecomment-5750754357)
     * @Sector6759 asked about improving the interface definition to prevent passing the timeZone option in [microsoft/TypeScript#64346](https://github.com/microsoft/TypeScript/pull/64346#issuecomment-5745662690)
     * @leonidaz reported that activation alone is insufficient and suggested pairing activation with project loading or syncing open mapped documents in [microsoft/TypeScript#64355](https://github.com/microsoft/TypeScript/issues/64355#issuecomment-5746828846)
@@ -33,9 +33,9 @@
 
  * **RyanCavanaugh** added label `Needs More Info`
  * [5 days ago](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5666596178) **RyanCavanaugh** said "Same, please fill in the definitions of child and its #iterate"
- * [yesterday](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5734070632) **Raxan7** mentioned inability to reproduce TS1111 with various TypeScript versions and requested the child declaration, config, and a minimal reproduction
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5734070632) **Raxan7** tested multiple TypeScript versions and variants of the `child` declaration, didn’t encounter TS1111, and requested the actual `child` declaration, tsconfig/jsconfig, TypeScript version, and a minimal reproduction
  * [today](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5746689139) **Ecco** described that the example code still triggered the error, provided screenshots of the error and TypeScript version selection, and noted that adding an explicit constructor resolves the error
- * [today](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5747747091) **Raxan7** reproduced the error in plain unchecked JavaScript, detailed reproduction steps across multiple TypeScript versions with control tests, and offered to add a regression test or fix
+ * [today](https://github.com/microsoft/TypeScript/issues/64228#issuecomment-5747747091) **Raxan7** reproduced TS1111 error in plain unchecked JavaScript, outlined environment details, provided a minimal example and control tests, and offered to add a regression test or fix
 
 ### [PR microsoft/TypeScript#64252](https://github.com/microsoft/TypeScript/pull/64252) (Open, `For Backlog Bug`)
 
@@ -118,7 +118,7 @@
  * created by **leonidaz**
  * [today](https://github.com/microsoft/TypeScript/issues/64355#issuecomment-5746828846) **leonidaz** described that activation alone was insufficient and suggested pairing activation with project loading or syncing already-open mapped documents
 
-### [Issue microsoft/TypeScript#64356](https://github.com/microsoft/TypeScript/issues/64356) (Open)
+### [Issue microsoft/TypeScript#64356](https://github.com/microsoft/TypeScript/issues/64356) (Open, `Needs Investigation`, `Domain: Content Mappers`, **andrewbranch**)
 
 **TypeScript 7 VS Code extension: let extensions that serve their language through content mappers opt out of the tsserver\-plugin warning**
 
@@ -173,11 +173,11 @@
  * created by **csigs**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64362](https://github.com/microsoft/TypeScript/issues/64362) (Open)
+### [Issue microsoft/TypeScript#64362](https://github.com/microsoft/TypeScript/issues/64362) (Open, `Needs Investigation`, `Domain: Content Mappers`, **andrewbranch**)
 
 **Content mappers: more granular resolution, and default extensions in the manifest**
 
-*Enable regex-based and dynamic path matching for content mappers and default manifest extension support.*
+*Enable content mappers to specify regex filters, claim APIs, and default extensions for more precise file targeting.*
 
  * created by **colinhacks**
 

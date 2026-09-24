@@ -44,7 +44,7 @@
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#63987](https://github.com/microsoft/TypeScript/pull/63987) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Redo localization for onboarding**
 
@@ -250,7 +250,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64311#issuecomment-5723297089) **typescript-automation[bot]** reported that running the top 400 repos with tsc comparing main and the pull request merge showed everything looked good
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript#64312](https://github.com/microsoft/TypeScript/issues/64312) (Open)
+### [Issue microsoft/TypeScript#64312](https://github.com/microsoft/TypeScript/issues/64312) (Open, `Bug`, `Needs Proposal`)
 
 **\`checkJs\` skips \`\.mjs\`/\`\.cjs\` beside a \`\.d\.mts\`/\`\.d\.cts\`, but not \`\.js\` beside a \`\.d\.ts\`**
 

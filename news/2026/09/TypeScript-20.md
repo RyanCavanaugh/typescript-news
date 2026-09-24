@@ -1,6 +1,6 @@
 # Report for 2026-09-20 (Sunday, September 20th, 2026)
 
-17 different users commented on 35 different issues.
+17 different users commented on 36 different issues.
 
 ## Recommended Actions
 
@@ -266,9 +266,9 @@
 
 ### [PR microsoft/TypeScript#64366](https://github.com/microsoft/TypeScript/pull/64366) (Open, `For Uncommitted Bug`)
 
-**Watch project directories that are close to the filesystem root**
+**Watch projects and program files close to the filesystem root**
 
-*tsc --watch doesn’t detect changes in projects near the filesystem root because it ignores directories with under five path components.*
+*tsc --watch and tsc -b --watch fail to rebuild projects in shallow root-level directories due to regression in directory watching.*
 
  * created by **Generalsimus**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`

@@ -1,6 +1,6 @@
 # Report for 2026-09-18 (Friday, September 18th, 2026)
 
-19 different users commented on 171 different issues.
+19 different users commented on 173 different issues.
 
 ## Recommended Actions
 
@@ -11,7 +11,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#39829](https://github.com/microsoft/TypeScript/issues/39829) (Closed, `Bug`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#39829](https://github.com/microsoft/TypeScript/issues/39829) (Closed, `Bug`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **HTMLImageElement\#crossOrigin should use literal union type from allowable values**
 
@@ -42,7 +42,7 @@
  * **RyanCavanaugh** added label `Domain: Comment Emit`
  * **RyanCavanaugh** added label `Needs Human Review`
 
-### [Issue microsoft/TypeScript#50240](https://github.com/microsoft/TypeScript/issues/50240) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#50240](https://github.com/microsoft/TypeScript/issues/50240) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`)
 
 **Contextual 'this' parameter in JSDoc doesn't show correct completions after property assignment on \`this\` in function\-valued object literal property**
 
@@ -55,7 +55,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50608](https://github.com/microsoft/TypeScript/issues/50608) (Closed, `Bug`, `Fixed`, `Domain: Intersection`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#50608](https://github.com/microsoft/TypeScript/issues/50608) (Closed, `Bug`, `Fixed`, `Domain: Intersection`)
 
 **Unexpected assignability**
 
@@ -67,7 +67,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50635](https://github.com/microsoft/TypeScript/issues/50635) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`, `Rescheduled`, `Has Repro`, `Needs Human Review`, **andrewbranch**)
+### [Issue microsoft/TypeScript#50635](https://github.com/microsoft/TypeScript/issues/50635) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`, `Rescheduled`, `Has Repro`, **andrewbranch**)
 
 **Regression in 4\.8 where string union type widens to string**
 
@@ -79,7 +79,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50684](https://github.com/microsoft/TypeScript/issues/50684) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#50684](https://github.com/microsoft/TypeScript/issues/50684) (Closed, `Bug`, `Fixed`, `Domain: check: Type Inference`)
 
 **Type inference destructure object**
 
@@ -92,7 +92,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50883](https://github.com/microsoft/TypeScript/issues/50883) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Effort: Moderate`, `Rescheduled`, `Domain: Parser`, `Needs Human Review`, **DanielRosenwasser**)
+### [Issue microsoft/TypeScript#50883](https://github.com/microsoft/TypeScript/issues/50883) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Effort: Moderate`, `Rescheduled`, `Domain: Parser`, **DanielRosenwasser**)
 
 **Make private field name parsing ecma 262 compliant**
 
@@ -103,7 +103,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#50917](https://github.com/microsoft/TypeScript/issues/50917) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#50917](https://github.com/microsoft/TypeScript/issues/50917) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **Module names in declaration files mismatch with keys in dependencies**
 
@@ -114,7 +114,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#51133](https://github.com/microsoft/TypeScript/issues/51133) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#51133](https://github.com/microsoft/TypeScript/issues/51133) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`)
 
 **JSDoc @link masked URL hyperlinks too far**
 
@@ -138,7 +138,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/51376#issuecomment-5737556389) **RyanCavanaugh** requested tsconfig.json settings, editor/extension version, and exact source to reproduce the error
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#51636](https://github.com/microsoft/TypeScript/issues/51636) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#51636](https://github.com/microsoft/TypeScript/issues/51636) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **\`Date\.getVarDate\(\)\` function seems incorrectly defined**
 
@@ -148,7 +148,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/51636#issuecomment-5737579036) **RyanCavanaugh** pointed out that Date#getVarDate remained declared in lib.scripthost.d.ts and suggested removing it since it is not present in Edge 153
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#51661](https://github.com/microsoft/TypeScript/issues/51661) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: This-Typing`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#51661](https://github.com/microsoft/TypeScript/issues/51661) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: This-Typing`)
 
 **Type\-asserting function call on variable initialized using \`this\` causes false implicit\-any in VSCode**
 
@@ -172,7 +172,7 @@
  * (today) **RyanCavanaugh** closed the issue
  * [today](https://github.com/microsoft/TypeScript/issues/51885#issuecomment-5739748405) **TechQuery** asked which version the fix would be released in
 
-### [Issue microsoft/TypeScript#52033](https://github.com/microsoft/TypeScript/issues/52033) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#52033](https://github.com/microsoft/TypeScript/issues/52033) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **Redundant "has or is using private name" diagnostic when name not found**
 
@@ -183,7 +183,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#52042](https://github.com/microsoft/TypeScript/issues/52042) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#52042](https://github.com/microsoft/TypeScript/issues/52042) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`)
 
 **Irregular behavior of equivalent code between \`\.js\` and \`\.ts\`\.**
 
@@ -196,7 +196,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#52430](https://github.com/microsoft/TypeScript/issues/52430) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Control Flow`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#52430](https://github.com/microsoft/TypeScript/issues/52430) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Control Flow`)
 
 **Assertion type function not working as expected with everything but ES3 since \>=4\.9\.4**
 
@@ -209,7 +209,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#52463](https://github.com/microsoft/TypeScript/issues/52463) (Closed, `Bug`, `Fixed`, `Website`, `Domain: Crashes`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#52463](https://github.com/microsoft/TypeScript/issues/52463) (Closed, `Bug`, `Fixed`, `Website`, `Domain: Crashes`)
 
 **Internal compiler error: "DataCloneError: Function object could not be cloned\."**
 
@@ -220,7 +220,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#52912](https://github.com/microsoft/TypeScript/issues/52912) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Cursed?`, `Domain: check: Error Instability`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#52912](https://github.com/microsoft/TypeScript/issues/52912) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Cursed?`, `Domain: check: Error Instability`)
 
 **Undetected illegal assignment of nested array types**
 
@@ -233,7 +233,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53111](https://github.com/microsoft/TypeScript/issues/53111) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53111](https://github.com/microsoft/TypeScript/issues/53111) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **TSC emits invalid \.d\.ts file with reserved keywords in identifier position**
 
@@ -246,7 +246,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53276](https://github.com/microsoft/TypeScript/issues/53276) (Closed, `Bug`, `Fixed`, `Domain: Literal Types`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53276](https://github.com/microsoft/TypeScript/issues/53276) (Closed, `Bug`, `Fixed`, `Domain: Literal Types`)
 
 **\`unique symbol\`s from the global \`SymbolConstructor\` widen way too eagerly**
 
@@ -259,7 +259,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53559](https://github.com/microsoft/TypeScript/issues/53559) (Closed, `Bug`, `Fixed`, `Domain: Error Messages`, `Rescheduled`, `Needs Human Review`, **DanielRosenwasser**)
+### [Issue microsoft/TypeScript#53559](https://github.com/microsoft/TypeScript/issues/53559) (Closed, `Bug`, `Fixed`, `Domain: Error Messages`, `Rescheduled`, **DanielRosenwasser**)
 
 **Error for explicit return type with no return statements is misleading**
 
@@ -271,7 +271,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53605](https://github.com/microsoft/TypeScript/issues/53605) (Closed, `Bug`, `Help Wanted`, `Domain: Module Resolution`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53605](https://github.com/microsoft/TypeScript/issues/53605) (Closed, `Bug`, `Help Wanted`, `Domain: Module Resolution`)
 
 **\`ts\.isUrl\` and \`ts\.pathIsAbsolute\` return false for data urls**
 
@@ -284,7 +284,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53737](https://github.com/microsoft/TypeScript/issues/53737) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53737](https://github.com/microsoft/TypeScript/issues/53737) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: JSDoc`)
 
 **Please Allow Mixins to function properly with new\-able types**
 
@@ -296,7 +296,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/53737#issuecomment-5737797371) **RyanCavanaugh** asked for additional reproduction details after failing to reproduce the missing members issue
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#53775](https://github.com/microsoft/TypeScript/issues/53775) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53775](https://github.com/microsoft/TypeScript/issues/53775) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **Accessors are always reduced to properties in object literal declarations**
 
@@ -307,7 +307,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#53925](https://github.com/microsoft/TypeScript/issues/53925) (Closed, `Bug`, `Help Wanted`, `Domain: API: Transforms`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#53925](https://github.com/microsoft/TypeScript/issues/53925) (Closed, `Bug`, `Help Wanted`, `Domain: API: Transforms`)
 
 **Typescript emits invalid AMD with custom tranformation of export syntax**
 
@@ -329,7 +329,7 @@
  * **RyanCavanaugh** added label `Domain: Decorators`
  * (today) **RyanCavanaugh** added labels `Docs`, `Needs Human Review`
 
-### [Issue microsoft/TypeScript#54237](https://github.com/microsoft/TypeScript/issues/54237) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54237](https://github.com/microsoft/TypeScript/issues/54237) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`)
 
 **Error when destructuring deep nested object with literal initializers as fallback**
 
@@ -342,7 +342,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#54335](https://github.com/microsoft/TypeScript/issues/54335) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Intersection`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54335](https://github.com/microsoft/TypeScript/issues/54335) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Intersection`)
 
 **Types intersected with string literal or 'unique symbol' error on computed property name declaration but only if it's abstract\.**
 
@@ -364,7 +364,7 @@
  * (3.3 years ago) **RyanCavanaugh** added labels `Help Wanted`, `Domain: Decorators`, and set milestone to `Backlog`
  * (today) **RyanCavanaugh** added labels `Docs`, `Needs Human Review`
 
-### [Issue microsoft/TypeScript#54352](https://github.com/microsoft/TypeScript/issues/54352) (Closed, `Bug`, `Help Wanted`, `Crash`, `Domain: Node ESM`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54352](https://github.com/microsoft/TypeScript/issues/54352) (Closed, `Bug`, `Help Wanted`, `Crash`, `Domain: Node ESM`)
 
 **Crash \`Unhandled type Any\` on ESM\-mode namespace import of \`module\.exports = null\`**
 
@@ -376,7 +376,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#54372](https://github.com/microsoft/TypeScript/issues/54372) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#54372](https://github.com/microsoft/TypeScript/issues/54372) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **\`autocapitalize\` type is incorrect according to MDN**
 
@@ -388,7 +388,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/54372#issuecomment-5737874680) **RyanCavanaugh** noted that HTMLElement.autocapitalize was declared as string in TypeScript, allowing invalid keywords like "character", and suggested using a keyword union to catch errors early
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#54387](https://github.com/microsoft/TypeScript/issues/54387) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#54387](https://github.com/microsoft/TypeScript/issues/54387) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Notes about \`String\.replace\`**
 
@@ -400,7 +400,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/54387#issuecomment-5737883099) **RyanCavanaugh** explained that String.prototype.replace runtime behavior accepts either a string or a function but the lib.d.ts overloads reject a union of those types, causing TS2769 in several TypeScript versions
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#54429](https://github.com/microsoft/TypeScript/issues/54429) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: Binder`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54429](https://github.com/microsoft/TypeScript/issues/54429) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: Binder`)
 
 **Unexpected "used before its declaration" error when implementing a exported type of a merged namespace**
 
@@ -410,7 +410,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/54429#issuecomment-5737887908) **RyanCavanaugh** could not reproduce the issue on TypeScript 4.7.3 or 5.0.4 and requested exact editor sequence, file contents, actions, error timing, and a tsserver protocol log
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#54466](https://github.com/microsoft/TypeScript/issues/54466) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54466](https://github.com/microsoft/TypeScript/issues/54466) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **URLSearchParams needs size**
 
@@ -422,7 +422,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#54742](https://github.com/microsoft/TypeScript/issues/54742) (Closed, `Bug`, `Help Wanted`, `Domain: Comment Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#54742](https://github.com/microsoft/TypeScript/issues/54742) (Closed, `Bug`, `Help Wanted`, `Domain: Comment Emit`)
 
 **Synthetic comment duplicated 3 times on class with experimental decorators**
 
@@ -433,7 +433,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#55077](https://github.com/microsoft/TypeScript/issues/55077) (Closed, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#55077](https://github.com/microsoft/TypeScript/issues/55077) (Closed, `Bug`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **Array\<T\>\.reduce\<U\> method description contains mismatched parameter in description**
 
@@ -446,7 +446,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#55162](https://github.com/microsoft/TypeScript/issues/55162) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#55162](https://github.com/microsoft/TypeScript/issues/55162) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **CanvasRenderingContext2D has no reset\(\) method**
 
@@ -459,7 +459,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#55210](https://github.com/microsoft/TypeScript/issues/55210) (Open, `Bug`, `Needs More Info`, `Domain: Something Else`, `Needs Human Review`, **iisaduan**)
+### [Issue microsoft/TypeScript#55210](https://github.com/microsoft/TypeScript/issues/55210) (Open, `Bug`, `Needs More Info`, `Domain: Something Else`, **iisaduan**)
 
 **\[ServerErrors\]\[TypeScript\] 5\.2\.0\-dev\.20230730**
 
@@ -469,7 +469,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/55210#issuecomment-5737973132) **RyanCavanaugh** requested attaching the referenced replay logs or providing a self-contained tsserver request sequence to reproduce the crash
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#55497](https://github.com/microsoft/TypeScript/issues/55497) (Closed, `Bug`, `Help Wanted`, `Effort: Moderate`, `Crash`, `Domain: Crashes`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#55497](https://github.com/microsoft/TypeScript/issues/55497) (Closed, `Bug`, `Help Wanted`, `Effort: Moderate`, `Crash`, `Domain: Crashes`)
 
 **\`transpileModule\`: debug failure crash**
 
@@ -482,7 +482,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#55526](https://github.com/microsoft/TypeScript/issues/55526) (Closed, `Bug`, `Fixed`, `Domain: flag: exactOptionalPropertyTypes`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#55526](https://github.com/microsoft/TypeScript/issues/55526) (Closed, `Bug`, `Fixed`, `Domain: flag: exactOptionalPropertyTypes`)
 
 **Assigning property values square bracket access and exactOptionalPropertyTypes enabled has inconsistent behaviour**
 
@@ -494,7 +494,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#55570](https://github.com/microsoft/TypeScript/issues/55570) (Closed, `Bug`, `Domain: Decorators`, `Rescheduled`, `Needs Human Review`, **rbuckton**)
+### [Issue microsoft/TypeScript#55570](https://github.com/microsoft/TypeScript/issues/55570) (Closed, `Bug`, `Domain: Decorators`, `Rescheduled`, **rbuckton**)
 
 **transpileModule does not elide type only "import equals" under emitDecoratorMetadata**
 
@@ -516,7 +516,7 @@
  * **RyanCavanaugh** added to milestone `Post-7.0 lib candidates`
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, and removed label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#55990](https://github.com/microsoft/TypeScript/issues/55990) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#55990](https://github.com/microsoft/TypeScript/issues/55990) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Update lib\.dom\.d\.ts: \`MutationObserverInit\.attributeFilter\` can accept an iterator**
 
@@ -526,7 +526,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/55990#issuecomment-5738044512) **RyanCavanaugh** explained that MutationObserverInit.attributeFilter was declared as string[] but should accept iterables per spec
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#56024](https://github.com/microsoft/TypeScript/issues/56024) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: This-Typing`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#56024](https://github.com/microsoft/TypeScript/issues/56024) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: This-Typing`)
 
 **\`this\` parameter not correctly inferred when unrelated type parameter has no inference candidates**
 
@@ -537,7 +537,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#56589](https://github.com/microsoft/TypeScript/issues/56589) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#56589](https://github.com/microsoft/TypeScript/issues/56589) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **MediaStream API should support pan, zoom and tilt**
 
@@ -549,7 +549,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/56589#issuecomment-5738136564) **RyanCavanaugh** reported missing zoom, pan, and tilt properties on MediaTrackCapabilities and MediaTrackConstraintSet causing TS2339 errors
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#56630](https://github.com/microsoft/TypeScript/issues/56630) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, `Needs Human Review`, **weswigham**)
+### [Issue microsoft/TypeScript#56630](https://github.com/microsoft/TypeScript/issues/56630) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, **weswigham**)
 
 **Declaration emit fails to import symbol on function auto\-property**
 
@@ -571,7 +571,7 @@
  * **RyanCavanaugh** added label `Domain: JSX/TSX`
  * **RyanCavanaugh** added label `Needs Human Review`
 
-### [Issue microsoft/TypeScript#56696](https://github.com/microsoft/TypeScript/issues/56696) (Closed, `Bug`, `Help Wanted`, `Domain: JSX/TSX`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#56696](https://github.com/microsoft/TypeScript/issues/56696) (Closed, `Bug`, `Help Wanted`, `Domain: JSX/TSX`)
 
 ** Ternary operator breaks syntax highlighting in tsx file**
 
@@ -582,7 +582,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#56766](https://github.com/microsoft/TypeScript/issues/56766) (Closed, `Bug`, `Help Wanted`, `Domain: check: Variance Relationships`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#56766](https://github.com/microsoft/TypeScript/issues/56766) (Closed, `Bug`, `Help Wanted`, `Domain: check: Variance Relationships`)
 
 **Functions with fewer parameters NOT assignable to functions with more parameters defined as tuples union**
 
@@ -595,7 +595,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#56783](https://github.com/microsoft/TypeScript/issues/56783) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, `Needs Human Review`, **weswigham**)
+### [Issue microsoft/TypeScript#56783](https://github.com/microsoft/TypeScript/issues/56783) (Closed, `Bug`, `Fixed`, `Domain: Declaration Emit`, **weswigham**)
 
 **Exported const type parameters is not renamed in constraint in another const in type declarations**
 
@@ -608,7 +608,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#56855](https://github.com/microsoft/TypeScript/issues/56855) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#56855](https://github.com/microsoft/TypeScript/issues/56855) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`)
 
 **Generic type inference failed**
 
@@ -621,7 +621,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#56962](https://github.com/microsoft/TypeScript/issues/56962) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#56962](https://github.com/microsoft/TypeScript/issues/56962) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Typings for navigator\.connection gone since TS 4\.8**
 
@@ -633,7 +633,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/56962#issuecomment-5738200921) **RyanCavanaugh** reported that navigator.connection was missing from the DOM declarations, causing TS2339 errors in TypeScript 5.3.3 and the native compiler with --lib es5,dom despite MDN documenting the property and TypeScript 4.5.5 accepting it
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#57514](https://github.com/microsoft/TypeScript/issues/57514) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#57514](https://github.com/microsoft/TypeScript/issues/57514) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Intl\.NumberFormat does not model required properties when \`style\` is set to \`currency\`**
 
@@ -644,7 +644,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/57514#issuecomment-5738238685) **RyanCavanaugh** described that Intl.NumberFormat allowed undefined currency under --strict in TypeScript but caused a runtime error in the browser and suggested modeling required option relationships for currency and unit styles
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#57520](https://github.com/microsoft/TypeScript/issues/57520) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#57520](https://github.com/microsoft/TypeScript/issues/57520) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Change type of \`File\` constructor parameter \`fileBits\` to \`Iterable\<BlobPart\>\`**
 
@@ -667,7 +667,7 @@
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
  * [later](https://github.com/microsoft/TypeScript/issues/57564#issuecomment-5742046277) **rotu** asked where TS2317 was appearing in the Workbench linked in the writeup
 
-### [Issue microsoft/TypeScript#57985](https://github.com/microsoft/TypeScript/issues/57985) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Binder`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#57985](https://github.com/microsoft/TypeScript/issues/57985) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Binder`)
 
 **No duplicate identifier error issued if \`const\` declared with function type with expandos**
 
@@ -680,7 +680,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58020](https://github.com/microsoft/TypeScript/issues/58020) (Closed, `Bug`, `Domain: API: Transforms`, `Needs Human Review`, **rbuckton**)
+### [Issue microsoft/TypeScript#58020](https://github.com/microsoft/TypeScript/issues/58020) (Closed, `Bug`, `Domain: API: Transforms`, **rbuckton**)
 
 **“Lexical environment is not suspended” when visitEachChile**
 
@@ -693,7 +693,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58026](https://github.com/microsoft/TypeScript/issues/58026) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58026](https://github.com/microsoft/TypeScript/issues/58026) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **Missing the \`AbortSignal\.any\(\)\` function**
 
@@ -706,7 +706,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58027](https://github.com/microsoft/TypeScript/issues/58027) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Crashes`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58027](https://github.com/microsoft/TypeScript/issues/58027) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Crashes`)
 
 **Debug Failure\. Did not expect ObjectLiteralExpression to have an Identifier in its trivia**
 
@@ -719,7 +719,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58209](https://github.com/microsoft/TypeScript/issues/58209) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JS Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58209](https://github.com/microsoft/TypeScript/issues/58209) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JS Emit`)
 
 **\`const enum\` references in the body of nodes with grammar errors are not inlined**
 
@@ -730,7 +730,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58322](https://github.com/microsoft/TypeScript/issues/58322) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: JSX/TSX`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58322](https://github.com/microsoft/TypeScript/issues/58322) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: JSX/TSX`)
 
 **Auto\-closing of tags within curly braces \`{}\` does not work when parent element is same tag in JSX**
 
@@ -740,7 +740,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/58322#issuecomment-5738304573) **RyanCavanaugh** requested the editor host and version that performs the auto-closing action, plus the relevant JSX auto-closing setting and exact keystrokes
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#58334](https://github.com/microsoft/TypeScript/issues/58334) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: flag: isolatedDeclarations`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58334](https://github.com/microsoft/TypeScript/issues/58334) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: flag: isolatedDeclarations`)
 
 **\`\-\-isolatedDeclarations\` allows generator functions**
 
@@ -751,7 +751,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58534](https://github.com/microsoft/TypeScript/issues/58534) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Node ESM`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58534](https://github.com/microsoft/TypeScript/issues/58534) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Node ESM`)
 
 **Error: Debug Failure when importing \`AssertionError\` from \`node:assert/strict\`**
 
@@ -764,7 +764,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58614](https://github.com/microsoft/TypeScript/issues/58614) (Closed, `Bug`, `Help Wanted`, `Domain: Something Else`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58614](https://github.com/microsoft/TypeScript/issues/58614) (Closed, `Bug`, `Help Wanted`, `Domain: Something Else`)
 
 **TypeScript colorizer confused by comments after colon in class member function signature with Generic return type**
 
@@ -775,7 +775,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#58644](https://github.com/microsoft/TypeScript/issues/58644) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#58644](https://github.com/microsoft/TypeScript/issues/58644) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **TS 5\.4\.5: Return type for performance\.getEntriesByType is inaccurate**
 
@@ -787,7 +787,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/58644#issuecomment-5738360075) **RyanCavanaugh** noted that getEntriesByType("navigation") was typed as PerformanceEntry[] causing TS2339 on entry.type and suggested updating the DOM declaration to preserve the literal "navigation" result type
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#58695](https://github.com/microsoft/TypeScript/issues/58695) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#58695](https://github.com/microsoft/TypeScript/issues/58695) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **texSubImage2D missing WebGL2 syntax**
 
@@ -797,7 +797,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/58695#issuecomment-5738369349) **RyanCavanaugh** noted that the nine-argument ImageBitmap call compiles with WebGL2RenderingContext but errors with WebGLRenderingContext and asked for the gl declaration, TypeScript version, and compiler options to reproduce the issue
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#59012](https://github.com/microsoft/TypeScript/issues/59012) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#59012](https://github.com/microsoft/TypeScript/issues/59012) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Consider making \`WritableStreamDefaultWriter\.write\(\)\` contravariant**
 
@@ -819,7 +819,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/59047#issuecomment-5738321489) **RyanCavanaugh** requested that the user attach efront.js and verbose tsserver logs to reproduce the crash
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#59161](https://github.com/microsoft/TypeScript/issues/59161) (Closed, `Bug`, `Domain: This-Typing`, `Needs Human Review`, **rbuckton**)
+### [Issue microsoft/TypeScript#59161](https://github.com/microsoft/TypeScript/issues/59161) (Closed, `Bug`, `Domain: This-Typing`, **rbuckton**)
 
 **Naked generic type returned from iterator method**
 
@@ -832,7 +832,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#59255](https://github.com/microsoft/TypeScript/issues/59255) (Closed, `Bug`, `Domain: Crashes`, `Needs Human Review`, **weswigham**)
+### [Issue microsoft/TypeScript#59255](https://github.com/microsoft/TypeScript/issues/59255) (Closed, `Bug`, `Domain: Crashes`, **weswigham**)
 
 **RangeError: Maximum call stack size in getTypeAtLocation in files importing in series with template literals**
 
@@ -845,7 +845,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#59401](https://github.com/microsoft/TypeScript/issues/59401) (Open, `Bug`, `Needs More Info`, `Domain: check: Error Instability`, `Needs Human Review`, **gabritto**)
+### [Issue microsoft/TypeScript#59401](https://github.com/microsoft/TypeScript/issues/59401) (Open, `Bug`, `Needs More Info`, `Domain: check: Error Instability`, **gabritto**)
 
 **\`'X' only refers to a type\` error in JSDoc comments**
 
@@ -855,7 +855,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/59401#issuecomment-5738424550) **RyanCavanaugh** requested a self-contained reproduction with source code and tsserver logs covering the diagnostic appearance and disappearance
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#59679](https://github.com/microsoft/TypeScript/issues/59679) (Closed, `Bug`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#59679](https://github.com/microsoft/TypeScript/issues/59679) (Closed, `Bug`, `Help Wanted`, `Domain: JSDoc`)
 
 **\`getTextOfJSDocComment\` introduces a space in JSDoc comments**
 
@@ -867,7 +867,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#59968](https://github.com/microsoft/TypeScript/issues/59968) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#59968](https://github.com/microsoft/TypeScript/issues/59968) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Error when accessing CSS property value using kebab case in \`CSSStyleDeclaration\` object**
 
@@ -877,7 +877,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/59968#issuecomment-5738506467) **RyanCavanaugh** described that CSSStyleDeclaration supports dashed CSS property lookups at runtime but reports TS7015 under --noImplicitAny in multiple TypeScript versions, noted that Edge accepts this lookup and referred to DOM lib generator issue 1672
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#60247](https://github.com/microsoft/TypeScript/issues/60247) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60247](https://github.com/microsoft/TypeScript/issues/60247) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **Mapped type with enum keys emits string keys in d\.ts type, but uses enum keys in \.ts type**
 
@@ -890,7 +890,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60343](https://github.com/microsoft/TypeScript/issues/60343) (Closed, `Bug`, `Fixed`, `Domain: JSX/TSX`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60343](https://github.com/microsoft/TypeScript/issues/60343) (Closed, `Bug`, `Fixed`, `Domain: JSX/TSX`)
 
 **Inline conditional JSX props spread warns as if unconditional**
 
@@ -901,7 +901,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60386](https://github.com/microsoft/TypeScript/issues/60386) (Closed, `Bug`, `Help Wanted`, `Domain: check: Excess Property Checking`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60386](https://github.com/microsoft/TypeScript/issues/60386) (Closed, `Bug`, `Help Wanted`, `Domain: check: Excess Property Checking`)
 
 **Destructuring into an empty object vs an object with existing properties yields different results**
 
@@ -914,7 +914,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60514](https://github.com/microsoft/TypeScript/issues/60514) (Closed, `Bug`, `Help Wanted`, `Domain: check: Control Flow`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60514](https://github.com/microsoft/TypeScript/issues/60514) (Closed, `Bug`, `Help Wanted`, `Domain: check: Control Flow`)
 
 **Weird behaviour with an "evolving any" and a non\-null assertion operator**
 
@@ -927,7 +927,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60546](https://github.com/microsoft/TypeScript/issues/60546) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#60546](https://github.com/microsoft/TypeScript/issues/60546) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **MIDIMessageEvent data is incorrectly typed**
 
@@ -948,7 +948,7 @@
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
  * [later](https://github.com/microsoft/TypeScript/issues/60756#issuecomment-5740721604) **M393** described how opening the project in VSCode on Windows showed a casing error for vector.js imported as Vector.js that persisted after renaming the file and attached a test repository
 
-### [Issue microsoft/TypeScript#60764](https://github.com/microsoft/TypeScript/issues/60764) (Closed, `Bug`, `Help Wanted`, `Domain: Conditional Types`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60764](https://github.com/microsoft/TypeScript/issues/60764) (Closed, `Bug`, `Help Wanted`, `Domain: Conditional Types`)
 
 **Bug: string is not a string**
 
@@ -961,7 +961,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60773](https://github.com/microsoft/TypeScript/issues/60773) (Closed, `Bug`, `Help Wanted`, `Domain: Parser`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60773](https://github.com/microsoft/TypeScript/issues/60773) (Closed, `Bug`, `Help Wanted`, `Domain: Parser`)
 
 **The parsed identifier is incomplete due to updateSourceFile\.**
 
@@ -972,7 +972,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60838](https://github.com/microsoft/TypeScript/issues/60838) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#60838](https://github.com/microsoft/TypeScript/issues/60838) (Open, `Bug`, `Help Wanted`, `Domain: lib.d.ts`, **RyanCavanaugh**, **Copilot**)
 
 **Inconsistent types between Document scrollingElement and documentElement**
 
@@ -982,7 +982,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/60838#issuecomment-5738670878) **RyanCavanaugh** highlighted that document.scrollingElement was declared as Element|null causing a TS2322 assignment error when assigning it to HTMLElement|null
  * (today) **RyanCavanaugh** added label `Needs Human Review`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#60879](https://github.com/microsoft/TypeScript/issues/60879) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JS Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60879](https://github.com/microsoft/TypeScript/issues/60879) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JS Emit`)
 
 **static block on unnamed class produces invalid javascript**
 
@@ -993,7 +993,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60908](https://github.com/microsoft/TypeScript/issues/60908) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60908](https://github.com/microsoft/TypeScript/issues/60908) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: JSDoc`)
 
 **Unexpected "'Type' is declared but its value is never read\." error with jsdoc @import syntax**
 
@@ -1006,7 +1006,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#60918](https://github.com/microsoft/TypeScript/issues/60918) (Closed, `Bug`, `Help Wanted`, `Domain: API`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#60918](https://github.com/microsoft/TypeScript/issues/60918) (Closed, `Bug`, `Help Wanted`, `Domain: API`)
 
 **The \`parseJsonConfigFileContent\` function does not resolve relative JSON paths**
 
@@ -1017,7 +1017,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61110](https://github.com/microsoft/TypeScript/issues/61110) (Open, `Bug`, `Needs More Info`, `Domain: check: Type Circularity`, `Needs Human Review`, **weswigham**)
+### [Issue microsoft/TypeScript#61110](https://github.com/microsoft/TypeScript/issues/61110) (Open, `Bug`, `Needs More Info`, `Domain: check: Type Circularity`, **weswigham**)
 
 **RangeError \- Maximum call stack size exceeded \- in tsserver / vscode extension host \- when providing type args to fn lambda**
 
@@ -1027,7 +1027,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/61110#issuecomment-5738713777) **RyanCavanaugh** asked for exact VS Code version, TypeScript extension/server version, precise completion position or editor action, and a tsserver log to reproduce the error
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#61209](https://github.com/microsoft/TypeScript/issues/61209) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61209](https://github.com/microsoft/TypeScript/issues/61209) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: lib.d.ts`)
 
 **\`IDBObjectStore\` \`keyPath\` missing \`null\` type\.**
 
@@ -1038,7 +1038,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61292](https://github.com/microsoft/TypeScript/issues/61292) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: Node ESM`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61292](https://github.com/microsoft/TypeScript/issues/61292) (Open, `Bug`, `Needs More Info`, `Help Wanted`, `Domain: Node ESM`)
 
 **strange interaction with \`resolveJsonModule\`, \`createRequire\`, naming it \`require\`, and requiring JSON**
 
@@ -1050,7 +1050,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/61292#issuecomment-5738759610) **RyanCavanaugh** requested the @ljharb/tsconfig version and tsc --showConfig output along with diagnostic output to reproduce the issue
  * (today) **RyanCavanaugh** added labels `Needs Human Review`, `Needs More Info`
 
-### [Issue microsoft/TypeScript#61314](https://github.com/microsoft/TypeScript/issues/61314) (Closed, `Bug`, `Domain: LS: Suggestion Diagnostics`, `7.0 LS Migration`, `Needs Human Review`, **sandersn**)
+### [Issue microsoft/TypeScript#61314](https://github.com/microsoft/TypeScript/issues/61314) (Closed, `Bug`, `Domain: LS: Suggestion Diagnostics`, `7.0 LS Migration`, **sandersn**)
 
 **checker\.getSuggestionDiagnostics fails with \`TypeError: Cannot read properties of undefined \(reading 'parent'\)\`**
 
@@ -1062,7 +1062,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61441](https://github.com/microsoft/TypeScript/issues/61441) (Closed, `Bug`, `Help Wanted`, `Domain: Node ESM`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61441](https://github.com/microsoft/TypeScript/issues/61441) (Closed, `Bug`, `Help Wanted`, `Domain: Node ESM`)
 
 **Allow \`import\.meta\.url\` when \`module\` is \`node16\` or \`node18\`**
 
@@ -1075,7 +1075,7 @@
  * **RyanCavanaugh** added label `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61540](https://github.com/microsoft/TypeScript/issues/61540) (Closed, `Bug`, `Fixed`, `Domain: Mapped Types`, `Needs Human Review`, **weswigham**)
+### [Issue microsoft/TypeScript#61540](https://github.com/microsoft/TypeScript/issues/61540) (Closed, `Bug`, `Fixed`, `Domain: Mapped Types`, **weswigham**)
 
 **\[bug:7\.5\.3\] Mapper class explicite field regression**
 
@@ -1086,7 +1086,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61552](https://github.com/microsoft/TypeScript/issues/61552) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61552](https://github.com/microsoft/TypeScript/issues/61552) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: check: Type Inference`)
 
 **Incorrect type inference for generic class in JavaScript**
 
@@ -1097,7 +1097,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61678](https://github.com/microsoft/TypeScript/issues/61678) (Closed, `Bug`, `Fixed`, `Domain: flag: exactOptionalPropertyTypes`, `Needs Human Review`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#61678](https://github.com/microsoft/TypeScript/issues/61678) (Closed, `Bug`, `Fixed`, `Domain: flag: exactOptionalPropertyTypes`, **ahejlsberg**)
 
 **With exactOptionalPropertyTypes enabled, assigning a union with missing literal properties is incorrectly allowed**
 
@@ -1108,7 +1108,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61717](https://github.com/microsoft/TypeScript/issues/61717) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: tsc -b`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61717](https://github.com/microsoft/TypeScript/issues/61717) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: tsc -b`)
 
 **\`tsc \-\-build \-\-watch\` produces stray \`\.js\`/\`\.js\.map\` files when adding a file to upstream project**
 
@@ -1120,7 +1120,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61718](https://github.com/microsoft/TypeScript/issues/61718) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`, `Needs Human Review`)
+### [Issue microsoft/TypeScript#61718](https://github.com/microsoft/TypeScript/issues/61718) (Closed, `Bug`, `Fixed`, `Help Wanted`, `Domain: Declaration Emit`)
 
 **Emitted declarations for JS file do not import a class if it's re\-exported**
 
@@ -1133,7 +1133,7 @@
  * (today) **RyanCavanaugh** added labels `Fixed`, `Needs Human Review`
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#61768](https://github.com/microsoft/TypeScript/issues/61768) (Open, `Bug`, `Domain: lib.d.ts`, `Needs Human Review`, **sandersn**, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#61768](https://github.com/microsoft/TypeScript/issues/61768) (Open, `Bug`, `Domain: lib.d.ts`, **sandersn**, **RyanCavanaugh**, **Copilot**)
 
 **\`IntegerTypedArray\` type required for use with \`crypto\.getRandomValues\`**
 
