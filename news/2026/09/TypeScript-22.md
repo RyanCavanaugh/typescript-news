@@ -1,6 +1,6 @@
 # Report for 2026-09-22 (Tuesday, September 22nd, 2026)
 
-19 different users commented on 58 different issues.
+19 different users commented on 59 different issues.
 
 ## Recommended Actions
 
@@ -122,11 +122,11 @@
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64158](https://github.com/microsoft/TypeScript/pull/64158) (Open, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
+### [PR microsoft/TypeScript#64158](https://github.com/microsoft/TypeScript/pull/64158) (Closed, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
 
 **Build Orchestrator API **
 
-*Implement a BuildOrchestrator API to programmatically build, clean, and manage project references in TypeScript 7.1 without watch mode.*
+*Introduce a BuildOrchestrator API in TS7.1 replacing SolutionBuilder to perform project builds, cleans, and their references with customizable options.*
 
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5729268673) **dragomirtitian** explained their usage of the incremental program APIs and workflow, including creating an incremental compiler host, caching ASTs, invoking diagnostics, and emitting changed files
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5732995165) **andrewbranch** described how declaration file AST caching now works automatically via strategic program snapshots, referenced Jake’s prototype commit, and mentioned developing a snapshot-backed incremental program prototype for future testing
@@ -519,16 +519,16 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64403#issuecomment-5786798370) **weswigham** acknowledged that dependencies were dodging analysis by being installed late and suggested acknowledging the problem rather than hiding it
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64404](https://github.com/microsoft/TypeScript/pull/64404) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64404](https://github.com/microsoft/TypeScript/pull/64404) (Open, `Author: Team`, `For Milestone Bug`, **jakebailey**)
 
 **Watch alias invalidation**
 
-*Updates file watchers to track symlink alias changes so watch mode detects file modifications across different paths.*
+*Introduce a watchalias lookup to match filesystem paths with compiler-recognized file names so watch mode detects changes through symlinks.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405) (Open, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405) (Closed, `Needs Investigation`, **johnfav03**)
 
 **Incremental check emits locationless TS2589 after a comment\-only edit in TypeScript 7**
 

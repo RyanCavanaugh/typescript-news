@@ -80,11 +80,11 @@
  * (1 month ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64158](https://github.com/microsoft/TypeScript/pull/64158) (Open, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
+### [PR microsoft/TypeScript#64158](https://github.com/microsoft/TypeScript/pull/64158) (Closed, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
 
 **Build Orchestrator API **
 
-*Implement a BuildOrchestrator API to programmatically build, clean, and manage project references in TypeScript 7.1 without watch mode.*
+*Introduce a BuildOrchestrator API in TS7.1 replacing SolutionBuilder to perform project builds, cleans, and their references with customizable options.*
 
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5723381271) **andrewbranch** asked which incremental-specific Program APIs were needed beyond altered construction/emit behavior and whether they used emitBuildInfo(), getSemanticDiagnosticsOfNextAffectedFile(), emitNextAffectedFile(), or others
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-5729268673) **dragomirtitian** explained their usage of the incremental program APIs and workflow, including creating an incremental compiler host, caching ASTs, invoking diagnostics, and emitting changed files
@@ -290,7 +290,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64370](https://github.com/microsoft/TypeScript/issues/64370) (Open, `Won't Fix`)
+### [Issue microsoft/TypeScript#64370](https://github.com/microsoft/TypeScript/issues/64370) (Closed, `Won't Fix`)
 
 **Native compiler \(tsgo\) aborts with "fatal error: stack overflow" on deeply nested expressions**
 
