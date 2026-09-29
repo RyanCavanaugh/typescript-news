@@ -1,17 +1,27 @@
 # Report for 2026-09-27 (Sunday, September 27th, 2026)
 
-19 different users commented on 32 different issues.
+22 different users commented on 36 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @danfry1 provided a workaround example in [microsoft/TypeScript#41160](https://github.com/microsoft/TypeScript/issues/41160#issuecomment-5859698553)
     * @malyzeli explained that their company requires Yarn PnP support before migrating to TS7 in [microsoft/TypeScript#63919](https://github.com/microsoft/TypeScript/pull/63919#issuecomment-5868202880)
-    * @Amatewasu provided additional reproduction steps in [microsoft/TypeScript#64423](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5870461095)
+    * @Amatewasu provided additional repro steps and analysis in [microsoft/TypeScript#64423](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5870461095)
     * @z0rimo opened draft PR #64488 for a compatibility fix and requested triage in [microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453#issuecomment-5862919851)
-    * @typescript-automation[bot] provided perf results as requested in [microsoft/TypeScript#64481](https://github.com/microsoft/TypeScript/pull/64481#issuecomment-5857621494)
 
 ## Activity Summary
+
+### [Issue microsoft/TypeScript#30408](https://github.com/microsoft/TypeScript/issues/30408) (Open, `Suggestion`, `Help Wanted`, `Good First Issue`, `Effort: Moderate`, `Domain: Error Messages`, `Experience Enhancement`)
+
+**Confusing error message for labels used before definition**
+
+*A continue to a label defined after a for loop incorrectly triggers a confusing TS1007 error.*
+
+ * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/30408#issuecomment-5490013799) **LeonxLJX** said "I'd like to take this one — I'll follow up with a PR. (claiming via @LeonxLJX)"
+ * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/30408#issuecomment-5492442687) **LeonxLJX** said "Hi! I'd like to improve the 'label used before definition' error message. Plan: reproduce, refine the message, add tests. May I be assigned?"
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/30408#issuecomment-5661952649) **anbv29** said "Hey, i would like to work on this. Can i be assigned this issue?"
+ * [later](https://github.com/microsoft/TypeScript/issues/30408#issuecomment-5873737878) **RyanCavanaugh** warned that opening another PR without acknowledging past attempts would trigger an immediate ban
 
 ### [Issue microsoft/TypeScript#41160](https://github.com/microsoft/TypeScript/issues/41160) (Open, `Suggestion`, `Awaiting More Feedback`)
 
@@ -44,7 +54,7 @@
  * **RyanCavanaugh** added label `Needs More Info`
  * [3 days ago](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828271795) **Amatewasu** provided TypeScript compiler output showing a fatal heap out of memory error
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828937397) **Amatewasu** reported LLM-generated investigation findings including measurements and a minimal reproduction for a TypeScript 7.0.2 OOM issue
- * [later](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5870461095) **Amatewasu** provided an independent OOM reproduction using three/tsl method calls in TS 7.0.2
+ * [later](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5870461095) **Amatewasu** reported a second independent OOM trigger in TypeScript 7 when calling methods on three/tsl nodes and supplied a minimal reproduction with dependency versions and stack trace
 
 ### [Issue microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453) (Open)
 
@@ -83,7 +93,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64463#issuecomment-5865093315) **jakebailey** said "If you're using VS Code, we have pprof commands to take profiles, but in this case you actually would need to build from source and then use goref or something to find the leak."
  * [later](https://github.com/microsoft/TypeScript/issues/64463#issuecomment-5865101761) **jakebailey** said "Possibly https://github.com/microsoft/TypeScript/pull/64466 resolves this, though?"
 
-### [Issue microsoft/TypeScript#64474](https://github.com/microsoft/TypeScript/issues/64474) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript#64474](https://github.com/microsoft/TypeScript/issues/64474) (Closed, `Suggestion`, `Domain: Performance`, **ahejlsberg**)
 
 **checker builds member tables and intersection props it never uses**
 
@@ -93,7 +103,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/issues/64474#issuecomment-5852758422) **maschwenk** described the benchmarking methodology and results comparing main and PR commits, including hardware specifications, commands, scenarios, replication details, performance and memory improvements, and a gist link
  * **ahejlsberg** assigned to **ahejlsberg**
 
-### [PR microsoft/TypeScript#64481](https://github.com/microsoft/TypeScript/pull/64481) (Open, `Author: Team`, `For Backlog Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64481](https://github.com/microsoft/TypeScript/pull/64481) (Closed, `Author: Team`, `For Backlog Bug`, **ahejlsberg**)
 
 **Don't reduce intersections of mappings of the same object type**
 
@@ -118,15 +128,15 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64482#issuecomment-5857888374) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64483](https://github.com/microsoft/TypeScript/issues/64483) (Open)
+### [Issue microsoft/TypeScript#64483](https://github.com/microsoft/TypeScript/issues/64483) (Open, `Needs Investigation`, **andrewbranch**)
 
 **\`getChildren\(\)\` includes synthetic NodeObjects, that can't easily be discerned from RemoteNodes**
 
-*In TypeScript’s unstable API, getChildren() returns synthetic NodeObjects alongside RemoteNodes without distinguishing them, causing getNodeId errors.*
+*getChildren() now returns synthetic NodeObjects indistinguishable from RemoteNodes, causing getNodeId to error without a RemoteNode typeguard*
 
  * created by **Qjuh**
 
-### [Issue microsoft/TypeScript#64484](https://github.com/microsoft/TypeScript/issues/64484) (Open)
+### [Issue microsoft/TypeScript#64484](https://github.com/microsoft/TypeScript/issues/64484) (Closed)
 
 **Unused locals in class static block declarations are not reported**
 
@@ -134,7 +144,7 @@
 
  * created by **Andarist**
 
-### [PR microsoft/TypeScript#64485](https://github.com/microsoft/TypeScript/pull/64485) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64485](https://github.com/microsoft/TypeScript/pull/64485) (Closed, `For Uncommitted Bug`)
 
 **Report unused locals in class static blocks**
 
@@ -183,13 +193,15 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64489#issuecomment-5865394478) **WhitefistEmperor** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490) (Open)
+### [Issue microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490) (Open, `Unactionable`)
 
 **TypeScript 7\.0\.2 scanner does not advance on bare hash**
 
 *TypeScript 7.0.2 scanner gets stuck on a bare '#' and repeatedly returns the same token without advancing.*
 
  * created by **yum45f**
+ * [later](https://github.com/microsoft/TypeScript/issues/64490#issuecomment-5873676173) **RyanCavanaugh** said "Just calling scan in a loop isn't going to give you anything meaningful; this isn't how to use that function"
+ * **RyanCavanaugh** added label `Unactionable`
 
 ### [PR microsoft/TypeScript#64491](https://github.com/microsoft/TypeScript/pull/64491) (Open, `For Uncommitted Bug`)
 
@@ -202,7 +214,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64491#issuecomment-5865431338) **jakebailey** said "How does this fix a type explosion issue? Did you misquote the fixed issue?"
  * [later](https://github.com/microsoft/TypeScript/pull/64491#issuecomment-5866502732) **Andarist** said "@jakebailey the referenced issue is correct, I put more info to the PR description to explain why this resolves that issue"
 
-### [Issue microsoft/TypeScript#64492](https://github.com/microsoft/TypeScript/issues/64492) (Open)
+### [Issue microsoft/TypeScript#64492](https://github.com/microsoft/TypeScript/issues/64492) (Closed)
 
 **External directory from tsconfig \`files\` gets no watcher in LSP**
 
@@ -210,7 +222,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#64493](https://github.com/microsoft/TypeScript/pull/64493) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64493](https://github.com/microsoft/TypeScript/pull/64493) (Closed, `For Uncommitted Bug`)
 
 **Don't let \`append\` overwrite sibling results in \`tspath\.GetCommonParents\`**
 
@@ -219,7 +231,7 @@
  * created by **auvred**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64494](https://github.com/microsoft/TypeScript/issues/64494) (Open)
+### [Issue microsoft/TypeScript#64494](https://github.com/microsoft/TypeScript/issues/64494) (Open, `Bug`, **weswigham**)
 
 **Decorated class gets \`name === "\_a"\` when a \`\#private\` field initializer references the class \(regression in 7\.0\)**
 
@@ -235,7 +247,7 @@
 
  * created by **ahmedajiz629**
 
-### [Issue microsoft/TypeScript#64496](https://github.com/microsoft/TypeScript/issues/64496) (Open)
+### [Issue microsoft/TypeScript#64496](https://github.com/microsoft/TypeScript/issues/64496) (Open, `Suggestion`)
 
 **display the inferred return type**
 
@@ -244,6 +256,8 @@
  * created by **iuliust**
  * **vs-code-engineering[bot]** assigned to **dbaeumer**
  * **dbaeumer** unassigned **dbaeumer**
+ * **RyanCavanaugh** added label `Suggestion`
+ * [later](https://github.com/microsoft/TypeScript/issues/64496#issuecomment-5873618521) **RyanCavanaugh** said "I'm a little unclear on when this is useful, since if it's a function call, identifier, or property, you can hover on that and get an expression type, and literal types are fairly self-evident."
 
 ### [Issue microsoft/TypeScript#64497](https://github.com/microsoft/TypeScript/issues/64497) (Open)
 
@@ -261,7 +275,7 @@
 
  * created by **jelical**
 
-### [PR microsoft/TypeScript#64499](https://github.com/microsoft/TypeScript/pull/64499) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64499](https://github.com/microsoft/TypeScript/pull/64499) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
 
 **Only check properties with multiple declarations for never\-reduction**
 
@@ -270,5 +284,26 @@
  * created by **ahejlsberg**
  * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **ahejlsberg**
  * [later](https://github.com/microsoft/TypeScript/pull/64499#issuecomment-5873312085) **ahejlsberg** said "@typescript-bot test it"
- * [later](https://github.com/microsoft/TypeScript/pull/64499#issuecomment-5873314200) **typescript-automation[bot]** posted initial build status table with pending jobs
+ * [later](https://github.com/microsoft/TypeScript/pull/64499#issuecomment-5873314200) **typescript-automation[bot]** reported build job statuses for `test top400`, `user test this`, `run dt`, and `perf test this faster`
+
+### [PR microsoft/TypeScript#64500](https://github.com/microsoft/TypeScript/pull/64500) (Open, `For Uncommitted Bug`, **andrewbranch**)
+
+**Add support for setting emit flags and synthetic comments**
+
+*Enable configuring emit flags and injecting synthetic comments into the compiler’s output.*
+
+ * created by **dragomirtitian**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64500#issuecomment-5873403732) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * **typescript-automation[bot]** assigned to **andrewbranch**
+
+### [PR microsoft/TypeScript#64501](https://github.com/microsoft/TypeScript/pull/64501) (Open, `For Backlog Bug`)
+
+**Improve error when break/continue label is in the same function but not enclosing**
+
+*Modify the break/continue checker to report non-enclosing same-function labels instead of misreporting a crossed-function-boundary error.*
+
+ * created by **britsync07-prog**
+ * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64501#issuecomment-5873511947) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 

@@ -1,12 +1,11 @@
 # Report for 2026-09-24 (Thursday, September 24th, 2026)
 
-23 different users commented on 58 different issues.
+23 different users commented on 61 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @no-yan asked for feedback on the Store design in [microsoft/TypeScript#63807](https://github.com/microsoft/TypeScript/issues/63807#issuecomment-5826174145)
-    * @typescript-automation reported failing tests and requested review in [microsoft/TypeScript#64096](https://github.com/microsoft/TypeScript/pull/64096#issuecomment-5823200282)
     * @mhalikosen provided reproduction steps and variant test results in [microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405#issuecomment-5829231426)
     * @colinhacks provided repro steps and detailed explanation in [microsoft/TypeScript#64415](https://github.com/microsoft/TypeScript/issues/64415#issuecomment-5824032707)
     * @Amatewasu provided requested error logs in [microsoft/TypeScript#64423](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828271795)
@@ -141,7 +140,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63906#issuecomment-5819599254) **andrewbranch** said "Fixed in https://github.com/microsoft/TypeScript/pull/64083"
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64096](https://github.com/microsoft/TypeScript/pull/64096) (Open, `For Milestone Bug`, **DanielRosenwasser**)
+### [PR microsoft/TypeScript#64096](https://github.com/microsoft/TypeScript/pull/64096) (Closed, `For Milestone Bug`, **DanielRosenwasser**)
 
 **feat: add es2026 as a valid target and lib**
 
@@ -250,7 +249,7 @@
  * created by **AlexisDevMaster**
  * [today](https://github.com/microsoft/TypeScript/issues/64412#issuecomment-5826112137) **yksr-melt** identified the cause of a TypeError in getLocalModuleSpecifier due to an undefined base directory when imports resolution is enabled without paths or baseUrl, reproduced it in a unit test, and proposed a one-line fallback patch while asking if a PR against release-6.0 would be accepted
 
-### [PR microsoft/TypeScript#64413](https://github.com/microsoft/TypeScript/pull/64413) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64413](https://github.com/microsoft/TypeScript/pull/64413) (Closed, `For Backlog Bug`)
 
 **Defer constraint checks on inferred type arguments that mention an unresolved accessor**
 
@@ -261,7 +260,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64413#issuecomment-5804517605) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64415](https://github.com/microsoft/TypeScript/issues/64415) (Open, `Possible Improvement`)
+### [Issue microsoft/TypeScript#64415](https://github.com/microsoft/TypeScript/issues/64415) (Closed, `Possible Improvement`)
 
 **Constraint check resolves an un\-annotated accessor while its object literal is still being inferred**
 

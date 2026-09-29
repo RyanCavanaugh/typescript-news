@@ -1,6 +1,6 @@
 # Report for 2026-09-22 (Tuesday, September 22nd, 2026)
 
-19 different users commented on 59 different issues.
+19 different users commented on 60 different issues.
 
 ## Recommended Actions
 
@@ -8,8 +8,6 @@
     * @guillaume-mueller requested an option to disable rewriting ts extensions in [microsoft/TypeScript#61050](https://github.com/microsoft/TypeScript/issues/61050#issuecomment-5780504005)
     * @unrevised6419 provided repro steps and examples in [microsoft/TypeScript#63960](https://github.com/microsoft/TypeScript/issues/63960#issuecomment-5795427296)
     * @leonidaz provided verification results as requested in [microsoft/TypeScript#64351](https://github.com/microsoft/TypeScript/issues/64351#issuecomment-5779864254)
-    * @typescript-automation[bot] provided automated build comparison results and requested review in [microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5787027455)
-    * @typescript-automation[bot] provided requested perf run results in [microsoft/TypeScript#64388](https://github.com/microsoft/TypeScript/pull/64388#issuecomment-5780363579)
     * @lotexiu provided the actual code context as requested in [microsoft/TypeScript#64398](https://github.com/microsoft/TypeScript/issues/64398#issuecomment-5795007816)
     * @lotexiu asked how to properly prevent this type issue in [microsoft/TypeScript#64398](https://github.com/microsoft/TypeScript/issues/64398#issuecomment-5795490682)
     * @rexdotsh offered a fix and requested verification and milestone assignment before filing a PR in [microsoft/TypeScript#64405](https://github.com/microsoft/TypeScript/issues/64405#issuecomment-5793012334)
@@ -250,7 +248,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64372](https://github.com/microsoft/TypeScript/pull/64372) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**)
 
 **Restore idempotency to \`resolveObjectTypeMembers\`**
 
@@ -412,7 +410,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript#64394](https://github.com/microsoft/TypeScript/issues/64394) (Open, `API Request`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64394](https://github.com/microsoft/TypeScript/issues/64394) (Closed, `API Request`, **andrewbranch**)
 
 **\# \[API\] \`getJSDocCommentsAndTags\` is no longer exposed**
 

@@ -1,13 +1,12 @@
 # Report for 2026-09-26 (Saturday, September 26th, 2026)
 
-12 different users commented on 21 different issues.
+11 different users commented on 23 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @krutoo asked for documentation for the syntax in [microsoft/TypeScript#46135](https://github.com/microsoft/TypeScript/issues/46135#issuecomment-5855347964)
     * @nikelborm provided repro steps and repository in [microsoft/TypeScript#63819](https://github.com/microsoft/TypeScript/issues/63819#issuecomment-5851213246)
-    * @maschwenk provided reproduction steps and benchmark results in [microsoft/TypeScript#64474](https://github.com/microsoft/TypeScript/issues/64474#issuecomment-5852758422)
     * @im-alok74 asked if the team would consider a new access modifier, whether discussion should be consolidated on issue #5228, and if there's a design doc or precedent to follow in [microsoft/TypeScript#64478](https://github.com/microsoft/TypeScript/issues/64478#issuecomment-5856146747)
 
 ## Activity Summary
@@ -54,17 +53,6 @@
  * [20 weeks ago](https://github.com/microsoft/TypeScript/issues/63819#issuecomment-5351503368) **andrewbranch** said "N.B. the error occurs both in Corsa and in Strada. The fix looks behaviorally correct but I need to check performance impact."
  * [today](https://github.com/microsoft/TypeScript/issues/63819#issuecomment-5851213246) **nikelborm** described facing the same TS2367 error when using symlinked directories and provided a reproduction repository with steps
 
-### [PR microsoft/TypeScript#64451](https://github.com/microsoft/TypeScript/pull/64451) (Open, `For Uncommitted Bug`)
-
-**ES\-conformant symbol typing**
-
-*Add ES-standard symbol typing support in TypeScript by introducing a RegisteredSymbol intrinsic, deferred registry keys, and preserved unique symbol types.*
-
- * [yesterday](https://github.com/microsoft/TypeScript/pull/64451#issuecomment-5838892634) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [yesterday](https://github.com/microsoft/TypeScript/pull/64451#issuecomment-5839205369) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #27524. If you can get it accepted, this PR will have a better chance of being reviewed."
- * [today](https://github.com/microsoft/TypeScript/pull/64451#issuecomment-5847992822) **microsoft-github-policy-service[bot]** requested CLA agreement from @michaelfig and instructed to reply with specific command
-
 ### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Open, `For Uncommitted Bug`)
 
 **Fix language server retaining pre\-edit program and its checkers after program clone**
@@ -76,7 +64,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64466#issuecomment-5846290311) **ghost2023** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript/pull/64466#issuecomment-5850307599) **jakebailey** said "I think there's actually another one of these in ReuseProgram via processedFiles."
 
-### [PR microsoft/TypeScript#64470](https://github.com/microsoft/TypeScript/pull/64470) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64470](https://github.com/microsoft/TypeScript/pull/64470) (Closed, `For Uncommitted Bug`)
 
 **Fixed a crash on JSX emit trying to emit unexpectedly recovered \`BinaryExpression\` in a JSX attribute**
 
@@ -86,7 +74,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64470#issuecomment-5848348825) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#64471](https://github.com/microsoft/TypeScript/pull/64471) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64471](https://github.com/microsoft/TypeScript/pull/64471) (Closed, `For Uncommitted Bug`)
 
 **Fix crash in \`isolatedDeclarations\` on \`this\.x = …\` assignments**
 
@@ -116,7 +104,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64473#issuecomment-5851202123) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64474](https://github.com/microsoft/TypeScript/issues/64474) (Open, **ahejlsberg**)
+### [Issue microsoft/TypeScript#64474](https://github.com/microsoft/TypeScript/issues/64474) (Closed, `Suggestion`, `Domain: Performance`, **ahejlsberg**)
 
 **checker builds member tables and intersection props it never uses**
 
@@ -125,16 +113,16 @@
  * created by **maschwenk**
  * [today](https://github.com/microsoft/TypeScript/issues/64474#issuecomment-5852758422) **maschwenk** described the benchmarking methodology and results comparing main and PR commits, including hardware specifications, commands, scenarios, replication details, performance and memory improvements, and a gist link
 
-### [PR microsoft/TypeScript#64475](https://github.com/microsoft/TypeScript/pull/64475) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64475](https://github.com/microsoft/TypeScript/pull/64475) (Open, `For Uncommitted Bug`, **ahejlsberg**)
 
 **build member tables of instantiated classes/interfaces lazily**
 
-*Introduce lazy member table construction for instantiated classes and interfaces so only accessed members get instantiated and reused.*
+*Build member tables for instantiated classes and interfaces lazily, instantiating only accessed members and reusing existing symbols.*
 
  * created by **maschwenk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64476](https://github.com/microsoft/TypeScript/pull/64476) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64476](https://github.com/microsoft/TypeScript/pull/64476) (Closed, `For Milestone Bug`, **ahejlsberg**)
 
 **only build intersection props that can reduce it to never**
 
@@ -184,7 +172,7 @@
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64480#issuecomment-5856112934) **im-alok74** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64481](https://github.com/microsoft/TypeScript/pull/64481) (Open, `Author: Team`, `For Backlog Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64481](https://github.com/microsoft/TypeScript/pull/64481) (Closed, `Author: Team`, `For Backlog Bug`, **ahejlsberg**)
 
 **Don't reduce intersections of mappings of the same object type**
 

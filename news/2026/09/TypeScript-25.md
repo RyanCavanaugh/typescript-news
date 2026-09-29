@@ -1,6 +1,6 @@
 # Report for 2026-09-25 (Friday, September 25th, 2026)
 
-20 different users commented on 48 different issues.
+19 different users commented on 49 different issues.
 
 ## Recommended Actions
 
@@ -31,9 +31,6 @@
     * @typescript-automation[bot] provided error report and repro steps in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841269708)
     * @typescript-automation[bot] reported server connection closed prematurely error in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270070)
     * @typescript-automation[bot] reported panic in JSX transformer due to KindBinaryExpression in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270413)
-    * @typescript-automation posted performance run results as requested in [microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461#issuecomment-5842673907)
-    * @typescript-automation[bot] asked to check the log for DT test run failure in [microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461#issuecomment-5842766246)
-    * @typescript-automation[bot] reported build failures and requested review in [microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461#issuecomment-5842957733)
 
 ## Activity Summary
 
@@ -352,16 +349,16 @@
 
  * created by **trevorade**
 
-### [PR microsoft/TypeScript#64454](https://github.com/microsoft/TypeScript/pull/64454) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64454](https://github.com/microsoft/TypeScript/pull/64454) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Replace vscode l10n\-dev with local localization generator**
 
-*Replace the large @vscode/l10n-dev dependency with existing repository tools for string extraction and pseudo-localization*
+*Replace @vscode/l10n-dev with lighter in-repo tooling for string extraction and pseudo-localization, removing 85 dependencies and an npm warning*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#64455](https://github.com/microsoft/TypeScript/pull/64455) (Open, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64455](https://github.com/microsoft/TypeScript/pull/64455) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **Add getJSDocCommentsAndTags back with functionality of 6\.0**
 
@@ -440,8 +437,6 @@
 
  * created by **maricastroc**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/64460#issuecomment-5842174343) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the Contributor License Agreement by replying with a specific command
- * [today](https://github.com/microsoft/TypeScript/pull/64460#issuecomment-5842174401) **microsoft-github-policy-service[bot]** prompted the contributor to agree to the Contributor License Agreement by replying with a specific command
 
 ### [PR microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
@@ -474,7 +469,7 @@
 
  * created by **talkstream**
 
-### [Issue microsoft/TypeScript#64464](https://github.com/microsoft/TypeScript/issues/64464) (Open)
+### [Issue microsoft/TypeScript#64464](https://github.com/microsoft/TypeScript/issues/64464) (Open, `Needs Investigation`, **johnfav03**)
 
 **First incremental rebuild after a clean build is up to 75× slower than a full check**
 
@@ -512,7 +507,7 @@
 
 **Prevent getTypeAtLocation crash on type\-only import clause**
 
-*Return errorType for type-only import clauses without default bindings in getTypeAtLocation to prevent nil pointer dereferences.*
+*TypeScript's getTypeAtLocation crashes on type-only import clauses without default bindings due to missing symbol guard.*
 
  * created by **lsh4711**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
