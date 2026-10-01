@@ -1,36 +1,12 @@
 # Report for 2026-09-25 (Friday, September 25th, 2026)
 
-19 different users commented on 49 different issues.
+19 different users commented on 50 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @resure provided repro steps and benchmark results in [microsoft/TypeScript#63830](https://github.com/microsoft/TypeScript/issues/63830#issuecomment-5845592914)
     * @adilalperenciftci asked for feedback on the revised getUnionSignatures arity expansion in [microsoft/TypeScript#64360](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-5843031820)
-    * @typescript-automation[bot] reported a server panic during textDocument/diagnostic in [microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840616053)
-    * @typescript-automation[bot] provided repro steps and error report in [microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840616939)
-    * @typescript-automation[bot] reported a server connection error during analysis in [microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840617420)
-    * @typescript-automation[bot] reported a server connection closed prematurely error for parcel-bundler/parcel in [microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840617867)
-    * @typescript-automation[bot] reported a panic in textDocument/diagnostic logs in [microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840618913)
-    * @typescript-automation[bot] posted an error stack trace in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841264031)
-    * @typescript-automation[bot] reported a panic in textDocument/diagnostic in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841264366)
-    * @typescript-automation[bot] reported a panic in textDocument/diagnostic that needs investigation in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841264706)
-    * @typescript-automation[bot] reported a panic in textDocument/diagnostic due to unhandled ast.KeywordExpression in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841265072)
-    * @typescript-automation[bot] reported a panic crash in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841265407)
-    * @typescript-automation[bot] reported a runtime panic stack trace in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841265724)
-    * @typescript-automation[bot] reported a panic stack trace in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841266065)
-    * @typescript-automation[bot] reported a debug failure panic in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841266398)
-    * @typescript-automation posted panic report for textDocument/diagnostic in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841266768)
-    * @typescript-automation reported a panic stack trace during type checking in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841267073)
-    * @typescript-automation[bot] reported a panic in textDocument/diagnostic in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841267766)
-    * @typescript-automation[bot] reported a panic in JSX transformer in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841268082)
-    * @typescript-automation[bot] reported panic logs for textDocument/diagnostic on transloadit/uppy in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841268409)
-    * @typescript-automation[bot] reported a server connection closed prematurely error in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841268718)
-    * @typescript-automation[bot] reported a server connection closed prematurely error in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841268998)
-    * @typescript-automation[bot] provided repro steps in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841269376)
-    * @typescript-automation[bot] provided error report and repro steps in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841269708)
-    * @typescript-automation[bot] reported server connection closed prematurely error in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270070)
-    * @typescript-automation[bot] reported panic in JSX transformer due to KindBinaryExpression in [microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270413)
 
 ## Activity Summary
 
@@ -123,7 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64405#issuecomment-5829231426) **mhalikosen** described a recursive JSON type mapping failure in Hono v7.1.0-dev.20260924.1 compared to v6.0.3 and supplied a minimal TypeScript repro
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64421](https://github.com/microsoft/TypeScript/issues/64421) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64421](https://github.com/microsoft/TypeScript/issues/64421) (Closed, `Bug`, **weswigham**)
 
 **panic: unexpected Expression: KindArrayBindingPattern \[recovered, repanicked\]**
 
@@ -132,7 +108,7 @@
  * created by **YuanchengJiang**
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript#64422](https://github.com/microsoft/TypeScript/pull/64422) (Open, `For Milestone Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64422](https://github.com/microsoft/TypeScript/pull/64422) (Closed, `For Milestone Bug`, **weswigham**)
 
 **fix\(64421\): convert nested rest bindings to assignment targets**
 
@@ -151,7 +127,7 @@
  * created by **Generalsimus**
  * **RyanCavanaugh** assigned to **johnfav03**
 
-### [Issue microsoft/TypeScript#64425](https://github.com/microsoft/TypeScript/issues/64425) (Open, **johnfav03**)
+### [Issue microsoft/TypeScript#64425](https://github.com/microsoft/TypeScript/issues/64425) (Closed, **johnfav03**)
 
 **\`tsc \-\-watch\` doesn't pick up changes when the project is in a shallow folder like \`/app\`**
 
@@ -178,7 +154,7 @@
  * created by **DanielRosenwasser**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**, **johnfav03**)
+### [PR microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**, **johnfav03**)
 
 **Fixes for recursive declarations, elided placeholders, cycles**
 
@@ -190,7 +166,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5836809889) **jakebailey** said "Thanks for the info. I guess more stuff to figure out."
  * [today](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5839341604) **jakebailey** noted that after talking with @ahejlsberg he submitted #64452 instead and said he would split out other parts of the big PR
 
-### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Closed, `Bug`, `Help Wanted`)
 
 **empty mappings in \.d\.ts\.map for export default of a non\-identifier expression**
 
@@ -199,7 +175,7 @@
  * created by **dragomirtitian**
  * (today) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Closed, `Bug`, **weswigham**)
 
 **Declaration emit: expando alias assignment \(\`F\.x = someIdentifier\`\) un\-exports the other expando members in the generated namespace**
 
@@ -220,7 +196,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64436#issuecomment-5839843954) **trevorade** said "Thanks Ryan. We added a workaround in tsickle for this case."
  * (today) **trevorade** closed the issue
 
-### [Issue microsoft/TypeScript#64437](https://github.com/microsoft/TypeScript/issues/64437) (Open)
+### [Issue microsoft/TypeScript#64437](https://github.com/microsoft/TypeScript/issues/64437) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **\`keyof\` over computed property keys yields widening literal types, unlike the same object with literal keys**
 
@@ -271,7 +247,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64447](https://github.com/microsoft/TypeScript/pull/64447) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64447](https://github.com/microsoft/TypeScript/pull/64447) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Improve callback FS**
 
@@ -311,7 +287,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64449#issuecomment-5840801683) **joac** said "This was already fixed on https://github.com/microsoft/TypeScript/pull/64404"
  * (today) **joac** closed the issue
 
-### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Open)
+### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Open, `Needs Investigation`, **johnfav03**)
 
 **createWatchProgram\(\)\.close\(\) does not cancel the pending program update timer**
 
@@ -341,7 +317,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64452#issuecomment-5840569784) **jakebailey** said "I have the cleanup prepared; sorry, didn't intend for you to look at it quite yet."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453) (Open)
+### [Issue microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453) (Open, `Needs Investigation`, **weswigham**)
 
 **\`EFNoLeadingComments\` suppresses synthesized leading comments in tsgo; Strada only suppresses source comments**
 
@@ -369,7 +345,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64455#issuecomment-5840244978) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * **typescript-automation[bot]** assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456) (Open)
+### [Issue microsoft/TypeScript#64456](https://github.com/microsoft/TypeScript/issues/64456) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[JavaScript\] main vs **
 
@@ -393,7 +369,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458) (Open)
+### [Issue microsoft/TypeScript#64458](https://github.com/microsoft/TypeScript/issues/64458) (Open, `Needs Investigation`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -421,7 +397,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270070) **typescript-automation[bot]** reported a 'Server connection closed prematurely: undefined' error for openclaw/openclaw
  * [today](https://github.com/microsoft/TypeScript/issues/64458#issuecomment-5841270413) **typescript-automation[bot]** reported a panic in JSX transformer due to unhandled node kind KindBinaryExpression and included a stack trace
 
-### [Issue microsoft/TypeScript#64459](https://github.com/microsoft/TypeScript/issues/64459) (Open)
+### [Issue microsoft/TypeScript#64459](https://github.com/microsoft/TypeScript/issues/64459) (Open, `Suggestion`)
 
 **Publish \`fswatch\` Go package**
 
@@ -429,7 +405,7 @@
 
  * created by **emersion**
 
-### [PR microsoft/TypeScript#64460](https://github.com/microsoft/TypeScript/pull/64460) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64460](https://github.com/microsoft/TypeScript/pull/64460) (Closed, `For Backlog Bug`)
 
 **Fix declaration maps for export assignment expressions**
 
@@ -438,7 +414,7 @@
  * created by **maricastroc**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64461](https://github.com/microsoft/TypeScript/pull/64461) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Report cyclic structures and truncation during declaration emit**
 
@@ -477,7 +453,7 @@
 
  * created by **resure**
 
-### [Issue microsoft/TypeScript#64465](https://github.com/microsoft/TypeScript/issues/64465) (Open)
+### [Issue microsoft/TypeScript#64465](https://github.com/microsoft/TypeScript/issues/64465) (Closed)
 
 **Language server retains the pre\-edit program and its checkers for the rest of the session after the first edit**
 
@@ -485,7 +461,7 @@
 
  * created by **ghost2023**
 
-### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Closed, `For Uncommitted Bug`)
 
 **Fix language server retaining pre\-edit program and its checkers after program clone**
 
@@ -495,7 +471,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64466#issuecomment-5846290311) **ghost2023** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64467](https://github.com/microsoft/TypeScript/issues/64467) (Open)
+### [Issue microsoft/TypeScript#64467](https://github.com/microsoft/TypeScript/issues/64467) (Closed, `Bug`, **andrewbranch**)
 
 **getTypeAtLocation crashes on the ImportClause of a type\-only import**
 
@@ -503,7 +479,7 @@
 
  * created by **lsh4711**
 
-### [PR microsoft/TypeScript#64468](https://github.com/microsoft/TypeScript/pull/64468) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64468](https://github.com/microsoft/TypeScript/pull/64468) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **Prevent getTypeAtLocation crash on type\-only import clause**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-24 (Thursday, September 24th, 2026)
 
-23 different users commented on 61 different issues.
+23 different users commented on 62 different issues.
 
 ## Recommended Actions
 
@@ -10,15 +10,6 @@
     * @colinhacks provided repro steps and detailed explanation in [microsoft/TypeScript#64415](https://github.com/microsoft/TypeScript/issues/64415#issuecomment-5824032707)
     * @Amatewasu provided requested error logs in [microsoft/TypeScript#64423](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828271795)
     * @Amatewasu provided repro steps and detailed investigation findings in [microsoft/TypeScript#64423](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828937397)
-    * @typescript-automation[bot] reported an access denied error for the run dt job in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5822648561)
-    * @typescript-automation[bot] asked to review build results and investigate failures in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5823485789)
-    * @typescript-automation[bot] asked to check the DT test run log for failure details in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5827364888)
-    * @typescript-automation[bot] requested review of test result changes in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5827456449)
-    * @typescript-automation[bot] reported a failed test run and asked to check the logs in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5827557632)
-    * @typescript-automation[bot] requested review of tsc comparison results in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5827995661)
-    * @typescript-automation posted build comparison results between main and PR in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5829950122)
-    * @typescript-automation[bot] reported build errors in hardhat project in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5829950675)
-    * @typescript-automation[bot] reported build failures and error details for teableio/teable in [microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5829951254)
     * @sh011 asked to be assigned the issue in [microsoft/TypeScript#64438](https://github.com/microsoft/TypeScript/issues/64438#issuecomment-5826551653)
     * @typescript-automation[bot] provided perf run results as requested in [microsoft/TypeScript#64442](https://github.com/microsoft/TypeScript/pull/64442#issuecomment-5824628416)
     * @typescript-automation[bot] reported test failures requiring investigation in [microsoft/TypeScript#64442](https://github.com/microsoft/TypeScript/pull/64442#issuecomment-5824693554)
@@ -240,7 +231,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64409#issuecomment-5818725139) **weswigham** said "Alright, we can just leave it as-is, not like it saves any real amount time to make a basic copy option incremental anyway."
  * (today) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript#64412](https://github.com/microsoft/TypeScript/issues/64412) (Open)
+### [Issue microsoft/TypeScript#64412](https://github.com/microsoft/TypeScript/issues/64412) (Closed, `Won't Fix`)
 
 **Crash in getLocalModuleSpecifier when formatting a type: normalizeSlashes receives undefined \(regression in 6\.0\)**
 
@@ -316,7 +307,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828271795) **Amatewasu** provided TypeScript compiler output showing a fatal heap out of memory error
  * [later](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828937397) **Amatewasu** reported LLM-generated investigation findings including measurements and a minimal reproduction for a TypeScript 7.0.2 OOM issue
 
-### [PR microsoft/TypeScript#64426](https://github.com/microsoft/TypeScript/pull/64426) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64426](https://github.com/microsoft/TypeScript/pull/64426) (Open, `For Backlog Bug`)
 
 **Type a recursive call\-initialized object literal property lazily**
 
@@ -372,7 +363,7 @@
  * created by **trevorade**
  * (today) **RyanCavanaugh** added label `Bug`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**, **johnfav03**)
+### [PR microsoft/TypeScript#64432](https://github.com/microsoft/TypeScript/pull/64432) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**, **johnfav03**)
 
 **Fixes for recursive declarations, elided placeholders, cycles**
 
@@ -400,7 +391,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5829950675) **typescript-automation[bot]** reported build errors from running the top 1000 repos suite for NomicFoundation/hardhat
  * [later](https://github.com/microsoft/TypeScript/pull/64432#issuecomment-5829951254) **typescript-automation[bot]** reported that 144 of 147 projects failed to build with the old tsc and highlighted a cyclic type inference error in teableio/teable
 
-### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Closed, `Bug`, `Help Wanted`)
 
 **empty mappings in \.d\.ts\.map for export default of a non\-identifier expression**
 
@@ -421,7 +412,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64434#issuecomment-5823240240) **andrewbranch** described that binder symbol follow-up creates a confusing bifurcation because untracked throwaway SourceFiles cannot fetch or assign binder symbols using server identity methods
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Closed, `Bug`, **weswigham**)
 
 **Declaration emit: expando alias assignment \(\`F\.x = someIdentifier\`\) un\-exports the other expando members in the generated namespace**
 
@@ -439,7 +430,7 @@
  * **RyanCavanaugh** added label `Not a Defect`
  * [today](https://github.com/microsoft/TypeScript/issues/64436#issuecomment-5823701251) **RyanCavanaugh** clarified that comment emit is best effort and suggested tooling read the upstream source to determine comment applicability
 
-### [Issue microsoft/TypeScript#64437](https://github.com/microsoft/TypeScript/issues/64437) (Open)
+### [Issue microsoft/TypeScript#64437](https://github.com/microsoft/TypeScript/issues/64437) (Open, `Needs Investigation`, **ahejlsberg**)
 
 **\`keyof\` over computed property keys yields widening literal types, unlike the same object with literal keys**
 

@@ -1,6 +1,6 @@
 # Report for 2026-09-26 (Saturday, September 26th, 2026)
 
-11 different users commented on 23 different issues.
+11 different users commented on 24 different issues.
 
 ## Recommended Actions
 
@@ -53,7 +53,7 @@
  * [20 weeks ago](https://github.com/microsoft/TypeScript/issues/63819#issuecomment-5351503368) **andrewbranch** said "N.B. the error occurs both in Corsa and in Strada. The fix looks behaviorally correct but I need to check performance impact."
  * [today](https://github.com/microsoft/TypeScript/issues/63819#issuecomment-5851213246) **nikelborm** described facing the same TS2367 error when using symlinked directories and provided a reproduction repository with steps
 
-### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Closed, `For Uncommitted Bug`)
 
 **Fix language server retaining pre\-edit program and its checkers after program clone**
 
@@ -117,7 +117,7 @@
 
 **build member tables of instantiated classes/interfaces lazily**
 
-*Build member tables for instantiated classes and interfaces lazily, instantiating only accessed members and reusing existing symbols.*
+*Implement lazy construction of class and interface member tables to avoid unneeded instantiations and improve performance and memory usage.*
 
  * created by **maschwenk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -131,7 +131,7 @@
  * created by **maschwenk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64477](https://github.com/microsoft/TypeScript/issues/64477) (Open)
+### [Issue microsoft/TypeScript#64477](https://github.com/microsoft/TypeScript/issues/64477) (Open, `Bug`, **iisaduan**)
 
 **TS6059 error count flakes between runs unless \-\-singleThreaded**
 
@@ -139,7 +139,7 @@
 
  * created by **maschwenk**
 
-### [Issue microsoft/TypeScript#64478](https://github.com/microsoft/TypeScript/issues/64478) (Open)
+### [Issue microsoft/TypeScript#64478](https://github.com/microsoft/TypeScript/issues/64478) (Open, `Suggestion`)
 
 **An \`internal\` property modifier as an alternative to \`protected\`**
 
@@ -152,7 +152,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64478#issuecomment-5856738197) **MartinJohns** apologized for the mistake and noted the issue was a duplicate of #37487
  * [later](https://github.com/microsoft/TypeScript/issues/64478#issuecomment-5857413979) **denis-migdal** explained that their suggestion provides a public-facing property that is inaccessible externally but writable internally to serve as an internal interface for helper functions, offering more flexibility and type safety than protected
 
-### [PR microsoft/TypeScript#64479](https://github.com/microsoft/TypeScript/pull/64479) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64479](https://github.com/microsoft/TypeScript/pull/64479) (Closed, `For Uncommitted Bug`)
 
 **Fix flaky diagnostic added by declaration emit for untyped module imports**
 

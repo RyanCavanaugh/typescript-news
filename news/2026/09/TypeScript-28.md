@@ -1,6 +1,6 @@
 # Report for 2026-09-28 (Monday, September 28th, 2026)
 
-29 different users commented on 79 different issues.
+29 different users commented on 84 different issues.
 
 ## Recommended Actions
 
@@ -8,7 +8,6 @@
     * @tbknl proposed a generic signature for MapConstructor::new and asked for acknowledgement of its plausibility in [microsoft/TypeScript#33611](https://github.com/microsoft/TypeScript/issues/33611#issuecomment-5888769796)
     * @z0rimo asked for another review in [microsoft/TypeScript#64257](https://github.com/microsoft/TypeScript/pull/64257#issuecomment-5883585069)
     * @Emut asked about whether a 7.0.3 release will be available or if they should wait for 7.1.0 in [microsoft/TypeScript#64262](https://github.com/microsoft/TypeScript/issues/64262#issuecomment-5891481987)
-    * @colinhacks reported that z.lazy() still returns any in 7.1.0-dev.20260929.1 and that PR #64426 fixes it in [microsoft/TypeScript#64420](https://github.com/microsoft/TypeScript/issues/64420#issuecomment-5892958219)
     * @vladyslav005 asked if they could contribute to the project in [microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433#issuecomment-5878304962)
     * @Fugu0141 asked whether to close in favor of #64525 or explore a broader approach in [microsoft/TypeScript#64502](https://github.com/microsoft/TypeScript/pull/64502#issuecomment-5887759684)
     * @hkleungai noted that the PR might resolve issue #63523 in [microsoft/TypeScript#64527](https://github.com/microsoft/TypeScript/pull/64527#issuecomment-5891462911)
@@ -104,7 +103,7 @@
 
 **Fix non\-null discriminant narrowing consistency**
 
-*Ensure discriminant narrowing consistently preserves nullable constituents for both small and large unions under strictNullChecks.*
+*Fix discriminant narrowing inconsistency between small and large nullable unions by retaining null and undefined constituents in optimized paths.*
 
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [2 weeks ago](https://github.com/microsoft/TypeScript/pull/64257#issuecomment-5657958944) **z0rimo** agreed with microsoft-github-policy-service
@@ -186,14 +185,14 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64419#issuecomment-5823308975) **DanielRosenwasser** said "@copilot you need a realistic test case that is not just a unit test"
  * [today](https://github.com/microsoft/TypeScript/pull/64419#issuecomment-5876778666) **Copilot** replaced the synthetic resolver test with a compiler test using normal package.json exports resolution and removed the cache-injection unit test
 
-### [Issue microsoft/TypeScript#64420](https://github.com/microsoft/TypeScript/issues/64420) (Open)
+### [Issue microsoft/TypeScript#64420](https://github.com/microsoft/TypeScript/issues/64420) (Open, `Possible Improvement`)
 
 **Recursive schema through a call\-wrapped callback property \(\`lazy\(\(\) =\> Self\)\`\) still infers \`any\` after \#64311**
 
 *Wrapping a recursive schema callback in lazy(() => Self) still triggers implicit any inference, breaking Zod-style recursion despite #64311.*
 
  * created by **ethndotsh**
- * [later](https://github.com/microsoft/TypeScript/issues/64420#issuecomment-5892958219) **colinhacks** reported that z.lazy() still returned any in version 7.1.0-dev.20260929.1 and noted that PR #64426 fixed it for the published zod package
+ * [later](https://github.com/microsoft/TypeScript/issues/64420#issuecomment-5892958219) **colinhacks** noted that z.lazy supports recursive schemas, described the callback-style API pattern for recursion, and mentioned that PR #64426 fixes it in the published zod package
 
 ### [Issue microsoft/TypeScript#64430](https://github.com/microsoft/TypeScript/issues/64430) (Open, `Needs Investigation`)
 
@@ -205,7 +204,7 @@
  * (3 days ago) **RyanCavanaugh** added label `Needs Investigation`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/64430#issuecomment-5884674395) **yksr-melt** explained that export inside declare global isn't an error and described two cases where it matters
 
-### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Open, `Bug`, `Help Wanted`)
+### [Issue microsoft/TypeScript#64433](https://github.com/microsoft/TypeScript/issues/64433) (Closed, `Bug`, `Help Wanted`)
 
 **empty mappings in \.d\.ts\.map for export default of a non\-identifier expression**
 
@@ -214,7 +213,7 @@
  * (3 days ago) **RyanCavanaugh** added labels `Bug`, `Help Wanted`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/64433#issuecomment-5878304962) **vladyslav005** said "hello, i would like to contribute to this, if it's available"
 
-### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64435](https://github.com/microsoft/TypeScript/issues/64435) (Closed, `Bug`, **weswigham**)
 
 **Declaration emit: expando alias assignment \(\`F\.x = someIdentifier\`\) un\-exports the other expando members in the generated namespace**
 
@@ -254,7 +253,7 @@
  * **typescript-automation[bot]** assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64460](https://github.com/microsoft/TypeScript/pull/64460) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64460](https://github.com/microsoft/TypeScript/pull/64460) (Closed, `For Backlog Bug`)
 
 **Fix declaration maps for export assignment expressions**
 
@@ -284,7 +283,7 @@
  * created by **resure**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64466](https://github.com/microsoft/TypeScript/pull/64466) (Closed, `For Uncommitted Bug`)
 
 **Fix language server retaining pre\-edit program and its checkers after program clone**
 
@@ -337,7 +336,7 @@
 
 **build member tables of instantiated classes/interfaces lazily**
 
-*Build member tables for instantiated classes and interfaces lazily, instantiating only accessed members and reusing existing symbols.*
+*Implement lazy construction of class and interface member tables to avoid unneeded instantiations and improve performance and memory usage.*
 
  * created by **maschwenk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -496,7 +495,7 @@
 
 **fix\(64494\): fix decorated class names with private member self\-references**
 
-*Ensure decorated class names correctly handle self-references to private class members.*
+*Corrects decorated class naming to properly preserve private member self-references*
 
  * created by **a-tarasyuk**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
@@ -576,7 +575,7 @@
  * (today) **Copilot** assigned to **Copilot**, **DanielRosenwasser**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64513](https://github.com/microsoft/TypeScript/pull/64513) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64513](https://github.com/microsoft/TypeScript/pull/64513) (Closed, `For Uncommitted Bug`)
 
 **Don't let parallel per\-file workers reuse their request's checker**
 
@@ -615,7 +614,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64518](https://github.com/microsoft/TypeScript/pull/64518) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64518](https://github.com/microsoft/TypeScript/pull/64518) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Make binder\-produced symbols owned by SourceFiles in the client, like the server and 6\.0**
 
@@ -624,7 +623,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64519](https://github.com/microsoft/TypeScript/pull/64519) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64519](https://github.com/microsoft/TypeScript/pull/64519) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Better manage Program options lifetimes**
 
@@ -633,7 +632,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64520](https://github.com/microsoft/TypeScript/issues/64520) (Open)
+### [Issue microsoft/TypeScript#64520](https://github.com/microsoft/TypeScript/issues/64520) (Closed, `Bug`)
 
 **TS2565 false positive in JS for a class field initialized in the base class**
 
@@ -653,7 +652,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64521#issuecomment-5892140205) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript#64522](https://github.com/microsoft/TypeScript/pull/64522) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64522](https://github.com/microsoft/TypeScript/pull/64522) (Closed, `For Uncommitted Bug`)
 
 **Fix moduleResolution \-\> customConditions test to actually apply both conditions**
 
@@ -663,7 +662,7 @@
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64522#issuecomment-5886317751) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#64523](https://github.com/microsoft/TypeScript/pull/64523) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64523](https://github.com/microsoft/TypeScript/pull/64523) (Closed, `For Backlog Bug`)
 
 **Fix regression reporting TS2565 for inherited class fields reassigned in JS**
 
@@ -672,7 +671,7 @@
  * created by **Andarist**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64524](https://github.com/microsoft/TypeScript/issues/64524) (Open)
+### [Issue microsoft/TypeScript#64524](https://github.com/microsoft/TypeScript/issues/64524) (Open, `Bug`, **gabritto**)
 
 **JSDoc \`@override\` on an \`@overload\` signature is ignored under \`noImplicitOverride\` \(TS4119\)**
 
@@ -680,7 +679,7 @@
 
  * created by **jwbth**
 
-### [PR microsoft/TypeScript#64525](https://github.com/microsoft/TypeScript/pull/64525) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64525](https://github.com/microsoft/TypeScript/pull/64525) (Closed, `For Backlog Bug`)
 
 **Avoid contextually typing static properties by their own class to prevent spurious circularities**
 
@@ -704,7 +703,7 @@
 
 **Fix checkJs behavior for \.mjs and \.cjs files next to declarations**
 
-*Include .mjs and .cjs files next to .d.mts/.d.cts declarations in checkJs type checking by extending legacy priority rules.*
+*Remove legacy wildcard exception to ensure wildcard include consistently prefers declaration files over .js, .mjs, and .cjs implementations.*
 
  * created by **hardikkaurani**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -717,13 +716,13 @@
 
 **Skip combined\-constraint check while measuring variances to avoid unbounded chase**
 
-*Skipping combined-constraint checks during variance measurement prevents unbounded type comparisons that exhaust memory in TypeScript 7.*
+*Skip combined-constraint checks during variance measurement to prevent infinite type chase and memory exhaustion in TypeScript 7.*
 
  * created by **Amatewasu**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64528#issuecomment-5892189219) **Amatewasu** verified the fix against a private React 19+R3F+TSX project, reported memory and time benchmarks for unpatched TS7, patched TS7, and TS6, and noted diagnostics parity and caveats
 
-### [Issue microsoft/TypeScript#64529](https://github.com/microsoft/TypeScript/issues/64529) (Open)
+### [Issue microsoft/TypeScript#64529](https://github.com/microsoft/TypeScript/issues/64529) (Closed, `Needs Investigation`, **ahejlsberg**)
 
 **Type parameter escapes its constraint in a recursive call resolution**
 
@@ -731,7 +730,7 @@
 
  * created by **colinhacks**
 
-### [PR microsoft/TypeScript#64530](https://github.com/microsoft/TypeScript/pull/64530) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64530](https://github.com/microsoft/TypeScript/pull/64530) (Closed, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Keep a pure return type inference filtered by its constraint in a recursive call resolution**
 
@@ -741,19 +740,19 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64530#issuecomment-5892953821) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64531](https://github.com/microsoft/TypeScript/issues/64531) (Open)
+### [Issue microsoft/TypeScript#64531](https://github.com/microsoft/TypeScript/issues/64531) (Open, `Possible Improvement`)
 
-**Recursive object literal with a spread still infers any after \#64311**
+**Support spread in recursive object inference**
 
-*Spreading a base schema into a recursive object literal causes TypeScript to infer any instead of the expected recursive schema type.*
+*TypeScript does not correctly infer recursive object schema types when a base shape is spread, resulting in any types instead of the intended schema.*
 
  * created by **colinhacks**
 
-### [Issue microsoft/TypeScript#64532](https://github.com/microsoft/TypeScript/issues/64532) (Open)
+### [Issue microsoft/TypeScript#64532](https://github.com/microsoft/TypeScript/issues/64532) (Open, `Needs Investigation`, **andrewbranch**)
 
 **\[API\] \`getImmediateAliasedSymbol\` returns a different symbol than classic \`tsc\`**
 
-*TypeScript 7’s getImmediateAliasedSymbol returns a cloned symbol for namespace imports from modules with default exports, unlike TS6.*
+*getImmediateAliasedSymbol for namespace imports in TypeScript 7 returns a cloned symbol instead of the original file symbol when a module has a default export.*
 
  * created by **dragomirtitian**
 

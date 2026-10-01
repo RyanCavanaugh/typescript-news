@@ -1,6 +1,6 @@
 # Report for 2026-09-27 (Sunday, September 27th, 2026)
 
-22 different users commented on 36 different issues.
+22 different users commented on 37 different issues.
 
 ## Recommended Actions
 
@@ -56,7 +56,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5828937397) **Amatewasu** reported LLM-generated investigation findings including measurements and a minimal reproduction for a TypeScript 7.0.2 OOM issue
  * [later](https://github.com/microsoft/TypeScript/issues/64423#issuecomment-5870461095) **Amatewasu** reported a second independent OOM trigger in TypeScript 7 when calling methods on three/tsl nodes and supplied a minimal reproduction with dependency versions and stack trace
 
-### [Issue microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453) (Open)
+### [Issue microsoft/TypeScript#64453](https://github.com/microsoft/TypeScript/issues/64453) (Open, `Needs Investigation`, **weswigham**)
 
 **\`EFNoLeadingComments\` suppresses synthesized leading comments in tsgo; Strada only suppresses source comments**
 
@@ -65,7 +65,7 @@
  * created by **trevorade**
  * [today](https://github.com/microsoft/TypeScript/issues/64453#issuecomment-5862919851) **z0rimo** investigated printer behavior on main branch, identified a semantic difference with Strada emitter, and opened draft PR #64488 with a compatibility fix and regression tests pending triage
 
-### [Issue microsoft/TypeScript#64459](https://github.com/microsoft/TypeScript/issues/64459) (Open)
+### [Issue microsoft/TypeScript#64459](https://github.com/microsoft/TypeScript/issues/64459) (Open, `Suggestion`)
 
 **Publish \`fswatch\` Go package**
 
@@ -118,7 +118,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64481#issuecomment-5857806432) **ahejlsberg** said "Apparently this pattern accounts for a substantial number of types in mui-docs, so nice savings there."
  * [today](https://github.com/microsoft/TypeScript/pull/64481#issuecomment-5857997842) **typescript-automation[bot]** ran tests on the top 400 repos and reported everything looked good
 
-### [PR microsoft/TypeScript#64482](https://github.com/microsoft/TypeScript/pull/64482) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64482](https://github.com/microsoft/TypeScript/pull/64482) (Closed, `For Uncommitted Bug`)
 
 **Fix flaky diagnostic added by declaration emit through \`MarkLinkedReferencesRecursively\`**
 
@@ -156,7 +156,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64485#issuecomment-5858666039) **typescript-automation[bot]** reported that the test top1000 job started and provided status and result links
  * [today](https://github.com/microsoft/TypeScript/pull/64485#issuecomment-5859682405) **typescript-automation[bot]** provided tsc comparison results for the top 1000 repos and confirmed that everything looked good
 
-### [Issue microsoft/TypeScript#64486](https://github.com/microsoft/TypeScript/issues/64486) (Open)
+### [Issue microsoft/TypeScript#64486](https://github.com/microsoft/TypeScript/issues/64486) (Open, `Bug`)
 
 **TS2589 error in TSGo with recursive mapped type over DOM types but not is tsc; ~18x more instantiations than tsc**
 
@@ -174,11 +174,11 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`, `dependencies`, `github_actions`
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64488](https://github.com/microsoft/TypeScript/pull/64488) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64488](https://github.com/microsoft/TypeScript/pull/64488) (Open, `For Uncommitted Bug`, **weswigham**)
 
 **Fix synthesized comment emission with comment flags**
 
-*Restore Strada-compatible comment emission so EFNoLeadingComments and EFNoTrailingComments suppress only original comments while preserving synthesized ones.*
+*Restore Strada-compatible comment emission so EFNoLeadingComments and EFNoTrailingComments suppress only source comments but still emit synthesized comments.*
 
  * created by **z0rimo**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -193,7 +193,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64489#issuecomment-5865394478) **WhitefistEmperor** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490) (Open, `Unactionable`)
+### [Issue microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490) (Closed, `Unactionable`)
 
 **TypeScript 7\.0\.2 scanner does not advance on bare hash**
 
@@ -203,7 +203,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64490#issuecomment-5873676173) **RyanCavanaugh** said "Just calling scan in a loop isn't going to give you anything meaningful; this isn't how to use that function"
  * **RyanCavanaugh** added label `Unactionable`
 
-### [PR microsoft/TypeScript#64491](https://github.com/microsoft/TypeScript/pull/64491) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64491](https://github.com/microsoft/TypeScript/pull/64491) (Open, `For Backlog Bug`)
 
 **Match Strada and don't resolve imports of ambient modules declared in the same file**
 
@@ -239,7 +239,7 @@
 
  * created by **bagbag**
 
-### [Issue microsoft/TypeScript#64495](https://github.com/microsoft/TypeScript/issues/64495) (Open)
+### [Issue microsoft/TypeScript#64495](https://github.com/microsoft/TypeScript/issues/64495) (Open, `Bug`, `Cursed?`)
 
 **Record\<K1, T\> & Record\<K2, U\> is assignable to Record\<K1 \| K2, T & U\>**
 
@@ -259,7 +259,7 @@
  * **RyanCavanaugh** added label `Suggestion`
  * [later](https://github.com/microsoft/TypeScript/issues/64496#issuecomment-5873618521) **RyanCavanaugh** said "I'm a little unclear on when this is useful, since if it's a function call, identifier, or property, you can hover on that and get an expression type, and literal types are fairly self-evident."
 
-### [Issue microsoft/TypeScript#64497](https://github.com/microsoft/TypeScript/issues/64497) (Open)
+### [Issue microsoft/TypeScript#64497](https://github.com/microsoft/TypeScript/issues/64497) (Open, `Bug`, `Help Wanted`)
 
 **Find all references on \`from\` of a default import drops results after an unsaved edit in another file**
 
@@ -267,7 +267,7 @@
 
  * created by **wangzhihao-lab**
 
-### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Open)
+### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Open, `Bug`, **andrewbranch**)
 
 **Program\.emitToString\(\) silently omits real files due to nondeterministic isSourceFileFromExternalLibrary\(\) misclassification**
 
