@@ -1,6 +1,6 @@
 # Report for 2026-09-29 (Tuesday, September 29th, 2026)
 
-28 different users commented on 85 different issues.
+27 different users commented on 87 different issues.
 
 ## Recommended Actions
 
@@ -291,7 +291,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/issues/64456#issuecomment-5840618913) **typescript-automation[bot]** reported a panic handling request for textDocument/diagnostic with a stack trace and build artifact details
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#64457](https://github.com/microsoft/TypeScript/pull/64457) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64457](https://github.com/microsoft/TypeScript/pull/64457) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Generate compiler option definitions, create JSON schema**
 
@@ -658,7 +658,7 @@
  * created by **dragomirtitian**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64536](https://github.com/microsoft/TypeScript/pull/64536) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64536](https://github.com/microsoft/TypeScript/pull/64536) (Closed, `For Backlog Bug`)
 
 **Fix Array\.at documentation: change 'code unit' to 'item'**
 
@@ -668,7 +668,6 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64536#issuecomment-5894534242) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/64536#issuecomment-5894541300) **microsoft-github-policy-service[bot]** requested the user to agree to the Contributor License Agreement and provide the appropriate agreement command
  * [today](https://github.com/microsoft/TypeScript/pull/64536#issuecomment-5900379984) **RyanCavanaugh** said "This is good to go but I can't merge it until the CLA is signed"
 
 ### [PR microsoft/TypeScript#64537](https://github.com/microsoft/TypeScript/pull/64537) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
@@ -747,7 +746,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64544](https://github.com/microsoft/TypeScript/pull/64544) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64544](https://github.com/microsoft/TypeScript/pull/64544) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Typed path prep bugfixes**
 
@@ -766,7 +765,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **weswigham**
  * (later) **weswigham** closed the issue
 
-### [Issue microsoft/TypeScript#64546](https://github.com/microsoft/TypeScript/issues/64546) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64546](https://github.com/microsoft/TypeScript/issues/64546) (Closed, `Working as Intended`)
 
 **Content mappers: registered extensions are not probed for extensionless imports in bundler mode**
 
@@ -787,7 +786,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64548](https://github.com/microsoft/TypeScript/issues/64548) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64548](https://github.com/microsoft/TypeScript/issues/64548) (Closed, `Working as Intended`)
 
 **Content mappers: \`moduleSuffixes\` probes \`card\.foo\.web\` instead of \`card\.web\.foo\` for a registered extension**
 

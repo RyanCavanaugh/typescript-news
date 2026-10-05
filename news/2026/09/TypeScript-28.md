@@ -66,7 +66,7 @@
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63704#issuecomment-5458880393) **DanielRosenwasser** said "Updated list since we already have Array.fromAsync."
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript#64093](https://github.com/microsoft/TypeScript/pull/64093) (Open, `For Milestone Bug`)
+### [PR microsoft/TypeScript#64093](https://github.com/microsoft/TypeScript/pull/64093) (Closed, `For Milestone Bug`)
 
 **feat: add Promise\.allKeyed and Promise\.allSettledKeyed to esnext**
 
@@ -75,7 +75,6 @@
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Milestone Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64093#issuecomment-5876580113) **DanielRosenwasser** said "After the merge conflicts we can get it in. Thanks for the patience here!"
- * [today](https://github.com/microsoft/TypeScript/pull/64093#issuecomment-5877090080) **a-tarasyuk** said "@DanielRosenwasser I've resolved conflicts"
 
 ### [PR microsoft/TypeScript#64096](https://github.com/microsoft/TypeScript/pull/64096) (Closed, `For Milestone Bug`, **DanielRosenwasser**)
 
@@ -103,7 +102,7 @@
 
 **Fix non\-null discriminant narrowing consistency**
 
-*Fix discriminant narrowing inconsistency between small and large nullable unions by retaining null and undefined constituents in optimized paths.*
+*Ensure discriminant narrowing preserves nullable constituents consistently in both small and large unions.*
 
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [2 weeks ago](https://github.com/microsoft/TypeScript/pull/64257#issuecomment-5657958944) **z0rimo** agreed with microsoft-github-policy-service
@@ -226,7 +225,7 @@
 
 **ES\-conformant symbol typing**
 
-*Add ES-standard symbol typing support in TypeScript by introducing a RegisteredSymbol intrinsic, deferred registry keys, and preserved unique symbol types.*
+*Enhance TypeScript with ES-conformant symbol typing by aligning Symbol.for behavior, retaining unique symbol const types, and handling deferred registry keys.*
 
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/64451#issuecomment-5838892634) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -263,7 +262,7 @@
  * (3 days ago) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64460#issuecomment-5881553205) **maricastroc** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64463](https://github.com/microsoft/TypeScript/issues/64463) (Open)
+### [Issue microsoft/TypeScript#64463](https://github.com/microsoft/TypeScript/issues/64463) (Open, `Bug`)
 
 **\[LSP\] Memory of configured projects is never released, even after didClose of all files — ~70 MB retained per project \(7\.0\.2 and 7\.1\.0\-dev\.20260926\.1\)**
 

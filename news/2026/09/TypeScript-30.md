@@ -1,6 +1,6 @@
 # Report for 2026-09-30 (Wednesday, September 30th, 2026)
 
-24 different users commented on 48 different issues.
+24 different users commented on 50 different issues.
 
 ## Recommended Actions
 
@@ -46,7 +46,7 @@
  * [1.5 years ago](https://github.com/microsoft/TypeScript/issues/60948#issuecomment-2714362449) **JeanMeche** asked what the next steps for the discussion were and whether more feedback was expected
  * [later](https://github.com/microsoft/TypeScript/issues/60948#issuecomment-5932695631) **csvn** asked whether there had been internal discussion on the issue of param-less getter function narrowing in switch patterns
 
-### [Issue microsoft/TypeScript#61216](https://github.com/microsoft/TypeScript/issues/61216) (Open, `Suggestion`, `Help Wanted`, `Committed`)
+### [Issue microsoft/TypeScript#61216](https://github.com/microsoft/TypeScript/issues/61216) (Closed, `Suggestion`, `Help Wanted`, `Committed`)
 
 **Support source phase imports**
 
@@ -76,7 +76,7 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript/issues/62915#issuecomment-5661966799) **anbv29** said "hey, can i be assigned this issue? I would love to work on it."
  * [today](https://github.com/microsoft/TypeScript/issues/62915#issuecomment-5921269382) **unrevised6419** listed open and closed PRs addressing a change and noted that the docs still describe `extends` as a string only
 
-### [PR microsoft/TypeScript#63248](https://github.com/microsoft/TypeScript/pull/63248) (Open, `For Backlog Bug`, `Voight-Kampff Anomaly`)
+### [PR microsoft/TypeScript#63248](https://github.com/microsoft/TypeScript/pull/63248) (Closed, `For Backlog Bug`, `Voight-Kampff Anomaly`)
 
 **Add lib types for JSON\.rawJSON, JSON\.isRawJSON, and reviver context**
 
@@ -156,7 +156,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/issues/64378#issuecomment-5780416195) **RyanCavanaugh** said "@ahejlsberg maybe worth looking at"
  * (today) **ahejlsberg** closed the issue
 
-### [PR microsoft/TypeScript#64457](https://github.com/microsoft/TypeScript/pull/64457) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64457](https://github.com/microsoft/TypeScript/pull/64457) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Generate compiler option definitions, create JSON schema**
 
@@ -281,7 +281,7 @@
  * **typescript-automation[bot]** assigned to **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript#64548](https://github.com/microsoft/TypeScript/issues/64548) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#64548](https://github.com/microsoft/TypeScript/issues/64548) (Closed, `Working as Intended`)
 
 **Content mappers: \`moduleSuffixes\` probes \`card\.foo\.web\` instead of \`card\.web\.foo\` for a registered extension**
 
@@ -369,7 +369,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64556](https://github.com/microsoft/TypeScript/pull/64556) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64556](https://github.com/microsoft/TypeScript/pull/64556) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Detect cycles while serializing array and tuple types**
 
@@ -420,7 +420,7 @@
  * created by **leonidaz**
  * **RyanCavanaugh** added label `Suggestion`
 
-### [PR microsoft/TypeScript#64561](https://github.com/microsoft/TypeScript/pull/64561) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64561](https://github.com/microsoft/TypeScript/pull/64561) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **\[release\-7\.0\] Stabilize merged declaration diagnostics**
 
@@ -429,7 +429,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#64562](https://github.com/microsoft/TypeScript/pull/64562) (Open, `For Uncommitted Bug`, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript#64562](https://github.com/microsoft/TypeScript/pull/64562) (Closed, `For Uncommitted Bug`, `dependencies`, `javascript`)
 
 **Bump brace\-expansion from 5\.0\.9 to 5\.0\.12**
 
@@ -448,7 +448,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64564](https://github.com/microsoft/TypeScript/issues/64564) (Open)
+### [Issue microsoft/TypeScript#64564](https://github.com/microsoft/TypeScript/issues/64564) (Closed, `Domain: Content Mappers`, **andrewbranch**)
 
 **TypeScript 7 VS Code extension: closing JSX tags are not inserted in content\-mapped files, although tsc \-\-lsp provides them**
 
@@ -464,7 +464,7 @@
 
  * created by **leonidaz**
 
-### [PR microsoft/TypeScript#64566](https://github.com/microsoft/TypeScript/pull/64566) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64566](https://github.com/microsoft/TypeScript/pull/64566) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Stabilize merged declaration diagnostic ownership**
 
@@ -505,7 +505,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64568#issuecomment-5931170553) **dbaeumer** reproduced the issue using GPT-6 Astra and identified that TypeScript requests an overly broad recursive file watcher when package.json is absent, analysed the cause in watch-root calculation and parcel watcher behavior, provided memory evidence suggesting ZFS ARC fill rather than a heap leak, and requested trace-level log entries for further comparison
  * [later](https://github.com/microsoft/TypeScript/issues/64568#issuecomment-5931170686) **dbaeumer** said "Moving back to the TS team based on the above analysis."
 
-### [Issue microsoft/TypeScript#64569](https://github.com/microsoft/TypeScript/issues/64569) (Open)
+### [Issue microsoft/TypeScript#64569](https://github.com/microsoft/TypeScript/issues/64569) (Closed, `Bug`, **weswigham**)
 
 **The with statement causes a panic in CommonJS\.**
 
