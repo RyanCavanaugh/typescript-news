@@ -1,6 +1,6 @@
 # Report for 2026-10-05 (Monday, October 5th, 2026)
 
-17 different users commented on 34 different issues.
+18 different users commented on 38 different issues.
 
 ## Recommended Actions
 
@@ -97,7 +97,8 @@
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-5802862985) **weswigham** explained that origin metadata loss during control-flow filtering and nested union composition was intentional and described current quick info limitations and potential future enhancements
  * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019356961) **jakebailey** said "@typescript-bot test it"
- * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019359564) **typescript-automation[bot]** posted updates on build jobs starting
+ * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019359564) **typescript-automation[bot]** posted CI job start statuses with build result links
+ * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019916048) **typescript-automation[bot]** posted the requested performance run results
 
 ### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Closed, `Needs Investigation`, **johnfav03**)
 
@@ -132,6 +133,19 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64498#issuecomment-5993634266) **cplieger** described an AI-assisted fix for nondeterministic output in a monorepo, traced the root cause in filesparser.go, and proposed two enhancements to AI-driven issue reporting
  * (today) **andrewbranch** closed the issue
 
+### [Issue microsoft/TypeScript#64534](https://github.com/microsoft/TypeScript/issues/64534) (Closed, `Unactionable`)
+
+**Circular mapped property is treated as missing when selecting contextual type from intersections**
+
+*Circular mapped properties in intersection types bypass contextual typing and fall back to index signatures, causing unexpected type inference*
+
+ * **RyanCavanaugh** added label `Needs More Info`
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/64534#issuecomment-5896176125) **Andarist** pointed out that after skimming the issue, an implementation defect was causing the name property to be treated as circular specifically for reverse mapped type properties
+ * [6 days ago](https://github.com/microsoft/TypeScript/issues/64534#issuecomment-5901290050) **Fugu0141** asked whether treating missing and circularly-unavailable properties identically as undefined was intentional or incidental
+ * (later) **RyanCavanaugh** added label `Unactionable`, and removed label `Needs More Info`
+ * [later](https://github.com/microsoft/TypeScript/issues/64534#issuecomment-6019685682) **RyanCavanaugh** explained that both conditions need the same handling and asked for a concrete use case before proceeding
+ * (later) **RyanCavanaugh** closed the issue
+
 ### [PR microsoft/TypeScript#64583](https://github.com/microsoft/TypeScript/pull/64583) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Allow other VS Code extensions to install LSP middleware on language feature responses**
@@ -143,7 +157,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/64583#issuecomment-5971044194) **insilications** said "@andrewbranch Thanks so much for support this use case! This will unlock a lot of interesting things."
  * [today](https://github.com/microsoft/TypeScript/pull/64583#issuecomment-5999107866) **andrewbranch** said "@insilications can I ask what extension you’re working on and how you plan to use this?"
 
-### [PR microsoft/TypeScript#64604](https://github.com/microsoft/TypeScript/pull/64604) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64604](https://github.com/microsoft/TypeScript/pull/64604) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Update DOM types**
 
@@ -281,7 +295,7 @@
  * created by **csigs**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64653](https://github.com/microsoft/TypeScript/issues/64653) (Open)
+### [Issue microsoft/TypeScript#64653](https://github.com/microsoft/TypeScript/issues/64653) (Open, **DanielRosenwasser**, **Copilot**)
 
 **Windows: module resolution fails for paths containing a \`con/\` directory segment \(reserved device name\)**
 

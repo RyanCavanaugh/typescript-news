@@ -334,7 +334,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64584](https://github.com/microsoft/TypeScript/pull/64584) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64584](https://github.com/microsoft/TypeScript/pull/64584) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Stop dropping dispose Promises in the async API**
 

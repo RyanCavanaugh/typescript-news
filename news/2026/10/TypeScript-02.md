@@ -1,6 +1,6 @@
 # Report for 2026-10-02 (Friday, October 2nd, 2026)
 
-20 different users commented on 58 different issues.
+20 different users commented on 59 different issues.
 
 ## Recommended Actions
 
@@ -345,7 +345,7 @@
  * created by **RyanCavanaugh**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Backlog Bug`, removed label `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#64604](https://github.com/microsoft/TypeScript/pull/64604) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64604](https://github.com/microsoft/TypeScript/pull/64604) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Update DOM types**
 

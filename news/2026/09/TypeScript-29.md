@@ -637,7 +637,7 @@
  * created by **dragomirtitian**
  * (today) **RyanCavanaugh** added label `API Request`, set milestone to `TypeScript 7.1.0 Beta`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64534](https://github.com/microsoft/TypeScript/issues/64534) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#64534](https://github.com/microsoft/TypeScript/issues/64534) (Closed, `Unactionable`)
 
 **Circular mapped property is treated as missing when selecting contextual type from intersections**
 
