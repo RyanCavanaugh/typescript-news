@@ -1,6 +1,6 @@
 # Report for 2026-09-30 (Wednesday, September 30th, 2026)
 
-24 different users commented on 50 different issues.
+24 different users commented on 51 different issues.
 
 ## Recommended Actions
 
@@ -213,7 +213,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64490#issuecomment-5923007045) **typescript-automation[bot]** said "This issue has been marked as "Unactionable" and has seen no recent activity. It has been automatically closed for house-keeping purposes."
  * (today) **typescript-automation[bot]** closed the issue
 
-### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Closed, `Bug`, **andrewbranch**)
 
 **Program\.emitToString\(\) silently omits real files due to nondeterministic isSourceFileFromExternalLibrary\(\) misclassification**
 

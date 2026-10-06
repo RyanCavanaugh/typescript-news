@@ -1,6 +1,6 @@
 # Report for 2026-09-29 (Tuesday, September 29th, 2026)
 
-27 different users commented on 87 different issues.
+27 different users commented on 88 different issues.
 
 ## Recommended Actions
 
@@ -261,7 +261,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64447#issuecomment-5837049212) **andrewbranch** said "Yes, exactly. The idea is if you can name a well-known server implementation, you can save a lot of round trips."
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Open, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Closed, `Needs Investigation`, **johnfav03**)
 
 **createWatchProgram\(\)\.close\(\) does not cancel the pending program update timer**
 

@@ -1,12 +1,10 @@
 # Report for 2026-10-04 (Sunday, October 4th, 2026)
 
-12 different users commented on 22 different issues.
+12 different users commented on 27 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @cplieger provided the fix reference #64632 in [microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498#issuecomment-5990423700)
-    * @cplieger proposed enhancements to AI-assisted issue reporting and triaging in [microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498#issuecomment-5993634266)
     * @belentani7 asked if they should investigate the exact code path in the compiler in [microsoft/TypeScript#64628](https://github.com/microsoft/TypeScript/issues/64628#issuecomment-5989252127)
 
 ## Activity Summary
@@ -21,7 +19,7 @@
  * (1 week ago) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
  * (later) **a-tarasyuk** closed the issue
 
-### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64498](https://github.com/microsoft/TypeScript/issues/64498) (Closed, `Bug`, **andrewbranch**)
 
 **Program\.emitToString\(\) silently omits real files due to nondeterministic isSourceFileFromExternalLibrary\(\) misclassification**
 
@@ -52,7 +50,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64626#issuecomment-5983058913) **splincode** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Open)
+### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Open, `Bug`)
 
 **\`import defer "\./a\.js"\` is accepted without an error, and the output drops \`defer\`**
 
@@ -94,11 +92,11 @@
 
  * created by **cplieger**
 
-### [PR microsoft/TypeScript#64632](https://github.com/microsoft/TypeScript/pull/64632) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64632](https://github.com/microsoft/TypeScript/pull/64632) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **Restart a file's imports when a later arrival lowers its node\_modules depth**
 
-*Restart file imports whenever a later arrival lowers its node_modules depth to fix inconsistent library file classification.*
+*Restart a file's import subtasks when its node_modules depth decreases to ensure consistent library classification and complete emits.*
 
  * created by **cplieger**
  * (later) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **andrewbranch**
@@ -205,4 +203,14 @@
  * **musatoktas** added label `For Uncommitted Bug`
  * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64643#issuecomment-5997164731) **musatoktas** said "@microsoft-github-policy-service agree"
+
+### [PR microsoft/TypeScript#64644](https://github.com/microsoft/TypeScript/pull/64644) (Open, `For Uncommitted Bug`)
+
+**Fix crash in formatter on comment lookalikes in JSX closing tags**
+
+*A fix for formatter crashes triggered by JSX closing tags resembling comments.*
+
+ * created by **Andarist**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64644#issuecomment-5998060040) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 

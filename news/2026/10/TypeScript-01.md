@@ -1,6 +1,6 @@
 # Report for 2026-10-01 (Thursday, October 1st, 2026)
 
-19 different users commented on 47 different issues.
+19 different users commented on 48 different issues.
 
 ## Recommended Actions
 
@@ -100,7 +100,7 @@
  * (1 week ago) **RyanCavanaugh** added labels `Needs Investigation`, `Domain: Content Mappers`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/issues/64356#issuecomment-5936832948) **leonidaz** suggested using registered content mappers to skip tsserver plugin warnings instead of requiring manifest flags and noted a timing detail about re-running the check after registration
 
-### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Open, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Closed, `Needs Investigation`, **johnfav03**)
 
 **createWatchProgram\(\)\.close\(\) does not cancel the pending program update timer**
 

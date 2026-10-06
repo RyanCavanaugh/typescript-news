@@ -1,6 +1,6 @@
 # Report for 2026-10-03 (Saturday, October 3rd, 2026)
 
-7 different users commented on 13 different issues.
+7 different users commented on 14 different issues.
 
 ## Recommended Actions
 
@@ -110,7 +110,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64623#issuecomment-5973552498) **typescript-automation[bot]** reported a premature server connection closure with undefined error for openclaw/openclaw, including error artifacts, recent requests, and repro steps
  * [today](https://github.com/microsoft/TypeScript/issues/64623#issuecomment-5973552907) **typescript-automation[bot]** reported a panic handling request textDocument/diagnostic for withastro/astro due to flaky diagnostics
 
-### [PR microsoft/TypeScript#64624](https://github.com/microsoft/TypeScript/pull/64624) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64624](https://github.com/microsoft/TypeScript/pull/64624) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix idle cache clean timer never being stored on Session**
 
@@ -119,7 +119,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Open)
+### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Open, `Possible Improvement`, **weswigham**)
 
 **Declaration emit re\-walks a package\.json \`exports\` map for every declaration \(module specifier cache not shared across node builders\)**
 

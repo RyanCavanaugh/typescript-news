@@ -1,6 +1,6 @@
 # Report for 2026-10-02 (Friday, October 2nd, 2026)
 
-20 different users commented on 57 different issues.
+20 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -96,7 +96,7 @@
  * (3 days ago) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64426#issuecomment-5958215226) **ethndotsh** said "Just following up now that this is marked as a backlog bug if we can get this reviewed :)"
 
-### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Open, `Needs Investigation`, **johnfav03**)
+### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Closed, `Needs Investigation`, **johnfav03**)
 
 **createWatchProgram\(\)\.close\(\) does not cancel the pending program update timer**
 
@@ -349,7 +349,7 @@
 
 **Update DOM types**
 
-*Update DOM type definitions to support new Web Serial, PiP, WebGPU, WebTransport, sanitization, CSS animation, URL inputs, and more.*
+*Add and refine TypeScript DOM types to support new Web APIs, HTML sanitization, CSS and animation features, and compatibility changes*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -528,7 +528,7 @@
  * created by **auvred**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64620](https://github.com/microsoft/TypeScript/pull/64620) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64620](https://github.com/microsoft/TypeScript/pull/64620) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Remove legacy localization handbacks**
 
