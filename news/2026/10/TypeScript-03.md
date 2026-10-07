@@ -1,6 +1,6 @@
 # Report for 2026-10-03 (Saturday, October 3rd, 2026)
 
-7 different users commented on 14 different issues.
+7 different users commented on 15 different issues.
 
 ## Recommended Actions
 
@@ -29,9 +29,9 @@
 
 ### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Open, `For Uncommitted Bug`, **johnfav03**)
 
-**Speed up first incremental rebuilds after shared dependency edits**
+**Index re\-exporting modules for declaration emit**
 
-*Introduce a cached export-lookup index and parallel signature computations to accelerate first incremental rebuilds after shared dependency edits.*
+*Optimize TypeScript’s declaration emit performance by caching an export-to-module index to avoid repeated scans during incremental rebuilds*
 
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64469#issuecomment-5847125871) **resure** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript/pull/64469#issuecomment-5969259018) **gwkline** provided independent performance benchmarks applying the PR’s checker changes to a large monorepo, reported byte-identical outputs, noted speedups and minor memory increase, described optional incremental changes, highlighted a merge conflict, and offered further tests with a public repro
@@ -87,7 +87,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **ahejlsberg**
  * (today) **ahejlsberg** closed the issue
 
-### [Issue microsoft/TypeScript#64622](https://github.com/microsoft/TypeScript/issues/64622) (Open)
+### [Issue microsoft/TypeScript#64622](https://github.com/microsoft/TypeScript/issues/64622) (Open, `Bug`, **iisaduan**)
 
 **\[ServerErrors\]\[JavaScript\] main vs **
 
@@ -99,7 +99,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64622#issuecomment-5972854485) **typescript-automation[bot]** reported a panic in textDocument/formatting due to a debug failure and included a stack trace
  * [today](https://github.com/microsoft/TypeScript/issues/64622#issuecomment-5972854878) **typescript-automation[bot]** reported panic handling request for textDocument/diagnostic with stack trace and affected repo details
 
-### [Issue microsoft/TypeScript#64623](https://github.com/microsoft/TypeScript/issues/64623) (Open)
+### [Issue microsoft/TypeScript#64623](https://github.com/microsoft/TypeScript/issues/64623) (Open, `Bug`, **iisaduan**)
 
 **\[ServerErrors\]\[TypeScript\] main vs **
 
@@ -119,7 +119,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Open, `Possible Improvement`, **weswigham**)
+### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Closed, `Possible Improvement`, **weswigham**)
 
 **Declaration emit re\-walks a package\.json \`exports\` map for every declaration \(module specifier cache not shared across node builders\)**
 

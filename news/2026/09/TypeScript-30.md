@@ -456,7 +456,7 @@
 
  * created by **leonidaz**
 
-### [Issue microsoft/TypeScript#64565](https://github.com/microsoft/TypeScript/issues/64565) (Open)
+### [Issue microsoft/TypeScript#64565](https://github.com/microsoft/TypeScript/issues/64565) (Open, `Needs Investigation`, **jakebailey**)
 
 **TypeScript 7 VS Code extension: a workspace "typescript" 7\.x package is not detected, only "@typescript/native\-preview", which is no longer published**
 

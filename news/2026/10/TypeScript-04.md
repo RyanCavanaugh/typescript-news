@@ -1,6 +1,6 @@
 # Report for 2026-10-04 (Sunday, October 4th, 2026)
 
-12 different users commented on 27 different issues.
+12 different users commented on 31 different issues.
 
 ## Recommended Actions
 
@@ -58,7 +58,7 @@
 
  * created by **leonidaz**
 
-### [Issue microsoft/TypeScript#64628](https://github.com/microsoft/TypeScript/issues/64628) (Open)
+### [Issue microsoft/TypeScript#64628](https://github.com/microsoft/TypeScript/issues/64628) (Open, `Bug`, **weswigham**)
 
 **JSDoc \`@private\` / \`@protected\` are dropped in declaration emit for properties declared by constructor assignment**
 
@@ -68,7 +68,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64628#issuecomment-5989252127) **belentani7** described a declaration emit bug where JSDoc visibility annotations on constructor parameter properties are lost in .d.ts, detailed impact, example, expected output, fix location, and workaround, and asked if they should investigate the compiler code path
  * [later](https://github.com/microsoft/TypeScript/issues/64628#issuecomment-5991294419) **tlouisse** said "Yes, it would be great if we can keep using this jsdoc annotation without having to do workarounds"
 
-### [Issue microsoft/TypeScript#64629](https://github.com/microsoft/TypeScript/issues/64629) (Open)
+### [Issue microsoft/TypeScript#64629](https://github.com/microsoft/TypeScript/issues/64629) (Closed, `Bug`, **andrewbranch**)
 
 **\[api\] createPrograms with a non\-composite projectReferences entry crashes the API server**
 
@@ -76,7 +76,7 @@
 
  * created by **cplieger**
 
-### [Issue microsoft/TypeScript#64630](https://github.com/microsoft/TypeScript/issues/64630) (Open)
+### [Issue microsoft/TypeScript#64630](https://github.com/microsoft/TypeScript/issues/64630) (Closed, `Bug`, **andrewbranch**)
 
 **\[api\] Static and callback module resolutions drop resolvedUsingTsExtension, raising TS2876**
 
@@ -84,7 +84,7 @@
 
  * created by **cplieger**
 
-### [Issue microsoft/TypeScript#64631](https://github.com/microsoft/TypeScript/issues/64631) (Open)
+### [Issue microsoft/TypeScript#64631](https://github.com/microsoft/TypeScript/issues/64631) (Open, `Bug`, **andrewbranch**)
 
 **\[api\] A nested request from a resolveModuleName callback gets another request's answer**
 
@@ -101,7 +101,7 @@
  * created by **cplieger**
  * (later) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64633](https://github.com/microsoft/TypeScript/pull/64633) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64633](https://github.com/microsoft/TypeScript/pull/64633) (Closed, `For Uncommitted Bug`)
 
 **Fix crash in decorator metadata emit for decorated object literal members**
 
@@ -111,7 +111,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64633#issuecomment-5990767313) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64634](https://github.com/microsoft/TypeScript/issues/64634) (Open)
+### [Issue microsoft/TypeScript#64634](https://github.com/microsoft/TypeScript/issues/64634) (Open, `Needs Investigation`, **iisaduan**)
 
 **\[api\] Add \`parseConfigFileTextToJson\(\)\` helper**
 
@@ -119,7 +119,7 @@
 
  * created by **mrazauskas**
 
-### [Issue microsoft/TypeScript#64635](https://github.com/microsoft/TypeScript/issues/64635) (Open)
+### [Issue microsoft/TypeScript#64635](https://github.com/microsoft/TypeScript/issues/64635) (Open, `Needs Investigation`, **andrewbranch**)
 
 **API server reports TS2345 for a call that tsc accepts on the same project**
 
@@ -127,7 +127,7 @@
 
  * created by **vivere-dally**
 
-### [PR microsoft/TypeScript#64636](https://github.com/microsoft/TypeScript/pull/64636) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64636](https://github.com/microsoft/TypeScript/pull/64636) (Closed, `For Uncommitted Bug`)
 
 **Fix flaky diagnostic added by emit for \`typeof import\(\)\` type qualifiers**
 
@@ -137,7 +137,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64636#issuecomment-5992621711) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#64637](https://github.com/microsoft/TypeScript/pull/64637) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64637](https://github.com/microsoft/TypeScript/pull/64637) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **\[api\] Report project reference diagnostics on programs without a config file**
 
@@ -146,20 +146,20 @@
  * created by **cplieger**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64638](https://github.com/microsoft/TypeScript/pull/64638) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64638](https://github.com/microsoft/TypeScript/pull/64638) (Closed, `For Milestone Bug`, **andrewbranch**)
 
-**\[api\] Preserve resolvedUsingTsExtension in static and callback module resolutions**
+**\[api\] Skip disk\-layout import diagnostics for customized module resolutions**
 
-*Propagate the resolvedUsingTsExtension flag in static and callback module resolutions to avoid false TS2876 errors under rewriteRelativeImportExtensions*
+*Skip disk-layout import diagnostics (such as TS2876) for customized module resolutions by adding an internal IsCustomResolution flag.*
 
  * created by **cplieger**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64639](https://github.com/microsoft/TypeScript/pull/64639) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64639](https://github.com/microsoft/TypeScript/pull/64639) (Open, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Answer nested requests on the sync connection in stack order**
 
-*SyncConn now uses a stack to serialize nested synchronous calls and prevent response mismatches caused by releasing its lock prematurely.*
+*SyncConn.Call’s nested requests could interleave and receive incorrect responses, now fixed by enforcing stack-order handling.*
 
  * created by **cplieger**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
@@ -173,7 +173,7 @@
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64641](https://github.com/microsoft/TypeScript/issues/64641) (Open)
+### [Issue microsoft/TypeScript#64641](https://github.com/microsoft/TypeScript/issues/64641) (Open, `Bug`, **andrewbranch**)
 
 **\[api\] Let a program created with createPrograms use content mappers**
 

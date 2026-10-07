@@ -1,6 +1,6 @@
 # Report for 2026-10-02 (Friday, October 2nd, 2026)
 
-20 different users commented on 59 different issues.
+20 different users commented on 62 different issues.
 
 ## Recommended Actions
 
@@ -119,9 +119,9 @@
 
 ### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Open, `For Uncommitted Bug`, **johnfav03**)
 
-**Speed up first incremental rebuilds after shared dependency edits**
+**Index re\-exporting modules for declaration emit**
 
-*Introduce a cached export-lookup index and parallel signature computations to accelerate first incremental rebuilds after shared dependency edits.*
+*Optimize TypeScript’s declaration emit performance by caching an export-to-module index to avoid repeated scans during incremental rebuilds*
 
  * created by **resure**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -215,7 +215,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Open)
+### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Open, `Duplicate`)
 
 **TS Symbol typing clashes with standard, idiomatic JS**
 
@@ -296,7 +296,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Open, `For Milestone Bug`, **weswigham**)
 
 **Check package reachability before using exports in declarations**
 
@@ -328,7 +328,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64601#issuecomment-5963635944) **maschwenk** said "Withdrawing this one: the gain is too small to be worth reviewer time on its own. The larger change is #64475 / #64526."
  * (today) **maschwenk** closed the issue
 
-### [Issue microsoft/TypeScript#64602](https://github.com/microsoft/TypeScript/issues/64602) (Open)
+### [Issue microsoft/TypeScript#64602](https://github.com/microsoft/TypeScript/issues/64602) (Open, `Waiting for TC39`)
 
 **Support deferred re\-exports**
 
@@ -365,7 +365,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64604#issuecomment-5961950897) **saschanaz** said "Should we back it out and investigate the options? "
  * [today](https://github.com/microsoft/TypeScript/pull/64604#issuecomment-5962132954) **jakebailey** said "Yeah, I think that would be wise"
 
-### [Issue microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605) (Open)
+### [Issue microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605) (Open, `Needs Investigation`, **gabritto**)
 
 **TS5115 in published Zod 4\.5–4\.6 types after \#64372**
 
@@ -416,7 +416,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64609#issuecomment-5965048954) **jakebailey** said "#64608 basicalyl merges this for me, so I'll just do that"
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64610](https://github.com/microsoft/TypeScript/issues/64610) (Open)
+### [Issue microsoft/TypeScript#64610](https://github.com/microsoft/TypeScript/issues/64610) (Open, `Suggestion`)
 
 **Associate companion files with \`ProjectService\` without Content Mappers**
 
@@ -424,7 +424,7 @@
 
  * created by **atscott**
 
-### [Issue microsoft/TypeScript#64611](https://github.com/microsoft/TypeScript/issues/64611) (Open)
+### [Issue microsoft/TypeScript#64611](https://github.com/microsoft/TypeScript/issues/64611) (Open, `Suggestion`)
 
 **In\-memory virtual file overlay over LSP without faking \`didOpen\`**
 
@@ -474,7 +474,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64613#issuecomment-5963671259) **typescript-automation[bot]** reported a runtime panic due to invalid memory address or nil pointer dereference
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64614](https://github.com/microsoft/TypeScript/issues/64614) (Open)
+### [Issue microsoft/TypeScript#64614](https://github.com/microsoft/TypeScript/issues/64614) (Open, `Bug`, **weswigham**)
 
 **TS 7 declaration emit writes unbound type parameters \(TOutputOut, $Output\) into \.d\.ts where 6\.0 emits any**
 
@@ -501,7 +501,7 @@
  * created by **OMD-123**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64617](https://github.com/microsoft/TypeScript/pull/64617) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64617](https://github.com/microsoft/TypeScript/pull/64617) (Closed, `For Uncommitted Bug`)
 
 **Handle JSDocParameterTag in ast\.GetTypeAnnotationNode**
 
@@ -511,7 +511,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64617#issuecomment-5967118139) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64618](https://github.com/microsoft/TypeScript/issues/64618) (Open)
+### [Issue microsoft/TypeScript#64618](https://github.com/microsoft/TypeScript/issues/64618) (Open, `Bug`, **RyanCavanaugh**)
 
 **Non\-enum CLI options with multiple values separated by comma and space aren't whitespace trimmed**
 
@@ -519,7 +519,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#64619](https://github.com/microsoft/TypeScript/pull/64619) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64619](https://github.com/microsoft/TypeScript/pull/64619) (Open, `For Milestone Bug`, **RyanCavanaugh**)
 
 **Trim whitespaces in comma\+space separated string\-list CLI option values**
 

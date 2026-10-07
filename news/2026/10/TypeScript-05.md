@@ -1,6 +1,6 @@
 # Report for 2026-10-05 (Monday, October 5th, 2026)
 
-18 different users commented on 38 different issues.
+18 different users commented on 40 different issues.
 
 ## Recommended Actions
 
@@ -97,7 +97,7 @@
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-5802862985) **weswigham** explained that origin metadata loss during control-flow filtering and nested union composition was intentional and described current quick info limitations and potential future enhancements
  * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019356961) **jakebailey** said "@typescript-bot test it"
- * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019359564) **typescript-automation[bot]** posted CI job start statuses with build result links
+ * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019359564) **typescript-automation[bot]** reported that CI jobs were started and provided status and result links
  * [later](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6019916048) **typescript-automation[bot]** posted the requested performance run results
 
 ### [Issue microsoft/TypeScript#64450](https://github.com/microsoft/TypeScript/issues/64450) (Closed, `Needs Investigation`, **johnfav03**)
@@ -195,7 +195,7 @@
  * (2 days ago) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Open, `Possible Improvement`, **weswigham**)
+### [Issue microsoft/TypeScript#64625](https://github.com/microsoft/TypeScript/issues/64625) (Closed, `Possible Improvement`, **weswigham**)
 
 **Declaration emit re\-walks a package\.json \`exports\` map for every declaration \(module specifier cache not shared across node builders\)**
 
@@ -259,7 +259,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64648#issuecomment-6002735350) **typescript-automation[bot]** reported successful tsc comparison between baseline and pr on the top 400 repos
  * [today](https://github.com/microsoft/TypeScript/pull/64648#issuecomment-6004798872) **ahejlsberg** said "No measurable effect on perf tests, likely because we don't have react tests which is where it's supposed to help."
 
-### [PR microsoft/TypeScript#64649](https://github.com/microsoft/TypeScript/pull/64649) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64649](https://github.com/microsoft/TypeScript/pull/64649) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Cache one nodebuilder per emit resolver, make emit resolver emit context scoped**
 
@@ -268,7 +268,7 @@
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
 
-### [Issue microsoft/TypeScript#64650](https://github.com/microsoft/TypeScript/issues/64650) (Open)
+### [Issue microsoft/TypeScript#64650](https://github.com/microsoft/TypeScript/issues/64650) (Closed)
 
 **Auto\-import should not offer a barrel to files inside same package**
 
@@ -314,7 +314,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64654#issuecomment-6017564102) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * **jakebailey** assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript#64655](https://github.com/microsoft/TypeScript/issues/64655) (Open)
+### [Issue microsoft/TypeScript#64655](https://github.com/microsoft/TypeScript/issues/64655) (Open, `Bug`, **weswigham**)
 
 **Hover ignores the JSDoc written on an \`import f = a\.f\` alias**
 
@@ -322,7 +322,7 @@
 
  * created by **patrickkettner**
 
-### [Issue microsoft/TypeScript#64656](https://github.com/microsoft/TypeScript/issues/64656) (Open)
+### [Issue microsoft/TypeScript#64656](https://github.com/microsoft/TypeScript/issues/64656) (Open, `Needs Investigation`, **weswigham**)
 
 **Declaration emit errors \(TS5088\) on anonymous cyclic types that 6\.0 elided to \`any\`**
 

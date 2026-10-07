@@ -1,6 +1,6 @@
 # Report for 2026-10-01 (Thursday, October 1st, 2026)
 
-19 different users commented on 48 different issues.
+19 different users commented on 50 different issues.
 
 ## Recommended Actions
 
@@ -254,7 +254,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64575#issuecomment-5937084410) **microsoft-github-policy-service[bot]** prompted the user to agree to the Contributor License Agreement and reply with a formatted confirmation
 
-### [Issue microsoft/TypeScript#64576](https://github.com/microsoft/TypeScript/issues/64576) (Open)
+### [Issue microsoft/TypeScript#64576](https://github.com/microsoft/TypeScript/issues/64576) (Open, `Bug`, **andrewbranch**)
 
 **TypeScript 7 VS Code extension: Go to Source Definition does not run in content\-mapped files, although tsc \-\-lsp answers for them**
 
@@ -292,7 +292,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64578#issuecomment-5942274796) **jakebailey** said "import type A1, { type T } is illegal already, because we smartly realized this would be ambiguous 🤦 "
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#64579](https://github.com/microsoft/TypeScript/issues/64579) (Open)
+### [Issue microsoft/TypeScript#64579](https://github.com/microsoft/TypeScript/issues/64579) (Open, `Suggestion`)
 
 **Content mappers: let a mapper opt out of formatting, so tsc \-\-lsp does not offer a formatter that returns no edits**
 
@@ -300,7 +300,7 @@
 
  * created by **leonidaz**
 
-### [Issue microsoft/TypeScript#64580](https://github.com/microsoft/TypeScript/issues/64580) (Open)
+### [Issue microsoft/TypeScript#64580](https://github.com/microsoft/TypeScript/issues/64580) (Open, `Suggestion`)
 
 **TypeScript 7 VS Code extension: let other extensions send requests to tsc \-\-lsp, like typescript\.tsserverRequest**
 
@@ -343,7 +343,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Open)
+### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Open, `Duplicate`)
 
 **TS Symbol typing clashes with standard, idiomatic JS**
 
@@ -393,7 +393,7 @@
  * created by **kristojorg**
  * (later) **ahejlsberg** added label `Bug`, set milestone to `TypeScript 7.1.0 Beta`, and assigned to **ahejlsberg**
 
-### [Issue microsoft/TypeScript#64590](https://github.com/microsoft/TypeScript/issues/64590) (Open)
+### [Issue microsoft/TypeScript#64590](https://github.com/microsoft/TypeScript/issues/64590) (Open, `Bug`, **weswigham**)
 
 **Declaration emit writes an import the file cannot resolve when the package has \`exports\`; no TS2883**
 
@@ -401,7 +401,7 @@
 
  * created by **kristojorg**
 
-### [Issue microsoft/TypeScript#64591](https://github.com/microsoft/TypeScript/issues/64591) (Open)
+### [Issue microsoft/TypeScript#64591](https://github.com/microsoft/TypeScript/issues/64591) (Open, `Bug`, **johnfav03**)
 
 **\`tsc \-b\`: incremental build keeps a declaration that names a removed re\-export, and passes a program a clean build rejects**
 
@@ -419,7 +419,7 @@
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64592#issuecomment-5954642319) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64593](https://github.com/microsoft/TypeScript/issues/64593) (Open)
+### [Issue microsoft/TypeScript#64593](https://github.com/microsoft/TypeScript/issues/64593) (Open, `Needs Investigation`, **gabritto**)
 
 **Reverse\-mapped inference exposes private members as public; since \#63932 this rejects \`f\<T\>\(\) as C\`**
 
@@ -427,7 +427,7 @@
 
  * created by **kirkouimet**
 
-### [PR microsoft/TypeScript#64594](https://github.com/microsoft/TypeScript/pull/64594) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64594](https://github.com/microsoft/TypeScript/pull/64594) (Open, `For Milestone Bug`, **gabritto**)
 
 **Skip non\-public members when resolving reverse\-mapped types**
 
