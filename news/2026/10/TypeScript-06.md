@@ -740,7 +740,7 @@
 
 **Compute signatures of dependent files in parallel on incremental rebuilds**
 
-*Split signature computation of dependent files into parallel tasks during incremental rebuilds, boosting multi-core performance.*
+*Declaration signatures for files dependent on an edited file are now computed in parallel during incremental rebuilds to significantly reduce build times.*
 
  * created by **resure**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`

@@ -1,6 +1,6 @@
 # Report for 2026-10-07 (Wednesday, October 7th, 2026)
 
-24 different users commented on 56 different issues.
+25 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -436,7 +436,7 @@
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript#64681](https://github.com/microsoft/TypeScript/pull/64681) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64681](https://github.com/microsoft/TypeScript/pull/64681) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Prepare for beta release**
 
@@ -444,6 +444,7 @@
 
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
+ * (later) **andrewbranch** closed the issue
 
 ### [PR microsoft/TypeScript#64682](https://github.com/microsoft/TypeScript/pull/64682) (Open, `For Backlog Bug`)
 
@@ -455,7 +456,7 @@
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64682#issuecomment-6055636297) **dmety** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64683](https://github.com/microsoft/TypeScript/issues/64683) (Open)
+### [Issue microsoft/TypeScript#64683](https://github.com/microsoft/TypeScript/issues/64683) (Open, `Bug`, **jakebailey**, **RyanCavanaugh**, **Copilot**)
 
 **Type printer recurses without limit into nested array/tuple types \(stack overflow; can leave later types \`any\`\)**
 
@@ -499,7 +500,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64687](https://github.com/microsoft/TypeScript/issues/64687) (Open)
+### [Issue microsoft/TypeScript#64687](https://github.com/microsoft/TypeScript/issues/64687) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Replacement libs load in an arbitrary order in TypeScript 7: \`sortLibs\` is not stable**
 
@@ -532,4 +533,27 @@
 *A regression in TypeScript 7.1.0-dev causes const type parameters to infer readonly[] instead of string[], resulting in a TS2322 error when returning ok([]) in a union return type.*
 
  * created by **paoValle**
+
+### [PR microsoft/TypeScript#64691](https://github.com/microsoft/TypeScript/pull/64691) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+
+**Shared data symbols**
+
+*Splitting Symbol into separate header and shared data parts in the checker reduces instantiated symbol size from 96 to 24 bytes.*
+
+ * created by **ahejlsberg**
+ * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **ahejlsberg**
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063291076) **ahejlsberg** said "@typescript-bot test it"
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063293654) **typescript-automation[bot]** reported the start and status of CI jobs for test top400, user test this, run dt, and perf test this faster, noting failures for run dt and perf test this faster
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063488049) **typescript-automation[bot]** said "@ahejlsberg, the perf run you requested failed. You can check the log here."
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063530173) **typescript-automation[bot]** notified that the DT test run failed and asked to check the log
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063591639) **ahejlsberg** said "@typescript-bot test it"
+ * [later](https://github.com/microsoft/TypeScript/pull/64691#issuecomment-6063593410) **typescript-automation[bot]** posted CI build status updates for several test commands
+
+### [Issue microsoft/TypeScript#64692](https://github.com/microsoft/TypeScript/issues/64692) (Open, `Needs Investigation`, **ahejlsberg**)
+
+**\[7\.0 regression\] Object literal passed to a method on a large union creates exponentially many types \(type order dependent\)**
+
+*Contextual typing an object literal against a large union in TypeScript 7.0.2 triggers exponential type instantiations and memory usage regression dependent on union ordering.*
+
+ * created by **ctriley**
 
