@@ -27,7 +27,7 @@
  * (5 weeks ago) **RyanCavanaugh** added label `Suggestion`, removed label `Needs Investigation`, and unassigned **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-5971241226) **leonidaz** explained that TSRX syntax compiles to virtual TSX and that no printer can reconstruct the original formatting, illustrating the issue with code examples
 
-### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Open, `For Uncommitted Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Closed, `For Uncommitted Bug`, **johnfav03**)
 
 **Index re\-exporting modules for declaration emit**
 

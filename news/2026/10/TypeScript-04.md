@@ -50,7 +50,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64626#issuecomment-5983058913) **splincode** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Closed, `Bug`)
 
 **\`import defer "\./a\.js"\` is accepted without an error, and the output drops \`defer\`**
 
@@ -164,7 +164,7 @@
  * created by **cplieger**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64640](https://github.com/microsoft/TypeScript/pull/64640) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64640](https://github.com/microsoft/TypeScript/pull/64640) (Closed, `For Uncommitted Bug`)
 
 **fix\(64627\): reject deferred imports without namespace bindings**
 
@@ -181,7 +181,7 @@
 
  * created by **cplieger**
 
-### [PR microsoft/TypeScript#64642](https://github.com/microsoft/TypeScript/pull/64642) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64642](https://github.com/microsoft/TypeScript/pull/64642) (Closed, `For Uncommitted Bug`)
 
 **Fix \`workspace/symbol\` crash on an inferred project without a program**
 

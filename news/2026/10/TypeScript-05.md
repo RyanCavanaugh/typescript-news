@@ -77,7 +77,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **Andarist** closed the issue
 
-### [Issue microsoft/TypeScript#64037](https://github.com/microsoft/TypeScript/issues/64037) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#64037](https://github.com/microsoft/TypeScript/issues/64037) (Open, `Bug`, **johnfav03**)
 
 **npx tsc \-w is triggering itself after each build**
 
@@ -205,7 +205,7 @@
  * (today) **weswigham** added label `Possible Improvement`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/issues/64625#issuecomment-5999865209) **weswigham** said "I've been meaning to get back to this architectural TODO for a bit - I'll clean it up, since someone actually came forward with a project it has outsized impact for."
 
-### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64627](https://github.com/microsoft/TypeScript/issues/64627) (Closed, `Bug`)
 
 **\`import defer "\./a\.js"\` is accepted without an error, and the output drops \`defer\`**
 
@@ -234,7 +234,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64647](https://github.com/microsoft/TypeScript/pull/64647) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64647](https://github.com/microsoft/TypeScript/pull/64647) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Expose API client modules from VS Code extension**
 
@@ -276,7 +276,7 @@
 
  * created by **lonix1**
 
-### [PR microsoft/TypeScript#64651](https://github.com/microsoft/TypeScript/pull/64651) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64651](https://github.com/microsoft/TypeScript/pull/64651) (Closed, `For Uncommitted Bug`)
 
 **Fix crashes on malformed destructuring assignments during emit**
 

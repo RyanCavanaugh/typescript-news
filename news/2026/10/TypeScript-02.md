@@ -1,6 +1,6 @@
 # Report for 2026-10-02 (Friday, October 2nd, 2026)
 
-20 different users commented on 62 different issues.
+20 different users commented on 63 different issues.
 
 ## Recommended Actions
 
@@ -117,7 +117,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/issues/64463#issuecomment-5873826780) **jakebailey** explained that the test verifies longstanding behavior of not closing the project on file close to avoid reloads and asked if the same was tried on TS 6.0
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Open, `For Uncommitted Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Closed, `For Uncommitted Bug`, **johnfav03**)
 
 **Index re\-exporting modules for declaration emit**
 

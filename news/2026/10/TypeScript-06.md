@@ -1,12 +1,11 @@
 # Report for 2026-10-06 (Tuesday, October 6th, 2026)
 
-20 different users commented on 82 different issues.
+20 different users commented on 83 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @Konan69 suggested adding test cases and opened PR #64671 in [microsoft/TypeScript#64431](https://github.com/microsoft/TypeScript/issues/64431#issuecomment-6041533127)
-    * @resure provided split PR link as requested in [microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469#issuecomment-6025419461)
     * @atscott asked for a way to push in-memory .ngtypecheck.ts files into TS-Go's VFS in [microsoft/TypeScript#64611](https://github.com/microsoft/TypeScript/issues/64611#issuecomment-6025772172)
     * @atscott provided a detailed list of missing API handlers and snapshot persistence requirements in [microsoft/TypeScript#64611](https://github.com/microsoft/TypeScript/issues/64611#issuecomment-6027930040)
     * @Lojhan asked whether content mapping was the intended way or if another API was planned for this use case in [microsoft/TypeScript#64611](https://github.com/microsoft/TypeScript/issues/64611#issuecomment-6037027784)
@@ -14,7 +13,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#59342](https://github.com/microsoft/TypeScript/issues/59342) (Open, `Needs Investigation`, **sheetalkamat**)
+### [Issue microsoft/TypeScript#59342](https://github.com/microsoft/TypeScript/issues/59342) (Closed, `Needs Investigation`, **sheetalkamat**)
 
 **⚡ Performance: Project service doesn't cache all fs\.realpath **
 
@@ -232,7 +231,7 @@
  * (1 week ago) **RyanCavanaugh** added label `Bug`, and assigned to **Copilot**, **RyanCavanaugh**
  * [later](https://github.com/microsoft/TypeScript/issues/64431#issuecomment-6041533127) **Konan69** described contextually typed parameters triggering TS7031 errors in recent nightly, validated that #64440 removes the errors, suggested adding test cases, and opened #64671 with an alternative patch
 
-### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Open, `For Uncommitted Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64469](https://github.com/microsoft/TypeScript/pull/64469) (Closed, `For Uncommitted Bug`, **johnfav03**)
 
 **Index re\-exporting modules for declaration emit**
 
@@ -624,7 +623,7 @@
  * created by **cplieger**
  * (today) **RyanCavanaugh** added label `Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64642](https://github.com/microsoft/TypeScript/pull/64642) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64642](https://github.com/microsoft/TypeScript/pull/64642) (Closed, `For Uncommitted Bug`)
 
 **Fix \`workspace/symbol\` crash on an inferred project without a program**
 
@@ -659,7 +658,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64650#issuecomment-6026942010) **RyanCavanaugh** noted that this feature request duplicated issue #51418 and explained that autoImportFileExcludePatterns cannot distinguish importer-sensitive file exclusions
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64651](https://github.com/microsoft/TypeScript/pull/64651) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64651](https://github.com/microsoft/TypeScript/pull/64651) (Closed, `For Uncommitted Bug`)
 
 **Fix crashes on malformed destructuring assignments during emit**
 
@@ -758,7 +757,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64660#issuecomment-6026726718) **Pitchfork-and-Torch** accepted the three error baselines from the containing-function change and updated test error reports accordingly
 
-### [Issue microsoft/TypeScript#64661](https://github.com/microsoft/TypeScript/issues/64661) (Open)
+### [Issue microsoft/TypeScript#64661](https://github.com/microsoft/TypeScript/issues/64661) (Open, `Bug`)
 
 **Class names \`eval\` and \`arguments\` are not reported as invalid strict mode bindings**
 
@@ -799,7 +798,7 @@
  * created by **typescript-automation[bot]**
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64665](https://github.com/microsoft/TypeScript/issues/64665) (Open)
+### [Issue microsoft/TypeScript#64665](https://github.com/microsoft/TypeScript/issues/64665) (Closed, `Bug`)
 
 **panic: Debug failure\. False expression: Undeclared private name for property declaration\.**
 
@@ -807,7 +806,7 @@
 
  * created by **YuanchengJiang**
 
-### [Issue microsoft/TypeScript#64666](https://github.com/microsoft/TypeScript/issues/64666) (Open)
+### [Issue microsoft/TypeScript#64666](https://github.com/microsoft/TypeScript/issues/64666) (Open, `Bug`)
 
 **panic: Diagnostic emitted without context**
 
@@ -815,7 +814,7 @@
 
  * created by **YuanchengJiang**
 
-### [Issue microsoft/TypeScript#64667](https://github.com/microsoft/TypeScript/issues/64667) (Open)
+### [Issue microsoft/TypeScript#64667](https://github.com/microsoft/TypeScript/issues/64667) (Open, `Bug`)
 
 **runtime error: invalid memory address or nil pointer dereference**
 
@@ -823,7 +822,7 @@
 
  * created by **YuanchengJiang**
 
-### [Issue microsoft/TypeScript#64668](https://github.com/microsoft/TypeScript/issues/64668) (Open)
+### [Issue microsoft/TypeScript#64668](https://github.com/microsoft/TypeScript/issues/64668) (Open, `Bug`)
 
 **panic: Unhandled case in Node\.MemberList**
 
@@ -831,7 +830,7 @@
 
  * created by **YuanchengJiang**
 
-### [Issue microsoft/TypeScript#64669](https://github.com/microsoft/TypeScript/issues/64669) (Open)
+### [Issue microsoft/TypeScript#64669](https://github.com/microsoft/TypeScript/issues/64669) (Open, `Bug`)
 
 **runtime error: invalid memory address or nil pointer dereference in getMembersOfSymbol**
 
@@ -839,7 +838,7 @@
 
  * created by **YuanchengJiang**
 
-### [PR microsoft/TypeScript#64670](https://github.com/microsoft/TypeScript/pull/64670) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64670](https://github.com/microsoft/TypeScript/pull/64670) (Closed, `For Backlog Bug`)
 
 **fix\(64665\): fix emit crash for duplicate private names in decorated classes**
 
