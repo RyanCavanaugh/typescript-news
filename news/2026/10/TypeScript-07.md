@@ -1,12 +1,12 @@
 # Report for 2026-10-07 (Wednesday, October 7th, 2026)
 
-25 different users commented on 58 different issues.
+25 different users commented on 59 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @michaelhazan asked why this feature wasn't integrated into TypeScript 7 in [microsoft/TypeScript#32063](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-6055145510)
-    * @leonidaz proposed potential solutions for handling non-exact matches in the TS 7.1 content mapper API in [microsoft/TypeScript#63879](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6047266432)
+    * @leonidaz proposed potential solutions for handling non-exact matches in the content mapper API in [microsoft/TypeScript#63879](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6047266432)
     * @elecmonkey asked about adding noEmit to OverrideCompilerOptions and offered to send a PR in [microsoft/TypeScript#64158](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-6054576820)
     * @RedesignedRobot asked if they should open a PR with this fix in [microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6053406731)
 
@@ -44,7 +44,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-5999263358) **andrewbranch** refuted that separate language servers would be required, stating that the API provides access to the existing TypeScript language server process and its state
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6004984124) **leonidaz** tested the 7.1.0-dev server and observed that extensions can connect and see unsaved changes but receive no Organize Imports edits or code fixes
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6007343299) **andrewbranch** requested that the commenter engage in discussion in a personal, concise voice rather than through lengthy AI-generated text
- * [today](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6047266432) **leonidaz** explained that the TS 7.1 content mapper API only edits tokens when source substrings exactly match generated code, noted this is unrealistic due to formatting differences, and proposed two solutions: naive mapping with formatting loss or client-provided callbacks to adjust edits
+ * [today](https://github.com/microsoft/TypeScript/issues/63879#issuecomment-6047266432) **leonidaz** responded to andrewbranch with detailed findings on TS 7.1 content mapper API limitations and proposed potential solutions
 
 ### [Issue microsoft/TypeScript#64037](https://github.com/microsoft/TypeScript/issues/64037) (Open, `Bug`, **johnfav03**)
 
@@ -68,11 +68,11 @@
  * (1 week ago) **iisaduan** closed the issue
  * [later](https://github.com/microsoft/TypeScript/pull/64158#issuecomment-6054576820) **elecmonkey** asked about adding noEmit to OverrideCompilerOptions and offered to send a PR
 
-### [PR microsoft/TypeScript#64307](https://github.com/microsoft/TypeScript/pull/64307) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64307](https://github.com/microsoft/TypeScript/pull/64307) (Open, `For Milestone Bug`, **ahejlsberg**)
 
 **Normalize distributed type parameters in conditional type relationships**
 
-*Normalize distributed type parameters on both source and target sides in conditional type relationships to resolve asymmetry and fix a regression*
+*Ensure target types in TypeScript conditional type relationships are instantiated to properly normalize distributed type parameters.*
 
  * (2 weeks ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [2 weeks ago](https://github.com/microsoft/TypeScript/pull/64307#issuecomment-5712772919) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
@@ -127,7 +127,7 @@
  * (today) **weswigham** closed the issue
  * [later](https://github.com/microsoft/TypeScript/pull/64469#issuecomment-6062593250) **resure** provided Spotify's Backstage as a large public repo example and benchmarked performance improvements with metrics
 
-### [PR microsoft/TypeScript#64588](https://github.com/microsoft/TypeScript/pull/64588) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64588](https://github.com/microsoft/TypeScript/pull/64588) (Closed, `For Uncommitted Bug`)
 
 **Restore symbol names in JSX import action titles**
 
@@ -138,7 +138,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript/pull/64588#issuecomment-5957506745) **jakebailey** said "Copilot absolutely hates this 😄 "
  * [later](https://github.com/microsoft/TypeScript/pull/64588#issuecomment-6056683833) **Andarist** noted disagreement with Copilot suggestions and asked if anything else should be addressed after adding extra coverage
 
-### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Open, `For Milestone Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Closed, `For Milestone Bug`, **weswigham**)
 
 **Check package reachability before using exports in declarations**
 
@@ -250,7 +250,7 @@
  * created by **JLHwung**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#64662](https://github.com/microsoft/TypeScript/pull/64662) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64662](https://github.com/microsoft/TypeScript/pull/64662) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**)
 
 **Unify recursive type naming during serialization**
 
@@ -403,7 +403,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64677#issuecomment-6058853215) **prettydiff** said "Thank you very much for the quick response!"
  * (later) **prettydiff** closed the issue
 
-### [PR microsoft/TypeScript#64678](https://github.com/microsoft/TypeScript/pull/64678) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64678](https://github.com/microsoft/TypeScript/pull/64678) (Closed, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Encapsulate Symbol fields with getters and setters**
 
@@ -500,7 +500,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64687](https://github.com/microsoft/TypeScript/issues/64687) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#64687](https://github.com/microsoft/TypeScript/issues/64687) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Replacement libs load in an arbitrary order in TypeScript 7: \`sortLibs\` is not stable**
 
@@ -534,7 +534,7 @@
 
  * created by **paoValle**
 
-### [PR microsoft/TypeScript#64691](https://github.com/microsoft/TypeScript/pull/64691) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64691](https://github.com/microsoft/TypeScript/pull/64691) (Closed, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Shared data symbols**
 

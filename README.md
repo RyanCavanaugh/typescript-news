@@ -2,10 +2,10 @@
 
 ## TypeScript
 
+- [Monday, October 12 2026](news/2026/10/TypeScript-12.md)
+- [Sunday, October 11 2026](news/2026/10/TypeScript-11.md)
+- [Saturday, October 10 2026](news/2026/10/TypeScript-10.md)
+- [Friday, October 9 2026](news/2026/10/TypeScript-09.md)
+- [Thursday, October 8 2026](news/2026/10/TypeScript-08.md)
 - [Wednesday, October 7 2026](news/2026/10/TypeScript-07.md)
-- [Tuesday, October 6 2026](news/2026/10/TypeScript-06.md)
-- [Monday, October 5 2026](news/2026/10/TypeScript-05.md)
-- [Sunday, October 4 2026](news/2026/10/TypeScript-04.md)
-- [Saturday, October 3 2026](news/2026/10/TypeScript-03.md)
-- [Friday, October 2 2026](news/2026/10/TypeScript-02.md)
 

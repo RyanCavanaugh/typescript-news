@@ -1,6 +1,6 @@
 # Report for 2026-10-06 (Tuesday, October 6th, 2026)
 
-20 different users commented on 83 different issues.
+20 different users commented on 84 different issues.
 
 ## Recommended Actions
 
@@ -299,7 +299,7 @@
  * (5 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#64585](https://github.com/microsoft/TypeScript/issues/64585) (Closed, `Duplicate`)
 
 **TS Symbol typing clashes with standard, idiomatic JS**
 
@@ -310,7 +310,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/issues/64585#issuecomment-5959601794) **michaelfig** identified the issue as a duplicate of #35909, offered to close it if the Related Work section of #64451 sufficed, and noted uncertainty about satisfying @typescript-automation
  * **RyanCavanaugh** added label `Duplicate`
 
-### [Issue microsoft/TypeScript#64590](https://github.com/microsoft/TypeScript/issues/64590) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64590](https://github.com/microsoft/TypeScript/issues/64590) (Closed, `Bug`, **weswigham**)
 
 **Declaration emit writes an import the file cannot resolve when the package has \`exports\`; no TS2883**
 
@@ -348,7 +348,7 @@
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64594#issuecomment-5956190388) **kirkouimet** said "@microsoft-github-policy-service agree"
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **gabritto**
 
-### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Open, `For Milestone Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64599](https://github.com/microsoft/TypeScript/pull/64599) (Closed, `For Milestone Bug`, **weswigham**)
 
 **Check package reachability before using exports in declarations**
 
@@ -497,7 +497,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64626#issuecomment-6026608504) **jakebailey** said "Has anything changed in 2 years? https://github.com/microsoft/TypeScript/issues/57352#issuecomment-1936596153"
  * [today](https://github.com/microsoft/TypeScript/pull/64626#issuecomment-6031954122) **splincode** explained that the patch preserves explicit `@internal` annotations with regression tests, clarified the narrower behavior change for incidental mentions, and offered to add a release note if needed
 
-### [Issue microsoft/TypeScript#64628](https://github.com/microsoft/TypeScript/issues/64628) (Open, `Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64628](https://github.com/microsoft/TypeScript/issues/64628) (Closed, `Bug`, **weswigham**)
 
 **JSDoc \`@private\` / \`@protected\` are dropped in declaration emit for properties declared by constructor assignment**
 
@@ -528,7 +528,7 @@
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `TypeScript 7.1.1 RC`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64631](https://github.com/microsoft/TypeScript/issues/64631) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64631](https://github.com/microsoft/TypeScript/issues/64631) (Closed, `Bug`, **andrewbranch**)
 
 **\[api\] A nested request from a resolveModuleName callback gets another request's answer**
 
@@ -601,7 +601,7 @@
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, removed label `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64639](https://github.com/microsoft/TypeScript/pull/64639) (Open, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64639](https://github.com/microsoft/TypeScript/pull/64639) (Closed, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Answer nested requests on the sync connection in stack order**
 
@@ -765,7 +765,7 @@
 
  * created by **JLHwung**
 
-### [PR microsoft/TypeScript#64662](https://github.com/microsoft/TypeScript/pull/64662) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64662](https://github.com/microsoft/TypeScript/pull/64662) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**)
 
 **Unify recursive type naming during serialization**
 
@@ -789,7 +789,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**, **andrewbranch**
 
-### [PR microsoft/TypeScript#64664](https://github.com/microsoft/TypeScript/pull/64664) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64664](https://github.com/microsoft/TypeScript/pull/64664) (Closed, `For Uncommitted Bug`)
 
 **Update localization files**
 
