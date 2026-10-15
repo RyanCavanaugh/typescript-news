@@ -1,12 +1,11 @@
 # Report for 2026-10-11 (Sunday, October 11th, 2026)
 
-17 different users commented on 26 different issues.
+16 different users commented on 27 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @mahesh-desu requested to be assigned to the issue in [microsoft/TypeScript#63814](https://github.com/microsoft/TypeScript/issues/63814#issuecomment-6123446810)
-    * @seunghyun-24 provided context for reproducing the issue in a pilot study in [microsoft/TypeScript#64730](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6125684442)
 
 ## Activity Summary
 
@@ -78,7 +77,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64487#issuecomment-6116717865) **dependabot[bot]** said "Looks like these dependencies are updatable in another way, so this is no longer needed."
  * (today) **dependabot[bot]** closed the issue
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Milestone Bug`, **ahejlsberg**)
 
 **\[experiment\] Skip incompatible discriminants when inferring**
 
@@ -108,13 +107,12 @@
 
  * created by **seunghyun-24**
  * [later](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6123969870) **jakebailey** said "Is this a problem, or something you just happened to notice?"
- * [later](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6125684442) **seunghyun-24** said "Just noticed it. It came up in a pilot study where I run the TS conformance tests through tsc 6.0 and 7.0 and compare the output. "
 
-### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Various memory optimizations**
 
-*Memory optimizations reduce TypeScript compiler memory usage by up to 29% via compact headers, compressed link stores, and batched allocations.*
+*Combined memory optimizations reduce memory usage by 22–29% and allocation counts by 3.6–16.6% across nine test scenarios.*
 
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6110569980) **jakebailey** said "@typescript-bot perf test this faster"
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6110570961) **typescript-automation[bot]** posted build status update with links to started jobs and results
@@ -136,7 +134,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6126970184) **typescript-automation[bot]** announced start of performance test jobs and provided build and result links
  * [later](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6127473879) **typescript-automation[bot]** posted the performance run results for the requested comparison
 
-### [PR microsoft/TypeScript#64735](https://github.com/microsoft/TypeScript/pull/64735) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64735](https://github.com/microsoft/TypeScript/pull/64735) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Resolve instantiated object members through a shared worker**
 
@@ -199,7 +197,7 @@
 
  * created by **MARCROCK22**
 
-### [PR microsoft/TypeScript#64741](https://github.com/microsoft/TypeScript/pull/64741) (Open, `For Uncommitted Bug`, `dependencies`, `github_actions`)
+### [PR microsoft/TypeScript#64741](https://github.com/microsoft/TypeScript/pull/64741) (Closed, `For Uncommitted Bug`, `dependencies`, `github_actions`)
 
 **Bump the github\-actions group across 1 directory with 6 updates**
 
@@ -209,7 +207,7 @@
  * (today) **dependabot[bot]** added labels `dependencies`, `github_actions`
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64742](https://github.com/microsoft/TypeScript/issues/64742) (Open)
+### [Issue microsoft/TypeScript#64742](https://github.com/microsoft/TypeScript/issues/64742) (Open, `Bug`)
 
 **Language server \(tsc \-\-lsp\) exits with code 1 after \`shutdown\` and \`exit\`**
 

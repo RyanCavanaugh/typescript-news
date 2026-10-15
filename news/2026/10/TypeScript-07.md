@@ -1,6 +1,6 @@
 # Report for 2026-10-07 (Wednesday, October 7th, 2026)
 
-25 different users commented on 59 different issues.
+25 different users commented on 60 different issues.
 
 ## Recommended Actions
 
@@ -285,7 +285,7 @@
  * created by **YuanchengJiang**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#64667](https://github.com/microsoft/TypeScript/issues/64667) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64667](https://github.com/microsoft/TypeScript/issues/64667) (Closed, `Bug`)
 
 **runtime error: invalid memory address or nil pointer dereference**
 
@@ -518,7 +518,7 @@
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **gabritto**
  * [later](https://github.com/microsoft/TypeScript/pull/64688#issuecomment-6055991306) **RedesignedRobot** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64689](https://github.com/microsoft/TypeScript/issues/64689) (Open)
+### [Issue microsoft/TypeScript#64689](https://github.com/microsoft/TypeScript/issues/64689) (Open, `Suggestion`)
 
 **TS 7 language server: "Add missing properties" quick fix not offered**
 
@@ -526,7 +526,7 @@
 
  * created by **erengeez**
 
-### [Issue microsoft/TypeScript#64690](https://github.com/microsoft/TypeScript/issues/64690) (Open)
+### [Issue microsoft/TypeScript#64690](https://github.com/microsoft/TypeScript/issues/64690) (Open, `Bug`, **ahejlsberg**)
 
 **TS2322: \`const\` type parameter infers \`readonly \[\]\`, rejected through a union return type \(7\.1\.0\-dev regression from typescript\-go\#4591\)**
 

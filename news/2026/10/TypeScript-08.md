@@ -1,6 +1,6 @@
 # Report for 2026-10-08 (Thursday, October 8th, 2026)
 
-18 different users commented on 32 different issues.
+18 different users commented on 35 different issues.
 
 ## Recommended Actions
 
@@ -166,7 +166,7 @@
  * (today) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Milestone Bug`, **ahejlsberg**)
 
 **\[experiment\] Skip incompatible discriminants when inferring**
 
@@ -197,7 +197,7 @@
 
 **feat: add missing properties and JSX attributes code fixes**
 
-*Adds code fixes to automatically insert missing properties and JSX attributes.*
+*Add missing properties and rectify JSX attribute handling via code fixes.*
 
  * created by **a-tarasyuk**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -225,7 +225,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64699#issuecomment-6069854530) **typescript-automation[bot]** reported that CI jobs started and that the comment would update as builds progress
  * [today](https://github.com/microsoft/TypeScript/pull/64699#issuecomment-6070367271) **typescript-automation[bot]** posted the performance run results that were requested by @jakebailey
 
-### [Issue microsoft/TypeScript#64700](https://github.com/microsoft/TypeScript/issues/64700) (Open)
+### [Issue microsoft/TypeScript#64700](https://github.com/microsoft/TypeScript/issues/64700) (Open, `Needs Investigation`, **andrewbranch**)
 
 **LSP middleware cannot handle \`textDocument/prepareRename\` errors, which blocks rename in embedded templates**
 
@@ -233,7 +233,7 @@
 
  * created by **mantou132**
 
-### [Issue microsoft/TypeScript#64701](https://github.com/microsoft/TypeScript/issues/64701) (Open)
+### [Issue microsoft/TypeScript#64701](https://github.com/microsoft/TypeScript/issues/64701) (Open, `Bug`)
 
 **typescript\-go: Infinite recursion in inferFromTypes via getReturnTypeOfSignature \(tsc 5\.9 OK\)**
 
@@ -241,7 +241,7 @@
 
  * created by **jandolezal71**
 
-### [Issue microsoft/TypeScript#64702](https://github.com/microsoft/TypeScript/issues/64702) (Open)
+### [Issue microsoft/TypeScript#64702](https://github.com/microsoft/TypeScript/issues/64702) (Open, `Help Wanted`, `Possible Improvement`)
 
 **\[7\.0 regression\] hover on calls through object properties loses function JSDoc while signature help works**
 
@@ -258,7 +258,7 @@
  * created by **Trighap52**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64704](https://github.com/microsoft/TypeScript/pull/64704) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64704](https://github.com/microsoft/TypeScript/pull/64704) (Open, `For Backlog Bug`)
 
 **Restore function signature documentation in native hover**
 
@@ -267,7 +267,7 @@
  * created by **lixiaoyan**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64705](https://github.com/microsoft/TypeScript/issues/64705) (Open)
+### [Issue microsoft/TypeScript#64705](https://github.com/microsoft/TypeScript/issues/64705) (Open, `Bug`)
 
 **False negative issues in function type parameters of ts2824**
 

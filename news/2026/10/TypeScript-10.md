@@ -1,6 +1,6 @@
 # Report for 2026-10-10 (Saturday, October 10th, 2026)
 
-15 different users commented on 20 different issues.
+15 different users commented on 21 different issues.
 
 ## Recommended Actions
 
@@ -66,7 +66,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/64668#issuecomment-6106820085) **andre-fajar-n** said "Could you share how to reproduce this bug? @YuanchengJiang "
  * [later](https://github.com/microsoft/TypeScript/issues/64668#issuecomment-6107485244) **YuanchengJiang** provided reproduction steps including tsc command, commit hashes, build configuration, and OS details
 
-### [Issue microsoft/TypeScript#64706](https://github.com/microsoft/TypeScript/issues/64706) (Open)
+### [Issue microsoft/TypeScript#64706](https://github.com/microsoft/TypeScript/issues/64706) (Open, `Bug`)
 
 **Declaration emit renames value references when a shadowed type parameter shares its parameter's name**
 
@@ -151,11 +151,11 @@
 
  * created by **trevorade**
 
-### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Various memory optimizations**
 
-*Memory optimizations reduce TypeScript compiler memory usage by up to 29% via compact headers, compressed link stores, and batched allocations.*
+*Combined memory optimizations reduce memory usage by 22–29% and allocation counts by 3.6–16.6% across nine test scenarios.*
 
  * created by **jakebailey**
  * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**

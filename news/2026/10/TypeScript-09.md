@@ -1,6 +1,6 @@
 # Report for 2026-10-09 (Friday, October 9th, 2026)
 
-17 different users commented on 40 different issues.
+17 different users commented on 41 different issues.
 
 ## Recommended Actions
 
@@ -176,7 +176,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64694#issuecomment-6090282721) **typescript-automation[bot]** reported the requested perf run results
  * [today](https://github.com/microsoft/TypeScript/pull/64694#issuecomment-6090885423) **typescript-automation[bot]** reported that running the top 400 repos tsc comparison between baseline and pr succeeded without issues
 
-### [Issue microsoft/TypeScript#64706](https://github.com/microsoft/TypeScript/issues/64706) (Open)
+### [Issue microsoft/TypeScript#64706](https://github.com/microsoft/TypeScript/issues/64706) (Open, `Bug`)
 
 **Declaration emit renames value references when a shadowed type parameter shares its parameter's name**
 
@@ -209,7 +209,7 @@
  * created by **andrewbranch**
  * (today) **andrewbranch** added labels `Discussion`, `Domain: API`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#64710](https://github.com/microsoft/TypeScript/issues/64710) (Open)
+### [Issue microsoft/TypeScript#64710](https://github.com/microsoft/TypeScript/issues/64710) (Open, **johnfav03**)
 
 **\[ServerErrors\]\[JavaScript\] main**
 
@@ -254,7 +254,7 @@
  * created by **colinhacks**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#64714](https://github.com/microsoft/TypeScript/issues/64714) (Open)
+### [Issue microsoft/TypeScript#64714](https://github.com/microsoft/TypeScript/issues/64714) (Open, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main**
 

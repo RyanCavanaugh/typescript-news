@@ -1,6 +1,6 @@
 # Report for 2026-10-12 (Monday, October 12th, 2026)
 
-18 different users commented on 58 different issues.
+18 different users commented on 61 different issues.
 
 ## Recommended Actions
 
@@ -197,7 +197,7 @@
  * (4 days ago) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Milestone Bug`, **ahejlsberg**)
 
 **\[experiment\] Skip incompatible discriminants when inferring**
 
@@ -274,11 +274,11 @@
  * created by **trevorade**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64734](https://github.com/microsoft/TypeScript/pull/64734) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Various memory optimizations**
 
-*Memory optimizations reduce TypeScript compiler memory usage by up to 29% via compact headers, compressed link stores, and batched allocations.*
+*Combined memory optimizations reduce memory usage by 22–29% and allocation counts by 3.6–16.6% across nine test scenarios.*
 
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6126968288) **jakebailey** said "@typescript-bot perf test this faster"
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6126970184) **typescript-automation[bot]** announced start of performance test jobs and provided build and result links
@@ -287,7 +287,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6134655235) **typescript-automation[bot]** initiated performance test builds and provided status and results links
  * [today](https://github.com/microsoft/TypeScript/pull/64734#issuecomment-6134989198) **typescript-automation[bot]** provided the performance run results with a comparison report for tsc metrics
 
-### [PR microsoft/TypeScript#64735](https://github.com/microsoft/TypeScript/pull/64735) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64735](https://github.com/microsoft/TypeScript/pull/64735) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Resolve instantiated object members through a shared worker**
 
@@ -375,7 +375,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#64754](https://github.com/microsoft/TypeScript/issues/64754) (Open)
+### [Issue microsoft/TypeScript#64754](https://github.com/microsoft/TypeScript/issues/64754) (Closed)
 
 **\[api\] createSnapshot never returns when the opened tsconfig\.json has a circular extends**
 
@@ -383,7 +383,7 @@
 
  * created by **cplieger**
 
-### [PR microsoft/TypeScript#64755](https://github.com/microsoft/TypeScript/pull/64755) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64755](https://github.com/microsoft/TypeScript/pull/64755) (Closed, `For Uncommitted Bug`)
 
 **\[api\] Leave a config out of its own extended source files**
 
@@ -434,7 +434,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64759#issuecomment-6137076111) **elecmonkey** said "@microsoft-github-policy-service agree"
  * [today](https://github.com/microsoft/TypeScript/pull/64759#issuecomment-6137357032) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64760](https://github.com/microsoft/TypeScript/issues/64760) (Open)
+### [Issue microsoft/TypeScript#64760](https://github.com/microsoft/TypeScript/issues/64760) (Open, `Bug`, **weswigham**)
 
 **Declaration emit writes = Infinity initializers for overflowing number literals \(invalid \.d\.ts, TS1254\)**
 
@@ -452,7 +452,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64761#issuecomment-6137295006) **sidcraftscode** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64762](https://github.com/microsoft/TypeScript/pull/64762) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64762](https://github.com/microsoft/TypeScript/pull/64762) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix symbol table kind mask**
 
@@ -464,7 +464,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64762#issuecomment-6138957785) **typescript-automation[bot]** reported build status for performance test and provided results link
  * [today](https://github.com/microsoft/TypeScript/pull/64762#issuecomment-6139283586) **typescript-automation[bot]** posted the requested perf run results
 
-### [Issue microsoft/TypeScript#64763](https://github.com/microsoft/TypeScript/issues/64763) (Open)
+### [Issue microsoft/TypeScript#64763](https://github.com/microsoft/TypeScript/issues/64763) (Open, `Won't Fix`)
 
 **Parser: exponential time and memory on nested \`a \< \(b = …\)\` \(failed type argument speculation is retried\)**
 
@@ -473,7 +473,7 @@
  * created by **moznion**
  * [today](https://github.com/microsoft/TypeScript/issues/64763#issuecomment-6139366580) **moznion** said "I’ve already prepared a patch in https://github.com/microsoft/TypeScript/compare/main...moznion:TypeScript:fix/parser-type-arguments-retry, so I’d be happy to submit a pull request to fix this issue."
 
-### [PR microsoft/TypeScript#64764](https://github.com/microsoft/TypeScript/pull/64764) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64764](https://github.com/microsoft/TypeScript/pull/64764) (Closed, `For Uncommitted Bug`)
 
 **Update localization files**
 
@@ -503,7 +503,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64765#issuecomment-6142780972) **typescript-automation[bot]** reported tsc user test results and confirmed everything looked good
  * [later](https://github.com/microsoft/TypeScript/pull/64765#issuecomment-6143576591) **typescript-automation[bot]** reported that running the top 400 repos tsc comparison between baseline and pr succeeded without issues
 
-### [Issue microsoft/TypeScript#64766](https://github.com/microsoft/TypeScript/issues/64766) (Open)
+### [Issue microsoft/TypeScript#64766](https://github.com/microsoft/TypeScript/issues/64766) (Open, `Bug`)
 
 **\`===\` narrowing of a primitive union now produces a non\-widening literal type \(regression from microsoft/typescript\-go\#4781\)**
 
@@ -523,7 +523,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64767#issuecomment-6143647694) **typescript-automation[bot]** announced that performance test jobs had started and provided status and results links
  * [later](https://github.com/microsoft/TypeScript/pull/64767#issuecomment-6144129514) **typescript-automation[bot]** posted the requested performance run results
 
-### [Issue microsoft/TypeScript#64768](https://github.com/microsoft/TypeScript/issues/64768) (Open)
+### [Issue microsoft/TypeScript#64768](https://github.com/microsoft/TypeScript/issues/64768) (Closed)
 
 **TS2536 indexing an \`as\`\-remapped mapped type by \`Exclude\<keyof T & string, \.\.\.\>\` \(native 7\.0\.2 only\)**
 
@@ -541,7 +541,7 @@
  * **vs-code-engineering[bot]** assigned to **dbaeumer**
  * **dbaeumer** unassigned **dbaeumer**
 
-### [PR microsoft/TypeScript#64770](https://github.com/microsoft/TypeScript/pull/64770) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64770](https://github.com/microsoft/TypeScript/pull/64770) (Closed, `For Backlog Bug`)
 
 **Fix nil panic when stripInternal elides type alias RHS**
 
@@ -550,7 +550,7 @@
  * created by **andre-fajar-n**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
 
-### [PR microsoft/TypeScript#64771](https://github.com/microsoft/TypeScript/pull/64771) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64771](https://github.com/microsoft/TypeScript/pull/64771) (Open, `For Milestone Bug`)
 
 **Preserve widening literals when narrowing primitive unions by equality**
 
@@ -559,7 +559,7 @@
  * created by **Andarist**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64772](https://github.com/microsoft/TypeScript/pull/64772) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64772](https://github.com/microsoft/TypeScript/pull/64772) (Closed, `For Uncommitted Bug`)
 
 **Port missing keyof simplification for generic mapped types with name types**
 
