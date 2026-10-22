@@ -1,31 +1,43 @@
-# Report for 2026-10-20 (Monday, October 19th, 2026)
+# Report for 2026-10-20 (Tuesday, October 20th, 2026)
 
-22 different users commented on 49 different issues.
+32 different users commented on 56 different issues.
 
 ## Recommended Actions
 
- * Moderation
-    * @frivanco97-cmd posted unclear or off-topic content in [microsoft/TypeScript#64880](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6280682950)
  * Response Recommended
-    * @erlichmen asked when the beta would be published or if a manual build from the release-7.1 branch is required in [microsoft/TypeScript#63703](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6285163659)
-    * @adilalperenciftci asked for another review and workflow approval in [microsoft/TypeScript#64360](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-6289784750)
-    * @smg99 asked for review from @jakebailey in [microsoft/TypeScript#64743](https://github.com/microsoft/TypeScript/pull/64743#issuecomment-6283523879)
-    * @NullVoxPopuli-ai-agent provided repro steps as requested in [microsoft/TypeScript#64828](https://github.com/microsoft/TypeScript/issues/64828#issuecomment-6276004130)
-    * @sunny-kavixo asked whether a maintainer could triage the issue and add it to the Backlog milestone in [microsoft/TypeScript#64875](https://github.com/microsoft/TypeScript/issues/64875#issuecomment-6283506910)
-    * @dotnetCarpenter provided repro steps as requested in [microsoft/TypeScript#64881](https://github.com/microsoft/TypeScript/issues/64881#issuecomment-6285040519)
+    * @jaydenfyi provided a workaround for JSON const behavior and linked the content mapper implementation in [microsoft/TypeScript#32063](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-6312789386)
+    * @BananaAcid asked if it had been implemented in any capacity in [microsoft/TypeScript#32830](https://github.com/microsoft/TypeScript/issues/32830#issuecomment-6319176762)
+    * @lishaduck asked if the API surface was frozen after the beta release and if further changes remained possible in [microsoft/TypeScript#64040](https://github.com/microsoft/TypeScript/pull/64040#issuecomment-6300165939)
+    * @salemkode provided repro steps and error details in [microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6299246463)
+    * @rajnish-verma-22172 offered to work on the issue and outlined a plan in [microsoft/TypeScript#64742](https://github.com/microsoft/TypeScript/issues/64742#issuecomment-6308382258)
+    * @jclaessens97 provided repro steps as requested in [microsoft/TypeScript#64757](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6318384069)
+    * @kennysarnoski-jarvis provided reproduction results and analysis in [microsoft/TypeScript#64757](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6319872131)
+    * @damerlanaga99-source provided debug configuration snippet in [microsoft/TypeScript#64889](https://github.com/microsoft/TypeScript/issues/64889#issuecomment-6311453284)
+    * @microsoft-github-policy-service requested CLA agreement in [microsoft/TypeScript#64894](https://github.com/microsoft/TypeScript/pull/64894#issuecomment-6309091346)
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#35909](https://github.com/microsoft/TypeScript/issues/35909) (Open, `Suggestion`, `Awaiting More Feedback`)
+### [Issue microsoft/TypeScript#32063](https://github.com/microsoft/TypeScript/issues/32063) (Open, `Suggestion`, `Awaiting More Feedback`)
 
-**Can't evaluate equality of symbols made by Symbol\.for**
+**import ConstJson from '\./config\.json' as const;**
 
-*TypeScript treats Symbol.for calls as distinct types, causing erroneous type errors on equality comparisons and assignments.*
+*Allow importing a JSON config file with a const modifier to infer literal union types for its values.*
 
- * [4.3 years ago](https://github.com/microsoft/TypeScript/issues/35909#issuecomment-1159692746) **pjeby** described a use case for interop using Symbol.for() and explained TypeScript's limitation without global symbol syntax
- * [1.7 years ago](https://github.com/microsoft/TypeScript/issues/35909#issuecomment-2585209754) **yuhr** reposted an excerpt from issue #60944 explaining the use-case for non-unique symbol keys to support multiple library versions and the compile-time issues with string keys
- * [19 weeks ago](https://github.com/microsoft/TypeScript/issues/35909#issuecomment-4626919034) **lygstate** said "It's a bug, can it fixed? As Symbol.for("literal") basically act like "literal" with symbol attribute"
- * [today](https://github.com/microsoft/TypeScript/issues/35909#issuecomment-6277055373) **michaelfig** encouraged people following the issue to review PR #64451 and provide feedback
+ * [15 weeks ago](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-4883967601) **james-pre** explained how to use npm v12's built-in dependency patching to patch TypeScript by adding a patchedDependencies entry in package.json and linking to a gist-hosted patch file
+ * [15 weeks ago](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-4885857717) **Chinoman10** described how to use npm’s built-in dependency patching in v12 to apply a TypeScript patch and noted that Bun’s patch feature is faster
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-6055145510) **michaelhazan** noted that TypeScript 7's go compiler prevented previous patching and asked why the feature wasn't part of TypeScript
+ * [later](https://github.com/microsoft/TypeScript/issues/32063#issuecomment-6312789386) **jaydenfyi** recommended using .json5 via motherload after TS broke const.json support and provided a TS 7.1 content mapper workaround with a GitHub link
+
+### [Issue microsoft/TypeScript#32830](https://github.com/microsoft/TypeScript/issues/32830) (Open, `Suggestion`, `Awaiting More Feedback`)
+
+**Configure from package\.json**
+
+*Support configuring TypeScript compiler options and project settings in package.json to declutter project roots.*
+
+ * [2.3 years ago](https://github.com/microsoft/TypeScript/issues/32830#issuecomment-2168509098) **pgbradbury** advised that critics could opt out and argued that the request only added an option rather than enforcing a style
+ * [2.3 years ago](https://github.com/microsoft/TypeScript/issues/32830#issuecomment-2168741545) **ljharb** described being forced to download the tsconfig twice due to package.json config
+ * [2.3 years ago](https://github.com/microsoft/TypeScript/issues/32830#issuecomment-2169026994) **cobaltt7** suggested passing package.json through a build step to remove extra keys and minify it, allowing tsconfig to be included
+ * [later](https://github.com/microsoft/TypeScript/issues/32830#issuecomment-6319176762) **BananaAcid** said "was it implemented in any capacity by now?"
 
 ### [Issue microsoft/TypeScript#63703](https://github.com/microsoft/TypeScript/issues/63703) (Open, `Planning`)
 
@@ -33,76 +45,62 @@
 
 *Roadmap for TypeScript 7.1 detailing milestones and features across compiler, editor productivity, and performance enhancements.*
 
- * [4 days ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6208709487) **typescript-automation[bot]** said "Hey, @DanielRosenwasser! I've created release-7.1 with version 7.1.0-beta for you."
- * [4 days ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6209347620) **DanielRosenwasser** said "This must be that agentic coding thing everyone's been talking about."
- * [4 days ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6209379214) **Smrtnyk** said "Can we expect beta blogpost soon?"
- * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276784242) **DanielRosenwasser** said "Yes, hopefully tomorrow. Sorry everyone!"
- * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276785916) **DanielRosenwasser** said "@typescript-bot sync release-7.1"
- * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276787389) **typescript-automation[bot]** provided build status update
- * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276993692) **typescript-automation[bot]** said "Hey, @DanielRosenwasser! I've pulled main into release-7.1 for you."
- * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6285163659) **erlichmen** asked when the 7.1.0-beta artifacts would be published and if users needed to build from the release-7.1 branch
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276787389) **typescript-automation[bot]** provided build status update
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6276993692) **typescript-automation[bot]** said "Hey, @DanielRosenwasser! I've pulled main into release-7.1 for you."
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6285163659) **erlichmen** asked when the 7.1.0-beta artifacts would be published and if users needed to build from the release-7.1 branch
+ * [today](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6297602298) **DanielRosenwasser** announced the beta release and creation of the v7.1-beta tag
 
-### [PR microsoft/TypeScript#64360](https://github.com/microsoft/TypeScript/pull/64360) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64040](https://github.com/microsoft/TypeScript/pull/64040) (Open, `For Uncommitted Bug`)
 
-**Fix union overload signature ordering instability**
+**Replace Node interface with discriminated unions **
 
-*Ensure consistent union overload resolution by ordering synthesized candidates based on each constituent’s signature precedence.*
+*Replace the Node interface with discriminated union types for improved type safety.*
 
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-6096350640) **adilalperenciftci** followed up on the PR, stated the branch was rebased cleanly on main with no conflicts, and asked for a review of the revised getUnionSignatures approach
- * [6 days ago](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-6154780445) **jakebailey** said "I don't think this PR is right but can't put my finger on why. Figuring out why it feels wrong probably means I have to figure out a fix myself, which defeats the purpose a bit."
- * [5 days ago](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-6186149807) **adilalperenciftci** removed the exact-arity signature expansion, preserved union-signature matching by using constituents’ reorderCandidates precedence, and reported successful test and build validation
- * [later](https://github.com/microsoft/TypeScript/pull/64360#issuecomment-6289784750) **adilalperenciftci** updated the PR description and asked for another review and approval of pending workflows
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [7 weeks ago](https://github.com/microsoft/TypeScript/pull/64040#issuecomment-5471848926) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [7 weeks ago](https://github.com/microsoft/TypeScript/pull/64040#issuecomment-5474929267) **typescript-automation[bot]** said "The TypeScript team hasn't accepted the linked issue #56275. If you can get it accepted, this PR will have a better chance of being reviewed."
+ * [today](https://github.com/microsoft/TypeScript/pull/64040#issuecomment-6300165939) **lishaduck** said "Now that the beta is out, is the API surface effectively frozen? Is this still a possibility?"
 
-### [PR microsoft/TypeScript#64376](https://github.com/microsoft/TypeScript/pull/64376) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#64169](https://github.com/microsoft/TypeScript/pull/64169) (Open, `For Backlog Bug`)
 
-**Negated Types: Change the meaning of \`{}\` to \`unknown & not null & not undefined\`**
+**Preserve \`\<\` in \`getChildren\(\)\` when type arguments begin with \`\<\`**
 
-*Redefine {} as non-null unknown instead of unknown, null, or undefined and enhance type-origin tracking for literal unions.*
+*Update getChildren() to preserve the leading “<” token when type arguments begin with “<”*
 
- * [1 month ago](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5765207254) **typescript-automation[bot]** said "Hey @weswigham, this PR changed while I was preparing the test run. Please try again."
- * [3 weeks ago](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5781570769) **weswigham** said "@typescript-bot test top1000"
- * [3 weeks ago](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-5781572035) **typescript-automation[bot]** announced that jobs had started and test top1000 build had begun with updates to follow
- * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-6272165576) **weswigham** said "@typescript-bot test this"
- * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-6272167221) **typescript-automation[bot]** reported build jobs started and provided status and result links for test top400, user test this, run dt, and perf test this faster
- * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-6272738846) **typescript-automation[bot]** posted the requested performance run results including a comparison report of baseline versus PR metrics
- * [today](https://github.com/microsoft/TypeScript/pull/64376#issuecomment-6278060293) **typescript-automation[bot]** notified that the DT test run failed and asked to check the log
+ * (6 weeks ago) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64169#issuecomment-6156966758) **jakebailey** said "Is there an equivalent to this in Corsa?"
+ * [later](https://github.com/microsoft/TypeScript/pull/64169#issuecomment-6314625081) **Andarist** said "@jakebailey i doublechecked with Strada and it had the same bug"
 
-### [PR microsoft/TypeScript#64411](https://github.com/microsoft/TypeScript/pull/64411) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [Issue microsoft/TypeScript#64431](https://github.com/microsoft/TypeScript/issues/64431) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
 
-**Preserve primitive literal union origins without special intersections**
+**TS7031 false positive for nested object binding pattern with \`= {}\` default in an annotated parameter \(regression from \#64043\)**
 
-*Preserve literal union origins for string, number, and bigint in completions and quick info without special intersections.*
+*Nested object destructuring with default {} in a typed parameter erroneously triggers TS7031 errors after PR #64043*
 
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6047591133) **typescript-automation[bot]** reported that test results comparing baseline and PR looked good
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6048381655) **typescript-automation[bot]** reported build results for the top 400 repos comparing baseline and PR and highlighted failures in pixijs
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6065878245) **weswigham** explained that test failures were expected follow-ons from removing mapped type behavior and suggested rewriting code to avoid denormalized union behavior
- * **weswigham** added to milestone `TypeScript 7.2.0 Beta`
- * [today](https://github.com/microsoft/TypeScript/pull/64411#issuecomment-6273627260) **weswigham** assumed the change wouldn't be included in 7.1 post-beta, moved the PR to the 7.2 milestone, and requested eventual reviews and removal of the analogous change from #64376
+ * (3 weeks ago) **RyanCavanaugh** assigned to **Copilot**, **RyanCavanaugh**
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64431#issuecomment-6041533127) **Konan69** described contextually typed parameters triggering TS7031 errors in recent nightly, validated that #64440 removes the errors, suggested adding test cases, and opened #64671 with an alternative patch
+ * [today](https://github.com/microsoft/TypeScript/issues/64431#issuecomment-6297398470) **connorshea** mentioned encountering the same regression when using typescript@next, noting it did not occur in their 7.0 dev release but appeared in ts 7.1
 
-### [Issue microsoft/TypeScript#64532](https://github.com/microsoft/TypeScript/issues/64532) (Open, `Needs Investigation`, **andrewbranch**)
+### [PR microsoft/TypeScript#64586](https://github.com/microsoft/TypeScript/pull/64586) (Closed, `For Backlog Bug`)
 
-**\[API\] \`getImmediateAliasedSymbol\` returns a different symbol than classic \`tsc\`**
+**Restore index signature details in property hovers**
 
-*getImmediateAliasedSymbol for namespace imports in TypeScript 7 returns a cloned symbol instead of the original file symbol when a module has a default export.*
+*Restore index signature details in TypeScript property hover tooltips to show key and value type information.*
 
- * (2 weeks ago) **RyanCavanaugh** set milestone to `TypeScript 7.1.1 RC`, and assigned to **andrewbranch**
- * [6 days ago](https://github.com/microsoft/TypeScript/issues/64532#issuecomment-6151189735) **andrewbranch** said "We have checker.getTargetSymbol(symbol). Does that not address this?"
- * [today](https://github.com/microsoft/TypeScript/issues/64532#issuecomment-6271815914) **dragomirtitian** said "@andrewbranch Does not seem to. getTargetSymbol returns the same symbol. "
+ * (2 weeks ago) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64586#issuecomment-6154874697) **jakebailey** said "This PR needs a merge from main"
+ * [later](https://github.com/microsoft/TypeScript/pull/64586#issuecomment-6314725767) **Andarist** said "@jakebailey done"
 
-### [PR microsoft/TypeScript#64659](https://github.com/microsoft/TypeScript/pull/64659) (Open, `For Uncommitted Bug`, **johnfav03**)
+### [Issue microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605) (Open, `Needs Investigation`, **gabritto**)
 
-**Compute signatures of dependent files in parallel on incremental rebuilds**
+**TS5115 in published Zod 4\.5–4\.6 types after \#64372**
 
-*Declaration signatures for files dependent on an edited file are now computed in parallel during incremental rebuilds to significantly reduce build times.*
+*Zod 4.5.0–4.6.5 z.json() types cause TS5115 infinite circularity errors in TypeScript 7.1 nightlies after PR #64372, impacting ~62M weekly downloads.*
 
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6025077510) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
- * **typescript-automation[bot]** assigned to **johnfav03**
- * [1 week ago](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6067067676) **resure** described changes to NewWorkGroup API by replacing singleThreaded with concurrency, removed the semaphore, applied limits per group, and reported unchanged performance
- * [today](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6272272305) **typescript-automation[bot]** reported build jobs starting and their result statuses
- * [today](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6272850835) **typescript-automation[bot]** notified that the DT test results were ready and unchanged
- * [today](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6272927629) **typescript-automation[bot]** provided the results of the performance run with a detailed comparison report
- * [today](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6273501427) **typescript-automation[bot]** reported that test results comparing baseline and PR looked good
- * [today](https://github.com/microsoft/TypeScript/pull/64659#issuecomment-6274117618) **typescript-automation[bot]** reported that tsc runs on the top 400 repos comparing baseline and pr succeeded
+ * **RyanCavanaugh** assigned to **gabritto**
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6053406731) **RedesignedRobot** traced the cause of a recursive member resolution issue introduced by #64372, proposed a fix that preserves declared members on a stack during inheritance resolution, reported passing tests and a cleaned-up baseline, and offered to open a PR
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6084855435) **rsnodgrass** confirmed the issue reproduced with TypeScript 7.1.0-dev and Zod 4.6.5, provided minimal reproduction code and version comparison, and requested review
+ * [today](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6299246463) **salemkode** confirmed reproduction on typescript@7.1.0-beta with a standalone zod example and provided reproduction steps and error output
 
 ### [PR microsoft/TypeScript#64679](https://github.com/microsoft/TypeScript/pull/64679) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
@@ -110,169 +108,175 @@
 
 *Add snapshot.rebase(newBaseSnapshot, changes) to overlay synthetic filesystem changes from an old snapshot onto a new one.*
 
- * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
- * [today](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6279317955) **andrewbranch** suggested renaming the API to use snapshot.update({ fileSystem: ... }) with createFileSystemWithBase for layering synthetic file system updates
+ * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6279317955) **andrewbranch** suggested renaming the API to use snapshot.update({ fileSystem: ... }) with createFileSystemWithBase for layering synthetic file system updates
+ * [today](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6302584141) **weswigham** asked which additional data should be merged in a snapshot "rebase" and noted that reusing ASTs would require reworking program construction
+ * [today](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6303338637) **andrewbranch** described concerns about ambiguity in the rebase API's unspecified base snapshot and potential confusion when using it on non-LSP snapshots
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Milestone Bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#64707](https://github.com/microsoft/TypeScript/issues/64707) (Open, `Bug`)
 
-**\[experiment\] Skip incompatible discriminants when inferring**
+**JSDoc\-generated namespaces not merged with default exports**
 
-*Experimentally skip incompatible discriminant properties during TypeScript union type inference to reduce workload and validate via tests.*
+*TypeScript does not merge JSDoc-created namespaces into default-exported classes, resulting in unresolved namespace member errors.*
 
- * **typescript-automation[bot]** assigned to **ahejlsberg**
- * [today](https://github.com/microsoft/TypeScript/pull/64695#issuecomment-6269790663) **weswigham** noted a neutral to +8% performance impact, suggested caching discriminable item results or re-adding an optional prop fast path to improve performance, and asked for test cases demonstrating improved inference results, referencing a prior PR
- * [today](https://github.com/microsoft/TypeScript/pull/64695#issuecomment-6270098644) **Andarist** mentioned having implemented the optional prop fast path locally and planning to push it and request a fresh rerun; noted having some test cases and intending to push them later this week; said they would review the linked PR and its tests
- * [today](https://github.com/microsoft/TypeScript/pull/64695#issuecomment-6272440480) **jakebailey** said "I'd hope we can make the perf better still? I really hope to not make us slower if we can avoid it"
+ * created by **donmccurdy**
+ * **RyanCavanaugh** added label `Bug`
 
-### [PR microsoft/TypeScript#64743](https://github.com/microsoft/TypeScript/pull/64743) (Open, `For Backlog Bug`)
+### [Issue microsoft/TypeScript#64708](https://github.com/microsoft/TypeScript/issues/64708) (Open, `Bug`)
 
-**Fix enum crash when namespace and enum share a name**
+**Unbounded memory in declaration emit for an inferred type built from non\-exported recursive aliases \(also hit by \`\-\-noEmit \-\-watch\`\)**
 
-*Guard enum value computation and treat ModuleBlock as a member container to prevent compiler panic when a namespace and enum share the same name.*
+*TypeScript's declaration emit and watch mode trigger unbounded memory growth when inferring exported types from non-exported recursive aliases.*
 
- * [6 days ago](https://github.com/microsoft/TypeScript/pull/64743#issuecomment-6140953790) **jakebailey** said "If you're not a person who can sign a CLA, I don't think you should be sending PRs"
- * [6 days ago](https://github.com/microsoft/TypeScript/pull/64743#issuecomment-6143495673) **smg99** said "@microsoft-github-policy-service agree"
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64743#issuecomment-6207033948) **smg99** clarified that they were submitting the PR as an independent contributor, offered to sign the Microsoft CLA individually if needed, asked if any contributor verification was outstanding, and noted that the earlier AST MemberList review finding was addressed in commit d064a4c4
- * [today](https://github.com/microsoft/TypeScript/pull/64743#issuecomment-6283523879) **smg99** clarified that they had signed the LCA and requested a review from @jakebailey
+ * created by **mattleonowicz**
+ * **RyanCavanaugh** added label `Bug`
 
-### [PR microsoft/TypeScript#64750](https://github.com/microsoft/TypeScript/pull/64750) (Open, `For Uncommitted Bug`)
+### [Issue microsoft/TypeScript#64715](https://github.com/microsoft/TypeScript/issues/64715) (Closed, `Fixed`)
 
-**Add support for Jujutsu conflict markers**
+**\`\-\-incremental\` keeps stale diagnostics after a change in a \`declare global\` block of a package declaration file \(7\.0\.2, regression from 6\.0\.3\)**
 
-*Extend TypeScript’s conflict marker detection to support Jujutsu-style markers using %, \ and + separators.*
+*TypeScript’s --incremental retains stale errors after modifying declare global block in a package .d.ts file, regressing from v6.0.3 to v7.0.2.*
 
- * [6 days ago](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6150291835) **RyanCavanaugh** inquired if opening an issue was mandatory or optional and suggested using an issue to discuss conflict marker forms
- * [6 days ago](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6159916825) **rf-** said "Good points, thanks @jakebailey! Apologies for not covering all of the possible formats, it definitely makes sense to do them all at once. I'll open an issue to ref in the PR."
- * [2 days ago](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6237153149) **rf-** questioned whether the couldStartTrivia function was vestigial dead code in Go and suggested its removal
- * [today](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6278628845) **jakebailey** said "I think we can probably just do the simple easy version of this and it be sufficient; this is a best effort recovery after all so I think that's ok."
+ * created by **plum117**
+ * [later](https://github.com/microsoft/TypeScript/issues/64715#issuecomment-6319369187) **RyanCavanaugh** said "This seems to be fixed in latest - I can confirm the repro on 7.0 but not 7.1-nightly."
+ * **RyanCavanaugh** added label `Fixed`
+ * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64823](https://github.com/microsoft/TypeScript/pull/64823) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64719](https://github.com/microsoft/TypeScript/issues/64719) (Open, `Possible Improvement`)
 
-**\[api\] Client performance optimizations**
+**\`export \*\` resolution allocates per re\-exported name, slowing checks of barrels over large modules**
 
-*Six independent client performance optimizations reduce processing time, memory allocations, and improve symbol lookup benchmark speeds.*
+*Per-name allocations during export * resolution cause excessive memory allocations and significant slowdowns when type-checking large barrel chains.*
 
- * (5 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
- * [today](https://github.com/microsoft/TypeScript/pull/64823#issuecomment-6278993230) **andrewbranch** said "@typescript-bot perf test api"
- * [today](https://github.com/microsoft/TypeScript/pull/64823#issuecomment-6278994430) **typescript-automation[bot]** reported that the perf test api build started and provided status links
- * (today) **andrewbranch** closed the issue
- * [today](https://github.com/microsoft/TypeScript/pull/64823#issuecomment-6279330552) **typescript-automation[bot]** said "@andrewbranch, the perf run you requested failed. You can check the log here."
+ * created by **gwkline**
+ * (later) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#64828](https://github.com/microsoft/TypeScript/issues/64828) (Open, `Needs Investigation`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64720](https://github.com/microsoft/TypeScript/issues/64720) (Closed)
 
-**Content mappers: go\-to\-definition on an module specifier returns nothing when the target file has more than one span\-map segment**
+**Declaration diagnostics allocate a diagnostic selector closure for every declaration visited**
 
-*Go-to-definition on module specifiers no longer finds .gts files containing multiple span-map segments after content mapper updates.*
+*Declaration diagnostics allocate a diagnostic selector closure for each visited declaration, causing performance overhead.*
 
- * (4 days ago) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **andrewbranch**
- * **andrewbranch** added to milestone `TypeScript 7.1.1 RC`
- * [today](https://github.com/microsoft/TypeScript/issues/64828#issuecomment-6276004130) **NullVoxPopuli-ai-agent** provided a minimal reproduction without Ember or Glint, corrected the trigger to export-from statements, and showed span-mapping outputs across TypeScript versions
+ * created by **gwkline**
+ * [today](https://github.com/microsoft/TypeScript/issues/64720#issuecomment-6295601315) **gwkline** said "Closing with #64723; the win is too small to pursue on its own."
+ * (today) **gwkline** closed the issue
 
-### [PR microsoft/TypeScript#64834](https://github.com/microsoft/TypeScript/pull/64834) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**, **johnfav03**)
+### [Issue microsoft/TypeScript#64721](https://github.com/microsoft/TypeScript/issues/64721) (Closed)
 
-**Always cache \`getTypeOfSymbol\` and handle circularities**
+**Module specifier generation rescans package\.json \`exports\` and tsconfig \`paths\` for every importing file**
 
-*Unify caching and circularity handling in getTypeOfSymbol to fix flaky resolutions and inconsistent return types.*
+*Module specifier generation repeatedly rescans package.json exports and tsconfig paths per import, slowing declaration emit.*
 
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6200956272) **typescript-automation[bot]** posted the requested perf run results comparing baseline and PR metrics
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6200969765) **typescript-automation[bot]** reported tsc user test results and confirmed everything looked good
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6202184254) **typescript-automation[bot]** reported that running the top 400 repos tsc comparison between baseline and pr succeeded without issues
- * [today](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6277006501) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6277008424) **typescript-automation[bot]** reported that CI jobs started with status and result links
- * [today](https://github.com/microsoft/TypeScript/pull/64834#issuecomment-6277586469) **typescript-automation[bot]** provided the requested performance run results
+ * created by **gwkline**
+ * [today](https://github.com/microsoft/TypeScript/issues/64721#issuecomment-6295602190) **gwkline** said "Closing with #64724; withdrawn to keep focus on #64722."
+ * (today) **gwkline** closed the issue
 
-### [PR microsoft/TypeScript#64837](https://github.com/microsoft/TypeScript/pull/64837) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#64722](https://github.com/microsoft/TypeScript/pull/64722) (Open, `For Backlog Bug`)
 
-**Make LSP server load content mappers only from node\_modules inside workspace folders**
+**Merge export \* tables without per\-name collision trackers**
 
-*Restrict TypeScript LSP server to load content mappers only from node_modules within workspace folders to prevent loading from untrusted directories.*
+*Improve performance of export * by merging tables directly, pre-sizing them, and only tracking collisions when needed.*
 
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64837#issuecomment-6203631315) **jakebailey** said "For that last commit, why can't we check this after tsoptions is done instead of having to reintroduce the config host?"
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64837#issuecomment-6203732837) **andrewbranch** explained why performing the check during parsing was preferable, citing consistency with other diagnostics, ability to return a zero manifest, and prevention of unauthorized execution
- * [4 days ago](https://github.com/microsoft/TypeScript/pull/64837#issuecomment-6203852216) **jakebailey** said "That's fair, just lamenting a bit reintroducing that layer when I just got rid of it 😄 "
- * (today) **andrewbranch** closed the issue
+ * created by **gwkline**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64722#issuecomment-6100021037) **gwkline** said "@microsoft-github-policy-service agree"
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64848](https://github.com/microsoft/TypeScript/issues/64848) (Open)
+### [PR microsoft/TypeScript#64723](https://github.com/microsoft/TypeScript/pull/64723) (Closed, `For Uncommitted Bug`)
 
-**TypeScript 7\.1 regression: quadratic root scanning in settled no\-op builds**
+**Create declaration emit diagnostic selectors on demand**
 
-*TypeScript 7.1 regression causes no-op build performance degradation by quadratically scanning roots during up-to-date checks*
+*Delay creation of symbol accessibility diagnostic selectors until needed during declaration file emission to eliminate unnecessary allocations and improve performance.*
 
- * created by **turadg**
- * [today](https://github.com/microsoft/TypeScript/issues/64848#issuecomment-6277974971) **sunny-kavixo** thanked the previous commenter and stated an intention to independently verify the regression and share any findings
+ * created by **gwkline**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64723#issuecomment-6295599026) **gwkline** said "Withdrawing: the time win is too small to justify reviewer attention on its own. Keeping #64722, which is the change that actually moves check time."
+ * (today) **gwkline** closed the issue
 
-### [Issue microsoft/TypeScript#64852](https://github.com/microsoft/TypeScript/issues/64852) (Open)
+### [PR microsoft/TypeScript#64724](https://github.com/microsoft/TypeScript/pull/64724) (Closed, `For Uncommitted Bug`)
 
-**Support Jujutsu conflict markers**
+**Cache exports lookups and path patterns in module specifier generation**
 
-*Add parsing support for Jujutsu's custom conflict marker syntax to prevent spurious TypeScript errors*
+*Cache exports and paths lookups in the module specifier generator to reduce redundant resolution work.*
 
- * created by **rf-**
- * [today](https://github.com/microsoft/TypeScript/issues/64852#issuecomment-6278616021) **jakebailey** said "I think we can just do the simple version and it would probably be sufficient."
+ * created by **gwkline**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64724#issuecomment-6295599958) **gwkline** said "Withdrawing to keep the review queue focused on #64722. The emit-side caching here is a larger host/interface change than the win warrants right now."
+ * (today) **gwkline** closed the issue
 
-### [Issue microsoft/TypeScript#64855](https://github.com/microsoft/TypeScript/issues/64855) (Open, `Design Limitation`)
+### [Issue microsoft/TypeScript#64725](https://github.com/microsoft/TypeScript/issues/64725) (Open, `Bug`, **RyanCavanaugh**, **iisaduan**, **Copilot**)
 
-**"This expression is not callable\." false positive on union of generic functions where the call is valid for all types in the union**
+**Crash \(nil pointer in getPropertyOfObjectType\) under \-\-noLib when a global import x = T\.m names a type**
 
-*TypeScript reports a false "not callable" error when calling a union of compatible generic functions.*
+*Compiler crashes with nil pointer dereference in getPropertyOfObjectType when using a global import alias for a type under --noLib*
 
- * created by **DetachHead**
- * [yesterday](https://github.com/microsoft/TypeScript/issues/64855#issuecomment-6251795447) **jcalz** described known limitation of union call signatures allowing at most one overloaded and one generic member and noted that two generic members prevent unification
- * **RyanCavanaugh** added label `Design Limitation`
- * [today](https://github.com/microsoft/TypeScript/issues/64855#issuecomment-6275255340) **RyanCavanaugh** explained that there was no sound and performant fix, that the signature reduction rule didn’t apply, and that they wouldn’t add iterative mechanics due to potential exponential checking complexity
+ * created by **YuanchengJiang**
+ * (later) **RyanCavanaugh** added label `Bug`, and assigned to **iisaduan**, **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#64864](https://github.com/microsoft/TypeScript/issues/64864) (Open, **andrewbranch**, **Copilot**)
+### [Issue microsoft/TypeScript#64730](https://github.com/microsoft/TypeScript/issues/64730) (Closed, `Fixed`)
 
-**Some JS API types don't match their runtime values**
+**TS 7\.0 reports declaration\-emit diagnostics \(e\.g\. TS2527\) under \-\-noEmit when other semantic errors exist; TS 6\.0 does not \(undocumented difference\)**
 
-*Several TypeScript JS API type definitions in the sync and AST packages misrepresent actual runtime property types, causing mismatches.*
+*TypeScript 7.0 reports declaration-emit diagnostics under --noEmit when other semantic errors are present, unlike 6.0.*
 
- * created by **auvred**
- * **jakebailey** assigned to **andrewbranch**
+ * created by **seunghyun-24**
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6123969870) **jakebailey** said "Is this a problem, or something you just happened to notice?"
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6158338383) **seunghyun-24** explained that they just noticed the issue during a pilot study comparing TS conformance test outputs between tsc 6.0 and 7.0
+ * [later](https://github.com/microsoft/TypeScript/issues/64730#issuecomment-6319483186) **RyanCavanaugh** said "This appears to be fixed. Repros in 7.0.2 but not 7.1 nightly"
+ * **RyanCavanaugh** added label `Fixed`
+ * (later) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64866](https://github.com/microsoft/TypeScript/pull/64866) (Closed, `Author: Team`, `For Uncommitted Bug`, **joj**)
+### [Issue microsoft/TypeScript#64742](https://github.com/microsoft/TypeScript/issues/64742) (Open, `Bug`)
 
-**Use supported MicroBuild source\-analysis pool**
+**Language server \(tsc \-\-lsp\) exits with code 1 after \`shutdown\` and \`exit\`**
 
-*Change sdl.sourceAnalysisPool from VSEngSS-MicroBuild2022-1ES to VSEng-MicroBuildVSStable in TypeScript and VSCode pipeline YAMLs.*
+*TypeScript 7's LSP server unexpectedly exits with code 1 after receiving shutdown and exit notifications*
 
- * created by **joj**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **joj**
- * [today](https://github.com/microsoft/TypeScript/pull/64866#issuecomment-6271834331) **jakebailey** said "This is one file but that same pool is used in multiple different pipelines and they all need to be fixed."
- * (today) **jakebailey** closed the issue
+ * created by **creasty**
+ * (6 days ago) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+ * [today](https://github.com/microsoft/TypeScript/issues/64742#issuecomment-6308382258) **rajnish-verma-22172** offered to add an LSP lifecycle regression test for clean shutdown/exit and implement minimal changes to distinguish valid and invalid shutdown sequences
 
-### [PR microsoft/TypeScript#64867](https://github.com/microsoft/TypeScript/pull/64867) (Open, `Author: Team`, `For Milestone Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64757](https://github.com/microsoft/TypeScript/issues/64757) (Open, `Needs Investigation`, **ahejlsberg**)
 
-**Restore behavior of getImmediateAliasedSymbol**
+**Regression in 7\.1 \(\#64553\): R inferred as unknown through a generic type alias call signature with a nested same\-type argument**
 
-*Restore getImmediateAliasedSymbol’s previous behavior to ensure consistent TypeScript 6 API semantics.*
+*A TypeScript 7.1 regression makes R infer as unknown rather than Req in a nested generic type alias call signature.*
 
- * created by **andrewbranch**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **andrewbranch**
+ * created by **kennysarnoski-jarvis**
+ * [later](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6318384069) **jclaessens97** reported a type inference regression in TypeScript 7.1-dev causing incorrect 'unknown' results with a generic alias in Prisma nested selects and provided a reproduction case
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **ahejlsberg**
+ * [later](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6319872131) **kennysarnoski-jarvis** ran the repro locally and confirmed regression TS2571 on nightly builds, described inference failure conditions and downstream tool impact
 
-### [PR microsoft/TypeScript#64868](https://github.com/microsoft/TypeScript/pull/64868) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [Issue microsoft/TypeScript#64758](https://github.com/microsoft/TypeScript/issues/64758) (Open, `Bug`)
 
-**Compare names before symbols when matching flow references**
+**TS7 LSP: documentHighlight returns nothing when the file path contains '@'**
 
-*Compare declaration and reference names before symbol lookup to reduce analysis overhead and improve performance.*
+*DocumentHighlight fails for file paths containing '@' because TS7 LSP server percent-encodes '@' as '%40' while client does not.*
 
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64868#issuecomment-6272836805) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64868#issuecomment-6272839100) **typescript-automation[bot]** started performance tests and posted links to build status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64868#issuecomment-6273381312) **typescript-automation[bot]** provided the requested performance run results
+ * created by **snapwich**
+ * **RyanCavanaugh** added label `Bug`
 
-### [PR microsoft/TypeScript#64869](https://github.com/microsoft/TypeScript/pull/64869) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [Issue microsoft/TypeScript#64769](https://github.com/microsoft/TypeScript/issues/64769) (Open, `Bug`)
 
-**Store merged symbols in a paged symbol link store**
+**Refactor \> \.\.\.  does nothing /  fails silently for \.tsx components that consume css module style\(s\)**
 
-*Use a paged symbol link store indexed by dense symbol IDs to avoid getMergedSymbol map misses and improve performance.*
+*Refactoring TSX components that import CSS module styles with “Move to new file” fails silently due to a TypeScript Server error.*
 
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64869#issuecomment-6273344912) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64869#issuecomment-6273347159) **typescript-automation[bot]** started build jobs and posted status and results links
- * [today](https://github.com/microsoft/TypeScript/pull/64869#issuecomment-6274004601) **typescript-automation[bot]** posted the requested performance run results including a comparison report of tsc metrics such as errors, symbols, types, memory used, and memory allocations
+ * created by **IanBellomy**
+ * **vs-code-engineering[bot]** assigned to **dbaeumer**
+ * **dbaeumer** unassigned **dbaeumer**
+ * **RyanCavanaugh** added label `Bug`
+
+### [PR microsoft/TypeScript#64821](https://github.com/microsoft/TypeScript/pull/64821) (Open, `For Backlog Bug`)
+
+**Clear auto\-import specifier cache when module specifier preferences change**
+
+*Clear auto-import specifier cache on any module specifier preference change to ensure updated import suggestions for open files.*
+
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [5 days ago](https://github.com/microsoft/TypeScript/pull/64821#issuecomment-6201876867) **RyanCavanaugh** challenged the claim that the cache was only cleared on preference changes and requested checking relevant preference values before clearing the cache
+ * [5 days ago](https://github.com/microsoft/TypeScript/pull/64821#issuecomment-6202441973) **lsh4711** changed cache clearing to only trigger when ModuleSpecifierPreferences changed, added an Equal method to UserPreferences and added a unit test for it
+ * [later](https://github.com/microsoft/TypeScript/pull/64821#issuecomment-6314482381) **lsh4711** asked whether to wait for the PR to land or open the follow-up as a stacked PR
 
 ### [PR microsoft/TypeScript#64870](https://github.com/microsoft/TypeScript/pull/64870) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
@@ -280,122 +284,16 @@
 
 *Tweak checker affinity settings to optimize resource allocation and improve performance*
 
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6273341235) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6273343183) **typescript-automation[bot]** reported that performance tests started and provided links to build status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6273868261) **typescript-automation[bot]** posted the requested perf run results
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6275528700) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6275530895) **typescript-automation[bot]** announced that performance tests had started and provided links to build status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6276045335) **typescript-automation[bot]** posted the results of the requested performance run
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6276396799) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6276398446) **typescript-automation[bot]** started build jobs and posted their initial status and result links
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6276934321) **typescript-automation[bot]** posted the requested performance run results
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6281774913) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6281776110) **typescript-automation[bot]** started performance test jobs and posted build status and results links
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6282118799) **typescript-automation[bot]** provided the requested performance run results in a detailed report
- * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6283574843) **jakebailey** said "vscode is really sensitive to checker assignment, they have one file that takes a lot more time than otherwise, and benchmarks run unpinned and therefore we see noise"
- * [later](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286028333) **jakebailey** explained why the bot regression on vscode and mui-docs occurred due to grouping files by directory and cost estimate inaccuracies, and outlined eight attempted scheduling variants
- * [later](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286227764) **jakebailey** said "@typescript-bot perf test"
- * [later](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286229347) **typescript-automation[bot]** reported start of perf test build jobs and provided status and results links
- * [later](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286762401) **typescript-automation[bot]** reported the results of the requested performance run
-
-### [PR microsoft/TypeScript#64871](https://github.com/microsoft/TypeScript/pull/64871) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Avoid hashing keys in active mapper instantiation caches**
-
-*Avoid hashing 128-bit keys for active mapper instantiations and instead use only the type ID when probing the cache.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64871#issuecomment-6273514770) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64871#issuecomment-6273516583) **typescript-automation[bot]** posted automated build status update
- * [today](https://github.com/microsoft/TypeScript/pull/64871#issuecomment-6274131092) **typescript-automation[bot]** posted perf run results for baseline..pr including metrics for compiler unions - native scenario such as errors, symbols, types, memory usage, and memory allocations
-
-### [PR microsoft/TypeScript#64872](https://github.com/microsoft/TypeScript/pull/64872) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Use paged link stores for all symbol links**
-
-*Use paged link stores for all symbol link types to reduce map lookups and improve performance at minimal memory cost.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6273530369) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6273532095) **typescript-automation[bot]** started CI jobs and provided a status table
- * [today](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6274246320) **typescript-automation[bot]** reported the results of the requested perf run
-
-### [PR microsoft/TypeScript#64873](https://github.com/microsoft/TypeScript/pull/64873) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Don't resolve mapped type members to find their signatures**
-
-*Avoid resolving mapped type members for signature checks to prevent unnecessary property building and improve compiler performance.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64873#issuecomment-6273551956) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64873#issuecomment-6273553933) **typescript-automation[bot]** announced that performance tests had started and provided links to status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64873#issuecomment-6274310316) **typescript-automation[bot]** posted the requested perf run results including a comparison report and detailed metrics
-
-### [PR microsoft/TypeScript#64874](https://github.com/microsoft/TypeScript/pull/64874) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
-
-**Update CI workflow to include 'weswigham/\*' branches**
-
-*Include 'weswigham/*' branches in the CI workflow so that stacked pull requests always trigger CI on push.*
-
- * created by **weswigham**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
- * (today) **weswigham** closed the issue
-
-### [Issue microsoft/TypeScript#64875](https://github.com/microsoft/TypeScript/issues/64875) (Open)
-
-**Incremental compile panics on a failed output write, or never retries it**
-
-*TypeScript incremental compilation panics on failed file writes when declarations are enabled and never retries writes otherwise.*
-
- * created by **YevheniiKotyrlo**
- * [today](https://github.com/microsoft/TypeScript/issues/64875#issuecomment-6275917842) **sunny-kavixo** thanked the reporter and said they started investigating the incremental compilation failures, planned to reproduce the issue, explore a minimal fix with regression tests, and prepare a PR if successful
- * [today](https://github.com/microsoft/TypeScript/issues/64875#issuecomment-6277364909) **YevheniiKotyrlo** said "Love it! Thank You @sunny-kavixo!"
- * [today](https://github.com/microsoft/TypeScript/issues/64875#issuecomment-6277558110) **sunny-kavixo** thanked @YevheniiKotyrlo and reported reproducing both behaviors, said they were working on a minimal fix and regression tests, and promised to share an update once validated
- * [today](https://github.com/microsoft/TypeScript/issues/64875#issuecomment-6283506910) **sunny-kavixo** completed a focused fix for issue #64875 addressing nil-pointer panic and output-write retries, passed regression and validation tests, and requested a maintainer to triage the associated issue and add it to the Backlog milestone
-
-### [PR microsoft/TypeScript#64876](https://github.com/microsoft/TypeScript/pull/64876) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Count intersection property names with a plain map and slice**
-
-*Count intersection property names using a plain map and slice, benchmark performance differences, and note conflict with issue #64815.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64876#issuecomment-6274666942) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64876#issuecomment-6274668722) **typescript-automation[bot]** reported that the 'perf test this faster' job had started with links to build and results
- * [today](https://github.com/microsoft/TypeScript/pull/64876#issuecomment-6275219511) **typescript-automation[bot]** reported requested performance run results
-
-### [PR microsoft/TypeScript#64877](https://github.com/microsoft/TypeScript/pull/64877) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
-
-**LSP perf optimizations**
-
-*LSP performance optimizations in the TypeScript compiler reduce time, memory, and allocations in VSCode benchmarks by up to 43%.*
-
- * created by **andrewbranch**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6275193723) **andrewbranch** said "@typescript-bot perf test this"
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6275195944) **typescript-automation[bot]** reported start of performance tests and provided links to build status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6275829124) **typescript-automation[bot]** provided the requested performance run results
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6277582400) **andrewbranch** said "@typescript-bot perf test"
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6277584246) **typescript-automation[bot]** reported that CI jobs for perf test started and provided links to build results
- * [today](https://github.com/microsoft/TypeScript/pull/64877#issuecomment-6278207578) **typescript-automation[bot]** posted the requested performance run results
-
-### [PR microsoft/TypeScript#64878](https://github.com/microsoft/TypeScript/pull/64878) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Skip assignments when narrowing identifiers**
-
-*Skip assignment operations during identifier narrowing to improve filtering accuracy.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64878#issuecomment-6276912429) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64878#issuecomment-6276914193) **typescript-automation[bot]** posted automated build start status for `perf test this faster` command
- * [today](https://github.com/microsoft/TypeScript/pull/64878#issuecomment-6277464418) **typescript-automation[bot]** reported the requested perf run results including a baseline vs PR comparison table
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286227764) **jakebailey** said "@typescript-bot perf test"
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286229347) **typescript-automation[bot]** reported start of perf test build jobs and provided status and results links
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6286762401) **typescript-automation[bot]** reported the results of the requested performance run
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6296288450) **jakebailey** said "@typescript-bot perf test"
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6296290466) **typescript-automation[bot]** announced that CI performance tests had started and that results would be updated as builds progressed
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6296439993) **jakebailey** described follow-up experiments with spreading directory areas, reported inconsistent performance regressions across projects, and parked the PR as a draft
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6296873758) **typescript-automation[bot]** posted requested performance run results in a comparison report
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6297488734) **jakebailey** said "@typescript-bot perf test this faster"
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6297490582) **typescript-automation[bot]** reported that the perf test started and provided links to build status and results
+ * [today](https://github.com/microsoft/TypeScript/pull/64870#issuecomment-6298053666) **typescript-automation[bot]** reported the performance run results requested by @jakebailey
 
 ### [PR microsoft/TypeScript#64879](https://github.com/microsoft/TypeScript/pull/64879) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
@@ -403,65 +301,192 @@
 
 *Remove package.json imports to support direct CDN loading and output enums in a top-level distribution folder*
 
- * created by **andrewbranch**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
- * [today](https://github.com/microsoft/TypeScript/pull/64879#issuecomment-6278891207) **andrewbranch** said "Actually, I guess we could just put the enums in some other top-level directory besides dist, similar to vendor"
+ * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64879#issuecomment-6278891207) **andrewbranch** said "Actually, I guess we could just put the enums in some other top-level directory besides dist, similar to vendor"
+ * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64880](https://github.com/microsoft/TypeScript/pull/64880) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
-
-**Memoize repeated inference walks**
-
-*Implement memoization to cache and reuse results of repeated inference walks for performance improvement.*
-
- * created by **jakebailey**
- * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
- * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6279374891) **jakebailey** said "@typescript-bot perf test this faster"
- * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6279376021) **typescript-automation[bot]** reported that performance tests started and provided links for build status and results
- * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6279767469) **typescript-automation[bot]** provided the performance run results requested by @jakebailey
- * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6280682950) **frivanco97-cmd** said "Repositorios.. "
-
-### [Issue microsoft/TypeScript#64881](https://github.com/microsoft/TypeScript/issues/64881) (Closed)
-
-**Missing Iterator Helper Methods on Generators in Vanilla JS using @ts\-check**
-
-*TypeScript @ts-check doesn’t recognize iterator helper methods like reduce on generator and IteratorObject return types.*
-
- * created by **dotnetCarpenter**
- * [today](https://github.com/microsoft/TypeScript/issues/64881#issuecomment-6282435230) **bakkot** advised to set the target to ES2025 or later and provided a playground link
- * [today](https://github.com/microsoft/TypeScript/issues/64881#issuecomment-6285040519) **dotnetCarpenter** provided a jsconfig.json configuration with target set to es2025 and noted that VSCode 1.142.0 defaults to ES2024
- * (today) **dotnetCarpenter** closed the issue
-
-### [Issue microsoft/TypeScript#64882](https://github.com/microsoft/TypeScript/issues/64882) (Open)
-
-**7\.1 regression: import resolving to a non\-module file falls back to a pattern ambient module instead of TS2306**
-
-*TypeScript 7.1 incorrectly applies a pattern ambient module for imports resolving to non-module files instead of reporting TS2306.*
-
- * created by **harshmandan**
-
-### [Issue microsoft/TypeScript#64883](https://github.com/microsoft/TypeScript/issues/64883) (Open)
-
-**Escaped \`in\` / \`instanceof\` after a class field initializer is parsed as a binary operator instead of a new member**
-
-*TypeScript treats Unicode-escaped identifiers matching 'in' and 'instanceof' after class field initializers as binary operators, triggering errors.*
-
- * created by **JLHwung**
-
-### [PR microsoft/TypeScript#64884](https://github.com/microsoft/TypeScript/pull/64884) (Open, `For Uncommitted Bug`)
-
-**Preserve non\-module errors for imports without attributes**
-
-*Ensure imports without attributes still produce non-module errors and avoid unintended ambient module resolution*
-
- * created by **Andarist**
- * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
-
-### [PR microsoft/TypeScript#64885](https://github.com/microsoft/TypeScript/pull/64885) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64885](https://github.com/microsoft/TypeScript/pull/64885) (Open, `For Backlog Bug`)
 
 **fix\(64883\): fix asi before escaped keyword class members**
 
 *Adjust automatic semicolon insertion behavior to correctly handle escaped keyword names in class members.*
 
  * created by **a-tarasyuk**
- * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64885#issuecomment-6300646990) **jakebailey** demonstrated a hang on tests using unicode escape sequences in TypeScript files
+
+### [PR microsoft/TypeScript#64886](https://github.com/microsoft/TypeScript/pull/64886) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**, **Copilot**)
+
+**Align JS API AST types with runtime values**
+
+*Align TypeScript JS API AST types with runtime node values by marking fields nullable, defaulting flags, and adding tokens.*
+
+ * created by **Copilot**
+ * (today) **Copilot** assigned to **Copilot**, **andrewbranch**
+ * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
+ * (today) **andrewbranch** closed the issue
+
+### [PR microsoft/TypeScript#64887](https://github.com/microsoft/TypeScript/pull/64887) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+
+**Handle missing release tags correctly**
+
+*Handle GitHub’s missing-tag error response correctly instead of using it as a commit SHA to permit new release tags.*
+
+ * created by **jakebailey**
+ * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
+ * (today) **jakebailey** closed the issue
+
+### [PR microsoft/TypeScript#64888](https://github.com/microsoft/TypeScript/pull/64888) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+
+**\[api\] Reduce allocations and megamorphic object penalty from generator methods**
+
+*Optimize generator methods to reduce object allocations and megamorphic call penalties, improving microbenchmark performance.*
+
+ * created by **andrewbranch**
+ * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
+ * [today](https://github.com/microsoft/TypeScript/pull/64888#issuecomment-6297633598) **andrewbranch** said "@typescript-bot perf test api"
+ * [today](https://github.com/microsoft/TypeScript/pull/64888#issuecomment-6297635506) **typescript-automation[bot]** noted that the perf test api job started and provided links to build status and results
+ * [today](https://github.com/microsoft/TypeScript/pull/64888#issuecomment-6298203638) **typescript-automation[bot]** reported performance results for the requested perf run to andrewbranch
+
+### [Issue microsoft/TypeScript#64889](https://github.com/microsoft/TypeScript/issues/64889) (Open, `Bug`)
+
+**\`emitDecoratorMetadata\` emits a ReferenceError for a default \`import type\` from an unresolvable module**
+
+*emitDecoratorMetadata erroneously emits runtime code for a default type-only import from an unresolvable module, causing a ReferenceError.*
+
+ * created by **blickly**
+ * [later](https://github.com/microsoft/TypeScript/issues/64889#issuecomment-6311453284) **damerlanaga99-source** provided a VS Code debugging configuration snippet
+
+### [PR microsoft/TypeScript#64890](https://github.com/microsoft/TypeScript/pull/64890) (Closed, `For Uncommitted Bug`)
+
+**Update and rename set\-version\.yaml to set\-version\-windows\.yml**
+
+*Rename set-version.yaml to set-version-windows.yml and revise its configuration accordingly.*
+
+ * created by **ethereumliquidcreator**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64890#issuecomment-6301530472) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (today) **jakebailey** closed the issue
+
+### [Issue microsoft/TypeScript#64891](https://github.com/microsoft/TypeScript/issues/64891) (Open, `Needs Investigation`, **ahejlsberg**)
+
+**7\.1 regression: declaration order of recursive generic interfaces changes assignability \(TS2322\)**
+
+*TypeScript 7.1 regression causes erroneous TS2322 when assigning DS<{total:M},string> to DS<Record<string,M>,string> due to declaration order change.*
+
+ * created by **chrisolszewski**
+ * [today](https://github.com/microsoft/TypeScript/issues/64891#issuecomment-6307221109) **shahinsamiur** described investigating the problem and developing a solution to the variance calculation implementation changes, and said they would provide updates or a PR when ready
+
+### [Issue microsoft/TypeScript#64892](https://github.com/microsoft/TypeScript/issues/64892) (Open, `Needs Investigation`, **ahejlsberg**)
+
+**\[7\.1 Regression\] Unexpected behaviour change from Stronger Distributive Type checks**
+
+*Upgrading to TypeScript 7.1 introduces stricter distributive checks causing TS2345 errors in generic callback methods.*
+
+ * created by **hkleungai**
+
+### [PR microsoft/TypeScript#64893](https://github.com/microsoft/TypeScript/pull/64893) (Open, `For Uncommitted Bug`)
+
+**fix\(checker\): resolve TS2322 regression in circular generic interface variance calculation**
+
+*Eliminate unsafe stack restarts in circular generic interface variance computation to fix a TS2322 regression.*
+
+ * created by **shahinsamiur**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64893#issuecomment-6308636552) **shahinsamiur** said "@microsoft-github-policy-service agree"
+
+### [PR microsoft/TypeScript#64894](https://github.com/microsoft/TypeScript/pull/64894) (Open, `For Backlog Bug`)
+
+**Fix LSP exit status after shutdown**
+
+*Correct LSP server exit codes by tracking shutdown completion and distinguishing valid versus premature exit sequences.*
+
+ * created by **rajnish-verma-22172**
+ * **typescript-automation[bot]** added label `For Backlog Bug`
+ * [today](https://github.com/microsoft/TypeScript/pull/64894#issuecomment-6309091346) **microsoft-github-policy-service[bot]** asked the user to agree to the Contributor License Agreement by replying with the required command
+
+### [Issue microsoft/TypeScript#64895](https://github.com/microsoft/TypeScript/issues/64895) (Open, `Bug`)
+
+**panic: Unhandled case in Node\.MemberList: KindVariableDeclarationList on merged namespace/enum element access**
+
+*TypeScript 7.0.2 panics with an unhandled KindVariableDeclarationList error when accessing a namespace-exported constant in an enum.*
+
+ * created by **muh-syaipullah**
+ * [later](https://github.com/microsoft/TypeScript/issues/64895#issuecomment-6311271344) **Andarist** said "this is already being fixed by https://github.com/microsoft/TypeScript/pull/64746"
+
+### [PR microsoft/TypeScript#64896](https://github.com/microsoft/TypeScript/pull/64896) (Open, `For Backlog Bug`)
+
+**Recognize unresolved type\-only default imports during alias lookup**
+
+*Ensure alias lookup correctly identifies unresolved type-only default imports.*
+
+ * created by **Andarist**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64897](https://github.com/microsoft/TypeScript/issues/64897) (Closed)
+
+**tsc \-b no\-op build ~5x slower in 7\.1\.0\-beta \(isContentMapperSupplementalBuildInfoPath scans every root per file\)**
+
+*TypeScript 7.1.0-beta's tsc -b no-op builds are five times slower because isContentMapperSupplementalBuildInfoPath scans every root for each file*
+
+ * created by **todor-a**
+
+### [PR microsoft/TypeScript#64898](https://github.com/microsoft/TypeScript/pull/64898) (Closed, `For Uncommitted Bug`)
+
+**fix: avoid repeated root scans in no\-op builds**
+
+*Eliminates redundant root file scanning in no-op builds to significantly improve build performance.*
+
+ * created by **a-tarasyuk**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64899](https://github.com/microsoft/TypeScript/issues/64899) (Open, `Bug`)
+
+**JSDocTypeLiteral\.jsdocPropertyTags returns only the first tag**
+
+*JSDocTypeLiteral.jsdocPropertyTags accessor in TypeScript v7 erroneously returns only the first property tag instead of all tags.*
+
+ * created by **mourner**
+
+### [PR microsoft/TypeScript#64900](https://github.com/microsoft/TypeScript/pull/64900) (Open, `For Backlog Bug`)
+
+**Fix unused renaming detection in function types**
+
+*Enhance unused-renaming checks in generic function types to properly ignore type-only references.*
+
+ * created by **wickstudio**
+ * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6317648836) **wickstudio** said "@microsoft-github-policy-service agree"
+
+### [PR microsoft/TypeScript#64901](https://github.com/microsoft/TypeScript/pull/64901) (Open, `For Backlog Bug`)
+
+**fix: map constructor param type**
+
+*Fixes incorrect type inference for Map constructor parameters by reordering overloads and adding tests.*
+
+ * created by **tbknl**
+ * **typescript-automation[bot]** added label `For Backlog Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64901#issuecomment-6318429701) **tbknl** said "@microsoft-github-policy-service agree"
+
+### [PR microsoft/TypeScript#64902](https://github.com/microsoft/TypeScript/pull/64902) (Open, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
+
+**Prevent noLib crash when an import\-equals alias references a type**
+
+*Guard property-specific diagnostics under --noLib to prevent crashes when import-equals aliases reference types.*
+
+ * created by **Copilot**
+ * (later) **Copilot** assigned to **Copilot**, **RyanCavanaugh**
+ * (later) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64923](https://github.com/microsoft/TypeScript/issues/64923) (Open, **dbaeumer**)
+
+**Support workspace specific typescript version**
+
+*Allow the extension to use a workspace-specific TypeScript version rather than a global one.*
+
+ * **RyanCavanaugh** unassigned **mjbvz**
+ * **vs-code-engineering[bot]** assigned to **dbaeumer**
+ * [1 week ago](https://github.com/microsoft/TypeScript/issues/64923#issuecomment-6340576842) **dbaeumer** said "@RyanCavanaugh any reason why you moved this to VS Code? The new TS7 extension handles this setting. VS Code by default doesn't expand variables in settings."
+ * [later](https://github.com/microsoft/TypeScript/issues/64923#issuecomment-6340576951) **vs-code-engineering[bot]** closed the issue after it lacked the requested information for 7 days
+ * (later) **vs-code-engineering[bot]** closed the issue
 
