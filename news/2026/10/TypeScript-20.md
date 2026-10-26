@@ -1,6 +1,6 @@
 # Report for 2026-10-20 (Tuesday, October 20th, 2026)
 
-32 different users commented on 56 different issues.
+32 different users commented on 57 different issues.
 
 ## Recommended Actions
 
@@ -104,9 +104,9 @@
 
 ### [PR microsoft/TypeScript#64679](https://github.com/microsoft/TypeScript/pull/64679) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
-**Add snapshot\.rebase\(newBaseSnapshot, changes\)**
+**Add createFileSystemFromSnapshot\(oldSnapshot, extraFSLayer\)**
 
-*Add snapshot.rebase(newBaseSnapshot, changes) to overlay synthetic filesystem changes from an old snapshot onto a new one.*
+*Implement createFileSystemFromSnapshot to reapply a previous snapshot’s synthetic file system onto a new snapshot with optional layering.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6279317955) **andrewbranch** suggested renaming the API to use snapshot.update({ fileSystem: ... }) with createFileSystemWithBase for layering synthetic file system updates
@@ -462,7 +462,7 @@
 
 **fix: map constructor param type**
 
-*Fixes incorrect type inference for Map constructor parameters by reordering overloads and adding tests.*
+*Correct map constructor parameter type inference and align its overload definitions across collection and iterable libraries.*
 
  * created by **tbknl**
  * **typescript-automation[bot]** added label `For Backlog Bug`

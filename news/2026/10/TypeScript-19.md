@@ -106,9 +106,9 @@
 
 ### [PR microsoft/TypeScript#64679](https://github.com/microsoft/TypeScript/pull/64679) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
-**Add snapshot\.rebase\(newBaseSnapshot, changes\)**
+**Add createFileSystemFromSnapshot\(oldSnapshot, extraFSLayer\)**
 
-*Add snapshot.rebase(newBaseSnapshot, changes) to overlay synthetic filesystem changes from an old snapshot onto a new one.*
+*Implement createFileSystemFromSnapshot to reapply a previous snapshot’s synthetic file system onto a new snapshot with optional layering.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
  * [today](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6279317955) **andrewbranch** suggested renaming the API to use snapshot.update({ fileSystem: ... }) with createFileSystemWithBase for layering synthetic file system updates
@@ -139,7 +139,7 @@
 
 **Add support for Jujutsu conflict markers**
 
-*Extend TypeScript’s conflict marker detection to support Jujutsu-style markers using %, \ and + separators.*
+*Enhance the compiler scanner to recognize Jujutsu VCS conflict markers, handle varied marker lengths, and manage section state.*
 
  * [6 days ago](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6150291835) **RyanCavanaugh** inquired if opening an issue was mandatory or optional and suggested using an issue to discuss conflict marker forms
  * [6 days ago](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6159916825) **rf-** said "Good points, thanks @jakebailey! Apologies for not covering all of the possible formats, it definitely makes sense to do them all at once. I'll open an issue to ref in the PR."
@@ -302,9 +302,9 @@
 
 ### [PR microsoft/TypeScript#64871](https://github.com/microsoft/TypeScript/pull/64871) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
-**Avoid hashing keys in active mapper instantiation caches**
+**Speed up short\-lived checker caches**
 
-*Avoid hashing 128-bit keys for active mapper instantiations and instead use only the type ID when probing the cache.*
+*Optimize short-lived checker caches by replacing costly Go map clears with generation-counter tables and simpler key hashing for speed improvements.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -312,7 +312,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64871#issuecomment-6273516583) **typescript-automation[bot]** posted automated build status update
  * [today](https://github.com/microsoft/TypeScript/pull/64871#issuecomment-6274131092) **typescript-automation[bot]** posted perf run results for baseline..pr including metrics for compiler unions - native scenario such as errors, symbols, types, memory usage, and memory allocations
 
-### [PR microsoft/TypeScript#64872](https://github.com/microsoft/TypeScript/pull/64872) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64872](https://github.com/microsoft/TypeScript/pull/64872) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Use paged link stores for all symbol links**
 
@@ -324,7 +324,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6273532095) **typescript-automation[bot]** started CI jobs and provided a status table
  * [today](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6274246320) **typescript-automation[bot]** reported the results of the requested perf run
 
-### [PR microsoft/TypeScript#64873](https://github.com/microsoft/TypeScript/pull/64873) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64873](https://github.com/microsoft/TypeScript/pull/64873) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Don't resolve mapped type members to find their signatures**
 

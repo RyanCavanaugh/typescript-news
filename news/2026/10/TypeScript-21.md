@@ -1,11 +1,12 @@
 # Report for 2026-10-21 (Wednesday, October 21st, 2026)
 
-26 different users commented on 69 different issues.
+26 different users commented on 71 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @ThinkingPlanely asked why TypeScript doesn't infer the overloaded lambda type in [microsoft/TypeScript#47669](https://github.com/microsoft/TypeScript/issues/47669#issuecomment-6329323433)
+    * @n-gist asked for suggestions on a better name for the proposed option in [microsoft/TypeScript#64235](https://github.com/microsoft/TypeScript/issues/64235#issuecomment-6339463401)
     * @YevheniiKotyrlo identified a port gap in unstable/ast and suggested adding pos++ after tokenValue = '#' in [microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490#issuecomment-6337208238)
     * @insilications reported that the nightly extension only works when js/ts.tsdk.path is set to node_modules/typescript in [microsoft/TypeScript#64565](https://github.com/microsoft/TypeScript/issues/64565#issuecomment-6322494161)
 
@@ -62,8 +63,8 @@
 *Propose enhancing lineFoldingOnly support by including closing-brace lines in folding ranges when the terminating line contains no non-trivia content.*
 
  * (5 weeks ago) **DanielRosenwasser** set milestone to `TypeScript 7.1.0 Beta`, assigned to **gabritto**, and unassigned **DanielRosenwasser**
- * [later](https://github.com/microsoft/TypeScript/issues/64235#issuecomment-6339137692) **n-gist** recommended consistent conventions for code folding regions, specifying that END pointers for comments and imports point to the last line and that code regions should use variant a) by including the closing delimiter line without mixing variants
- * [later](https://github.com/microsoft/TypeScript/issues/64235#issuecomment-6339463401) **n-gist** clarified that the discussion was separate from the VS Code pull request and suggested adding language server options backOffOneLineForCode and backOffCoincided for outlining regions
+ * [later](https://github.com/microsoft/TypeScript/issues/64235#issuecomment-6339137692) **n-gist** suggested rules for END pointer positioning for folding regions, argued consistency between including or excluding the closing delimiter is essential, and recommended using variant a)
+ * [later](https://github.com/microsoft/TypeScript/issues/64235#issuecomment-6339463401) **n-gist** clarified the connection to a related PR, described two proposed language-server outlining options (`backOffForCode` and `backOffCoincided`), and suggested renaming `backOffForCode` to `backOffForPairedDelimiters` while soliciting better naming
 
 ### [Issue microsoft/TypeScript#64490](https://github.com/microsoft/TypeScript/issues/64490) (Closed, `Unactionable`)
 
@@ -138,7 +139,7 @@
  * created by **MARCROCK22**
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#64765](https://github.com/microsoft/TypeScript/pull/64765) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64765](https://github.com/microsoft/TypeScript/pull/64765) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Resolve class and interface members through shared layouts**
 
@@ -507,7 +508,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64908#issuecomment-6323178096) **microsoft-github-policy-service[bot]** prompted user to agree to the Contributor License Agreement by replying with a specific command
  * [today](https://github.com/microsoft/TypeScript/pull/64908#issuecomment-6323178137) **microsoft-github-policy-service[bot]** prompted user to agree to the Contributor License Agreement by replying with a specific command
 
-### [PR microsoft/TypeScript#64909](https://github.com/microsoft/TypeScript/pull/64909) (Open, `Author: Team`, `For Uncommitted Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#64909](https://github.com/microsoft/TypeScript/pull/64909) (Closed, `Author: Team`, `For Uncommitted Bug`, **johnfav03**)
 
 **Reload cached files for \`Created\` watch events**
 
@@ -559,7 +560,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#64915](https://github.com/microsoft/TypeScript/pull/64915) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64915](https://github.com/microsoft/TypeScript/pull/64915) (Closed, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Lazy member resolution for class and interface types**
 
