@@ -1,13 +1,35 @@
 # Report for 2026-10-25 (Sunday, October 25th, 2026)
 
-16 different users commented on 20 different issues.
+18 different users commented on 41 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
+    * @gadcam asked for CI reapproval in [microsoft/TypeScript#64729](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6420325668)
     * @rf- reported that they pushed an update addressing all issues in [microsoft/TypeScript#64750](https://github.com/microsoft/TypeScript/pull/64750#issuecomment-6405051289)
 
 ## Activity Summary
+
+### [PR microsoft/TypeScript#64729](https://github.com/microsoft/TypeScript/pull/64729) (Open, `Domain: Performance`, `For Milestone Bug`, **gabritto**)
+
+**Dedupe identical object literal types before subtype reduction**
+
+*Deduplicate identical object literal types before subtype reduction to prevent O(n²) performance blow-ups when type-checking large JSON arrays*
+
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6134012975) **typescript-automation[bot]** reported tsc user test results and confirmed everything looked good
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6134415656) **typescript-automation[bot]** reported that running the top 400 repos tsc comparison between baseline and pr succeeded without issues
+ * [2 days ago](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6363202221) **gadcam** said "@jakebailey The Oct 12 test run came back clean (perf neutral, DT / user tests / top400 unchanged). What do you think about this PR?"
+ * [later](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6420325668) **gadcam** thanked gabritto for kicking off CI, explained failures from the recent merge, merged main and switched to accessors, confirmed tests passed, and asked for CI reapproval
+
+### [PR microsoft/TypeScript#64748](https://github.com/microsoft/TypeScript/pull/64748) (Closed, `For Backlog Bug`)
+
+**Fix broken augmentExportEquals2 test fixture**
+
+*Removed duplicate //@filename: file3.ts directive in augmentExportEquals2 test to restore expected diagnostics.*
+
+ * (1 week ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [1 week ago](https://github.com/microsoft/TypeScript/pull/64748#issuecomment-6123625457) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
 ### [PR microsoft/TypeScript#64750](https://github.com/microsoft/TypeScript/pull/64750) (Open, `For Uncommitted Bug`)
 
@@ -32,7 +54,176 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64872#issuecomment-6413051384) **jakebailey** said "Closing; perf results don't justify it."
  * (later) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64957](https://github.com/microsoft/TypeScript/issues/64957) (Open)
+### [Issue microsoft/TypeScript#64911](https://github.com/microsoft/TypeScript/issues/64911) (Open, `Bug`, `Domain: API`, `Crash`)
+
+**API: \`snapshot\.update\` with both \`removePrograms\` and \`createPrograms\` crashes tsgo \(nil dereference in \`ProjectCollectionBuilder\.HandleAPIRequest\`\)**
+
+*Using snapshot.update with both removePrograms and createPrograms causes a nil dereference panic in the TypeScript sync API*
+
+ * created by **johnnyreilly**
+ * (later) **RyanCavanaugh** added labels `Bug`, `Crash`, `Domain: API`, and set milestone to `Backlog`
+
+### [Issue microsoft/TypeScript#64912](https://github.com/microsoft/TypeScript/issues/64912) (Open, `Needs Investigation`, **andrewbranch**)
+
+**Content mappers: pass an import's query or attributes to \`transform\`**
+
+*Allow content mappers to opt in to receiving import query parameters or import attributes in their transform calls to handle module variants.*
+
+ * created by **colinhacks**
+ * (later) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **andrewbranch**
+
+### [Issue microsoft/TypeScript#64917](https://github.com/microsoft/TypeScript/issues/64917) (Closed, `Domain: Error Messages`, `Possible Improvement`)
+
+**"Content mapper file extension '\.const\.json' is a built\-in extension and cannot be registered by a content mapper\." error is misleading**
+
+*Error message incorrectly labels .const.json as a built-in extension instead of clarifying its conflict with .json or supporting .const.json patterns*
+
+ * created by **DetachHead**
+ * (later) **RyanCavanaugh** added labels `Domain: Error Messages`, `Possible Improvement`, and set milestone to `Backlog`
+
+### [PR microsoft/TypeScript#64921](https://github.com/microsoft/TypeScript/pull/64921) (Closed, `For Backlog Bug`)
+
+**Clarify error when content mapper extension ends in a built\-in extension**
+
+*Change TS18066 diagnostic to clarify that content mapper extensions ending in built-in extensions are disallowed.*
+
+ * (3 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64921#issuecomment-6339608951) **govardhanchinta99** said "@microsoft-github-policy-service agree"
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [PR microsoft/TypeScript#64924](https://github.com/microsoft/TypeScript/pull/64924) (Closed, `For Backlog Bug`)
+
+**Reuse this\-independent interface member instantiations**
+
+*Reuse instantiations of interface members that don’t depend on `this` to avoid redundant allocations.*
+
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64924#issuecomment-6341312406) **777genius** said "@microsoft-github-policy-service agree"
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64924#issuecomment-6344056899) **jakebailey** said "Are there any real world codebases that hit this? Note how none of our benchmarks were affected by that other PR"
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64925](https://github.com/microsoft/TypeScript/issues/64925) (Open, `Domain: Performance`, `Possible Improvement`)
+
+**Excess synthetic\-this member allocations in nongeneric mapped interface inheritance**
+
+*The TypeScript compiler performs excessive synthetic 'this' member instantiations for nongeneric mapped interface inheritance, leading to unnecessary allocations.*
+
+ * created by **777genius**
+ * (later) **RyanCavanaugh** added labels `Possible Improvement`, `Domain: Performance`, and set milestone to `Backlog`
+
+### [Issue microsoft/TypeScript#64927](https://github.com/microsoft/TypeScript/issues/64927) (Closed, `Bug`)
+
+**augmentExportEquals2 fixture has a duplicate @filename directive**
+
+*A duplicate @filename directive in the augmentExportEquals2 fixture causes file3.ts to be overwritten and errors to be ignored, which the PR corrects.*
+
+ * created by **mahesh-desu**
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+
+### [PR microsoft/TypeScript#64928](https://github.com/microsoft/TypeScript/pull/64928) (Closed, `Domain: Performance`, `For Backlog Bug`)
+
+**Reuse token lookup visitor across AST descent**
+
+*Reuse a single NodeVisitor for each token lookup to reduce allocations and improve getTokenAtPosition performance.*
+
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64928#issuecomment-6350320210) **jakebailey** said "This is a microbenchmark but how did you decide to try and work on this?"
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64928#issuecomment-6350406819) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
+ * [3 days ago](https://github.com/microsoft/TypeScript/pull/64928#issuecomment-6350722523) **Tom4ikss** described experimenting with native API type queries in a build-time i18n plugin to reduce type analysis cost, isolated repeated visitor construction in a benchmark, and reported reduced allocations and faster microbenchmark lookups but no clear full-workload timing improvement
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64929](https://github.com/microsoft/TypeScript/issues/64929) (Closed, `Possible Improvement`)
+
+**Native token lookup allocates a visitor on each AST descent step**
+
+*astnav.getTokenAtPosition repeatedly allocates new NodeVisitor instances during AST descent, causing high allocations and performance overhead mitigated by reusing the visitor*
+
+ * created by **Tom4ikss**
+ * (later) **RyanCavanaugh** added label `Possible Improvement`, and set milestone to `Backlog`
+
+### [Issue microsoft/TypeScript#64930](https://github.com/microsoft/TypeScript/issues/64930) (Open, `Bug`)
+
+**7\.1 regression: circular type alias accepts an assignment it should reject \(opposite of \#64891\)**
+
+*TypeScript 7.1 regressively accepts circular type alias assignments that should trigger TS2322 errors.*
+
+ * created by **Nabil372**
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+
+### [PR microsoft/TypeScript#64935](https://github.com/microsoft/TypeScript/pull/64935) (Open, `For Backlog Bug`)
+
+**Don't measure type parameters as independent through circular variance lookups**
+
+*Correct circular variance computation to disallow incompatible assignments between mutually recursive type aliases.*
+
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386240501) **typescript-automation[bot]** provided perf run results for @ahejlsberg
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386252039) **typescript-automation[bot]** reported differences in user test results comparing baseline and PR and requested review
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386813789) **typescript-automation[bot]** reported build errors for DIYgod/RSSHub and every-app/open-seo when comparing baseline and pr
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+ * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6419965044) **microsoft-github-policy-service[bot]** prompted the user to review and agree to the Contributor License Agreement by replying with the appropriate command
+ * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6419965104) **microsoft-github-policy-service[bot]** prompted the user to review and agree to the Contributor License Agreement by replying with the appropriate command
+
+### [Issue microsoft/TypeScript#64937](https://github.com/microsoft/TypeScript/issues/64937) (Open, `Bug`, `Domain: LS: Signature Help`)
+
+**Signature help shows no JSDoc for a \`const\` with a function type annotation**
+
+*Signature help in TypeScript 7 fails to display JSDoc descriptions for parameters of a const variable declared with a function type annotation.*
+
+ * created by **andreww2012**
+ * [yesterday](https://github.com/microsoft/TypeScript/issues/64937#issuecomment-6382147151) **MadalinWolf** opened a PR to add a fallback for JSDoc retrieval from const declarations, added a regression test, and confirmed the focused test passed
+ * (later) **RyanCavanaugh** added labels `Bug`, `Domain: LS: Signature Help`, and set milestone to `Backlog`
+
+### [Issue microsoft/TypeScript#64938](https://github.com/microsoft/TypeScript/issues/64938) (Open, `Suggestion`)
+
+**Defining a type with inferred generic parameters**
+
+*Allow an infer keyword in generic type definitions to automatically inherit parameter constraints and defaults from referenced types.*
+
+ * created by **denis-migdal**
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/64938#issuecomment-6371549094) **MartinJohns** said "Duplicate of #29469."
+ * [2 days ago](https://github.com/microsoft/TypeScript/issues/64938#issuecomment-6380324447) **denis-migdal** proposed a type inference proposal for generic constraints, outlined potential issues with backwards flow of constraints, and presented alternative syntax solutions
+ * **RyanCavanaugh** added label `Suggestion`
+
+### [Issue microsoft/TypeScript#64939](https://github.com/microsoft/TypeScript/issues/64939) (Open, `Bug`)
+
+**Formatter README links rules\.ts and names createRulesMap, which the Go port does not have**
+
+*The formatter README links to rules.ts and createRulesMap, which aren't in the Go port that uses rules.go, getRules, and buildRulesMap.*
+
+ * created by **lgriffin**
+ * (later) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
+
+### [PR microsoft/TypeScript#64940](https://github.com/microsoft/TypeScript/pull/64940) (Open, `For Backlog Bug`)
+
+**Fix/format readme go names**
+
+*Update internal/format/README.md to correct Go formatter links and rule names and add a test verifying README matches code*
+
+ * created by **lgriffin**
+ * **typescript-automation[bot]** added label `For Uncommitted Bug`
+ * [2 days ago](https://github.com/microsoft/TypeScript/pull/64940#issuecomment-6372282108) **lgriffin** said "@microsoft-github-policy-service agree"
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [PR microsoft/TypeScript#64941](https://github.com/microsoft/TypeScript/pull/64941) (Open, `For Backlog Bug`)
+
+**Don't reuse removed synthetic program IDs in the same update**
+
+*Ensure synthetic program IDs removed earlier in the same snapshot update aren’t reused to prevent nil dereference crashes*
+
+ * created by **jackeddisciple**
+ * (2 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [PR microsoft/TypeScript#64949](https://github.com/microsoft/TypeScript/pull/64949) (Open, `For Backlog Bug`)
+
+**Fix signature help docs for const function types**
+
+*Add fallback documentation lookup so JSDoc comments on const function type annotations appear in signature help.*
+
+ * (yesterday) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
+ * [yesterday](https://github.com/microsoft/TypeScript/pull/64949#issuecomment-6382102547) **MadalinWolf** said "@microsoft-github-policy-service agree"
+ * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
+
+### [Issue microsoft/TypeScript#64957](https://github.com/microsoft/TypeScript/issues/64957) (Closed, `Question`)
 
 **type Exclude on class hierarchy resolves to never**
 
@@ -55,7 +246,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64958#issuecomment-6399866512) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **Andarist** closed the issue
 
-### [Issue microsoft/TypeScript#64959](https://github.com/microsoft/TypeScript/issues/64959) (Open)
+### [Issue microsoft/TypeScript#64959](https://github.com/microsoft/TypeScript/issues/64959) (Open, `Suggestion`)
 
 **Preserve narrowing in closures for imports that resolve to \`const\` variables**
 
@@ -63,7 +254,7 @@
 
  * created by **mcmimik**
 
-### [PR microsoft/TypeScript#64960](https://github.com/microsoft/TypeScript/pull/64960) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64960](https://github.com/microsoft/TypeScript/pull/64960) (Closed, `For Backlog Bug`)
 
 ** Fix auto\-import not offering unsaved exports after auto\-imports were computed**
 
@@ -73,7 +264,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64960#issuecomment-6401269835) **1-DARK** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64961](https://github.com/microsoft/TypeScript/issues/64961) (Open)
+### [Issue microsoft/TypeScript#64961](https://github.com/microsoft/TypeScript/issues/64961) (Open, `Possible Improvement`)
 
 **/\*\* \*/ Style comments in code examples don't convert correctly**
 
@@ -81,7 +272,7 @@
 
  * created by **adligo**
 
-### [PR microsoft/TypeScript#64962](https://github.com/microsoft/TypeScript/pull/64962) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64962](https://github.com/microsoft/TypeScript/pull/64962) (Open, `For Backlog Bug`)
 
 ** Fix this type in object literal methods returned from async functions**
 
@@ -90,7 +281,7 @@
  * created by **1-DARK**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64963](https://github.com/microsoft/TypeScript/pull/64963) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64963](https://github.com/microsoft/TypeScript/pull/64963) (Open, `For Backlog Bug`)
 
 **fix\(64954\): exclude PromiseLike from contextual this in object literal methods**
 
@@ -99,7 +290,7 @@
  * created by **servusdei2018**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64964](https://github.com/microsoft/TypeScript/pull/64964) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64964](https://github.com/microsoft/TypeScript/pull/64964) (Closed, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Speed up union subset checks by scanning sorted constituents**
 
@@ -131,7 +322,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64966#issuecomment-6409653023) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#64967](https://github.com/microsoft/TypeScript/issues/64967) (Open)
+### [Issue microsoft/TypeScript#64967](https://github.com/microsoft/TypeScript/issues/64967) (Open, `Bug`, `Domain: tsc: --incremental`)
 
 **Incremental builds miss diagnostics after UMD declaration changes**
 
@@ -139,7 +330,7 @@
 
  * created by **Dunqing**
 
-### [Issue microsoft/TypeScript#64968](https://github.com/microsoft/TypeScript/issues/64968) (Open)
+### [Issue microsoft/TypeScript#64968](https://github.com/microsoft/TypeScript/issues/64968) (Closed, `Duplicate`)
 
 **API scanner: a \`\#\` not followed by an identifier never advances, so \`scan\(\)\` loops forever**
 
@@ -147,8 +338,9 @@
 
  * created by **knutwannheden**
  * [later](https://github.com/microsoft/TypeScript/issues/64968#issuecomment-6417855009) **MartinJohns** said "Sounds like a duplicate of #64490."
+ * **RyanCavanaugh** added label `Duplicate`
 
-### [PR microsoft/TypeScript#64969](https://github.com/microsoft/TypeScript/pull/64969) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64969](https://github.com/microsoft/TypeScript/pull/64969) (Closed, `For Uncommitted Bug`)
 
 **Add a regression test for narrowing NoInfer union constituents of non\-generic aliases**
 

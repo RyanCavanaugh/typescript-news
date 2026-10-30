@@ -1,6 +1,6 @@
 # Report for 2026-10-23 (Friday, October 23rd, 2026)
 
-17 different users commented on 38 different issues.
+17 different users commented on 41 different issues.
 
 ## Recommended Actions
 
@@ -70,7 +70,7 @@
  * **DanielRosenwasser** added label `Design Notes`
  * [later](https://github.com/microsoft/TypeScript/issues/64399#issuecomment-6383893332) **denis-migdal** questioned using `implements` for function definitions and suggested it would align with classes, inherit JSDoc, and support multiple type implementations
 
-### [PR microsoft/TypeScript#64654](https://github.com/microsoft/TypeScript/pull/64654) (Open, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64654](https://github.com/microsoft/TypeScript/pull/64654) (Open, `Domain: Performance`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **check the target of a type reference in isWeakType**
 
@@ -89,7 +89,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64654#issuecomment-6375132212) **typescript-automation[bot]** provided tsc user test results and indicated everything looked good
  * [today](https://github.com/microsoft/TypeScript/pull/64654#issuecomment-6375679362) **typescript-automation[bot]** reported successful tsc comparison between baseline and pr on the top 400 repos
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `Domain: Performance`, `For Milestone Bug`, **ahejlsberg**)
 
 **\[experiment\] Skip incompatible discriminants when inferring**
 
@@ -136,7 +136,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64841#issuecomment-6384522466) **jasonkuhrt** thanked maintainers, described a stale declaration case involving nested package.json files, and asked whether including nested manifests in the PR signature would be appropriate while offering to add a test case
  * [later](https://github.com/microsoft/TypeScript/pull/64841#issuecomment-6384595844) **jackeddisciple** acknowledged the missing nested manifest case and said they would investigate how to include relevant manifests and add a regression test
 
-### [PR microsoft/TypeScript#64871](https://github.com/microsoft/TypeScript/pull/64871) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64871](https://github.com/microsoft/TypeScript/pull/64871) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Speed up short\-lived checker caches**
 
@@ -181,7 +181,7 @@
  * (today) **ahejlsberg** closed the issue
  * [today](https://github.com/microsoft/TypeScript/pull/64915#issuecomment-6373888937) **typescript-automation[bot]** reported successful tsc comparison between baseline and pr on the top 400 repos
 
-### [PR microsoft/TypeScript#64934](https://github.com/microsoft/TypeScript/pull/64934) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64934](https://github.com/microsoft/TypeScript/pull/64934) (Open, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Skip discriminant lookups for unions that cannot be narrowed**
 
@@ -193,7 +193,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/64934#issuecomment-6384202614) **typescript-automation[bot]** triggered performance test jobs and provided status and result links
  * [later](https://github.com/microsoft/TypeScript/pull/64934#issuecomment-6385070155) **typescript-automation[bot]** provided the requested performance run results
 
-### [PR microsoft/TypeScript#64935](https://github.com/microsoft/TypeScript/pull/64935) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64935](https://github.com/microsoft/TypeScript/pull/64935) (Open, `For Backlog Bug`)
 
 **Don't measure type parameters as independent through circular variance lookups**
 
@@ -201,14 +201,13 @@
 
  * created by **jasleenkaur-qed42**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
- * [today](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6365722241) **microsoft-github-policy-service[bot]** prompted the user to review and agree to the Contributor License Agreement by replying with the appropriate command
  * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6385915607) **ahejlsberg** said "@typescript-bot test it"
  * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6385916749) **typescript-automation[bot]** reported CI jobs as started and provided links to results
  * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386179655) **typescript-automation[bot]** reported DT test results and branch-only TypeScript compile errors for react-relay
  * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386240501) **typescript-automation[bot]** provided perf run results for @ahejlsberg
  * [later](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386252039) **typescript-automation[bot]** reported differences in user test results comparing baseline and PR and requested review
 
-### [Issue microsoft/TypeScript#64937](https://github.com/microsoft/TypeScript/issues/64937) (Open)
+### [Issue microsoft/TypeScript#64937](https://github.com/microsoft/TypeScript/issues/64937) (Open, `Bug`, `Domain: LS: Signature Help`)
 
 **Signature help shows no JSDoc for a \`const\` with a function type annotation**
 
@@ -217,7 +216,7 @@
  * created by **andreww2012**
  * [later](https://github.com/microsoft/TypeScript/issues/64937#issuecomment-6382147151) **MadalinWolf** opened a PR to add a fallback for JSDoc retrieval from const declarations, added a regression test, and confirmed the focused test passed
 
-### [Issue microsoft/TypeScript#64938](https://github.com/microsoft/TypeScript/issues/64938) (Open)
+### [Issue microsoft/TypeScript#64938](https://github.com/microsoft/TypeScript/issues/64938) (Open, `Suggestion`)
 
 **Defining a type with inferred generic parameters**
 
@@ -227,7 +226,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64938#issuecomment-6371549094) **MartinJohns** said "Duplicate of #29469."
  * [today](https://github.com/microsoft/TypeScript/issues/64938#issuecomment-6380324447) **denis-migdal** proposed a type inference proposal for generic constraints, outlined potential issues with backwards flow of constraints, and presented alternative syntax solutions
 
-### [Issue microsoft/TypeScript#64939](https://github.com/microsoft/TypeScript/issues/64939) (Open)
+### [Issue microsoft/TypeScript#64939](https://github.com/microsoft/TypeScript/issues/64939) (Open, `Bug`)
 
 **Formatter README links rules\.ts and names createRulesMap, which the Go port does not have**
 
@@ -235,7 +234,7 @@
 
  * created by **lgriffin**
 
-### [PR microsoft/TypeScript#64940](https://github.com/microsoft/TypeScript/pull/64940) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64940](https://github.com/microsoft/TypeScript/pull/64940) (Open, `For Backlog Bug`)
 
 **Fix/format readme go names**
 
@@ -245,7 +244,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64940#issuecomment-6372282108) **lgriffin** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#64941](https://github.com/microsoft/TypeScript/pull/64941) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64941](https://github.com/microsoft/TypeScript/pull/64941) (Open, `For Backlog Bug`)
 
 **Don't reuse removed synthetic program IDs in the same update**
 
@@ -254,7 +253,7 @@
  * created by **jackeddisciple**
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#64942](https://github.com/microsoft/TypeScript/pull/64942) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64942](https://github.com/microsoft/TypeScript/pull/64942) (Open, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Add program\.getAllDependencies to the API**
 
@@ -295,7 +294,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64945#issuecomment-6376570279) **jakebailey** said "Yeah no"
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64946](https://github.com/microsoft/TypeScript/pull/64946) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64946](https://github.com/microsoft/TypeScript/pull/64946) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Remove checker pointer from Type**
 
@@ -308,7 +307,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64946#issuecomment-6376663737) **typescript-automation[bot]** reported perf run results requested by @jakebailey
  * [today](https://github.com/microsoft/TypeScript/pull/64946#issuecomment-6376728957) **jakebailey** said "Pretty disappointing, but I also didn't check the size class, and then also I don't think we allocate these in arenas"
 
-### [Issue microsoft/TypeScript#64947](https://github.com/microsoft/TypeScript/issues/64947) (Open)
+### [Issue microsoft/TypeScript#64947](https://github.com/microsoft/TypeScript/issues/64947) (Open, `Needs Investigation`)
 
 **\[ServerErrors\]\[JavaScript\] main**
 
@@ -320,7 +319,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64947#issuecomment-6376749773) **typescript-automation[bot]** reported a server connection closing prematurely with undefined error and included affected repo details, artifacts, old results, and recent requests
  * [today](https://github.com/microsoft/TypeScript/issues/64947#issuecomment-6376750359) **typescript-automation[bot]** reported a server connection closed prematurely error with logs and repro steps for nosir/cleave.js
 
-### [Issue microsoft/TypeScript#64948](https://github.com/microsoft/TypeScript/issues/64948) (Open)
+### [Issue microsoft/TypeScript#64948](https://github.com/microsoft/TypeScript/issues/64948) (Closed, `Won't Fix`)
 
 **Stack overflow in getEffectsSignature for long comma\-separated call chains \(e\.g\. minified bundles with allowJs\)**
 
@@ -331,7 +330,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64948#issuecomment-6379712381) **AbbasFullstack** said "Ah, I see you already have a patch ready on your branch — I'll leave this one to you. Looking forward to the fix!"
  * [today](https://github.com/microsoft/TypeScript/issues/64948#issuecomment-6379725408) **AbbasFullstack** said "If you need any type help tell me I am 24/7  for help"
 
-### [PR microsoft/TypeScript#64949](https://github.com/microsoft/TypeScript/pull/64949) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64949](https://github.com/microsoft/TypeScript/pull/64949) (Open, `For Backlog Bug`)
 
 **Fix signature help docs for const function types**
 
@@ -341,7 +340,7 @@
  * (later) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/64949#issuecomment-6382102547) **MadalinWolf** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64950](https://github.com/microsoft/TypeScript/issues/64950) (Open)
+### [Issue microsoft/TypeScript#64950](https://github.com/microsoft/TypeScript/issues/64950) (Open, `Bug`)
 
 **7\.1 regression: comparing a recursive \`\-?\` mapped type is quadratic in the number of properties and hits TS2589 \(since typescript\-go\#4820\)**
 

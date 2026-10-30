@@ -26,7 +26,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/63979#issuecomment-6382208348) **denis-migdal** provided several TypeScript tricks and tips including type assertions, casting avoidance, static hooks, and parameter bags
  * [later](https://github.com/microsoft/TypeScript/issues/63979#issuecomment-6396284363) **denis-migdal** explained how to declare and export a type and value with the same name, including usage for classes and factories and how to re-export when importing the type from another file
 
-### [PR microsoft/TypeScript#64781](https://github.com/microsoft/TypeScript/pull/64781) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64781](https://github.com/microsoft/TypeScript/pull/64781) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Index structured type members without redundant symbol maps**
 
@@ -63,7 +63,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64873#issuecomment-6377132981) **typescript-automation[bot]** posted the performance run results including a detailed comparison report
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64876](https://github.com/microsoft/TypeScript/pull/64876) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64876](https://github.com/microsoft/TypeScript/pull/64876) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Count intersection property names with a plain map and slice**
 
@@ -76,7 +76,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64876#issuecomment-6391182586) **typescript-automation[bot]** announced that the perf test build job started and linked to its status and results
  * [today](https://github.com/microsoft/TypeScript/pull/64876#issuecomment-6391487648) **typescript-automation[bot]** posted performance run results including a detailed comparison report of compiler metrics between baseline and pr
 
-### [PR microsoft/TypeScript#64880](https://github.com/microsoft/TypeScript/pull/64880) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64880](https://github.com/microsoft/TypeScript/pull/64880) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Memoize repeated inference walks**
 
@@ -89,7 +89,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6391182173) **typescript-automation[bot]** reported that performance test jobs started and provided status and results links
  * [today](https://github.com/microsoft/TypeScript/pull/64880#issuecomment-6391679634) **typescript-automation[bot]** provided the requested performance run results in a detailed comparison report
 
-### [PR microsoft/TypeScript#64935](https://github.com/microsoft/TypeScript/pull/64935) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64935](https://github.com/microsoft/TypeScript/pull/64935) (Open, `For Backlog Bug`)
 
 **Don't measure type parameters as independent through circular variance lookups**
 
@@ -100,7 +100,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386252039) **typescript-automation[bot]** reported differences in user test results comparing baseline and PR and requested review
  * [today](https://github.com/microsoft/TypeScript/pull/64935#issuecomment-6386813789) **typescript-automation[bot]** reported build errors for DIYgod/RSSHub and every-app/open-seo when comparing baseline and pr
 
-### [Issue microsoft/TypeScript#64953](https://github.com/microsoft/TypeScript/issues/64953) (Open)
+### [Issue microsoft/TypeScript#64953](https://github.com/microsoft/TypeScript/issues/64953) (Closed, `Bug`)
 
 **Unsaved export not offered for auto\-import after reopening the importing file**
 
@@ -108,7 +108,7 @@
 
  * created by **johnsoncodehk**
 
-### [Issue microsoft/TypeScript#64954](https://github.com/microsoft/TypeScript/issues/64954) (Open)
+### [Issue microsoft/TypeScript#64954](https://github.com/microsoft/TypeScript/issues/64954) (Open, `Bug`)
 
 **Type annotations cause contextual \`this\` in object literal returned from an async function to be inferred as \`Promise\<This\> \| This\`**
 
@@ -116,7 +116,7 @@
 
  * created by **kanashimia**
 
-### [Issue microsoft/TypeScript#64955](https://github.com/microsoft/TypeScript/issues/64955) (Open)
+### [Issue microsoft/TypeScript#64955](https://github.com/microsoft/TypeScript/issues/64955) (Closed, `Won't Fix`)
 
 **Checking deeply nested array/object literals is quadratic and can hang in TS7**
 
@@ -124,7 +124,7 @@
 
  * created by **qiyuhuating**
 
-### [PR microsoft/TypeScript#64956](https://github.com/microsoft/TypeScript/pull/64956) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64956](https://github.com/microsoft/TypeScript/pull/64956) (Closed, `For Uncommitted Bug`)
 
 **Fix quadratic const\-context checking for deeply nested literals**
 
@@ -134,7 +134,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/64956#issuecomment-6394506819) **qiyuhuating** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#64957](https://github.com/microsoft/TypeScript/issues/64957) (Open)
+### [Issue microsoft/TypeScript#64957](https://github.com/microsoft/TypeScript/issues/64957) (Closed, `Question`)
 
 **type Exclude on class hierarchy resolves to never**
 
