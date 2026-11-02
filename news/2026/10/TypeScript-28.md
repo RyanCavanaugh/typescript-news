@@ -238,7 +238,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64921#issuecomment-6488680995) **govardhanchinta99** asked for re-approval after restoring generated localization bundles and merging main
  * (later) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#64922](https://github.com/microsoft/TypeScript/pull/64922) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64922](https://github.com/microsoft/TypeScript/pull/64922) (Closed, `For Uncommitted Bug`)
 
 **Emit the files of each checker in a deterministic order**
 

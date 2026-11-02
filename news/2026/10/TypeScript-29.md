@@ -1,6 +1,6 @@
 # Report for 2026-10-29 (Thursday, October 29th, 2026)
 
-29 different users commented on 92 different issues.
+29 different users commented on 94 different issues.
 
 ## Recommended Actions
 
@@ -216,7 +216,7 @@
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64922](https://github.com/microsoft/TypeScript/pull/64922) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64922](https://github.com/microsoft/TypeScript/pull/64922) (Closed, `For Uncommitted Bug`)
 
 **Emit the files of each checker in a deterministic order**
 
@@ -274,7 +274,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64978#issuecomment-6512865798) **nrjdalal** provided an additional repro case with code and described how binding elements with defaults behaved across TypeScript versions
  * [today](https://github.com/microsoft/TypeScript/pull/64978#issuecomment-6513976139) **timurzvural** explained the regression behavior on TS 7.1 for object literals with defaults and proposed PR #65016 as an alternative solution
 
-### [PR microsoft/TypeScript#64992](https://github.com/microsoft/TypeScript/pull/64992) (Open, `Domain: Performance`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64992](https://github.com/microsoft/TypeScript/pull/64992) (Closed, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Speedup keywords lookup with a perfect hash table in GetIdentifierToken**
 
@@ -956,7 +956,7 @@
 
  * created by **0x80**
 
-### [PR microsoft/TypeScript#65055](https://github.com/microsoft/TypeScript/pull/65055) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65055](https://github.com/microsoft/TypeScript/pull/65055) (Closed, `For Uncommitted Bug`)
 
 **fix\(65053\): cover protected optional property completion**
 
@@ -967,9 +967,9 @@
 
 ### [PR microsoft/TypeScript#65056](https://github.com/microsoft/TypeScript/pull/65056) (Open, `Domain: Performance`, `For Uncommitted Bug`)
 
-**\[experiment\] Avoid resolving property types that cannot be unit types when looking for key properties**
+**Avoid resolving property types that cannot be unit types when looking for key properties**
 
-*Skip resolving property types that aren’t unit types when identifying key properties.*
+*Prevent resolution of property types that cannot be unit types when searching for key properties.*
 
  * created by **Andarist**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
@@ -991,7 +991,7 @@
 
 **feat\(printer\): implement JSDoc node emission in AST printer**
 
-*Implements JSDoc node emission in the AST printer, supporting blocks, tags, parameter types, inline links, and adds related tests.*
+*Implement canonical JSDoc block and tag emission in AST printer with synthetic comment support in JS and Go printNode APIs.*
 
  * created by **el-j**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`

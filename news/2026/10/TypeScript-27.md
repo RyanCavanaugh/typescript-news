@@ -400,7 +400,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64729#issuecomment-6420325668) **gadcam** thanked gabritto for kicking off CI, explained failures from the recent merge, merged main and switched to accessors, confirmed tests passed, and asked for CI reapproval
  * **jakebailey** added label `Domain: Performance`
 
-### [PR microsoft/TypeScript#64737](https://github.com/microsoft/TypeScript/pull/64737) (Open, `Domain: Performance`, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64737](https://github.com/microsoft/TypeScript/pull/64737) (Closed, `Domain: Performance`, `For Backlog Bug`)
 
 **Avoid exponential base type search in hasBaseType**
 
@@ -543,7 +543,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64856#issuecomment-6248514169) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64868](https://github.com/microsoft/TypeScript/pull/64868) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64868](https://github.com/microsoft/TypeScript/pull/64868) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Compare names before symbols when matching flow references**
 
@@ -554,7 +554,7 @@
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/64868#issuecomment-6273381312) **typescript-automation[bot]** provided the requested performance run results
  * **jakebailey** added label `Domain: Performance`
 
-### [PR microsoft/TypeScript#64869](https://github.com/microsoft/TypeScript/pull/64869) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64869](https://github.com/microsoft/TypeScript/pull/64869) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Store merged symbols in a paged symbol link store**
 
@@ -803,7 +803,7 @@
 
  * created by **simleb**
 
-### [Issue microsoft/TypeScript#64981](https://github.com/microsoft/TypeScript/issues/64981) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#64981](https://github.com/microsoft/TypeScript/issues/64981) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS7\+ drops required parentheses in \`new \(f\(\) as T\)\.C\(\)\`, emitting incorrectly as \`new f\(\)\.C\(\)\`**
 
@@ -938,7 +938,7 @@
 
  * created by **todor-a**
 
-### [PR microsoft/TypeScript#64992](https://github.com/microsoft/TypeScript/pull/64992) (Open, `Domain: Performance`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64992](https://github.com/microsoft/TypeScript/pull/64992) (Closed, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Speedup keywords lookup with a perfect hash table in GetIdentifierToken**
 
