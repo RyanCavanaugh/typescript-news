@@ -1,6 +1,6 @@
 # Report for 2026-10-29 (Thursday, October 29th, 2026)
 
-29 different users commented on 94 different issues.
+29 different users commented on 95 different issues.
 
 ## Recommended Actions
 
@@ -122,7 +122,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64603#issuecomment-6505250440) **andrewbranch** said "That's correct, but we also never had an idle timer triggering cleanup. It seems reasonable to me to discard things on the timer."
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605) (Open, `Needs Investigation`, **gabritto**)
+### [Issue microsoft/TypeScript#64605](https://github.com/microsoft/TypeScript/issues/64605) (Closed, `Needs Investigation`, **gabritto**)
 
 **TS5115 in published Zod 4\.5–4\.6 types after \#64372**
 
@@ -134,7 +134,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6504485324) **jakebailey** said "@ebidel Anders posted a change that fixes that package, was it missed?: https://github.com/microsoft/TypeScript/pull/64372#issuecomment-5804602336"
  * [today](https://github.com/microsoft/TypeScript/issues/64605#issuecomment-6505184494) **jakebailey** said "I think the thing we don't get is why someone would update to TS 7.1, but then not also be updating zod or a transitive dep on zod?"
 
-### [PR microsoft/TypeScript#64712](https://github.com/microsoft/TypeScript/pull/64712) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#64712](https://github.com/microsoft/TypeScript/pull/64712) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**)
 
 ** Fix compiler option invalidation in incremental builds**
 
@@ -505,7 +505,7 @@
  * created by **timurzvural**
  * (today) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#65016](https://github.com/microsoft/TypeScript/pull/65016) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65016](https://github.com/microsoft/TypeScript/pull/65016) (Closed, `For Uncommitted Bug`)
 
 **fix\(65011\): preserve contextual types for destructured parameter defaults**
 
@@ -784,7 +784,7 @@
  * **jakebailey** added label `Domain: Performance`
  * [today](https://github.com/microsoft/TypeScript/pull/65038#issuecomment-6510081003) **typescript-automation[bot]** provided the performance run results for the baseline and PR comparison
 
-### [PR microsoft/TypeScript#65039](https://github.com/microsoft/TypeScript/pull/65039) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65039](https://github.com/microsoft/TypeScript/pull/65039) (Closed, `For Uncommitted Bug`)
 
 **fix\(64998\): defer index signature value types for keyof circularity**
 
@@ -886,7 +886,7 @@
 
 **Allow content mapper registrations to filter their files with an \`include\` glob, inherit default \`extension\` from manifest**
 
-*Enable content mapper registrations to filter files using an include glob and inherit the default extension from the manifest.*
+*Enable content mapper registrations to filter files with include globs and inherit default extensions from the manifest.*
 
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
@@ -929,7 +929,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/65051#issuecomment-6518847399) **aetherxeg-source** proposed adding a differential regression fixture to compare coarse- and fine-grained getMembersOfType results across various member scenarios
  * [later](https://github.com/microsoft/TypeScript/issues/65051#issuecomment-6519041664) **WinterYukky** said "Thanks, good suggestion. I'll add a differential fixture comparing both paths on the same program to the PR."
 
-### [Issue microsoft/TypeScript#65052](https://github.com/microsoft/TypeScript/issues/65052) (Open)
+### [Issue microsoft/TypeScript#65052](https://github.com/microsoft/TypeScript/issues/65052) (Closed)
 
 **7\.0 regression: inherited members are sorted by position, so an empty subinterface changes assignability**
 
@@ -996,7 +996,7 @@
  * created by **el-j**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65059](https://github.com/microsoft/TypeScript/pull/65059) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**, **gabritto**)
+### [PR microsoft/TypeScript#65059](https://github.com/microsoft/TypeScript/pull/65059) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**, **gabritto**)
 
 **Allow accessing named declared members during a type's resolution**
 

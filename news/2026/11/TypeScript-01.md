@@ -1,6 +1,6 @@
 # Report for 2026-11-01 (Sunday, November 1st, 2026)
 
-15 different users commented on 22 different issues.
+16 different users commented on 27 different issues.
 
 ## Recommended Actions
 
@@ -55,6 +55,17 @@
  * (2 days ago) **jakebailey** closed the issue
  * [later](https://github.com/microsoft/TypeScript/pull/64318#issuecomment-6572763966) **saair-quaderi** said "Thanks so much for this! Do we know when this might be available to upgrade to?"
 
+### [PR microsoft/TypeScript#64658](https://github.com/microsoft/TypeScript/pull/64658) (Open, `Author: Team`, `For Uncommitted Bug`, **DanielRosenwasser**, **Copilot**)
+
+**Fix Windows module resolution for reserved path segments**
+
+*Use extended path namespaces to prevent Windows reserved device names like con from blocking module resolution.*
+
+ * [3 weeks ago](https://github.com/microsoft/TypeScript/pull/64658#issuecomment-6070384917) **DanielRosenwasser** requested Copilot address CI failures and provided continuous integration failure logs
+ * [3 weeks ago](https://github.com/microsoft/TypeScript/pull/64658#issuecomment-6070559076) **Copilot** fixed the Windows short-path expectation, removed t.Parallel() from the allocation test, and adjusted cleanup to satisfy custom lint
+ * [3 weeks ago](https://github.com/microsoft/TypeScript/pull/64658#issuecomment-6070609937) **jakebailey** said "I don't think you can just remove Parallel without a nolint directive that says why"
+ * [later](https://github.com/microsoft/TypeScript/pull/64658#issuecomment-6572393641) **itrapashko** asked DanielRosenwasser to review the outstanding nolint directive note still affecting Windows
+
 ### [PR microsoft/TypeScript#64737](https://github.com/microsoft/TypeScript/pull/64737) (Closed, `Domain: Performance`, `For Backlog Bug`)
 
 **Avoid exponential base type search in hasBaseType**
@@ -93,17 +104,17 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6567682690) **typescript-automation[bot]** provided the perf run results requested by @jakebailey
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6568122632) **typescript-automation[bot]** reported build comparison results for top 400 repos showing new TypeScript errors
 
-### [PR microsoft/TypeScript#65091](https://github.com/microsoft/TypeScript/pull/65091) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65091](https://github.com/microsoft/TypeScript/pull/65091) (Closed, `For Milestone Bug`, **RyanCavanaugh**)
 
 **Fill the config cycle into the TS18000 circularity message**
 
-*Improve the TS18000 circularity error by including the full config extends chain (e.g., a.json → b.json → a.json) in its diagnostic message.*
+*Include the chain of configuration file paths causing a circular extends error in the TS18000 diagnostic message*
 
  * created by **cplieger**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/65091#issuecomment-6560560316) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#65092](https://github.com/microsoft/TypeScript/issues/65092) (Open)
+### [Issue microsoft/TypeScript#65092](https://github.com/microsoft/TypeScript/issues/65092) (Open, `Suggestion`, `Declined`)
 
 **Feature Request: Allow Content Mappers to opt\-in to transforming files end in built\-in extensions**
 
@@ -112,7 +123,7 @@
  * created by **GoodbyeNJN**
  * [today](https://github.com/microsoft/TypeScript/issues/65092#issuecomment-6560928348) **GoodbyeNJN** described a local experiment bypassing extension checks that led to duplicate inlay hints for .ts files and confirmed the cause by filtering out built-in JS/TS extensions
 
-### [PR microsoft/TypeScript#65093](https://github.com/microsoft/TypeScript/pull/65093) (Open, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#65093](https://github.com/microsoft/TypeScript/pull/65093) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Use SymbolTables instead of maps for member layouts**
 
@@ -127,7 +138,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65093#issuecomment-6564652774) **typescript-automation[bot]** reported the results of the requested perf run
  * [today](https://github.com/microsoft/TypeScript/pull/65093#issuecomment-6565124402) **typescript-automation[bot]** provided build comparison results for top 400 repos between baseline and PR and noted an interesting change
 
-### [Issue microsoft/TypeScript#65094](https://github.com/microsoft/TypeScript/issues/65094) (Open)
+### [Issue microsoft/TypeScript#65094](https://github.com/microsoft/TypeScript/issues/65094) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS18000 circularity message prints its {0} placeholder instead of the config chain**
 
@@ -135,7 +146,7 @@
 
  * created by **cplieger**
 
-### [Issue microsoft/TypeScript#65095](https://github.com/microsoft/TypeScript/issues/65095) (Open)
+### [Issue microsoft/TypeScript#65095](https://github.com/microsoft/TypeScript/issues/65095) (Open, `Bug`)
 
 **TypeScript 7 memory grows without bound on a next\-intl call with a missing namespace and ICU arguments \(6\.0 stays at 2\.5 GB\)**
 
@@ -143,7 +154,7 @@
 
  * created by **jcoulaud**
 
-### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Open)
+### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Open, `Question`)
 
 **Clarify EULA and Background Sync provenance in TypeScript 5\.9\.3 third\-party notices**
 
@@ -151,7 +162,7 @@
 
  * created by **beefstew**
 
-### [Issue microsoft/TypeScript#65097](https://github.com/microsoft/TypeScript/issues/65097) (Open)
+### [Issue microsoft/TypeScript#65097](https://github.com/microsoft/TypeScript/issues/65097) (Closed, `Needs Investigation`, **andrewbranch**, **Copilot**)
 
 **Content mappers: a relative \`package\` path loads the package\.json of the nearest folder with node\_modules**
 
@@ -177,7 +188,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65099#issuecomment-6576739844) **Shadow0Bit** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#65100](https://github.com/microsoft/TypeScript/issues/65100) (Open)
+### [Issue microsoft/TypeScript#65100](https://github.com/microsoft/TypeScript/issues/65100) (Closed)
 
 **getting started**
 
@@ -185,7 +196,7 @@
 
  * created by **Program-creator122**
 
-### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Open)
+### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Open, `Duplicate`)
 
 **Can you please add some new features for types: string length getter \(currently \`number\`\), string getter by index \(currently \`string\`\), array multiple spreads \(currently gives the error of type\)**
 

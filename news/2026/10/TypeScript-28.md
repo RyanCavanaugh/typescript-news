@@ -113,11 +113,11 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/pull/64679#issuecomment-6348197362) **weswigham** said "@andrewbranch does createFileSystemFromSnapshot like this work for you? Makes sense to me."
  * (today) **weswigham** closed the issue
 
-### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `Domain: Performance`, `For Milestone Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#64695](https://github.com/microsoft/TypeScript/pull/64695) (Open, `Domain: Performance`, `For Milestone Bug`, `For Backlog Bug`, **ahejlsberg**)
 
 **\[experiment\] Skip incompatible discriminants when inferring**
 
-*Experimentally skip incompatible discriminant properties during TypeScript union type inference to reduce workload and validate via tests.*
+*Add experimental logic to skip incompatible discriminants during discriminated union type inference to reduce inference work.*
 
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64695#issuecomment-6384191000) **typescript-automation[bot]** reported starting of performance test jobs and provided links to status and results
  * [4 days ago](https://github.com/microsoft/TypeScript/pull/64695#issuecomment-6384500825) **typescript-automation[bot]** posted the requested performance run results comparing baseline to PR metrics
@@ -354,7 +354,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64986#issuecomment-6481225139) **typescript-automation[bot]** posted performance run results comparing baseline and PR metrics for tsc
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64993](https://github.com/microsoft/TypeScript/pull/64993) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#64993](https://github.com/microsoft/TypeScript/pull/64993) (Open, `For Backlog Bug`)
 
 **Drop statements a top\-level await reparse consumed to the end of the file**
 
@@ -419,7 +419,7 @@
 
  * created by **blickly**
 
-### [Issue microsoft/TypeScript#64999](https://github.com/microsoft/TypeScript/issues/64999) (Open)
+### [Issue microsoft/TypeScript#64999](https://github.com/microsoft/TypeScript/issues/64999) (Open, `Bug`, `Domain: Parser`)
 
 **Top\-level await reparse keeps statements it already consumed when it reaches the end of the file**
 
@@ -435,7 +435,7 @@
 
  * created by **roninjin10**
 
-### [PR microsoft/TypeScript#65001](https://github.com/microsoft/TypeScript/pull/65001) (Open, `Author: Team`, `For Uncommitted Bug`, `dependencies`, `javascript`)
+### [PR microsoft/TypeScript#65001](https://github.com/microsoft/TypeScript/pull/65001) (Closed, `Author: Team`, `For Uncommitted Bug`, `dependencies`, `javascript`)
 
 **Bump qs from 6\.16\.0 to 6\.17\.1**
 
@@ -455,7 +455,7 @@
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript#65003](https://github.com/microsoft/TypeScript/pull/65003) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65003](https://github.com/microsoft/TypeScript/pull/65003) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Report process CPU time in extended diagnostics**
 

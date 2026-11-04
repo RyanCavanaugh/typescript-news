@@ -1,6 +1,6 @@
 # Report for 2026-10-30 (Friday, October 30th, 2026)
 
-17 different users commented on 51 different issues.
+17 different users commented on 56 different issues.
 
 ## Recommended Actions
 
@@ -35,7 +35,7 @@
  * (1 year ago) **RyanCavanaugh** added labels `Domain: Inlay Hints`, `7.0 LS Migration`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64108](https://github.com/microsoft/TypeScript/pull/64108) (Open, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#64108](https://github.com/microsoft/TypeScript/pull/64108) (Closed, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Fix call hierarchy file node paths**
 
@@ -149,7 +149,7 @@
  * [yesterday](https://github.com/microsoft/TypeScript/pull/64978#issuecomment-6513976139) **timurzvural** explained the regression behavior on TS 7.1 for object literals with defaults and proposed PR #65016 as an alternative solution
  * (today) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#64980](https://github.com/microsoft/TypeScript/issues/64980) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64980](https://github.com/microsoft/TypeScript/issues/64980) (Closed, `Bug`)
 
 **\`\-\-experimentalDecorators\`: decorated \`abstract\` property is emitted as a class field \(regression in 7\.0\)**
 
@@ -167,7 +167,7 @@
  * (3 days ago) **RyanCavanaugh** added label `Bug`, and assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#64982](https://github.com/microsoft/TypeScript/pull/64982) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#64982](https://github.com/microsoft/TypeScript/pull/64982) (Closed, `For Backlog Bug`)
 
 **erase decorated abstract properties under experimentalDecorators with define semantics**
 
@@ -328,7 +328,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65058#issuecomment-6527518658) **el-j** mentioned addressing all review threads, validating tests locally, and requesting maintainer approval of pending workflows and review of the updated PR
  * [today](https://github.com/microsoft/TypeScript/pull/65058#issuecomment-6528188256) **el-j** addressed five new review comments, resolved all review threads, passed local tests, and requested maintainer re-review and CI enabling
 
-### [PR microsoft/TypeScript#65059](https://github.com/microsoft/TypeScript/pull/65059) (Open, `Author: Team`, `For Milestone Bug`, **ahejlsberg**, **gabritto**)
+### [PR microsoft/TypeScript#65059](https://github.com/microsoft/TypeScript/pull/65059) (Closed, `Author: Team`, `For Milestone Bug`, **ahejlsberg**, **gabritto**)
 
 **Allow accessing named declared members during a type's resolution**
 
@@ -382,7 +382,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65061#issuecomment-6530887553) **typescript-automation[bot]** provided the results of the requested performance run
  * [later](https://github.com/microsoft/TypeScript/pull/65061#issuecomment-6541174030) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [PR microsoft/TypeScript#65062](https://github.com/microsoft/TypeScript/pull/65062) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65062](https://github.com/microsoft/TypeScript/pull/65062) (Open, `For Backlog Bug`)
 
 **Preserve single\-line emit hints for nodes returned by the API**
 
@@ -391,11 +391,11 @@
  * created by **1-DARK**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65063](https://github.com/microsoft/TypeScript/pull/65063) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65063](https://github.com/microsoft/TypeScript/pull/65063) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Fix AST optionality**
 
-*Update TypeScript AST definitions so node properties like type annotations, initializers, and tokens correctly reflect optional or required status.*
+*Update AST node definitions to make type-related properties and tokens optional or non-null as needed.*
 
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
@@ -417,7 +417,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6533969647) **typescript-automation[bot]** provided the requested performance run results
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6534283900) **jakebailey** said "Well, that's a little bleak."
 
-### [PR microsoft/TypeScript#65065](https://github.com/microsoft/TypeScript/pull/65065) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65065](https://github.com/microsoft/TypeScript/pull/65065) (Closed, `For Uncommitted Bug`)
 
 **fix\(65052\): keep inherited member order from the base type**
 
@@ -426,7 +426,7 @@
  * created by **timurzvural**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65066](https://github.com/microsoft/TypeScript/pull/65066) (Open, `Domain: Performance`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65066](https://github.com/microsoft/TypeScript/pull/65066) (Closed, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Add getSymbolDocumentations and getMembersOfType for API surface extraction**
 
@@ -467,7 +467,7 @@
 
  * created by **timurzvural**
 
-### [PR microsoft/TypeScript#65070](https://github.com/microsoft/TypeScript/pull/65070) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65070](https://github.com/microsoft/TypeScript/pull/65070) (Open, `For Backlog Bug`)
 
 **fix\(65069\): preserve contextual types for array\-destructured parameter defaults**
 
@@ -484,7 +484,7 @@
 
  * created by **timurzvural**
 
-### [PR microsoft/TypeScript#65072](https://github.com/microsoft/TypeScript/pull/65072) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65072](https://github.com/microsoft/TypeScript/pull/65072) (Closed, `For Uncommitted Bug`)
 
 **fix\(65071\): resurrect dirty\.SyncMap entries after Delete in LoadOrStore**
 
@@ -493,7 +493,7 @@
  * created by **timurzvural**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65073](https://github.com/microsoft/TypeScript/pull/65073) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65073](https://github.com/microsoft/TypeScript/pull/65073) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Compute CommonJSModuleIndicator in the parser**
 
@@ -514,7 +514,7 @@
  * (later) **bribes** closed the issue
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Uncommitted Bug`, `For Backlog Bug`, `For Uncommitted Bug`, and removed labels `For Uncommitted Bug`, `For Backlog Bug`, `For Uncommitted Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Open)
+### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Open, `Duplicate`)
 
 **typescript/ast/scanner: scan\(\) never advances past \`\#\` not followed by an identifier start \(7\.1\.0\-beta\)**
 

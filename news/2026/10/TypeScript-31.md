@@ -1,6 +1,6 @@
 # Report for 2026-10-31 (Saturday, October 31st, 2026)
 
-17 different users commented on 26 different issues.
+17 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -43,7 +43,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6544123377) **artile** provided a third real-world example highlighting a TypeScript inference failure in nested generic interfaces, added two distinguishing details, and demonstrated which 7.1.0-dev versions failed using code, tsconfig, and a results table
  * [today](https://github.com/microsoft/TypeScript/issues/64757#issuecomment-6546851553) **kennysarnoski-jarvis** described the root cause of the type inference issue, opened issue #65077 with a fix and a compiler test, and confirmed that it resolves the previously reported repro cases
 
-### [PR microsoft/TypeScript#65003](https://github.com/microsoft/TypeScript/pull/65003) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65003](https://github.com/microsoft/TypeScript/pull/65003) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Report process CPU time in extended diagnostics**
 
@@ -82,7 +82,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6551896318) **typescript-automation[bot]** informed @jakebailey of the requested performance run results and presented comparison metrics
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6552290072) **typescript-automation[bot]** reported tsc build results for the top 400 repos, noted an interesting change, and provided failure details for cheaper-inference/OmniRoute
 
-### [PR microsoft/TypeScript#65072](https://github.com/microsoft/TypeScript/pull/65072) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65072](https://github.com/microsoft/TypeScript/pull/65072) (Closed, `For Uncommitted Bug`)
 
 **fix\(65071\): resurrect dirty\.SyncMap entries after Delete in LoadOrStore**
 
@@ -92,7 +92,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/65072#issuecomment-6551598550) **aetherxeg-source** proposed a test for stale-reference concerns when reusing the same SyncMapEntry after deletion and requested clarification of the intended entry lifetime contract
 
-### [PR microsoft/TypeScript#65073](https://github.com/microsoft/TypeScript/pull/65073) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65073](https://github.com/microsoft/TypeScript/pull/65073) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Compute CommonJSModuleIndicator in the parser**
 
@@ -104,7 +104,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65073#issuecomment-6548778973) **typescript-automation[bot]** announced starting jobs with status and results links
  * [today](https://github.com/microsoft/TypeScript/pull/65073#issuecomment-6549314978) **typescript-automation[bot]** posted the requested perf run results with a detailed comparison report for tsc metrics
 
-### [Issue microsoft/TypeScript#65076](https://github.com/microsoft/TypeScript/issues/65076) (Open, `Bug`)
+### [Issue microsoft/TypeScript#65076](https://github.com/microsoft/TypeScript/issues/65076) (Closed, `Bug`)
 
 **Native tsc reads a literal U\+FFFD in a regex character class as 0xEF \(false TS1517 / TS1516\)**
 
@@ -122,7 +122,7 @@
  * (today) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **ahejlsberg**
  * [today](https://github.com/microsoft/TypeScript/pull/65077#issuecomment-6546968750) **kennysarnoski-jarvis** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#65078](https://github.com/microsoft/TypeScript/issues/65078) (Open)
+### [Issue microsoft/TypeScript#65078](https://github.com/microsoft/TypeScript/issues/65078) (Open, `Bug`)
 
 **panic: strings: negative Repeat count with \-\-pretty; TS8010 span for an empty type annotation in JS ends before it starts**
 
@@ -130,7 +130,7 @@
 
  * created by **THEtheChad**
 
-### [Issue microsoft/TypeScript#65079](https://github.com/microsoft/TypeScript/issues/65079) (Open)
+### [Issue microsoft/TypeScript#65079](https://github.com/microsoft/TypeScript/issues/65079) (Open, `Bug`)
 
 **panic: nil pointer dereference in CreateDiagnosticForNodeInSourceFile for a malformed "files" array in tsconfig\.json**
 
@@ -138,7 +138,7 @@
 
  * created by **THEtheChad**
 
-### [PR microsoft/TypeScript#65080](https://github.com/microsoft/TypeScript/pull/65080) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65080](https://github.com/microsoft/TypeScript/pull/65080) (Closed, `For Backlog Bug`)
 
 **fix\(65076\): treat literal U\+FFFD as a real rune in regex classes**
 
@@ -147,7 +147,7 @@
  * created by **timurzvural**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65081](https://github.com/microsoft/TypeScript/pull/65081) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65081](https://github.com/microsoft/TypeScript/pull/65081) (Closed, `For Backlog Bug`)
 
 **fix\(65078\): keep empty spans for missing nodes when skipping trivia**
 
@@ -156,7 +156,7 @@
  * created by **timurzvural**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65082](https://github.com/microsoft/TypeScript/pull/65082) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65082](https://github.com/microsoft/TypeScript/pull/65082) (Open, `For Backlog Bug`)
 
 **fix\(tsoptions\): don't panic on empty files when AST node is missing**
 
@@ -165,7 +165,7 @@
  * created by **timurzvural**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65083](https://github.com/microsoft/TypeScript/issues/65083) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#65083](https://github.com/microsoft/TypeScript/issues/65083) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **API: \`tsc\.exe\` opens a visible console window on Windows when the parent process has no console**
 
@@ -207,7 +207,7 @@
 
  * created by **emerardd**
 
-### [PR microsoft/TypeScript#65088](https://github.com/microsoft/TypeScript/pull/65088) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65088](https://github.com/microsoft/TypeScript/pull/65088) (Open, `For Backlog Bug`)
 
 **Reject pending async API requests when the connection closes**
 
@@ -217,7 +217,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65088#issuecomment-6557153358) **wsjwu58-cmd** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#65089](https://github.com/microsoft/TypeScript/issues/65089) (Open)
+### [Issue microsoft/TypeScript#65089](https://github.com/microsoft/TypeScript/issues/65089) (Open, `Bug`)
 
 **Async API requests remain pending after the RPC connection closes**
 
@@ -225,7 +225,7 @@
 
  * created by **wsjwu58-cmd**
 
-### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Open)
+### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Native compiler API resolves a default\-parameter reference to a body function binding**
 
@@ -233,17 +233,17 @@
 
  * created by **CaliLuke**
 
-### [PR microsoft/TypeScript#65091](https://github.com/microsoft/TypeScript/pull/65091) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65091](https://github.com/microsoft/TypeScript/pull/65091) (Closed, `For Milestone Bug`, **RyanCavanaugh**)
 
 **Fill the config cycle into the TS18000 circularity message**
 
-*Improve the TS18000 circularity error by including the full config extends chain (e.g., a.json → b.json → a.json) in its diagnostic message.*
+*Include the chain of configuration file paths causing a circular extends error in the TS18000 diagnostic message*
 
  * created by **cplieger**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65091#issuecomment-6560560316) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
 
-### [Issue microsoft/TypeScript#65092](https://github.com/microsoft/TypeScript/issues/65092) (Open)
+### [Issue microsoft/TypeScript#65092](https://github.com/microsoft/TypeScript/issues/65092) (Open, `Suggestion`, `Declined`)
 
 **Feature Request: Allow Content Mappers to opt\-in to transforming files end in built\-in extensions**
 
