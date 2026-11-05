@@ -502,7 +502,7 @@
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **Copilot**, **RyanCavanaugh**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Open, `Question`)
+### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Closed, `Question`)
 
 **Clarify EULA and Background Sync provenance in TypeScript 5\.9\.3 third\-party notices**
 
@@ -527,7 +527,7 @@
  * (today) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **andrewbranch**
  * **andrewbranch** assigned to **Copilot**
 
-### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Closed, `For Backlog Bug`)
 
 **Report TS2516 for non\-consecutive abstract method declarations**
 
@@ -547,7 +547,7 @@
  * created by **Program-creator122**
  * (today) **RyanCavanaugh** closed the issue
 
-### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Closed, `Duplicate`)
 
 **Can you please add some new features for types: string length getter \(currently \`number\`\), string getter by index \(currently \`string\`\), array multiple spreads \(currently gives the error of type\)**
 
@@ -592,7 +592,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65103#issuecomment-6588139170) **RyanCavanaugh** said "This found one true positive and zero false positives so that's my "good enough""
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#65104](https://github.com/microsoft/TypeScript/pull/65104) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65104](https://github.com/microsoft/TypeScript/pull/65104) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Reuse programs across edits to files with synthetic imports**
 
@@ -737,7 +737,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **DanielRosenwasser**
  * (today) **DanielRosenwasser** closed the issue
 
-### [PR microsoft/TypeScript#65120](https://github.com/microsoft/TypeScript/pull/65120) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65120](https://github.com/microsoft/TypeScript/pull/65120) (Closed, `For Backlog Bug`)
 
 **fix\(isolatedDeclarations\): report TS9007/TS9008 for return entity names**
 
@@ -879,7 +879,7 @@
  * [later](https://github.com/microsoft/TypeScript/issues/65167#issuecomment-6601366789) **timurzvural** described missing native hover and completion support for JSDoc @param types on function parameters
  * [later](https://github.com/microsoft/TypeScript/issues/65167#issuecomment-6601386952) **timurzvural** described that call-site signature help showed parameters as any on the native host for a JSDoc-typed function while the classic host displayed correct types
 
-### [Issue microsoft/TypeScript#65170](https://github.com/microsoft/TypeScript/issues/65170) (Open, `Bug`)
+### [Issue microsoft/TypeScript#65170](https://github.com/microsoft/TypeScript/issues/65170) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Erasing \`as\` or \`satisfies\` can expose an invalid left operand of \`\*\*\`**
 

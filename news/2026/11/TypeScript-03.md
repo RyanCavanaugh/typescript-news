@@ -330,7 +330,7 @@
  * created by **wsjwu58-cmd**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Native compiler API resolves a default\-parameter reference to a body function binding**
 
@@ -384,7 +384,7 @@
  * **andrewbranch** assigned to **Copilot**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Closed, `For Backlog Bug`)
 
 **Report TS2516 for non\-consecutive abstract method declarations**
 
@@ -596,7 +596,7 @@
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/65167#issuecomment-6624972361) **1-DARK** explained that the issue was due to missing JS filename, demonstrated that specifying a .js file fixes completions, added a regression test, and suggested closing the issue as not a bug
 
-### [Issue microsoft/TypeScript#65170](https://github.com/microsoft/TypeScript/issues/65170) (Open, `Bug`)
+### [Issue microsoft/TypeScript#65170](https://github.com/microsoft/TypeScript/issues/65170) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Erasing \`as\` or \`satisfies\` can expose an invalid left operand of \`\*\*\`**
 
@@ -817,7 +817,7 @@
  * created by **weswigham**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **weswigham**
 
-### [PR microsoft/TypeScript#65299](https://github.com/microsoft/TypeScript/pull/65299) (Open, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#65299](https://github.com/microsoft/TypeScript/pull/65299) (Closed, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Respect parameter\-initializer scope for body function declarations**
 
@@ -876,7 +876,7 @@
  * created by **cplieger**
  * (today) **typescript-automation[bot]** added label `For Milestone Bug`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#65305](https://github.com/microsoft/TypeScript/pull/65305) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65305](https://github.com/microsoft/TypeScript/pull/65305) (Open, `Domain: Performance`, `For Uncommitted Bug`)
 
 **API: poll briefly before blocking on the sync channel**
 
@@ -903,7 +903,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65307#issuecomment-6624971578) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (today) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65308](https://github.com/microsoft/TypeScript/pull/65308) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65308](https://github.com/microsoft/TypeScript/pull/65308) (Open, `Domain: Performance`, `For Backlog Bug`)
 
 **Stop unbounded memory growth after type complexity limits are hit**
 
@@ -912,7 +912,7 @@
  * created by **1-DARK**
  * **typescript-automation[bot]** added label `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#65309](https://github.com/microsoft/TypeScript/issues/65309) (Open)
+### [Issue microsoft/TypeScript#65309](https://github.com/microsoft/TypeScript/issues/65309) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS1450 \(wrong number of \`import\(\)\` arguments\) is reported with category "message" instead of "error"**
 
@@ -928,7 +928,7 @@
 
  * created by **trackoor**
 
-### [Issue microsoft/TypeScript#65311](https://github.com/microsoft/TypeScript/issues/65311) (Open)
+### [Issue microsoft/TypeScript#65311](https://github.com/microsoft/TypeScript/issues/65311) (Open, `Bug`)
 
 **\`in\` inside an array literal in a \`for\` initializer is a syntax error \(\`for \(let i = 0, a = \[k in o\]; …\)\`\)**
 
@@ -937,7 +937,7 @@
  * created by **trackoor**
  * [later](https://github.com/microsoft/TypeScript/issues/65311#issuecomment-6629428265) **MartinJohns** said "Why would you ever write code like this?"
 
-### [PR microsoft/TypeScript#65312](https://github.com/microsoft/TypeScript/pull/65312) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65312](https://github.com/microsoft/TypeScript/pull/65312) (Closed, `For Milestone Bug`, **RyanCavanaugh**)
 
 **Report an error when erasing as/satisfies exposes an invalid left operand of \*\***
 
@@ -945,7 +945,6 @@
 
  * created by **0xABCD01**
  * **typescript-automation[bot]** added label `For Backlog Bug`
- * [later](https://github.com/microsoft/TypeScript/pull/65312#issuecomment-6628775118) **microsoft-github-policy-service[bot]** requested the user to review and agree to the Contributor License Agreement by replying with the appropriate agree command
 
 ### [Issue microsoft/TypeScript#65313](https://github.com/microsoft/TypeScript/issues/65313) (Open)
 

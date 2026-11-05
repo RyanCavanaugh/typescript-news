@@ -1,6 +1,6 @@
 # Report for 2026-10-31 (Saturday, October 31st, 2026)
 
-17 different users commented on 29 different issues.
+17 different users commented on 31 different issues.
 
 ## Recommended Actions
 
@@ -181,7 +181,7 @@
 
  * created by **toiroakr**
 
-### [PR microsoft/TypeScript#65085](https://github.com/microsoft/TypeScript/pull/65085) (Open, `Author: Team`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65085](https://github.com/microsoft/TypeScript/pull/65085) (Closed, `Author: Team`, `For Uncommitted Bug`)
 
 **Update localization files**
 
@@ -225,7 +225,7 @@
 
  * created by **wsjwu58-cmd**
 
-### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#65090](https://github.com/microsoft/TypeScript/issues/65090) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Native compiler API resolves a default\-parameter reference to a body function binding**
 

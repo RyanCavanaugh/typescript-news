@@ -1,6 +1,6 @@
 # Report for 2026-11-01 (Sunday, November 1st, 2026)
 
-16 different users commented on 27 different issues.
+16 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -154,7 +154,7 @@
 
  * created by **jcoulaud**
 
-### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Open, `Question`)
+### [Issue microsoft/TypeScript#65096](https://github.com/microsoft/TypeScript/issues/65096) (Closed, `Question`)
 
 **Clarify EULA and Background Sync provenance in TypeScript 5\.9\.3 third\-party notices**
 
@@ -178,7 +178,7 @@
 
  * created by **Knagis**
 
-### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65099](https://github.com/microsoft/TypeScript/pull/65099) (Closed, `For Backlog Bug`)
 
 **Report TS2516 for non\-consecutive abstract method declarations**
 
@@ -196,7 +196,7 @@
 
  * created by **Program-creator122**
 
-### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#65101](https://github.com/microsoft/TypeScript/issues/65101) (Closed, `Duplicate`)
 
 **Can you please add some new features for types: string length getter \(currently \`number\`\), string getter by index \(currently \`string\`\), array multiple spreads \(currently gives the error of type\)**
 

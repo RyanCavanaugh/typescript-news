@@ -1,6 +1,6 @@
 # Report for 2026-10-30 (Friday, October 30th, 2026)
 
-17 different users commented on 56 different issues.
+17 different users commented on 57 different issues.
 
 ## Recommended Actions
 
@@ -447,7 +447,7 @@
  * **jakebailey** added label `Domain: Performance`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#65068](https://github.com/microsoft/TypeScript/issues/65068) (Open)
+### [Issue microsoft/TypeScript#65068](https://github.com/microsoft/TypeScript/issues/65068) (Open, `Crash`, **johnfav03**)
 
 **\[ServerErrors\]\[TypeScript\] main**
 

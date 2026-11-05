@@ -1,6 +1,6 @@
 # Report for 2026-10-29 (Thursday, October 29th, 2026)
 
-29 different users commented on 95 different issues.
+29 different users commented on 99 different issues.
 
 ## Recommended Actions
 
@@ -636,7 +636,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65028](https://github.com/microsoft/TypeScript/pull/65028) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65028](https://github.com/microsoft/TypeScript/pull/65028) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Reuse scratch node lists in the parser**
 
@@ -692,7 +692,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65031#issuecomment-6509016118) **typescript-automation[bot]** provided the performance run results and comparison report for baseline vs pr
  * (later) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65032](https://github.com/microsoft/TypeScript/pull/65032) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65032](https://github.com/microsoft/TypeScript/pull/65032) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Speed up keyword lookup, identifier scanning, and whitespace skipping in the scanner**
 
@@ -705,7 +705,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65032#issuecomment-6508853497) **typescript-automation[bot]** announced that performance test jobs started and provided links to build status and results
  * [today](https://github.com/microsoft/TypeScript/pull/65032#issuecomment-6510095162) **typescript-automation[bot]** provided the requested performance run results including detailed metrics for errors, symbols, types, and memory usage
 
-### [PR microsoft/TypeScript#65033](https://github.com/microsoft/TypeScript/pull/65033) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65033](https://github.com/microsoft/TypeScript/pull/65033) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Speed up union construction with sorted\-run merging and cheaper membership check**
 
@@ -762,11 +762,11 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65036#issuecomment-6508417718) **typescript-automation[bot]** reported that perf test jobs had started
  * [today](https://github.com/microsoft/TypeScript/pull/65036#issuecomment-6509640773) **typescript-automation[bot]** provided the requested perf run results including a comparison of baseline and pr metrics
 
-### [PR microsoft/TypeScript#65037](https://github.com/microsoft/TypeScript/pull/65037) (Open, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
+### [PR microsoft/TypeScript#65037](https://github.com/microsoft/TypeScript/pull/65037) (Closed, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
 
 **Adds missing methods from checker api **
 
-*Adds missing promise-based methods to the Checker API for symbol lookup, type queries, and literal types.*
+*Add missing Checker API methods for various type queries and remove the deprecated getAugmentedPropertiesOfType.*
 
  * created by **iisaduan**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **iisaduan**
