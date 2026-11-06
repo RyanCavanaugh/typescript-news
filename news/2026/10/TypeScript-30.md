@@ -1,6 +1,6 @@
 # Report for 2026-10-30 (Friday, October 30th, 2026)
 
-17 different users commented on 57 different issues.
+17 different users commented on 58 different issues.
 
 ## Recommended Actions
 
@@ -193,7 +193,7 @@
 
 **Allow builds to skip source generation**
 
-*Add a build flag to skip source generation and shorten the benchmark preparation phase.*
+*Introduce a flag to skip redundant source generation during builds, speeding up local prep while retaining CI checks.*
 
  * (2 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * **jakebailey** added label `Domain: Performance`
@@ -514,7 +514,7 @@
  * (later) **bribes** closed the issue
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Uncommitted Bug`, `For Backlog Bug`, `For Uncommitted Bug`, and removed labels `For Uncommitted Bug`, `For Backlog Bug`, `For Uncommitted Bug`, `For Backlog Bug`
 
-### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Closed, `Duplicate`)
 
 **typescript/ast/scanner: scan\(\) never advances past \`\#\` not followed by an identifier start \(7\.1\.0\-beta\)**
 

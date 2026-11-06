@@ -1,6 +1,6 @@
 # Report for 2026-11-04 (Wednesday, November 4th, 2026)
 
-18 different users commented on 62 different issues.
+18 different users commented on 63 different issues.
 
 ## Recommended Actions
 
@@ -83,7 +83,7 @@
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#64988](https://github.com/microsoft/TypeScript/pull/64988) (Open, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
+### [PR microsoft/TypeScript#64988](https://github.com/microsoft/TypeScript/pull/64988) (Closed, `Author: Team`, `For Uncommitted Bug`, **iisaduan**)
 
 **Add missing Program and Project Methods**
 
@@ -276,7 +276,7 @@
 
 **API: poll briefly before blocking on the sync channel**
 
-*API sync channel now briefly spin-polls incoming messages before blocking reads, reducing OS wake-up overhead and speeding execution.*
+*The TypeScript API’s synchronous channel now polls for up to 100 microseconds before blocking to reduce latency and improve performance.*
 
  * created by **WinterYukky**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`

@@ -290,7 +290,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/65073#issuecomment-6549314978) **typescript-automation[bot]** posted the requested perf run results with a detailed comparison report for tsc metrics
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Open, `Duplicate`)
+### [Issue microsoft/TypeScript#65075](https://github.com/microsoft/TypeScript/issues/65075) (Closed, `Duplicate`)
 
 **typescript/ast/scanner: scan\(\) never advances past \`\#\` not followed by an identifier start \(7\.1\.0\-beta\)**
 
@@ -654,7 +654,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65279#issuecomment-6609842312) **magic-akari** explained that the change affected emit during error recovery, that the compiler still reported TS2474 and stripped type syntax from enum initializers to match TS6, and offered to close the PR if the edge case was too minor
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#65281](https://github.com/microsoft/TypeScript/issues/65281) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#65281](https://github.com/microsoft/TypeScript/issues/65281) (Closed, `Not a Defect`)
 
 **Native LS: missing TS80004 suggestion and "Annotate with type from JSDoc" quick fix**
 
@@ -880,7 +880,7 @@
 
 **API: poll briefly before blocking on the sync channel**
 
-*API sync channel now briefly spin-polls incoming messages before blocking reads, reducing OS wake-up overhead and speeding execution.*
+*The TypeScript API’s synchronous channel now polls for up to 100 microseconds before blocking to reduce latency and improve performance.*
 
  * created by **WinterYukky**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
