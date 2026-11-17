@@ -1,12 +1,11 @@
 # Report for 2026-11-11 (Wednesday, November 11th, 2026)
 
-20 different users commented on 38 different issues.
+20 different users commented on 41 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
     * @dummdidumm provided important context about prior TSX limitations and a possible workaround for changing trigger-character behavior in [microsoft/TypeScript#65326](https://github.com/microsoft/TypeScript/issues/65326#issuecomment-6807783900)
-    * @JemmyIndex reported a failed test job caused by a proxy download error and asked maintainers to rerun the failed jobs in [microsoft/TypeScript#65352](https://github.com/microsoft/TypeScript/pull/65352#issuecomment-6819927705)
     * @xxangelmamxx asked whether they could work on the issue in [microsoft/TypeScript#65379](https://github.com/microsoft/TypeScript/issues/65379#issuecomment-6805712603)
     * @ghorner2 provided a repository link for maintainers to review the reported issue in [microsoft/TypeScript#65385](https://github.com/microsoft/TypeScript/issues/65385#issuecomment-6804272038)
     * @roxyroo123456-bot reported a regression between versions 6 and 7 with a specific code example and expected diagnostic behavior in [microsoft/TypeScript#65433](https://github.com/microsoft/TypeScript/issues/65433#issuecomment-6811416302)
@@ -71,7 +70,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*A major checker overhaul aims to make type checking, diagnostics, and behavior fully independent of traversal, file, and cache ordering.*
+*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
 
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6790427183) **typescript-automation[bot]** reported new TypeScript TS7023 errors in SchemaAST.ts when comparing baseline and PR user-test results
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6790645397) **typescript-automation[bot]** reported the requested performance results, including increased symbols and memory usage in the compiler-unions benchmark
@@ -107,7 +106,7 @@
  * [2 days ago](https://github.com/microsoft/TypeScript/issues/65326#issuecomment-6754508009) **andrewbranch** said "I think this is a reasonable feature request, but I'm also curious if for this particular case you considered emitting TSX for Svelte files?"
  * [today](https://github.com/microsoft/TypeScript/issues/65326#issuecomment-6807783900) **dummdidumm** explained that a previous TSX-based approach had syntax and error-message limitations, and suggested changing only trigger-character behavior through an alternative workaround
 
-### [PR microsoft/TypeScript#65352](https://github.com/microsoft/TypeScript/pull/65352) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65352](https://github.com/microsoft/TypeScript/pull/65352) (Closed, `For Backlog Bug`)
 
 **lib: remove obsolete Atomics\.pause parameter**
 
@@ -199,7 +198,7 @@
 
 **Incorrect error message when ASI errors involve a nonstandard newline**
 
-*TypeScript omits the “Are you missing a semicolon?” diagnostic when ASI errors involve a U+2028 paragraph separator.*
+*TypeScript 7 omits the “Are you missing a semicolon?” diagnostic when ASI errors involve a U+2028 paragraph separator.*
 
  * (yesterday) **RyanCavanaugh** added labels `Help Wanted`, `Good First Issue`, and removed label `Good First Issue`
  * [today](https://github.com/microsoft/TypeScript/issues/65433#issuecomment-6811416302) **roxyroo123456-bot** reported that TypeScript 7 stopped adding the “Are you missing a semicolon?” sub-error for a U+2028 paragraph separator after an arrow function expression, unlike TypeScript 6
@@ -247,7 +246,7 @@
  * (today) **andrewbranch** added label `API Request`, and assigned to **andrewbranch**
  * [today](https://github.com/microsoft/TypeScript/issues/65443#issuecomment-6811846940) **mrclrchtr** confirmed that `ensurePrograms: true` resolves created files, corrected the example, and described remaining config-coverage gaps involving nonexistent paths and imported files outside `include`
 
-### [Issue microsoft/TypeScript#65444](https://github.com/microsoft/TypeScript/issues/65444) (Open)
+### [Issue microsoft/TypeScript#65444](https://github.com/microsoft/TypeScript/issues/65444) (Open, `Bug`, `Domain: LS: Refactorings`)
 
 **7\.0 regression: \`prepareRename\` placeholder includes quotes and brackets**
 
@@ -321,7 +320,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65450#issuecomment-6811765621) **typescript-automation[bot]** provided the requested performance run results comparing the baseline and PR
  * [today](https://github.com/microsoft/TypeScript/pull/65450#issuecomment-6812456020) **typescript-automation[bot]** reported that testing the top 400 repositories with tsc showed no differences between the baseline and PR, with everything looking good
 
-### [Issue microsoft/TypeScript#65451](https://github.com/microsoft/TypeScript/issues/65451) (Open)
+### [Issue microsoft/TypeScript#65451](https://github.com/microsoft/TypeScript/issues/65451) (Open, `Bug`, `Domain: API`)
 
 **Native API createSourceFile panics for numeric literals whose normalized text is longer than the source**
 
@@ -329,7 +328,7 @@
 
  * created by **AkisArou**
 
-### [Issue microsoft/TypeScript#65452](https://github.com/microsoft/TypeScript/issues/65452) (Open)
+### [Issue microsoft/TypeScript#65452](https://github.com/microsoft/TypeScript/issues/65452) (Open, `Bug`, `Domain: Crashes`)
 
 **Checker crashes on yield\* of a synchronous iterable containing an invalid thenable**
 
@@ -337,7 +336,7 @@
 
  * created by **AkisArou**
 
-### [Issue microsoft/TypeScript#65453](https://github.com/microsoft/TypeScript/issues/65453) (Open)
+### [Issue microsoft/TypeScript#65453](https://github.com/microsoft/TypeScript/issues/65453) (Open, `Suggestion`)
 
 **\[Formatter\] add new options for blank lines**
 

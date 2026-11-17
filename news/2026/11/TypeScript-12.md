@@ -1,6 +1,6 @@
 # Report for 2026-11-12 (Thursday, November 12th, 2026)
 
-13 different users commented on 46 different issues.
+13 different users commented on 54 different issues.
 
 ## Recommended Actions
 
@@ -40,7 +40,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*A major checker overhaul aims to make type checking, diagnostics, and behavior fully independent of traversal, file, and cache ordering.*
+*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
 
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6811839297) **typescript-automation[bot]** reported that the requested performance run results were available and showed increased symbols and memory usage for the Compiler-Unions native scenario
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6811863495) **typescript-automation[bot]** reported new TypeScript errors in the Effect project’s user-test comparison and asked the maintainer to investigate the changes
@@ -85,7 +85,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/65455#issuecomment-6832294784) **rafamolina1** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#65456](https://github.com/microsoft/TypeScript/pull/65456) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65456](https://github.com/microsoft/TypeScript/pull/65456) (Open, `For Backlog Bug`)
 
 **Fix prepareRename placeholders for quoted and computed properties**
 
@@ -94,7 +94,7 @@
  * created by **rafamolina1**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65457](https://github.com/microsoft/TypeScript/issues/65457) (Open)
+### [Issue microsoft/TypeScript#65457](https://github.com/microsoft/TypeScript/issues/65457) (Open, `Bug`, `Domain: API`)
 
 **\`typescript/async\`: getSourceFile\(\) returns a NumberKeyword for a typeToTypeNode\(\) result**
 
@@ -102,7 +102,7 @@
 
  * created by **mathcovax**
 
-### [Issue microsoft/TypeScript#65458](https://github.com/microsoft/TypeScript/issues/65458) (Open)
+### [Issue microsoft/TypeScript#65458](https://github.com/microsoft/TypeScript/issues/65458) (Open, `Bug`, `Domain: API`)
 
 **Native API: Wtf8Decoder drops U\+FEFF from string literals and template text**
 
@@ -110,7 +110,7 @@
 
  * created by **mrousavy**
 
-### [PR microsoft/TypeScript#65459](https://github.com/microsoft/TypeScript/pull/65459) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65459](https://github.com/microsoft/TypeScript/pull/65459) (Closed, `For Uncommitted Bug`)
 
 **Fix checker crash when sync iteration awaits an invalid thenable**
 
@@ -120,7 +120,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/65459#issuecomment-6838051625) **joshbarros** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#65460](https://github.com/microsoft/TypeScript/pull/65460) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65460](https://github.com/microsoft/TypeScript/pull/65460) (Closed, `For Uncommitted Bug`)
 
 **Preserve U\+FEFF when Wtf8Decoder reads payload text**
 
@@ -187,7 +187,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65467](https://github.com/microsoft/TypeScript/pull/65467) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65467](https://github.com/microsoft/TypeScript/pull/65467) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Bind every destructured parameter in node\-builder scopes**
 
@@ -322,7 +322,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65482](https://github.com/microsoft/TypeScript/pull/65482) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65482](https://github.com/microsoft/TypeScript/pull/65482) (Open, `For Backlog Bug`)
 
 **fix\(api\): avoid encoder panic on normalized numeric literals**
 
@@ -331,7 +331,7 @@
  * created by **JemmyIndex**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65483](https://github.com/microsoft/TypeScript/issues/65483) (Open)
+### [Issue microsoft/TypeScript#65483](https://github.com/microsoft/TypeScript/issues/65483) (Open, `Bug`, `Domain: check: Error Instability`)
 
 **7\.1 regression: TS2339 in a self\-referencing object literal is dropped when another file on the same checker hits the same error first**
 

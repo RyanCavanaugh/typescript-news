@@ -1,6 +1,6 @@
 # Report for 2026-11-14 (Saturday, November 14th, 2026)
 
-10 different users commented on 16 different issues.
+9 different users commented on 20 different issues.
 
 ## Recommended Actions
 
@@ -18,7 +18,7 @@
  * (1.8 years ago) **RyanCavanaugh** added label `Domain: Parser`, removed label `Help Wanted`, and set milestone to `Backlog`
  * [later](https://github.com/microsoft/TypeScript/issues/60874#issuecomment-6891934964) **magic-akari** said "I’m working on a fix for this."
 
-### [Issue microsoft/TypeScript#65414](https://github.com/microsoft/TypeScript/issues/65414) (Open)
+### [Issue microsoft/TypeScript#65414](https://github.com/microsoft/TypeScript/issues/65414) (Open, `Bug`, `Domain: JS Emit`)
 
 **CommonJS emit gives an imported function the wrong \`this\` when the callee is wrapped**
 
@@ -27,7 +27,7 @@
  * created by **trackoor**
  * [today](https://github.com/microsoft/TypeScript/issues/65414#issuecomment-6882653761) **sundeep8967** reported a reproducible emitter issue involving wrapped imported callees and offered to prepare a fix with regression tests
 
-### [PR microsoft/TypeScript#65506](https://github.com/microsoft/TypeScript/pull/65506) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65506](https://github.com/microsoft/TypeScript/pull/65506) (Closed, `For Backlog Bug`)
 
 **Clarify the error when an interface extends a constrained type parameter**
 
@@ -37,7 +37,7 @@
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [today](https://github.com/microsoft/TypeScript/pull/65506#issuecomment-6884129559) **Lior-Altarescu** said "@microsoft-github-policy-service agree"
 
-### [Issue microsoft/TypeScript#65507](https://github.com/microsoft/TypeScript/issues/65507) (Open)
+### [Issue microsoft/TypeScript#65507](https://github.com/microsoft/TypeScript/issues/65507) (Open, `Bug`, `Domain: JSDoc`)
 
 **JSDoc \`\#\` link resolution behavior broke in TS 7**
 
@@ -45,7 +45,7 @@
 
  * created by **Gerrit0**
 
-### [Issue microsoft/TypeScript#65508](https://github.com/microsoft/TypeScript/issues/65508) (Open)
+### [Issue microsoft/TypeScript#65508](https://github.com/microsoft/TypeScript/issues/65508) (Open, `Bug`, `Domain: check: Error Instability`)
 
 **Go checker: finite indexed\-access constraint loses its explicit bound depending on prior file checking**
 
@@ -71,7 +71,7 @@
  * created by **magic-akari**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Milestone Bug`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#65511](https://github.com/microsoft/TypeScript/pull/65511) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65511](https://github.com/microsoft/TypeScript/pull/65511) (Open, `For Backlog Bug`)
 
 **fix: share in\-flight getSourceFile requests in native\-preview async API \(\#65503\)**
 
@@ -80,9 +80,8 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65511#issuecomment-6894375032) **zhengdaodeguL** said "@microsoft-github-policy-service agree"
- * [later](https://github.com/microsoft/TypeScript/pull/65511#issuecomment-6894376562) **microsoft-github-policy-service[bot]** requested that @zhengdaodeguL review and accept the Contributor License Agreement by replying with the appropriate agreement command
 
-### [PR microsoft/TypeScript#65512](https://github.com/microsoft/TypeScript/pull/65512) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65512](https://github.com/microsoft/TypeScript/pull/65512) (Open, `For Backlog Bug`)
 
 **fix: deduplicate rename edits for dynamic imports with \.ts specifiers**
 
@@ -91,7 +90,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65513](https://github.com/microsoft/TypeScript/issues/65513) (Open)
+### [Issue microsoft/TypeScript#65513](https://github.com/microsoft/TypeScript/issues/65513) (Open, `Bug`)
 
 **Object\-rest for\-of lowering skips transformations on direct body statements**
 
@@ -99,7 +98,7 @@
 
  * created by **Vl4dC**
 
-### [Issue microsoft/TypeScript#65514](https://github.com/microsoft/TypeScript/issues/65514) (Open)
+### [Issue microsoft/TypeScript#65514](https://github.com/microsoft/TypeScript/issues/65514) (Open, `Bug`, `Domain: classes`)
 
 **TS2729 when a field initializer reads an inherited property redeclared with \`declare\`**
 
@@ -107,7 +106,7 @@
 
  * created by **mizchi**
 
-### [PR microsoft/TypeScript#65515](https://github.com/microsoft/TypeScript/pull/65515) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65515](https://github.com/microsoft/TypeScript/pull/65515) (Open, `For Backlog Bug`)
 
 **fix: resolve JSDoc '\#' links to instance members**
 

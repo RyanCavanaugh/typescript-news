@@ -1,6 +1,6 @@
 # Report for 2026-11-13 (Friday, November 13th, 2026)
 
-11 different users commented on 62 different issues.
+11 different users commented on 64 different issues.
 
 ## Recommended Actions
 
@@ -74,7 +74,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*A major checker overhaul aims to make type checking, diagnostics, and behavior fully independent of traversal, file, and cache ordering.*
+*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
 
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6853673975) **typescript-automation[bot]** reported that the DT tests completed and exposed a branch-only TypeScript compile error in d3-selection involving incompatible TransitionLike element types
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6853807663) **typescript-automation[bot]** provided the requested performance-run results, including compiler comparison metrics showing increased symbols and memory usage
@@ -105,16 +105,16 @@
 
 **Various order dependence fixes**
 
-*Fixes order-dependent behavior by replacing incidental cache peeks and ID-based ordering with deterministic content-based ordering and caching.*
+*Fixes order-dependent behavior by replacing incidental cache peeks and ID-based ordering with deterministic, content-based ordering and caching.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Milestone Bug`, and removed label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65293](https://github.com/microsoft/TypeScript/pull/65293) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65293](https://github.com/microsoft/TypeScript/pull/65293) (Open, `Author: Team`, `For Milestone Bug`, `For Backlog Bug`, **jakebailey**)
 
 **Make checker behavior order independent**
 
-*Refactor checker state and recursion handling to eliminate order-dependent behavior, ensuring consistent diagnostics, cycle resolution, variance, and instantiation limits.*
+*Refactor checker state and cycle handling to make diagnostics, variance calculations, and instantiation limits independent of evaluation order.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/65293#issuecomment-6616507155) **Copilot** reported that a custom repository setup step failed during the Copilot code review run and directed maintainers to inspect the workflow failure and configuration
@@ -307,7 +307,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#65485](https://github.com/microsoft/TypeScript/issues/65485) (Open)
+### [Issue microsoft/TypeScript#65485](https://github.com/microsoft/TypeScript/issues/65485) (Open, `Bug`, `Domain: API`)
 
 **API: \`generateTrace\` compiler option is accepted but no trace files are written for programs created through \`typescript/sync\`**
 
@@ -411,7 +411,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65494#issuecomment-6868347090) **typescript-automation[bot]** reported a panic in custom/textDocument/sourceDefinition caused by a path containing a URL query or fragment
  * [today](https://github.com/microsoft/TypeScript/issues/65494#issuecomment-6868347832) **typescript-automation[bot]** reported that the TypeScript server closed prematurely while processing vercel/ai and provided replay artifacts and reproduction steps
 
-### [PR microsoft/TypeScript#65495](https://github.com/microsoft/TypeScript/pull/65495) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65495](https://github.com/microsoft/TypeScript/pull/65495) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix kqueue descriptor ownership across watch replacement**
 
@@ -444,7 +444,7 @@
 
 **Fix CommonJS declaration emit crashes**
 
-*Fix declaration emission crashes caused by CommonJS require statements that cannot be converted to imports.*
+*Fix declaration emit crashes caused by CommonJS require statements that cannot be converted to imports.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -486,7 +486,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [Issue microsoft/TypeScript#65503](https://github.com/microsoft/TypeScript/issues/65503) (Open)
+### [Issue microsoft/TypeScript#65503](https://github.com/microsoft/TypeScript/issues/65503) (Open, `Bug`, `Domain: API`)
 
 **API client: concurrent \`Program\.getSourceFile\` calls for one file stampede the cache, each fetching the file whole**
 
@@ -505,7 +505,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/65504#issuecomment-6876462956) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open)
+### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open, `Bug`, `Domain: LS: TSServer`)
 
 **\`workspace/willRenameFiles\` panics with "changes overlap" when the renamed file is loaded by \`import\(\)\` with a \`\.ts\` specifier**
 

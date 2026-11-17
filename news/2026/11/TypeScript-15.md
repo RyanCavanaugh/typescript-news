@@ -1,11 +1,11 @@
 # Report for 2026-11-15 (Sunday, November 15th, 2026)
 
-10 different users commented on 24 different issues.
+10 different users commented on 27 different issues.
 
 ## Recommended Actions
 
  * Response Recommended
-    * @unixatch reported that the documented workaround failed in multiple versions and provided a reproduction link and detailed use cases for the proposed syntax. in [microsoft/TypeScript#36812](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-6917076294)
+    * @unixatch reported significant usability issues and requested a simpler type-only import syntax in [microsoft/TypeScript#36812](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-6917076294)
     * @markstone111 asked a maintainer to confirm the proposed approach and assign the issue to them in [microsoft/TypeScript#65457](https://github.com/microsoft/TypeScript/issues/65457#issuecomment-6898492365)
 
 ## Activity Summary
@@ -19,7 +19,7 @@
  * **RyanCavanaugh** unassigned **ahejlsberg**
  * **typescript-bot** added label `Fix Available`
  * **jakebailey** removed label `Fix Available`
- * [today](https://github.com/microsoft/TypeScript/issues/36772#issuecomment-6903191130) **gameroman** discovered and demonstrated that narrowing breaks when a narrowed generic argument is assigned to a new variable, providing a TypeScript playground reproduction
+ * [today](https://github.com/microsoft/TypeScript/issues/36772#issuecomment-6903191130) **gameroman** reported that narrowing only broke when the narrowed generic value was assigned to a new variable, and provided a TypeScript reproduction
 
 ### [Issue microsoft/TypeScript#36812](https://github.com/microsoft/TypeScript/issues/36812) (Open, `Suggestion`, `In Discussion`, `Awaiting More Feedback`)
 
@@ -30,7 +30,7 @@
  * [6.3 years ago](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-664758660) **xiaoxiangmoe** suggested trying an empty type-only import from `my-lib`
  * [4.6 years ago](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-1065210955) **thw0rted** reported a possible issue where type-only imports prevent module augmentations from applying at runtime, linked issue #48222, and offered to provide a reproduction with guidance
  * [2 years ago](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-2419467445) **mshima** noted that module augmentation could use `export type {} from '../global.js'`
- * [later](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-6917076294) **unixatch** explained that importing types across declaration files was unnecessarily cumbersome, reported that the suggested workaround failed in versions 6.0.2 and 7.1.0-beta, and advocated implementing a more direct syntax with supporting examples.
+ * [later](https://github.com/microsoft/TypeScript/issues/36812#issuecomment-6917076294) **unixatch** outlined difficulties importing types across declaration files, described cumbersome workarounds and documentation gaps, and suggested adding syntactic sugar for type-only imports
 
 ### [Issue microsoft/TypeScript#64891](https://github.com/microsoft/TypeScript/issues/64891) (Closed, `Needs Investigation`, **ahejlsberg**)
 
@@ -73,7 +73,7 @@
  * [5 days ago](https://github.com/microsoft/TypeScript/issues/65049#issuecomment-6783728997) **andrewbranch** described an experimental branch that improved wall time by about 10% in typescript-eslint benchmarks but substantially increased CPU usage, and expressed concern about imposing the tradeoff or requiring esoteric environment-variable tuning
  * [today](https://github.com/microsoft/TypeScript/issues/65049#issuecomment-6904703698) **WinterYukky** provided cross-platform benchmark results showing adaptive spinning improved performance on hosts with multiple physical cores but could significantly regress single-core systems, and proposed removing the environment variables and enabling adaptive spinning only when at least four logical CPUs are available
 
-### [Issue microsoft/TypeScript#65457](https://github.com/microsoft/TypeScript/issues/65457) (Open)
+### [Issue microsoft/TypeScript#65457](https://github.com/microsoft/TypeScript/issues/65457) (Open, `Bug`, `Domain: API`)
 
 **\`typescript/async\`: getSourceFile\(\) returns a NumberKeyword for a typeToTypeNode\(\) result**
 
@@ -82,7 +82,7 @@
  * created by **mathcovax**
  * [today](https://github.com/microsoft/TypeScript/issues/65457#issuecomment-6898492365) **markstone111** expressed willingness to investigate synthesized node handling in getSourceFile(), add regression tests, and implement a fix
 
-### [Issue microsoft/TypeScript#65516](https://github.com/microsoft/TypeScript/issues/65516) (Open)
+### [Issue microsoft/TypeScript#65516](https://github.com/microsoft/TypeScript/issues/65516) (Open, `Needs Investigation`, **andrewbranch**)
 
 **Content mapper ignore directives need diagnostic\-code selectors**
 
@@ -100,7 +100,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65517#issuecomment-6912561753) **ubugeeei** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#65518](https://github.com/microsoft/TypeScript/pull/65518) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65518](https://github.com/microsoft/TypeScript/pull/65518) (Open, `For Backlog Bug`)
 
 **Exempt declare redeclarations from TS2729 use\-before\-init check**
 
@@ -118,7 +118,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65520](https://github.com/microsoft/TypeScript/pull/65520) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65520](https://github.com/microsoft/TypeScript/pull/65520) (Open, `For Backlog Bug`)
 
 **Fix indexed\-access base constraint losing explicit bound across checker histories**
 
@@ -156,7 +156,7 @@
  * (later) **jakebailey** closed the issue
  * [later](https://github.com/microsoft/TypeScript/pull/65523#issuecomment-6916825781) **arnavdugar** said "It really is. Thank you so much :)"
 
-### [Issue microsoft/TypeScript#65524](https://github.com/microsoft/TypeScript/issues/65524) (Open)
+### [Issue microsoft/TypeScript#65524](https://github.com/microsoft/TypeScript/issues/65524) (Open, `Bug`, `Domain: JSDoc`)
 
 **\[7\.0 regression\] JSDoc \`@this\` breaks \`@param\` matching for destructured parameter \(TS8024\)**
 
@@ -164,7 +164,7 @@
 
  * created by **jablonski**
 
-### [Issue microsoft/TypeScript#65525](https://github.com/microsoft/TypeScript/issues/65525) (Open)
+### [Issue microsoft/TypeScript#65525](https://github.com/microsoft/TypeScript/issues/65525) (Open, `Bug`, **andrewbranch**)
 
 **Missing content\-mapper fallbacks cause internal LSP errors**
 
@@ -172,7 +172,7 @@
 
  * created by **auvred**
 
-### [Issue microsoft/TypeScript#65526](https://github.com/microsoft/TypeScript/issues/65526) (Open)
+### [Issue microsoft/TypeScript#65526](https://github.com/microsoft/TypeScript/issues/65526) (Open, `Bug`, `Domain: LS: Symbol Navigation`)
 
 **Duplicate callsite ranges for a single method call in callHierarchy/outgoingCalls**
 
