@@ -1,6 +1,6 @@
 # Report for 2026-11-12 (Thursday, November 12th, 2026)
 
-13 different users commented on 54 different issues.
+13 different users commented on 67 different issues.
 
 ## Recommended Actions
 
@@ -25,7 +25,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/64182#issuecomment-6832876086) **andrewbranch** clarified that `.mts`/`.mjs` and their counterparts were interchangeable based on `package.json`, as long as input and output formats agreed
  * [later](https://github.com/microsoft/TypeScript/issues/64182#issuecomment-6851386454) **remcohaszing** proposed hiding TS1295 errors from virtual content-mapper code and passing allowed extensions in transform parameters to resolve module-syntax and extension-mapping issues
 
-### [Issue microsoft/TypeScript#64757](https://github.com/microsoft/TypeScript/issues/64757) (Open, `Needs Investigation`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#64757](https://github.com/microsoft/TypeScript/issues/64757) (Open, `Needs Investigation`, `Domain: check: Order Dependence`, **ahejlsberg**)
 
 **Regression in 7\.1 \(\#64553\): R inferred as unknown through a generic type alias call signature with a nested same\-type argument**
 
@@ -40,7 +40,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
+*Proposes making type checking fully order-independent, with randomized ordering tests and extensive fixes for cache, traversal, and identifier-dependent behavior.*
 
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6811839297) **typescript-automation[bot]** reported that the requested performance run results were available and showed increased symbols and memory usage for the Compiler-Unions native scenario
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6811863495) **typescript-automation[bot]** reported new TypeScript errors in the Effect project’s user-test comparison and asked the maintainer to investigate the changes
@@ -160,7 +160,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65464](https://github.com/microsoft/TypeScript/pull/65464) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65464](https://github.com/microsoft/TypeScript/pull/65464) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Check the preceding rune before recognizing conflict markers**
 
@@ -259,7 +259,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65475](https://github.com/microsoft/TypeScript/pull/65475) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**, **johnfav03**)
+### [PR microsoft/TypeScript#65475](https://github.com/microsoft/TypeScript/pull/65475) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**, **johnfav03**)
 
 **Prevent emitted files from retriggering native watch builds**
 
@@ -331,7 +331,7 @@
  * created by **JemmyIndex**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65483](https://github.com/microsoft/TypeScript/issues/65483) (Open, `Bug`, `Domain: check: Error Instability`)
+### [Issue microsoft/TypeScript#65483](https://github.com/microsoft/TypeScript/issues/65483) (Open, `Bug`, `Domain: check: Order Dependence`)
 
 **7\.1 regression: TS2339 in a self\-referencing object literal is dropped when another file on the same checker hits the same error first**
 

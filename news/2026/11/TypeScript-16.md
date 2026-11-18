@@ -1,6 +1,6 @@
 # Report for 2026-11-16 (Monday, November 16th, 2026)
 
-19 different users commented on 74 different issues.
+18 different users commented on 79 different issues.
 
 ## Recommended Actions
 
@@ -8,7 +8,6 @@
     * @kaya3 provided a clarification and reproduction demonstrating that a generic `fn<T>(x: T & 'a')` produced the same error in [microsoft/TypeScript#36772](https://github.com/microsoft/TypeScript/issues/36772#issuecomment-6925822684)
     * @sosoba asked whether the 7.1 release plan would be updated in [microsoft/TypeScript#63703](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6949297487)
     * @poveu reported that the memory leak also occurred in PhpStorm on Windows in [microsoft/TypeScript#64568](https://github.com/microsoft/TypeScript/issues/64568#issuecomment-6948739115)
-    * @Konan69 was asked to provide the required CLA agreement response in [microsoft/TypeScript#64671](https://github.com/microsoft/TypeScript/pull/64671#issuecomment-6926911037)
     * @wickstudio provided the requested commit split and reported passing local tests in [microsoft/TypeScript#64900](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6938782055)
     * @pawangopallavudya-commits asked about the reason for closing PR #65527 and whether the fix was still needed in [microsoft/TypeScript#65527](https://github.com/microsoft/TypeScript/pull/65527#issuecomment-6951019295)
     * @Flarette reported a behavior change between versions 6.0.3 and 7.x that should be acknowledged in [microsoft/TypeScript#65530](https://github.com/microsoft/TypeScript/issues/65530#issuecomment-6927233524)
@@ -39,7 +38,7 @@
  * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6297602298) **DanielRosenwasser** announced that the beta was published, the blog post was available, and the v7.1-beta tag had been created
  * [later](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6949297487) **sosoba** asked whether the 7.1 RC and stable release plan would be updated
 
-### [Issue microsoft/TypeScript#64431](https://github.com/microsoft/TypeScript/issues/64431) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#64431](https://github.com/microsoft/TypeScript/issues/64431) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **TS7031 false positive for nested object binding pattern with \`= {}\` default in an annotated parameter \(regression from \#64043\)**
 
@@ -63,16 +62,6 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/issues/64568#issuecomment-6772488856) **KostyaTretyak** confirmed that the issue remained relevant and expressed frustration about having to repeat the report
  * [later](https://github.com/microsoft/TypeScript/issues/64568#issuecomment-6948739115) **poveu** mentioned that the same memory leak issue occurred in PhpStorm on Windows and included a screenshot
 
-### [PR microsoft/TypeScript#64671](https://github.com/microsoft/TypeScript/pull/64671) (Open, `For Uncommitted Bug`, **RyanCavanaugh**)
-
-**Do not pad binding elements that the parameter's type already types**
-
-*Fix `padObjectLiteralType` to preserve annotated or contextually typed binding element types, including nested patterns, while padding only untyped elements.*
-
- * created by **Konan69**
- * (5 weeks ago) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
- * [today](https://github.com/microsoft/TypeScript/pull/64671#issuecomment-6926911037) **microsoft-github-policy-service[bot]** requested that @Konan69 review the Contributor License Agreement and reply with the appropriate agreement command, optionally naming their company
-
 ### [Issue microsoft/TypeScript#64692](https://github.com/microsoft/TypeScript/issues/64692) (Closed, `Domain: Performance`, `Possible Improvement`, **ahejlsberg**)
 
 **\[7\.0 regression\] Object literal passed to a method on a large union creates exponentially many types \(type order dependent\)**
@@ -95,7 +84,7 @@
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6862090261) **jakebailey** suggested splitting the changes into separate commits for the failing test and baseline, followed by the fix and updated baseline
  * [today](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6938782055) **wickstudio** split the changes into two commits, adding the regression test with the original baseline first and the fix with the updated baseline second, and reported that all local tests passed
 
-### [Issue microsoft/TypeScript#64998](https://github.com/microsoft/TypeScript/issues/64998) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64998](https://github.com/microsoft/TypeScript/issues/64998) (Open, `Bug`, `Domain: check: Order Dependence`)
 
 **declaration emit depends on checker assignment; a type alias becomes \`any\` with no error**
 
@@ -121,7 +110,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
+*Proposes making type checking fully order-independent, with randomized ordering tests and extensive fixes for cache, traversal, and identifier-dependent behavior.*
 
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6872486023) **typescript-automation[bot]** reported that the DT tests completed and exposed a branch-only TypeScript compile error in d3-selection involving incompatible TransitionLike element types
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6872500310) **typescript-automation[bot]** reported new TypeScript test errors in `SchemaAST.ts` when comparing the baseline and PR results, and asked maintainers to investigate
@@ -425,7 +414,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#65537](https://github.com/microsoft/TypeScript/pull/65537) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65537](https://github.com/microsoft/TypeScript/pull/65537) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Parse JSDoc \`@augments\` and \`@implements\` as TypeReference**
 
@@ -478,7 +467,7 @@
  * (today) **zhengdaodeguL** closed the issue
  * [today](https://github.com/microsoft/TypeScript/pull/65541#issuecomment-6928783756) **RyanCavanaugh** said "?"
 
-### [PR microsoft/TypeScript#65542](https://github.com/microsoft/TypeScript/pull/65542) (Open, `Author: Team`, `For Backlog Bug`, **jakebailey**, **RyanCavanaugh**)
+### [PR microsoft/TypeScript#65542](https://github.com/microsoft/TypeScript/pull/65542) (Closed, `Author: Team`, `For Backlog Bug`, **jakebailey**, **RyanCavanaugh**)
 
 **Skip default padding for params with declared/contextual types**
 
@@ -493,7 +482,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65542#issuecomment-6934206407) **typescript-automation[bot]** reported that the requested performance run results were available and included a baseline-versus-PR comparison
  * [today](https://github.com/microsoft/TypeScript/pull/65542#issuecomment-6935214503) **typescript-automation[bot]** reported that testing the top 400 repositories with tsc showed no differences between the baseline and PR, with everything looking good
 
-### [Issue microsoft/TypeScript#65543](https://github.com/microsoft/TypeScript/issues/65543) (Open, `Bug`, **jakebailey**)
+### [Issue microsoft/TypeScript#65543](https://github.com/microsoft/TypeScript/issues/65543) (Open, `Bug`, `Domain: check: Order Dependence`, **jakebailey**)
 
 **TS2322 missed with 3\+ checkers: \`keyof\` depends on checker assignment when an interface's index signature uses its own \`keyof\`**
 
@@ -531,7 +520,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65547](https://github.com/microsoft/TypeScript/issues/65547) (Open)
+### [Issue microsoft/TypeScript#65547](https://github.com/microsoft/TypeScript/issues/65547) (Open, **DanielRosenwasser**, **Copilot**)
 
 **LSP panics with "slice bounds out of range" after a content mapper fails**
 

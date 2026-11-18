@@ -45,7 +45,7 @@
 
  * created by **Gerrit0**
 
-### [Issue microsoft/TypeScript#65508](https://github.com/microsoft/TypeScript/issues/65508) (Open, `Bug`, `Domain: check: Error Instability`)
+### [Issue microsoft/TypeScript#65508](https://github.com/microsoft/TypeScript/issues/65508) (Open, `Bug`, `Domain: check: Order Dependence`)
 
 **Go checker: finite indexed\-access constraint loses its explicit bound depending on prior file checking**
 

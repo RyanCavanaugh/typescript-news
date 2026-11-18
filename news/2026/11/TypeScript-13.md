@@ -1,6 +1,6 @@
 # Report for 2026-11-13 (Friday, November 13th, 2026)
 
-11 different users commented on 64 different issues.
+11 different users commented on 76 different issues.
 
 ## Recommended Actions
 
@@ -74,7 +74,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
+*Proposes making type checking fully order-independent, with randomized ordering tests and extensive fixes for cache, traversal, and identifier-dependent behavior.*
 
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6853673975) **typescript-automation[bot]** reported that the DT tests completed and exposed a branch-only TypeScript compile error in d3-selection involving incompatible TransitionLike element types
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6853807663) **typescript-automation[bot]** provided the requested performance-run results, including compiler comparison metrics showing increased symbols and memory usage
@@ -105,7 +105,7 @@
 
 **Various order dependence fixes**
 
-*Fixes order-dependent behavior by replacing incidental cache peeks and ID-based ordering with deterministic, content-based ordering and caching.*
+*Fixes order-dependent behavior by replacing opportunistic cache reads and ID-based ordering with deterministic, content-based ordering and caching.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Milestone Bug`, and removed label `For Uncommitted Bug`
@@ -114,13 +114,13 @@
 
 **Make checker behavior order independent**
 
-*Refactor checker state and cycle handling to make diagnostics, variance calculations, and instantiation limits independent of evaluation order.*
+*Refactor checker state and cycle handling to make diagnostics, variance calculations, and instantiation limits deterministic regardless of query or processing order.*
 
  * (1 week ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
  * [1 week ago](https://github.com/microsoft/TypeScript/pull/65293#issuecomment-6616507155) **Copilot** reported that a custom repository setup step failed during the Copilot code review run and directed maintainers to inspect the workflow failure and configuration
  * (today) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Milestone Bug`, and removed labels `For Uncommitted Bug`, `For Milestone Bug`
 
-### [Issue microsoft/TypeScript#65355](https://github.com/microsoft/TypeScript/issues/65355) (Closed, `Duplicate`)
+### [Issue microsoft/TypeScript#65355](https://github.com/microsoft/TypeScript/issues/65355) (Open, `Suggestion`)
 
 **Remote declaration resolution**
 
@@ -352,7 +352,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65488#issuecomment-6866103853) **typescript-automation[bot]** reported a premature server connection closure affecting tastejs/todomvc and provided request logs and reproduction steps
  * [today](https://github.com/microsoft/TypeScript/issues/65488#issuecomment-6866104730) **typescript-automation[bot]** reported a runtime slice-bounds panic during cross-project handling in the TypeScript language service
 
-### [PR microsoft/TypeScript#65489](https://github.com/microsoft/TypeScript/pull/65489) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65489](https://github.com/microsoft/TypeScript/pull/65489) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix incorrect node type annotations**
 
@@ -361,7 +361,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65490](https://github.com/microsoft/TypeScript/pull/65490) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65490](https://github.com/microsoft/TypeScript/pull/65490) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Match typed\-path lint URL detection to runtime roots**
 
@@ -370,7 +370,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65491](https://github.com/microsoft/TypeScript/pull/65491) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65491](https://github.com/microsoft/TypeScript/pull/65491) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Keep formatting fragments out of source\-file statement lists**
 
@@ -391,9 +391,9 @@
 
 ### [PR microsoft/TypeScript#65493](https://github.com/microsoft/TypeScript/pull/65493) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
-**Convert nested rest bindings to assignment targets**
+**Convert patterns in object rest bindings to assignment targets**
 
-*Ensure malformed nested rest bindings are converted to assignment targets so emit completes gracefully after parser errors instead of panicking.*
+*Fix emit to convert nested patterns in object rest bindings into valid assignment targets and avoid printer crashes.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -422,9 +422,9 @@
 
 ### [PR microsoft/TypeScript#65496](https://github.com/microsoft/TypeScript/pull/65496) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
-**Return a missing identifier from parseDecoratedExpression instead of a missing declaration**
+**Return a missing identifier from parseDecoratedExpression when no class follows**
 
-*Correct parseDecoratedExpression to return a missing identifier rather than a missing declaration, since declarations are not expressions.*
+*Correct parseDecoratedExpression to return a missing identifier, not a declaration, when no class follows.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -444,12 +444,12 @@
 
 **Fix CommonJS declaration emit crashes**
 
-*Fix declaration emit crashes caused by CommonJS require statements that cannot be converted to imports.*
+*Fix declaration emit crashes caused by invalid export names from destructured CommonJS requires and template-literal exports.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65499](https://github.com/microsoft/TypeScript/pull/65499) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65499](https://github.com/microsoft/TypeScript/pull/65499) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix JSDoc node types**
 
@@ -458,7 +458,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65500](https://github.com/microsoft/TypeScript/pull/65500) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65500](https://github.com/microsoft/TypeScript/pull/65500) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Preserve JSON\-RPC error details in string formatting**
 
@@ -481,7 +481,7 @@
 
 **Stop building invalid type syntax for hover and code fixes**
 
-*Stop generating invalid AST syntax for hover and code fixes by storing extra type arguments in emit context and clearing them safely.*
+*Stop generating invalid AST type syntax by storing hover and code-fix type arguments in emit context and updating related APIs and behavior.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**

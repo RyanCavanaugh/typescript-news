@@ -1,6 +1,6 @@
 # Report for 2026-11-11 (Wednesday, November 11th, 2026)
 
-20 different users commented on 41 different issues.
+20 different users commented on 44 different issues.
 
 ## Recommended Actions
 
@@ -35,7 +35,7 @@
  * [6 days ago](https://github.com/microsoft/TypeScript/issues/64362#issuecomment-6671076292) **dummdidumm** explained that content mappers incorrectly prefer `.svelte` implementations over adjacent `.d.svelte.ts` declarations in Svelte packages and proposed excluding `node_modules` from content mapping
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64974](https://github.com/microsoft/TypeScript/issues/64974) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64974](https://github.com/microsoft/TypeScript/issues/64974) (Closed, `Bug`)
 
 **7\.1: destructured parameter with a \`= {}\` default loses its contextual type \(TS7031\)**
 
@@ -70,7 +70,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*Overhauls type checking to make results and diagnostics fully independent of traversal, file, cache, and evaluation order.*
+*Proposes making type checking fully order-independent, with randomized ordering tests and extensive fixes for cache, traversal, and identifier-dependent behavior.*
 
  * [yesterday](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6790427183) **typescript-automation[bot]** reported new TypeScript TS7023 errors in SchemaAST.ts when comparing baseline and PR user-test results
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6790645397) **typescript-automation[bot]** reported the requested performance results, including increased symbols and memory usage in the compiler-unions benchmark
@@ -115,7 +115,7 @@
  * (6 days ago) **typescript-automation[bot]** added labels `For Uncommitted Bug`, `For Backlog Bug`, and removed label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65352#issuecomment-6819927705) **JemmyIndex** reported that the concurrent test job failed due to a transient download error from proxy.golang.org, noted that all other checks passed, and requested rerunning the failed jobs
 
-### [Issue microsoft/TypeScript#65355](https://github.com/microsoft/TypeScript/issues/65355) (Closed, `Duplicate`)
+### [Issue microsoft/TypeScript#65355](https://github.com/microsoft/TypeScript/issues/65355) (Open, `Suggestion`)
 
 **Remote declaration resolution**
 
@@ -160,7 +160,7 @@
  * (2 days ago) **RyanCavanaugh** added labels `Bug`, `Domain: Declaration Emit`, and set milestone to `Backlog`
  * [today](https://github.com/microsoft/TypeScript/issues/65379#issuecomment-6805712603) **xxangelmamxx** said "Hi! I'd love to give this issue a try if it's still available! I'm new to contributing to TypeScript, but I'd really appreciate the opportunity to help. Would that be okay?"
 
-### [Issue microsoft/TypeScript#65385](https://github.com/microsoft/TypeScript/issues/65385) (Open, `Needs More Info`)
+### [Issue microsoft/TypeScript#65385](https://github.com/microsoft/TypeScript/issues/65385) (Open, `Needs Investigation`, **joj**)
 
 **VisualStudio 2026 \- Razor Class Library**
 
