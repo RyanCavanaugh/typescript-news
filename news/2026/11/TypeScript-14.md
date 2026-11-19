@@ -62,7 +62,7 @@
  * created by **somdoron**
  * (today) **somdoron** closed the issue
 
-### [PR microsoft/TypeScript#65510](https://github.com/microsoft/TypeScript/pull/65510) (Open, `For Milestone Bug`, `For Backlog Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#65510](https://github.com/microsoft/TypeScript/pull/65510) (Open, `Domain: Performance`, `For Milestone Bug`, `For Backlog Bug`, **johnfav03**)
 
 **Reject structurally incomplete type arguments in expressions**
 
@@ -71,7 +71,7 @@
  * created by **magic-akari**
  * (later) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Milestone Bug`, and assigned to **johnfav03**
 
-### [PR microsoft/TypeScript#65511](https://github.com/microsoft/TypeScript/pull/65511) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65511](https://github.com/microsoft/TypeScript/pull/65511) (Closed, `Domain: Performance`, `For Backlog Bug`)
 
 **fix: share in\-flight getSourceFile requests in native\-preview async API \(\#65503\)**
 
@@ -81,7 +81,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65511#issuecomment-6894375032) **zhengdaodeguL** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#65512](https://github.com/microsoft/TypeScript/pull/65512) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65512](https://github.com/microsoft/TypeScript/pull/65512) (Closed, `For Backlog Bug`)
 
 **fix: deduplicate rename edits for dynamic imports with \.ts specifiers**
 
@@ -106,7 +106,7 @@
 
  * created by **mizchi**
 
-### [PR microsoft/TypeScript#65515](https://github.com/microsoft/TypeScript/pull/65515) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65515](https://github.com/microsoft/TypeScript/pull/65515) (Closed, `For Backlog Bug`)
 
 **fix: resolve JSDoc '\#' links to instance members**
 

@@ -1,6 +1,6 @@
 # Report for 2026-11-16 (Monday, November 16th, 2026)
 
-18 different users commented on 79 different issues.
+18 different users commented on 81 different issues.
 
 ## Recommended Actions
 
@@ -37,6 +37,16 @@
  * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6285163659) **erlichmen** asked when the TypeScript 7.1.0 beta would be published and whether users should build it from the `release-7.1` branch
  * [3 weeks ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6297602298) **DanielRosenwasser** announced that the beta was published, the blog post was available, and the v7.1-beta tag had been created
  * [later](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6949297487) **sosoba** asked whether the 7.1 RC and stable release plan would be updated
+
+### [PR microsoft/TypeScript#64239](https://github.com/microsoft/TypeScript/pull/64239) (Closed, `For Uncommitted Bug`, **ahejlsberg**)
+
+**Fixed a crash related to variadic tuple elements with intersections containing \`InstantiableNonPrimitive\`**
+
+*Fixes a crash when variadic tuple elements involve intersections containing `InstantiableNonPrimitive`.*
+
+ * created by **Andarist**
+ * (9 weeks ago) **typescript-automation[bot]** added label `For Uncommitted Bug`, and assigned to **ahejlsberg**
+ * [today](https://github.com/microsoft/TypeScript/pull/64239#issuecomment-6940209441) **jakebailey** suggested adding a test case for the issue found in #65064 and described the differing inferred types on main versus the proposed fix
 
 ### [Issue microsoft/TypeScript#64431](https://github.com/microsoft/TypeScript/issues/64431) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
@@ -261,7 +271,7 @@
  * (4 days ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65510](https://github.com/microsoft/TypeScript/pull/65510) (Open, `For Milestone Bug`, `For Backlog Bug`, **johnfav03**)
+### [PR microsoft/TypeScript#65510](https://github.com/microsoft/TypeScript/pull/65510) (Open, `Domain: Performance`, `For Milestone Bug`, `For Backlog Bug`, **johnfav03**)
 
 **Reject structurally incomplete type arguments in expressions**
 
@@ -279,7 +289,7 @@
  * created by **Vl4dC**
  * (today) **RyanCavanaugh** added label `Bug`, and set milestone to `Backlog`
 
-### [PR microsoft/TypeScript#65519](https://github.com/microsoft/TypeScript/pull/65519) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65519](https://github.com/microsoft/TypeScript/pull/65519) (Closed, `For Backlog Bug`)
 
 **Fix object rest for\-of lowering skipping direct body statement transformation**
 
@@ -321,7 +331,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **RyanCavanaugh**
  * [today](https://github.com/microsoft/TypeScript/pull/65528#issuecomment-6923315228) **jakebailey** said "Unfortunately I worry that strengthening these instructions will be just hurt local dev, as it did for DT"
 
-### [PR microsoft/TypeScript#65529](https://github.com/microsoft/TypeScript/pull/65529) (Closed, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
+### [PR microsoft/TypeScript#65529](https://github.com/microsoft/TypeScript/pull/65529) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **ahejlsberg**)
 
 **Optimize \`getPropertiesOfUnionOrIntersectionType\`**
 
@@ -493,7 +503,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65543#issuecomment-6934293160) **blickly** said "Great to hear.  I can't wait for https://github.com/microsoft/TypeScript/pull/65293"
  * [today](https://github.com/microsoft/TypeScript/issues/65543#issuecomment-6934301340) **jakebailey** said "Unfortunately I wouldn't expect it for 7.1"
 
-### [PR microsoft/TypeScript#65544](https://github.com/microsoft/TypeScript/pull/65544) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**, **RyanCavanaugh**)
+### [PR microsoft/TypeScript#65544](https://github.com/microsoft/TypeScript/pull/65544) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**, **RyanCavanaugh**)
 
 **Bound printing of deferred array and tuple references by their node**
 
@@ -511,7 +521,7 @@
  * created by **typescript-automation[bot]**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65546](https://github.com/microsoft/TypeScript/pull/65546) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65546](https://github.com/microsoft/TypeScript/pull/65546) (Closed, `For Backlog Bug`)
 
 **Fix contextual typing loss for computed string keys under circular mapped\-type key constraints \(Fixes \#65530\)**
 
@@ -520,7 +530,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65547](https://github.com/microsoft/TypeScript/issues/65547) (Open, **DanielRosenwasser**, **Copilot**)
+### [Issue microsoft/TypeScript#65547](https://github.com/microsoft/TypeScript/issues/65547) (Closed, `Bug`, `Domain: Content Mappers`, **DanielRosenwasser**, **Copilot**)
 
 **LSP panics with "slice bounds out of range" after a content mapper fails**
 
@@ -528,7 +538,7 @@
 
  * created by **auvred**
 
-### [PR microsoft/TypeScript#65548](https://github.com/microsoft/TypeScript/pull/65548) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65548](https://github.com/microsoft/TypeScript/pull/65548) (Open, `Domain: Performance`, `For Uncommitted Bug`)
 
 **Skip the combined\-constraint check for a dedicated variance relationship**
 

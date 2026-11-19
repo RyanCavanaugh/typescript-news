@@ -329,7 +329,7 @@
 
 **Update DOM types**
 
-*Updates DOM typings with latest web APIs across speech, storage, networking, accessibility, graphics, performance, and compatibility changes.*
+*Update DOM library types with the latest web platform APIs, interfaces, options, and compatibility changes across browser features.*
 
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
@@ -420,7 +420,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
 
-### [PR microsoft/TypeScript#65496](https://github.com/microsoft/TypeScript/pull/65496) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65496](https://github.com/microsoft/TypeScript/pull/65496) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Return a missing identifier from parseDecoratedExpression when no class follows**
 
@@ -477,7 +477,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65502](https://github.com/microsoft/TypeScript/pull/65502) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65502](https://github.com/microsoft/TypeScript/pull/65502) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Stop building invalid type syntax for hover and code fixes**
 

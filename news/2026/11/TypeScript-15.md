@@ -1,6 +1,6 @@
 # Report for 2026-11-15 (Sunday, November 15th, 2026)
 
-10 different users commented on 28 different issues.
+10 different users commented on 29 different issues.
 
 ## Recommended Actions
 
@@ -100,7 +100,7 @@
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
  * [later](https://github.com/microsoft/TypeScript/pull/65517#issuecomment-6912561753) **ubugeeei** said "@microsoft-github-policy-service agree"
 
-### [PR microsoft/TypeScript#65518](https://github.com/microsoft/TypeScript/pull/65518) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65518](https://github.com/microsoft/TypeScript/pull/65518) (Closed, `For Backlog Bug`)
 
 **Exempt declare redeclarations from TS2729 use\-before\-init check**
 
@@ -109,7 +109,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65519](https://github.com/microsoft/TypeScript/pull/65519) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65519](https://github.com/microsoft/TypeScript/pull/65519) (Closed, `For Backlog Bug`)
 
 **Fix object rest for\-of lowering skipping direct body statement transformation**
 
@@ -118,7 +118,7 @@
  * created by **zhengdaodeguL**
  * **typescript-automation[bot]** added label `For Uncommitted Bug`
 
-### [PR microsoft/TypeScript#65520](https://github.com/microsoft/TypeScript/pull/65520) (Open, `For Backlog Bug`)
+### [PR microsoft/TypeScript#65520](https://github.com/microsoft/TypeScript/pull/65520) (Closed, `For Backlog Bug`)
 
 **Fix indexed\-access base constraint losing explicit bound across checker histories**
 
@@ -164,7 +164,7 @@
 
  * created by **jablonski**
 
-### [Issue microsoft/TypeScript#65525](https://github.com/microsoft/TypeScript/issues/65525) (Open, `Bug`, **andrewbranch**)
+### [Issue microsoft/TypeScript#65525](https://github.com/microsoft/TypeScript/issues/65525) (Closed, `Bug`, **andrewbranch**, **Copilot**)
 
 **Missing content\-mapper fallbacks cause internal LSP errors**
 
@@ -172,7 +172,7 @@
 
  * created by **auvred**
 
-### [Issue microsoft/TypeScript#65526](https://github.com/microsoft/TypeScript/issues/65526) (Open, `Bug`, `Domain: LS: Symbol Navigation`)
+### [Issue microsoft/TypeScript#65526](https://github.com/microsoft/TypeScript/issues/65526) (Open, `Bug`, `Domain: LS: Symbol Navigation`, **DanielRosenwasser**, **Copilot**)
 
 **Duplicate callsite ranges for a single method call in callHierarchy/outgoingCalls**
 

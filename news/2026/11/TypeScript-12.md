@@ -1,6 +1,6 @@
 # Report for 2026-11-12 (Thursday, November 12th, 2026)
 
-13 different users commented on 67 different issues.
+13 different users commented on 70 different issues.
 
 ## Recommended Actions
 
@@ -12,7 +12,7 @@
 
 ## Activity Summary
 
-### [Issue microsoft/TypeScript#64182](https://github.com/microsoft/TypeScript/issues/64182) (Open, `Domain: Content Mappers`, **andrewbranch**)
+### [Issue microsoft/TypeScript#64182](https://github.com/microsoft/TypeScript/issues/64182) (Open, `Suggestion`, `Domain: Content Mappers`, **andrewbranch**)
 
 **Allow content\-mappers to return declarations instead of source files**
 

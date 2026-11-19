@@ -1,6 +1,6 @@
 # Report for 2026-11-17 (Tuesday, November 17th, 2026)
 
-12 different users commented on 132 different issues.
+12 different users commented on 133 different issues.
 
 ## Recommended Actions
 
@@ -372,7 +372,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6959215523) **typescript-automation[bot]** reported that user tests comparing the baseline and PR with tsc passed successfully
  * [today](https://github.com/microsoft/TypeScript/pull/64900#issuecomment-6960122889) **typescript-automation[bot]** reported that testing the top 400 repositories with tsc showed no differences between the baseline and PR, with everything looking good
 
-### [Issue microsoft/TypeScript#64930](https://github.com/microsoft/TypeScript/issues/64930) (Open, `Bug`)
+### [Issue microsoft/TypeScript#64930](https://github.com/microsoft/TypeScript/issues/64930) (Open, `Bug`, **ahejlsberg**)
 
 **7\.1 regression: circular type alias accepts an assignment it should reject \(opposite of \#64891\)**
 
@@ -904,13 +904,4 @@
  * (3 days ago) **typescript-automation[bot]** added labels `For Backlog Bug`, `For Backlog Bug`
  * [3 days ago](https://github.com/microsoft/TypeScript/pull/65506#issuecomment-6884129559) **Lior-Altarescu** said "@microsoft-github-policy-service agree"
  * (today) **RyanCavanaugh** closed the issue
-
-### [Issue microsoft/TypeScript#65507](https://github.com/microsoft/TypeScript/issues/65507) (Open, `Bug`, `Domain: JSDoc`)
-
-**JSDoc \`\#\` link resolution behavior broke in TS 7**
-
-*TypeScript 7 incorrectly resolves both JSDoc {@link Foo.member} and {@link Foo#member} links to the static member instead of distinguishing static and instance properties.*
-
- * created by **Gerrit0**
- * (today) **RyanCavanaugh** added labels `Bug`, `Domain: JSDoc`, and set milestone to `Backlog`
 
