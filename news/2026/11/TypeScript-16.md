@@ -512,7 +512,7 @@
  * created by **jakebailey**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**, **RyanCavanaugh**
 
-### [PR microsoft/TypeScript#65545](https://github.com/microsoft/TypeScript/pull/65545) (Open, `Author: Team`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65545](https://github.com/microsoft/TypeScript/pull/65545) (Closed, `Author: Team`, `For Uncommitted Bug`)
 
 **Update localization files**
 

@@ -90,7 +90,7 @@
 
  * created by **ubugeeei**
 
-### [PR microsoft/TypeScript#65517](https://github.com/microsoft/TypeScript/pull/65517) (Open, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65517](https://github.com/microsoft/TypeScript/pull/65517) (Open, `For Milestone Bug`, **andrewbranch**)
 
 **feat\(content\-mapper\): add diagnostic\-code selectors**
 

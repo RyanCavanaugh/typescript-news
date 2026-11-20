@@ -886,7 +886,7 @@
  * created by **SalvatorePreviti**
  * (today) **RyanCavanaugh** added labels `Bug`, `Domain: API`, and set milestone to `Backlog`
 
-### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open, `Bug`, `Domain: LS: TSServer`)
+### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open, `Bug`, `Domain: LS: TSServer`, **DanielRosenwasser**, **Copilot**)
 
 **\`workspace/willRenameFiles\` panics with "changes overlap" when the renamed file is loaded by \`import\(\)\` with a \`\.ts\` specifier**
 

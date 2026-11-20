@@ -389,7 +389,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65493](https://github.com/microsoft/TypeScript/pull/65493) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65493](https://github.com/microsoft/TypeScript/pull/65493) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Convert patterns in object rest bindings to assignment targets**
 
@@ -440,7 +440,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65497#issuecomment-6873023136) **jakebailey** said "It turns out we need a similar mechanism for another goofy type printing thing; will come up with some combined PR instead."
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65498](https://github.com/microsoft/TypeScript/pull/65498) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65498](https://github.com/microsoft/TypeScript/pull/65498) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Fix CommonJS declaration emit crashes**
 
@@ -505,7 +505,7 @@
  * [later](https://github.com/microsoft/TypeScript/pull/65504#issuecomment-6876462956) **typescript-automation[bot]** said "This PR doesn't have any linked issues. Please open an issue that references this PR. From there we can discuss and prioritise."
  * (later) **typescript-automation[bot]** added label `For Backlog Bug`, and removed label `For Uncommitted Bug`
 
-### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open, `Bug`, `Domain: LS: TSServer`)
+### [Issue microsoft/TypeScript#65505](https://github.com/microsoft/TypeScript/issues/65505) (Open, `Bug`, `Domain: LS: TSServer`, **DanielRosenwasser**, **Copilot**)
 
 **\`workspace/willRenameFiles\` panics with "changes overlap" when the renamed file is loaded by \`import\(\)\` with a \`\.ts\` specifier**
 

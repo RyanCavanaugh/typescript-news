@@ -1,6 +1,6 @@
 # Report for 2026-11-18 (Wednesday, November 18th, 2026)
 
-17 different users commented on 89 different issues.
+17 different users commented on 90 different issues.
 
 ## Recommended Actions
 
@@ -171,11 +171,11 @@
  * [2 weeks ago](https://github.com/microsoft/TypeScript/pull/65041#issuecomment-6510939371) **typescript-automation[bot]** reported the requested performance run results and included a baseline-versus-PR comparison report
  * (today) **jakebailey** closed the issue
 
-### [PR microsoft/TypeScript#65043](https://github.com/microsoft/TypeScript/pull/65043) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65043](https://github.com/microsoft/TypeScript/pull/65043) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Speed up property and index signature lookups**
 
-*Improve the performance of property and index signature lookups.*
+*Optimize property and index signature lookups to improve TypeScript performance.*
 
  * **jakebailey** added label `Domain: Performance`
  * [2 weeks ago](https://github.com/microsoft/TypeScript/pull/65043#issuecomment-6511137405) **typescript-automation[bot]** reported the requested performance results comparing the baseline and pull request, including compiler metrics and statistical deltas
@@ -220,7 +220,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65286#issuecomment-6991687631) **weswigham** said "@typescript-bot test this"
  * [today](https://github.com/microsoft/TypeScript/pull/65286#issuecomment-6991689459) **typescript-automation[bot]** said "Hey @weswigham, this PR is in an unmergable state, so is missing a merge commit to run against; please resolve conflicts and try again."
 
-### [PR microsoft/TypeScript#65291](https://github.com/microsoft/TypeScript/pull/65291) (Open, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
+### [PR microsoft/TypeScript#65291](https://github.com/microsoft/TypeScript/pull/65291) (Closed, `Author: Team`, `For Uncommitted Bug`, **jakebailey**)
 
 **Add order dependence tests**
 
@@ -550,7 +550,7 @@
  * **RyanCavanaugh** added label `Not a Defect`
  * [today](https://github.com/microsoft/TypeScript/issues/65559#issuecomment-6984291729) **RyanCavanaugh** clarified that the proposed fix still allowed a one-node change to move a file and alter subsequent assignments, so no invariant could be maintained
 
-### [Issue microsoft/TypeScript#65560](https://github.com/microsoft/TypeScript/issues/65560) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
+### [Issue microsoft/TypeScript#65560](https://github.com/microsoft/TypeScript/issues/65560) (Closed, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Aliased \`Partial\<{ … }\>\` is duplicated when instantiated again: quadratic inference, spurious TS2859, repeated union members**
 
@@ -569,7 +569,7 @@
  * **typescript-automation[bot]** added label `For Backlog Bug`
  * (today) **RyanCavanaugh** closed the issue
 
-### [PR microsoft/TypeScript#65562](https://github.com/microsoft/TypeScript/pull/65562) (Open, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
+### [PR microsoft/TypeScript#65562](https://github.com/microsoft/TypeScript/pull/65562) (Closed, `Domain: Performance`, `Author: Team`, `For Uncommitted Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Cache homomorphic mapped type constituent instantiations under their re\-instantiation key**
 
@@ -610,7 +610,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65564#issuecomment-6989010310) **andrewbranch** explained that the current checker architecture could not support concurrent requests because checkers were not concurrency-safe and lazily owned interconnected types and symbols requiring all snapshot requests to use the same checker
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#65565](https://github.com/microsoft/TypeScript/pull/65565) (Open, `Author: Team`, `For Uncommitted Bug`, **gabritto**)
+### [PR microsoft/TypeScript#65565](https://github.com/microsoft/TypeScript/pull/65565) (Closed, `Author: Team`, `For Uncommitted Bug`, **gabritto**)
 
 **Generate content mapper types from json schema**
 
@@ -660,7 +660,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * (today) **jakebailey** closed the issue
 
-### [Issue microsoft/TypeScript#65570](https://github.com/microsoft/TypeScript/issues/65570) (Open)
+### [Issue microsoft/TypeScript#65570](https://github.com/microsoft/TypeScript/issues/65570) (Open, `Bug`, **RyanCavanaugh**, **Copilot**)
 
 **Declaration emit writes an alias's own type parameter \(\`Labeled\<Label\>\`\) instead of the type argument when the parameter is unused**
 
@@ -668,7 +668,7 @@
 
  * created by **ktfth**
 
-### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Open)
+### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Open, `Not a Defect`)
 
 **Declaration emit drops the normalized optional properties of a union of object literals \(\`retries?: undefined\`\)**
 
@@ -695,7 +695,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Open)
+### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Open, `Not a Defect`, **ahejlsberg**)
 
 **7\.1 regression: type argument inferred from a union of callback types \(\`R\` \| \`Promise\<R \| void\>\`\) falls back to its constraint**
 
