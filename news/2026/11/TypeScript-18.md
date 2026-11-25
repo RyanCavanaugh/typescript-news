@@ -1,6 +1,6 @@
 # Report for 2026-11-18 (Wednesday, November 18th, 2026)
 
-17 different users commented on 90 different issues.
+17 different users commented on 92 different issues.
 
 ## Recommended Actions
 
@@ -139,7 +139,7 @@
  * (1 month ago) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#64930](https://github.com/microsoft/TypeScript/issues/64930) (Open, `Bug`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#64930](https://github.com/microsoft/TypeScript/issues/64930) (Open, `Bug`, `Domain: check: Order Dependence`, **ahejlsberg**)
 
 **7\.1 regression: circular type alias accepts an assignment it should reject \(opposite of \#64891\)**
 
@@ -199,7 +199,7 @@
 
 **\[experiment\] fully order independent type checking**
 
-*Proposes making type checking fully order-independent, with randomized ordering tests and extensive fixes for cache, traversal, and identifier-dependent behavior.*
+*Overhauls type checking to produce consistent behavior regardless of traversal, file, cache, or cycle-processing order, with extensive randomized ordering tests.*
 
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6934396913) **typescript-automation[bot]** reported new TypeScript errors found when comparing user test results between the baseline and pull request, and asked Jake Bailey to investigate
  * [2 days ago](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6935291785) **typescript-automation[bot]** said "@jakebailey, the perf run you requested failed. You can check the log here."
@@ -210,7 +210,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6993569229) **typescript-automation[bot]** reported new TypeScript TS7023 errors in Effect's SchemaAST.ts from the baseline-versus-PR user-test comparison and requested investigation
  * [today](https://github.com/microsoft/TypeScript/pull/65064#issuecomment-6993846052) **typescript-automation[bot]** provided the requested performance results, showing increased symbols and memory usage in the Compiler-Unions benchmark
 
-### [PR microsoft/TypeScript#65286](https://github.com/microsoft/TypeScript/pull/65286) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#65286](https://github.com/microsoft/TypeScript/pull/65286) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types: Remove the concept of control\-flow made "fresh" negations**
 
@@ -229,7 +229,7 @@
  * (2 weeks ago) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **jakebailey**
  * [today](https://github.com/microsoft/TypeScript/pull/65291#issuecomment-6993015348) **jakebailey** said "Okay, I think now this is ready to go in."
 
-### [PR microsoft/TypeScript#65296](https://github.com/microsoft/TypeScript/pull/65296) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#65296](https://github.com/microsoft/TypeScript/pull/65296) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types: Consider assertions invertible and create negated narrowings in false branches of assertion narrowings**
 
@@ -239,7 +239,7 @@
  * [today](https://github.com/microsoft/TypeScript/pull/65296#issuecomment-6991685752) **weswigham** said "@typescript-bot test this"
  * [today](https://github.com/microsoft/TypeScript/pull/65296#issuecomment-6991687540) **typescript-automation[bot]** said "Hey @weswigham, this PR is in an unmergable state, so is missing a merge commit to run against; please resolve conflicts and try again."
 
-### [PR microsoft/TypeScript#65298](https://github.com/microsoft/TypeScript/pull/65298) (Open, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
+### [PR microsoft/TypeScript#65298](https://github.com/microsoft/TypeScript/pull/65298) (Closed, `Author: Team`, `For Uncommitted Bug`, **weswigham**)
 
 **Negated Types: Remove the \`TypeFacts\` abstraction and make type refinements directly**
 
@@ -529,7 +529,7 @@
  * (yesterday) **typescript-automation[bot]** added labels `For Milestone Bug`, `For Uncommitted Bug`, and removed label `For Milestone Bug`
  * (today) **andrewbranch** closed the issue
 
-### [Issue microsoft/TypeScript#65558](https://github.com/microsoft/TypeScript/issues/65558) (Open, `Working as Intended`)
+### [Issue microsoft/TypeScript#65558](https://github.com/microsoft/TypeScript/issues/65558) (Closed, `Working as Intended`)
 
 **TS7 JSDoc \`@overload\` is ignored on \`const\` arrow function \(works in 6\.0\.2, not in 7\.0\.2\)**
 
@@ -540,7 +540,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65558#issuecomment-6984746122) **RyanCavanaugh** said "https://github.com/microsoft/TypeScript/blob/e086ad3b8205668290a81baed890c536047003db/tsc/CHANGES.md?plain=1#L325"
  * **RyanCavanaugh** added label `Working as Intended`
 
-### [Issue microsoft/TypeScript#65559](https://github.com/microsoft/TypeScript/issues/65559) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#65559](https://github.com/microsoft/TypeScript/issues/65559) (Closed, `Not a Defect`)
 
 **Fix: small edits reshuffle the \`\-\-checkers\` partition**
 
@@ -668,7 +668,7 @@
 
  * created by **ktfth**
 
-### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Closed, `Not a Defect`)
 
 **Declaration emit drops the normalized optional properties of a union of object literals \(\`retries?: undefined\`\)**
 
@@ -686,7 +686,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Milestone Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#65573](https://github.com/microsoft/TypeScript/pull/65573) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65573](https://github.com/microsoft/TypeScript/pull/65573) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **Filter out more diagnostics from content mapper synthesized code**
 
@@ -695,7 +695,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Open, `Not a Defect`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Closed, `Not a Defect`, **ahejlsberg**)
 
 **7\.1 regression: type argument inferred from a union of callback types \(\`R\` \| \`Promise\<R \| void\>\`\) falls back to its constraint**
 

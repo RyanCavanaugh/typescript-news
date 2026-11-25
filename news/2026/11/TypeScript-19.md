@@ -1,19 +1,8 @@
 # Report for 2026-11-19 (Thursday, November 19th, 2026)
 
-15 different users commented on 56 different issues.
+14 different users commented on 56 different issues.
 
 ## Activity Summary
-
-### [Issue microsoft/TypeScript#63703](https://github.com/microsoft/TypeScript/issues/63703) (Open, `Planning`)
-
-**TypeScript 7\.1 Iteration Plan**
-
-*The TypeScript 7.1 iteration plan outlines release milestones and planned compiler, editor, library, API, and performance improvements.*
-
- * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6285163659) **erlichmen** asked when the TypeScript 7.1.0 beta would be published and whether users should build it from the `release-7.1` branch
- * [1 month ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6297602298) **DanielRosenwasser** announced that the beta was published, the blog post was available, and the v7.1-beta tag had been created
- * [2 days ago](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-6949297487) **sosoba** asked whether the 7.1 RC and stable release plan would be updated
- * [later](https://github.com/microsoft/TypeScript/issues/63703#issuecomment-7039572269) **cborje** mentioned that a Claude Code agent had started investigating the issue
 
 ### [Issue microsoft/TypeScript#64429](https://github.com/microsoft/TypeScript/issues/64429) (Closed, `API Request`, **andrewbranch**)
 
@@ -161,7 +150,7 @@
  * (2 days ago) **RyanCavanaugh** added label `Needs Investigation`, and assigned to **andrewbranch**
  * **andrewbranch** added to milestone `TypeScript 7.1.1 RC`
 
-### [PR microsoft/TypeScript#65517](https://github.com/microsoft/TypeScript/pull/65517) (Open, `For Milestone Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65517](https://github.com/microsoft/TypeScript/pull/65517) (Closed, `For Milestone Bug`, **andrewbranch**)
 
 **feat\(content\-mapper\): add diagnostic\-code selectors**
 
@@ -221,7 +210,7 @@
  * created by **ktfth**
  * (today) **RyanCavanaugh** added label `Bug`, set milestone to `Backlog`, and assigned to **Copilot**, **RyanCavanaugh**
 
-### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Open, `Not a Defect`)
+### [Issue microsoft/TypeScript#65571](https://github.com/microsoft/TypeScript/issues/65571) (Closed, `Not a Defect`)
 
 **Declaration emit drops the normalized optional properties of a union of object literals \(\`retries?: undefined\`\)**
 
@@ -231,7 +220,7 @@
  * [today](https://github.com/microsoft/TypeScript/issues/65571#issuecomment-7016512843) **RyanCavanaugh** explained that emitted declaration files do not always preserve source types because type syntax cannot represent certain differences between widened and unwidened object literal unions
  * **RyanCavanaugh** added label `Not a Defect`
 
-### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Open, `Not a Defect`, **ahejlsberg**)
+### [Issue microsoft/TypeScript#65574](https://github.com/microsoft/TypeScript/issues/65574) (Closed, `Not a Defect`, **ahejlsberg**)
 
 **7\.1 regression: type argument inferred from a union of callback types \(\`R\` \| \`Promise\<R \| void\>\`\) falls back to its constraint**
 
@@ -349,7 +338,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#65586](https://github.com/microsoft/TypeScript/pull/65586) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65586](https://github.com/microsoft/TypeScript/pull/65586) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] AST utility APIs**
 
@@ -388,7 +377,7 @@
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
  * (today) **andrewbranch** closed the issue
 
-### [PR microsoft/TypeScript#65590](https://github.com/microsoft/TypeScript/pull/65590) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65590](https://github.com/microsoft/TypeScript/pull/65590) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] AST predicate APIs**
 
@@ -397,7 +386,7 @@
  * created by **andrewbranch**
  * (today) **typescript-automation[bot]** added labels `Author: Team`, `For Uncommitted Bug`, and assigned to **andrewbranch**
 
-### [PR microsoft/TypeScript#65591](https://github.com/microsoft/TypeScript/pull/65591) (Open, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
+### [PR microsoft/TypeScript#65591](https://github.com/microsoft/TypeScript/pull/65591) (Closed, `Author: Team`, `For Uncommitted Bug`, **andrewbranch**)
 
 **\[api\] Resolution utility APIs**
 
@@ -457,7 +446,7 @@
 
  * created by **ktfth**
 
-### [Issue microsoft/TypeScript#65597](https://github.com/microsoft/TypeScript/issues/65597) (Open)
+### [Issue microsoft/TypeScript#65597](https://github.com/microsoft/TypeScript/issues/65597) (Open, **RyanCavanaugh**, **Copilot**)
 
 **Downlevel optional chaining loses \`this\` for parenthesized callees with \`\!\`, \`as\` or type arguments, and for parenthesized template tags**
 
@@ -465,7 +454,7 @@
 
  * created by **zloirock**
 
-### [Issue microsoft/TypeScript#65598](https://github.com/microsoft/TypeScript/issues/65598) (Open, `Bug`)
+### [Issue microsoft/TypeScript#65598](https://github.com/microsoft/TypeScript/issues/65598) (Closed, `Bug`)
 
 **Calls through \`\#private\` members lose \`this\` below ES2022 when the callee is parenthesized or has \`\!\`, \`as\` or \`satisfies\`**
 
@@ -473,7 +462,7 @@
 
  * created by **zloirock**
 
-### [PR microsoft/TypeScript#65599](https://github.com/microsoft/TypeScript/pull/65599) (Open, `Author: Team`, `For Uncommitted Bug`)
+### [PR microsoft/TypeScript#65599](https://github.com/microsoft/TypeScript/pull/65599) (Closed, `Author: Team`, `For Uncommitted Bug`)
 
 **Update localization files**
 
@@ -498,7 +487,7 @@
 
  * created by **elevatebart**
 
-### [PR microsoft/TypeScript#65602](https://github.com/microsoft/TypeScript/pull/65602) (Open, `For Milestone Bug`)
+### [PR microsoft/TypeScript#65602](https://github.com/microsoft/TypeScript/pull/65602) (Closed, `For Milestone Bug`)
 
 **fix\(65598\): preserve this binding in wrapped private member calls**
 
